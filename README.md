@@ -42,7 +42,7 @@
   },
 ```
 - Do not translate inserted objects like this one {game}. You can change its order but do not touch the object itself. Example:
-```json
+```
   'ShowAnswers': {
     languageEn: 'Show {number} {answers}',
     languageRu: 'Показать {number} {answers}',
@@ -54,7 +54,7 @@
 - If you see blocks similrar to this one `<style=lighten>` then the following word must go without spaces between the style markup identifier and the word. Example: `<style=lighten>game`
 - If you are not sure what the phrase meen then try looking onto the phrases above/beneath it to follow it's context. You can also try looking for the phrase inside the app/installer to check where it's used.
 - If you see many `\n` symbols inside the translation phrase than its probably used inside the tooltip and you should arrange these symbols so that each line corresponds to the previous one in its in length. Example of usage:
-```json
+```
 'OpticalDescription': {
     languageEn:
         "Optical modifications are designed to help\nyou to enjoy the game's beauty by changing\nit's visual component(models of items, players,\nthe surrounding world, etc.).",
