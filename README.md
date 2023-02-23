@@ -73,6 +73,6 @@
 - If you see words wrapped with «» then wrap the translated analogues with exectly the same quotation marks.
 - Do not remove 🙁, ❎, 🖱, ... symbols from you translation analogues.
 - Please, do not try to use any translators(google, yandex, prompt, bing, etc.) to translate the app. It will look funny for native speakers who will see such translation in the app.
-- You can use the issues tab for reporting about mistakes in current translation or create a pull request with fixed and descriptions if you want!
+- You can use the issues tab for reporting about mistakes in current translation or create a pull request with fixes and descriptions if you want!
 
 [![issues](https://img.shields.io/github/issues/pandao/editor.md.svg "issues")](https://github.com/kirill-21/Translation/issues "issues")
