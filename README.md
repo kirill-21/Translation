@@ -4,7 +4,7 @@
 - User should be addressed informally (like **Du** in Deutch, like **Ти** in Ukrainian,  like **Ты** in Russian, ...).
 - Its better to adjust the translation length to approximately match the translation line on other languages.
 - Keep plurals and nouns as they are, and do not incldude articles like **the, ein, eine, etc.**, unless they are included to the english translation! Example: 
-```json
+```
  'OneMinute': {
     languageEn: 'minute', -> one minute left until download process is ended 
     languageRu: 'минута', -> до конца загрузки осталась одна минута
