@@ -1,7 +1,7 @@
 import 'app_locale.dart';
 
 /// A map with translations for all elements.
-const Map<String, Map<String, String>> elements = {
+const Map<String, Map<String, String>> localeItems = {
   'AllInOne': {
     languageEn: 'All game modifications in a single ExLoader library',
     languageRu: 'Теперь все игровые модификации в единой библиотеке ExLoader',
@@ -713,14 +713,14 @@ const Map<String, Map<String, String>> elements = {
     languageRu: 'на комментарии к модификациям',
     languageUa: 'на коментарі до модифікацій',
     languagePl: 'na komentarze do modyfikacji',
-    languageDe: "über Kommentare zu Modifikationen"
+    languageDe: "über Kommentare"
   },
   'ConfigsComplaints': {
     languageEn: 'about configs for modifications',
     languageRu: 'на конфиги к модификациям',
     languageUa: 'на конфіги до модифікацій',
     languagePl: 'na konfiguracje do modyfikacji',
-    languageDe: "über Konfigurationen zu Modifikationen"
+    languageDe: "über Konfigurationen"
   },
   'Modifications': {
     languageEn: 'Modifications',
@@ -2829,15 +2829,15 @@ const Map<String, Map<String, String>> elements = {
   },
   'ExLoaderErasingProcessIsStarted': {
     languageEn:
-        "The process of self-destruction of ExLoader and modifications from the library is started, wait...",
+        "The process of self-destruction of ExLoader and modifications from the library is started and it might take a few minutes, wait...",
     languageRu:
-        'Процесс самоуничтожения ExLoader и модификаций из библиотеки запущен, ожидай...',
+        'Процесс самоуничтожения ExLoader и модификаций из библиотеки запущен и он занять несколько минут, ожидай...',
     languageUa:
-        "Процес самознищення ExLoader і модифікацій з бібліотеки запущен, очікуй...",
+        "Процес самознищення ExLoader і модифікацій з бібліотеки запущен і він зайняти кілька хвилин, очікуй...",
     languagePl:
-        'Rozpoczął się proces samozniszczenia ExLoadera i modyfikacji z biblioteki, proszę czekać...',
+        'Rozpoczął się proces samozniszczenia ExLoadera i modyfikacji z biblioteki i trwa kilka minut, proszę czekać...',
     languageDe:
-        "Der Selbstzerstörungsprozess von ExLoader und Modifikationen aus der Bibliothek hat begonnen, bitte warten..."
+        "Der Prozess der Selbstzerstörung von ExLoader und Änderungen aus der Bibliothek wurde gestartet und dauert einige Minuten, bitte warten..."
   },
   'EraseDescription': {
     languageEn:
@@ -5062,6 +5062,13 @@ const Map<String, Map<String, String>> elements = {
     languagePl: 'Modyfikacja jest uruchomiana',
     languageDe: "Die Midifikation wird gestartet"
   },
+  'PrepeareForInstallation': {
+    languageEn: "Prepearing for modification's installation",
+    languageRu: 'Подготовка к установке модификации',
+    languageUa: 'Модифікація запускається',
+    languagePl: 'Modyfikacja jest uruchomiana',
+    languageDe: "Die Midifikation wird gestartet"
+  },
   'WaitForDownloadingToComplete': {
     languageEn:
         "Unfortunately, you cannot cancel the launch of the modification while its files are being downloaded. Wait for the modification's installation process to complete and try again!",
@@ -7037,7 +7044,7 @@ const Map<String, Map<String, String>> elements = {
     languagePl: 'Otwórz ExLoader',
     languageDe: "ExLoader öffnen"
   },
-  'OpenExloadendOffers': {
+  'OpenExLoaderAndOffers': {
     languageEn: 'Continue and open the ExLoader',
     languageRu: 'Продолжить и открыть ExLoader',
     languageUa: 'Продовжити і відкрити ExLoader',
