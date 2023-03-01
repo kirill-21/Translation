@@ -1673,7 +1673,7 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl:
         'Funkcja wyłączenia modułu VAC jest już aktywna! Aby dezaktywować, uruchom ponownie proces Steam',
     languageDe:
-        "Das VAC-Modul ist bereits deaktiviert! Starten Sie den Stim-Prozess neu, um ihn zu deaktivieren"
+        "Das VAC-Modul ist bereits deaktiviert! Starten Sie den Steam-Prozess neu, um ihn zu deaktivieren"
   },
   'FailedToReplaceVACModule': {
     languageEn:
@@ -1903,7 +1903,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: "bonus {days}",
     languageRu: '{days} в подарок',
     languageUa: "{days} в подарунок",
-    languagePl: '{dni} w prezencie',
+    languagePl: '{days} w prezencie',
     languageDe: "bonus {days}"
   },
   'PreLaunchCheck': {
@@ -2831,13 +2831,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         "The process of self-destruction of ExLoader and modifications from the library is started and it might take a few minutes, wait...",
     languageRu:
-        'Процесс самоуничтожения ExLoader и модификаций из библиотеки запущен и он занять несколько минут, ожидай...',
+        'Процесс самоуничтожения ExLoader и модификаций из библиотеки запущен и он может занять несколько минут, ожидай...',
     languageUa:
-        "Процес самознищення ExLoader і модифікацій з бібліотеки запущен і він зайняти кілька хвилин, очікуй...",
+        "Процес самознищення ExLoader і модифікацій з бібліотеки запущен і він може зайняти кілька хвилин, очікуй...",
     languagePl:
-        'Rozpoczął się proces samozniszczenia ExLoadera i modyfikacji z biblioteki i trwa kilka minut, proszę czekać...',
+        'Rozpoczął się proces samozniszczenia ExLoadera i modyfikacji z biblioteki i może potrwać kilka minut, proszę czekać...',
     languageDe:
-        "Der Prozess der Selbstzerstörung von ExLoader und Änderungen aus der Bibliothek wurde gestartet und dauert einige Minuten, bitte warten..."
+        "Der Prozess der Selbstzerstörung von ExLoader und Änderungen aus der Bibliothek wurde gestartet und es kann einige Minuten dauern, bitte warten..."
   },
   'EraseDescription': {
     languageEn:
