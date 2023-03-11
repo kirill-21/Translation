@@ -751,11 +751,11 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Konfigurationen"
   },
   'ConfigsDescription': {
-    languageEn: "Handle сonfiguration's complaints",
-    languageRu: 'Обработка жалоб на конфигурации',
-    languageUa: 'Обробка скарг на конфігурації модифікацій',
-    languagePl: 'Obsługa reklamacji konfiguracje',
-    languageDe: "Umgang mit Konfigurationsproblemen"
+    languageEn: "Handle сonfiguration's and LUA complaints",
+    languageRu: 'Обработка жалоб на конфигурации и ЛУА',
+    languageUa: 'Обробка скарг на конфігурації модифікацій та ЛУА',
+    languagePl: 'Obsługa reklamacji konfiguracje i LUA',
+    languageDe: "Umgang mit Konfigurationsproblemen und LUA"
   },
   'Comments': {
     languageEn: 'Comments',
@@ -1484,15 +1484,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'NotificationsAboutComplaintsDescription': {
     languageEn:
-        "The result of reviewing of your complaints about configurations or comments will be sent to your notifications",
+        "The result of reviewing of your complaints about configurations, LUA or comments will be sent to your notifications",
     languageRu:
-        'Результат проверки твоих жалоб на конфигурации или же комментарии будет отправлен тебе в уведомления',
+        'Результат проверки твоих жалоб на конфигурации, ЛУА или же комментарии будет отправлен тебе в уведомления',
     languageUa:
-        'Результат перевірки твоїх скарг на конфігурації або ж коментарі буде відправлен тобі в повідомлення',
+        'Результат перевірки твоїх скарг на конфігурації, ЛУА або ж коментарі буде відправлен тобі в повідомлення',
     languagePl:
-        'Wynik weryfikacji twoich skarg dotyczących konfiguracji lub komentarzy zostanie wysłany do Ciebie w powiadomieniach',
+        'Wynik weryfikacji twoich skarg dotyczących konfiguracji, LUA lub komentarzy zostanie wysłany do Ciebie w powiadomieniach',
     languageDe:
-        "Das Ergebnis der Überprüfung Ihrer Konfigurationsbeschwerden oder -kommentare wird Ihnen in einer Nachricht zugesandt"
+        "Das Ergebnis der Überprüfung Ihrer Konfigurationsbeschwerden, LUA oder kommentare wird Ihnen in einer Nachricht zugesandt"
   },
   'NotificationsAboutAnswers': {
     languageEn: "Receive notifications about responses",
@@ -1969,6 +1969,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Шукаємо встановлену Java',
     languagePl: 'Szukanie zainstalowanej Javy',
     languageDe: "Wir suchen nach installiertem Java"
+  },
+  'CheatEngineCheck': {
+    languageEn: 'Looking for an installed CheatEngine',
+    languageRu: 'Ищем установленный CheatEngine',
+    languageUa: 'Шукаємо встановлений CheatEngine',
+    languagePl: 'Szukam zainstalowanego CheatEngine',
+    languageDe: "Wir suchen nach installiertem CheatEngine"
   },
   'PythonCheck': {
     languageEn: 'Looking for an installed Python',
@@ -2829,15 +2836,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ExLoaderErasingProcessIsStarted': {
     languageEn:
-        "The process of self-destruction of ExLoader and modifications from the library is started and it might take a few minutes, wait...",
+        "The process of self-destruction of ExLoader and modifications from the library is started. Since the app removes traces from dozens of registry keys and folders, this process might take a few minutes, wait...",
     languageRu:
-        'Процесс самоуничтожения ExLoader и модификаций из библиотеки запущен и он может занять несколько минут, ожидай...',
+        'Процесс самоуничтожения ExLoader и модификаций из библиотеки запущен. Так как приложение удаляет следы из десятков разделов реестра и папок, этот процесс может занять несколько минут, ожидай...',
     languageUa:
-        "Процес самознищення ExLoader і модифікацій з бібліотеки запущен і він може зайняти кілька хвилин, очікуй...",
+        "Процес самознищення ExLoader і модифікацій з бібліотеки запущен. Оскільки програма видаляє сліди з десятків ключів реєстру та папок, цей процес може зайняти кілька хвилин, очікуй...",
     languagePl:
-        'Rozpoczął się proces samozniszczenia ExLoadera i modyfikacji z biblioteki i może potrwać kilka minut, proszę czekać...',
+        'Rozpoczął się proces samozniszczenia ExLoadera i modyfikacji z biblioteki. Ponieważ aplikacja usuwa ślady z dziesiątek kluczy rejestru i folderów, proces ten może potrwać kilka minut, proszę czekać...',
     languageDe:
-        "Der Prozess der Selbstzerstörung von ExLoader und Änderungen aus der Bibliothek wurde gestartet und es kann einige Minuten dauern, bitte warten..."
+        "Der Prozess der Selbstzerstörung von ExLoader und Änderungen aus der Bibliothek wurde gestartet. Da die Anwendung Spuren aus Dutzenden von Registrierungsschlüsseln und Ordnern entfernt, kann dieser Vorgang einige Minuten dauern, bitte warten..."
   },
   'EraseDescription': {
     languageEn:
@@ -3815,13 +3822,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         "Please, come up with a more informative name or description that will be useful to other users, hardly anyone is interested in reading spam!",
     languageRu:
-        'Придумай более информативное название или же описание для конфигурации, которое будет полезно другим пользователям приложения. Вряд ли кому-то интересно читать спам!',
+        'Придумай более информативное название или же описание для конфигурации или же ЛУА, которое будет полезно другим пользователям приложения. Вряд ли кому-то интересно читать спам!',
     languageUa:
-        "Придумай більш інформативну назву або ж опис для конфігурації, які будуть корисними іншим користувачам програми. Навряд чи комусь цікаво читати спам!",
+        "Придумай більш інформативну назву або ж опис для конфігурації або ж ЛУА, які будуть корисними іншим користувачам програми. Навряд чи комусь цікаво читати спам!",
     languagePl:
-        'Wymyśl bardziej informacyjną nazwę lub opis konfiguracji, który będzie przydatny dla innych użytkowników programu. Mało kto jest zainteresowany czytaniem spamu!',
+        'Wymyśl bardziej informacyjną nazwę lub opis konfiguracji lub LUA, który będzie przydatny dla innych użytkowników programu. Mało kto jest zainteresowany czytaniem spamu!',
     languageDe:
-        "Überlegen Sie sich einen aussagekräftigeren Namen oder eine Beschreibung für die Konfiguration, die für andere Benutzer des Programms nützlich sein wird. Kaum jemand interessiert sich für das Lesen von Spam!"
+        "Überlegen Sie sich einen aussagekräftigeren Namen oder eine Beschreibung für die Konfiguration oder LUA, die für andere Benutzer des Programms nützlich sein wird. Kaum jemand interessiert sich für das Lesen von Spam!"
   },
   'NoSpamPleaseAnswer': {
     languageEn:
@@ -4698,6 +4705,18 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "Leider konnten wir Java-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun!"
   },
+  'FailedToInstallCheatEngine': {
+    languageEn:
+        'Unfortunately, we were unable to install CheatEngine in an automatic mode, however, you can try doing it by yourself with the help of the internet!',
+    languageRu:
+        'К сожалению, нам не удалось установить CheatEngine в автоматическом режиме, однако, ты можешь попробовать сделать это вручную с помощью любого сайта в интернете!',
+    languageUa:
+        'На жаль, нам не вдалося встановити компоненти CheatEngine в автоматичному режимі, однак, ти можеш спробувати зробити це вручну за допомогою будь-якого сайту в інтернеті!',
+    languagePl:
+        'Niestety, nie udało nam się automatycznie zainstalować komponentów CheatEngine, jednak możesz spróbować zrobić to ręcznie, korzystając z dowolnej witryny w Internecie!',
+    languageDe:
+        "Leider konnten wir CheatEngine-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun!"
+  },
   'FailedToInstallMicrosoft': {
     languageEn:
         'Unfortunately, we were unable to install Microsoft components in an automatic mode, however, you can try doing it by yourself with the help of the internet!',
@@ -4782,6 +4801,18 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "Für den korrekten Betrieb der Modifikation muss Python Version 3.8+ auf Ihrem System installiert sein."
   },
+  'WhyYouNeedCheatEngine': {
+    languageEn:
+        'For the proper work of the modification the latest version of CheatEngine must be installed on your system! If advertising offers appear in the installer, just click on the «Decline» button.',
+    languageRu:
+        'Для корректной работы модификации на твоей системе должен быть установлен CheatEngine самой последней версии! В случае появления рекламных офферов в установщике просто нажми на кнопку «Decline».',
+    languageUa:
+        'Для коректної роботи модифікації на твоїй системі повинен бути встановлений CheatEngine самої останньої версії! У разі появи рекламних офферов в установнику просто натисни на кнопку «Decline».',
+    languagePl:
+        'Aby modyfikacja działała poprawnie, w Twoim systemie musi być zainstalowana najnowsza wersja CheatEngine! W przypadku pojawienia się ofert reklamowych w instalatorze wystarczy nacisnąć przycisk «Decline».',
+    languageDe:
+        "Für den korrekten Betrieb der Modifikation muss Python Version 3.8+ auf Ihrem System installiert sein."
+  },
   'Downloading': {
     languageEn: "Downloading",
     languageRu: 'Загрузка',
@@ -4837,11 +4868,11 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Standardtaste zum Öffnen des Menüs:"
   },
   'NoButtonNoMenu': {
-    languageEn: 'Without key-button and menu',
-    languageRu: 'Без клавиши и без меню',
-    languageUa: 'Без клавіші і без меню',
-    languagePl: 'Bez klawisza i bez menu',
-    languageDe: "Keine Taste und kein Menü"
+    languageEn: 'Without key-button and maybe without menu',
+    languageRu: 'Без клавиши и возможно без меню',
+    languageUa: 'Без клавіші і можливо без меню',
+    languagePl: 'Bez klawisza i ewentualnie bez menu',
+    languageDe: "Keine Taste und möglicherweise kein Menü"
   },
   'IHaveAProblem': {
     languageEn: 'I have a problem, please, help',
@@ -5018,6 +5049,18 @@ const Map<String, Map<String, String>> localeItems = {
         'Uruchomienie modyfikacji odbywa się za pomocą programu uruchamiającego Minecraft, w którym ta modyfikacja została zainstalowana.\n\nPO prostu otwórz Loader, wybierz nową wersję klienta, kliknij "Graj" i ciesz się rozgrywką!',
     languageDe:
         'Der Start der Modifikation erfolgt über deinen Minecraft-Launcher, in dem diese Modifikation installiert wurde.\n\n Öffne einfach den Loader, wähle eine neue Version des Kunden aus, klicke auf «Spielen» und genieße das Gameplay!'
+  },
+  'InstallAPK': {
+    languageEn:
+        'Now you can install the downloaded APK file on any emulator or your smartphone and start playing with a modified version of the game!',
+    languageRu:
+        'Теперь ты можешь установить загруженный APK файл на любой эмулятор или же свой смартфон и начать играть в модифицированную версию игры!',
+    languageUa:
+        'Тепер ти можеш встановити завантажений APK файл на будь-який емулятор або ж свій смартфон і почати грати в модифіковану версію гри!',
+    languagePl:
+        'Teraz możesz zainstalować pobrany plik APK na dowolnym emulator lub smartfon i zacznij grać w zmodyfikowaną wersję gry!',
+    languageDe:
+        'Jetzt kannst du die heruntergeladene APK-Datei auf jedem Emulator oder auf deinem Smartphone installieren und eine modifizierte Version des Spiels spielen!'
   },
   'NextLoader': {
     languageEn:
@@ -5338,15 +5381,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ConfigsCanBeBad': {
     languageEn:
-        "🥷🥷🥷 Please note that some configurations from this section may work poorly or might not work at all, since they are uploaded by other users of the application, not by modifications developers.",
+        "🥷🥷🥷 Please note that some configurations or LUA from this section may work poorly or might not work at all, since they are uploaded by other users of the application, not by modifications developers.",
     languageRu:
-        '🥷🥷🥷 Обрати внимание, некоторые конфигурации из данного раздела могут работать плохо или не работать вовсе, так как они загружаются другими пользователями приложения, а не разработчиками модификаций.',
+        '🥷🥷🥷 Обрати внимание, некоторые конфигурации или же ЛУА из данного раздела могут работать плохо или не работать вовсе, так как они загружаются другими пользователями приложения, а не разработчиками модификаций.',
     languageUa:
-        "🥷🥷🥷 Зверни увагу, деякі конфігурації з цього розділу можуть працювати погано або не працювати зовсім, так як вони завантажуються іншими користувачами програми, а не розробниками модифікацій.",
+        "🥷🥷🥷 Зверни увагу, деякі конфігурації або ж ЛУА з цього розділу можуть працювати погано або не працювати зовсім, так як вони завантажуються іншими користувачами програми, а не розробниками модифікацій.",
     languagePl:
-        '🥷🥷🥷 Należy pamiętać, że niektóre konfiguracje z tej sekcji mogą nie działać dobrze lub wcale, ponieważ są przesyłane przez innych użytkowników programu, a nie przez twórców modyfikacji.',
+        '🥷🥷🥷 Należy pamiętać, że niektóre konfiguracje lub LUA z tej sekcji mogą nie działać dobrze lub wcale, ponieważ są przesyłane przez innych użytkowników programu, a nie przez twórców modyfikacji.',
     languageDe:
-        "🥷🥷🥷 Bitte beachten Sie, dass einige Konfigurationen aus diesem Abschnitt möglicherweise nicht gut oder überhaupt nicht funktionieren, da sie von anderen Benutzern des Programms hochgeladen werden, nicht von Mod-Entwicklern."
+        "🥷🥷🥷 Bitte beachten Sie, dass einige Konfigurationen oder LUA aus diesem Abschnitt möglicherweise nicht gut oder überhaupt nicht funktionieren, da sie von anderen Benutzern des Programms hochgeladen werden, nicht von Mod-Entwicklern."
   },
   'SuccessfulConfigurationUpload': {
     languageEn:
@@ -5490,37 +5533,37 @@ const Map<String, Map<String, String>> localeItems = {
         "Reklamation gesendet! Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader 😀"
   },
   'AddConfiguration': {
-    languageEn: "Configuration's uploading form",
-    languageRu: 'Добавление конфигурации',
-    languageUa: "Додавання конфігурації",
-    languagePl: 'Dodawanie konfiguracji',
-    languageDe: "Hinzufügen einer Konfiguration"
+    languageEn: "Configuration's or LUA uploading form",
+    languageRu: 'Добавление конфигурации или же ЛУА',
+    languageUa: "Додавання конфігурації або ж ЛУА",
+    languagePl: 'Dodawanie konfiguracji lub LUA',
+    languageDe: "Hinzufügen einer Konfiguration oder LUA"
   },
   'EditConfiguration': {
-    languageEn: "Configuration's editing form",
-    languageRu: 'Редактирование конфигурации',
-    languageUa: "Редагування конфігурації",
-    languagePl: 'Edycja konfiguracji',
-    languageDe: "Bearbeiten der Konfiguration"
+    languageEn: "Configuration's or LUA editing form",
+    languageRu: 'Редактирование конфигурации или же ЛУА',
+    languageUa: "Редагування конфігурації або ж ЛУА",
+    languagePl: 'Edycja konfiguracji lub LUA',
+    languageDe: "Bearbeiten der Konfiguration oder LUA"
   },
   'AutoConfigurationDelete': {
     languageEn:
-        "Configurations are deleted automatically if no one installs them within 60 days.",
+        "Configurations and LUA are deleted automatically if no one installs them within 60 days.",
     languageRu:
-        'Конфигурации удаляются автоматически, если их никто не устанавливает в течение 60 дней.',
+        'Конфигурации и ЛУА удаляются автоматически, если их никто не устанавливает в течение 60 дней.',
     languageUa:
-        "Конфігурації видаляються автоматично, якщо їх ніхто не встановлює протягом 60 днів.",
+        "Конфігурації та ЛУА видаляються автоматично, якщо їх ніхто не встановлює протягом 60 днів.",
     languagePl:
-        'Konfiguracje są automatycznie usuwane, jeśli nikt nie zainstaluje ich przez 60 dni.',
+        'Konfiguracje i LUA są automatycznie usuwane, jeśli nikt nie zainstaluje ich przez 60 dni.',
     languageDe:
-        "Konfigurationen werden automatisch gelöscht, wenn sie innerhalb von 60 Tagen nicht installiert werden."
+        "Konfigurationen and LUA werden automatisch gelöscht, wenn sie innerhalb von 60 Tagen nicht installiert werden."
   },
   'ConfigFile': {
-    languageEn: "Configuration file",
-    languageRu: 'Файл конфигурации',
-    languageUa: "Файл конфигурации",
-    languagePl: 'Plik konfiguracyjny',
-    languageDe: "Die Konfigurationsdatei"
+    languageEn: "Configuration or LUA file",
+    languageRu: 'Файл конфигурации или же ЛУА',
+    languageUa: "Файл конфигурации або ж ЛУА",
+    languagePl: 'Plik konfiguracyjny lub LUA',
+    languageDe: "Die Konfigurations oder LUA datei"
   },
   'Change': {
     languageEn: "Change",
@@ -5530,91 +5573,93 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Ändern"
   },
   'RemoveFromServer': {
-    languageEn: "Delete the configuration from the server",
-    languageRu: 'Удалить конфигурацию с сервера',
-    languageUa: "Видалити конфігурацію з сервера",
-    languagePl: 'Usuń konfigurację z serwera',
-    languageDe: "Löschen Sie die Konfiguration vom Server"
+    languageEn: "Delete the configuration or LUA from the server",
+    languageRu: 'Удалить конфигурацию или же ЛУА с сервера',
+    languageUa: "Видалити конфігурацію або ж ЛУА з сервера",
+    languagePl: 'Usuń konfigurację lub LUA z serwera',
+    languageDe: "Löschen Sie die Konfiguration oder LUA vom Server"
   },
   'ConfigName': {
-    languageEn: "Configuration's name:",
-    languageRu: 'Название конфигурации:',
-    languageUa: "Назва конфігурації:",
-    languagePl: 'Nazwa konfiguracji:',
-    languageDe: "Konfigurationsname:"
+    languageEn: "Configuration's or LUA name:",
+    languageRu: 'Название конфигурации или же ЛУА:',
+    languageUa: "Назва конфігурації або ж ЛУА:",
+    languagePl: 'Nazwa konfiguracji lub LUA:',
+    languageDe: "Konfigurations oder LUA name:"
   },
   'ConfigDescription': {
-    languageEn: "Configuration's description:",
-    languageRu: 'Описание конфигурации:',
-    languageUa: "Опис конфігурації:",
-    languagePl: 'Opis konfiguracji:',
-    languageDe: "Konfigurationsbeschreibung:"
+    languageEn: "Configuration's or LUA description:",
+    languageRu: 'Описание конфигурации или же ЛУА:',
+    languageUa: "Опис конфігурації або ж ЛУА:",
+    languagePl: 'Opis konfiguracji lub LUA:',
+    languageDe: "Konfigurations oder LUA beschreibung:"
   },
   'ChooseConfigFile': {
-    languageEn: "Select the configuration's file",
-    languageRu: 'Выбери необходимый конфигурационный файл',
-    languageUa: "Вибери необхідний конфігураційний файл",
-    languagePl: 'Wybierz potrzebny plik konfiguracyjny',
-    languageDe: "Wählen Sie die erforderliche Konfigurationsdatei aus"
+    languageEn: "Select the configuration's or LUA's file",
+    languageRu: 'Выбери необходимый конфигурационный или ЛУА файл',
+    languageUa: "Вибери необхідний конфігураційний або ЛУА файл",
+    languagePl: 'Wybierz potrzebny plik konfiguracyjny lub LUA',
+    languageDe: "Wählen Sie die erforderliche Konfigurations oder LUA datei aus"
   },
   'ChooseAnotherFile': {
     languageEn:
-        "Unfortunately, we will not be able to upload this configuration to the server, choose another file!",
+        "Unfortunately, we will not be able to upload this configuration or LUA to the server, choose another file!",
     languageRu:
-        'К сожалению, нам не удасться загрузить данный конфиг на сервер, выбери другой файл!',
+        'К сожалению, нам не удасться загрузить данный конфиг или же ЛУА на сервер, выбери другой файл!',
     languageUa:
-        "На жаль, нам не вдасться завантажити даний конфіг на сервер, вибери інший файл!",
+        "На жаль, нам не вдасться завантажити даний конфіг або ж ЛУА на сервер, вибери інший файл!",
     languagePl:
-        'Niestety nie będziemy mogli przesłać tej konfiguracji na serwer, wybierz inny plik!',
+        'Niestety nie będziemy mogli przesłać tej konfiguracji lub LUA na serwer, wybierz inny plik!',
     languageDe:
-        "Leider können wir diese Konfiguration nicht auf den Server hochladen, bitte wählen Sie eine andere Datei!"
+        "Leider können wir diese Konfiguration oder LUA nicht auf den Server hochladen, bitte wählen Sie eine andere Datei!"
   },
   'SmallOrBigFile': {
     languageEn:
-        "File's size is too small or too big, try choosing another configuration!",
+        "File's size is too small or too big, try choosing another configuration or LUA!",
     languageRu:
-        'Вес файла слишком мал или же слишком велик, попробуй выбрать другую конфигурацию!',
+        'Вес файла слишком мал или же слишком велик, попробуй выбрать другую конфигурацию или же ЛУА!',
     languageUa:
-        "Вага файлу занадто мала або ж занадто велика, спробуй вибрати іншу конфігурацію!",
+        "Вага файлу занадто мала або ж занадто велика, спробуй вибрати іншу конфігурацію або ж ЛУА!",
     languagePl:
-        'Waga pliku jest za mała lub za duża, spróbuj wybrać inną konfigurację!',
+        'Waga pliku jest za mała lub za duża, spróbuj wybrać inną konfigurację lub LUA!',
     languageDe:
-        "Das Dateigewicht ist zu klein oder zu groß, versuchen Sie es mit einer anderen Konfiguration!"
+        "Das Dateigewicht ist zu klein oder zu groß, versuchen Sie es mit einer anderen Konfiguration oder LUA!"
   },
   'EnterSomething': {
     languageEn:
-        "First fill in both the name and description fields of the configuration!",
-    languageRu: 'Сперва заполни оба поля названия и описания конфигурации!',
-    languageUa: "Спершу заповни обидва поля назви і опису конфігурації!",
-    languagePl: 'Najpierw wypełnij pole nazwy i opisu konfiguracji!',
+        "First fill in both the name and description fields of the configuration or LUA!",
+    languageRu:
+        'Сперва заполни оба поля названия и описания конфигурации или же ЛУА!',
+    languageUa:
+        "Спершу заповни обидва поля назви і опису конфігурації або ж ЛУА!",
+    languagePl: 'Najpierw wypełnij pole nazwy i opisu konfiguracji lub LUA!',
     languageDe:
-        "Füllen Sie zuerst beide Felder des Namens und der Beschreibung der Konfiguration aus!"
+        "Füllen Sie zuerst beide Felder des Namens und der Beschreibung der Konfiguration oder LUA aus!"
   },
   'SelectFileFirst': {
     languageEn:
-        "It looks like you forgot to select the config file that should be uploaded to the server!",
+        "It looks like you forgot to select the config or LUA file that should be uploaded to the server!",
     languageRu:
-        'Похоже, что ты забыл выбрать файл конфига, который необходимо загрузить на сервер!',
+        'Похоже, что ты забыл выбрать файл конфига или же ЛУА, который необходимо загрузить на сервер!',
     languageUa:
-        "Схоже, що ти забув вибрати файл конфігурації, який потрібно завантажити на сервер!",
+        "Схоже, що ти забув вибрати файл конфігурації або ж ЛУА, який потрібно завантажити на сервер!",
     languagePl:
-        'Wygląda na to, że zapomniałeś wybrać pliku konfiguracyjnego do przesłania na serwer!',
+        'Wygląda na to, że zapomniałeś wybrać pliku konfiguracyjnego lub LUA do przesłania na serwer!',
     languageDe:
-        "Sieht so aus, als hätten Sie vergessen, die Konfigurationsdatei zum Hochladen auf den Server auszuwählen!"
+        "Sieht so aus, als hätten Sie vergessen, die Konfigurations oder LUA datei zum Hochladen auf den Server auszuwählen!"
   },
   'SavingConfig': {
-    languageEn: "Saving your configuration...",
-    languageRu: 'Сохраняем твою конфигурацию...',
-    languageUa: "Зберігаємо твою конфігурацію...",
-    languagePl: 'Zapisujemy Twoją konfigurację...',
-    languageDe: "Speichern Ihrer Konfiguration..."
+    languageEn: "Saving your configuration or LUA...",
+    languageRu: 'Сохраняем твою конфигурацию или же ЛУА...',
+    languageUa: "Зберігаємо твою конфігурацію або ж LUA...",
+    languagePl: 'Zapisujemy Twoją konfigurację lub LUA...',
+    languageDe: "Speichern Ihrer Konfiguration oder LUA..."
   },
   'UploadingConfig': {
-    languageEn: "Uploading your configuration...",
-    languageRu: 'Загружаем твою конфигурацию...',
-    languageUa: "Завантажуемо твою конфігурацію...",
-    languagePl: 'Ładujemy Twoją konfigurację...',
-    languageDe: "Wir laden deine Konfiguration herunter..."
+    languageEn: "Uploading your configuration or LUA...",
+    languageRu: 'Загружаем твою конфигурацию или же ЛУА...',
+    languageUa: "Завантажуемо твою конфігурацію або ж ЛУА...",
+    languagePl: 'Ładujemy Twoją konfigurację lub LUA...',
+    languageDe: "Wir laden deine Konfiguration oder LUA herunter..."
   },
   'WrapWithZip': {
     languageEn:
@@ -5629,13 +5674,15 @@ const Map<String, Map<String, String>> localeItems = {
         'Besteht die Konfiguration aus mehreren Dateien? Packen Sie sie in ein .zip-Archiv,\nund wenn der Benutzer Ihre Konfiguration installiert, entpackt ExLoader sie von selbst!\nBeispiel: Die Konfiguration besteht aus den Dateien 1.cfg, 2.cfg, 3.cfg und befindet sich\nim Unterordner „Name“ im Ordner „Configs“. Zippen Sie einfach den Ordner "Name"\n und laden Sie ihn über dieses Formular herunter!'
   },
   'EditFirst': {
-    languageEn: "First, change at least something to update the configuration!",
-    languageRu: 'Сперва измени хоть что-то, чтобы обновить конфигурацию!',
-    languageUa: "Спершу зміни хоч щось, щоб оновити конфігурацію!",
+    languageEn:
+        "First, change at least something to update the configuration or LUA!",
+    languageRu:
+        'Сперва измени хоть что-то, чтобы обновить конфигурацию или же ЛУА!',
+    languageUa: "Спершу зміни хоч щось, щоб оновити конфігурацію або ЛУА!",
     languagePl:
-        'Najpierw zmień przynajmniej cokolwiek, aby zaktualizować konfigurację!',
+        'Najpierw zmień przynajmniej cokolwiek, aby zaktualizować konfigurację lub LUA!',
     languageDe:
-        "Ändern Sie zunächst zumindest etwas, um die Konfiguration zu aktualisieren!"
+        "Ändern Sie zunächst zumindest etwas, um die Konfiguration oder LUA zu aktualisieren!"
   },
   'PleaseWaitBeforeComplaint': {
     languageEn:
@@ -5651,15 +5698,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ConfigComplaintIsHandled': {
     languageEn:
-        "Your complaint about the «{config}» configuration has been processed! Thank you for participating in application's development 😀",
+        "Your complaint about the «{config}» configuration or LUA has been processed! Thank you for participating in application's development 😀",
     languageRu:
-        'Твоя жалоба на конфигурацию «{config}» обработана! Спасибо, что участвуешь в развитии нашего приложения 😀',
+        'Твоя жалоба на конфигурацию или же ЛУА «{config}» обработана! Спасибо, что участвуешь в развитии нашего приложения 😀',
     languageUa:
-        "Твоя скарга на конфігурацію «{config}» оброблена! Спасибі, що береш участь у розвитку ExLoader 😀",
+        "Твоя скарга на конфігурацію або ж ЛУА «{config}» оброблена! Спасибі, що береш участь у розвитку ExLoader 😀",
     languagePl:
-        'Twoja skarga dotycząca konfiguracji «{config}» została rozpatrzona! Dziękujemy za udział w rozwoju ExLoadera 😀',
+        'Twoja skarga dotycząca konfiguracji lub LUA «{config}» została rozpatrzona! Dziękujemy za udział w rozwoju ExLoadera 😀',
     languageDe:
-        'Ihre Beschwerde über die Konfiguration «{config}» wurde bearbeitet! Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader 😀'
+        'Ihre Beschwerde über die Konfiguration oder LUA «{config}» wurde bearbeitet! Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader 😀'
   },
   'ReviewComplaintIsHandled': {
     languageEn:
@@ -5694,15 +5741,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'OldConfig': {
     languageEn:
-        "It looks like that config you are trying to upload is not compatible with {modification} modification! Perhaps it was made for an older version of this modification, or you've got something mixed up. Make sure you have selected an appropriate file and try again.",
+        "It looks like that config or LUA you are trying to upload is not compatible with {modification} modification! Perhaps it was made for an older version of this modification, or you've got something mixed up. Make sure you have selected an appropriate file and try again.",
     languageRu:
-        'Похоже, что конфиг, который ты пытаешься загрузить, не подходит к модификации {modification}! Возможно, он был сделан для более старой версии модификации или же ты что-то перепутал. Убедись, что ты выбрал правильный файл и повтори попытку загрузки.',
+        'Похоже, что конфиг или же ЛУА, который ты пытаешься загрузить, не подходит к модификации {modification}! Возможно, он был сделан для более старой версии модификации или же ты что-то перепутал. Убедись, что ты выбрал правильный файл и повтори попытку загрузки.',
     languageUa:
-        "Схоже, що конфіг, який ти намагаєшся завантажити, не підходить до модифікації {modification}! Можливо, він був зроблен для більш старої версії модифікації або ж ти щось переплутав. Переконайся, що ти вибрав правильний файл і повтори спробу завантаження.",
+        "Схоже, що конфіг або ж ЛУА, який ти намагаєшся завантажити, не підходить до модифікації {modification}! Можливо, він був зроблен для більш старої версії модифікації або ж ти щось переплутав. Переконайся, що ти вибрав правильний файл і повтори спробу завантаження.",
     languagePl:
-        'Wygląda na to, że konfiguracja, którą próbujesz załadować, nie pasuje do modyfikacji {modification}! Być może został stworzony dla starszej wersji modyfikacji lub coś pomieszałeś. Upewnij się, że wybrałeś właściwy plik i spróbuj ponownie pobrać.',
+        'Wygląda na to, że konfiguracja lub LUA, którą próbujesz załadować, nie pasuje do modyfikacji {modification}! Być może został stworzony dla starszej wersji modyfikacji lub coś pomieszałeś. Upewnij się, że wybrałeś właściwy plik i spróbuj ponownie pobrać.',
     languageDe:
-        "Anscheinend passt die Konfiguration, die Sie laden möchten, nicht zur {modification}! Vielleicht wurde es für eine ältere Version des Mods gemacht, oder vielleicht hast du etwas verwechselt. Vergewissern Sie sich, dass Sie die richtige Datei ausgewählt haben, und versuchen Sie erneut, sie herunterzuladen."
+        "Anscheinend passt die Konfiguration oder LUA, die Sie laden möchten, nicht zur {modification}! Vielleicht wurde es für eine ältere Version des Mods gemacht, oder vielleicht hast du etwas verwechselt. Vergewissern Sie sich, dass Sie die richtige Datei ausgewählt haben, und versuchen Sie erneut, sie herunterzuladen."
   },
   'CreateNickname': {
     languageEn: "Come up with a nickname:",
@@ -5744,15 +5791,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'OldConfigWarning': {
     languageEn:
-        "It looks like that config you are trying to install is made for an old version of {modification} modification. Perhaps its author uploaded this file a long time ago and has not yet updated it for the latest modification's version.",
+        "It looks like that config or LUA you are trying to install is made for an old version of {modification} modification. Perhaps its author uploaded this file a long time ago and has not yet updated it for the latest modification's version.",
     languageRu:
-        'Похоже, что конфиг, который ты пытаешься установить, сделан под старую версию модификации {modification}. Возможно, автор загрузил этот файл когда-то давно и ещё не обновил его под самую последнюю версию модификации.',
+        'Похоже, что конфиг или же ЛУА, который ты пытаешься установить, сделан под старую версию модификации {modification}. Возможно, автор загрузил этот файл когда-то давно и ещё не обновил его под самую последнюю версию модификации.',
     languageUa:
-        "Схоже, що конфіг, який ти намагаєшся встановити, зроблен під стару версію модифікації {modification}. Можливо, автор завантажив цей файл колись давно і ще не оновив його під саму останню версію модифікації.",
+        "Схоже, що конфіг або ж ЛУА, який ти намагаєшся встановити, зроблен під стару версію модифікації {modification}. Можливо, автор завантажив цей файл колись давно і ще не оновив його під саму останню версію модифікації.",
     languagePl:
-        'Wygląda na to, że konfiguracja, którą próbujesz zainstalować, jest przeznaczona dla starej wersji modyfikacji {modification}. Być może autor wrzucił ten plik dawno temu i jeszcze nie zaktualizował go do najnowszej wersji modyfikacji.',
+        'Wygląda na to, że konfiguracja lub LUA, którą próbujesz zainstalować, jest przeznaczona dla starej wersji modyfikacji {modification}. Być może autor wrzucił ten plik dawno temu i jeszcze nie zaktualizował go do najnowszej wersji modyfikacji.',
     languageDe:
-        "Es scheint, dass die Konfiguration, die Sie installieren möchten, für eine alte Version der {modification} erstellt wurde. Vielleicht hat der Autor diese Datei vor langer Zeit hochgeladen und sie noch nicht auf die neueste Version des Mods aktualisiert."
+        "Es scheint, dass die Konfiguration oder LUA, die Sie installieren möchten, für eine alte Version der {modification} erstellt wurde. Vielleicht hat der Autor diese Datei vor langer Zeit hochgeladen und sie noch nicht auf die neueste Version des Mods aktualisiert."
   },
   'RulesBasic': {
     languageEn:
@@ -6034,15 +6081,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'WelcomeBackNews': {
     languageEn:
-        'Welcome back! We have prepared a list of changes in modifications library for you. ',
+        '📅 Welcome back! We have prepared a list of changes in modifications library for you. ',
     languageRu:
-        'С возвращением! Мы подготовили для тебя список изменений в библиотеке модификаций за время твоего отсутствия. ',
+        '📅 С возвращением! Мы подготовили для тебя список изменений в библиотеке модификаций за время твоего отсутствия. ',
     languageUa:
-        'З поверненням! Ми підготували для тебе список змін в бібліотеці модифікацій за час твоєї відсутності. ',
+        '📅 З поверненням! Ми підготували для тебе список змін в бібліотеці модифікацій за час твоєї відсутності. ',
     languagePl:
-        'Witaj z powrotem! Przygotowaliśmy dla ciebie listę zmian w bibliotece modyfikacji podczas Twojej nieobecności. ',
+        '📅 Witaj z powrotem! Przygotowaliśmy dla ciebie listę zmian w bibliotece modyfikacji podczas Twojej nieobecności. ',
     languageDe:
-        "Willkommen zurück! Wir haben für Sie eine Liste der Änderungen in der Modifikationsbibliothek während Ihrer Abwesenheit vorbereitet. "
+        "📅 Willkommen zurück! Wir haben für Sie eine Liste der Änderungen in der Modifikationsbibliothek während Ihrer Abwesenheit vorbereitet. "
   },
   'Microsoft': {
     languageEn: 'Microsoft components',
@@ -6783,9 +6830,9 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         "– Launch and exit the game in order to complete the components installation and proceed with modification's installation!",
     languageRu:
-        '– Один раз запуски и выключи игру, дабы завершить установку компонентов и приступай к установке модификации!',
+        '– Один раз запусти и выключи игру, дабы завершить установку компонентов и приступай к установке модификации!',
     languageUa:
-        '– Один раз запуски і вимкни гру, щоб завершити установку компонентів і приступай до встановки модифікації!',
+        '– Один раз запусти і вимкни гру, щоб завершити установку компонентів і приступай до встановки модифікації!',
     languagePl:
         '– Uruchom i zamknij grę, aby zakończyć instalację komponentów i rozpocząć instalację modyfikacji!',
     languageDe:
@@ -7472,5 +7519,158 @@ const Map<String, Map<String, String>> localeItems = {
         'Znalazłeś błąd w tłumaczeniu aplikacji lub chcesz nam pomóc\nw tłumaczeniu Exloadera na inny język? Więc napisz tutaj!',
     languageDe:
         'Haben Sie einen Fehler bei der Übersetzung der Anwendung\ngefunden oder möchten Sie uns bei der Übersetzung von\nExLoader in eine andere Sprache helfen? Dann schreib hier!',
+  },
+  'CancelLaunch': {
+    languageEn: "Cancel the launch",
+    languageRu: 'Отменить запуск',
+    languageUa: 'Скасувати запуск',
+    languagePl: 'Anuluj uruchomienie',
+    languageDe: 'Start abbrechen',
+  },
+  'AntiCheatWarning': {
+    languageEn:
+        "Please not that {game} has a very good anti-cheat system, which means that almost all free modifications may lead to a game-ban or stop working after the smallest game update. We recommend using these modifications only on those accounts that you won't regret loosing and don't get used to them very much!",
+    languageRu:
+        'Обрати внимание, {game} имеет систему очень хорошего античита, а это значит, что практически все бесплатные модификации могут привести к бану твоего аккаунта или же перестать работать после малейшего обновления игры. Рекомендуем использовать модификации только на том аккаунте, который тебе не жалко и особо сильно к ним не привыкать!',
+    languageUa:
+        'Зверни увагу, {game} має систему дуже хорошого античита, а це значить, що практично всі безкоштовні модифікації можуть привести до бану твого аккаунта або ж перестати працювати після найменшого оновлення гри. Рекомендуємо використовувати модифікації тільки на тому акаунті, який тобі не шкода і особливо сильно до них не звикати!',
+    languagePl:
+        'Zwróć uwagę, {game} ma bardzo dobry system anty-cheat, co oznacza, że prawie wszystkie bezpłatne modyfikacje mogą spowodować zbanowanie Twojego konta lub przestać działać po najmniejszej aktualizacji gry. Zalecamy używanie modyfikacji tylko na koncie, którego nie żałujesz i nie jesteś do nich szczególnie obcy!',
+    languageDe:
+        'Bitte beachten Sie, dass {game} ein sehr gutes Antichitsystem hat, was bedeutet, dass fast alle kostenlosen Modifikationen dein Konto verbannen oder nach der geringsten Aktualisierung des Spiels nicht mehr funktionieren können. Wir empfehlen, die Modifikationen nur auf dem Konto zu verwenden, das dir nicht leid tut und dich nicht besonders daran gewöhnt!',
+  },
+  'CodeIsCopied': {
+    languageEn:
+        'The authorization code has been successfully copied to your clipboard!',
+    languageRu: 'Код авторизации успешно скопирован в твой буфер обмена!',
+    languageUa: 'Код авторизації успішно скопійован в твій буфер обміну!',
+    languagePl:
+        'Kod autoryzacji został pomyślnie skopiowany do twojego schowka!',
+    languageDe:
+        "Der Autorisierungscode wurde erfolgreich in die Zwischenablage kopiert!"
+  },
+  'FailedToCopyCode': {
+    languageEn: "Couldn't copy this authorization code to your clipboard!",
+    languageRu:
+        'Не удалось скопировать данный код авторизации в твой буфер обмена!',
+    languageUa:
+        'Не вдалося скопіювати даний код авторизації в твій буфер обміну!',
+    languagePl: 'Nie można skopiować podanego kodu autoryzacji do schowka!',
+    languageDe:
+        "Dieser Autorisierungscode konnte nicht in die Zwischenablage kopiert werden!"
+  },
+  'YouAuthCode': {
+    languageEn: "Your authorization code",
+    languageRu: 'Твой код авторизации',
+    languageUa: 'Твій код авторизації',
+    languagePl: 'Twój kod autoryzacji',
+    languageDe: 'Dein Autorisierungscode',
+  },
+  'CodeIsValidWithin30Minutes': {
+    languageEn:
+        "This code will expire within the next 30 minutes, it may be useful at the authorization stage in the modification's menu!",
+    languageRu:
+        'Время действия данного кода истечёт через 30 минут, он может пригодиться тебе на этапе авторизации в меню модификации!',
+    languageUa:
+        'Час дії даного коду закінчиться через 30 хвилин, він може стати в нагоді на етапі авторизації в меню модифікації!',
+    languagePl:
+        'Ten kod wygaśnie po 30 minutach, może się przydać na etapie autoryzacji w menu modyfikacji!',
+    languageDe:
+        'Dieser Code läuft nach 30 Minuten ab und kann während der Autorisierungsphase im Modifikationsmenü nützlich sein!',
+  },
+  'SpecifyPathForMobile': {
+    languageEn: "Specify the installation path of the modification's APK file:",
+    languageRu: 'Укажи путь установки APK файла модификации:',
+    languageUa: 'Вкажи шлях установки APK файлу модифікації:',
+    languagePl: 'Określ ścieżkę instalacji pliku APK modyfikacji:',
+    languageDe:
+        'Geben Sie den Installationspfad der APK-Datei der Modifikation an:',
+  },
+  'CFGAndLuaSwitcher': {
+    languageEn:
+        "Some modifications support not just the installation of\nconfigs, but also LUA. You can switch between them is here!",
+    languageRu:
+        'Некоторые модификации поддерживают не только установку\nконфигов, но и LUA. Переключение между ними находится здесь!',
+    languageUa:
+        'Деякі модифікації підтримують не тільки установку конфігів,\nале і LUA. Перемикання між ними знаходиться тут!',
+    languagePl:
+        'Niektóre modyfikacje obsługują nie tylko instalowanie\nkonfiguracji, ale także LUA. Przełączanie między nimi\njest tutaj!',
+    languageDe:
+        'Einige Modifikationen unterstützen nicht nur die Installation von\nKonfigurationen, sondern auch LUA. Der Wechsel zwischen den\nbeiden ist hier!',
+  },
+  'CFG': {
+    languageEn: "Configurations",
+    languageRu: 'Конфигурации',
+    languageUa: 'Конфігурації',
+    languagePl: 'Konfiguracje',
+    languageDe: 'Konfigurationen',
+  },
+  'LUA': {
+    languageEn: "LUA scipts",
+    languageRu: 'ЛУА скрипты',
+    languageUa: 'ЛУА скрипти',
+    languagePl: 'Skrypty LUA',
+    languageDe: 'LUA Skripte',
+  },
+  'IAmUploadingLUA': {
+    languageEn: "This file is a LUA, not a configuration",
+    languageRu: 'Данный файл является LUA, а не конфигурацией',
+    languageUa: 'Даний файл є LUA, а не конфігурація',
+    languagePl: 'Dany plik to LUA, a nie konfiguracja',
+    languageDe: 'Diese Datei ist eine LUA-Datei, keine Konfiguration',
+  },
+  'ConfigWillBeReplaced': {
+    languageEn:
+        "Installing this configuration or LUA will override one of the previously installed files. This may be related to the fact that several authors have uploaded different configs or LUAS that have the same file name. Continue installation?",
+    languageRu:
+        'Установка данной конфигурации или же ЛУА перезапишет один из ранее установленных файлов. Это может быть связано с тем, что несколько авторов загрузили разные конфиги или же ЛУА, имеющие одинаковое название файла. Продолжить установку?',
+    languageUa:
+        "Установка даної конфігурації або ж ЛУА перезапише один з раніше встановлених файлів. Це може бути пов'язано з тим, що кілька авторів завантажили різні конфігурації або ЛУА, що мають однакову назву файлу. Продовжити встановку?",
+    languagePl:
+        'Ustawienie tej konfiguracji lub Lua nadpisze jeden z wcześniej zainstalowanych plików. Może to być spowodowane tym, że wielu autorów przesłało różne konfiguracje lub LUA, które mają tę samą nazwę pliku. Kontynuować instalację?',
+    languageDe:
+        "Legt diese Konfiguration fest, oder die LUA überschreibt eine der zuvor installierten Dateien. Dies kann daran liegen, dass mehrere Autoren unterschiedliche Konfigurationen heruntergeladen haben oder dass LUA denselben Dateinamen haben. Möchten Sie die Installation fortsetzen?"
+  },
+  'ModificationsNotificationsFormat': {
+    languageEn: "Format of modifications notifications",
+    languageRu: 'Формат уведомлений о модификациях',
+    languageUa: 'Формат повідомлень про модифікації',
+    languagePl: 'Format powiadomień o modyfikacjach',
+    languageDe: 'Format für Modifikationnenbenachrichtigungen',
+  },
+  'AsDialog': {
+    languageEn: "In special dialog on application's startup",
+    languageRu: 'В отдельном окне при запуске приложения',
+    languageUa: 'В окремому вікні при запуску програми',
+    languagePl: 'W osobnym oknie podczas uruchamiania aplikacji',
+    languageDe: 'In einem separaten Fenster beim Starten der Anwendung',
+  },
+  'InPage': {
+    languageEn: "On the notifications page with the rest of the notifications",
+    languageRu: 'На странице уведомлений с остальными уведомлениями',
+    languageUa: 'На сторінці повідомлень з іншими повідомленнями',
+    languagePl: 'Na stronie powiadomień z pozostałymi powiadomieniami',
+    languageDe: 'Auf der Benachrichtigungsseite mit anderen Benachrichtigungen',
+  },
+  'SteamModule': {
+    languageEn: "If modification needs a special Steam module to be injected for it's launch, then you can add it's file here:",
+    languageRu: 'Если для запуска модификации необходима инъекция специального Steam-модуля, то ты можешь добавить его тут:',
+    languageUa: "Якщо для запуску модифікації необхідна ін'єкція спеціального Steam-модуля, то ти можеш додати його тут:",
+    languagePl: 'Jeśli do uruchomienia modyfikacji konieczne jest wstrzyknięcie specjalnego modułu Steam, możesz go dodać tutaj:',
+    languageDe: 'Wenn Sie ein spezielles Steam-Modul injizieren müssen, um die Modifikation auszuführen, können Sie es hier hinzufügen:',
+  },
+  'ConfigComplaint': {
+    languageEn: "If the reason for your complaint is in config's or LUA' issue, mark it with a dislike so that other users do not encounter the same problem while we are processing your complaint!",
+    languageRu: 'Если причиной твоей жалобы является неработоспособность конфига или же ЛУА скрипта - поставь ему дизлайк, дабы другие пользователи не столкнулись с такой-же проблемой пока мы обрабатываем твою жалобу!',
+    languageUa: 'Якщо причиною твоєї скарги є непрацездатність конфіга або ж ЛУА скрипта - постав йому дізлайк, щоб інші користувачі не зіткнулися з такою ж проблемою поки ми обробляємо твою скаргу!',
+    languagePl: 'Jeśli przyczyną Twojej skargi jest niedziałająca konfiguracja lub Lua skryptu - daj mu niechęć, aby inni użytkownicy nie napotkali tego samego problemu, gdy rozpatrujemy Twoją skargę!',
+    languageDe: 'Wenn die Ursache deiner Beschwerde eine fehlerhafte Konfiguration oder ein Script-LUA ist, lege ihm einen Dizlaik hin, damit andere Benutzer nicht auf das gleiche Problem stoßen, während wir deine Beschwerde bearbeiten!',
+  },
+  'PayAttentionToCFG': {
+    languageEn: "Please, note that this config or LUA has a very low\nrating, perhaps there is something wrong with it!",
+    languageRu: 'Обрати внимание, данный конфиг или же ЛУА имеет\nочень низкий рейтинг, возможно, с ним что-то не так!',
+    languageUa: 'Зверни увагу, даний конфіг або ж ЛУА має дуже\nнизький рейтинг, можливо, з ним щось не так!',
+    languagePl: 'Zwróć uwagę, Ta konfiguracja lub Lua ma bardzo\nniską ocenę, być może coś jest z nią nie tak!',
+    languageDe: 'Bitte beachten Sie, dass diese Konfiguration\noder LUA eine sehr niedrige Bewertung hat,\nvielleicht stimmt etwas mit ihm nicht!',
   },
 };
