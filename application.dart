@@ -7673,4 +7673,11 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Zwróć uwagę, Ta konfiguracja lub Lua ma bardzo\nniską ocenę, być może coś jest z nią nie tak!',
     languageDe: 'Bitte beachten Sie, dass diese Konfiguration\noder LUA eine sehr niedrige Bewertung hat,\nvielleicht stimmt etwas mit ihm nicht!',
   },
+  'ConfigMayDiffer': {
+    languageEn: "The configuration or LUA from the screenshot may differ from its actual version. Please, note,\nthat these images are uploaded by the author of the card, and not by the project administration!",
+    languageRu: 'Конфигурация или же ЛУА со скриншота может отличаться от своей актуальной версии. Обрати\nвнимание, данные изображения загружается автором карточки, а не администрацией проекта!',
+    languageUa: 'Конфігурація або ж ЛУА зі скріншота може відрізнятися від своєї актуальної версії. Зверни\nувагу, дані зображення завантажується автором картки, а не адміністрацією проекту!',
+    languagePl: 'Konfiguracja lub LUA ze zrzutu ekranu może różnić się od aktualnej wersji. Uwaga,\ndane obrazu są przesyłane przez autora karty, a nie przez administrację projektu!',
+    languageDe: 'Die Konfiguration oder das LUA aus dem Screenshot kann sich von der aktuellen Version unterscheiden. Bitte\nbeachten Sie, dass diese Bilder vom Autor der Karte geladen werden, nicht von der Projektverwaltung!',
+  },
 };
