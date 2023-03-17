@@ -3365,13 +3365,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'AddToGlobalLibrary': {
     languageEn:
-        "Application to add your modification to the ExLoader's library",
+        "Application to add your modification to the ExLoader's library (only for developers)",
     languageRu:
-        'Заявка на добавление модификации в общую библиотеку приложения',
-    languageUa: 'Заявка на додавання модифікації в загальну бібліотеку додатка',
-    languagePl: 'Wniosek o dodanie modyfikacji do ogólnej biblioteki aplikacji',
+        'Заявка на добавление модификации в общую библиотеку (только для разработчиков)',
+    languageUa:
+        'Заявка на додавання модифікації в загальну бібліотеку (тільки для розробників) ',
+    languagePl:
+        'Wniosek o dodanie modyfikacji do ogólnej biblioteki aplikacji (tylko dla programistów)',
     languageDe:
-        "Anwendung zum Hinzufügen einer Modifikation zur gemeinsamen Anwendungsbibliothek"
+        "Anwendung zum Hinzufügen einer Modifikation zur gemeinsamen Anwendungsbibliothek (nur für Entwickler)"
   },
   'OkayIUnderstand': {
     languageEn: "Okay, thanks, i understood!",
@@ -4184,12 +4186,15 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Dieser Kommentar wurde nach der Veröffentlichung editiert!"
   },
   'ThisConfigWasEdited': {
-    languageEn: "This configuration was edited(updated) after publication!",
-    languageRu: 'Эта конфигурация была отредактирована после публикации!',
-    languageUa: 'Ця конфігурація була відредагована після публікації!',
-    languagePl: 'Ta konfiguracja była edytowana od czasu publikacji!',
+    languageEn:
+        "This configuration or LUA was edited(updated) after publication!",
+    languageRu:
+        'Эта конфигурация или же ЛУА была отредактирована после публикации!',
+    languageUa:
+        'Ця конфігурація або ж ЛУА була відредагована після публікації!',
+    languagePl: 'Ta konfiguracja lub LUA była edytowana od czasu publikacji!',
     languageDe:
-        "Diese Konfiguration wurde seit der Veröffentlichung bearbeitet!"
+        "Diese Konfiguration oder LUA wurde seit der Veröffentlichung bearbeitet!"
   },
   'LowRating': {
     languageEn: "This review has a very low rating. Click to read",
@@ -4626,15 +4631,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'CrashMessage': {
     languageEn:
-        "It seems that the modification you tried to launch has causes a game crash! Note, that it's not the ExLoader problem, but modification's or your device's issue. For more information click the button below!",
+        "It seems that the modification you tried to launch has causes a game crash! Note, that it's not the ExLoader problem, but modification's or your device's issue. For more information click the button below!\n\nThis problem might be related only to the modification that you have launched. If you can't get rid of this problem with the tips below, try playing with other modifications from our library!",
     languageRu:
-        'Похоже, что выбранная тобой модификация привела к вылету игры. Учти, что это не проблема ExLoader, а проблема самой модификации или твоего устройства. Более подробный анализ ты можешь получить с помощью кнопки ниже!',
+        'Похоже, что выбранная тобой модификация привела к вылету игры. Учти, что это не проблема ExLoader, а проблема самой модификации или твоего устройства. Более подробный анализ ты можешь получить с помощью кнопки ниже!\n\nВозможно, данная проблема касается лишь той модификации, которую ты запустил. Если ты не сможешь избавиться от этой проблемы с помощью советов ниже, попробуй поиграть с другими модификациями из библиотеки!',
     languageUa:
-        'Схоже, що обрана тобою модифікація призвела до вильоту гри. Врахуй, що це не проблема ExLoader, а проблема самої модифікації або твого пристрою. Більш детальний аналіз ти можеш отримати за допомогою кнопки нижче!',
+        'Схоже, що обрана тобою модифікація призвела до вильоту гри. Врахуй, що це не проблема ExLoader, а проблема самої модифікації або твого пристрою. Більш детальний аналіз ти можеш отримати за допомогою кнопки нижче!\n\nМожливо, дана проблема стосується лише тієї модифікації, яку ти запустив. Якщо ти не зможеш позбутися від цієї проблеми за допомогою порад нижче, спробуй пограти з іншими модифікаціями з бібліотеки!',
     languagePl:
-        'Wygląda na to, że wybrana modyfikacja spowodowała awarię gry. Pamiętaj, że nie jest to problem z ExLoaderem, ale z samą modyfikacją lub twoim urządzeniem. Możesz uzyskać bardziej szczegółową analizę za pomocą przycisku poniżej!',
+        'Wygląda na to, że wybrana modyfikacja spowodowała awarię gry. Pamiętaj, że nie jest to problem z ExLoaderem, ale z samą modyfikacją lub twoim urządzeniem. Możesz uzyskać bardziej szczegółową analizę za pomocą przycisku poniżej!\n\nByć może ten problem dotyczy tylko modyfikacji, którą uruchomiłeś. Jeśli nie możesz pozbyć się tego problemu za pomocą poniższych wskazówek, spróbuj bawić się innymi modyfikacjami z biblioteki!',
     languageDe:
-        "Es scheint, dass der von Ihnen ausgewählte Mod das Spiel zum Absturz gebracht hat. Beachten Sie, dass dies kein Problem mit ExLoader ist, sondern ein Problem mit dem Mod selbst oder Ihrem Gerät. Eine detailliertere Analyse erhalten Sie über die Schaltfläche unten!"
+        "Es scheint, dass der von Ihnen ausgewählte Mod das Spiel zum Absturz gebracht hat. Beachten Sie, dass dies kein Problem mit ExLoader ist, sondern ein Problem mit dem Mod selbst oder Ihrem Gerät. Eine detailliertere Analyse erhalten Sie über die Schaltfläche unten!\n\nVielleicht betrifft dieses Problem nur die Modifikation, die du ausgeführt hast. Wenn du dieses Problem mit den folgenden Tipps nicht loswerden kannst, versuche es mit anderen Modifikationen aus der Bibliothek zu spielen!"
   },
   'CrashMessageCustom': {
     languageEn:
@@ -7653,31 +7658,86 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: 'Auf der Benachrichtigungsseite mit anderen Benachrichtigungen',
   },
   'SteamModule': {
-    languageEn: "If modification needs a special Steam module to be injected for it's launch, then you can add it's file here:",
-    languageRu: 'Если для запуска модификации необходима инъекция специального Steam-модуля, то ты можешь добавить его тут:',
-    languageUa: "Якщо для запуску модифікації необхідна ін'єкція спеціального Steam-модуля, то ти можеш додати його тут:",
-    languagePl: 'Jeśli do uruchomienia modyfikacji konieczne jest wstrzyknięcie specjalnego modułu Steam, możesz go dodać tutaj:',
-    languageDe: 'Wenn Sie ein spezielles Steam-Modul injizieren müssen, um die Modifikation auszuführen, können Sie es hier hinzufügen:',
+    languageEn:
+        "If modification needs a special Steam module to be injected for it's launch, then you can add it's file here:",
+    languageRu:
+        'Если для запуска модификации необходима инъекция специального Steam-модуля, то ты можешь добавить его тут:',
+    languageUa:
+        "Якщо для запуску модифікації необхідна ін'єкція спеціального Steam-модуля, то ти можеш додати його тут:",
+    languagePl:
+        'Jeśli do uruchomienia modyfikacji konieczne jest wstrzyknięcie specjalnego modułu Steam, możesz go dodać tutaj:',
+    languageDe:
+        'Wenn Sie ein spezielles Steam-Modul injizieren müssen, um die Modifikation auszuführen, können Sie es hier hinzufügen:',
   },
   'ConfigComplaint': {
-    languageEn: "If the reason for your complaint is in config's or LUA' issue, mark it with a dislike so that other users do not encounter the same problem while we are processing your complaint!",
-    languageRu: 'Если причиной твоей жалобы является неработоспособность конфига или же ЛУА скрипта - поставь ему дизлайк, дабы другие пользователи не столкнулись с такой-же проблемой пока мы обрабатываем твою жалобу!',
-    languageUa: 'Якщо причиною твоєї скарги є непрацездатність конфіга або ж ЛУА скрипта - постав йому дізлайк, щоб інші користувачі не зіткнулися з такою ж проблемою поки ми обробляємо твою скаргу!',
-    languagePl: 'Jeśli przyczyną Twojej skargi jest niedziałająca konfiguracja lub Lua skryptu - daj mu niechęć, aby inni użytkownicy nie napotkali tego samego problemu, gdy rozpatrujemy Twoją skargę!',
-    languageDe: 'Wenn die Ursache deiner Beschwerde eine fehlerhafte Konfiguration oder ein Script-LUA ist, lege ihm einen Dizlaik hin, damit andere Benutzer nicht auf das gleiche Problem stoßen, während wir deine Beschwerde bearbeiten!',
+    languageEn:
+        "If the reason for your complaint is in config's or LUA' issue, mark it with a dislike so that other users do not encounter the same problem while we are processing your complaint!",
+    languageRu:
+        'Если причиной твоей жалобы является неработоспособность конфига или же ЛУА скрипта - поставь ему дизлайк, дабы другие пользователи не столкнулись с такой-же проблемой пока мы обрабатываем твою жалобу!',
+    languageUa:
+        'Якщо причиною твоєї скарги є непрацездатність конфіга або ж ЛУА скрипта - постав йому дізлайк, щоб інші користувачі не зіткнулися з такою ж проблемою поки ми обробляємо твою скаргу!',
+    languagePl:
+        'Jeśli przyczyną Twojej skargi jest niedziałająca konfiguracja lub Lua skryptu - daj mu niechęć, aby inni użytkownicy nie napotkali tego samego problemu, gdy rozpatrujemy Twoją skargę!',
+    languageDe:
+        'Wenn die Ursache deiner Beschwerde eine fehlerhafte Konfiguration oder ein Script-LUA ist, lege ihm einen Dizlaik hin, damit andere Benutzer nicht auf das gleiche Problem stoßen, während wir deine Beschwerde bearbeiten!',
   },
   'PayAttentionToCFG': {
-    languageEn: "Please, note that this config or LUA has a very low\nrating, perhaps there is something wrong with it!",
-    languageRu: 'Обрати внимание, данный конфиг или же ЛУА имеет\nочень низкий рейтинг, возможно, с ним что-то не так!',
-    languageUa: 'Зверни увагу, даний конфіг або ж ЛУА має дуже\nнизький рейтинг, можливо, з ним щось не так!',
-    languagePl: 'Zwróć uwagę, Ta konfiguracja lub Lua ma bardzo\nniską ocenę, być może coś jest z nią nie tak!',
-    languageDe: 'Bitte beachten Sie, dass diese Konfiguration\noder LUA eine sehr niedrige Bewertung hat,\nvielleicht stimmt etwas mit ihm nicht!',
+    languageEn:
+        "Please, note that this config or LUA has a very low\nrating, perhaps there is something wrong with it!",
+    languageRu:
+        'Обрати внимание, данный конфиг или же ЛУА имеет\nочень низкий рейтинг, возможно, с ним что-то не так!',
+    languageUa:
+        'Зверни увагу, даний конфіг або ж ЛУА має дуже\nнизький рейтинг, можливо, з ним щось не так!',
+    languagePl:
+        'Zwróć uwagę, Ta konfiguracja lub Lua ma bardzo\nniską ocenę, być może coś jest z nią nie tak!',
+    languageDe:
+        'Bitte beachten Sie, dass diese Konfiguration\noder LUA eine sehr niedrige Bewertung hat,\nvielleicht stimmt etwas mit ihm nicht!',
   },
   'ConfigMayDiffer': {
-    languageEn: "The configuration or LUA from the screenshot may differ from its actual version. Please, note,\nthat these images are uploaded by the author of the card, and not by the project administration!",
-    languageRu: 'Конфигурация или же ЛУА со скриншота может отличаться от своей актуальной версии. Обрати\nвнимание, данные изображения загружается автором карточки, а не администрацией проекта!',
-    languageUa: 'Конфігурація або ж ЛУА зі скріншота може відрізнятися від своєї актуальної версії. Зверни\nувагу, дані зображення завантажується автором картки, а не адміністрацією проекту!',
-    languagePl: 'Konfiguracja lub LUA ze zrzutu ekranu może różnić się od aktualnej wersji. Uwaga,\ndane obrazu są przesyłane przez autora karty, a nie przez administrację projektu!',
-    languageDe: 'Die Konfiguration oder das LUA aus dem Screenshot kann sich von der aktuellen Version unterscheiden. Bitte\nbeachten Sie, dass diese Bilder vom Autor der Karte geladen werden, nicht von der Projektverwaltung!',
+    languageEn:
+        "The configuration or LUA from the screenshot may differ from its actual version. Please, note,\nthat these images are uploaded by the author of the card, and not by the project administration!",
+    languageRu:
+        'Конфигурация или же ЛУА со скриншота может отличаться от своей актуальной версии. Обрати\nвнимание, данные изображения загружается автором карточки, а не администрацией проекта!',
+    languageUa:
+        'Конфігурація або ж ЛУА зі скріншота може відрізнятися від своєї актуальної версії. Зверни\nувагу, дані зображення завантажується автором картки, а не адміністрацією проекту!',
+    languagePl:
+        'Konfiguracja lub LUA ze zrzutu ekranu może różnić się od aktualnej wersji. Uwaga,\ndane obrazu są przesyłane przez autora karty, a nie przez administrację projektu!',
+    languageDe:
+        'Die Konfiguration oder das LUA aus dem Screenshot kann sich von der aktuellen Version unterscheiden. Bitte\nbeachten Sie, dass diese Bilder vom Autor der Karte geladen werden, nicht von der Projektverwaltung!',
+  },
+  'ImagesDeletion': {
+    languageEn: "Images deletion",
+    languageRu: 'Удаление изображений',
+    languageUa: 'Видалення зображень',
+    languagePl: 'Usuwanie obrazów',
+    languageDe: 'Löschen von Bildern',
+  },
+  'Needed': {
+    languageEn: "Needed",
+    languageRu: 'Требуется',
+    languageUa: 'Потрібно',
+    languagePl: 'Wymagane',
+    languageDe: 'Erforderlich',
+  },
+  'PirateClient': {
+    languageEn: "Pirate game client",
+    languageRu: 'Пиратский клиент игры',
+    languageUa: 'Піратський клієнт гри',
+    languagePl: 'Piracki klient gry',
+    languageDe: 'Piraten Spiel Client',
+  },
+  'OfficialClient': {
+    languageEn: "Official game client",
+    languageRu: 'Официальный клиент игры',
+    languageUa: 'Офіційний клієнт гри',
+    languagePl: 'Oficjalny klient gry',
+    languageDe: 'Offizieller Spiel Client',
+  },
+  'SteamClient': {
+    languageEn: "Steam version of the game",
+    languageRu: 'Версия игры со Steam',
+    languageUa: 'Версія гри зі Steam',
+    languagePl: 'Wersja gry ze Steam',
+    languageDe: 'Steam Version des Spiels',
   },
 };
