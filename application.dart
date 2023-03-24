@@ -1618,12 +1618,15 @@ const Map<String, Map<String, String>> localeItems = {
         "Um Konfigurationen für diese Modifikation zu installieren, müssen Sie das Spiel installieren. Wenn das Spiel bereits installiert ist und der Fehler nicht verschwindet, versuchen Sie, die Konfiguration zu installieren, während der Spielprozess geöffnet ist."
   },
   'FailedToInstallConfigs': {
-    languageEn: 'Unfortunately, we were unable to install this configuration',
-    languageRu: 'К сожалению, нам не удалось установить выбранный конфиг',
-    languageUa: 'На жаль, нам не вдалося встановити вибраний конфіг',
-    languagePl: 'Przepraszamy, nie mogliśmy zainstalować wybranej konfiguracji',
+    languageEn:
+        'Unfortunately, we were unable to install this configuration or LUA',
+    languageRu:
+        'К сожалению, нам не удалось установить выбранный конфиг или же ЛУА',
+    languageUa: 'На жаль, нам не вдалося встановити вибраний конфіг або ж ЛУА',
+    languagePl:
+        'Przepraszamy, nie mogliśmy zainstalować wybranej konfiguracji lub LUA',
     languageDe:
-        "Entschuldigung, wir konnten die ausgewählte Konfiguration nicht installieren"
+        "Entschuldigung, wir konnten die ausgewählte Konfiguration oder LUA nicht installieren"
   },
   'ConfigsAlreadyInstalled': {
     languageEn: "It seems that configs you've chose is already installed!",
@@ -7739,5 +7742,175 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Версія гри зі Steam',
     languagePl: 'Wersja gry ze Steam',
     languageDe: 'Steam Version des Spiels',
+  },
+  'Audio': {
+    languageEn: "Audio",
+    languageRu: 'Аудио',
+    languageUa: 'Аудіо',
+    languagePl: 'Audio',
+    languageDe: 'Audio',
+  },
+  'StartupAudio': {
+    languageEn: "Funny voice acting on application's startup",
+    languageRu: 'Забавная озвучка при запуске приложения',
+    languageUa: 'Забавна озвучка при запуску програми',
+    languagePl: 'Zabawny głos podczas uruchamiania aplikacji',
+    languageDe: 'Lustige Stimme beim Starten der App',
+  },
+  'NoAudio': {
+    languageEn: "Without audio",
+    languageRu: 'Без озвучки',
+    languageUa: 'Без озвучення',
+    languagePl: 'Bez głosu',
+    languageDe: 'Keine Stimme',
+  },
+  'BuiltIn': {
+    languageEn: "Play random voice acting that is built into the app",
+    languageRu: 'Проигрывать случайную озвучку, встроенную в приложение',
+    languageUa: 'Програвати випадкову озвучку, вбудовану в додаток',
+    languagePl: 'Odtwarzanie losowego głosu wbudowanego w aplikację',
+    languageDe: 'In der App eingebettete zufällige Sprachausgabe wiedergeben',
+  },
+  'CustomAudio': {
+    languageEn:
+        "Play random voiceover only from the list of your own audio files",
+    languageRu:
+        'Воспроизводить случайную озвучку только из списка собственных аудио-файлов',
+    languageUa:
+        'Відтворювати випадкову озвучку тільки зі списку власних аудіо-файлів',
+    languagePl: 'Odtwarzaj losowy głos tylko z listy własnych plików audio',
+    languageDe:
+        'Zufallswiedergabe nur aus der Liste Ihrer eigenen Audiodateien wiedergeben',
+  },
+  'BothAudioModes': {
+    languageEn: "Use both custom and built-in in the app voice actings",
+    languageRu:
+        'Использовать как собственные, так и встроенные в приложение озвучки',
+    languageUa:
+        'Використовувати як власні, так і вбудовані в додаток озвучення',
+    languagePl:
+        'Używać zarówno natywnych, jak i wbudowanych w aplikację lektorów',
+    languageDe:
+        'Verwenden Sie sowohl eigene als auch in der App integrierte Sprachausgaben',
+  },
+  'SoundVolume': {
+    languageEn: "Sound volume as a percentage",
+    languageRu: 'Громкость звуков в процентах',
+    languageUa: 'Гучність звуків у відсотках',
+    languagePl: 'Głośność dźwięków w procentach',
+    languageDe: 'Die Lautstärke der Töne in Prozent',
+  },
+  'AddCustomSounds': {
+    languageEn: "Add custom audio",
+    languageRu: 'Добавить свою озвучку',
+    languageUa: 'Додати свою озвучку',
+    languagePl: 'Dodaj swój głos',
+    languageDe: 'Eigene Stimme hinzufügen',
+  },
+  'HandlingAudio': {
+    languageEn: "Processing the selected audio...",
+    languageRu: 'Обрабатываем выбранное аудио...',
+    languageUa: 'Обробляємо обране аудіо...',
+    languagePl: 'Przetwarzamy wybrany dźwięk...',
+    languageDe: 'Wir verarbeiten das ausgewählte Audio...',
+  },
+  'YourAudioIsSaved': {
+    languageEn: "Your audio has been successfully saved!",
+    languageRu: 'Твоё аудио успешно сохранено!',
+    languageUa: 'Твоє аудіо успішно збережено!',
+    languagePl: 'Twój dźwięk został pomyślnie zapisany!',
+    languageDe: 'Dein Audio wurde erfolgreich gespeichert!',
+  },
+  'AddCustomSoundsDescription': {
+    languageEn:
+        "You can add your own audio files for the funny voice acting on app's startup feature. Don't forget to change the audio randomization format after adding your files!",
+    languageRu:
+        'Ты можешь добавить свои аудио-файлы для функции забавных озвучек при запуске приложения. Не забудь изменить вариант рандомизации озвучек после добавления своих файлов!',
+    languageUa:
+        'Ти можеш додати свої аудіо-файли для функції забавних озвучок при запуску програми. Не забудь змінити варіант рандомізації озвучок після додавання своїх файлів!',
+    languagePl:
+        'Możesz dodać swoje pliki audio dla funkcji zabawnych lektorów podczas uruchamiania aplikacji. Nie zapomnij zmienić opcji losowania lektorów po dodaniu plików!',
+    languageDe:
+        'Sie können Ihre Audiodateien für die Fun-Voiceover-Funktion beim Start der App. Vergiss nicht, die Option für die Randomisierung von Voices zu ändern, nachdem du deine Dateien hinzugefügt hast!',
+  },
+  'TestVolume': {
+    languageEn: "Test volume",
+    languageRu: 'Протестировать громкость',
+    languageUa: 'Протестувати гучність',
+    languagePl: 'Przetestuj głośność',
+    languageDe: 'Lautstärke testen'
+  },
+  'Standard': {
+    languageEn: "Standard",
+    languageRu: 'Стандартный',
+    languageUa: 'Стандартний',
+    languagePl: 'Standardowy',
+    languageDe: 'Standard'
+  },
+  'HoverEffect': {
+    languageEn: "Hover sound effect",
+    languageRu: 'Звуковой эффект наведения',
+    languageUa: 'Звуковий ефект наведення',
+    languagePl: 'Efekt dźwiękowy najechania',
+    languageDe: 'Hover Sound Effekt'
+  },
+  'ClickEffect': {
+    languageEn: "Click sound effect",
+    languageRu: 'Звуковой эффект клика',
+    languageUa: 'Звуковий ефект кліка',
+    languagePl: 'Efekt dźwiękowy kliknięcia',
+    languageDe: 'Klick Sound Effekt'
+  },
+  'DeleteAudio': {
+    languageEn: "Deletion of manually added sounds",
+    languageRu: 'Удаление вручную добавленных звуков',
+    languageUa: 'Видалення вручну доданих звуків',
+    languagePl: 'Ręczne usuwanie dodanych dźwięków',
+    languageDe: 'Manuell hinzugefügte Sounds löschen'
+  },
+  'AudioAssetsAreNeeded': {
+    languageEn:
+        "For this settings part to work correctly, you need to download additional sound files using the button below!",
+    languageRu:
+        'Для корректной работы функционала из данной вкладки тебе необходимо загрузить дополнительные файлы с помощью кнопки ниже!',
+    languageUa:
+        'Для коректної роботи функціоналу з даної вкладки тобі необхідно завантажити додаткові файли за допомогою кнопки нижче!',
+    languagePl:
+        'Aby funkcjonalność działała poprawnie z tej zakładki, musisz pobrać dodatkowe pliki za pomocą przycisku poniżej!',
+    languageDe:
+        'Um die Funktionalität dieser Registerkarte korrekt zu nutzen, musst du zusätzliche Dateien mit dem unten stehenden Button herunterladen!'
+  },
+  'FailedToInstallAudio': {
+    languageEn:
+        "Unfortunately, an audio files installation process has failed, please, try again a little bit later 🙁",
+    languageRu:
+        'К сожалению, нам не удалось установить необходимые аудио файлы, попробуй повторить процесс установки чуточку позже 🙁',
+    languageUa:
+        'На жаль, нам не вдалося встановити необхідні аудіофайли, спробуй повторити процес установки трішки пізніше 🙁',
+    languagePl:
+        'Niestety nie udało nam się zainstalować niezbędnych plików audio, spróbuj powtórzyć proces instalacji trochę później 🙁',
+    languageDe:
+        'Leider konnten wir die erforderlichen Audiodateien nicht installieren, versuchen Sie, den Installationsvorgang ein wenig später zu wiederholen 🙁'
+  },
+  'OldPCsAndSounds': {
+    languageEn: "Please, note that the sound effects features may work with a slight delay on old devices 🙁",
+    languageRu: 'Обрати внимание, на слабых компьютерах функции звуковых эффектов могут работать с небольшой задержкой 🙁',
+    languageUa: "Зверни увагу, на слабких комп'ютерах функції звукових ефектів можуть працювати з невеликою затримкою 🙁",
+    languagePl: 'Uwaga, na słabych komputerach funkcje efektów dźwiękowych mogą działać z niewielkim opóźnieniem 🙁',
+    languageDe: 'Bitte beachten Sie, dass die Soundeffektfunktionen auf schwachen Computern mit einer kurzen Verzögerung ausgeführt werden können 🙁'
+  },
+  'AutoUpdateAudio': {
+    languageEn: "Automatically update sounds pack",
+    languageRu: 'Авто-обновлять звуковой пак',
+    languageUa: 'Авто-оновлювати звуковий пак',
+    languagePl: 'Auto-Upgrade Sound Pack',
+    languageDe: 'Auto-Aktualisieren des Soundpacks'
+  },
+  'AutoUpdateAudioDescription': {
+    languageEn: "Application will automatically check the sound pack for its updates every time its is launched!",
+    languageRu: 'Приложение самостоятельно будет проверять наличие обновлений звукового пака при каждом своём запуске!',
+    languageUa: 'Додаток самостійно буде перевіряти наявність оновлень звукового пака при кожному своему запуску!',
+    languagePl: 'Aplikacja samodzielnie sprawdzi dostępność aktualizacji pakietu audio przy każdym uruchomieniu aplikacji!',
+    languageDe: 'Die Anwendung wird bei jedem Start der Anwendung selbst nach Updates des Soundpacks suchen!'
   },
 };
