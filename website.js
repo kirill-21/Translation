@@ -1,3 +1,4 @@
+/// Translation entities.
 const translationElements = [
   {
     name: 'GamesTranslation', value: {
@@ -6,6 +7,15 @@ const translationElements = [
       languageUa: 'Ігри',
       languagePl: 'Gry',
       languageDe: 'Spiele',
+    },
+  },
+  {
+    name: 'LanguageTitle', value: {
+      languageEn: 'English',
+      languageRu: 'Русский',
+      languageUa: 'Українська',
+      languagePl: 'Polski',
+      languageDe: 'Deutsch',
     },
   },
   {
@@ -105,6 +115,60 @@ const translationElements = [
       languageUa: 'ExLoader - єдина бібліотека ігрових модифікацій',
       languagePl: 'ExLoader - Zjednoczona biblioteka modyfikacji gier',
       languageDe: "ExLoader - die einzige Bibliothek mit Spielmodifikationen"
+    },
+  },
+  {
+    name: 'WantedToDownloadFirst', value: {
+      languageEn: 'Wanted to download cheats for',
+      languageRu: 'Хотел скачать читы на',
+      languageUa: 'Хотів завантажити чити для',
+      languagePl: 'Chcesz pobrać cheaty do',
+      languageDe: "Wollten Sie Cheats für"
+    },
+  },
+  {
+    name: 'WantedToDownloadSecond', value: {
+      languageEn: "virus-free? All cheats are updated to the latest game version and have features such as wh, aim, skinchager, etc.",
+      languageRu: 'без вирусов? Тебе в ExLoader! Все читы обновлены до последней версии игры и имеют функции такие как вх, аим, скинчейджер и т.д',
+      languageUa: 'без вірусів? Тобі в ExLoader! Усі чити оновлені до останньої версії гри і мають функції такі як вх, аім, скінчейджер і т.д.',
+      languagePl: 'wolny od wirusów? Wszystkie cheaty są zaktualizowane do najnowszej wersji gry i posiadają funkcje takie jak wh, aim, skinchager itp.',
+      languageDe: "herunterladen virenfrei? Alle Cheats sind auf die neueste Version des Spiels aktualisiert und haben Funktionen wie wh, skinchager, etc."
+    },
+  },
+  {
+    name: 'LangTag', value: {
+      languageEn: 'en',
+      languageRu: 'ru',
+      languageUa: 'ua',
+      languagePl: 'pl',
+      languageDe: "de"
+    },
+  },
+  {
+    name: 'MainPageTitle', value: {
+      languageEn: 'ExLoader | Best free cheats for CS:GO and other games',
+      languageRu: 'ExLoader | Читы на КС ГО и другие игры',
+      languageUa: 'ExLoader | Чити на КС ГО та інші ігри',
+      languagePl: 'ExLoader | Najlepsze darmowe kody do CS:GO i innych gier',
+      languageDe: "ExLoader | Beste kostenlose Cheats für CS:GO und andere Spiele"
+    },
+  },
+  {
+    name: 'MainPageDescription', value: {
+      languageEn: 'This app will help you download cheats for games including wh, trigger, aim, skinchanger and aim!',
+      languageRu: 'Это приложение поможет тебе скачать читы для CS:GO и других игр, включая вх, trigger, аим, скинчейджер и aim!',
+      languageUa: 'Ця програма допоможе тобі завантажити чити для CS:GO та інших ігор, включно з вх, trigger, аім, скінчейджер і aim!',
+      languagePl: 'Ta aplikacja pomoże ci pobrać kody do CS:GO i innych gier, w tym wh, trigger, aim, skinchanger i aim!',
+      languageDe: "Diese App wird dir helfen, Cheats für Spiele herunterzuladen, wh, trigger, aim, skinchanger und aim!"
+    },
+  },
+  {
+    name: 'KeywordsTranslation', value: {
+      languageEn: 'ExLoader, modifications, cs:go, cs:go hacks, cs:go cheats, download, free, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses',
+      languageRu: 'ExLoader, модификации, кс го, cs:go, читы, cs:go hacks, cs:go cheats, скачать, бесплатный, экслоадер, еикслоадер, хлоадер, exlaoder, вх, аим, кс:го, скин чейнджер, skin changer, хак, банихоп, bunnyhop, без бана, без вирусов',
+      languageUa: 'ExLoader, модифікації, cs:go, cs:go хаки, cs:go чити, завантажити, безкоштовно, xloader, exlaoder, wh, aim, skin changer, bunnyhop, без бану, без вірусів',
+      languagePl: 'ExLoader, modyfikacje, cs:go, cs:go hacks, cs:go cheats, download, free, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses',
+      languageDe: "ExLoader, Modifikationen, cs:go, cs:go hacks, cs:go cheats, download, kostenlos, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses"
     },
   },
   {
@@ -254,12 +318,120 @@ const translationElements = [
     },
   },
   {
-    name: 'CheatFor', value: {
-      languageEn: "Cheat for",
-      languageRu: 'Чит для',
-      languageUa: 'Чит для',
-      languagePl: 'Cheat dla',
-      languageDe: 'Cheat für',
+    name: 'For', value: {
+      languageEn: "for",
+      languageRu: 'для',
+      languageUa: 'для',
+      languagePl: 'dla',
+      languageDe: 'für',
+    },
+  },
+  {
+    name: 'For2', value: {
+      languageEn: "for",
+      languageRu: 'на',
+      languageUa: 'на',
+      languagePl: 'dla',
+      languageDe: 'für',
+    },
+  },
+  {
+    name: 'Cheat', value: {
+      languageEn: "Cheat",
+      languageRu: 'Чит',
+      languageUa: 'Чит',
+      languagePl: 'Cheat',
+      languageDe: 'Cheat',
+    },
+  },
+  {
+    name: 'SkinChangerTitle', value: {
+      languageEn: "SkinChanger",
+      languageRu: 'Скинченджер | SkinChanger',
+      languageUa: 'Скінченджер | SkinChanger',
+      languagePl: 'SkinChanger',
+      languageDe: 'SkinChanger',
+    },
+  },
+  {
+    name: 'Wallhack', value: {
+      languageEn: "WH | Wallhack",
+      languageRu: 'ВХ | WH | Волхак',
+      languageUa: 'ВХ | WH | Волхак',
+      languagePl: 'WH | Wallhack',
+      languageDe: 'WH | Wallhack',
+    },
+  },
+  {
+    name: 'Legit', value: {
+      languageEn: "Legit cheat",
+      languageRu: 'Легит | Legit чит',
+      languageUa: 'Легіт | Legit чит',
+      languagePl: 'Legit cheat',
+      languageDe: 'Legit cheat',
+    },
+  },
+  {
+    name: 'Rage', value: {
+      languageEn: "Rage cheat",
+      languageRu: 'Рейдж | Rage чит',
+      languageUa: 'Рейдж | Rage чит',
+      languagePl: 'Rage cheat',
+      languageDe: 'Rage cheat',
+    },
+  },
+  {
+    name: 'Movement', value: {
+      languageEn: "Movement cheat",
+      languageRu: 'Мувмент | Movement чит',
+      languageUa: 'Мувмент | Movement чит',
+      languagePl: 'Movement cheat',
+      languageDe: 'Movement cheat',
+    },
+  },
+  {
+    name: 'Aim', value: {
+      languageEn: "Aim | Trigger",
+      languageRu: 'Аим | Aim | Триггер | Trigger',
+      languageUa: 'Аім | Aim | Тріггер | Trigger',
+      languagePl: 'Aim | Trigger',
+      languageDe: 'Aim | Trigger',
+    },
+  },
+  {
+    name: 'ModMenu', value: {
+      languageEn: "ModMenu",
+      languageRu: 'Модменю | ModMenu',
+      languageUa: 'Модменю | ModMenu',
+      languagePl: 'ModMenu',
+      languageDe: 'ModMenu',
+    },
+  },
+  {
+    name: 'Neuronet', value: {
+      languageEn: "Neuronet | Bot",
+      languageRu: 'Нейросеть | Бот',
+      languageUa: 'Нейромережа | Бот',
+      languagePl: 'Neuronet | Bot',
+      languageDe: 'Neuronales Netzwerk | Bot',
+    },
+  },
+  {
+    name: 'BunnyHop', value: {
+      languageEn: "Bunnuhop | Bhop",
+      languageRu: 'Баннихоп | Бхоп | Bunnyhop',
+      languageUa: 'Банніхоп | Бхоп | Bunnyhop',
+      languagePl: 'Bunnuhop | Bhop',
+      languageDe: 'Bunnuhop | Bhop',
+    },
+  },
+  {
+    name: 'InvChanger', value: {
+      languageEn: "InventoryChanger",
+      languageRu: 'Интвентори чейнджер | InventoryChanger',
+      languageUa: 'Інтвентарі чейнджер | InventoryChanger',
+      languagePl: 'InventoryChanger',
+      languageDe: 'InventoryChanger',
     },
   },
   {
@@ -489,11 +661,11 @@ const translationElements = [
   },
   {
     name: 'total-reviews', value: {
-      languageEn: 'Total marks amount:',
-      languageRu: 'Всего оценок:',
-      languageUa: 'Всього оцінок:',
-      languagePl: 'Suma ocen:',
-      languageDe: 'Gesamtnoten:',
+      languageEn: 'Total marks amount',
+      languageRu: 'Всего оценок',
+      languageUa: 'Всього оцінок',
+      languagePl: 'Suma ocen',
+      languageDe: 'Gesamtnoten',
     },
   },
   {
@@ -614,7 +786,7 @@ const translationElements = [
     },
   },
   {
-    name: 'Author', value: {
+    name: 'AuthorTranslation', value: {
       languageEn: 'Author',
       languageRu: 'Автор',
       languageUa: 'Автор',
@@ -809,6 +981,42 @@ const translationElements = [
       languageUa: 'Переклад коментарів доступний у додатку!',
       languagePl: 'Tłumaczenie komentarzy jest dostępne w aplikacji!',
       languageDe: "Eine Übersetzung der Kommentare ist in der App verfügbar!"
+    },
+  },
+  {
+    name: 'NoSuchPage', value: {
+      languageEn: "It looks like this page doesn't exist! Perhaps it has already been deleted or simply hasn't been created yet.",
+      languageRu: 'Похоже, что такой страницы не существует! Возможно её уже удалили или попросту ещё не создали.',
+      languageUa: 'Схоже, що такої сторінки не існує! Можливо її вже видалили або просто ще не створили.',
+      languagePl: 'Wygląda na to, że ta strona nie istnieje! Być może została już usunięta lub po prostu nie została jeszcze utworzona.',
+      languageDe: "Es sieht so aus, als gäbe es diese Seite nicht! Vielleicht wurde sie bereits gelöscht oder wurde einfach noch nicht erstellt."
+    },
+  },
+  {
+    name: 'BackToMain', value: {
+      languageEn: "Back to the main page",
+      languageRu: 'На главную',
+      languageUa: 'На головну',
+      languagePl: 'Strona główna',
+      languageDe: "Hauptseite"
+    },
+  },
+  {
+    name: 'WorkingTranslation', value: {
+      languageEn: "Working & Up To Date",
+      languageRu: 'Работает & Актуально',
+      languageUa: 'Працює & Актуально',
+      languagePl: 'Operacyjne i istotne',
+      languageDe: "Operativ & Relevant"
+    },
+  },
+  {
+    name: 'HowToDownload', value: {
+      languageEn: "How to download? All mods from our site can be launched using the ExLoader application, which is what you download from this site. After clicking the «Download» button, you need to choose the installer file saving path, wait for it to download, and then run the downloaded file. In the opened window select the application installation mode, wait for the installation to complete and open ExLoader. After that, you can choose the game you need with the mod you like and start playing!",
+      languageRu: 'Как скачать? Все моды с нашего сайта можно запустить с помощью приложения ExLoader, именно его ты и скачиваешь с сайта. После нажатия на кнопку «Скачать» тебе необходимо выбрать путь сохранения файла установщика, дождаться его загрузки, а затем запустить скачанный файл. В открывшемся окне выбери режим установки приложения, дождись завершения установки и открой ExLoader. После этого ты сможешь выбрать нужную тебе игру с понравившимся модом и приступить к игре!',
+      languageUa: 'Як завантажити? Всі моди з нашого сайту можна запустити за допомогою програми ExLoader, саме її ти і скачуєш з сайту. Після натискання на кнопку «Завантажити» тобі необхідно вибрати шлях збереження файлу установника, дочекатися його завантаження, а потім запустити завантажений файл. У вікні вибери режим установки програми, дочекайся завершення установки і відкрий ExLoader. Після цього ти зможеш вибрати потрібну тобі гру з вподобаним модом і приступити до гри!',
+      languagePl: 'Jak pobrać? Wszystkie mody z naszej strony mogą być uruchamiane za pomocą aplikacji ExLoader, którą pobierasz ze strony. Po kliknięciu przycisku «Pobierz» należy wybrać ścieżkę do zapisania pliku instalatora, poczekać na jego pobranie, a następnie uruchomić pobrany plik. W otwartym oknie wybierz tryb instalacji aplikacji, poczekaj na zakończenie instalacji i otwórz ExLoader. Następnie możesz wybrać grę z ulubionym modem i zacząć grać!',
+      languageDe: "Wie wird heruntergeladen? Alle Mods von unserer Website können mit der ExLoader-Anwendung ausgeführt werden, es ist die, die Sie von der Website herunterladen. Nachdem Sie auf die Schaltfläche «Download» geklickt haben, müssen Sie den Pfad zum Speichern der Installationsdatei auswählen, den Download abwarten und dann die heruntergeladene Datei ausführen. In dem sich öffnenden Fenster wählen Sie den Installationsmodus der Anwendung, warten, bis die Installation abgeschlossen ist, und öffnen ExLoader. Danach können Sie das gewünschte Spiel mit Ihrem Lieblingsmod auswählen und mit dem Spielen beginnen!"
     },
   },
 ];
