@@ -3836,11 +3836,11 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "von 5",
   },
   'UnderUpdate': {
-    languageEn: 'Modification is under update!',
-    languageRu: 'Модификация на обновлении!',
-    languageUa: 'Модифікація на оновленні!',
-    languagePl: 'Modyfikacja jest w trakcie aktualizacji!',
-    languageDe: "Modifikation beim Update!",
+    languageEn: 'Mod is under update!',
+    languageRu: 'Мод на обновлении!',
+    languageUa: 'Мод на оновленні!',
+    languagePl: 'Mod jest w fazie aktualizacji!',
+    languageDe: "Mod beim Update!",
   },
   'TemporaryUnavailable': {
     languageEn: 'Temporary unavailable',
@@ -9683,11 +9683,11 @@ Levels 4 and 5:
 Level 5:
   - You can upload protected LUA, however,
   not without skipping the basic check
+  - You can add a video review to your config
 
 Levels from 6 and above:
   - All bonuses from previous levels
   - You can set animated avatars
-  - You can add a video review to your config
   - You can set up to 14 dislikes per day
   - You can write up to 200 comments per day
   - You can upload up to 25 configs per day
@@ -9731,11 +9731,11 @@ Reputation is given and taken away for participation in the social life of the a
 Уровень 5:
   - Разрешено загружать LUA с протектом, однако,
   не без пропуска базовой проверки
+  - Можно добавлять видеообзор к своему конфигу
 
 Уровни от 6 и выше:
   - Все бонусы предыдущих уровней
   - Можно ставить анимированные аватарки
-  - Можно добавлять видеообзор к своему конфигу
   - Можно ставить до 14 дизлайков в день
   - Можно писать до 200 комментариев в день
   - Можно загружать до 25 конфигов в день
@@ -9778,11 +9778,11 @@ Reputation is given and taken away for participation in the social life of the a
 Рівень 5:
   - Дозволено завантажувати LUA з протектом, однак,
   не без пропуску базової перевірки
+  - Можна додавати відеоогляд до свого конфігуру
 
 Рівні від 6 і вище:
   - Усі бонуси попередніх рівнів
   - Можна ставити анімовані аватарки
-  - Можна додавати відеоогляд до свого конфігуру
   - Можна ставити 14 дизлайків на день
   - Можна писати 200 коментарів на день
   - Можна завантажувати 25 конфігів на день
@@ -9826,11 +9826,11 @@ Poziomy 4 i 5:
 Poziom 5:
   - Dozwolone ładowanie LUA z bieżnikiem, jednak,
   nie bez pominięcia podstawowej kontroli
+  - Możesz dodać recenzję wideo do swojej konfiguracji
 
 Poziomy od 6 wzwyż:
   - Wszystkie bonusy z poprzednich poziomów
   - Możesz dodawać animowane awatary
-  - Możesz dodać recenzję wideo do swojej konfiguracji
   - Możesz dać 14 polubień dziennie
   - Możesz napisać 200 komentarzy dziennie
   - Możesz przesłać 25 konfiguracji dziennie
@@ -9873,12 +9873,12 @@ Stufen 4 und 5:
 Stufe 5:
   - Erlaubt, LUA mit einem Profil zu laden, jedoch
   nicht ohne die Basisprüfung zu überspringen
+  - Du kannst eine Videobewertung zu deiner Konfiguration
+  hinzufügen
 
 Levels ab 6 und höher:
   - Alle Boni der vorherigen Levels
   - Du kannst animierte Avatare einfügen
-  - Du kannst eine Videobewertung zu deiner Konfiguration
-  hinzufügen
   - Du kannst 14 Dislikes pro Tag vergeben
   - Du kannst 200 Kommentare pro Tag schreiben
   - Du kannst 25 Konfigurationen pro Tag hochladen
@@ -9923,11 +9923,16 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageDe: "Randomisierung des Titels",
   },
   'NameRandomizationDescription': {
-    languageEn: "The name of the application's executable file will change each time it's launched",
-    languageRu: 'Название файла приложения будет меняться при каждом его запуске',
-    languageUa: 'Назва файлу застосунку змінюватиметься під час кожного запуску застосунку',
-    languagePl: 'Nazwa pliku aplikacji zmieni się za każdym razem, gdy aplikacja zostanie uruchomiona',
-    languageDe: "Der Name der Anwendungsdatei ändert sich jedes Mal, wenn die Anwendung gestartet wird",
+    languageEn:
+        "The name of the application's executable file will change each time it's launched",
+    languageRu:
+        'Название файла приложения будет меняться при каждом его запуске',
+    languageUa:
+        'Назва файлу застосунку змінюватиметься під час кожного запуску застосунку',
+    languagePl:
+        'Nazwa pliku aplikacji zmieni się za każdym razem, gdy aplikacja zostanie uruchomiona',
+    languageDe:
+        "Der Name der Anwendungsdatei ändert sich jedes Mal, wenn die Anwendung gestartet wird",
   },
   'ReputationControll': {
     languageEn: "Reputation's experience management",
@@ -9937,10 +9942,116 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageDe: "Management von Reputationserfahrungen",
   },
   'ExperienceIsDoubled': {
-    languageEn: "In honour of the «{holiday}» celebration all experience for likes,\ncomments, cfg and other activity is doubled, happy holidays!{emoji}",
-    languageRu: 'В честь праздника «{holiday}» весь получаемый опыт за лайки,\nкомментарии, кфг и прочую активность удвоен, всех с праздником!{emoji}',
-    languageUa: 'На честь свята «{holiday}» весь одержуваний досвід за\nлайки, коментарі, кфг та іншу активність подвоєно, всіх зі святом!{emoji}',
-    languagePl: 'Na cześć święta «{holiday}» wszystkie doświadczenia za polubienia,\nkomentarze, cfg i inne aktywności są podwojone, wesołych świąt!{emoji}',
-    languageDe: "Zu Ehren des Feiertags «{holiday}» werden alle Erfahrungen\nfür Likes, Kommentare, cfg und andere Aktivitäten verdoppelt,\nfrohe Feiertage!{emoji}",
+    languageEn:
+        "In honour of the «{holiday}» celebration all experience for likes,\ncomments, cfg and other activity is doubled, happy holidays!{emoji}",
+    languageRu:
+        'В честь праздника «{holiday}» весь получаемый опыт за лайки,\nкомментарии, кфг и прочую активность удвоен, всех с праздником!{emoji}',
+    languageUa:
+        'На честь свята «{holiday}» весь одержуваний досвід за\nлайки, коментарі, кфг та іншу активність подвоєно, всіх зі святом!{emoji}',
+    languagePl:
+        'Na cześć święta «{holiday}» wszystkie doświadczenia za polubienia,\nkomentarze, cfg i inne aktywności są podwojone, wesołych świąt!{emoji}',
+    languageDe:
+        "Zu Ehren des Feiertags «{holiday}» werden alle Erfahrungen\nfür Likes, Kommentare, cfg und andere Aktivitäten verdoppelt,\nfrohe Feiertage!{emoji}",
+  },
+  'DownloadModLauncher': {
+    languageEn: "Download modification",
+    languageRu: 'Скачать модификацию',
+    languageUa: 'Завантажити модифікацію',
+    languagePl: 'Pobieranie modyfikacji',
+    languageDe: "Änderung herunterladen",
+  },
+  'Support': {
+    languageEn: "Support",
+    languageRu: 'Поддержка',
+    languageUa: 'Підтримка',
+    languagePl: 'Wsparcie',
+    languageDe: "Unterstützung",
+  },
+  'LaunchOnlyInAnotherLauncher': {
+    languageEn:
+        "Unfortunately, launch of this modification is only available after installing its own launcher, you can do this using the button below. After downloading the loader, just follow the instructions left by the mod's developers!",
+    languageRu:
+        'К сожалению, запуск данной модификации возможен только при установке её собственного лаунчера, ты можешь сделать это с помощью кнопки ниже. После загрузки лоадера просто следуй инструкциям, оставленным разработчиками мода!',
+    languageUa:
+        'На жаль, запуск цієї модифікації можливий тільки за умови встановлення її власного лаунчера, ти можеш зробити це за допомогою кнопки нижче. Після завантаження лоадера просто дотримуйся інструкцій, залишених розробниками мода!',
+    languagePl:
+        'Niestety, uruchomienie tej modyfikacji jest możliwe tylko poprzez zainstalowanie jej własnego launchera, można to zrobić za pomocą poniższego przycisku. Po pobraniu programu ładującego wystarczy postępować zgodnie z instrukcjami pozostawionymi przez twórców moda!',
+    languageDe:
+        "Leider ist das Ausführen dieser Modifikation nur durch die Installation des eigenen Launcher möglich, können Sie dies tun, indem Sie die Schaltfläche unten. Nach dem Download des Launcher, folgen Sie einfach den Anweisungen, die von den Entwicklern der mod!",
+  },
+  'AlsoComponentsMightBeNeeded': {
+    languageEn:
+        "Also, you may need to install the following components to run this mod and its loader:",
+    languageRu:
+        'Также, для запуска этой модификации и её лоадера тебе может потребоваться установка следующих компонентов:',
+    languageUa:
+        'Також, для запуску цієї модифікації та її лоадера тобі може знадобитися встановлення таких компонентів:',
+    languagePl:
+        'Ponadto do uruchomienia tego moda i jego programu ładującego może być konieczne zainstalowanie następujących składników:',
+    languageDe:
+        "Möglicherweise müssen Sie auch die folgenden Komponenten installieren, um diese Mod und ihren Loader auszuführen:",
+  },
+  'UpTo': {
+    languageEn: "up to",
+    languageRu: 'до',
+    languageUa: 'до',
+    languagePl: 'do',
+    languageDe: "bis zu",
+  },
+  'ModIsNotCheckedYet': {
+    languageEn: "This mod has not yet been checked for virus threats absence",
+    languageRu: 'Мод ещё не проверен на отсутствие вирусных угроз',
+    languageUa: 'Модифікація ще не перевірена на відсутність вірусних загроз',
+    languagePl: 'Mod nie został jeszcze sprawdzony pod kątem zagrożeń wirusowych',
+    languageDe: "Der Mod wurde noch nicht auf Virenbedrohungen geprüft",
+  },
+  'ModIsChecked': {
+    languageEn: "This mod has been successfully tested for absence of virus threats",
+    languageRu: 'Модификация успешно проверена на отсутствие вирусных угроз',
+    languageUa: 'Модифікацію успішно перевірено на відсутність вірусних загроз',
+    languagePl: 'Mod został pomyślnie sprawdzony pod kątem zagrożeń wirusowych',
+    languageDe: "Die Modifikation wurde erfolgreich auf Virenfreiheit geprüft",
+  },
+  'CrashesInfo': {
+    languageEn: "Detailed information on mod's crashes statistics",
+    languageRu: 'Подробная информация по статистике вылетов',
+    languageUa: 'Детальна інформація щодо статистики вильотів',
+    languagePl: 'Szczegółowe informacje na temat statystyk odlotów',
+    languageDe: "Detaillierte Informationen zur Abflugstatistik",
+  },
+  'CrashesInfoUnavailable': {
+    languageEn: "Unfortunately, we don't have statistics\non crashes of those modifications,\nthat are launched not through our\napplication!",
+    languageRu: 'К сожалению, у нас нет статистики по\nвылетам тех модификаций, запуск\nкоторых осуществляется не через наше\nприложение!',
+    languageUa: 'На жаль, у нас немає статистики щодо\nвильотів тих модифікацій, запуск яких\nздійснюється не через наш додаток!',
+    languagePl: 'Niestety, nie mamy statystyk dotyczących\nawarii tych modyfikacji, które nie są\nuruchamiane za pośrednictwem naszej\naplikacji!',
+    languageDe: "Leider haben wir keine Statistiken über\ndie Abstürze dieser Änderungen, die nicht\nüber unsere Anwendung gestartet werden!",
+  },
+  'BansInfo': {
+    languageEn: "Extended analysis of mod's VAC bans statistics",
+    languageRu: 'Детальный анализ статистики вак-банов модификации',
+    languageUa: 'Детальний аналіз статистики вак банів модифікації',
+    languagePl: 'Szczegółowa analiza statystyk VAC-banów',
+    languageDe: "Detaillierte Analyse der VAC-Ban-Statistiken",
+  },
+  'BansInfoUnavailable': {
+    languageEn: "Unfortunately, we do not collect data on\nmodification's bans that are not on Steam!",
+    languageRu: 'К сожалению, мы не собираем данные о\nбанах модификаций, которых нет в Steam!',
+    languageUa: 'На жаль, ми не збираємо дані про бани\nмодифікацій, яких немає в Steam!',
+    languagePl: 'Niestety, nie zbieramy danych na temat\nbanów modyfikacji, które nie są dostępne na Steam!',
+    languageDe: "Leider sammeln wir keine Daten über\nModifikationsverbote, die nicht auf Steam sind!",
+  },
+  'NotifyAboutAnUpdate': {
+    languageEn: "Notify us about mod's update",
+    languageRu: 'Сообщить об обновлении мода',
+    languageUa: 'Повідомити про оновлення мода',
+    languagePl: 'Powiadom nas o aktualizacji moda',
+    languageDe: "Informieren Sie uns über Mods Update",
+  },
+  'SteamBetaSelectionNeeded': {
+    languageEn: "To launch mods for this game you need to enable its beta version in Steam. To do this, go to your Steam library, select the game, open its properties, go to beta versions and enable this version: «{version}»!",
+    languageRu: 'Для запуска модов к этой игре тебе необходимо включить её бета-версию в стиме. Для этого зайди в свою Steam-библиотеку, выбери игру, открой её свойства, перейди в бета-версии и включи эту версию: «{version}»!',
+    languageUa: 'Для запуску модів до цієї гри тобі необхідно ввімкнути її бета-версію в стімі. Для цього зайди у свою Steam-бібліотеку, вибери гру, відкрий її властивості, перейди в бета-версії та ввімкни цю версію: «{version}»!',
+    languagePl: 'Aby uruchomić mody do tej gry, musisz włączyć jej wersję beta w Steam. Aby to zrobić, przejdź do biblioteki Steam, wybierz grę, otwórz jej właściwości, przejdź do wersji beta i włączyć tę wersję: «{version}»!',
+    languageDe: "Um Mods für dieses Spiel auszuführen, musst du die Beta-Version in Steam aktivieren. Gehen Sie dazu in Ihre Steam-Bibliothek, wählen Sie das Spiel aus, öffnen Sie seine Eigenschaften, gehen Sie zu den Beta-Versionen und aktivieren Sie die Version: «{version}»!",
   },
 };
