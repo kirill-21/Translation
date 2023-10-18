@@ -743,6 +743,13 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'na konfiguracje do modyfikacji',
     languageDe: "über Konfigurationen",
   },
+  'UpdateNotifications': {
+    languageEn: 'about updates for modifications',
+    languageRu: 'на обновления к модификациям',
+    languageUa: 'на оновлення до модифікацій',
+    languagePl: 'na aktualizacji do modyfikacji',
+    languageDe: "über Aktualisierungen von Modifikationen",
+  },
   'Modifications': {
     languageEn: 'Modifications',
     languageRu: 'Модификации',
@@ -2074,6 +2081,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Оновлюємо додаткові файли',
     languagePl: 'Aktualizujemy dodatkowe pliki',
     languageDe: "Wir aktualisieren zusätzliche Dateien",
+  },
+  'UnpackingExtraFiles': {
+    languageEn: "Unpacking modification's extra files",
+    languageRu: 'Распаковываем дополнительные файлы',
+    languageUa: 'Розпаковуємо додаткові файли',
+    languagePl: 'Rozpakowywanie dodatkowe pliki',
+    languageDe: "Entpacken aktualisieren zusätzliche Dateien",
   },
   'PreparingProcesses': {
     languageEn: 'Configuring the processes',
@@ -5244,6 +5258,13 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Następny krok',
     languageDe: "Weitermachen",
   },
+  'IVeDoneIt': {
+    languageEn: "I've done that, go to the next step",
+    languageRu: 'Я сделал это, продолжить запуск',
+    languageUa: 'Я зробив це, продовжити запуск',
+    languagePl: 'Zrobiłem to, biegnij dalej',
+    languageDe: "Das habe ich getan, lauf weiter",
+  },
   'WeWillSendEmail': {
     languageEn: 'We will send a confirmation letter to your email address',
     languageRu: 'Мы отправим письмо с подтверждением на твой электронный адрес',
@@ -5591,16 +5612,12 @@ const Map<String, Map<String, String>> localeItems = {
         "Das Einreichen von Beschwerden ist im Offline-Modus nicht verfügbar 🙁!",
   },
   'ComplaintIsSent': {
-    languageEn:
-        "Your complaint has been sent! Thank you for participating in application's development 😀",
-    languageRu:
-        'Жалоба отправлена! Спасибо, что участвуешь в развитии нашего приложения 😀',
-    languageUa:
-        "Скарга надіслана! Дякуємо, що береш участь у розвитку ExLoader 😀",
-    languagePl:
-        'Skarga wysłana! Dziękujemy za udział w rozwoju naszej aplikacji 😀',
+    languageEn: "Thank you for participating in application's development 😀",
+    languageRu: 'Спасибо, что участвуешь в развитии нашего приложения 😀',
+    languageUa: "Дякуємо, що береш участь у розвитку ExLoader 😀",
+    languagePl: 'Dziękujemy za udział w rozwoju naszej aplikacji 😀',
     languageDe:
-        "Reklamation gesendet! Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader 😀",
+        "Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader 😀",
   },
   'AddConfiguration': {
     languageEn: "Configuration's or LUA uploading form",
@@ -6681,15 +6698,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'WindowedMode': {
     languageEn:
-        "For this modification to be launched properly, you have to set the display mode of the game to «Windowed» or «Fullscreen windowed» in {game} settings. Once you do it, the launch process will be continued!",
+        "Don't forget to set the game rendering mode to «Windowed» or «Fullscreen windowed» in {game} settings, this must be done to launch this modification!",
     languageRu:
-        'Для корректного запуска данной модификации тебе необходимо установить режим отображения игры на «Оконный» или «Полноэкранный в окне» в настройках {game}. Как только ты это сделаешь, процесс запуска будет продолжен!',
+        'Не забудь установить режим рендеринга игры на «Оконный» или же «Полноэкранный в окне» в настройках {game}, это необходимо для корректного запуска данной модификации.',
     languageUa:
-        'Для коректного запуску даної модифікації тобі необхідно встановити режим відображення гри «Віконний» або "Повноекранний у вікні» в галаштуваннях {game}. Як тільки ти це зробиш, процес запуску буде продовжен!',
+        'Не забудь встановити режим рендерингу гри на «Віконний» або «Повноекранний у вікні» в налаштуваннях {game}, це необхідно для коректного запуску цієї модифікації!',
     languagePl:
-        'Aby poprawnie uruchomić tę modyfikację, musisz ustawić tryb wyświetlania gry na «Okno» lub «Pełny ekran w oknie» w ustawieniach {game}. Gdy tylko to zrobisz, proces uruchamiania będzie kontynuowany!',
+        'Nie zapomnij ustawić trybu renderowania gry na «Windowed» lub «Fullscreen windowed» w ustawieniach {game}, jest to konieczne do poprawnego uruchomienia tej modyfikacji.',
     languageDe:
-        'Um diese Modifikation korrekt zu starten, müssen Sie den Anzeigemodus des Spiels in den {game} Einstellungen auf "Fenster" oder "Vollbild in einem Fenster" einstellen. Sobald Sie dies tun, wird der Startvorgang fortgesetzt!',
+        'Vergessen Sie nicht, den Rendering-Modus des Spiels auf «Windowed» oder «Fullscreen windowed» in {game} settings zu setzen, dies ist notwendig, um diese Modifikation korrekt auszuführen.',
   },
   'ActionNeeded': {
     languageEn: 'You need to do something...',
@@ -6723,6 +6740,14 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Nazwa użytkownika profilu została skopiowana do schowka!',
     languageDe:
         "Der Benutzername des Profils wurde in Ihre Zwischenablage kopiert!",
+  },
+  'LinkCopied': {
+    languageEn: "Mod's update link has been copied to your clipboard!",
+    languageRu: 'Ссылка на обновление мода скопирована в твой буфер обмена!',
+    languageUa: 'Посилання на оновлення мода скопійовано у твій буфер обміну!',
+    languagePl: 'Link do aktualizacji moda został skopiowany do schowka!',
+    languageDe:
+    "Der Link zum Mod-Update wurde in Ihre Zwischenablage kopiert!",
   },
   'ConfigsFirst': {
     languageEn: 'Configurations',
@@ -7564,15 +7589,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'SuspsendedProcessFound': {
     languageEn:
-        "It looks like your antivirus software or some other system has frozen access to the {game} process. This is an extremely rare problem, however, it will not be difficult to solve it - just restart the computer and it should disappear by itself! Sounds bad, we know!",
+        "Be aware that this error can simply be skipped using the button below! If modification launches without any problems after skipping this error, then you can just ignore this warning!\n\nIt looks like your antivirus software or some other system has frozen access to the {game} process. This is an extremely rare problem, however, it will not be difficult to solve it - just restart the computer and it should disappear by itself! Sounds bad, we know!",
     languageRu:
-        "Похоже, что твоё антивирусное программное обеспечение или какая-то другая система заморозила доступ к процессу {game}. Это крайне редкая проблема, однако, решить её не составит никакого труда - просто перезапусти компьютер и она должна исчезнуть сама по себе, такие вот дела!",
+        "Обрати внимание, эту ошибку можно просто пропустить с помощью кнопки ниже! Если модификация всё-равно запускается после пропуска этой ошибки, значит её можно проигнорировать!\n\nПохоже, что твоё антивирусное программное обеспечение или какая-то другая система заморозила доступ к процессу {game}. Это крайне редкая проблема, однако, решить её не составит никакого труда - просто перезапусти компьютер и она должна исчезнуть сама по себе, такие вот дела!",
     languageUa:
-        "Схоже, що твоє антивірусне програмне забезпечення або якась інша система заморозила доступ до процесу {game}. Це вкрай рідкісна проблема, однак, вирішити її не складе ніяких труднощів - просто перезапусти комп'ютер і вона повинна зникнути сама по собі, такі ось справи!",
+        "Зверни увагу, цю помилку можна просто пропустити за допомогою кнопки нижче! Якщо модифікація все одно запускається після пропуску цієї помилки, значить її можна проігнорувати!\n\nСхоже, що твоє антивірусне програмне забезпечення або якась інша система заморозила доступ до процесу {game}. Це вкрай рідкісна проблема, однак, вирішити її не складе ніяких труднощів - просто перезапусти комп'ютер і вона повинна зникнути сама по собі, такі ось справи!",
     languagePl:
-        "Wygląda na to, że Twoje oprogramowanie antywirusowe lub inny system zamroził dostęp do procesu {game}. Jest to niezwykle rzadki problem, jednak nie będzie trudno go rozwiązać - wystarczy ponownie uruchomić komputer i powinien sam zniknąć, takie rzeczy!",
+        "Uwaga, ten błąd można po prostu pominąć za pomocą przycisku poniżej! Jeśli modyfikacja nadal się uruchamia po pominięciu tego błędu, możesz go zignorować!\n\nWygląda na to, że Twoje oprogramowanie antywirusowe lub inny system zamroził dostęp do procesu {game}. Jest to niezwykle rzadki problem, jednak nie będzie trudno go rozwiązać - wystarczy ponownie uruchomić komputer i powinien sam zniknąć, takie rzeczy!",
     languageDe:
-        "Es scheint, dass deine Antivirensoftware oder ein anderes System den Zugriff auf den {game} Prozess eingefroren hat. Dies ist ein äußerst seltenes Problem, aber es wird nicht schwierig sein, es zu lösen - starte einfach den Computer neu und es sollte von selbst verschwinden, das sind die Dinge!",
+        "Beachten Sie, dass dieser Fehler mit der Schaltfläche unten einfach übersprungen werden kann! Wenn die Modikitaion nach dem Überspringen dieses Fehlers immer noch beginnt, können Sie ihn einfach ignorieren!\n\nEs scheint, dass deine Antivirensoftware oder ein anderes System den Zugriff auf den {game} Prozess eingefroren hat. Dies ist ein äußerst seltenes Problem, aber es wird nicht schwierig sein, es zu lösen - starte einfach den Computer neu und es sollte von selbst verschwinden, das sind die Dinge!",
   },
   'HelpToFixTranslationIssues': {
     languageEn:
@@ -8455,6 +8480,20 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'List of bug reports from users',
     languageRu: 'Список багрепортов от пользователей',
     languageUa: 'Список багрепортів від користувачів',
+  },
+  'ModUpdatesTitle': {
+    languageEn: 'Mods updates',
+    languageRu: 'Обновления модов',
+    languageUa: 'Оновлення модів',
+    languagePl: 'Aktualizacje modów',
+    languageDe: 'Mod-Aktualisierungen',
+  },
+  'ModUpdatesDescription': {
+    languageEn: 'List of mod update reports',
+    languageRu: 'Список репортов на обновление модов',
+    languageUa: 'Список репортів на оновлення модів',
+    languagePl: "Lista raportów aktualizacji modów",
+    languageDe: "Liste der Mod-Update-Berichte",
   },
   'Unresolved': {
     languageEn: 'Unresolved',
@@ -10002,11 +10041,13 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageEn: "This mod has not yet been checked for virus threats absence",
     languageRu: 'Мод ещё не проверен на отсутствие вирусных угроз',
     languageUa: 'Модифікація ще не перевірена на відсутність вірусних загроз',
-    languagePl: 'Mod nie został jeszcze sprawdzony pod kątem zagrożeń wirusowych',
+    languagePl:
+        'Mod nie został jeszcze sprawdzony pod kątem zagrożeń wirusowych',
     languageDe: "Der Mod wurde noch nicht auf Virenbedrohungen geprüft",
   },
   'ModIsChecked': {
-    languageEn: "This mod has been successfully tested for absence of virus threats",
+    languageEn:
+        "This mod has been successfully tested for absence of virus threats",
     languageRu: 'Модификация успешно проверена на отсутствие вирусных угроз',
     languageUa: 'Модифікацію успішно перевірено на відсутність вірусних загроз',
     languagePl: 'Mod został pomyślnie sprawdzony pod kątem zagrożeń wirusowych',
@@ -10020,11 +10061,16 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageDe: "Detaillierte Informationen zur Abflugstatistik",
   },
   'CrashesInfoUnavailable': {
-    languageEn: "Unfortunately, we don't have statistics\non crashes of those modifications,\nthat are launched not through our\napplication!",
-    languageRu: 'К сожалению, у нас нет статистики по\nвылетам тех модификаций, запуск\nкоторых осуществляется не через наше\nприложение!',
-    languageUa: 'На жаль, у нас немає статистики щодо\nвильотів тих модифікацій, запуск яких\nздійснюється не через наш додаток!',
-    languagePl: 'Niestety, nie mamy statystyk dotyczących\nawarii tych modyfikacji, które nie są\nuruchamiane za pośrednictwem naszej\naplikacji!',
-    languageDe: "Leider haben wir keine Statistiken über\ndie Abstürze dieser Änderungen, die nicht\nüber unsere Anwendung gestartet werden!",
+    languageEn:
+        "Unfortunately, we don't have statistics\non crashes of those modifications,\nthat are launched not through our\napplication!",
+    languageRu:
+        'К сожалению, у нас нет статистики по\nвылетам тех модификаций, запуск\nкоторых осуществляется не через наше\nприложение!',
+    languageUa:
+        'На жаль, у нас немає статистики щодо\nвильотів тих модифікацій, запуск яких\nздійснюється не через наш додаток!',
+    languagePl:
+        'Niestety, nie mamy statystyk dotyczących\nawarii tych modyfikacji, które nie są\nuruchamiane za pośrednictwem naszej\naplikacji!',
+    languageDe:
+        "Leider haben wir keine Statistiken über\ndie Abstürze dieser Änderungen, die nicht\nüber unsere Anwendung gestartet werden!",
   },
   'BansInfo': {
     languageEn: "Extended analysis of mod's VAC bans statistics",
@@ -10034,11 +10080,16 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageDe: "Detaillierte Analyse der VAC-Ban-Statistiken",
   },
   'BansInfoUnavailable': {
-    languageEn: "Unfortunately, we do not collect data on\nmodification's bans that are not on Steam!",
-    languageRu: 'К сожалению, мы не собираем данные о\nбанах модификаций, которых нет в Steam!',
-    languageUa: 'На жаль, ми не збираємо дані про бани\nмодифікацій, яких немає в Steam!',
-    languagePl: 'Niestety, nie zbieramy danych na temat\nbanów modyfikacji, które nie są dostępne na Steam!',
-    languageDe: "Leider sammeln wir keine Daten über\nModifikationsverbote, die nicht auf Steam sind!",
+    languageEn:
+        "Unfortunately, we do not collect data on\nmodification's bans that are not on Steam!",
+    languageRu:
+        'К сожалению, мы не собираем данные о\nбанах модификаций, которых нет в Steam!',
+    languageUa:
+        'На жаль, ми не збираємо дані про бани\nмодифікацій, яких немає в Steam!',
+    languagePl:
+        'Niestety, nie zbieramy danych na temat\nbanów modyfikacji, które nie są dostępne na Steam!',
+    languageDe:
+        "Leider sammeln wir keine Daten über\nModifikationsverbote, die nicht auf Steam sind!",
   },
   'NotifyAboutAnUpdate': {
     languageEn: "Notify us about mod's update",
@@ -10048,10 +10099,62 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageDe: "Informieren Sie uns über Mods Update",
   },
   'SteamBetaSelectionNeeded': {
-    languageEn: "To launch mods for this game you need to enable its beta version in Steam. To do this, go to your Steam library, select the game, open its properties, go to beta versions and enable this version: «{version}»!",
-    languageRu: 'Для запуска модов к этой игре тебе необходимо включить её бета-версию в стиме. Для этого зайди в свою Steam-библиотеку, выбери игру, открой её свойства, перейди в бета-версии и включи эту версию: «{version}»!',
-    languageUa: 'Для запуску модів до цієї гри тобі необхідно ввімкнути її бета-версію в стімі. Для цього зайди у свою Steam-бібліотеку, вибери гру, відкрий її властивості, перейди в бета-версії та ввімкни цю версію: «{version}»!',
-    languagePl: 'Aby uruchomić mody do tej gry, musisz włączyć jej wersję beta w Steam. Aby to zrobić, przejdź do biblioteki Steam, wybierz grę, otwórz jej właściwości, przejdź do wersji beta i włączyć tę wersję: «{version}»!',
-    languageDe: "Um Mods für dieses Spiel auszuführen, musst du die Beta-Version in Steam aktivieren. Gehen Sie dazu in Ihre Steam-Bibliothek, wählen Sie das Spiel aus, öffnen Sie seine Eigenschaften, gehen Sie zu den Beta-Versionen und aktivieren Sie die Version: «{version}»!",
+    languageEn:
+        "To launch mods for this game you need to enable its beta version in Steam. To do this, go to your Steam library, select the game, open its properties, go to beta versions and enable this version: «{version}»!",
+    languageRu:
+        'Для запуска модов к этой игре тебе необходимо включить её бета-версию в стиме. Для этого зайди в свою Steam-библиотеку, выбери игру, открой её свойства, перейди в бета-версии и включи эту версию: «{version}»!',
+    languageUa:
+        'Для запуску модів до цієї гри тобі необхідно ввімкнути її бета-версію в стімі. Для цього зайди у свою Steam-бібліотеку, вибери гру, відкрий її властивості, перейди в бета-версії та ввімкни цю версію: «{version}»!',
+    languagePl:
+        'Aby uruchomić mody do tej gry, musisz włączyć jej wersję beta w Steam. Aby to zrobić, przejdź do biblioteki Steam, wybierz grę, otwórz jej właściwości, przejdź do wersji beta i włączyć tę wersję: «{version}»!',
+    languageDe:
+        "Um Mods für dieses Spiel auszuführen, musst du die Beta-Version in Steam aktivieren. Gehen Sie dazu in Ihre Steam-Bibliothek, wählen Sie das Spiel aus, öffnen Sie seine Eigenschaften, gehen Sie zu den Beta-Versionen und aktivieren Sie die Version: «{version}»!",
+  },
+  'VideoGuideMinecraftDescription': {
+    languageEn:
+        'How to launch this modification after installation? To record this video we used original Minecraft Launcher, however, this guide will work with any Launcher!',
+    languageRu:
+        'Как запустить модификацию после установки? Для записи видео использовался оригинальный лаунчер Minecraft, однако, данный гайд подойдёт к любому лаунчеру!',
+    languageUa:
+        'Як запустити модифікацію після встановлення? Для запису відео використовувався оригінальний лаунчер Minecraft, однак, цей гайд підійде до будь-якого лаунчера!',
+    languagePl:
+        'Jak uruchomić modyfikację po instalacji? Do nagrania wideo został użyty oryginalny Minecraft Launcher, jednak ten poradnik będzie działał z każdym Launcherem!',
+    languageDe:
+        "Wie führe ich die Modifikation nach der Installation aus? Die ursprüngliche Minecraft Launcher wurde verwendet, um das Video aufzunehmen, aber diese Anleitung wird mit jedem Launcher funktionieren!",
+  },
+  'ViewVideoGuide': {
+    languageEn: "Open the video-guide",
+    languageRu: 'Показать видео-инструкцию',
+    languageUa: 'Показати відео-інструкцію',
+    languagePl: 'Wyświetl samouczek wideo',
+    languageDe: "Video-Tutorial anzeigen",
+  },
+  'UpdateObject': {
+    languageEn: "Notification about an update of",
+    languageRu: 'Уведомить об обновлении',
+    languageUa: 'Повідомлення про оновлення',
+    languagePl: 'Powiadomienie o aktualizacji',
+    languageDe: "Benachrichtigung über eine Aktualisierung von",
+  },
+  'UpdateSourceLink': {
+    languageEn: "Link to the update source",
+    languageRu: 'Ссылка на источник с обновлением',
+    languageUa: 'Посилання на джерело з оновленням',
+    languagePl: 'Link źródłowy z aktualizacją',
+    languageDe: "Quellenlink mit Update",
+  },
+  'LinkIsEmpty': {
+    languageEn: "It looks like you provided an empty link!",
+    languageRu: 'Похоже, что ты указал пустую ссылку!',
+    languageUa: 'Схоже, що ти вказав порожнє посилання!',
+    languagePl: 'Wygląda na to, że podałeś pusty link!',
+    languageDe: "Es sieht so aus, als ob Sie einen leeren Link angegeben haben!",
+  },
+  'WeAcceptOnlyTheseSources': {
+    languageEn: "To avoid publishing viruses, we accept only the following sources: the Unkn0wncheats forum, the verified section on the YouGame forum, open source GitHub repositories, or the same source from which the modification was taken: {source}!",
+    languageRu: 'Во избежание публикации вирусов мы принимаем лишь следующие источники: форум Unkn0wncheats, раздел проверенные на форуме YouGame, репозитории GitHub с открытым исходным кодом или же тот же источник, с которого была взята модификация: {source}!',
+    languageUa: 'Щоб уникнути публікації вірусів, ми приймаємо лише такі джерела: форум Unkn0wncheats, розділ перевірені на форумі YouGame, репозиторії GitHub з відкритим вихідним кодом або ж те саме джерело, з якого було взято модифікацію: {source}!',
+    languagePl: 'Aby uniknąć publikowania wirusów, akceptujemy tylko następujące źródła: forum Unkn0wncheats, zweryfikowana sekcja na forum YouGame, repozytoria open source GitHub lub to samo źródło, z którego zaczerpnięto modyfikację: {source}!',
+    languageDe: "Um die Veröffentlichung von Viren zu vermeiden, akzeptieren wir nur die folgenden Quellen: das Unkn0wncheats-Forum, den verifizierten Bereich im YouGame-Forum, Open-Source-GitHub-Repositories oder die gleiche Quelle, aus der die Modifikation stammt: {source}!",
   },
 };
