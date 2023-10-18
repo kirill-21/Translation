@@ -146,11 +146,11 @@ const translationElements = [
   },
   {
     name: 'MainPageTitle', value: {
-      languageEn: 'ExLoader | Best free cheats for CS:GO and other games',
-      languageRu: 'ExLoader | Читы на КС ГО и другие игры',
-      languageUa: 'ExLoader | Чити на КС ГО та інші ігри',
-      languagePl: 'ExLoader | Najlepsze darmowe kody do CS:GO i innych gier',
-      languageDe: "ExLoader | Beste kostenlose Cheats für CS:GO und andere Spiele"
+      languageEn: 'ExLoader | Best free cheats for CS2 and other games',
+      languageRu: 'ExLoader | Читы на КС2 и другие игры',
+      languageUa: 'ExLoader | Чити на КС2 та інші ігри',
+      languagePl: 'ExLoader | Najlepsze darmowe kody do CS2 i innych gier',
+      languageDe: "ExLoader | Beste kostenlose Cheats für CS2 und andere Spiele"
     },
   },
   {
