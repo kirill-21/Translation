@@ -144,25 +144,25 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Alphabetisch",
   },
   'SimplePlural': {
-    languageEn: 'Humble',
-    languageRu: 'Простые',
-    languageUa: 'Спрощені',
-    languagePl: 'Proste',
-    languageDe: "Einfache",
+    languageEn: 'Humble | Legit',
+    languageRu: 'Простые | Легитные',
+    languageUa: 'Спрощені | Легітні',
+    languagePl: 'Proste | Legit',
+    languageDe: "Einfache | Legit",
   },
   'MediumPlural': {
-    languageEn: 'Advanced',
-    languageRu: 'Продвинутые',
-    languageUa: 'Просунуті',
-    languagePl: 'Zaawansowane',
-    languageDe: "Erweiterte",
+    languageEn: 'Advanced | Semi-rage | Half-hvh',
+    languageRu: 'Продвинутые | Полу-рейдж | Полу-хвх',
+    languageUa: 'Просунуті | Напів-рейдж | Напів-хвх',
+    languagePl: 'Zaawansowane | Semi-rage | Half-hvh',
+    languageDe: "Erweiterte | Semi-rage | Half-hvh",
   },
   'AdvancedPlural': {
-    languageEn: 'Universal',
-    languageRu: 'Универсальные',
-    languageUa: 'Універсальні',
-    languagePl: 'Uniwersalne',
-    languageDe: "Universelle",
+    languageEn: 'Universal Rage | Hvh',
+    languageRu: 'Универсальные | Рейдж | Хвх',
+    languageUa: 'Універсальні | Рейдж | Хвх',
+    languagePl: 'Uniwersalne | Rage | Hvh',
+    languageDe: "Universelle Rage| Hvh",
   },
   'Optical': {
     languageEn: 'Optical',
@@ -207,11 +207,11 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Muvment",
   },
   'MovementPlural': {
-    languageEn: 'Movement',
-    languageRu: 'Мувмент',
-    languageUa: 'Мувмент',
-    languagePl: 'Ruchowe',
-    languageDe: "Muvment",
+    languageEn: 'Movement | Bhop',
+    languageRu: 'Мувмент | Бхоп',
+    languageUa: 'Мувмент | Бхоп',
+    languagePl: 'Ruchowe | Bhop',
+    languageDe: "Muvment | Bhop",
   },
   'MovementDescription': {
     languageEn:
@@ -226,11 +226,11 @@ const Map<String, Map<String, String>> localeItems = {
         "Muvment-Mods wurden entwickelt, um Ihnen zu helfen,\nSpielbewegungen oder Aktionen aufzuzeichnen, und sie\nzur richtigen Zeit mit binding-Tasten zu wiederholen. Zum\nBeispiel das Ausführen des Sprühens oder Werfens von\nGranaten.",
   },
   'OpticalPlural': {
-    languageEn: 'Optical',
-    languageRu: 'Визуальные',
-    languageUa: 'Візуальні',
-    languagePl: 'Wizualne',
-    languageDe: "Visuelle",
+    languageEn: 'Optical | Skins | Other',
+    languageRu: 'Визуальные | Скины | Другое',
+    languageUa: 'Візуальні | Скіни | Інше',
+    languagePl: 'Wizualne | Skins | Inne',
+    languageDe: "Visuelle | Skins | Andere",
   },
   'NeuronetPlural': {
     languageEn: 'Neuronets',
@@ -284,15 +284,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'NotTrustableModification': {
     languageEn:
-        'Please note, that this modifications has\nnot yet been checked for a virus absence\nby an independent representative.',
+        'Please note, that this modifications has\nnot been checked for a virus absence\nby an independent representative.',
     languageRu:
-        'Обрати внимание, что эта модификация\nещё не проверялась на отсутствие вирусных\nугроз независимым представителем.',
+        'Обрати внимание, что эта модификация\nне проверялась на отсутствие вирусных\nугроз независимым представителем.',
     languageUa:
-        'Зверни увагу, що ця модифікація ще не\nперевірялася на відсутність вірусних\nзагроз незалежним представником.',
+        'Зверни увагу, що ця модифікація не\nперевірялася на відсутність вірусних\nзагроз незалежним представником.',
     languagePl:
-        'Należy pamiętać, że ta modyfikacja nie została\njeszcze sprawdzona pod kątem obecności\nwirusów przez niezależnego przedstawiciela.',
+        'Należy pamiętać, że ta modyfikacja nie została\n sprawdzona pod kątem obecności\nwirusów przez niezależnego przedstawiciela.',
     languageDe:
-        "Bitte beachten Sie, dass diese Modifikation\nnoch nicht von einem unabhängigen Vertreter\nauf Virenbedrohungen getestet wurde.",
+        "Bitte beachten Sie, dass diese Modifikation\nnicht von einem unabhängigen Vertreter\nauf Virenbedrohungen getestet wurde.",
   },
   'TrustFactorAffectionGreat': {
     languageEn:
@@ -476,15 +476,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ZoomImageTip': {
     languageEn:
-        "🖼🖼🖼 Hint: you can enlarge any part of the image in this menu with the mouse wheel!",
+        "You can enlarge any part of the image in this menu with the mouse wheel!",
     languageRu:
-        '🖼🖼🖼 Подсказка: ты можешь увеличить любой участок изображения в данном меню с помощью колёсика мышки!',
+        'Ты можешь увеличить любой участок изображения в данном меню с помощью колёсика мышки!',
     languageUa:
-        "🖼🖼🖼 Підказка: ти можеш збільшити будь-яку ділянку зображення в даному меню за допомогою коліщатка мишки!",
+        "Ти можеш збільшити будь-яку ділянку зображення в даному меню за допомогою коліщатка мишки!",
     languagePl:
-        "🖼🖼🖼 Podpowiedź: możesz powiększyć dowolną część obrazu w tym menu za pomocą kółka myszy!",
+        "Możesz powiększyć dowolną część obrazu w tym menu za pomocą kółka myszy!",
     languageDe:
-        "🖼🖼🖼 Hinweis: Sie können jeden Teil des Bildes in diesem Menü mit dem Mausrad vergrößern!",
+        "Sie können jeden Teil des Bildes in diesem Menü mit dem Mausrad vergrößern!",
   },
   'EraseActivity': {
     languageEn: "Erase all modification's activity",
@@ -644,6 +644,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Пошук по іграм',
     languagePl: 'Szukaj według gier',
     languageDe: "Suche nach Spielen",
+  },
+  'SearchByFrames': {
+    languageEn: 'Search by frames',
+    languageRu: 'Поиск по рамкам',
+    languageUa: 'Пошук по рамкам',
+    languagePl: 'Szukaj według ramki',
+    languageDe: "Suche nach Rahmen",
   },
   'SearchByModifications': {
     languageEn: 'Search by modifications',
@@ -990,10 +997,10 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'LocalModificationsOpenHideKey': {
     languageEn: "Local modification's menu interacting key",
-    languageRu: 'Клавиша взаимодействия с меню локальных модификаций',
-    languageUa: 'Клавіша взаємодії з меню локальних модифікацій',
-    languagePl: 'Klawisz interakcji menu lokalnej modyfikacji',
-    languageDe: "Interop-Taste für das lokale Modifikationsmenü",
+    languageRu: 'Клавиша взаимодействия с меню своих модов',
+    languageUa: 'Клавіша взаємодії з меню своїх модів',
+    languagePl: 'Klawisz do interakcji z menu modów',
+    languageDe: "Interop-Taste für das Ihrer Mods Menü",
   },
   'NotForAllModifications': {
     languageEn:
@@ -2012,6 +2019,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Звіряємо версію .NET Framework',
     languagePl: 'Sprawdzamy wersję .NET Framework',
     languageDe: "Überprüfen Sie die .NET Framework-Version",
+  },
+  'NetRuntimeCheck': {
+    languageEn: 'Comparing the .NET Runtime versions',
+    languageRu: 'Сверяем версию .NET Runtime',
+    languageUa: 'Звіряємо версію .NET Runtime',
+    languagePl: 'Sprawdzamy wersję .NET Runtime',
+    languageDe: "Überprüfen Sie die .NET Runtime-Version",
   },
   'JavaCheck': {
     languageEn: 'Looking for an installed Java',
@@ -3447,6 +3461,13 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Nie znaleziono gry o tej nazwie 🙁',
     languageDe: "Konnte kein Spiel mit diesem Namen finden 🙁",
   },
+  'FailedToFindFrame': {
+    languageEn: "Failed to find avatar frame with such title pattern 🙁",
+    languageRu: 'Не удалось найти рамку с таким названием 🙁',
+    languageUa: 'Не вдалося знайти рамку з такою назвою 🙁',
+    languagePl: 'Nie znaleziono ramky o tej nazwie 🙁',
+    languageDe: "Konnte kein Rahmen mit diesem Namen finden 🙁",
+  },
   'FailedToChangeStatus': {
     languageEn:
         "Unfortunately, we were unable to update your status, perhaps, there is something wrong with it 🙁!",
@@ -3496,6 +3517,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Твоя аватарка успішно збережена!',
     languagePl: 'Twój avatar został pomyślnie zapisany!',
     languageDe: "Ihr Avatar wurde erfolgreich gespeichert!",
+  },
+  'AvatarFrameIsSaved': {
+    languageEn: "Your avatar frame has been successfully saved!",
+    languageRu: 'Твоя рамка для аватарки успешно сохранена!',
+    languageUa: 'Твоя рамка для аватарки успішно збережена!',
+    languagePl: 'Twój ramka awatara została pomyślnie zapisana!',
+    languageDe: "Ihr Avatarrahmen wurde erfolgreich gespeichert!",
   },
   'NicknameIsSaved': {
     languageEn: "Your nickname has been successfully saved!",
@@ -4093,15 +4121,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'NetworkIssue': {
     languageEn:
-        "Failed to connect to the application's server. Perhaps\nwe are currently working on server's optimization\nor it is under ddos attack. Maybe you're just not\nconnected to the internet, or something on your\ndevice is blocking the connection to the ExLoader\nserver, who knows... Sounds bad, we know 🙁. By\nthe way, when the issue is on our side we publish all\nthe info to our Telegram channel!\n\nBut if the problem is not on our side, then you can try\nturning on the VPN. There is a chance that it might help!",
+        "Failed to connect to the application's server. Perhaps\nwe are currently working on server's optimization\nor it is under ddos attack. Maybe you're just not\nconnected to the internet, or something on your\ndevice is blocking the connection to the ExLoader\nserver, who knows... Sounds bad, we know 🙁. By\nthe way, when the issue is on our side we publish all\nthe info to our {Social} channel!\n\nBut if the problem is not on our side, then you can try\nturning on the VPN. There is a chance that it might help!",
     languageRu:
-        'Не удалось подключиться к серверу приложения.\nВозможно сейчас у нас проходят технические работы\nили же наш сервер активно ддосят. Быть может ты\nпросто не подключен к интернету, либо что-то на\nтвоём устройстве блокирует подключение к серверу\nExLoader, кто знает... Такие вот дела 🙁. Кстати,\nкогда проблема на нашей стороне, мы публикуем\nвсю информацию о ней в наш Telegram канал!\n\nА вот если проблема всё-же не на нашей стороне,\nтогда ты можешь попробовать включить впн. Есть\nшанс, что это поможет!',
+        'Не удалось подключиться к серверу приложения.\nВозможно сейчас у нас проходят технические работы\nили же наш сервер активно ддосят. Быть может ты\nпросто не подключен к интернету, либо что-то на\nтвоём устройстве блокирует подключение к серверу\nExLoader, кто знает... Такие вот дела 🙁. Кстати,\nкогда проблема на нашей стороне, мы публикуем\nвсю информацию о ней в наш {Social} канал!\n\nА вот если проблема всё-же не на нашей стороне,\nтогда ты можешь попробовать включить впн. Есть\nшанс, что это поможет!',
     languageUa:
-        'Не вдалося підключитися до сервера програми.\nМожливо зараз у нас проходять технічні роботи\nабо ж наш сервер активно ддосять. Бути може ти\nпросто не підключен до інтернету, або щось на\nтвоєму пристрої блокує підключення до сервера\nExLoader, хто знає... Такі ось справи 🙁. До речі,\nколи проблема на нашому боці, ми публікуємо\nвсю інформацію про неї в наш Telegram канал!\n\nА ось якщо проблема все-таки не на нашому боці,\nтоді ти можеш спробувати включити впн. Є шанс,\nщо це допоможе!',
+        'Не вдалося підключитися до сервера програми.\nМожливо зараз у нас проходять технічні роботи\nабо ж наш сервер активно ддосять. Бути може ти\nпросто не підключен до інтернету, або щось на\nтвоєму пристрої блокує підключення до сервера\nExLoader, хто знає... Такі ось справи 🙁. До речі,\nколи проблема на нашому боці, ми публікуємо\nвсю інформацію про неї в наш {Social} канал!\n\nА ось якщо проблема все-таки не на нашому боці,\nтоді ти можеш спробувати включити впн. Є шанс,\nщо це допоможе!',
     languagePl:
-        'Nie można było połączyć się z serwerem aplikacji.\nByć może aktualnie trwają prace techniczne lub nasz\nserwer nie jest aktywnie używany. Może po prostu nie\nmasz połączenia z Internetem lub coś na Twoim\nurządzeniu blokuje połączenie z serwerem ExLoadera,\nkto wie... Wiemy, że źle brzmi to źle 🙁. Nawiasem mówiąc,\ngdy problem leży po naszej stronie, publikujemy\nwszystkie informacje na ten temat na naszym Telegramie!\n\nAle jeśli problem nie leży po naszej stronie, możesz\nspróbować włączyć VPN. Jest szansa że to pomoże!',
+        'Nie można było połączyć się z serwerem aplikacji.\nByć może aktualnie trwają prace techniczne lub nasz\nserwer nie jest aktywnie używany. Może po prostu nie\nmasz połączenia z Internetem lub coś na Twoim\nurządzeniu blokuje połączenie z serwerem ExLoadera,\nkto wie... Wiemy, że źle brzmi to źle 🙁. Nawiasem mówiąc,\ngdy problem leży po naszej stronie, publikujemy\nwszystkie informacje na ten temat na naszym {Social}ie!\n\nAle jeśli problem nie leży po naszej stronie, możesz\nspróbować włączyć VPN. Jest szansa że to pomoże!',
     languageDe:
-        "Es konnte keine Verbindung zum Anwendungsserver hergestellt\nwerden. Möglicherweise finden derzeit technische Arbeiten statt,\noch wird unser Server aktiv verwendet. Vielleicht sind Sie nur nicht\nmit dem Internet verbunden, oder etwas auf Ihrem Gerät blockiert\ndie Verbindung zum Server ExLoader, wer weiß... So sind die Dinge 🙁.\nÜbrigens, wenn das Problem auf unserer Seite liegt, veröffentlichen\nwir alle Informationen darüber in unserem Telegrammkanal!\n\nAber wenn das Problem nicht auf unserer Seite liegt, dann können\nSie versuchen, VPN einzuschalten. Es besteht die Möglichkeit, dass\nes hilft!",
+        "Es konnte keine Verbindung zum Anwendungsserver hergestellt\nwerden. Möglicherweise finden derzeit technische Arbeiten statt,\noch wird unser Server aktiv verwendet. Vielleicht sind Sie nur nicht\nmit dem Internet verbunden, oder etwas auf Ihrem Gerät blockiert\ndie Verbindung zum Server ExLoader, wer weiß... So sind die Dinge 🙁.\nÜbrigens, wenn das Problem auf unserer Seite liegt, veröffentlichen\nwir alle Informationen darüber in unserem {Social}mkanal!\n\nAber wenn das Problem nicht auf unserer Seite liegt, dann können\nSie versuchen, VPN einzuschalten. Es besteht die Möglichkeit, dass\nes hilft!",
   },
   'BasicInformationDescription': {
     languageEn:
@@ -4856,6 +4884,18 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "Leider konnten wir die Python-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun! Benötigte Version: ",
   },
+  'FailedToInstallNetRuntime': {
+    languageEn:
+        'Unfortunately, we were unable to install .NET Runtime components in an automatic mode, however, you can try doing it by yourself with the help of the internet! Version you need is: ',
+    languageRu:
+        'К сожалению, нам не удалось установить компоненты .NET Runtime в автоматическом режиме, однако, ты можешь попробовать сделать это вручную с помощью любого сайта в интернете! Необходимая версия: ',
+    languageUa:
+        'На жаль, нам не вдалося встановити компоненти .NET Runtime в автоматичному режимі, однак, ти можеш спробувати зробити це вручну за допомогою будь-якого сайту в інтернеті! Необхідна версія: ',
+    languagePl:
+        'Niestety, nie byliśmy w stanie zainstalować komponentów .NET Runtime automatycznie, jednak możesz spróbować zrobić to ręcznie, korzystając z dowolnej witryny w Internecie! Wymagana wersja: ',
+    languageDe:
+        "Leider konnten wir die .NET Runtime-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun! Benötigte Version: ",
+  },
   'WhyYouNeedMicrosoft': {
     languageEn:
         'For the proper work of modifications you need to install Microsoft VC++ components. You can skip this step, however, later, you might face a lot of unexpected problems!',
@@ -4879,6 +4919,18 @@ const Map<String, Map<String, String>> localeItems = {
         'Do poprawnego działania modyfikacji w systemie musi być zainstalowany .NET Framework.',
     languageDe:
         "Das .NET Framework muss auf Ihrem System installiert sein, damit die Modifikation ordnungsgemäß funktioniert.",
+  },
+  'WhyYouNeedNetRuntime': {
+    languageEn:
+        'For the proper work of the modification .NET Runtime has to be installed on your system.',
+    languageRu:
+        'Для корректной работы модификации на твоей системе должен быть установлен .NET Runtime.',
+    languageUa:
+        'Для коректної роботи модифікації на твоїй системі повинен бути встановлений .NET Runtime.',
+    languagePl:
+        'Do poprawnego działania modyfikacji w systemie musi być zainstalowany .NET Runtime.',
+    languageDe:
+        "Das .NET Runtime muss auf Ihrem System installiert sein, damit die Modifikation ordnungsgemäß funktioniert.",
   },
   'WhyYouNeedJava': {
     languageEn:
@@ -5870,6 +5922,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "❎❎❎ Tipp: Sie können dieses Menü schließen, indem Sie auf einen beliebigen freien Bereich des Bildschirms außerhalb dieses Fensters klicken!",
   },
+  'Hint': {
+    languageEn: "Hint",
+    languageRu: 'Подсказка',
+    languageUa: "Підказка",
+    languagePl: 'Podpowiedź',
+    languageDe: "Tipp",
+  },
   'AreYouSure': {
     languageEn: "Are you sure that it's what you want?",
     languageRu: 'А ты уверен, что хочешь именно этого?',
@@ -6746,8 +6805,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageRu: 'Ссылка на обновление мода скопирована в твой буфер обмена!',
     languageUa: 'Посилання на оновлення мода скопійовано у твій буфер обміну!',
     languagePl: 'Link do aktualizacji moda został skopiowany do schowka!',
-    languageDe:
-    "Der Link zum Mod-Update wurde in Ihre Zwischenablage kopiert!",
+    languageDe: "Der Link zum Mod-Update wurde in Ihre Zwischenablage kopiert!",
   },
   'ConfigsFirst': {
     languageEn: 'Configurations',
@@ -7255,15 +7313,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'DelailedListOfChanges': {
     languageEn:
-        "If you are interested, then you can read the detailed list of changes in our official Telegram channel, available with the button below",
+        "If you are interested, then you can read the detailed list of changes in our official {Social} channel, available with the button below",
     languageRu:
-        'Если тебе интересно, то ты можешь прочитать подробный список изменений в нашем официальном Telegram канале, доступном по кнопке ниже',
+        'Если тебе интересно, то ты можешь прочитать подробный список изменений в нашем официальном {Social} канале, доступном по кнопке ниже',
     languageUa:
-        'Якщо тобі цікаво, то ти можеш прочитати докладний список змін в нашому офіційному Telegram каналі, доступному по кнопці нижче',
+        'Якщо тобі цікаво, то ти можеш прочитати докладний список змін в нашому офіційному {Social} каналі, доступному по кнопці нижче',
     languagePl:
-        'Jeśli jesteś zainteresowany, możesz przeczytać szczegółową listę zmian na naszym oficjalnym kanale Telegram, dostępnym za pomocą przycisku poniżej',
+        'Jeśli jesteś zainteresowany, możesz przeczytać szczegółową listę zmian na naszym oficjalnym kanale {Social}, dostępnym za pomocą przycisku poniżej',
     languageDe:
-        "Wenn Sie interessiert sind, können Sie eine detaillierte Liste der Änderungen in unserem offiziellen Telegram-Kanal lesen, der durch Klicken auf die Schaltfläche unten verfügbar ist",
+        "Wenn Sie interessiert sind, können Sie eine detaillierte Liste der Änderungen in unserem offiziellen {Social}-Kanal lesen, der durch Klicken auf die Schaltfläche unten verfügbar ist",
   },
   'DoNotForgetToMarkConfig': {
     languageEn:
@@ -7833,6 +7891,55 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Wersja gry ze Steam',
     languageDe: 'Steam Version des Spiels',
   },
+  'MultiPlayer': {
+    languageEn: "Multiplayer version of the game",
+    languageRu: 'Версия игры: Мультиплеер',
+    languageUa: 'Версія гри: Мультиплеєр',
+    languagePl: 'Wersja gry: Multiplayer',
+    languageDe: 'Spielversion: Multiplayer',
+  },
+  'SinglePlayer': {
+    languageEn: "Singleplayer version of the game",
+    languageRu: 'Версия игры: Синглплеер',
+    languageUa: 'Версія гри: Синглплеєр',
+    languagePl: 'Wersja gry: Singleplayer',
+    languageDe: 'Spielversion: Einzelspieler',
+  },
+  'EpicGamesClient': {
+    languageEn: "EpicGames version of the game",
+    languageRu: 'Версия игры с EpicGames',
+    languageUa: 'Версія гри з EpicGames',
+    languagePl: 'Wersja gry z EpicGames',
+    languageDe: 'EpicGames Version des Spiels',
+  },
+  'MicrosoftClient': {
+    languageEn: "Microsoft version of the game",
+    languageRu: 'Версия игры с Microsoft',
+    languageUa: 'Версія гри з Microsoft',
+    languagePl: 'Wersja gry z Microsoft',
+    languageDe: 'Microsoft Version des Spiels',
+  },
+  'ItchIOClient': {
+    languageEn: "Itch.io version of the game",
+    languageRu: 'Версия игры с Itch.io',
+    languageUa: 'Версія гри з Itch.io',
+    languagePl: 'Wersja gry z Itch.io',
+    languageDe: 'Itch.io Version des Spiels',
+  },
+  'DriverMode': {
+    languageEn: "Driver version",
+    languageRu: 'Драйверная версия',
+    languageUa: 'Драйверна версія',
+    languagePl: 'Driver wersja',
+    languageDe: 'Driver Version',
+  },
+  'UserMode': {
+    languageEn: "Usermode version",
+    languageRu: 'Юзер-мод версия',
+    languageUa: 'Юзер-мод версія',
+    languagePl: 'Wersja trybu użytkownika',
+    languageDe: 'Version im Benutzermodus',
+  },
   'Audio': {
     languageEn: "Audio",
     languageRu: 'Аудио',
@@ -8047,6 +8154,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'Log-in as a guest',
     languageRu: 'Войти в гостевом режиме',
     languageUa: 'Увійти в гостьовому режимі',
+    languagePl: 'Zaloguj się jako gość',
+    languageDe: 'Als Gast anmelden',
   },
   'LogInEmail': {
     languageEn: 'Log in With Email',
@@ -8062,14 +8171,20 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'Are you sure?',
     languageRu: 'Ты уверен?',
     languageUa: 'Ти впевнен?',
+    languagePl: "Czy jesteś tego pewien?",
+    languageDe: "Sind Sie sich da sicher?",
   },
   'DisadvantagesOfGuestMode': {
     languageEn:
-        'In guest mode, you will not be able to <bd>comment <bd>games, <bd>mark <bd>releases, <bd>save <bd>your <bd>statistics, <bd>subscribe <bd>for <bd>notifications about games releases, <bd>configure <bd>your <bd>profile and perform other similar actions!',
+        "In guest mode you won't be able to <bd>leave <bd>comments, <bd>rate <bd>mods <bd>and <bd>configs, <bd>save your <bd>stats, <bd>customise your <bd>profile, <bd>share <bd>configs, <bd>upload <bd>videos, <bd>send <bd>complaints, <bd>receive <bd>notifications and perform any other social actions!",
     languageRu:
-        'В гостевом режиме ты не сможешь <bd>оставлять <bd>комментарии, <bd>оценивать <bd>релизы, <bd>сохранять <bd>свою <bd>статистику, <bd>настраивать <bd>профиль, <bd>получать <bd>уведомления о выходе новых игр и выполнять другие подобные действия!',
+        'В гостевом режиме ты не сможешь <bd>оставлять <bd>комментарии, <bd>оценивать <bd>моды <bd>и <bd>кфг, <bd>сохранять свою <bd>статистику, <bd>настраивать <bd>профиль, <bd>делиться <bd>конфигами, <bd>загружать <bd>видео, <bd>отправлять <bd>жалобы, <bd>получать <bd>уведомления и выполнять любые другие социальные действия!',
     languageUa:
-        'У гостьовому режимі ти не зможешь <bd>залишати <bd>коментарі, <bd>оцінювати <bd>релізи, <bd>зберігати <bd>свою <bd>статистику, <bd>налаштовувати <bd>профіль, <bd>отримувати <bd>повідомлення про вихід нових ігор і виконувати інші подібні дії!',
+        'У гостьовому режимі ти не зможеш <bd>залишати <bd>коментарі, <bd>оцінювати <bd>моди <bd>і <bd>кфг, <bd>зберігати свою <bd>статистику, <bd>налаштовувати <bd>профіль, <bd>ділитися <bd>конфігами, <bd>завантажувати <bd>відео, <bd>надсилати <bd>скарги, <bd>отримувати <bd>сповіщення і виконувати будь-які інші соціальні дії!',
+    languagePl:
+        "W trybie gościa nie będziesz mógł <bd>zostawiać <bd>komentarzy, <bd>oceniać <bd>modów <bd>i <bd>cfg, <bd>zapisywać <bd>statystyk, <bd>dostosowywać <bd>profilu, <bd>udostępniać <bd>konfiguracji, <bd>przesyłać <bd>filmów, <bd>wysyłać <bd>skarg, <bd>otrzymywać <bd>powiadomień i wykonywać żadnych innych działań społecznościowych!",
+    languageDe:
+        "Im Gästemodus kannst du keine <bd>Kommentare <bd>hinterlassen, <bd>Mods <bd>und <bd>cfgs <bd>bewerten, deine <bd>Statistiken <bd>speichern, dein <bd>Profil <bd>anpassen, <bd>Konfigurationen <bd>teilen, <bd>Videos <bd>hochladen, <bd>Beschwerden <bd>senden, <bd>Benachrichtigungen <bd>erhalten und andere soziale Aktionen durchführen!",
   },
   'UserAgreement': {
     languageEn:
@@ -8078,6 +8193,10 @@ const Map<String, Map<String, String>> localeItems = {
         'Нажимая «Да, войти в гостевом режиме» ты соглашаешься с лицензионным соглашением с конечным пользователем!',
     languageUa:
         'Натискаючи «Так, увійти за допомогою пошти» ти погоджуєшся з ліцензійною угодою з кінцевим користувачем!',
+    languagePl:
+        "Klikając «Tak, zaloguj się jako gość» wyrażasz zgodę na umowę licencyjną użytkownika końcowego!",
+    languageDe:
+        "Wenn Sie auf «Ja, als Gast anmelden» klicken, erklären Sie sich mit der Endbenutzer-Lizenzvereinbarung einverstanden!",
   },
   'Guest': {
     languageEn: 'Guest',
@@ -9632,6 +9751,18 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         'Leider ist Ihr Ansehen zu gering, um einen animierten Avatar einzurichten 🙁',
   },
+  'AvatarFrameIsNotAllowed': {
+    languageEn:
+        "Unfortunately, your reputation level is too low to set up an avatar frame 🙁",
+    languageRu:
+        'К сожалению, твой уровень репутации слишком низок, дабы установить рамку аватарки 🙁',
+    languageUa:
+        "На жаль, твій рівень репутації занадто низький, щоб встановити рамку аватарки 🙁",
+    languagePl:
+        'Niestety, twój poziom reputacji jest zbyt niski, by ustawić ramkę awatara 🙁',
+    languageDe:
+        'Leider ist Ihr Ansehen zu gering, um einen Avatarrahmen einzurichten 🙁',
+  },
   'VideoIsNotAllowed': {
     languageEn:
         "Uploading a video requires a higher reputation level than which you have 🙁",
@@ -9711,10 +9842,15 @@ Levels from 1 to 3:
   - You can set only 6 dislikes per day
   - You can write up to 20 comments per day
   - You can upload up to 10 configs per day
+  - You can add a video review to your config
+  
+Level 3:
+  - You can set animated avatars
 
 Levels 4 and 5:
   - An icon of the active user is displayed 
   next to your nickname
+  - You can set an avatar frame
   - You can set up to 10 dislikes per day
   - You can write up to 50 comments per day
   - You can upload up to 15 configs per day
@@ -9722,11 +9858,9 @@ Levels 4 and 5:
 Level 5:
   - You can upload protected LUA, however,
   not without skipping the basic check
-  - You can add a video review to your config
 
 Levels from 6 and above:
   - All bonuses from previous levels
-  - You can set animated avatars
   - You can set up to 14 dislikes per day
   - You can write up to 200 comments per day
   - You can upload up to 25 configs per day
@@ -9759,10 +9893,15 @@ Reputation is given and taken away for participation in the social life of the a
   - Можно ставить до 6 дизлайков в день
   - Можно писать до 20 комментариев в день
   - Можно загружать до 10 конфигов в день
+  - Можно добавлять видеообзор к своему конфигу
+  
+Уровень 3:
+  - Можно ставить анимированные аватарки
 
 Уровни 4 и 5:
   - Возле ника отображается икона активного
   пользователя
+  - Можно ставить рамку над аватаркой
   - Можно ставить до 10 дизлайков в день
   - Можно писать до 50 комментариев в день
   - Можно загружать до 15 конфигов в день
@@ -9770,11 +9909,9 @@ Reputation is given and taken away for participation in the social life of the a
 Уровень 5:
   - Разрешено загружать LUA с протектом, однако,
   не без пропуска базовой проверки
-  - Можно добавлять видеообзор к своему конфигу
 
 Уровни от 6 и выше:
   - Все бонусы предыдущих уровней
-  - Можно ставить анимированные аватарки
   - Можно ставить до 14 дизлайков в день
   - Можно писать до 200 комментариев в день
   - Можно загружать до 25 конфигов в день
@@ -9806,10 +9943,15 @@ Reputation is given and taken away for participation in the social life of the a
   - Можна ставити 6 дизлайків на день
   - Можна писати 20 коментарів на день
   - Можна завантажувати 10 конфігів на день
+  - Можна додавати відеоогляд до свого конфігуру
+
+Рівень 3:
+  - Можна ставити анімовані аватарки
 
 Рівні 4 і 5:
   - Біля ніка відображається ікона активного
   користувача
+  - Можна ставити рамку над аватаркою
   - Можна ставити 10 дизлайків на день
   - Можна писати 50 коментарів на день
   - Можна завантажувати 15 конфігів на день
@@ -9817,11 +9959,9 @@ Reputation is given and taken away for participation in the social life of the a
 Рівень 5:
   - Дозволено завантажувати LUA з протектом, однак,
   не без пропуску базової перевірки
-  - Можна додавати відеоогляд до свого конфігуру
 
 Рівні від 6 і вище:
   - Усі бонуси попередніх рівнів
-  - Можна ставити анімовані аватарки
   - Можна ставити 14 дизлайків на день
   - Можна писати 200 коментарів на день
   - Можна завантажувати 25 конфігів на день
@@ -9854,6 +9994,10 @@ Poziomy od 1 do 3:
   - Możesz opublikować 6 polubień dziennie
   - Możesz napisać 20 komentarzy dziennie
   - Możesz przesłać 10 konfiguracji dziennie
+  - Możesz dodać recenzję wideo do swojej konfiguracji
+
+Poziom 3:
+  - Możesz dodawać animowane awatary
 
 Poziomy 4 i 5:
   - Ikona aktywnego użytkownika jest wyświetlana obok
@@ -9861,15 +10005,14 @@ Poziomy 4 i 5:
   - Można opublikować 10 polubień dziennie
   - Użytkownik może napisać 50 komentarzy dziennie
   - Można przesłać 15 konfiguracji dziennie
+  - Możesz umieścić ramkę na swoim awatarze
   
 Poziom 5:
   - Dozwolone ładowanie LUA z bieżnikiem, jednak,
   nie bez pominięcia podstawowej kontroli
-  - Możesz dodać recenzję wideo do swojej konfiguracji
 
 Poziomy od 6 wzwyż:
   - Wszystkie bonusy z poprzednich poziomów
-  - Możesz dodawać animowane awatary
   - Możesz dać 14 polubień dziennie
   - Możesz napisać 200 komentarzy dziennie
   - Możesz przesłać 25 konfiguracji dziennie
@@ -9901,6 +10044,11 @@ Levels von 1 bis 3:
   - Du kannst 6 Dislikes pro Tag posten
   - Du kannst 20 Kommentare pro Tag schreiben
   - Du kannst 10 Configs pro Tag hochladen
+  - Du kannst eine Videobewertung zu deiner Konfiguration
+  hinzufügen
+
+Stufe 3:
+  - Du kannst animierte Avatare einfügen
 
 Stufen 4 und 5:
   - Ein Icon des aktiven Benutzers wird neben dem
@@ -9908,16 +10056,14 @@ Stufen 4 und 5:
   - Du kannst 10 Dislikes pro Tag posten
   - Du kannst 50 Kommentare pro Tag schreiben
   - Du kannst 15 Configs pro Tag hochladen
+  - Du kannst einen Rahmen über Ihren Avatar legen
   
 Stufe 5:
   - Erlaubt, LUA mit einem Profil zu laden, jedoch
   nicht ohne die Basisprüfung zu überspringen
-  - Du kannst eine Videobewertung zu deiner Konfiguration
-  hinzufügen
 
 Levels ab 6 und höher:
   - Alle Boni der vorherigen Levels
-  - Du kannst animierte Avatare einfügen
   - Du kannst 14 Dislikes pro Tag vergeben
   - Du kannst 200 Kommentare pro Tag schreiben
   - Du kannst 25 Konfigurationen pro Tag hochladen
@@ -10038,12 +10184,11 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageDe: "bis zu",
   },
   'ModIsNotCheckedYet': {
-    languageEn: "This mod has not yet been checked for virus threats absence",
-    languageRu: 'Мод ещё не проверен на отсутствие вирусных угроз',
-    languageUa: 'Модифікація ще не перевірена на відсутність вірусних загроз',
-    languagePl:
-        'Mod nie został jeszcze sprawdzony pod kątem zagrożeń wirusowych',
-    languageDe: "Der Mod wurde noch nicht auf Virenbedrohungen geprüft",
+    languageEn: "This mod has not been checked for virus threats absence",
+    languageRu: 'Этот мод не был проверен на отсутствие вирусных угроз',
+    languageUa: 'Модифікація не перевірена на відсутність вірусних загроз',
+    languagePl: 'Mod nie został sprawdzony pod kątem zagrożeń wirusowych',
+    languageDe: "Der Mod wurde nicht auf Virenbedrohungen geprüft",
   },
   'ModIsChecked': {
     languageEn:
@@ -10098,17 +10243,29 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languagePl: 'Powiadom nas o aktualizacji moda',
     languageDe: "Informieren Sie uns über Mods Update",
   },
+  'NotifyAboutAnUpdateExtended': {
+    languageEn:
+        "Notify us about mod's update or that it\nstopped working after the game update",
+    languageRu:
+        'Сообщить об обновлении мода или о том, что\nмод перестал работать после обновления игры',
+    languageUa:
+        'Повідомити про оновлення мода або про те, що\nмод перестав працювати після оновлення гри',
+    languagePl:
+        'Zgłoś aktualizację moda lub jeśli mod\nprzestał działać po aktualizacji gry.',
+    languageDe:
+        "Ein Mod-Update melden oder wenn ein Mod\nnach einem Spiel-Update nicht mehr funktioniert",
+  },
   'SteamBetaSelectionNeeded': {
     languageEn:
-        "To launch mods for this game you need to enable its beta version in Steam. To do this, go to your Steam library, select the game, open its properties, go to beta versions and enable this version: «{version}»!",
+        "To launch mods some or almost all mods for this game you need to enable its beta version in Steam. To do this, go to your Steam library, select the game, open its properties, go to beta versions and enable this version: «{version}»!",
     languageRu:
-        'Для запуска модов к этой игре тебе необходимо включить её бета-версию в стиме. Для этого зайди в свою Steam-библиотеку, выбери игру, открой её свойства, перейди в бета-версии и включи эту версию: «{version}»!',
+        'Для запуска некоторых или же большинства модов к этой игре тебе необходимо включить её бета-версию в стиме. Для этого зайди в свою Steam-библиотеку, выбери игру, открой её свойства, перейди в бета-версии и включи эту версию: «{version}»!',
     languageUa:
-        'Для запуску модів до цієї гри тобі необхідно ввімкнути її бета-версію в стімі. Для цього зайди у свою Steam-бібліотеку, вибери гру, відкрий її властивості, перейди в бета-версії та ввімкни цю версію: «{version}»!',
+        'Для запуску деяких або ж більшості модів до цієї гри тобі необхідно увімкнути її бета-версію в стімі. Для цього зайди у свою Steam-бібліотеку, вибери гру, відкрий її властивості, перейди в бета-версії та ввімкни цю версію: «{version}»!',
     languagePl:
-        'Aby uruchomić mody do tej gry, musisz włączyć jej wersję beta w Steam. Aby to zrobić, przejdź do biblioteki Steam, wybierz grę, otwórz jej właściwości, przejdź do wersji beta i włączyć tę wersję: «{version}»!',
+        'Aby uruchomić niektóre lub większość modów do tej gry, musisz włączyć jej wersję beta w styme. Aby to zrobić, przejdź do biblioteki Steam, wybierz grę, otwórz jej właściwości, przejdź do wersji beta i włączyć tę wersję: «{version}»!',
     languageDe:
-        "Um Mods für dieses Spiel auszuführen, musst du die Beta-Version in Steam aktivieren. Gehen Sie dazu in Ihre Steam-Bibliothek, wählen Sie das Spiel aus, öffnen Sie seine Eigenschaften, gehen Sie zu den Beta-Versionen und aktivieren Sie die Version: «{version}»!",
+        "Um einige oder die meisten der Mods für dieses Spiel zu verwenden, müssen Sie die Beta-Version im Steam. Gehen Sie dazu in Ihre Steam-Bibliothek, wählen Sie das Spiel aus, öffnen Sie seine Eigenschaften, gehen Sie zu den Beta-Versionen und aktivieren Sie die Version: «{version}»!",
   },
   'VideoGuideMinecraftDescription': {
     languageEn:
@@ -10148,13 +10305,192 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageRu: 'Похоже, что ты указал пустую ссылку!',
     languageUa: 'Схоже, що ти вказав порожнє посилання!',
     languagePl: 'Wygląda na to, że podałeś pusty link!',
-    languageDe: "Es sieht so aus, als ob Sie einen leeren Link angegeben haben!",
+    languageDe:
+        "Es sieht so aus, als ob Sie einen leeren Link angegeben haben!",
   },
   'WeAcceptOnlyTheseSources': {
-    languageEn: "To avoid publishing viruses, we accept only the following sources: the Unkn0wncheats forum, the verified section on the YouGame forum, open source GitHub repositories, or the same source from which the modification was taken: {source}!",
-    languageRu: 'Во избежание публикации вирусов мы принимаем лишь следующие источники: форум Unkn0wncheats, раздел проверенные на форуме YouGame, репозитории GitHub с открытым исходным кодом или же тот же источник, с которого была взята модификация: {source}!',
-    languageUa: 'Щоб уникнути публікації вірусів, ми приймаємо лише такі джерела: форум Unkn0wncheats, розділ перевірені на форумі YouGame, репозиторії GitHub з відкритим вихідним кодом або ж те саме джерело, з якого було взято модифікацію: {source}!',
-    languagePl: 'Aby uniknąć publikowania wirusów, akceptujemy tylko następujące źródła: forum Unkn0wncheats, zweryfikowana sekcja na forum YouGame, repozytoria open source GitHub lub to samo źródło, z którego zaczerpnięto modyfikację: {source}!',
-    languageDe: "Um die Veröffentlichung von Viren zu vermeiden, akzeptieren wir nur die folgenden Quellen: das Unkn0wncheats-Forum, den verifizierten Bereich im YouGame-Forum, Open-Source-GitHub-Repositories oder die gleiche Quelle, aus der die Modifikation stammt: {source}!",
+    languageEn:
+        "To avoid publishing viruses, we accept only the following sources: the Unkn0wncheats forum, the verified section on the YouGame forum, open source GitHub repositories, or the same source from which the modification was taken: {source}!",
+    languageRu:
+        'Во избежание публикации вирусов мы принимаем лишь следующие источники: форум Unkn0wncheats, раздел проверенные на форуме YouGame, репозитории GitHub с открытым исходным кодом или же тот же источник, с которого была взята модификация: {source}!',
+    languageUa:
+        'Щоб уникнути публікації вірусів, ми приймаємо лише такі джерела: форум Unkn0wncheats, розділ перевірені на форумі YouGame, репозиторії GitHub з відкритим вихідним кодом або ж те саме джерело, з якого було взято модифікацію: {source}!',
+    languagePl:
+        'Aby uniknąć publikowania wirusów, akceptujemy tylko następujące źródła: forum Unkn0wncheats, zweryfikowana sekcja na forum YouGame, repozytoria open source GitHub lub to samo źródło, z którego zaczerpnięto modyfikację: {source}!',
+    languageDe:
+        "Um die Veröffentlichung von Viren zu vermeiden, akzeptieren wir nur die folgenden Quellen: das Unkn0wncheats-Forum, den verifizierten Bereich im YouGame-Forum, Open-Source-GitHub-Repositories oder die gleiche Quelle, aus der die Modifikation stammt: {source}!",
+  },
+  'ChangeAvatarFrame': {
+    languageEn: "Change avatar frame",
+    languageRu: 'Изменить рамку над аватаркой',
+    languageUa: 'Змінити рамку над аватаркою',
+    languagePl: 'Zmień ramkę nad awatarem',
+    languageDe: "Ändern Sie den Rahmen über dem Avatar",
+  },
+  'NoBeta': {
+    languageEn: "Standard version of the game, with disabled beta version",
+    languageRu: 'Стандартная версия игры, без бета версий',
+    languageUa: 'Стандартна версія гри, без бета версій',
+    languagePl: 'Standardowa wersja gry, bez wersji beta',
+    languageDe: "Standardversion des Spiels, keine Betaversionen",
+  },
+  'AutoTranslation': {
+    languageEn: "Automatic translation",
+    languageRu: 'Автоматический перевод',
+    languageUa: 'Автоматичний переклад',
+    languagePl: 'Automatyczne tłumaczenie',
+    languageDe: "Automatische Übersetzung",
+  },
+  'AutoTranslationDescription': {
+    languageEn:
+        "All reviews, configurations, LUAs and other widgets will automatically be translated onto your language",
+    languageRu:
+        'Все комментарии, конфигурации, ЛУА и прочие подобные виджеты будут автоматически переводиться на твой язык',
+    languageUa:
+        'Усі коментарі, конфігурації, ЛУА та інші подібні віджети будуть автоматично перекладатися твоєю мовою',
+    languagePl:
+        'Wszystkie komentarze, konfiguracje, LUA i inne tego typu widżety zostaną automatycznie przetłumaczone na język użytkownika.',
+    languageDe:
+        "Alle Kommentare, Konfigurationen, LUA und andere solche Widgets werden automatisch in Ihre Sprache übersetzt",
+  },
+  'SetupForYourSelf': {
+    languageEn: "Setup ExLoader for yourself!",
+    languageRu: 'Настрой ExLoader под себя!',
+    languageUa: 'Налаштуй ExLoader під себе!',
+    languagePl: 'Dostosuj ExLoader do swoich potrzeb!',
+    languageDe: "Passen Sie ExLoader an Ihre Bedürfnisse an!",
+  },
+  'AllTheseAndOtherSettings': {
+    languageEn:
+        "All these and many other preferences you can change in the app settings at any time!",
+    languageRu:
+        'Все эти и множество других параметров ты можешь изменить в настройках приложения в любое время!',
+    languageUa:
+        'Усі ці та безліч інших параметрів ти можеш змінити в налаштуваннях програми в будь-який час!',
+    languagePl:
+        'Wszystkie te i wiele innych ustawień można w każdej chwili zmienić w ustawieniach aplikacji!',
+    languageDe:
+        "All diese und viele andere Einstellungen können Sie jederzeit in den Einstellungen der App ändern!",
+  },
+  'RestartWithLogOptions': {
+    languageEn: "Restart ExLoader with debug mode",
+    languageRu: 'Перезапустить ExLoader в дебаг режим',
+    languageUa: 'Перезапустити ExLoader у дебаг режим',
+    languagePl: 'Restart ExLoadera w trybie debugowania',
+    languageDe: "ExLoader im Debug-Modus neu starten",
+  },
+  'Logout': {
+    languageEn: "Log out",
+    languageRu: 'Выйти из аккаунта',
+    languageUa: 'Вийти з акаунта',
+    languagePl: 'Wylogowanie z konta',
+    languageDe: "Aus dem Konto abmelden",
+  },
+  'PleaseSayUsWatsWrongFirst': {
+    languageEn:
+        "In order to set a low mark for this modification, you must leave a comment describing what exactly you didn't like about it. This will help the developer to fix your problem and make the mod better!",
+    languageRu:
+        'Для того, чтобы поставить низкий балл под эту модификацию, ты должен оставить комментарий с описанием того, что конкретно тебе в ней не понравилось. Это поможет разработчику исправить твою проблему и сделать мод лучше!',
+    languageUa:
+        'Для того, щоб поставити низький бал під цю модифікацію, ти маєш залишити коментар з описом того, що конкретно тобі в ній не сподобалося. Це допоможе розробнику виправити твою проблему і зробити мод кращим!',
+    languagePl:
+        'Aby umieścić niską ocenę pod tą modyfikacją, musisz zostawić komentarz opisujący, co dokładnie ci się w niej nie podobało. Pomoże to deweloperowi naprawić twój problem i ulepszyć mod!',
+    languageDe:
+        "Um eine niedrige Punktzahl unter diese Modifikation zu setzen, musst du einen Kommentar hinterlassen, in dem du beschreibst, was genau dir an der Modifikation nicht gefallen hat. Dies wird dem Entwickler helfen, Ihr Problem zu beheben und die Mod zu verbessern!",
+  },
+  'OtherMods': {
+    languageEn: "🎲 Other modifications",
+    languageRu: '🎲 Другие модификации',
+    languageUa: '🎲 Інші модифікації',
+    languagePl: '🎲 Inne modyfikacje',
+    languageDe: '🎲 Andere Modifikationen',
+  },
+  'OtherModsDescription': {
+    languageEn:
+        "All mods to this game that were ever present in ExLoader can be seen here",
+    languageRu:
+        'Все моды к этой игре, когда-либо присутствовавшие в ExLoader, можно увидеть тут',
+    languageUa:
+        'Усі моди до цієї гри, які коли-небудь були присутні в ExLoader, можна побачити тут',
+    languagePl:
+        'Wszystkie mody do tej gry obecne w ExLoaderze można zobaczyć tutaj',
+    languageDe:
+        'Alle Mods für dieses Spiel, die jemals im ExLoader waren, können hier eingesehen werden',
+  },
+  'AutoProfanityHide': {
+    languageEn: "Hide profanity",
+    languageRu: 'Скрывать ненормативную лексику',
+    languageUa: 'Приховувати ненормативну лексику',
+    languagePl: 'Ukryj wulgaryzmy',
+    languageDe: 'Obszönitäten ausblenden',
+  },
+  'AutoProfanityHideDescription': {
+    languageEn:
+        "All comments with foul language will be automatically hidden, you won't even know they exist",
+    languageRu:
+        'Все комментарии с нецензурной бранью будут автоматически скрываться, ты даже не узнаешь об их существовании',
+    languageUa:
+        'Усі коментарі з нецензурною лайкою будуть автоматично приховуватися, ти навіть не дізнаєшся про їхнє існування',
+    languagePl:
+        'Wszystkie komentarze zawierające wulgarny język zostaną automatycznie ukryte, a użytkownik nie będzie nawet wiedział o ich istnieniu.',
+    languageDe:
+        'Alle Kommentare mit unflätigen Ausdrücken werden automatisch ausgeblendet, Sie werden nicht einmal wissen, dass sie existieren.',
+  },
+  'AutoProfanityWrapping': {
+    languageEn: "Warn of the presence of foul language",
+    languageRu: 'Предупреждать о наличии нецензурной брани',
+    languageUa: 'Попереджати про наявність нецензурної лайки',
+    languagePl: 'Ostrzeżenie przed wulgarnym językiem',
+    languageDe: 'Warnung vor unflätiger Sprache',
+  },
+  'AutoProfanityWrappingDescription': {
+    languageEn:
+        "All comments with profanity will be wrapped with a special warning temporarily hiding their appearance",
+    languageRu:
+        'Все комментарии с ненормативной лексикой будут обёрнуты специальным предупреждением, временно скрывающим их отображение',
+    languageUa:
+        'Усі коментарі з ненормативною лексикою будуть обгорнуті спеціальним попередженням, яке тимчасово приховує їх відображення',
+    languagePl:
+        'Wszystkie komentarze zawierające wulgaryzmy zostaną opatrzone specjalnym ostrzeżeniem, które tymczasowo ukryje ich wyświetlanie',
+    languageDe:
+        'Alle Kommentare mit Schimpfwörtern werden mit einer speziellen Warnung versehen, die ihre Anzeige vorübergehend ausblendet',
+  },
+  'IDoNotKnowTheUpdateLink': {
+    languageEn:
+        "This mod has just stopped working after the last game update and I want to report it!",
+    languageRu:
+        'Мод просто перестал работать после последнего обновления игры и я хочу об этом сообщить!',
+    languageUa:
+        'Мод просто перестав працювати після останнього оновлення гри і я хочу про це повідомити!',
+    languagePl:
+        'Mod przestał działać po ostatniej aktualizacji gry i chcę to zgłosić!',
+    languageDe:
+        'Der Mod hat nach dem letzten Spielupdate aufgehört zu funktionieren und ich möchte es melden!',
+  },
+  'TestStarted': {
+    languageEn: "Test has been successfully started",
+    languageRu: 'Тест успешно запущен',
+    languageUa: 'Тест успішно запущено',
+    languagePl: 'Test został pomyślnie uruchomiony',
+    languageDe: 'Der Test wurde erfolgreich durchgeführt',
+  },
+  'DebugConsole': {
+    languageEn: "Debug console",
+    languageRu: 'Дебаг консоль',
+    languageUa: 'Дебаг консоль',
+    languagePl: 'Konsola debugowania',
+    languageDe: 'Debug-Konsole',
+  },
+  'SocialPromo': {
+    languageEn:
+        'Join our EU and English-speaking Discord server, where you can find mod-gaming community, support, different roles and many other cool things!',
+    languageRu:
+        'Присоединяйся к нашему Telegram-чату, где ты можешь пообщаться с другими игроками, которые используют моды к играм из ExLoader!',
+    languageUa:
+        'Приєднуйся до нашого Telegram-чату, де ти можеш поспілкуватися з іншими гравцями, які використовують моди до ігор з ExLoader',
+    languagePl:
+        "Dołącz do naszego EU i anglojęzycznego serwera Discord, gdzie znajdziesz społeczność graczy modów, wsparcie, różne role i wiele innych fajnych rzeczy!",
+    languageDe:
+        "Tritt unserem EU- und englischsprachigen Discord-Server bei, auf dem du eine Mod-Gaming-Community, Unterstützung, verschiedene Rollen und viele andere coole Dinge finden kannst!",
   },
 };
