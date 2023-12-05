@@ -119,20 +119,20 @@ const translationElements = [
   },
   {
     name: 'WantedToDownloadFirst', value: {
-      languageEn: 'Wanted to download cheats for',
-      languageRu: 'Хотел скачать читы на',
-      languageUa: 'Хотів завантажити чити для',
-      languagePl: 'Chcesz pobrać cheaty do',
-      languageDe: "Wollten Sie Cheats für"
+      languageEn: 'Wanted to download free cheats for',
+      languageRu: 'Хотел скачать бесплатные читы на',
+      languageUa: 'Хотів завантажити безкоштовні чити для',
+      languagePl: 'Chcesz pobrać darmowe cheaty do',
+      languageDe: "Wollten Sie kostenlose Cheats für"
     },
   },
   {
     name: 'WantedToDownloadSecond', value: {
       languageEn: "virus-free? All cheats are updated to the latest game version and have features such as wh, aim, skinchager, etc.",
-      languageRu: 'без вирусов? Тебе в ExLoader! Все читы обновлены до последней версии игры и имеют функции такие как вх, аим, скинчейджер и т.д',
-      languageUa: 'без вірусів? Тобі в ExLoader! Усі чити оновлені до останньої версії гри і мають функції такі як вх, аім, скінчейджер і т.д.',
-      languagePl: 'wolny od wirusów? Wszystkie cheaty są zaktualizowane do najnowszej wersji gry i posiadają funkcje takie jak wh, aim, skinchager itp.',
-      languageDe: "herunterladen virenfrei? Alle Cheats sind auf die neueste Version des Spiels aktualisiert und haben Funktionen wie wh, skinchager, etc."
+      languageRu: 'без вирусов? Тебе в ExLoader! Все читы обновлены под ласт версию игры и включают в себя вх, аим, скинчейджер и т.д',
+      languageUa: 'без вірусів? Тобі в ExLoader! Усі чити оновлені під ласт версію гри і включають в себе вх, аім, скінчейджер  і т.д.',
+      languagePl: 'wolny od wirusów? Wszystkie cheaty są aktualizowane w wersji gry na flippera i obejmują vh, aim, skinchager itp.',
+      languageDe: "herunterladen virenfrei? Alle Cheats werden unter der Flipper-Version des Spiels aktualisiert und beinhalten vh, aim, skinchager, etc."
     },
   },
   {
@@ -156,35 +156,35 @@ const translationElements = [
   {
     name: 'MainPageDescription', value: {
       languageEn: 'This app will help you download cheats for games including wh, trigger, aim, skinchanger and aim!',
-      languageRu: 'Это приложение поможет тебе скачать читы для CS:GO и других игр, включая вх, trigger, аим, скинчейджер и aim!',
-      languageUa: 'Ця програма допоможе тобі завантажити чити для CS:GO та інших ігор, включно з вх, trigger, аім, скінчейджер і aim!',
-      languagePl: 'Ta aplikacja pomoże ci pobrać kody do CS:GO i innych gier, w tym wh, trigger, aim, skinchanger i aim!',
+      languageRu: 'Это приложение поможет тебе скачать читы для CS2 и других игр, включая вх, trigger, аим, скинчейджер и aim!',
+      languageUa: 'Ця програма допоможе тобі завантажити чити для CS2 та інших ігор, включно з вх, trigger, аім, скінчейджер і aim!',
+      languagePl: 'Ta aplikacja pomoże ci pobrać kody do CS2 i innych gier, w tym wh, trigger, aim, skinchanger i aim!',
       languageDe: "Diese App wird dir helfen, Cheats für Spiele herunterzuladen, wh, trigger, aim, skinchanger und aim!"
     },
   },
   {
     name: 'KeywordsTranslation', value: {
-      languageEn: 'ExLoader, modifications, cs:go, cs:go hacks, cs:go cheats, download, free, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses',
-      languageRu: 'ExLoader, модификации, кс го, cs:go, читы, cs:go hacks, cs:go cheats, скачать, бесплатный, экслоадер, еикслоадер, хлоадер, exlaoder, вх, аим, кс:го, скин чейнджер, skin changer, хак, банихоп, bunnyhop, без бана, без вирусов',
-      languageUa: 'ExLoader, модифікації, cs:go, cs:go хаки, cs:go чити, завантажити, безкоштовно, xloader, exlaoder, wh, aim, skin changer, bunnyhop, без бану, без вірусів',
-      languagePl: 'ExLoader, modyfikacje, cs:go, cs:go hacks, cs:go cheats, download, free, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses',
-      languageDe: "ExLoader, Modifikationen, cs:go, cs:go hacks, cs:go cheats, download, kostenlos, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses"
+      languageEn: 'ExLoader, modifications, cs2, cs2 hacks, cs2 cheats, download, free, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses',
+      languageRu: 'ExLoader, модификации, кс2, cs2, читы, cs2 hacks, cs2 cheats, скачать, бесплатный, экслоадер, еикслоадер, хлоадер, exlaoder, вх, аим, кс:го, скин чейнджер, skin changer, хак, банихоп, bunnyhop, без бана, без вирусов',
+      languageUa: 'ExLoader, модифікації, cs2, cs2 хаки, cs2 чити, завантажити, безкоштовно, xloader, exlaoder, wh, aim, skin changer, bunnyhop, без бану, без вірусів',
+      languagePl: 'ExLoader, modyfikacje, cs2, cs2 hacks, cs2 cheats, download, free, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses',
+      languageDe: "ExLoader, Modifikationen, cs2, cs2 hacks, cs2 cheats, download, kostenlos, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses"
     },
   },
   {
     name: 'UnifiedLibraryDescription', value: {
-      languageEn: 'Our application will help you to download cheats for CS:GO and other games, including wh, trigger, aim, skinchanger and all this for free, without any viruses.',
-      languageRu: 'Наше приложение поможет тебе скачать читы для CS:GO и других игр, включая вх, trigger, аим, wh, скинчейджер, aim, skinchanger и всё это совершенно бесплатно, без каких-либо вирусов.',
-      languageUa: 'Наш застосунок допоможе тобі завантажити чити для CS:GO та інших ігор, включно з вх, trigger, аім, wh, скінчейджер, aim, skinchanger і все це абсолютно безплатно, без будь-яких вірусів.',
-      languagePl: 'Nasza aplikacja pomoże Ci pobrać cheaty do CS:GO i innych gier, w tym inh, trigger, ahim, wh, skinchanger, aim, skinchanger i wszystko to za darmo, bez żadnych wirusów.',
-      languageDe: "Unsere App hilft dir, Cheats für CS:GO und andere Spiele herunterzuladen, einschließlich inh, trigger, aim, wh, skinchanger und all das kostenlos und ohne Viren."
+      languageEn: 'Our application will help you to download cheats for CS2 and other games, including wh, trigger, aim, skinchanger and all this for free, without any viruses.',
+      languageRu: 'Наше приложение поможет тебе скачать читы для CS2 и других игр, включая вх, trigger, аим, wh, скинчейджер, aim, skinchanger и всё это совершенно бесплатно, без каких-либо вирусов.',
+      languageUa: 'Наш застосунок допоможе тобі завантажити чити для CS2 та інших ігор, включно з вх, trigger, аім, wh, скінчейджер, aim, skinchanger і все це абсолютно безплатно, без будь-яких вірусів.',
+      languagePl: 'Nasza aplikacja pomoże Ci pobrać cheaty do CS2 i innych gier, w tym inh, trigger, ahim, wh, skinchanger, aim, skinchanger i wszystko to za darmo, bez żadnych wirusów.',
+      languageDe: "Unsere App hilft dir, Cheats für CS2 und andere Spiele herunterzuladen, einschließlich inh, trigger, aim, wh, skinchanger und all das kostenlos und ohne Viren."
     },
   },
   {
     name: 'UnifiedLibraryDescriptionEnd', value: {
-      languageEn: 'Wanted to find cheats for cs go or some other game? Consider yourself lucky!',
-      languageRu: 'Искал читы на кс го или же какую-то другую игру? Считай, что тебе повезло!',
-      languageUa: 'Шукав чити на кс го або ж якусь іншу гру? Вважай, що тобі пощастило!',
+      languageEn: 'Wanted to find cheats for cs2 or some other game? Consider yourself lucky!',
+      languageRu: 'Искал читы на кс2 или же какую-то другую игру? Считай, что тебе повезло!',
+      languageUa: 'Шукав чити на кс2 або ж якусь іншу гру? Вважай, що тобі пощастило!',
       languagePl: 'Szukasz cheatów do kcgo lub jakiejś innej gry? Uznaj się za szczęściarza!',
       languageDe: "Suchst du nach Cheats für kcgo oder ein anderes Spiel? Betrachten Sie sich glücklich!"
     },
@@ -224,15 +224,15 @@ const translationElements = [
   {
     name: 'CopyrightTranslation', value: {
       languageEn:
-        "2018-2023 © ExLoader. All rights reserved. Designed and developed by ",
+        "2018-2024 © ExLoader. All rights reserved. Designed and developed by ",
       languageRu:
-        '2018-2023 © ExLoader. Все права защищены. Спроектировано и разработано студией ',
+        '2018-2024 © ExLoader. Все права защищены. Спроектировано и разработано студией ',
       languageUa:
-        '2018-2023 © ExLoader. Всі права захищені. Спроектовано та розроблено студією ',
+        '2018-2024 © ExLoader. Всі права захищені. Спроектовано та розроблено студією ',
       languagePl:
-        '2018-2023 © ExLoader. Wszystkie prawa zastrzeżone. Zaprojektowane i opracowane przez ',
+        '2018-2024 © ExLoader. Wszystkie prawa zastrzeżone. Zaprojektowane i opracowane przez ',
       languageDe:
-        '2018-2023 © ExLoader. Alle Rechte vorbehalten. Entworfen und vom Studio entwickelt ',
+        '2018-2024 © ExLoader. Alle Rechte vorbehalten. Entworfen und vom Studio entwickelt ',
     },
   },
   {
@@ -282,12 +282,30 @@ const translationElements = [
     },
   },
   {
+    name: 'DiscordSupport', value: {
+      languageEn: 'Discord support',
+      languageRu: 'Поддержка Discord',
+      languageUa: 'Підтримка Discord',
+      languagePl: 'Wsparcie dla Discord',
+      languageDe: "Discord-Unterstützung"
+    },
+  },
+  {
     name: 'TelegramChannel', value: {
       languageEn: 'Our Telegram channel',
       languageRu: 'Наш Telegram канал',
       languageUa: 'Наш Telegram канал',
       languagePl: 'Nasz kanał Telegram',
       languageDe: "Unser Telegramm-Kanal"
+    },
+  },
+  {
+    name: 'DiscordChannel', value: {
+      languageEn: 'Our Discord channel',
+      languageRu: 'Наш Discord канал',
+      languageUa: 'Наш Discord канал',
+      languagePl: 'Nasz kanał Discord',
+      languageDe: "Unser Discord-Kanal"
     },
   },
   {
@@ -813,6 +831,15 @@ const translationElements = [
     },
   },
   {
+    name: 'LaunchesThird', value: {
+      languageEn: 'Launches',
+      languageRu: 'Запусков',
+      languageUa: 'Запусків',
+      languagePl: 'Uruchomień',
+      languageDe: "Starts",
+    },
+  },
+  {
     name: 'MoreInfo', value: {
       languageEn: 'Other information',
       languageRu: 'Другая информация',
@@ -921,6 +948,24 @@ const translationElements = [
     },
   },
   {
+    name: 'AdvertBlock', value: {
+      languageEn: "This is a place for an ad :c",
+      languageRu: 'Здесь должен быть рекламный блок :c',
+      languageUa: 'Тут має бути рекламний блок :c',
+      languagePl: 'Powinien tu być adblock :c',
+      languageDe: "Hier sollte es einen Adblock geben :c"
+    },
+  },
+  {
+    name: 'UnknownNoun', value: {
+      languageEn: "Unknown",
+      languageRu: 'Неизвестно',
+      languageUa: 'Невідомо',
+      languagePl: 'Nieznany',
+      languageDe: "Unbekannt"
+    },
+  },
+  {
     name: 'CfgPath', value: {
       languageEn: "Configs installation path:",
       languageRu: 'Путь установки конфигов:',
@@ -1017,6 +1062,33 @@ const translationElements = [
       languageUa: 'Як завантажити? Всі моди з нашого сайту можна запустити за допомогою програми ExLoader, саме її ти і скачуєш з сайту. Після натискання на кнопку «Завантажити» тобі необхідно вибрати шлях збереження файлу установника, дочекатися його завантаження, а потім запустити завантажений файл. У вікні вибери режим установки програми, дочекайся завершення установки і відкрий ExLoader. Після цього ти зможеш вибрати потрібну тобі гру з вподобаним модом і приступити до гри!',
       languagePl: 'Jak pobrać? Wszystkie mody z naszej strony mogą być uruchamiane za pomocą aplikacji ExLoader, którą pobierasz ze strony. Po kliknięciu przycisku «Pobierz» należy wybrać ścieżkę do zapisania pliku instalatora, poczekać na jego pobranie, a następnie uruchomić pobrany plik. W otwartym oknie wybierz tryb instalacji aplikacji, poczekaj na zakończenie instalacji i otwórz ExLoader. Następnie możesz wybrać grę z ulubionym modem i zacząć grać!',
       languageDe: "Wie wird heruntergeladen? Alle Mods von unserer Website können mit der ExLoader-Anwendung ausgeführt werden, es ist die, die Sie von der Website herunterladen. Nachdem Sie auf die Schaltfläche «Download» geklickt haben, müssen Sie den Pfad zum Speichern der Installationsdatei auswählen, den Download abwarten und dann die heruntergeladene Datei ausführen. In dem sich öffnenden Fenster wählen Sie den Installationsmodus der Anwendung, warten, bis die Installation abgeschlossen ist, und öffnen ExLoader. Danach können Sie das gewünschte Spiel mit Ihrem Lieblingsmod auswählen und mit dem Spielen beginnen!"
+    },
+  },
+  {
+    name: 'Since', value: {
+      languageEn: "since",
+      languageRu: 'с',
+      languageUa: 'з',
+      languagePl: 'od',
+      languageDe: "dem"
+    },
+  },
+  {
+    name: 'LaunchGuide', value: {
+      languageEn: "Launch guide/advices",
+      languageRu: 'Дополнения к запуску',
+      languageUa: 'Доповнення до запуску',
+      languagePl: 'Dodatki do uruchomienia',
+      languageDe: "Ergänzungen zur Einführung"
+    },
+  },
+  {
+    name: 'LaunchGuideDefault', value: {
+      languageEn: "1. Open the ExLoader\n2. Find this modification in it's library and open it's page\n3. Click Launch button!",
+      languageRu: "1. Открой ExLoader\n2. Найди эту модификацию и перейди на её карточку\n3. Нажми на кнопку запустить!",
+      languageUa: "1. відкрий ExLoader\n2. Знайди цю модифікацію і перейди на її картку\n3. Натисни на кнопку запустити!",
+      languagePl: "1. otwórz ExLoader\n2. Znajdź tę modyfikację i przejdź do jej karty\n3. Kliknij przycisk uruchom!",
+      languageDe: "1. öffnen Sie ExLoader\n2. Finden Sie diese Modifikation und gehen Sie zu ihrer Karte\n3. Klicken Sie auf die Schaltfläche Ausführen!"
     },
   },
 ];
