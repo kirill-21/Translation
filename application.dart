@@ -171,6 +171,13 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Wizualny',
     languageDe: "Visuelle",
   },
+  'Macros': {
+    languageEn: 'Macros',
+    languageRu: 'Макрос',
+    languageUa: 'Макрос',
+    languagePl: 'Makra',
+    languageDe: "Makros",
+  },
   'Simple': {
     languageEn: 'Humble',
     languageRu: 'Простая',
@@ -238,6 +245,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Нейромережі',
     languagePl: 'Sieć neuronowe',
     languageDe: "Neuronale Netze",
+  },
+  'MacrosPlural': {
+    languageEn: 'Macros',
+    languageRu: 'Макросы',
+    languageUa: 'Макроси',
+    languagePl: 'Makra',
+    languageDe: "Makros",
   },
   'Launch': {
     languageEn: 'Launch',
@@ -348,6 +362,18 @@ const Map<String, Map<String, String>> localeItems = {
         "Jeśli nie lubisz tego klawisza, zawsze możesz\ngo zmienić w ustawieniach\nExLoadera! Pamiętaj, że jeśli zmieniasz\nklawisz, aplikacja musi być otwarta podczas\ndziałania modyfikacji.",
     languageDe:
         "Wenn Ihnen diese Schaltfläche nicht gefällt, können Sie\njederzeit in den Einstellungen ExLoader eine neue \nBindung erstellen! Bitte beachten Sie, dass beim Ändern\ndes Taste der Loader geöffnet sein muss, während\nder Mod funktioniert.",
+  },
+  'YouCanRebindLaptop': {
+    languageEn:
+        "If you don't like this key, you can always rebind it in the ExLoader\nsettings! Please note that if you change the key, the application\nmust be opened while the modification is running.",
+    languageRu:
+        'Если тебе не нравится эта кнопка, ты всегда можешь поставить\nновый бинд в настройках ExLoader! Учти, что при смене клавиши,\nприложение должно быть открыто во время работы модификации.',
+    languageUa:
+        'Якщо тобі не подобається ця кнопка, ти завжди можеш поставити\nновий бінд в налаштуваннях ExLoader! Врахуй, що при зміні клавіші,\nлоадер має бути відкритим під час роботи модифікації.',
+    languagePl:
+        "Jeśli nie lubisz tego klawisza, zawsze możesz go zmienić w\nustawieniach ExLoadera! Pamiętaj, że jeśli zmieniasz klawisz,\naplikacja musi być otwarta podczas działania modyfikacji.",
+    languageDe:
+        "Wenn Ihnen diese Schaltfläche nicht gefällt, können Sie jederzeit in den\nEinstellungen ExLoader eine neue Bindung erstellen! Bitte beachten Sie,\ndass beim Ändern des Taste der Loader geöffnet sein muss, während\nder Mod funktioniert.",
   },
   'SafeToUse': {
     languageEn:
@@ -730,10 +756,10 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Beschwerden",
   },
   'ReviewsComplaints': {
-    languageEn: 'about comments to modifications',
-    languageRu: 'на комментарии к модификациям',
-    languageUa: 'на коментарі до модифікацій',
-    languagePl: 'na komentarze do modyfikacji',
+    languageEn: 'about comments to mods/cfgs',
+    languageRu: 'на комментарии к модам/кфг',
+    languageUa: 'на коментарі до модів/кфг',
+    languagePl: 'na komentarze do mods/cfg',
     languageDe: "über Kommentare",
   },
   'ReviewsComplaintsGames': {
@@ -1125,23 +1151,11 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Benachrichtigungen über Modifikationen erhalten",
   },
   'AddToExclusions': {
-    languageEn: 'Add files to Windows Defender exclusions',
-    languageRu: 'Добавлять файлы в исключения антивируса',
-    languageUa: 'Додавати файли в виключення антивіруса',
-    languagePl: 'Dodaj pliki do wykluczeń antywirusa',
-    languageDe: "Dateien zu Anti-Virus-Ausnahmen hinzufügen",
-  },
-  'AddToExclusionsDescription': {
-    languageEn:
-        "All downloading files will be added to the system's default antivirus exclusions",
-    languageRu:
-        'Все загружаемые файлы будут добавляться в исключения стандартного антивируса системы',
-    languageUa:
-        'Всі завантажувані файли будуть додаватися в виключення стандартного антивіруса системи',
-    languagePl:
-        'Wszystkie pobrane pliki zostaną dodane jako wyjątek dla domyślnego antywirusa systemu',
-    languageDe:
-        "Alle heruntergeladenen Dateien werden den Ausnahmen des Standard-Anti-Virus des Systems hinzugefügt",
+    languageEn: 'Windows Defender exclusions',
+    languageRu: 'Исключения Защитника Windows',
+    languageUa: 'Виключення Захисника Windows',
+    languagePl: 'Wykluczeń Windows Defender',
+    languageDe: "Windows Defender-Ausnahmen",
   },
   'Other': {
     languageEn: 'Other',
@@ -3631,6 +3645,18 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "Visuelle Modifikationen sollen Ihnen helfen, die ganze\nSchönheit des Spiels zu genießen, indem seine visuellen\nKomponenten geändert werden (Modelle von Objekten,\nCharakteren, der umgebenden Welt usw.).",
   },
+  'MacrosDescription': {
+    languageEn:
+        "Macros directly control the movement of your mouse\nand are not injected into the game in any way, they\nare often extremely safe to use.",
+    languageRu:
+        'Макросы напрямую управляют движением твоей мышки и\nникак не внедряются в игру, зачастую крайне безопасны\nдля использования.',
+    languageUa:
+        'Макроси безпосередньо керують рухом твоєї мишки і\nніяк не впроваджуються в гру, часто вкрай безпечні для\nвикористання.',
+    languagePl:
+        'Makra bezpośrednio kontrolują ruch myszy i nie są w\nżaden sposób zaimplementowane w grze, często są bardzo\nbezpieczne w użyciu.',
+    languageDe:
+        "Makros steuern direkt die Bewegung der Maus und sind\nnicht in das Spiel implementiert, sie sind oft sehr sicher\nzu verwenden.",
+  },
   'SimpleDescription': {
     languageEn:
         'Humble modifications are designed for\nsimple games and for increasing game\nrank in matchmaking at primary and\nsecondary levels. They have the minimum\nnecessary functionality for a comfortable\ngame and are great for beginners.',
@@ -4687,6 +4713,30 @@ const Map<String, Map<String, String>> localeItems = {
         'Niestety twój program antywirusowy lub zapora ogniowa uniemożliwia ExLoaderowi pobranie niezbędnych plików. Aby kontynuować, sprawdź ustawienia oprogramowania antywirusowego oraz zapory sieciowej i spróbuj ponownie!',
     languageDe:
         "Leider verhindert Ihr Antivirenprogramm oder Ihre Firewall, dass ExLoader die erforderlichen Dateien herunterlädt. Um fortzufahren, überprüfen Sie die Einstellungen Ihrer Antiviren- und Firewall-Software und versuchen Sie es erneut!",
+  },
+  'BetterConsiderIfNormal': {
+    languageEn:
+        "⛔️ However, since this modification has not yet been checked for the virus absence, we do not recommend launching it if it has any problems with your antivirus! All further actions are done at your own risk! P.S. the function of automatic adding of virus-unchecked mods to Windows Defender exclistions can be enabled in ExLoader settings!",
+    languageRu:
+        '⛔️ Однако, так как данная модификация ещё не проверялась на отсутствие вирусных угроз, мы не рекомендуем запускать её при возникновении каких-либо проблем с твоим антивирусом! Все дальнейшие действия ты делаешь лишь на свой страх и риск! P.S. функция авто-добавления непроверенных модов в исключения Защитника Windows может быть включена в настройках ExLoader!',
+    languageUa:
+         '⛔️ Однак, оскільки цю модифікацію ще не перевіряли на відсутність вірусних загроз, ми не рекомендуємо запускати її в разі виникнення будь-яких проблем із твоїм антивірусом! Усі подальші дії ти робиш лише на свій страх і ризик! P.S. функція авто-додавання неперевірених модів у винятки Захисника Windows може бути ввімкнена в налаштуваннях ExLoader!',
+    languagePl:
+        '⛔️ Jednakże, ponieważ ta modyfikacja nie została jeszcze sprawdzona pod kątem zagrożeń wirusowych, nie zalecamy jej uruchamiania, jeśli masz jakiekolwiek problemy z programem antywirusowym! Wszelkie dalsze działania podejmowane są na własne ryzyko! P.S. funkcję automatycznego dodawania niesprawdzonych modów do wyjątków Windows Defender można włączyć w ustawieniach ExLoadera!',
+    languageDe:
+        "⛔️ Da diese Modifikation jedoch noch nicht auf Virenbedrohungen geprüft wurde, raten wir davon ab, sie auszuführen, wenn Sie Probleme mit Ihrem Antivirusprogramm haben! Alle weiteren Aktionen erfolgen auf eigene Gefahr! P.S. die Funktion des automatischen Hinzufügens von ungetesteten Mods zu Windows Defender Ausnahmen kann in den ExLoader Einstellungen aktiviert werden!",
+  },
+  'WhyAntivirusSaysIt': {
+    languageEn:
+        '✅ Some antiviruses have a very negative attitude towards mods, considering them to be a pirate software that violates game rules, so they may deliberately display false positives, showing non-existent viruses, in order to reduce the number of illegal players. And the mod you have tried to launch has already been checked for the virus absence by an independent representative and is completely safe to be used!',
+    languageRu:
+        '✅ Некоторые антивирусы крайне негативно относятся к модам, считая их пиратским ПО, нарушающим правила игр, поэтому они могут специально выводить ложные срабатывания, показывая несуществующие вирусы, дабы уменьшить количество нелегальных игроков. А мод, который ты пытался запустить, уже прошёл проверку отсутствия вирусных угроз независимым представителем и полностью безопасен для запуска!',
+    languageUa:
+        '✅ Деякі антивіруси вкрай негативно ставляться до модів, вважаючи їх піратським ПЗ, що порушує правила ігор, тому вони можуть спеціально виводити помилкові спрацьовування, показуючи неіснуючі віруси, щоб зменшити кількість нелегальних гравців. А мод, який ти намагався запустити, вже пройшов перевірку відсутності вірусних загроз незалежним представником і повністю безпечний для запуску!',
+    languagePl:
+        '✅ Niektóre antywirusy mają bardzo negatywne nastawienie do modów, uważając je za pirackie oprogramowanie, które narusza zasady gry, więc mogą celowo wyświetlać fałszywe alarmy, pokazując nieistniejące wirusy, aby zmniejszyć liczbę nielegalnych graczy. A mod, który próbowałeś uruchomić, został już zweryfikowany jako wolny od wirusów przez niezależnego przedstawiciela i jest całkowicie bezpieczny do uruchomienia!',
+    languageDe:
+        "✅ Einige Antivirenprogramme stehen Mods sehr ablehnend gegenüber, da sie sie für raubkopierte Software halten, die gegen die Spielregeln verstößt. Daher zeigen sie möglicherweise absichtlich falsch positive Ergebnisse an, indem sie nicht vorhandene Viren anzeigen, um die Zahl der illegalen Spieler zu verringern. Und der Mod, den Sie versucht haben zu starten, wurde bereits von einem unabhängigen Vertreter als virenfrei bestätigt und ist absolut sicher!",
   },
   'PossibleAntivirusList': {
     languageEn:
@@ -7543,13 +7593,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         'Möchten Sie wissen, in welchem Ordner die anderen\nModifizierungsdateien installiert werden? Dann komm her!',
   },
-  'WhichMethods': {
-    languageEn: "Which modifications use this\ninjection method?",
-    languageRu: 'Какие модификации используют\nданный способ инъекции?',
-    languageUa: "Які модифікації використовують\nданий спосіб ін'єкції?",
-    languagePl: 'Jakie modyfikacje wykorzystują\ntę metodę wstrzykiwania?',
-    languageDe: 'Welche Mods verwenden\ndiese Injektionsmethode',
-  },
   'NoModificationsForThisMethod': {
     languageEn:
         "Right now, there are no modifications in the ExLoader library that support this injection method 🙁",
@@ -7800,6 +7843,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'На сторінці повідомлень з іншими повідомленнями',
     languagePl: 'Na stronie powiadomień z pozostałymi powiadomieniami',
     languageDe: 'Auf der Benachrichtigungsseite mit anderen Benachrichtigungen',
+  },
+  'MonoFlags': {
+    languageEn: "You may need to specify Namespace, Class and Method values to launch this mod. You can specify these values here separated by comma!",
+    languageRu: 'Возможно, для запуска этого мода тебе необходимо указать значения Namespace, Class и Method. Эти значения можно прописать тут через запятую!',
+    languageUa: 'Можливо, для запуску цього мода тобі необхідно вказати значення Namespace, Class і Method. Ці значення можна прописати тут через кому!',
+    languagePl: 'Aby uruchomić ten mod, może być konieczne określenie wartości Namespace, Class i Method. Możesz określić te wartości tutaj, oddzielając je przecinkami!',
+    languageDe: 'Möglicherweise müssen Sie Werte für Namespace, Class und Method angeben, um diese Mod auszuführen. Sie können diese Werte hier durch Kommas getrennt angeben!',
   },
   'SteamModule': {
     languageEn:
@@ -10438,8 +10488,8 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
   },
   'AutoProfanityWrapping': {
     languageEn: "Warn of the presence of foul language",
-    languageRu: 'Предупреждать о наличии нецензурной брани',
-    languageUa: 'Попереджати про наявність нецензурної лайки',
+    languageRu: 'Показывать наличие нецензурной брани',
+    languageUa: 'Показувати наявність нецензурної лайки',
     languagePl: 'Ostrzeżenie przed wulgarnym językiem',
     languageDe: 'Warnung vor unflätiger Sprache',
   },
@@ -10483,14 +10533,95 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
   },
   'SocialPromo': {
     languageEn:
-        'Join our EU and English-speaking Discord server, where you can find mod-gaming community, support, different roles and many other cool things!',
+        'Join our EU and English-speaking Discord server, where you can find mod-gaming community, support, different roles and many other cool things! Click to open, or swipe sideways to hide this notice.',
     languageRu:
-        'Присоединяйся к нашему Telegram-чату, где ты можешь пообщаться с другими игроками, которые используют моды к играм из ExLoader!',
+        'Присоединяйся к нашему Telegram-чату, где ты можешь пообщаться с другими игроками, которые используют моды к играм из ExLoader! Нажми, чтобы перейти, или же свайпни вбок, чтобы скрыть это уведомление.',
     languageUa:
-        'Приєднуйся до нашого Telegram-чату, де ти можеш поспілкуватися з іншими гравцями, які використовують моди до ігор з ExLoader',
+        'Приєднуйся до нашого Telegram-чату, де ти можеш поспілкуватися з іншими гравцями, які використовують моди до ігор з ExLoader! Натисни, щоб перейти, або ж свайпни вбік, щоб приховати це повідомлення.',
     languagePl:
-        "Dołącz do naszego EU i anglojęzycznego serwera Discord, gdzie znajdziesz społeczność graczy modów, wsparcie, różne role i wiele innych fajnych rzeczy!",
+        "Dołącz do naszego EU i anglojęzycznego serwera Discord, gdzie znajdziesz społeczność graczy modów, wsparcie, różne role i wiele innych fajnych rzeczy! Kliknij, aby przejść, lub przesuń palcem w bok, aby ukryć to powiadomienie.",
     languageDe:
-        "Tritt unserem EU- und englischsprachigen Discord-Server bei, auf dem du eine Mod-Gaming-Community, Unterstützung, verschiedene Rollen und viele andere coole Dinge finden kannst!",
+        "Tritt unserem EU- und englischsprachigen Discord-Server bei, auf dem du eine Mod-Gaming-Community, Unterstützung, verschiedene Rollen und viele andere coole Dinge finden kannst! Klicken Sie, um zu gehen, oder wischen Sie seitwärts, um diesen Hinweis auszublenden.",
+  },
+  'WhereToDownloadGame': {
+    languageEn:
+        "Don't know where to download the {Game} game to launch these mods? Then click the side button or try to find the necessary version on the internet manually!",
+    languageRu:
+        'Не знаешь, где можно скачать игру {Game} для запуска этих модов? Тогда жми на кнопку сбоку или же попробуй найти необходимую версию в интернете вручную!',
+    languageUa:
+        'Не знаєш, де можна завантажити гру {Game} для запуску цих модів? Тоді тисни на кнопку збоку або ж спробуй знайти необхідну версію в інтернеті вручну!',
+    languagePl:
+        'Nie wiesz, gdzie możesz pobrać {Game}, aby uruchomić te mody? Kliknij przycisk z boku lub spróbuj ręcznie znaleźć odpowiednią wersję w Internecie!',
+    languageDe:
+        'Sie wissen nicht, wo Sie {Game} herunterladen können, um diese Mods auszuführen? Dann klicke auf den Button auf der Seite oder versuche, die benötigte Version manuell im Internet zu finden!',
+  },
+  'Download': {
+    languageEn: "Download",
+    languageRu: 'Скачать',
+    languageUa: 'Завантажити',
+    languagePl: 'Pobierz',
+    languageDe: 'Herunterladen',
+  },
+  'NoComments': {
+    languageEn:
+        "It looks like that no one has added a single review for this CFG/LUA yet. You can be the first one to do it!",
+    languageRu:
+        'Похоже, что ещё никто не добавил свой отзыв к этому кфг/луа. Ты можешь стать первым!',
+    languageUa:
+        "Схоже, що ще ніхто не додав свій відгук до цього кфг/луа. Ти можеш стати першим!",
+    languagePl:
+        'Wygląda na to, że nikt jeszcze nie dodał swojej recenzji dla tego cfg/lua. Możesz być pierwszy!',
+    languageDe:
+        "Sieht so aus, als hätte noch niemand seine Bewertung für diese cfg/lua abgegeben. Sie können der Erste sein!",
+  },
+  'ReconnectionSucceeded': {
+    languageEn:
+        "Connection to the application's server has been successfully re-established!",
+    languageRu: 'Соединение с сервером приложения успешно восстановлено!',
+    languageUa: "З'єднання із сервером програми успішно відновлено!",
+    languagePl:
+        'Połączenie z serwerem aplikacji zostało pomyślnie przywrócone!',
+    languageDe:
+        'Die Verbindung zum Anwendungsserver wurde erfolgreich wiederhergestellt!',
+  },
+  'PlaceForAnAd': {
+    languageEn: "Place for an ad...",
+    languageRu: 'Место для рекламы...',
+    languageUa: 'Місце для реклами...',
+    languagePl: 'Miejsce na reklamę...',
+    languageDe: 'Ein Ort zum Werben...',
+  },
+  'Ad': {
+    languageEn: "Advertisement",
+    languageRu: 'Реклама',
+    languageUa: 'Реклама',
+    languagePl: 'Reklama',
+    languageDe: 'Anzeige',
+  },
+  'OnlyTrusted': {
+    languageEn: "Add only virus-checked mod files to antivirus exceptions",
+    languageRu:
+        'Добавлять файлы только проверенных на вирусы модов в исключения антивируса',
+    languageUa:
+        'Додавати файли тільки перевірених на віруси модів у винятки антивірусу',
+    languagePl: 'Dodaj tylko sprawdzone pliki modów do wyjątków antywirusowych',
+    languageDe:
+        'Nur virengeprüfte Mod-Dateien zu den Antiviren-Ausnahmen hinzufügen',
+  },
+  'EvenUntrusted': {
+    languageEn: "Add both virus-checked and virus-unchecked mods files",
+    languageRu:
+        'Добавлять как файлы проверенных, так и файлы непроверенных модов',
+    languageUa:
+        'Додавати як файли перевірених, так і файли неперевірених модів',
+    languagePl: 'Dodaj zarówno zaznaczone, jak i niezaznaczone pliki modów',
+    languageDe: 'Hinzufügen von markierten und nicht markierten Mod-Dateien',
+  },
+  'NoTrustedNoUntrusted': {
+    languageEn: "Do not add any files to antivirus exclusions at all",
+    languageRu: 'Вообще не добавлять никакие файлы в исключения антивируса',
+    languageUa: 'Взагалі не додавати жодних файлів у винятки антивірусу',
+    languagePl: 'Nie dodawaj żadnych plików do wykluczeń antywirusowych.',
+    languageDe: 'Fügen Sie keine Dateien zu den Antiviren-Ausschlüssen hinzu.',
   },
 };
