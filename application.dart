@@ -2020,12 +2020,36 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "Leider ist Ihre Windows-Version nicht mit der empfohlenen Version der Windows-Modifikation kompatibel. Wenn Sie mit diesem Mod spielen möchten, müssen Sie Windows installieren",
   },
+  'GPUIsIncompatible': {
+    languageEn:
+        "It looks like your video card is incompatible with one of the ones needed to launch this modification. You will need one of the following manufacturers' GPUs to use this mod:",
+    languageRu:
+        'Похоже, что твоя видеокарта несовместима с одной из тех, что нужна для запуска модификации. Для корректной работы мода тебе потребуется одна из видеокарт следующих производителей:',
+    languageUa:
+        'Схоже, що твоя відеокарта несумісна з однією з тих, що потрібна для запуску модифікації. Для коректної роботи мода тобі потрібна одна з відеокарт таких виробників:',
+    languagePl:
+        'Wygląda na to, że twoja karta graficzna jest niekompatybilna z jedną z kart wymaganych do uruchomienia moda. Do poprawnego uruchomienia modyfikacji potrzebna będzie karta graficzna jednego z poniższych producentów:',
+    languageDe:
+        "Es sieht so aus, als ob Ihre Grafikkarte nicht mit einer der Karten kompatibel ist, die zum Ausführen der Mod benötigt werden. Sie benötigen eine Grafikkarte eines der folgenden Hersteller, um die Mod korrekt auszuführen:",
+  },
   'MicrosoftCheck': {
     languageEn: 'Checking for installation of Microsoft components',
     languageRu: 'Проверяем компоненты Microsoft',
     languageUa: 'Перевіряємо наявність компонентів Microsoft',
     languagePl: 'Sprawdzamy obecność komponentów Microsoft',
     languageDe: "Wir prüfen das Vorhandensein von Microsoft-Komponenten",
+  },
+  'SortByTagDescription': {
+    languageEn:
+        'Sorting by skin changers, legit, rage and movement mods as\nwell as by neural networks and macros can be found here!',
+    languageRu:
+        'Сортировка по скин-чейнджерам, легит, рейдж и мувмент модам,\nа так-же по нейросетям и макросам происходит здесь!',
+    languageUa:
+        'Сортування за скін-чейнджерами, легіт, рейдж і мувмент модами,\nа також за нейромережами і макросами відбувається тут!',
+    languagePl:
+        'Sortowanie według skin changerów, modów legit, rage i movement,\na także według sieci neuronowych i makr odbywa się tutaj!',
+    languageDe:
+        "Die Sortierung nach Skin-Changer, Legit-, Rage- und Muvment\nMods, sowie nach neuronalen Netzen und Makros erfolgt hier!",
   },
   'NetFrameworkCheck': {
     languageEn: 'Comparing the .NET Framework versions',
@@ -3144,15 +3168,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'AntivirusCheckTip': {
     languageEn:
-        "🛡🛡🛡 Have you ever downloaded modifications through any third-party source, not through our application? If so, we recommend you to protect yourself and your data by downloading a good antivirus, for example Kaspersky or Eset Nod32, and checking your system for the absence of virus threats. A simple step that obviously will not be superfluous!)",
+        "🛡🛡🛡 Have you ever downloaded modifications through any third-party\nsource, not through our application? If so, we recommend you to protect\nyourself and your data by downloading a good antivirus, for example\nKaspersky or Eset Nod32, and checking your system for the absence\nof virus threats. A simple step that obviously will not be superfluous!)",
     languageRu:
-        '🛡🛡🛡 Ты когда-нибудь скачивал модификации через какой-либо сторонний источник, а не с помощью нашего приложения? Если да, то мы рекомендуем тебе обезопасить себя и свои данные, скачав хороший антивирусник, например Kaspersky или же Eset Nod32, и проверив свою систему на отстутствие вирусных угроз. Простой шаг, но лишним явно не будет!)',
+        '🛡🛡🛡 Ты когда-нибудь скачивал модификации через какой-либо сторонний\nисточник, а не с помощью нашего приложения? Если да, то мы рекомендуем\nтебе обезопасить себя и свои данные, скачав хороший антивирусник, например\nKaspersky или же Eset Nod32, и проверив свою систему на отстутствие вирусных\nугроз. Простой шаг, но лишним явно не будет!)',
     languageUa:
-        '🛡🛡🛡 Ти коли-небудь завантажувал модифікації через якесь стороннє джерело, а не за допомогою нашого додатка? Якщо так, то ми рекомендуємо тобі убезпечити себе і свої дані, скачавши хороший антивирусник, наприклад Kaspersky або ж Eset Nod32, і перевіривши свою систему на відсутність вірусних загроз. Простий крок, але зайвим явно не буде!)',
+        '🛡🛡🛡 Ти коли-небудь завантажувал модифікації через якесь стороннє\nджерело, а не за допомогою нашого додатка? Якщо так, то ми рекомендуємо тобі\nубезпечити себе і свої дані, скачавши хороший антивирусник, наприклад\nKaspersky або ж Eset Nod32, і перевіривши свою систему на відсутність вірусних\nзагроз. Простий крок, але зайвим явно не буде!)',
     languagePl:
-        '🛡🛡🛡 Czy kiedykolwiek pobierałeś modyfikacje z jakiegoś źródła zewnętrznego zamiast korzystać z naszej aplikacji? Jeśli tak, zalecamy ochronę siebie i swoich danych poprzez pobranie dobrego programu antywirusowego, takiego jak Kaspersky lub Eset Nod32, oraz sprawdzenie systemu pod kątem obecności wirusów. Prosty krok, ale na pewno nie będzie zbędny!)',
+        '🛡🛡🛡 Czy kiedykolwiek pobierałeś modyfikacje z jakiegoś źródła\nzewnętrznego zamiast korzystać z naszej aplikacji? Jeśli tak, zalecamy\nochronę siebie i swoich danych poprzez pobranie dobrego programu\nantywirusowego, takiego jak Kaspersky lub Eset Nod32, oraz sprawdzenie\nsystemu pod kątem obecności wirusów. Prosty krok, ale na pewno nie\nbędzie zbędny!)',
     languageDe:
-        "🛡🛡🛡 Hast du jemals Mods über eine Drittanbieterquelle heruntergeladen, anstatt unsere App zu verwenden? In diesem Fall empfehlen wir Ihnen, sich und Ihre Daten zu schützen, indem Sie ein gutes Antivirenprogramm wie Kaspersky oder Eset Nod32 herunterladen und Ihr System auf Virenbedrohungen überprüfen. Ein einfacher Schritt, aber er wird definitiv nicht überflüssig sein!)",
+        "🛡🛡🛡 Hast du jemals Mods über eine Drittanbieterquelle\nheruntergeladen, anstatt unsere App zu verwenden? In diesem\nFall empfehlen wir Ihnen, sich und Ihre Daten zu schützen,\nindem Sie ein gutes Antivirenprogramm wie Kaspersky oder\nEset Nod32 herunterladen und Ihr System auf Virenbedrohungen\nüberprüfen. Ein einfacher Schritt, aber er wird definitiv nicht\nüberflüssig sein!)",
   },
   'FailedToLaunchBecauseSteamWasRestarted': {
     languageEn:
@@ -4716,15 +4740,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'BetterConsiderIfNormal': {
     languageEn:
-        "⛔️ However, since this modification has not yet been checked for the virus absence, we do not recommend launching it if it has any problems with your antivirus! All further actions are done at your own risk! P.S. the function of automatic adding of virus-unchecked mods to Windows Defender exclistions can be enabled in ExLoader settings!",
+        "⛔️ However, since this modification has not yet been checked for the virus absence, the decision whether to launch it or not in case of any problems with your antivirus, you do only at your own risk! P.S. the function of automatic adding of virus-unchecked mods to Windows Defender exclistions can be enabled in ExLoader settings!",
     languageRu:
-        '⛔️ Однако, так как данная модификация ещё не проверялась на отсутствие вирусных угроз, мы не рекомендуем запускать её при возникновении каких-либо проблем с твоим антивирусом! Все дальнейшие действия ты делаешь лишь на свой страх и риск! P.S. функция авто-добавления непроверенных модов в исключения Защитника Windows может быть включена в настройках ExLoader!',
+        '⛔️ Однако, так как данная модификация ещё не проверялась на отсутствие вирусных угроз, решение запускать её или же нет при возникновении каких-либо проблем с твоим антивирусом, ты делаешь лишь на свой страх и риск! P.S. функция авто-добавления непроверенных модов в исключения Защитника Windows может быть включена в настройках ExLoader!',
     languageUa:
-         '⛔️ Однак, оскільки цю модифікацію ще не перевіряли на відсутність вірусних загроз, ми не рекомендуємо запускати її в разі виникнення будь-яких проблем із твоїм антивірусом! Усі подальші дії ти робиш лише на свій страх і ризик! P.S. функція авто-додавання неперевірених модів у винятки Захисника Windows може бути ввімкнена в налаштуваннях ExLoader!',
+        '⛔️ Однак, оскільки цю модифікацію ще не перевіряли на відсутність вірусних загроз, рішення запускати її чи ні в разі виникнення якихось проблем із твоїм антивірусом, ти робиш лише на свій страх і ризик! P.S. функція авто-додавання неперевірених модів у винятки Захисника Windows може бути ввімкнена в налаштуваннях ExLoader!',
     languagePl:
-        '⛔️ Jednakże, ponieważ ta modyfikacja nie została jeszcze sprawdzona pod kątem zagrożeń wirusowych, nie zalecamy jej uruchamiania, jeśli masz jakiekolwiek problemy z programem antywirusowym! Wszelkie dalsze działania podejmowane są na własne ryzyko! P.S. funkcję automatycznego dodawania niesprawdzonych modów do wyjątków Windows Defender można włączyć w ustawieniach ExLoadera!',
+        '⛔️ Ponieważ jednak modyfikacja ta nie została jeszcze sprawdzona pod kątem zagrożeń wirusowych, decyzję o jej uruchomieniu lub nie w przypadku jakichkolwiek problemów z programem antywirusowym podejmujesz wyłącznie na własne ryzyko! P.S. funkcję automatycznego dodawania niesprawdzonych modów do wyjątków Windows Defender można włączyć w ustawieniach ExLoadera!',
     languageDe:
-        "⛔️ Da diese Modifikation jedoch noch nicht auf Virenbedrohungen geprüft wurde, raten wir davon ab, sie auszuführen, wenn Sie Probleme mit Ihrem Antivirusprogramm haben! Alle weiteren Aktionen erfolgen auf eigene Gefahr! P.S. die Funktion des automatischen Hinzufügens von ungetesteten Mods zu Windows Defender Ausnahmen kann in den ExLoader Einstellungen aktiviert werden!",
+        "⛔️ Da diese Modifikation jedoch noch nicht auf Virenbedrohungen geprüft wurde, erfolgt die Entscheidung, sie bei Problemen mit Ihrem Antivirusprogramm auszuführen oder nicht, nur auf eigenes Risiko! Alle weiteren Aktionen erfolgen auf eigene Gefahr! P.S. die Funktion des automatischen Hinzufügens von ungetesteten Mods zu Windows Defender Ausnahmen kann in den ExLoader Einstellungen aktiviert werden!",
   },
   'WhyAntivirusSaysIt': {
     languageEn:
@@ -5397,15 +5421,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ResendHint': {
     languageEn:
-        "Didn't find the letter? Ensure that you have typed your email correctly, and try checking the «spam» and «promotions» folders, but in rare cases, the letter delivery process may delay for several minutes!",
+        "Didn't find the letter? Ensure that you have typed your email correctly, and try checking the «spam» and «promotions» folders, but in rare cases, the letter delivery process may delay for several minutes! Or go back and use login as google/guest mode to enter the ExLoader.",
     languageRu:
-        'Не нашёл письма? Убедись, что почтовый адрес введён правильно, а также проверь папки «спам» и «рассылки», но в редких случаях доставка письма может затянуться на несколько минут!',
+        'Не нашёл письма? Убедись, что почтовый адрес введён правильно, а также проверь папки «спам» и «рассылки», но в редких случаях доставка письма может затянуться на несколько минут! Либо вернись назад и используй авторизацию с помощью Google/гостевой режим для входа в ExLoader.',
     languageUa:
-        'Не знайшов листа? Переконайся, що поштова адреса введена правильно, а також перевір папки «спам» і «розсилки», але в рідкісних випадках доставка листа може затягнутися на кілька хвилин!',
+        'Не знайшов листа? Переконайся, що поштова адреса введена правильно, а також перевір папки «спам» і «розсилки», але в рідкісних випадках доставка листа може затягнутися на кілька хвилин! Або повернися назад і використовуй авторизацію за допомогою Google/гостьовий режим для входу в ExLoader.',
     languagePl:
-        'Nie znalazłeś wiadomości? Upewnij się, że adres e-mail został wprowadzony poprawnie, sprawdź folder ze spamem, w rzadkich przypadkach dostarczenie wiadomości e-mail może zająć kilka minut!',
+        'Nie znalazłeś wiadomości? Upewnij się, że adres e-mail został wprowadzony poprawnie, sprawdź folder ze spamem, w rzadkich przypadkach dostarczenie wiadomości e-mail może zająć kilka minut! Lub wróć i użyj logowania google / trybu gościa, aby zalogować się do ExLoadera.',
     languageDe:
-        "Brief nicht gefunden? Bitte achten Sie auf die korrekte Eingabe der E-Mail-Adresse und prüfen Sie Ihren Spam- und E-Mail-Ordner, aber in seltenen Fällen kann es einige Minuten dauern, bis die E-Mail zugestellt wird!",
+        "Brief nicht gefunden? Bitte achten Sie auf die korrekte Eingabe der E-Mail-Adresse und prüfen Sie Ihren Spam- und E-Mail-Ordner, aber in seltenen Fällen kann es einige Minuten dauern, bis die E-Mail zugestellt wird! Oder gehen Sie zurück und verwenden Sie den Google-Login/Gastmodus, um sich bei ExLoader anzumelden.",
   },
   'ConfirmDescription': {
     languageEn:
@@ -5586,15 +5610,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ConfigsCanBeBad': {
     languageEn:
-        "🥷🥷🥷 Please note that some configurations or LUA from this section may work poorly or might not work at all, since they are uploaded by other users of the application, not by modifications developers.",
+        "🥷🥷🥷 Please note that some configurations or LUA from\nthis section may work poorly or might not work at\nall, since they are uploaded by other users of the application,\nnot by modifications developers. Thankfully, you can always\ndislike, write a negative review or send a complaint about\nany cfg/lua!",
     languageRu:
-        '🥷🥷🥷 Обрати внимание, некоторые конфигурации или же ЛУА из данного раздела могут работать плохо или не работать вовсе, так как они загружаются другими пользователями приложения, а не разработчиками модификаций.',
+        '🥷🥷🥷 Обрати внимание, некоторые конфигурации или же ЛУА\nиз данного раздела могут работать плохо или не работать вовсе, так\nкак они загружаются другими пользователями приложения, а не\nразработчиками модификаций. Благо, ты всегда можешь поставить дизлайк,\nнаписать негативный отзыв или же подать жалобу на любой кфг!',
     languageUa:
-        "🥷🥷🥷 Зверни увагу, деякі конфігурації або ж ЛУА з цього розділу можуть працювати погано або не працювати зовсім, так як вони завантажуються іншими користувачами програми, а не розробниками модифікацій.",
+        "🥷🥷🥷 Зверни увагу, деякі конфігурації або ж ЛУА з цього\nрозділу можуть працювати погано або не працювати зовсім, так як вони\nзавантажуються іншими користувачами програми, а не\nрозробниками модифікацій. Благо, ти завжди можеш поставити дизлайк,\nнаписати негативний відгук або ж подати скаргу на будь-який кфг!",
     languagePl:
-        '🥷🥷🥷 Należy pamiętać, że niektóre konfiguracje lub LUA z tej sekcji mogą nie działać dobrze lub wcale, ponieważ są przesyłane przez innych użytkowników programu, a nie przez twórców modyfikacji.',
+        '🥷🥷🥷 Należy pamiętać, że niektóre konfiguracje lub LUA z\ntej sekcji mogą nie działać dobrze lub wcale, ponieważ są przesyłane\nprzez innych użytkowników programu, a nie przez twórców modyfikacji.\nBoże, zawsze możesz nie lubić, napisać negatywną recenzję lub złożyć\nskargę na dowolny cfg!',
     languageDe:
-        "🥷🥷🥷 Bitte beachten Sie, dass einige Konfigurationen oder LUA aus diesem Abschnitt möglicherweise nicht gut oder überhaupt nicht funktionieren, da sie von anderen Benutzern des Programms hochgeladen werden, nicht von Mod-Entwicklern.",
+        "🥷🥷🥷 Bitte beachten Sie, dass einige Konfigurationen oder\nLUA aus diesem Abschnitt möglicherweise nicht gut oder überhaupt nicht\nfunktionieren, da sie von anderen Benutzern des Programms hochgeladen\nwerden, nicht von Mod-Entwicklern. Meine Güte, Sie können jederzeit\neine Abneigung, eine negative Bewertung oder eine Beschwerde über eine\nbeliebige cfg schreiben!",
   },
   'SuccessfulConfigurationUpload': {
     languageEn:
@@ -7845,11 +7869,16 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: 'Auf der Benachrichtigungsseite mit anderen Benachrichtigungen',
   },
   'MonoFlags': {
-    languageEn: "You may need to specify Namespace, Class and Method values to launch this mod. You can specify these values here separated by comma!",
-    languageRu: 'Возможно, для запуска этого мода тебе необходимо указать значения Namespace, Class и Method. Эти значения можно прописать тут через запятую!',
-    languageUa: 'Можливо, для запуску цього мода тобі необхідно вказати значення Namespace, Class і Method. Ці значення можна прописати тут через кому!',
-    languagePl: 'Aby uruchomić ten mod, może być konieczne określenie wartości Namespace, Class i Method. Możesz określić te wartości tutaj, oddzielając je przecinkami!',
-    languageDe: 'Möglicherweise müssen Sie Werte für Namespace, Class und Method angeben, um diese Mod auszuführen. Sie können diese Werte hier durch Kommas getrennt angeben!',
+    languageEn:
+        "You may need to specify Namespace, Class and Method values to launch this mod. You can specify these values here separated by comma!",
+    languageRu:
+        'Возможно, для запуска этого мода тебе необходимо указать значения Namespace, Class и Method. Эти значения можно прописать тут через запятую!',
+    languageUa:
+        'Можливо, для запуску цього мода тобі необхідно вказати значення Namespace, Class і Method. Ці значення можна прописати тут через кому!',
+    languagePl:
+        'Aby uruchomić ten mod, może być konieczne określenie wartości Namespace, Class i Method. Możesz określić te wartości tutaj, oddzielając je przecinkami!',
+    languageDe:
+        'Möglicherweise müssen Sie Werte für Namespace, Class und Method angeben, um diese Mod auszuführen. Sie können diese Werte hier durch Kommas getrennt angeben!',
   },
   'SteamModule': {
     languageEn:
@@ -8305,44 +8334,60 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Без обмежень',
   },
   'GBs': {
-    languageEn: 'Gb/s',
-    languageRu: 'Гб/с',
-    languageUa: 'Гб/с',
+    languageEn: 'gb/s',
+    languageRu: 'гб/с',
+    languageUa: 'гб/с',
+    languagePl: "gb/s",
+    languageDe: 'gb/s',
   },
   'GB': {
-    languageEn: 'GB',
-    languageRu: 'ГБ',
-    languageUa: 'ГБ',
+    languageEn: 'gb',
+    languageRu: 'гб',
+    languageUa: 'гб',
+    languagePl: "gb",
+    languageDe: 'gb',
   },
   'MBs': {
-    languageEn: 'Mb/s',
-    languageRu: 'Мб/с',
-    languageUa: 'Мб/с',
+    languageEn: 'mb/s',
+    languageRu: 'мб/с',
+    languageUa: 'мб/с',
+    languagePl: "mb/s",
+    languageDe: 'mb/s',
   },
   'MB': {
-    languageEn: 'MB',
-    languageRu: 'МБ',
-    languageUa: 'МБ',
+    languageEn: 'mb',
+    languageRu: 'мб',
+    languageUa: 'мб',
+    languagePl: "mb",
+    languageDe: 'mb',
   },
   'KBs': {
-    languageEn: 'Kb/s',
-    languageRu: 'Кб/с',
-    languageUa: 'Кб/с',
+    languageEn: 'kb/s',
+    languageRu: 'кб/с',
+    languageUa: 'кб/с',
+    languagePl: "kb/s",
+    languageDe: 'kb/s',
   },
   'KB': {
-    languageEn: 'KB',
-    languageRu: 'КБ',
-    languageUa: 'КБ',
+    languageEn: 'kb',
+    languageRu: 'кб',
+    languageUa: 'кб',
+    languagePl: "kb",
+    languageDe: 'kb',
   },
   'Bs': {
-    languageEn: 'B/s',
-    languageRu: 'Б/с',
-    languageUa: 'Б/с',
+    languageEn: 'b/s',
+    languageRu: 'б/с',
+    languageUa: 'б/с',
+    languagePl: "b/s",
+    languageDe: 'b/s',
   },
   'B': {
-    languageEn: 'B',
-    languageRu: 'Б',
-    languageUa: 'Б',
+    languageEn: 'b',
+    languageRu: 'б',
+    languageUa: 'б',
+    languagePl: "b",
+    languageDe: 'b',
   },
   'PleaseMoreThanOneMb': {
     languageEn:
@@ -9561,6 +9606,20 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Popularne konfiguracje i LUA tygodnia',
     languageDe: 'Beliebte Konfigurationen und LUA der Woche',
   },
+  'UniqueInstallsOfModsForGames': {
+    languageEn: "Unique installations of mods for {game}: ",
+    languageRu: 'Уникальные установки модов к {game}: ',
+    languageUa: "Унікальні встановлення модів до {game}: ",
+    languagePl: 'Unikalne instalacje modów do {game}: ',
+    languageDe: 'Einzigartige Installationen von Mods für das {game}: ',
+  },
+  'PopularGamesOfTheWeek': {
+    languageEn: "Popularity of games during the week",
+    languageRu: 'Популярность игр за неделю',
+    languageUa: "Популярність ігор за тиждень",
+    languagePl: 'Popularność gier w danym tygodniu',
+    languageDe: 'Beliebtheit der Spiele in der Woche',
+  },
   'ImagesForMods': {
     languageEn: "Display modifications previews",
     languageRu: 'Отобразить превью модификаций',
@@ -10623,5 +10682,12 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageUa: 'Взагалі не додавати жодних файлів у винятки антивірусу',
     languagePl: 'Nie dodawaj żadnych plików do wykluczeń antywirusowych.',
     languageDe: 'Fügen Sie keine Dateien zu den Antiviren-Ausschlüssen hinzu.',
+  },
+  'SwipeOrScroll': {
+    languageEn: 'Scroll or swipe down to see more!',
+    languageRu: 'Прокрути или свайпни, чтобы увидеть больше!',
+    languageUa: 'Прокрути або свайпни, щоб побачити більше!',
+    languagePl: 'Przewiń lub przesuń, aby zobaczyć więcej!',
+    languageDe: 'Scrollen oder wischen Sie, um mehr zu sehen!',
   },
 };
