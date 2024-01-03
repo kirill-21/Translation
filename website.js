@@ -1,3 +1,13 @@
+/// Define all languages to use variable shortcut later.
+const _languages = {
+  'English': 'languageEn',
+  'Українська': 'languageUa',
+  'Polski': 'languagePl',
+  'Deutsch': 'languageDe',
+  'Русский': 'languageRu',
+}
+
+
 /// Translation entities.
 const translationElements = [
   {
@@ -427,11 +437,20 @@ const translationElements = [
   },
   {
     name: 'Neuronet', value: {
-      languageEn: "Neuronet | Bot",
-      languageRu: 'Нейросеть | Бот',
-      languageUa: 'Нейромережа | Бот',
-      languagePl: 'Neuronet | Bot',
-      languageDe: 'Neuronales Netzwerk | Bot',
+      languageEn: "Cheat-Neuronet | Bot",
+      languageRu: 'Чит-Нейросеть | Бот',
+      languageUa: 'Чіт-Нейромережа | Бот',
+      languagePl: 'Cheat-Neuronet | Bot',
+      languageDe: 'Cheat-Neuronales Netzwerk | Bot',
+    },
+  },
+  {
+    name: 'FarmBot', value: {
+      languageEn: "Cheat farm-bot | Bot",
+      languageRu: 'Чит фарм-бот | Бот',
+      languageUa: 'Чіт фарм-бот | Бот',
+      languagePl: 'Cheat farm-bot | Bot',
+      languageDe: 'Cheat farm-bot | Bot',
     },
   },
   {
@@ -441,6 +460,24 @@ const translationElements = [
       languageUa: 'Банніхоп | Бхоп | Bunnyhop',
       languagePl: 'Bunnuhop | Bhop',
       languageDe: 'Bunnuhop | Bhop',
+    },
+  },
+  {
+    name: 'HvH', value: {
+      languageEn: "HvH cheat",
+      languageRu: 'Хвх | hvh чит',
+      languageUa: 'Хвх | hvh чіт',
+      languagePl: 'HvH cheat',
+      languageDe: 'HvH cheat',
+    },
+  },
+  {
+    name: 'Crack', value: {
+      languageEn: "Crack cheat",
+      languageRu: 'Кряк | crack чит',
+      languageUa: 'Кряк | crack чіт',
+      languagePl: 'Crack cheat',
+      languageDe: 'Crack cheat',
     },
   },
   {
@@ -1089,6 +1126,15 @@ const translationElements = [
       languageUa: "1. відкрий ExLoader\n2. Знайди цю модифікацію і перейди на її картку\n3. Натисни на кнопку запустити!",
       languagePl: "1. otwórz ExLoader\n2. Znajdź tę modyfikację i przejdź do jej karty\n3. Kliknij przycisk uruchom!",
       languageDe: "1. öffnen Sie ExLoader\n2. Finden Sie diese Modifikation und gehen Sie zu ihrer Karte\n3. Klicken Sie auf die Schaltfläche Ausführen!"
+    },
+  },
+  {
+    name: "Macros", value: {
+      languageEn: "Macros",
+      languageRu: 'Макрос | Macros',
+      languageUa: 'Макрос | Macros',
+      languagePl: 'Macros',
+      languageDe: 'Macros',
     },
   },
 ];
