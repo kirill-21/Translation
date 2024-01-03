@@ -206,6 +206,25 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Sieć neuronowa',
     languageDe: "Neurales Netzwerk",
   },
+  'Farmbot': {
+    languageEn: 'Farm-bot',
+    languageRu: 'Фарм-бот',
+    languageUa: 'Фарм-бот',
+    languagePl: 'Farm-bot',
+    languageDe: "Farm-bot",
+  },
+  'FarmbotDescription': {
+    languageEn:
+        "Farmbot modifications are designed to help you farm experience/items/whatever else in the game\nby leaving your computer on for a while. Turn it on, go out for a lunch, and the bot plays for you!",
+    languageRu:
+        'Фарм-бот модификации предназначены для того, чтобы помочь тебе\nфармить опыт/предметы/что-либо другое в игре, оставляя\nкомпьютер включенным на какое-то время. Включил, ушёл\nкушать, а бот играет за тебя!',
+    languageUa:
+        "Фарм-бот модифікації призначені для того, щоб допомогти тобі\nфармити досвід/предмети/що-небудь інше в грі, залишаючи\nкомп'ютер увімкненим на якийсь час. Увімкнув, пішов\nїсти, а бот грає за тебе!",
+    languagePl:
+        'Modyfikacje Farmbota zostały zaprojektowane, aby pomóc ci w\nzdobywaniu doświadczenia / przedmiotów / czegokolwiek innego\nw grze, pozostawiając komputer włączony na chwilę.\nWłącz go, idź coś zjeść, a bot zagra za ciebie!',
+    languageDe:
+        "Farmbot-Modifikationen sollen dir helfen, Erfahrung/Gegenstände/was\nauch immer im Spiel zu farmen, indem du deinen Computer für eine\nWeile eingeschaltet lässt. Schalten Sie ihn ein,\ngehen Sie zum Essen, und der Bot spielt für Sie!",
+  },
   'Movement': {
     languageEn: 'Movement',
     languageRu: 'Мувмент',
@@ -245,6 +264,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Нейромережі',
     languagePl: 'Sieć neuronowe',
     languageDe: "Neuronale Netze",
+  },
+  'FarmbotPlural': {
+    languageEn: 'Farm-bots | bots',
+    languageRu: 'Фарм-боты | Боты',
+    languageUa: 'Фарм-боти | Боти',
+    languagePl: 'Farm-boty | boty',
+    languageDe: "Farm-Bots | Bots",
   },
   'MacrosPlural': {
     languageEn: 'Macros',
@@ -1616,6 +1642,18 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "Leider ist diese Modifikation nicht für die Verwendung dieses Menüs vorgesehen!",
   },
+  'MaybeWithoutConfigs': {
+    languageEn:
+        "Perhaps it doesn't have a config system at all, or maybe its configurations are cloud-based!",
+    languageRu:
+        'Возможно, в ней и вовсе нет системы конфигов, или же, все её конфигурации облачные!',
+    languageUa:
+        'Можливо, в ній і зовсім немає системи конфігів, або ж, всі її конфігурації хмарні!',
+    languagePl:
+        'Być może w ogóle nie ma systemu konfiguracji, a może wszystkie jego konfiguracje są oparte na chmurze!',
+    languageDe:
+        "Vielleicht hat es überhaupt kein Konfigurationssystem, oder alle Konfigurationen sind cloudbasiert!",
+  },
   'CloudConfigSystemFolder': {
     languageEn:
         "This modification uses a cloud config system and does not have a local storage!",
@@ -1705,13 +1743,12 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "Sieht so aus, als wäre die von Ihnen ausgewählte Konfiguration bereits installiert!",
   },
-  'ExwiftExpired': {
-    languageEn: "Your Exwift subscription has expired 🙁",
-    languageRu:
-        'Срок действия твоей подписки на модификацию Exwift закончился 🙁',
-    languageUa: "Термін дії твоєї підписки на модифікацію Exwift закінчився 🙁",
-    languagePl: 'Twoja subskrypcja Exwift wygasła 🙁',
-    languageDe: "Ihr Exwift-Mod-Abonnement ist abgelaufen 🙁",
+  'SubscriptionExpired': {
+    languageEn: "Your ExLoader subscription has expired 🙁",
+    languageRu: 'Срок действия твоей подписки на ExLoader закончился 🙁',
+    languageUa: "Термін дії твоєї підписки на ExLoader закінчився 🙁",
+    languagePl: 'Twoja subskrypcja ExLoader wygasła 🙁',
+    languageDe: "Ihr ExLoader-Abonnement ist abgelaufen 🙁",
   },
   'VACReplacementProcessIsStarted': {
     languageEn:
@@ -2332,15 +2369,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'NoUserRights': {
     languageEn:
-        'Your user account does not have administrator privileges. Go the control panel, user accounts, change your account type and select «Administrator». Do not forget to restart your device after such changes!',
+        'Your user account does not have administrator privileges. Go the control panel, user accounts, change your account type and select «Administrator» for {user} user. Do not forget to restart your device after such changes!',
     languageRu:
-        'Твоя учётная запись пользователя не обладает правами администратора! Для продолжения перейди в панель управления, учетные записи пользователей, изменить тип учётной записи и выбери «Администратор». Не забудь перезагрузить устройство после применения изменений!',
+        'Твоя учётная запись пользователя не обладает правами администратора! Для продолжения перейди в панель управления, учетные записи пользователей, изменить тип учётной записи и выбери «Администратор» для пользователя {user}. Не забудь перезагрузить устройство после применения изменений!',
     languageUa:
-        'Твій обліковий запис користувача не володіє правами адміністратора! Для продовження перейди в панель управління, облікові записи користувачів, змінити тип облікового запису і вибери «Адміністратор». Не забудь перезавантажити пристрій після застосування змін!',
+        'Твій обліковий запис користувача не володіє правами адміністратора! Для продовження перейди в панель управління, облікові записи користувачів, змінити тип облікового запису і вибери «Адміністратор» для користувача {user}. Не забудь перезавантажити пристрій після застосування змін!',
     languagePl:
-        'Twoje konto użytkownika nie ma uprawnień administratora! Aby kontynuować, przejdź do panelu sterowania, kont użytkowników, zmień typ konta i wybierz „Administrator”. Nie zapomnij zrestartować urządzenia po zastosowaniu zmian!',
+        'Twoje konto użytkownika nie ma uprawnień administratora! Aby kontynuować, przejdź do panelu sterowania, kont użytkowników, zmień typ konta i wybierz „Administrator” dla użytkownika {user}. Nie zapomnij zrestartować urządzenia po zastosowaniu zmian!',
     languageDe:
-        'Ihr Benutzerkonto hat keine Administratorrechte! Um fortzufahren, gehen Sie zur Systemsteuerung, Benutzerkonten, ändern Sie den Kontotyp und wählen Sie "Administrator". Vergessen Sie nicht, Ihr Gerät neu zu starten, nachdem Sie die Modifikationen übernommen haben!',
+        'Ihr Benutzerkonto hat keine Administratorrechte! Um fortzufahren, gehen Sie zur Systemsteuerung, Benutzerkonten, ändern Sie den Kontotyp und wählen Sie "Administrator" für Benutzer {user}. Vergessen Sie nicht, Ihr Gerät neu zu starten, nachdem Sie die Modifikationen übernommen haben!',
   },
   'ConfigsHub': {
     languageEn: "ConfigsHub",
@@ -3085,12 +3122,12 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "Alle Infos zu Updates, tech. Arbeiten oder Probleme werden hier veröffentlicht!",
   },
-  'CopyLogFile': {
-    languageEn: "Copy log file data",
-    languageRu: 'Скопировать лог-файл',
-    languageUa: 'Скопіювати лог-файл',
-    languagePl: 'Skopiuj dane pliku dziennika',
-    languageDe: "Protokolldateidaten kopieren",
+  'ShowLogFile': {
+    languageEn: "Show log file data",
+    languageRu: 'Показать лог-файл',
+    languageUa: 'Показати лог-файл',
+    languagePl: 'Pokaż pliku dziennika',
+    languageDe: "Protokolldatei anzeigen",
   },
   'FailedToCopyClipboardData': {
     languageEn: "Failed to copy data from the application's log file!",
@@ -3155,16 +3192,11 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Setzen Sie die Version auf die aktuelle zurück",
   },
   'ClipboardDataIsCopiedButEmpty': {
-    languageEn:
-        "All data from the application's log file has been successfully copied to your clipboard, however, it's completely empty!",
-    languageRu:
-        'Данные из лог-файла приложения успешно скопированы в твой буфер обмена, однако, лог полностью пуст!',
-    languageUa:
-        'Дані з лог-файлу програми успішно скопійовані в твій буфер обміну, однак, він повністю порожній!',
-    languagePl:
-        'Dane z pliku dziennika aplikacji zostały pomyślnie skopiowane do schowka, jednak jest on pusty!',
-    languageDe:
-        "Die Daten aus der Anwendungsprotokolldatei wurden erfolgreich in Ihre Zwischenablage kopiert, sie ist jedoch vollständig leer!",
+    languageEn: "Log data is completely empty!",
+    languageRu: 'Данные лог-файла абсолютно пустые!',
+    languageUa: 'Дані лог-файлу абсолютно порожні!',
+    languagePl: 'Dane dziennika są całkowicie puste!',
+    languageDe: "Die Protokolldaten sind völlig leer!",
   },
   'AntivirusCheckTip': {
     languageEn:
@@ -4362,6 +4394,18 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe:
         "Diese Rezension hat eine zu niedrige Bewertung. Zum Lesen klicken",
   },
+  'ProfanityPresent': {
+    languageEn:
+        "This review contains profanity and is not informative. Click to read",
+    languageRu:
+        'Этот комментарий содержит нецензурную брань и не является информативным. Нажми, что прочитать',
+    languageUa:
+        'Цей коментар містить нецензурну лайку і не є інформативним. Натисни, що прочитати',
+    languagePl:
+        'Ten komentarz zawiera wulgaryzmy i nie ma charakteru informacyjnego. Kliknij, aby przeczytać',
+    languageDe:
+        "Dieser Kommentar enthält Schimpfwörter und ist nicht informativ. Zum Lesen klicken",
+  },
   'ClickToHide': {
     languageEn: "Click to hide",
     languageRu: 'Нажми, чтобы скрыть',
@@ -4652,6 +4696,13 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Скинути статус користувача',
     languagePl: 'Zresetuj status użytkownika',
     languageDe: "Benutzerstatus zurücksetzen",
+  },
+  'ResetSubscription': {
+    languageEn: "Reset user's subscription",
+    languageRu: 'Сбросить подписку пользователя',
+    languageUa: 'Скинути підписку користувача',
+    languagePl: 'Resetowanie subskrypcji użytkownika',
+    languageDe: "Benutzerabonnement zurücksetzen",
   },
   'ResetSocials': {
     languageEn: "Reset user's social networks",
@@ -5305,15 +5356,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'RegisterIfNeeded': {
     languageEn:
-        "🔐 Modification's launcher requires an authorization? Just sing up in it's system with any data and use it to log in!",
+        "Modification's launcher requires an authorization? Just sing up in it's system with any data and use it to log in! Authorization and account creation are completely free, they are only required to identify users!",
     languageRu:
-        '🔐 Лаунчер модификации требует авторизации? Ничего страшного, просто зарегистрируйся в её системе с любыми данными и используй их для входа!',
+        'Лаунчер модификации требует авторизации? Ничего страшного, просто зарегистрируйся в её системе с любыми данными и используй их для входа! Авторизация и создание аккаунта полностью бесплатны, они необходимы лишь для идентификации пользователей!',
     languageUa:
-        '🔐 Лаунчер модифікації вимагає авторизації? Нічого страшного, просто зареєструйся в її системі з будь-якими даними і використовуй їх для входу!',
+        'Лаунчер модифікації вимагає авторизації? Нічого страшного, просто зареєструйся в її системі з будь-якими даними і використовуй їх для входу! Авторизація та створення акаунта повністю безкоштовні, вони необхідні лише для ідентифікації користувачів!',
     languagePl:
-        '🔐 Program uruchamiający modyfikacje wymaga autoryzacji? Nie ma problemu, wystarczy zarejestrować się w jego systemie dowolnymi danymi i użyć ich do logowania!',
+        'Program uruchamiający modyfikacje wymaga autoryzacji? Nie ma problemu, wystarczy zarejestrować się w jego systemie dowolnymi danymi i użyć ich do logowania! Autoryzacja i tworzenie konta są całkowicie darmowe, są wymagane tylko do identyfikacji użytkownika!',
     languageDe:
-        "🔐 Mod Launcher erfordert Autorisierung? Kein Problem, registriere dich einfach mit beliebigen Daten in seinem System und logge dich damit ein!",
+        "Mod Launcher erfordert Autorisierung? Kein Problem, registriere dich einfach mit beliebigen Daten in seinem System und logge dich damit ein! Autorisierung und Kontoerstellung sind völlig kostenlos, sie sind nur für die Benutzeridentifikation erforderlich!",
   },
   'AuthNeeded': {
     languageEn:
@@ -7970,6 +8021,13 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Wersja gry ze Steam',
     languageDe: 'Steam Version des Spiels',
   },
+  'NoOriginalClient': {
+    languageEn: "Do not launch this mod on Steam/EpicGames/Microsoft/any other original version of the game, it is only created for the pirated version of the game!",
+    languageRu: 'Не запускай этот мод на Steam/EpicGames/Microsoft/любой другой оригинальной версии игры, он создан лишь под пиратскую версию игры!',
+    languageUa: 'Не запускай цей мод на Steam/EpicGames/Microsoft/будь-якій іншій оригінальній версії гри, він створений лише під піратську версію гри!',
+    languagePl: 'Nie uruchamiaj tego moda na Steam/EpicGames/Microsoft/jakiejkolwiek innej oryginalnej wersji gry, jest on stworzony tylko dla pirackiej wersji gry!',
+    languageDe: 'Führen Sie diese Mod nicht auf Steam/EpicGames/Microsoft/jeder anderen Originalversion des Spiels aus, sie ist nur für die raubkopierte Version des Spiels erstellt!',
+  },
   'MultiPlayer': {
     languageEn: "Multiplayer version of the game",
     languageRu: 'Версия игры: Мультиплеер',
@@ -10235,6 +10293,13 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languagePl: 'Zarządzanie doświadczeniami związanymi z reputacją',
     languageDe: "Management von Reputationserfahrungen",
   },
+  'SubscriptionControll': {
+    languageEn: "Subscription management",
+    languageRu: 'Управление подпиской',
+    languageUa: 'Управління підпискою',
+    languagePl: 'Zarządzanie subskrypcjami',
+    languageDe: "Verwaltung von Abonnements",
+  },
   'ExperienceIsDoubled': {
     languageEn:
         "In honour of the «{holiday}» celebration all experience for likes,\ncomments, cfg and other activity is doubled, happy holidays!{emoji}",
@@ -10516,7 +10581,7 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
   },
   'OtherModsDescription': {
     languageEn:
-        "All mods to this game that were ever present in ExLoader can be seen here",
+        "All mods for this game that were ever present in ExLoader can be seen here",
     languageRu:
         'Все моды к этой игре, когда-либо присутствовавшие в ExLoader, можно увидеть тут',
     languageUa:
@@ -10532,6 +10597,14 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageUa: 'Приховувати ненормативну лексику',
     languagePl: 'Ukryj wulgaryzmy',
     languageDe: 'Obszönitäten ausblenden',
+  },
+  'NotInformativeText': {
+    languageEn: "Come up with something more adequate and/or informative!",
+    languageRu: 'Придумай что-то более адекватное и/или информативное!',
+    languageUa: 'Придумай щось адекватніше та/або інформативніше!',
+    languagePl: 'Wymyśl coś bardziej adekwatnego i/lub pouczającego!',
+    languageDe:
+        'Denken Sie sich etwas Angemesseneres und/oder Informativeres aus!',
   },
   'AutoProfanityHideDescription': {
     languageEn:
@@ -10575,13 +10648,6 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
         'Mod przestał działać po ostatniej aktualizacji gry i chcę to zgłosić!',
     languageDe:
         'Der Mod hat nach dem letzten Spielupdate aufgehört zu funktionieren und ich möchte es melden!',
-  },
-  'TestStarted': {
-    languageEn: "Test has been successfully started",
-    languageRu: 'Тест успешно запущен',
-    languageUa: 'Тест успішно запущено',
-    languagePl: 'Test został pomyślnie uruchomiony',
-    languageDe: 'Der Test wurde erfolgreich durchgeführt',
   },
   'DebugConsole': {
     languageEn: "Debug console",
@@ -10689,5 +10755,43 @@ Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezo
     languageUa: 'Прокрути або свайпни, щоб побачити більше!',
     languagePl: 'Przewiń lub przesuń, aby zobaczyć więcej!',
     languageDe: 'Scrollen oder wischen Sie, um mehr zu sehen!',
+  },
+  'PopularInSeason': {
+    languageEn: "Popular within season",
+    languageRu: 'Популярные за сезон',
+    languageUa: 'Популярні за сезон',
+    languagePl: 'Popularne w tym sezonie',
+    languageDe: 'Beliebt für die Saison',
+  },
+  'CustomMapperSettings': {
+    languageEn:
+        "These options are created for people who understand something in libraries mapping. If you don't know anything about these options, it's better not to touch them at all! The options are reset with application's restart and apply only your own mods mapping from the corresponding section.",
+    languageRu:
+        'Параметры прописаны на английском, так как они созданы для понимающих людей. Если ты ничего не смыслишь в этих опциях, лучше их не трогать! Опции сбрасываются при перезапуске приложения и применяются лишь к инъекции своих собственных модов из соответствующего раздела.',
+    languageUa:
+        "Параметри прописані англійською, оскільки вони створені для людей, які розуміють. Якщо ти нічого не розумієш у цих опціях, краще їх не чіпати! Опції скидаються під час перезапуску програми і застосовуються лише до ін'єкції своїх власних модів з відповідного розділу.",
+    languagePl:
+        'Opcje są napisane w języku angielskim, ponieważ są przeznaczone dla osób, które je rozumieją. Jeśli nie wiesz nic o tych opcjach, lepiej ich nie dotykaj! Opcje są resetowane po ponownym uruchomieniu aplikacji i mają zastosowanie tylko do wstrzykiwania własnych modów z odpowiedniej sekcji.',
+    languageDe:
+        "Die Optionen sind in englischer Sprache verfasst, da sie für Menschen gedacht sind, die sie verstehen. Wenn Sie nichts über diese Optionen wissen, ist es besser, sie nicht zu berühren! Die Optionen werden beim Neustart der Anwendung zurückgesetzt und gelten nur für das Einfügen Ihrer eigenen Mods aus dem entsprechenden Abschnitt.",
+  },
+  'NewClientVersion': {
+    languageEn: "New client version: {version}!",
+    languageRu: 'Новая версия клиента: {version}!',
+    languageUa: 'Нова версія клієнту: {version}!',
+    languagePl: 'Nowa wersja klienta: {wersja}!',
+    languageDe: 'Neue Client-Version: {Version}!',
+  },
+  'OnlyLastReviews': {
+    languageEn:
+        "With this sorting option, you will only see comments that have been\nwritten in the last 45 days! To view all comments, select any other\nsorting option.",
+    languageRu:
+        'В этом варианте сортировки ты увидишь лишь те комментарии, что были\nнаписаны за последние полтора месяца! Чтобы прочитать все комментарии,\nвыбери любой другой вариант сортировки.',
+    languageUa:
+        'У цьому варіанті сортування ти побачиш лише ті коментарі, що були\nнаписані за останні півтора місяця! Щоб прочитати всі коментарі, вибери\nбудь-який інший варіант сортування.',
+    languagePl:
+        'W tej opcji sortowania zobaczysz tylko komentarze napisane w ciągu\nostatniego półtora miesiąca! Aby przeczytać wszystkie komentarze,\nwybierz inną opcję sortowania.',
+    languageDe:
+        'Bei dieser Sortieroption sehen Sie nur Kommentare, die in den letzten\nanderthalb Monaten geschrieben wurden! Um alle Kommentare zu\nlesen, wählen Sie eine andere Sortieroption.',
   },
 };
