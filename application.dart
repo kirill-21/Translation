@@ -3,16 +3,14 @@ import 'app_locale.dart';
 /// A map with translations for all elements.
 const Map<String, Map<String, String>> localeItems = {
   'AllInOne': {
-    languageEn: 'All game modifications in a single ExLoader library',
-    languageRu: 'Теперь все игровые модификации в единой библиотеке ExLoader',
-    languageUa: 'Тепер всі ігрові модифікації в єдиній бібліотеці ExLoader',
-    languagePl: 'Wszystkie modyfikacje gier w jednej bibliotece ExLoadera',
-    languageDe:
-        "Jetzt befinden sich alle Spielmodifikationen in einer einzigen ExLoader Bibliothek",
-    languageIt: 'Tutte le modifiche al gioco in un`unica libreria ExLoader',
-    languageTr: "Tüm oyun modifikasyonları tek bir ExLoader kütüphanesinde",
-    languageEs:
-        "Todas las modificaciones del juego en una única biblioteca ExLoader",
+    languageEn: 'All game modifications in a single library',
+    languageRu: 'Все игровые модификации в библиотеке ExLoader',
+    languageUa: 'Всі ігрові модифікації в бібліотеці ExLoader',
+    languagePl: 'Wszystkie modyfikacje gry w jednej bibliotece',
+    languageDe: "Alle Spieländerungen in einer einzigen Bibliothek",
+    languageIt: 'Tutte le modifiche al gioco in un`unica libreria',
+    languageTr: "Tüm oyun modifikasyonları tek bir kütüphanede",
+    languageEs: "Todas las modificaciones del juego en una sola biblioteca",
     languageCn: "在单个 ExLoader 库中对所有游戏进行修改",
   },
   'Exit': {
@@ -59,7 +57,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Ajustes",
     languageCn: "设置",
   },
-  'MyLibrary': {
+  'CustomModificationsScreenEG': {
     languageEn: 'Your mods',
     languageRu: 'Свои моды',
     languageUa: 'Свої моди',
@@ -70,7 +68,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Tus propios mods",
     languageCn: "您的修改器",
   },
-  'Bookmarked': {
+  'BookmarksScreen': {
     languageEn: 'Bookmarked',
     languageRu: 'Избранное',
     languageUa: 'Обране',
@@ -80,17 +78,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Favoriler",
     languageEs: "Favoritos",
     languageCn: "最爱",
-  },
-  'AddToBookmarks': {
-    languageEn: 'Add modifications to bookmarks for a quick launch',
-    languageRu: 'Добавляй модификации в избранные для быстрого запуска',
-    languageUa: 'Додавай модифікації в обрані для швидкого запуску',
-    languagePl: 'Dodaj modyfikacje do zakładek, aby uruchomić je szybciej',
-    languageDe: "Fügen Sie Mods zu den Favoriten hinzu",
-    languageIt: 'Aggiungi modifiche ai preferiti per un avvio rapido',
-    languageTr: "Hızlı başlatma için yer imlerine değişiklikler ekleyin",
-    languageEs: "Añada modificaciones a los marcadores para un inicio rápido",
-    languageCn: "将修改添加到书签，以便快速启动",
   },
   'Search': {
     languageEn: 'Search',
@@ -207,7 +194,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageRu: 'По дате обновления',
     languageUa: 'За датою оновлення',
     languagePl: 'Według daty aktualizacji',
-    languageDe: "Nach Aktualisierungsdatum",
+    languageDe: "Nach Update-Datum",
     languageIt: 'Per data di aggiornamento',
     languageTr: "Güncelleme tarihine göre",
     languageEs: "Por fecha de actualización",
@@ -236,25 +223,25 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "谦卑 | 合法",
   },
   'MediumPlural': {
-    languageEn: 'Advanced | Semi-rage | Half-hvh',
-    languageRu: 'Продвинутые | Полу-рейдж | Полу-хвх',
-    languageUa: 'Просунуті | Напів-рейдж | Напів-хвх',
-    languagePl: 'Zaawansowane | Semi-rage | Half-hvh',
-    languageDe: "Erweiterte | Semi-rage | Half-hvh",
-    languageIt: 'Avanzato | Semi-rage | Half-hvh',
-    languageTr: "Gelişmiş | Yarı-öfke | Yarı-hvh",
-    languageEs: "Avanzado | Semi-rage | Half-hvh",
+    languageEn: 'Advanced | Semi-rage',
+    languageRu: 'Продвинутые | Полу-рейдж',
+    languageUa: 'Просунуті | Напів-рейдж',
+    languagePl: 'Zaawansowane | Semi-rage',
+    languageDe: "Erweiterte | Semi-rage",
+    languageIt: 'Avanzato | Semi-rage',
+    languageTr: "Gelişmiş | Yarı-öfke",
+    languageEs: "Avanzado | Semi-rage",
     languageCn: "高级 | 半愤怒 | 半hvh",
   },
   'AdvancedPlural': {
-    languageEn: 'Universal Rage | HvH',
-    languageRu: 'Универсальные | Рейдж | Хвх',
-    languageUa: 'Універсальні | Рейдж | Хвх',
-    languagePl: 'Uniwersalne | Rage | HvH',
-    languageDe: "Universelle Rage| HvH",
-    languageIt: 'Universale Rage | HvH',
-    languageTr: "Evrensel Öfke | HvH",
-    languageEs: "Furia Universal | HvH",
+    languageEn: 'Universal | Hvh',
+    languageRu: 'Универсальные | Хвх',
+    languageUa: 'Універсальні | Хвх',
+    languagePl: 'Uniwersalne | Hvh',
+    languageDe: "Universelle | Hvh",
+    languageIt: 'Universale | HvH',
+    languageTr: "Evrensel | HvH",
+    languageEs: "Universal | HvH",
     languageCn: "环球之怒 | HvH",
   },
   'Optical': {
@@ -328,7 +315,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageRu: 'Фарм-бот',
     languageUa: 'Фарм-бот',
     languagePl: 'Farm-bot',
-    languageDe: "Bauernhof-Bot",
+    languageDe: "Farm-bot",
     languageIt: 'Farm-bot',
     languageTr: "Çiftlik-bot",
     languageEs: "Granja robot",
@@ -396,15 +383,15 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "动作修改的目的是帮助您记录游戏动作或操作，并在适当的时候通过绑定的按键重复这些动作或操作。例如，进行冲刺或投掷手榴弹。",
   },
   'OpticalPlural': {
-    languageEn: 'Optical | Skins | Other',
-    languageRu: 'Визуальные | Скины | Другое',
-    languageUa: 'Візуальні | Скіни | Інше',
-    languagePl: 'Wizualne | Skins | Inne',
-    languageDe: "Visuelle | Skins | Andere",
-    languageIt: 'Visuale | Skins | Altro',
-    languageTr: "Optik | Kaplamalar | Diğer",
-    languageEs: "Óptica | Pieles | Otros",
-    languageCn: "光学仪器 | 皮肤 | 其他",
+    languageEn: 'Optical | Skins',
+    languageRu: 'Визуальные | Скины',
+    languageUa: 'Візуальні | Скіни',
+    languagePl: 'Wizualne | Skins',
+    languageDe: "Visuelle | Skins",
+    languageIt: 'Visuale | Skins',
+    languageTr: "Optik | Kaplamalar",
+    languageEs: "Óptica | Pieles",
+    languageCn: "光学仪器 | 皮肤",
   },
   'NeuronetPlural': {
     languageEn: 'Neuronets',
@@ -526,63 +513,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Tenga en cuenta que un representante independiente no ha comprobado la ausencia de virus en estas modificaciones.",
     languageCn: "请注意，本修改版未经独立代表检查是否存在病毒。",
-  },
-  'TrustFactorAffectionGreat': {
-    languageEn:
-        "This modification, according to it's developer, does not affect the trust factor of your account!",
-    languageRu:
-        'По заявлениям разработчика данная модификация не влияет на уровень фактора доверия твоего аккаунта!',
-    languageUa:
-        "За заявами розробника дана модифікація не впливає на рівень фактора довіри твого облікового запису!",
-    languagePl:
-        "Według dewelopera ta modyfikacja nie wpływa na poziom zaufania Twojego konta",
-    languageDe:
-        "Laut Entwickler hat diese Modifikation keinen Einfluss auf den Vertrauensfaktor Ihres Kontos!",
-    languageIt:
-        'Questa modifica, secondo il suo sviluppatore, non influisce sul fattore di fiducia del tuo account!',
-    languageTr:
-        "Geliştiricisine göre bu değişiklik, hesabınızın güven faktörünü etkilemez!",
-    languageEs:
-        "Esta modificación, según su desarrollador, no afecta al factor de confianza de tu cuenta.",
-    languageCn: "据开发人员称，这一修改不会影响账户的信任度！",
-  },
-  'TrustFactorAffectionUnknown': {
-    languageEn:
-        "This modification's developer did not provide any information about it's impact on your account's trust factor level!",
-    languageRu:
-        'Разработчик данной модификации не сообщал никакой информации о её влиянии на уровень фактора доверия твоего аккаунта!',
-    languageUa:
-        "Розробник даної модифікації не повідомляв ніякої інформації про її вплив на рівень фактора довіри твого облікового запису!",
-    languagePl:
-        "Twórca tej modyfikacji nie podał żadnych informacji o jej wpływie na poziom współczynnika zaufania Twojego konta!",
-    languageDe:
-        "Der Entwickler diese Modifikation hat keine Informationen über ihre Auswirkungen auf die Höhe des  Vertrauensfaktors Ihres Kontos gemeldet!",
-    languageIt:
-        'Lo sviluppatore di questa modifica non ha fornito alcuna informazione circa il suo impatto sul livello del fattore di fiducia del tuo account!',
-    languageTr:
-        "Bu değişikliğin geliştiricisi, hesabınızın güven faktörü seviyesi üzerindeki etkisi hakkında herhangi bir bilgi vermemiştir!",
-    languageEs:
-        "El desarrollador de esta modificación no proporcionó ninguna información sobre su impacto en el nivel del factor de confianza de tu cuenta.",
-    languageCn: "该修改的开发者没有提供任何关于它对账户信任度的影响的信息！",
-  },
-  'TrustFactorAffectionBad': {
-    languageEn:
-        "This modification usage on Valve servers may affect your account's trust factor level!",
-    languageRu:
-        'Использование данной модификации на серверах Valve может повлиять на уровень фактора доверия твоего аккаунта!',
-    languageUa:
-        "Використання даної модифікації на серверах Valve може вплинути на рівень фактора довіри твого облікового запису!",
-    languagePl:
-        "Użycie tej modyfikacji na serwerach valve może wpłynąć na współczynnik zaufania Twojego konta!",
-    languageDe:
-        "Die Verwendung dieses Mods auf den Servern von Valve kann den Vertrauensfaktor Ihres Kontos beeinträchtigen!",
-    languageIt:
-        'L`utilizzo di questa modifica sui server Valve potrebbe influenzare il livello del fattore di fiducia del tuo account!',
-    languageTr:
-        "Valve sunucularındaki bu değişiklik kullanımı hesabınızın güven faktörü seviyesini etkileyebilir!",
-    languageEs:
-        "El uso de esta modificación en los servidores de Valve puede afectar al nivel del factor de confianza de tu cuenta.",
-    languageCn: "Valve 服务器上的这种修改使用可能会影响您账户的信任系数级别！",
   },
   'PressToOpenMenu': {
     languageEn: "Modification's menu opens with {key} key",
@@ -769,17 +699,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Cancelar",
     languageCn: "取消",
   },
-  'Rate': {
-    languageEn: "RATE",
-    languageRu: 'РЕЙТИНГ',
-    languageUa: "РЕЙТИНГ",
-    languagePl: 'OCENA',
-    languageDe: "BEWERTUNG",
-    languageIt: 'VALUTAZIONE',
-    languageTr: "ORAN",
-    languageEs: "TARIFA",
-    languageCn: "费率",
-  },
   'PictureMayDiffer': {
     languageEn:
         'The modification from the screenshot may differ from its current version',
@@ -821,17 +740,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "¡Vale, no lo vuelvas a enseñar!",
     languageCn: "好了，别再放了",
   },
-  'ThankYouButDoNotShowItAgain': {
-    languageEn: "Thank you, don't show it again!",
-    languageRu: 'Спасибо, не показывать это снова!',
-    languageUa: "Дякую, не показувати це знову!",
-    languagePl: "Dziękuje, nie pokazuj ponownie!",
-    languageDe: "Danke, nicht mehr anzeigen!",
-    languageIt: 'Grazie, non mostrarlo più!',
-    languageTr: "Teşekkürler, bir daha gösterme!",
-    languageEs: "¡Gracias, no lo vuelvas a mostrar!",
-    languageCn: "谢谢，别再给我看了！",
-  },
   'ZoomImageTip': {
     languageEn:
         "You can enlarge any part of the image in this menu with the mouse wheel!",
@@ -862,26 +770,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Borrar toda la actividad de modificación",
     languageCn: "删除所有修改活动",
   },
-  'SwipeTip': {
-    languageEn:
-        "🖱🖱🖱 Hint: use more advanced scroll with mouse swipes instead of it's wheel. Just image that you are holding a smartphone in your hands and your mouse is your finger! Such scroll mode works on all application's screens.",
-    languageRu:
-        '🖱🖱🖱 Подсказка: используй более удобный скролл с помощью свайпов мышки вместо её колёсика. Просто представь, что держишь телефон в руках, а твоя мышка это твой палец! Данный режим скролла работает на всех экранах приложения.',
-    languageUa:
-        '🖱🖱🖱 Підказка: використовуй більш зручний скролл за допомогою свайпів мишки замість її коліщатка. Просто уяви, що тримаєшь телефон в руках, а твоя мишка це твій палець! Даний режим скролла працює на всіх екранах програми.',
-    languagePl:
-        "🖱🖱🖱 Podpowiedź: użyj bardziej zaawansowanego przewijania za pomocą przeciągnięcia kursorem zamiast scrolla. Po prostu wyobraź sobie, że trzymasz smartfon w dłoniach, a mysz to twój palec! Taki tryb przewijania działa na wszystkich ekranach aplikacji.",
-    languageDe:
-        "🖱🖱🖱 Tipp: Verwenden Sie das bequemere Scrollen mit Mausbewegungen anstelle des Rads. Stellen Sie sich vor, Sie halten das Telefon in Ihren Händen und Ihre Maus ist Ihr Finger! Dieser Bildlaufmodus funktioniert auf allen Programmbildschirmen.",
-    languageIt:
-        '🖱🖱🖱 Suggerimento: usa lo scorrimento avanzato con i passaggi del mouse invece della rotellina. Immagina solo di tenere uno smartphone tra le mani e il tuo mouse è il tuo dito! Tale modalità di scorrimento funziona su tutte le schermate dell`applicazione.',
-    languageTr:
-        "🖱🖱🖱 İpucu: tekerleği yerine fare kaydırmalarıyla daha gelişmiş kaydırma kullanın. Sadece elinizde bir akıllı telefon tuttuğunuzu ve farenizin parmağınız olduğunu hayal edin! Bu kaydırma modu tüm uygulama ekranlarında çalışır.",
-    languageEs:
-        "🖱🖱🖱 Sugerencia: utilice un desplazamiento más avanzado con deslizamientos del ratón en lugar de su rueda. Imagina que tienes un smartphone en tus manos y que el ratón es tu dedo. Este modo de desplazamiento funciona en todas las pantallas de la aplicación.",
-    languageCn:
-        "🖱🖱🖱 提示：使用更先进的鼠标轻扫滚动功能，而不是滚轮。想象一下，你手持智能手机，鼠标就是你的手指！这种滚动模式适用于所有应用程序的屏幕。",
-  },
   'WhatsNew': {
     languageEn: "What's new",
     languageRu: 'Что нового',
@@ -892,17 +780,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yenilikler",
     languageEs: "Novedades",
     languageCn: "最新消息",
-  },
-  'ShowUpdatesHistory': {
-    languageEn: "Show updates history",
-    languageRu: 'Показать историю изменений',
-    languageUa: "Показати історію змін",
-    languagePl: "Pokaż historię aktualizacji",
-    languageDe: "Updateverlauf anzeigen",
-    languageIt: 'Mostra la cronologia degli aggiornamenti',
-    languageTr: "Güncelleme geçmişini göster",
-    languageEs: "Mostrar historial de actualizaciones",
-    languageCn: "显示更新历史",
   },
   'ReadMore': {
     languageEn: "Read more",
@@ -925,17 +802,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Son güncelleme",
     languageEs: "Última actualización",
     languageCn: "最后更新",
-  },
-  'Marks': {
-    languageEn: "User marks",
-    languageRu: 'Оценки пользователей',
-    languageUa: "Оцінки користувачів",
-    languagePl: "Oceny użytkowników",
-    languageDe: "Benutzerbewertungen",
-    languageIt: 'Recensione dagli utenti',
-    languageTr: "Kullanıcı işaretleri",
-    languageEs: "Marcas de usuario",
-    languageCn: "用户标记",
   },
   'PressToSaveMark': {
     languageEn: "Press the icon and your mark will be saved",
@@ -980,17 +846,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sizin yorumunuz",
     languageEs: "Su opinión",
     languageCn: "您的评论",
-  },
-  'Chosen': {
-    languageEn: "Chosen",
-    languageRu: 'Выбрано',
-    languageUa: "Обрано",
-    languagePl: "Wybrane",
-    languageDe: "Ausgewählt",
-    languageIt: 'Scelto',
-    languageTr: "Seçilmiş",
-    languageEs: "Elegido",
-    languageCn: "选择",
   },
   'Back': {
     languageEn: 'Back',
@@ -1047,16 +902,27 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Búsqueda por modificaciones",
     languageCn: "按修改搜索",
   },
+  'SearchByModificationsAndVersions': {
+    languageEn: 'Search by modifications and their versions',
+    languageRu: 'Поиск по модификациям и их версиям',
+    languageUa: 'Пошук за модифікаціями та їх версіями',
+    languagePl: 'Szukaj według modyfikacji i wersji',
+    languageDe: "Suche nach Modifikationen und Versionen",
+    languageIt: 'Ricerca per modifiche e relative versioni',
+    languageTr: "Değişikliklere ve sürümlerine göre arama yapın",
+    languageEs: "Búsqueda por modificaciones y sus versiones",
+    languageCn: "按修改及其版本搜索",
+  },
   'NothingFoundByYourQuery': {
-    languageEn: 'Nothing found with your query 🙁',
-    languageRu: 'По твоему запросу ничего не найдено 🙁',
-    languageUa: 'За твоїм запитом нічого не знайдено 🙁',
-    languagePl: 'Na twoje zapytanie nic nie znaleziono 🙁',
-    languageDe: "Zu deiner Anfrage wurde nichts gefunden 🙁",
-    languageIt: 'Non è stato trovato nulla con la tua richiesta 🙁',
-    languageTr: "Sorgunuzla ilgili bir şey bulunamadı 🙁",
-    languageEs: "No se ha encontrado nada con tu consulta 🙁",
-    languageCn: "未找到与您的查询相关的内容 🙁",
+    languageEn: 'Nothing found with your query',
+    languageRu: 'По твоему запросу ничего не найдено',
+    languageUa: 'За твоїм запитом нічого не знайдено',
+    languagePl: 'Na twoje zapytanie nic nie znaleziono',
+    languageDe: "Zu deiner Anfrage wurde nichts gefunden",
+    languageIt: 'Non è stato trovato nulla con la tua richiesta',
+    languageTr: "Sorgunuzla ilgili bir şey bulunamadı",
+    languageEs: "No se ha encontrado nada con tu consulta",
+    languageCn: "未找到与您的查询相关的内容",
   },
   'ServerRoom': {
     languageEn: 'Server room',
@@ -1182,16 +1048,16 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Modificaciones",
     languageCn: "修改",
   },
-  'ModificationsDescription': {
-    languageEn: 'Adding, editing and deleting modifications',
-    languageRu: 'Добавление, изменение и удаление модификаций',
-    languageUa: 'Додавання, редагування та видалення модифікацій',
-    languagePl: 'Dodawanie, edycja i usuwanie modyfikacji',
-    languageDe: "Hinzufügen, Bearbeiten und Entfernen von Modifikationen",
-    languageIt: 'Aggiunta, modifica ed eliminazione delle modifiche',
-    languageTr: "Değişiklik ekleme, düzenleme ve silme",
-    languageEs: "Añadir, editar y eliminar modificaciones",
-    languageCn: "添加、编辑和删除修改",
+  'Mods': {
+    languageEn: 'Mods',
+    languageRu: 'Моды',
+    languageUa: 'Моди',
+    languagePl: 'Mods',
+    languageDe: "Mods",
+    languageIt: 'Mods',
+    languageTr: "Modlar",
+    languageEs: "Mods",
+    languageCn: "修改",
   },
   'Open': {
     languageEn: 'Open',
@@ -1270,28 +1136,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Editar perfiles y bloquearlos",
     languageCn: "编辑配置文件并阻止它们",
   },
-  'ModeratorsLog': {
-    languageEn: "Action's log",
-    languageRu: 'Лог действий',
-    languageUa: 'Лог дій',
-    languagePl: 'Dziennik akcji',
-    languageDe: "Aktionsprotokoll",
-    languageIt: 'Registro delle azioni',
-    languageTr: "Eylem günlüğü",
-    languageEs: "Registro de acciones",
-    languageCn: "行动日志",
-  },
-  'ModeratorsLogDescription': {
-    languageEn: "History of other moderators' actions",
-    languageRu: 'История действий всех модераторов',
-    languageUa: 'Історія дій усіх модераторів та адміністраторів',
-    languagePl: 'Historia działań innych moderatorów',
-    languageDe: "Die Geschichte aller Moderatoren",
-    languageIt: 'Cronologia delle azioni di altri moderatori',
-    languageTr: "Diğer moderatörlerin eylemlerinin geçmişi",
-    languageEs: "Historial de acciones de otros moderadores",
-    languageCn: "其他版主的行动历史",
-  },
   'Notifications': {
     languageEn: "Notifications",
     languageRu: 'Уведомления',
@@ -1302,40 +1146,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bildirimler",
     languageEs: "Notificaciones",
     languageCn: "通知",
-  },
-  'NotificationsDescription': {
-    languageEn: 'Creating and managing notifications',
-    languageRu: 'Создание и управление уведомлениями',
-    languageUa: 'Створення та управління повідомленнями',
-    languagePl: 'Tworzenie i zarządzanie powiadomieniami',
-    languageDe: "Erstellen und Verwalten von Benachrichtigungen",
-    languageIt: 'Creazione e gestione delle notifiche',
-    languageTr: "Bildirim oluşturma ve yönetme",
-    languageEs: "Creación y gestión de notificaciones",
-    languageCn: "创建和管理通知",
-  },
-  'Updates': {
-    languageEn: "Updates",
-    languageRu: 'Обновления',
-    languageUa: 'Оновлення',
-    languagePl: 'Aktualizacje',
-    languageDe: "Updates",
-    languageIt: 'Aggiornamenti',
-    languageTr: "Güncellemeler",
-    languageEs: "Actualizaciones",
-    languageCn: "更新",
-  },
-  'UpdatesDescription': {
-    languageEn: "Application's versioning and updates control",
-    languageRu: 'Управление версиями приложения',
-    languageUa: 'Управління версіями програми',
-    languagePl: 'Kontrola wersji i aktualizacji aplikacji',
-    languageDe: "Versionsverwaltung der Anwendung",
-    languageIt:
-        'Controllo delle versioni e degli aggiornamenti dell`applicazione',
-    languageTr: "Uygulamanın versiyonlama ve güncelleme kontrolü",
-    languageEs: "Control de versiones y actualizaciones de la aplicación",
-    languageCn: "应用程序的版本和更新控制",
   },
   'Status': {
     languageEn: "Current status",
@@ -1634,44 +1444,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Universal",
     languageCn: "通用",
   },
-  'HiddenDescription': {
-    languageEn:
-        'An advanced injection method, which allows you to launch modifications during the game process.',
-    languageRu:
-        'Более продвинутый способ инъекции, который позволяет запускать модификации прямо во время игры.',
-    languageUa:
-        "Більш просунутий спосіб ін'єкції, який дозволяє запускати модифікації прямо під час гри.",
-    languagePl:
-        'Zaawansowana metoda wstrzykiwania, która pozwala uruchamiać modyfikacje w trakcie gry.',
-    languageDe:
-        "Eine fortschrittlichere Injektionsmethode, die ermöglicht, dass Mods direkt während des Spiels ausgeführt werden.",
-    languageIt:
-        'Un metodo di iniezione avanzato, che ti consente di avviare modifiche durante il processo di gioco.',
-    languageTr:
-        "Oyun süreci sırasında değişiklikleri başlatmanıza olanak tanıyan gelişmiş bir enjeksiyon yöntemi.",
-    languageEs:
-        "Un método de inyección avanzado, que permite lanzar modificaciones durante el proceso de juego.",
-    languageCn: "先进的注入方法，允许您在游戏过程中启动修改。",
-  },
-  'NotSafeButUniversal': {
-    languageEn:
-        "Compatible with almost all modifications, however, has a significant drawback that manifests itself in an increased chance of being banned from game's anti-cheat.",
-    languageRu:
-        'Подходит практически ко всем модификациям, однако, имеет существенный недостаток в виде повышенного шанса на получение блокировки от игрового античита.',
-    languageUa:
-        "Підходить практично до всіх модифікацій, однак, має істотний недолік у вигляді підвищеного шансу на отримання блокування від ігрового антічіта.",
-    languagePl:
-        'Kompatybilna z prawie wszystkimi modyfikacjami ma jednak poważną wadę, która objawia się zwiększonym ryzykiem blokadą anty-cheata gry.',
-    languageDe:
-        "Es ist für fast alle Modifikationen geeignet, hat jedoch einen wesentlichen Nachteil in Form einer erhöhten Wahrscheinlichkeit, durch den Anti-Cheat des Spiels blockiert zu werden.",
-    languageIt:
-        'Compatibile con quasi tutte le modifiche, tuttavia, presenta un inconveniente significativo che si manifesta in una maggior possibilità di essere bannati dall`anti-cheat del gioco.',
-    languageTr:
-        "Neredeyse tüm modifikasyonlarla uyumludur, ancak oyunun hile karşıtı yasaklama şansının artmasıyla kendini gösteren önemli bir dezavantajı vardır.",
-    languageEs:
-        "Compatible con casi todas las modificaciones, sin embargo, tiene un inconveniente importante que se manifiesta en una mayor probabilidad de ser baneado por el anti-cheat del juego.",
-    languageCn: "它与几乎所有的修改都兼容，但有一个明显的缺点，那就是被游戏反作弊系统封禁的几率会增加。",
-  },
   'KeyIsOccupied': {
     languageEn: 'The key you selected is already being used by some function!',
     languageRu: 'Выбранная тобой клавиша уже используется в одной из функций!',
@@ -1952,17 +1724,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Arka plan görüntüsü",
     languageEs: "Imagen de fondo",
     languageCn: "背景图片",
-  },
-  'NoBackground': {
-    languageEn: 'Without background',
-    languageRu: 'Без фона',
-    languageUa: 'Без фону',
-    languagePl: 'Bez tła',
-    languageDe: "Kein Hintergrund",
-    languageIt: 'Senza sfondo',
-    languageTr: "Arka plan olmadan",
-    languageEs: "Sin fondo",
-    languageCn: "无背景",
   },
   'DeleteThisImage': {
     languageEn: 'Delete this background',
@@ -2408,22 +2169,22 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'CanNotChangeThisInOfflineMode': {
     languageEn:
-        "Unfortunately, you can't change profle settings in offline mode 🙁!",
+        "Unfortunately, you can't change profle settings in offline mode!",
     languageRu:
-        'К сожалению, ты не можешь изменять настройки, связанные с профилем в автономном режиме 🙁!',
+        'К сожалению, ты не можешь изменять настройки, связанные с профилем в автономном режиме!',
     languageUa:
-        "На жаль, ти не можеш змінювати налаштування, пов'язані з профілем в автономному режимі 🙁!",
+        "На жаль, ти не можеш змінювати налаштування, пов'язані з профілем в автономному режимі!",
     languagePl:
-        'Niestety nie możesz zmienić ustawień związanych z profilem w trybie offline 🙁!',
+        'Niestety nie możesz zmienić ustawień związanych z profilem w trybie offline!',
     languageDe:
-        "Leider kannst du profilbezogene Einstellungen nicht offline ändern 🙁!",
+        "Leider kannst du profilbezogene Einstellungen nicht offline ändern!",
     languageIt:
-        'Sfortunatamente non puoi modificare le impostazioni del profilo in modalità offline 🙁!',
+        'Sfortunatamente non puoi modificare le impostazioni del profilo in modalità offline!',
     languageTr:
-        "Ne yazık ki, çevrimdışı modda profle ayarlarını değiştiremezsiniz 🙁!",
+        "Ne yazık ki, çevrimdışı modda profle ayarlarını değiştiremezsiniz!",
     languageEs:
-        "¡Lamentablemente, no puedes cambiar la configuración del perfil en modo sin conexión 🙁!",
-    languageCn: "遗憾的是，您无法在脱机模式下更改 profle 设置 🙁！",
+        "¡Lamentablemente, no puedes cambiar la configuración del perfil en modo sin conexión!",
+    languageCn: "遗憾的是，您无法在脱机模式下更改 profle 设置！",
   },
   'MultipleFoldersDetected': {
     languageEn:
@@ -2538,19 +2299,18 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "本修改器使用云配置系统，您可以将它们安装在修改器本身或其网站上！",
   },
   'ConfigsCanNotBeInstalledInOffline': {
-    languageEn: 'Configs installation is not available in an offline mode 🙁!',
-    languageRu: 'Установка конфигов недоступна в автономном режиме 🙁!',
-    languageUa: 'Установка конфігів недоступна в автономному режимі 🙁!',
-    languagePl:
-        'Instalowanie konfiguracji nie jest dostępne w trybie offline 🙁!',
+    languageEn: 'Configs installation is not available in an offline mode!',
+    languageRu: 'Установка конфигов недоступна в автономном режиме!',
+    languageUa: 'Установка конфігів недоступна в автономному режимі!',
+    languagePl: 'Instalowanie konfiguracji nie jest dostępne w trybie offline!',
     languageDe:
-        "Das Installieren von Konfigurationen ist im Offline-Modus nicht verfügbar 🙁!",
+        "Das Installieren von Konfigurationen ist im Offline-Modus nicht verfügbar!",
     languageIt:
-        'L`installazione delle configurazioni non è disponibile in modalità offline 🙁!',
-    languageTr: "Configs kurulumu çevrimdışı modda kullanılamaz 🙁!",
+        'L`installazione delle configurazioni non è disponibile in modalità offline!',
+    languageTr: "Configs kurulumu çevrimdışı modda kullanılamaz!",
     languageEs:
-        "¡La instalación de Configs no está disponible en modo offline 🙁!",
-    languageCn: "配置安装在脱机模式下不可用 🙁！",
+        "¡La instalación de Configs no está disponible en modo offline!",
+    languageCn: "配置安装在脱机模式下不可用！",
   },
   'InstallTheGameToOpenFolder': {
     languageEn:
@@ -2623,15 +2383,15 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "您选择的配置似乎已经安装！",
   },
   'SubscriptionExpired': {
-    languageEn: "Your ExLoader subscription has expired 🙁",
-    languageRu: 'Срок действия твоей подписки на ExLoader закончился 🙁',
-    languageUa: "Термін дії твоєї підписки на ExLoader закінчився 🙁",
-    languagePl: 'Twoja subskrypcja ExLoader wygasła 🙁',
-    languageDe: "Ihr ExLoader-Abonnement ist abgelaufen 🙁",
-    languageIt: 'Il tuo abbonamento a ExLoader è scaduto 🙁',
-    languageTr: "ExLoader aboneliğinizin süresi doldu 🙁",
-    languageEs: "Tu suscripción a ExLoader ha expirado 🙁",
-    languageCn: "您的 ExLoader 订阅已过期 🙁",
+    languageEn: "Your ExLoader subscription has expired",
+    languageRu: 'Срок действия твоей подписки на ExLoader закончился',
+    languageUa: "Термін дії твоєї підписки на ExLoader закінчився",
+    languagePl: 'Twoja subskrypcja ExLoader wygasła',
+    languageDe: "Ihr ExLoader-Abonnement ist abgelaufen",
+    languageIt: 'Il tuo abbonamento a ExLoader è scaduto',
+    languageTr: "ExLoader aboneliğinizin süresi doldu",
+    languageEs: "Tu suscripción a ExLoader ha expirado",
+    languageCn: "您的 ExLoader 订阅已过期",
   },
   'VACReplacementProcessIsStarted': {
     languageEn:
@@ -2924,16 +2684,15 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "该修改的开发者没有提供任何支持联系链接！",
   },
   'CannotOpenThisLink': {
-    languageEn: "Unfortunately, ExLoader cannot open this link 🙁",
-    languageRu: 'К сожалению, ExLoader не может открыть эту ссылку 🙁',
-    languageUa: "На жаль, ExLoader не може відкрити цю сторінку 🙁",
-    languagePl: 'Niestety, ExLoader nie może otworzyć tej strony 🙁',
-    languageDe: "Leider kann ExLoader diese Seite nicht öffnen🙁",
-    languageIt:
-        'Sfortunatamente, ExLoader non può aprire questo collegamento 🙁',
-    languageTr: "Maalesef ExLoader bu bağlantıyı açamıyor 🙁",
-    languageEs: "Desafortunadamente, ExLoader no puede abrir este enlace 🙁",
-    languageCn: "不幸的是，ExLoader 无法打开此链接 🙁。",
+    languageEn: "Unfortunately, ExLoader cannot open this link",
+    languageRu: 'К сожалению, ExLoader не может открыть эту ссылку',
+    languageUa: "На жаль, ExLoader не може відкрити цю сторінку",
+    languagePl: 'Niestety, ExLoader nie może otworzyć tej strony',
+    languageDe: "Leider kann ExLoader diese Seite nicht öffnen",
+    languageIt: 'Sfortunatamente, ExLoader non può aprire questo collegamento',
+    languageTr: "Maalesef ExLoader bu bağlantıyı açamıyor",
+    languageEs: "Desafortunadamente, ExLoader no puede abrir este enlace",
+    languageCn: "不幸的是，ExLoader 无法打开此链接。",
   },
   'AddingToExclusions': {
     languageEn: "Setting up the Windows Defender",
@@ -2979,20 +2738,25 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "ExLoader - autorización completada",
     languageCn: "ExLoader - 授权已完成",
   },
-  // TODO:!
   'GameUpdateMessage': {
     languageEn:
-        'Please note that there was a "<style=lighten>"{game} "<style=lighten>"update in recent days. This means that some "<style=lighten>"modifications "<style=lighten>"may "<style=lighten>"start "<style=lighten>"working "<style=lighten>"in "<style=lighten>"an "<style=lighten>"unstable "<style=lighten>"way and lead to crashes of the game! If you encounter such a problem, just "<style=lighten>"wait "<style=lighten>"for "<style=lighten>"the "<style=lighten>"developers "<style=lighten>"to "<style=lighten>"update "<style=lighten>"their "<style=lighten>"project. Usually, this happens within a few hours to "<style=lighten>"several "<style=lighten>"days. Remember, that the "<style=lighten>"ExLoader "<style=lighten>"team "<style=lighten>"does "<style=lighten>"not "<style=lighten>"create "<style=lighten>"or "<style=lighten>"update "<style=lighten>"modifications, we only publish their current versions to our library!',
+        'Please note that there was a {game} update in recent days. This means that some modifications may start working in an unstable way and lead to crashes of the game! If you encounter such a problem, just wait for the developers to update their project. Usually, this happens within a few hours to several days. Remember, that the ExLoader team does not create or update modifications, we only publish their current versions to our library!',
     languageRu:
-        'Обрати внимание, что в последние дни вышло "<style=lighten>"обновление "<style=lighten>"{game}. Это означает, что некоторые привычные для тебя "<style=lighten>"модификации "<style=lighten>"могут "<style=lighten>"начать "<style=lighten>"работать "<style=lighten>"нестабильно и привести к вылетам игры! Если ты столкнулся с подобной проблемой, просто "<style=lighten>"ожидай, "<style=lighten>"пока "<style=lighten>"разработчик "<style=lighten>"обновит "<style=lighten>"свой "<style=lighten>"проект. Обычно, это происходит в течение от нескольких часов до "<style=lighten>"нескольких "<style=lighten>"дней. Помни, что команда "<style=lighten>"ExLoader "<style=lighten>"не "<style=lighten>"занимается "<style=lighten>"созданием, "<style=lighten>"и "<style=lighten>"обновлением "<style=lighten>"модификаций, мы лишь публикуем их актуальные версии в нашу библиотеку!',
+        'Обрати внимание, что в последние дни вышло обновление {game}. Это означает, что некоторые привычные для тебя модификации могут начать работать нестабильно и привести к вылетам игры! Если ты столкнулся с подобной проблемой, просто ожидай, пока разработчик обновит свой проект. Обычно, это происходит в течение от нескольких часов до нескольких дней. Помни, что команда ExLoader не занимается созданием, и обновлением модификаций, мы лишь публикуем их актуальные версии в нашу библиотеку!',
     languageUa:
-        "Зверни увагу, що в останні дні вийшло \"<style=lighten>\"оновлення \"<style=lighten>\"{game}. Це означає, що деякі звичні для тебе \"<style=lighten>\"модифікації \"<style=lighten>\"можуть \"<style=lighten>\"почати \"<style=lighten>\"працювати \"<style=lighten>\"нестабільно і привести до вильотів гри! Якщо ти зіткнулся з подібною проблемою, просто \"<style=lighten>\"чекай, \"<style=lighten>\"поки \"<style=lighten>\"розробник \"<style=lighten>\"оновить \"<style=lighten>\"свій \"<style=lighten>\"проект. Зазвичай, це відбувається протягом від декількох годин до \"<style=lighten>\"декількох \"<style=lighten>\"днів. Пам'ятай, що команда \"<style=lighten>\"ExLoader \"<style=lighten>\"не \"<style=lighten>\"займається \"<style=lighten>\"створенням, \"<style=lighten>\"і \"<style=lighten>\"оновленням \"<style=lighten>\"модифікацій, ми лише публікуємо їх актуальні версії в нашу бібліотеку!",
+        "Зверни увагу, що в останні дні вийшло оновлення {game}. Це означає, що деякі звичні для тебе модифікації можуть почати працювати нестабільно і привести до вильотів гри! Якщо ти зіткнулся з подібною проблемою, просто чекай, поки розробник оновить свій проект. Зазвичай, це відбувається протягом від декількох годин до декількох днів. Пам'ятай, що команда ExLoader не займається створенням, і оновленням модифікацій, ми лише публікуємо їх актуальні версії в нашу бібліотеку!",
     languagePl:
-        'Pamiętaj, że w ciągu ostatnich kilku dni została wydana "<style=lighten>"aktualizacja "<style=lighten>"{game}. Oznacza to, że niektóre "<style=lighten>"modyfikacje "<style=lighten>"mogą "<style=lighten>"zacząć "<style=lighten>"działać "<style=lighten>"niestabilnie co prowadzi do zcrashowania gry! Jeśli napotkasz podobny problem, po prostu "<style=lighten>"poczekaj "<style=lighten>"podczas gdy "<style=lighten>"developer "<style=lighten>"zaaktualizuje "<style=lighten>"swój "<style=lighten>"projekt. Zwykle trwa to od kilku godzin do "<style=lighten>"kilku "<style=lighten>"dni. Pamiętaj, że zespół "<style=lighten>"ExLoader "<style=lighten>"nie tworzy i "<style=lighten>"nie "<style=lighten>"aktualizuje "<style=lighten>"modyfikacji, publikujemy tylko ich aktualne wersje w naszej bibliotece!',
+        'Pamiętaj, że w ciągu ostatnich kilku dni została wydana aktualizacja {game}. Oznacza to, że niektóre modyfikacje mogą zacząć działać niestabilnie co prowadzi do zcrashowania gry! Jeśli napotkasz podobny problem, po prostu poczekaj podczas gdy developer zaaktualizuje swój projekt. Zwykle trwa to od kilku godzin do kilku dni. Pamiętaj, że zespół ExLoader nie tworzy i nie aktualizuje modyfikacji, publikujemy tylko ich aktualne wersje w naszej bibliotece!',
     languageDe:
-        'Bitte beachten Sie, dass in den letzten Tagen das "<style=lighten>"{game} "<style=lighten>"veröffentlicht wurde. Dies bedeutet, dass einige "<style=lighten>"Modifikationen, an die Sie gewöhnt sind, "<style=lighten>""<style=lighten>"angefangen werden können. "<style=lighten>"funktioniert "<style=lighten>"instabil und führt zu Spielabstürzen! Wenn Sie auf ein ähnliches Problem stoßen, "<style=lighten>"warten Sie "<style=lighten>"während der "<style=lighten>"Entwickler "<style=lighten>"aktualisiert "<style=lighten>"Ihr "<style=lighten>"Projekt. Normalerweise geschieht dies innerhalb weniger Stunden bis zu "<style=lighten>"mehreren "<style=lighten>"Tagen. Denken Sie daran, dass der Befehl "<style=lighten>"ExLoader "<style=lighten>"nicht "<style=lighten>"erstellt, sondern "<style=lighten>"und "<style=lighten>"aktualisieren die "<style=lighten>"Mods, wir veröffentlichen nur ihre aktuellen Versionen in unserer Bibliothek!',
+        'Bitte beachten Sie, dass in den letzten Tagen das {game} veröffentlicht wurde. Dies bedeutet, dass einige Modifikationen, an die Sie gewöhnt sind,  angefangen werden können. funktioniert instabil und führt zu Spielabstürzen! Wenn Sie auf ein ähnliches Problem stoßen, warten Sie während der Entwickler aktualisiert Ihr Projekt. Normalerweise geschieht dies innerhalb weniger Stunden bis zu mehreren Tagen. Denken Sie daran, dass der Befehl ExLoader nicht erstellt, sondern und aktualisieren die Mods, wir veröffentlichen nur ihre aktuellen Versionen in unserer Bibliothek!',
     languageIt:
-        'Tieni presente che negli ultimi giorni c`è stato un aggiornamento "<style=lighten>"{game} "<style=lighten>" Ciò significa che alcune "<style=lighten>"modifiche "<style=lighten>"potrebbero "<style=lighten>"iniziare "<style=lighten>"a funzionare "<style=lighten>"in "<style=lighten> "un modo "<style=lighten>"instabile "<style=lighten>" e portare al crash del gioco! Se riscontri un problema del genere, semplicemente "<style=lighten>"attendi "<style=lighten>" affinché "<style=lighten>" gli "<style=lighten>" sviluppatori "<style=lighten>" aggiornano "<style=lighten>"il loro progetto "<style=lighten>". Di solito, ciò accade nell`arco di poche ore o "<style=lighten>"diversi "<style=lighten>"giorni. Ricorda che il team "<style=lighten>"ExLoader "<style=lighten>"non "<style=lighten>"crea "<style=lighten> "o "<style=lighten>"aggiorna "<style=lighten>"modifiche, pubblichiamo solo le loro versioni attuali nella nostra libreria!',
+        'Si prega di notare che negli ultimi giorni è stato effettuato un aggiornamento del {game}. Ciò significa che alcune modifiche potrebbero iniziare a funzionare in modo instabile e causare crash del gioco! Se riscontrate questo problema, aspettate che gli sviluppatori aggiornino il loro progetto. Di solito, questo avviene nel giro di poche ore o di alcuni giorni. Ricordate che il team di ExLoader non crea né aggiorna le modifiche, ma si limita a pubblicare le loro versioni correnti nella nostra libreria!',
+    languageTr:
+        "Lütfen son günlerde bir {game} güncellemesi olduğunu unutmayın. Bu, bazı değişikliklerin kararsız bir şekilde çalışmaya başlayabileceği ve oyunun çökmesine neden olabileceği anlamına gelir! Böyle bir sorunla karşılaşırsanız, geliştiricilerin projelerini güncellemelerini bekleyin. Genellikle, bu birkaç saat ila birkaç gün içinde gerçekleşir. Unutmayın, ExLoader ekibi değişiklikleri oluşturmaz veya güncellemez, sadece mevcut sürümlerini kütüphanemizde yayınlarız!",
+    languageEs:
+        "Por favor, ten en cuenta que ha habido una actualización del {game} en los últimos días. Esto significa que algunas modificaciones pueden empezar a funcionar de forma inestable y provocar fallos en el juego. Si te encuentras con un problema de este tipo, simplemente espera a que los desarrolladores actualicen su proyecto. Normalmente, esto ocurre en un plazo de entre unas horas y varios días. Recuerda que el equipo de ExLoader no crea ni actualiza modificaciones, ¡sólo publicamos sus versiones actuales en nuestra biblioteca!",
+    languageCn:
+        "请注意，最近几天进行了 {game} 更新。这意味着某些修改可能会开始以不稳定的方式运行，并导致游戏崩溃！如果您遇到此类问题，请等待开发人员更新项目。通常情况下，这种情况会在几小时到几天内发生。请记住，ExLoader 团队不会创建或更新修改，我们只会将其当前版本发布到我们的库中！",
   },
   'GoogleAuthPageDescription': {
     languageEn: "Validation is completed, you can go back to the application",
@@ -3005,25 +2769,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Doğrulama tamamlandığında uygulamaya geri dönebilirsiniz",
     languageEs: "La validación se ha completado, puede volver a la aplicación",
     languageCn: "验证完成后，您可以返回应用程序",
-  },
-  'ForgotToAddChangelog': {
-    languageEn:
-        "It seems that we forgot to add changelogs for this modification 🙁. Or there aren't any yet. However, it might change soon.",
-    languageRu:
-        'Похоже, что мы забыли добавить чейнджлоги к данной модификации 🙁. Или их попросту ещё нет. Но ничего, в скором времени это изменится.',
-    languageUa:
-        'Схоже, що ми забули додати чейнджлоги до даної модифікації 🙁. Або їх просто ще немає. Але, незабаром це може змінитися.',
-    languagePl:
-        'Wygląda na to, że zapomnieliśmy dodać dziennik zmian do tej modyfikacji 🙁. Albo po prostu jeszcze go nie ma. Lecz wkrótce może się to zmienić.',
-    languageDe:
-        "Es scheint, dass wir vergessen haben, Changelogs zu dieser Modifikation hinzuzufügen 🙁. Oder sie sind einfach noch nicht da. Aber nichts, das wird sich bald ändern.",
-    languageIt:
-        'Sembra che ci siamo dimenticati di aggiungere i log delle modifiche per questa modifica 🙁. Oppure non ce ne sono ancora. Tuttavia, la situazione potrebbe cambiare presto.',
-    languageTr:
-        "Görünüşe göre bu değişiklik için değişiklik günlüğü eklemeyi unutmuşuz 🙁. Ya da henüz yok. Ancak, yakında değişebilir.",
-    languageEs:
-        "Parece que nos olvidamos de añadir changelogs para esta modificación 🙁. O todavía no hay ninguno. Sin embargo, podría cambiar pronto.",
-    languageCn: "我们似乎忘了为这一修改添加更新日志🙁。或者还没有任何更新日志。不过，可能很快就会有变化。",
   },
   'Discount': {
     languageEn: "Discount",
@@ -3136,90 +2881,17 @@ const Map<String, Map<String, String>> localeItems = {
         "Parece que tu tarjeta de video es incompatible con una de las necesarias para lanzar esta modificación. Necesitarás una de las GPUs de los siguientes fabricantes para usar este mod:",
     languageCn: "看来您的显卡与启动此修改所需的显卡之一不兼容。您需要以下制造商生产的 GPU 才能使用此修改程序：",
   },
-  'MicrosoftCheck': {
-    languageEn: 'Checking for installation of Microsoft components',
-    languageRu: 'Проверяем компоненты Microsoft',
-    languageUa: 'Перевіряємо наявність компонентів Microsoft',
-    languagePl: 'Sprawdzamy obecność komponentów Microsoft',
-    languageDe: "Wir prüfen das Vorhandensein von Microsoft-Komponenten",
-    languageIt: 'Verifica dell`installazione dei componenti Microsoft',
-    languageTr: "Microsoft bileşenlerinin yüklenip yüklenmediğini kontrol etme",
-    languageEs: "Comprobación de la instalación de componentes de Microsoft",
-    languageCn: "检查是否安装了微软组件",
-  },
-  'SortByTagDescription': {
-    languageEn:
-        'Sorting by skin changers, legit, rage and movement mods as\nwell as by neural networks and macros can be found here!',
-    languageRu:
-        'Сортировка по скин-чейнджерам, легит, рейдж и мувмент модам,\nа так-же по нейросетям и макросам происходит здесь!',
-    languageUa:
-        'Сортування за скін-чейнджерами, легіт, рейдж і мувмент модами,\nа також за нейромережами і макросами відбувається тут!',
-    languagePl:
-        'Sortowanie według skin changerów, modów legit, rage i movement,\na także według sieci neuronowych i makr odbywa się tutaj!',
-    languageDe:
-        "Die Sortierung nach Skin-Changer, Legit-, Rage- und Muvment\nMods, sowie nach neuronalen Netzen und Makros erfolgt hier!",
-    languageIt:
-        'L`ordinamento per le mod skin changers, legit, rage e di movimento, nonché per reti neurali e macro può essere trovato qui!',
+  'ComponentsCheckUnified': {
+    languageEn: 'Checking for installation of {components} components',
+    languageRu: 'Проверяем наличие компонентов {components}',
+    languageUa: 'Перевіряємо наявність компонентів {components}',
+    languagePl: 'Sprawdzamy obecność komponentów {components}',
+    languageDe: "Wir prüfen das Vorhandensein von {components}-Komponenten",
+    languageIt: 'Verifica dell`installazione dei componenti {components}',
     languageTr:
-        "Cilt değiştiriciler, yasal, öfke ve hareket modlarının\nyanı sıra sinir ağları ve makrolara göre sıralamayı burada bulabilirsiniz!",
-    languageEs:
-        "Aquí puedes clasificar los mods por skin changers,\nlegit, rage y movement, así como por redes neuronales y macros.",
-    languageCn: "这里可以按皮肤更换器、合法、愤怒和动作修改器以及神经网络和宏进行分类！",
-  },
-  'NetFrameworkCheck': {
-    languageEn: 'Comparing the .NET Framework versions',
-    languageRu: 'Сверяем версию .NET Framework',
-    languageUa: 'Звіряємо версію .NET Framework',
-    languagePl: 'Sprawdzamy wersję .NET Framework',
-    languageDe: "Überprüfen Sie die .NET Framework-Version",
-    languageIt: 'Confronto tra le versioni di .NET Framework',
-    languageTr: ".NET Framework sürümlerinin karşılaştırılması",
-    languageEs: "Comparación de las versiones de .NET Framework",
-    languageCn: "比较 .NET Framework 版本",
-  },
-  'NetRuntimeCheck': {
-    languageEn: 'Comparing the .NET Runtime versions',
-    languageRu: 'Сверяем версию .NET Runtime',
-    languageUa: 'Звіряємо версію .NET Runtime',
-    languagePl: 'Sprawdzamy wersję .NET Runtime',
-    languageDe: "Überprüfen Sie die .NET Runtime-Version",
-    languageIt: 'Confronto delle versioni di .NET Runtime',
-    languageTr: ".NET Runtime sürümlerini karşılaştırma",
-    languageEs: "Comparación de las versiones de .NET Runtime",
-    languageCn: "比较 .NET 运行时版本",
-  },
-  'JavaCheck': {
-    languageEn: 'Looking for an installed Java',
-    languageRu: 'Ищем установленную Java',
-    languageUa: 'Шукаємо встановлену Java',
-    languagePl: 'Szukanie zainstalowanej Javy',
-    languageDe: "Wir suchen nach installiertem Java",
-    languageIt: 'Alla ricerca di un Java installato',
-    languageTr: "Yüklü bir Java arıyorum",
-    languageEs: "Buscando un Java instalado",
-    languageCn: "寻找已安装的 Java",
-  },
-  'CheatEngineCheck': {
-    languageEn: 'Looking for an installed CheatEngine',
-    languageRu: 'Ищем установленный CheatEngine',
-    languageUa: 'Шукаємо встановлений CheatEngine',
-    languagePl: 'Szukam zainstalowanego CheatEngine',
-    languageDe: "Wir suchen nach installiertem CheatEngine",
-    languageIt: 'Alla ricerca di un CheatEngine installato',
-    languageTr: "Yüklü bir CheatEngine aranıyor",
-    languageEs: "Buscando un CheatEngine instalado",
-    languageCn: "寻找已安装的 CheatEngine",
-  },
-  'PythonCheck': {
-    languageEn: 'Looking for an installed Python',
-    languageRu: 'Ищем установленный Python',
-    languageUa: 'Шукаємо встановлений Python',
-    languagePl: 'Szukam zainstalowanego Pythona',
-    languageDe: "Suche nach installiertem Python",
-    languageIt: 'Alla ricerca di un Python installato',
-    languageTr: "Kurulu bir Python arıyorum",
-    languageEs: "Buscando un Python instalado",
-    languageCn: "寻找已安装的 Python",
+        "{components} bileşenlerinin yüklenip yüklenmediğini kontrol etme",
+    languageEs: "Comprobación de la instalación de componentes de {components}",
+    languageCn: "检查 {components} 组件的安装情况",
   },
   'InstallingInjectionModule': {
     languageEn: "Installing the modification's launch module",
@@ -3414,23 +3086,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'FailedToLaunchTheModification': {
     languageEn:
-        "An unexpected error has occurred during modification's launch process 🙁. Try changing modification's injection method in ExLoader settings, or test the launch of some other modification. The list of available modifications for each injection method can be viewed in the application settings!",
+        "An unexpected error has occurred during modification's launch process. Try changing modification's injection method in ExLoader settings, or test the launch of some other modification. The list of available modifications for each injection method can be viewed in the application settings!",
     languageRu:
-        'В ходе запуска модификации произошла непредвиденная ошибка 🙁. Попробуй изменить способ инъекции модификаций в настройках ExLoader или же протестируй запуск какой-нибудь другой модификации. Список доступных модификаций под каждый способ инъекции можно посмотреть в настройках приложения!',
+        'В ходе запуска модификации произошла непредвиденная ошибка. Попробуй изменить способ инъекции модификаций в настройках ExLoader или же протестируй запуск какой-нибудь другой модификации. Список доступных модификаций под каждый способ инъекции можно посмотреть в настройках приложения!',
     languageUa:
-        "В ході запуску модифікації сталася непередбачена помилка 🙁. Спробуй змінити спосіб ін'єкції модифікацій в налаштуваннях ExLoader або ж протестуй запуск якої-небудь іншої модифікації. Список доступних модифікацій під кожен спосіб ін'єкції можна подивитися в налаштуваннях програми!",
+        "В ході запуску модифікації сталася непередбачена помилка. Спробуй змінити спосіб ін'єкції модифікацій в налаштуваннях ExLoader або ж протестуй запуск якої-небудь іншої модифікації. Список доступних модифікацій під кожен спосіб ін'єкції можна подивитися в налаштуваннях програми!",
     languagePl:
-        'Podczas uruchamiania modyfikacji wystąpił nieoczekiwany błąd 🙁. Spróbuj zmienić sposób wstrzykiwania modyfikacji w ustawieniach Exloadera lub przetestuj uruchomienie innej modyfikacji. Listę dostępnych modyfikacji dla każdej metody wstrzykiwania można zobaczyć w ustawieniach aplikacji!',
+        'Podczas uruchamiania modyfikacji wystąpił nieoczekiwany błąd. Spróbuj zmienić sposób wstrzykiwania modyfikacji w ustawieniach Exloadera lub przetestuj uruchomienie innej modyfikacji. Listę dostępnych modyfikacji dla każdej metody wstrzykiwania można zobaczyć w ustawieniach aplikacji!',
     languageDe:
-        "Beim Starten der Modifikation ist ein unerwarteter Fehler aufgetreten 🙁. Versuchen Sie, die Art und Weise zu ändern, wie Modifikationen in den ExLoader-Einstellungen injiziert werden, oder testen Sie, ob eine andere Modifikation ausgeführt wird. Die Liste der verfügbaren Modifikationen für jede Injektionsmethode kann in den Anwendungseinstellungen eingesehen werden!",
+        "Beim Starten der Modifikation ist ein unerwarteter Fehler aufgetreten. Versuchen Sie, die Art und Weise zu ändern, wie Modifikationen in den ExLoader-Einstellungen injiziert werden, oder testen Sie, ob eine andere Modifikation ausgeführt wird. Die Liste der verfügbaren Modifikationen für jede Injektionsmethode kann in den Anwendungseinstellungen eingesehen werden!",
     languageIt:
-        'Si è verificato un errore imprevisto durante il processo di avvio della modifica 🙁. Prova a cambiare il metodo di iniezione della modifica nelle impostazioni di ExLoader o prova l`avvio di qualche altra modifica. L`elenco delle modifiche disponibili per ciascun metodo di iniezione può essere visualizzato nelle impostazioni dell`applicazione!',
+        'Si è verificato un errore imprevisto durante il processo di avvio della modifica. Prova a cambiare il metodo di iniezione della modifica nelle impostazioni di ExLoader o prova l`avvio di qualche altra modifica. L`elenco delle modifiche disponibili per ciascun metodo di iniezione può essere visualizzato nelle impostazioni dell`applicazione!',
     languageTr:
-        "Değişikliğin başlatma işlemi sırasında beklenmedik bir hata oluştu 🙁. ExLoader ayarlarında modifikasyonun enjeksiyon yöntemini değiştirmeyi deneyin veya başka bir modifikasyonun başlatılmasını test edin. Her enjeksiyon yöntemi için mevcut değişikliklerin listesi uygulama ayarlarında görüntülenebilir!",
+        "Değişikliğin başlatma işlemi sırasında beklenmedik bir hata oluştu. ExLoader ayarlarında modifikasyonun enjeksiyon yöntemini değiştirmeyi deneyin veya başka bir modifikasyonun başlatılmasını test edin. Her enjeksiyon yöntemi için mevcut değişikliklerin listesi uygulama ayarlarında görüntülenebilir!",
     languageEs:
-        "Se ha producido un error inesperado durante el proceso de lanzamiento de la modificación 🙁. Intente cambiar el método de inyección de la modificación en la configuración de ExLoader o pruebe el lanzamiento de otra modificación. La lista de modificaciones disponibles para cada método de inyección se puede ver en la configuración de la aplicación.",
+        "Se ha producido un error inesperado durante el proceso de lanzamiento de la modificación. Intente cambiar el método de inyección de la modificación en la configuración de ExLoader o pruebe el lanzamiento de otra modificación. La lista de modificaciones disponibles para cada método de inyección se puede ver en la configuración de la aplicación.",
     languageCn:
-        "修改启动过程中出现意外错误🙁。请尝试在 ExLoader 设置中更改修改的注入方法，或测试其他修改的启动。可在应用程序设置中查看每种注入方法的可用修改列表！",
+        "修改启动过程中出现意外错误。请尝试在 ExLoader 设置中更改修改的注入方法，或测试其他修改的启动。可在应用程序设置中查看每种注入方法的可用修改列表！",
   },
   'VerifyingFiles': {
     languageEn: "Verifying installation files",
@@ -3484,7 +3156,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa:
         'Твій обліковий запис користувача не володіє правами адміністратора! Для продовження перейди в панель управління, облікові записи користувачів, змінити тип облікового запису і вибери «Адміністратор» для користувача {user}. Не забудь перезавантажити пристрій після застосування змін!',
     languagePl:
-        'Twoje konto użytkownika nie ma uprawnień administratora! Aby kontynuować, przejdź do panelu sterowania, kont użytkowników, zmień typ konta i wybierz „Administrator” dla użytkownika {user}. Nie zapomnij zrestartować urządzenia po zastosowaniu zmian!',
+        'Twoje konto użytkownika nie ma uprawnień administratora! Aby kontynuować, przejdź do panelu sterowania, kont użytkowników, zmień typ konta i wybierz «Administrator» dla użytkownika {user}. Nie zapomnij zrestartować urządzenia po zastosowaniu zmian!',
     languageDe:
         'Ihr Benutzerkonto hat keine Administratorrechte! Um fortzufahren, gehen Sie zur Systemsteuerung, Benutzerkonten, ändern Sie den Kontotyp und wählen Sie "Administrator" für Benutzer {user}. Vergessen Sie nicht, Ihr Gerät neu zu starten, nachdem Sie die Modifikationen übernommen haben!',
     languageIt:
@@ -4111,17 +3783,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Esta sección no está disponible para modificaciones móviles.",
     languageCn: "本部分不适用于手机修改！",
   },
-  'Analyze': {
-    languageEn: "Modification's problems solving",
-    languageRu: 'Решение проблем модификации',
-    languageUa: 'Вирішення проблем модифікації',
-    languagePl: 'Rozwiązywanie problemów z modyfikacjami',
-    languageDe: "Lösung von Modifikationsproblemen",
-    languageIt: 'Risoluzione dei problemi di modifica',
-    languageTr: "Modifikasyon sorunlarının çözümü",
-    languageEs: "Resolución de problemas de modificación",
-    languageCn: "修改问题的解决",
-  },
   'NoLaunchGuide': {
     languageEn:
         "This modification's developer did not left any specific launch instructions",
@@ -4190,16 +3851,16 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa:
         'Всі підказки, в яких ти натискав «не показувати це знову», а також банери, що пояснюють призначення елементів програми будуть показані знову.',
     languagePl:
-        'Wszystkie podpowiedzi, w których kliknąłeś „nie pokazuj tego ponownie”, jak również porady wyjaśniające przeznaczenie elementów programu, zostaną ponownie wyświetlone.',
+        'Wszystkie podpowiedzi, w których kliknąłeś «nie pokazuj tego ponownie», jak również porady wyjaśniające przeznaczenie elementów programu, zostaną ponownie wyświetlone.',
     languageDe:
-        'Alle Tooltips, in denen Sie auf "nicht mehr anzeigen" geklickt haben, sowie Banner, die den Zweck von Programmelementen erklären, werden erneut angezeigt.',
+        'Alle Tooltips, in denen Sie auf «nicht mehr anzeigen» geklickt haben, sowie Banner, die den Zweck von Programmelementen erklären, werden erneut angezeigt.',
     languageIt:
         'Verranno mostrati nuovamente tutti i suggerimenti su cui hai cliccato «non mostrarli più», così come i banner che spiegano lo scopo degli elementi dell`applicazione.',
     languageTr:
-        "„Bir daha gösterme” seçeneğini tıkladığınız tüm ipuçları ve uygulamanın öğelerinin amacını açıklayan banner'lar tekrar gösterilecektir.",
+        "«Bir daha gösterme» seçeneğini tıkladığınız tüm ipuçları ve uygulamanın öğelerinin amacını açıklayan banner'lar tekrar gösterilecektir.",
     languageEs:
-        'Se volverán a mostrar todas las pistas en las que hayas pulsado "no volver a mostrar", así como los banners que explican la finalidad de los elementos de la aplicación.',
-    languageCn: "所有点击 „不再显示” 的提示以及解释应用程序元素用途的横幅都会再次显示。",
+        'Se volverán a mostrar todas las pistas en las que hayas pulsado «no volver a mostrar», así como los banners que explican la finalidad de los elementos de la aplicación.',
+    languageCn: "所有点击 «不再显示» 的提示以及解释应用程序元素用途的横幅都会再次显示。",
   },
   'AppVersion': {
     languageEn: "Application's version",
@@ -4590,17 +4251,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Añadir nuevo",
     languageCn: "添加新内容",
   },
-  'GamesDescription': {
-    languageEn: "Adding and editing of the games list",
-    languageRu: 'Добавление игр и их редактирование',
-    languageUa: 'Додавання ігор та їх редагування',
-    languagePl: 'Dodawanie i edytowanie listy gier',
-    languageDe: "Hinzufügen und Bearbeiten von Spielen",
-    languageIt: 'Aggiunta e modifica dell`elenco dei giochi',
-    languageTr: "Oyun listesinin eklenmesi ve düzenlenmesi",
-    languageEs: "Añadir y editar la lista de juegos",
-    languageCn: "添加和编辑游戏列表",
-  },
   'ResetVersion': {
     languageEn: "Reset version to the current one",
     languageRu: 'Сбросить версию до текущей',
@@ -4622,26 +4272,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Günlük verileri tamamen boş!",
     languageEs: "Los datos del registro están completamente vacíos.",
     languageCn: "日志数据完全为空！",
-  },
-  'AntivirusCheckTip': {
-    languageEn:
-        "🛡🛡🛡 Have you ever downloaded modifications through any third-party\nsource, not through our application? If so, we recommend you to protect\nyourself and your data by downloading a good antivirus, for example\nKaspersky or Eset Nod32, and checking your system for the absence\nof virus threats. A simple step that obviously will not be superfluous!)",
-    languageRu:
-        '🛡🛡🛡 Ты когда-нибудь скачивал модификации через какой-либо сторонний\nисточник, а не с помощью нашего приложения? Если да, то мы рекомендуем\nтебе обезопасить себя и свои данные, скачав хороший антивирусник, например\nKaspersky или же Eset Nod32, и проверив свою систему на отстутствие вирусных\nугроз. Простой шаг, но лишним явно не будет!)',
-    languageUa:
-        '🛡🛡🛡 Ти коли-небудь завантажувал модифікації через якесь стороннє\nджерело, а не за допомогою нашого додатка? Якщо так, то ми рекомендуємо тобі\nубезпечити себе і свої дані, скачавши хороший антивирусник, наприклад\nKaspersky або ж Eset Nod32, і перевіривши свою систему на відсутність вірусних\nзагроз. Простий крок, але зайвим явно не буде!)',
-    languagePl:
-        '🛡🛡🛡 Czy kiedykolwiek pobierałeś modyfikacje z jakiegoś źródła\nzewnętrznego zamiast korzystać z naszej aplikacji? Jeśli tak, zalecamy\nochronę siebie i swoich danych poprzez pobranie dobrego programu\nantywirusowego, takiego jak Kaspersky lub Eset Nod32, oraz sprawdzenie\nsystemu pod kątem obecności wirusów. Prosty krok, ale na pewno nie\nbędzie zbędny!)',
-    languageDe:
-        "🛡🛡🛡 Hast du jemals Mods über eine Drittanbieterquelle\nheruntergeladen, anstatt unsere App zu verwenden? In diesem\nFall empfehlen wir Ihnen, sich und Ihre Daten zu schützen,\nindem Sie ein gutes Antivirenprogramm wie Kaspersky oder\nEset Nod32 herunterladen und Ihr System auf Virenbedrohungen\nüberprüfen. Ein einfacher Schritt, aber er wird definitiv nicht\nüberflüssig sein!)",
-    languageIt:
-        '🛡🛡🛡 Hai mai scaricato modifiche tramite fonti di terze parti,\nnon tramite la nostra applicazione? Se è così, ti consigliamo di\nproteggere te stesso e i tuoi dati scaricando un buon antivirus, ad esempio Kaspersky o Eset\nNod32, e controllando l`assenza di minacce di virus nel tuo sistema. Un semplice passaggio che\novviamente non sarà superfluo!)',
-    languageTr:
-        "🛡🛡🛡 Uygulamamız aracılığıyla değil, herhangi bir üçüncü taraf\nkaynak aracılığıyla hiç değişiklik indirdiniz mi? Eğer öyleyse,\nKaspersky veya Eset Nod32 gibi iyi bir antivirüs programı indirerek ve sisteminizde virüs\ntehdidi olup olmadığını kontrol ederek kendinizi ve verilerinizi korumanızı öneririz. Açıkçası\ngereksiz olmayacak basit bir adım!)",
-    languageEs:
-        "🛡🛡🛡 ¿Has descargado alguna vez modificaciones a través de alguna\nfuente de terceros, no a través de nuestra aplicación? Si es así,\nte recomendamos que te protejas a ti mismo y a tus datos descargando un buen antivirus, por\nejemplo Kaspersky o Eset Nod32, y comprobando la ausencia de amenazas de virus en tu sistema.\nUn paso sencillo que, obviamente, no estará de más).",
-    languageCn:
-        "🛡🛡🛡您是否通过任何第三方来源下载过修改，而不是通过我们的应用程序？如果是，我们建议您下载一个好的杀毒软件（如卡巴斯基或 Eset Nod32），\n检查系统是否存在病毒威胁，以保护您自己和您的数据。这一步很简单，但显然不是多余的！)",
   },
   'FailedToLaunchBecauseSteamWasRestarted': {
     languageEn:
@@ -4684,18 +4314,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Hora de finalización en el sistema unix",
     languageCn: "Unix 系统中的结束时间",
   },
-  // TODO:
-  'NotificationMultilang': {
-    languageEn: "Notification's translation for russian language",
-    languageRu: 'Перевод уведомления на русский язык',
-    languageUa: 'Переклад повідомлення на російську мову',
-    languagePl: 'Tłumaczenie wiadomości na język rosyjski',
-    languageDe: "Übersetzung der Nachricht ins Russische",
-    languageIt: 'Traduzione della notifica per la lingua russa',
-    languageTr: "Bildirimin Rusça diline çevirisi",
-    languageEs: "Traducción de la notificación al ruso",
-    languageCn: "通知的俄语翻译",
-  },
   'Delete': {
     languageEn: "Delete",
     languageRu: 'Удалить',
@@ -4729,94 +4347,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Mango",
     languageCn: "手柄",
   },
-  'GameId': {
-    languageEn: "Game's ID",
-    languageRu: 'ID игры',
-    languageUa: 'ID гри',
-    languagePl: 'ID gry',
-    languageDe: "Spiel-ID",
-    languageIt: 'ID del gioco',
-    languageTr: "Oyunun Kimliği",
-    languageEs: "ID del juego",
-    languageCn: "游戏 ID",
-  },
-  'GameColorCode': {
-    languageEn: "Game's color code",
-    languageRu: 'Цветовой код игры',
-    languageUa: 'Колірний код гри',
-    languagePl: 'Kod koloru gry',
-    languageDe: "Farbcode des Spiels",
-    languageIt: 'Codice colore del gioco',
-    languageTr: "Oyunun renk kodu",
-    languageEs: "Código de colores del juego",
-    languageCn: "游戏的颜色代码",
-  },
-  'GameTitle': {
-    languageEn: "Game's full title",
-    languageRu: 'Полное название игры',
-    languageUa: 'Повна назва гри',
-    languagePl: 'Pełna nazwa gry',
-    languageDe: "Vollständiger Name des Spiels",
-    languageIt: 'Titolo completo del gioco',
-    languageTr: "Oyunun tam adı",
-    languageEs: "Título completo del juego",
-    languageCn: "游戏全名",
-  },
-  'GameShortTitle': {
-    languageEn: "Game's short title",
-    languageRu: 'Краткое название игры',
-    languageUa: 'Коротка назва гри',
-    languagePl: 'Krótka nazwa gry',
-    languageDe: "Kurzname des Spiels",
-    languageIt: 'Titolo breve del gioco',
-    languageTr: "Oyunun kısa adı",
-    languageEs: "Título abreviado del juego",
-    languageCn: "游戏简称",
-  },
-  'GameMainModule': {
-    languageEn: "Game's loading module name",
-    languageRu: 'Название загрузочного модуля игры',
-    languageUa: 'Назва завантажувального модуля гри',
-    languagePl: 'Nazwa modułu ładowania gry',
-    languageDe: "Name des Spiel-Bootloaders",
-    languageIt: 'Nome del modulo di caricamento del gioco',
-    languageTr: "Oyunun yükleme modülü adı",
-    languageEs: "Nombre del módulo de carga del juego",
-    languageCn: "游戏加载模块名称",
-  },
-  'GameProcessName': {
-    languageEn: "Game's process name",
-    languageRu: 'Название процесса игры',
-    languageUa: 'Назва процесу гри',
-    languagePl: 'Nazwa procesu gry',
-    languageDe: "Der Name des Spielprozesses",
-    languageIt: 'Nome del processo del gioco',
-    languageTr: "Oyunun işlem adı",
-    languageEs: "Nombre del proceso del juego",
-    languageCn: "游戏进程名称",
-  },
-  'GameFolder': {
-    languageEn: "Game's Steam directory name",
-    languageRu: 'Название папки игры в Steam',
-    languageUa: 'Назва папки гри в Steam',
-    languagePl: 'Nazwa folderu gry na Steam',
-    languageDe: "Der Name des Spielordners in Steam",
-    languageIt: 'Nome della directory Steam del gioco',
-    languageTr: "Oyunun Steam dizin adı",
-    languageEs: "Nombre del directorio Steam del juego",
-    languageCn: "游戏的 Steam 目录名称",
-  },
-  'HeaderImage': {
-    languageEn: "Game's header image",
-    languageRu: 'Фоновое изображение игры',
-    languageUa: 'Фонове зображення гри',
-    languagePl: 'Obraz tła gry',
-    languageDe: "Hintergrundbild des Spiels",
-    languageIt: 'Immagine dell`intestazione del gioco',
-    languageTr: "Oyunun başlık görseli",
-    languageEs: "Imagen de cabecera del juego",
-    languageCn: "游戏头像",
-  },
   'Select': {
     languageEn: "Select",
     languageRu: 'Выбрать',
@@ -4827,17 +4357,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Seçiniz",
     languageEs: "Seleccione",
     languageCn: "选择",
-  },
-  'IconImage': {
-    languageEn: "Game's logo",
-    languageRu: 'Логотип игры',
-    languageUa: 'Логотип гри',
-    languagePl: 'Logo gry',
-    languageDe: "Spiel-Logo",
-    languageIt: 'Logo del gioco',
-    languageTr: "Oyunun logosu",
-    languageEs: "Logotipo del juego",
-    languageCn: "游戏徽标",
   },
   'MaybeYouWantedToEnter': {
     languageEn:
@@ -4868,17 +4387,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hayır, e-postamı doğru girdim!",
     languageEs: "No, introduje mi correo electrónico correctamente.",
     languageCn: "不，我输入的电子邮件是正确的！",
-  },
-  'IsGameMobile': {
-    languageEn: "Is the game mobile?",
-    languageRu: 'Является ли игра мобильной?',
-    languageUa: 'Чи є гра мобільною?',
-    languagePl: 'Czy gra jest mobilna?',
-    languageDe: "Ist das Spiel mobil?",
-    languageIt: 'Il gioco è mobile?',
-    languageTr: "Oyun mobil mi?",
-    languageEs: "¿El juego es móvil?",
-    languageCn: "游戏是移动的吗？",
   },
   'WaitForAMinute': {
     languageEn: "Wait for a minute before the next auth attempt!",
@@ -4945,15 +4453,15 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "输入有效的电子邮件地址！",
   },
   'FailedToConnect': {
-    languageEn: "Failed to connect to the app's server 🙁",
-    languageRu: 'Не удалось подключиться к серверу приложения 🙁',
-    languageUa: 'Не вдалося підключитися до сервера програми 🙁',
-    languagePl: 'Nie udało się połączyć z serwerami aplikacji 🙁',
-    languageDe: "Verbindung zum App-Server fehlgeschlagen 🙁",
-    languageIt: 'Impossibile connettersi al server dell`app 🙁',
-    languageTr: "Uygulamanın sunucusuna bağlanılamadı 🙁",
-    languageEs: "Ha fallado la conexión con el servidor de la app 🙁",
-    languageCn: "连接应用程序服务器失败 🙁",
+    languageEn: "Failed to connect to the app's server",
+    languageRu: 'Не удалось подключиться к серверу приложения',
+    languageUa: 'Не вдалося підключитися до сервера програми',
+    languagePl: 'Nie udało się połączyć z serwerami aplikacji',
+    languageDe: "Verbindung zum App-Server fehlgeschlagen",
+    languageIt: 'Impossibile connettersi al server dell`app',
+    languageTr: "Uygulamanın sunucusuna bağlanılamadı",
+    languageEs: "Ha fallado la conexión con el servidor de la app",
+    languageCn: "连接应用程序服务器失败",
   },
   'GoogleAuthHasFailed': {
     languageEn:
@@ -4984,17 +4492,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklik dosyası henüz seçilmedi",
     languageEs: "Aún no se ha elegido el archivo de la modificación",
     languageCn: "尚未选择修改文件",
-  },
-  'FailedToFindModification': {
-    languageEn: "Failed to find a modification with such title 🙁",
-    languageRu: 'Не удалось найти модификацию с таким названием 🙁',
-    languageUa: 'Не вдалося знайти модифікацію з такою назвою 🙁',
-    languagePl: 'Nie znaleziono modyfikacji o tej nazwie 🙁',
-    languageDe: "Konnte keinen Mod mit diesem Namen finden 🙁",
-    languageIt: 'Impossibile trovare una modifica con questo titolo 🙁',
-    languageTr: "Böyle bir başlığa sahip bir değişiklik bulunamadı 🙁",
-    languageEs: "No se ha podido encontrar una modificación con ese título 🙁",
-    languageCn: "未找到具有此类标题的修改🙁。",
   },
   'Purchase': {
     languageEn: "Purchase",
@@ -5048,25 +4545,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Utilice los iconos siguientes para seleccionar el juego",
     languageCn: "使用下面的图标选择游戏",
   },
-  'InjectionIsInSettings': {
-    languageEn:
-        "Injection method for modifications is changed in the application's settings!",
-    languageRu:
-        'Способ инъекции модификаций изменяется в настройках приложения!',
-    languageUa:
-        "Спосіб ін'єкції модифікацій змінюється в налаштуваннях програми!",
-    languagePl:
-        'Sposób wstrzykiwania modyfikacji zmienia się w ustawieniach programu!',
-    languageDe:
-        "Die Art der Injektion von Modifikationen ändert sich in den Programmeinstellungen!",
-    languageIt:
-        'Il metodo di iniezione per le modifiche viene modificato nelle impostazioni dell`applicazione!',
-    languageTr:
-        "Değişiklikler için enjeksiyon yöntemi uygulamanın ayarlarında değiştirilir!",
-    languageEs:
-        "El método de inyección de las modificaciones se cambia en la configuración de la aplicación.",
-    languageCn: "修改的注入方法可在应用程序的设置中更改！",
-  },
   'AddToGlobalLibrary': {
     languageEn:
         "Application to add your modification to the ExLoader's library (only for developers)",
@@ -5097,144 +4575,87 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Vale, gracias, ¡lo he entendido!",
     languageCn: "好的，谢谢，我明白了！",
   },
-  'FailedToFindGame': {
-    languageEn: "Failed to find game with such title pattern 🙁",
-    languageRu: 'Не удалось найти игру с таким названием 🙁',
-    languageUa: 'Не вдалося знайти гру з такою назвою 🙁',
-    languagePl: 'Nie znaleziono gry o tej nazwie 🙁',
-    languageDe: "Konnte kein Spiel mit diesem Namen finden 🙁",
-    languageIt: 'Impossibile trovare un gioco con questo nome 🙁',
-    languageTr: "Böyle bir başlık desenine sahip oyun bulunamadı 🙁",
-    languageEs: "Fallo al encontrar juego con dicho patrón de título 🙁",
-    languageCn: "Böyle bir başlık desenine sahip oyun bulunamadı 🙁",
-  },
   'FailedToFindFrame': {
-    languageEn: "Failed to find avatar frame with such title pattern 🙁",
-    languageRu: 'Не удалось найти рамку с таким названием 🙁',
-    languageUa: 'Не вдалося знайти рамку з такою назвою 🙁',
-    languagePl: 'Nie znaleziono ramky o tej nazwie 🙁',
-    languageDe: "Konnte kein Rahmen mit diesem Namen finden 🙁",
-    languageIt: 'Non sono riuscito a trovare una cornice con quel nome 🙁',
-    languageTr:
-        "Böyle bir başlık desenine sahip avatar çerçevesi bulunamadı 🙁",
-    languageEs:
-        "Error al encontrar marco de avatar con tal patrón de título 🙁",
-    languageCn: "未找到具有此类标题图案的头像框 🙁",
+    languageEn: "Failed to find avatar frame with such title pattern",
+    languageRu: 'Не удалось найти рамку с таким названием',
+    languageUa: 'Не вдалося знайти рамку з такою назвою',
+    languagePl: 'Nie znaleziono ramky o tej nazwie',
+    languageDe: "Konnte kein Rahmen mit diesem Namen finden",
+    languageIt: 'Non sono riuscito a trovare una cornice con quel nome',
+    languageTr: "Böyle bir başlık desenine sahip avatar çerçevesi bulunamadı",
+    languageEs: "Error al encontrar marco de avatar con tal patrón de título",
+    languageCn: "未找到具有此类标题图案的头像框",
   },
   'FailedToChangeStatus': {
     languageEn:
-        "Unfortunately, we were unable to update your status, perhaps, there is something wrong with it 🙁!",
+        "Unfortunately, we were unable to update your status, perhaps, there is something wrong with it!",
     languageRu:
-        'К сожалению, нам не удалось обновить твой статус. Возможно, что-то в нём не так 🙁!',
+        'К сожалению, нам не удалось обновить твой статус. Возможно, что-то в нём не так!',
     languageUa:
-        'На жаль, нам не вдалося оновити твій статус, можливо, щось у ньому не так 🙁!',
+        'На жаль, нам не вдалося оновити твій статус, можливо, щось у ньому не так!',
     languagePl:
-        'Przepraszamy, nie mogliśmy zaktualizować Twojego statusu, może coś jest z nim nie tak 🙁!',
+        'Przepraszamy, nie mogliśmy zaktualizować Twojego statusu, może coś jest z nim nie tak!',
     languageDe:
-        "Entschuldigung, wir konnten Ihren Status nicht aktualisieren, vielleicht stimmt etwas damit nicht 🙁!",
+        "Entschuldigung, wir konnten Ihren Status nicht aktualisieren, vielleicht stimmt etwas damit nicht!",
     languageIt:
-        'Sfortunatamente non siamo riusciti ad aggiornare il tuo stato, forse c`è qualcosa che non va 🙁!',
+        'Sfortunatamente non siamo riusciti ad aggiornare il tuo stato, forse c`è qualcosa che non va!',
     languageTr:
-        "Maalesef durumunuzu güncelleyemedik, belki de bir sorun vardır 🙁!",
+        "Maalesef durumunuzu güncelleyemedik, belki de bir sorun vardır!",
     languageEs:
-        "¡Lamentablemente, no hemos podido actualizar tu estado, tal vez, hay algo mal en él 🙁!",
-    languageCn: "很遗憾，我们无法更新您的状态，也许是出了什么问题🙁！",
+        "¡Lamentablemente, no hemos podido actualizar tu estado, tal vez, hay algo mal en él!",
+    languageCn: "很遗憾，我们无法更新您的状态，也许是出了什么问题！",
   },
   'FailedToChangeAvatar': {
     languageEn:
-        "Unfortunately, we were unable to update your avatar, maybe you should choose a different picture 🙁!",
+        "Unfortunately, we were unable to update your avatar, maybe you should choose a different picture!",
     languageRu:
-        'К сожалению, нам не удалось обновить твою аватарку, возможно, тебе стоит выбрать другую картинку 🙁!',
+        'К сожалению, нам не удалось обновить твою аватарку, возможно, тебе стоит выбрать другую картинку!',
     languageUa:
-        'На жаль, нам не вдалося оновити твою аватарку, можливо тобі варто вибрати іншу картинку 🙁!',
+        'На жаль, нам не вдалося оновити твою аватарку, можливо тобі варто вибрати іншу картинку!',
     languagePl:
-        'Niestety nie mogliśmy zaktualizować Twojego avatara, może powinieneś wybrać inne zdjęcie 🙁!',
+        'Niestety nie mogliśmy zaktualizować Twojego avatara, może powinieneś wybrać inne zdjęcie!',
     languageDe:
-        "Leider konnten wir deinen Avatar nicht aktualisieren, vielleicht solltest du ein anderes Bild wählen 🙁!",
+        "Leider konnten wir deinen Avatar nicht aktualisieren, vielleicht solltest du ein anderes Bild wählen!",
     languageIt:
-        'Sfortunatamente non siamo riusciti ad aggiornare il tuo avatar, forse dovresti scegliere un`immagine diversa 🙁!',
+        'Sfortunatamente non siamo riusciti ad aggiornare il tuo avatar, forse dovresti scegliere un`immagine diversa!',
     languageTr:
-        "Maalesef avatarınızı güncelleyemedik, belki de farklı bir resim seçmelisiniz 🙁!",
+        "Maalesef avatarınızı güncelleyemedik, belki de farklı bir resim seçmelisiniz!",
     languageEs:
-        "Lamentablemente, no hemos podido actualizar tu avatar, ¡quizá deberías elegir otra foto 🙁!",
-    languageCn: "很遗憾，我们无法更新您的头像，也许您应该换一张照片 🙁！",
+        "Lamentablemente, no hemos podido actualizar tu avatar, ¡quizá deberías elegir otra foto!",
+    languageCn: "很遗憾，我们无法更新您的头像，也许您应该换一张照片！",
   },
   'FailedToChangeNickname': {
     languageEn:
-        "Unfortunately, we were unable to update your nickname, perhaps, there is something wrong with it 🙁!",
+        "Unfortunately, we were unable to update your nickname, perhaps, there is something wrong with it!",
     languageRu:
-        'К сожалению, нам не удалось обновить твой никнейм. Возможно, что-то в нём не так 🙁!',
+        'К сожалению, нам не удалось обновить твой никнейм. Возможно, что-то в нём не так!',
     languageUa:
-        'На жаль, нам не вдалося оновити твій нікнейм, можливо, щось у ньому не так 🙁!',
+        'На жаль, нам не вдалося оновити твій нікнейм, можливо, щось у ньому не так!',
     languagePl:
-        'Przepraszamy, nie mogliśmy zaktualizować Twojego nicku, może coś jest z nim nie tak 🙁!',
+        'Przepraszamy, nie mogliśmy zaktualizować Twojego nicku, może coś jest z nim nie tak!',
     languageDe:
-        "Tut uns leid, wir konnten deinen Spitznamen nicht aktualisieren, vielleicht stimmt etwas damit nicht 🙁!",
+        "Tut uns leid, wir konnten deinen Spitznamen nicht aktualisieren, vielleicht stimmt etwas damit nicht!",
     languageIt:
-        'Sfortunatamente non siamo riusciti ad aggiornare il tuo nickname, forse c`è qualcosa che non va 🙁!',
+        'Sfortunatamente non siamo riusciti ad aggiornare il tuo nickname, forse c`è qualcosa che non va!',
     languageTr:
-        "Maalesef takma adınızı güncelleyemedik, belki de yanlış bir şey vardır 🙁!",
+        "Maalesef takma adınızı güncelleyemedik, belki de yanlış bir şey vardır!",
     languageEs:
-        "Lamentablemente, no hemos podido actualizar tu nick, ¡quizás, hay algo mal en él 🙁!",
-    languageCn: "很遗憾，我们无法更新您的昵称，也许是昵称出了问题🙁！",
+        "Lamentablemente, no hemos podido actualizar tu nick, ¡quizás, hay algo mal en él!",
+    languageCn: "很遗憾，我们无法更新您的昵称，也许是昵称出了问题！",
   },
-  'StatusIsSaved': {
-    languageEn: "Your status has been successfully saved!",
-    languageRu: 'Твой статус успешно сохранен!',
-    languageUa: 'Твій статус успішно збережен!',
-    languagePl: 'Twój status został pomyślnie zapisany!',
-    languageDe: "Ihr Status wurde erfolgreich gespeichert!",
-    languageIt: 'Il tuo stato è stato salvato con successo!',
-    languageTr: "Durumunuz başarıyla kaydedildi!",
-    languageEs: "Tu estado se ha guardado correctamente.",
-    languageCn: "您的状态已成功保存！",
-  },
-  'AvatarIsSaved': {
-    languageEn: "Your avatar has been successfully saved!",
-    languageRu: 'Твоя аватарка успешно сохранена!',
-    languageUa: 'Твоя аватарка успішно збережена!',
-    languagePl: 'Twój avatar został pomyślnie zapisany!',
-    languageDe: "Ihr Avatar wurde erfolgreich gespeichert!",
-    languageIt: 'Il tuo avatar è stato salvato con successo!',
-    languageTr: "Avatarınız başarıyla kaydedildi!",
-    languageEs: "Tu avatar se ha guardado correctamente.",
-    languageCn: "您的头像已成功保存！",
-  },
-  'AvatarFrameIsSaved': {
-    languageEn: "Your avatar frame has been successfully saved!",
-    languageRu: 'Твоя рамка для аватарки успешно сохранена!',
-    languageUa: 'Твоя рамка для аватарки успішно збережена!',
-    languagePl: 'Twój ramka awatara została pomyślnie zapisana!',
-    languageDe: "Ihr Avatarrahmen wurde erfolgreich gespeichert!",
-    languageIt: 'La cornice del tuo avatar è stata salvata con successo!',
-    languageTr: "Avatar çerçeveniz başarıyla kaydedildi!",
-    languageEs: "El marco de tu avatar se ha guardado correctamente.",
-    languageCn: "您的头像框已成功保存！",
-  },
-  'NicknameIsSaved': {
-    languageEn: "Your nickname has been successfully saved!",
-    languageRu: 'Твой никнейм успешно сохранен!',
-    languageUa: 'Твій нікнейм успішно збережен!',
-    languagePl: 'Twój pseudonim został pomyślnie zapisany!',
-    languageDe: "Dein Nickname wurde erfolgreich gespeichert!",
-    languageIt: 'Il tuo nickname è stato salvato con successo!',
-    languageTr: "Takma adınız başarıyla kaydedildi!",
-    languageEs: "Tu apodo se ha guardado correctamente.",
-    languageCn: "您的昵称已成功保存！",
-  },
-  'SocialNetworkIsSaved': {
-    languageEn:
-        "The link to your {social} profile has been successfully saved!",
-    languageRu: 'Ссылка на твой профиль {social} успешно сохранена!',
-    languageUa: 'Посилання на твій профіль {social} успішно збережено!',
-    languagePl: 'Link do Twojego profilu {social} został pomyślnie zapisany!',
+  'ProfileInfoIsSaved': {
+    languageEn: "Provided profile info has been successfully saved!",
+    languageRu: 'Информация о профиле успешно обновлена!',
+    languageUa: 'Інформацію про профіль успішно оновлено!',
+    languagePl: 'Podane informacje o profilu zostały pomyślnie zapisane!',
     languageDe:
-        "Der Link zu Ihrem {social} Profil wurde erfolgreich gespeichert!",
+        "Die angegebene Profilinformation wurde erfolgreich gespeichert!",
     languageIt:
-        'Il collegamento al tuo profilo {social} è stato salvato con successo!',
-    languageTr: "{social} profilinizin bağlantısı başarıyla kaydedildi!",
-    languageEs: "El enlace a tu perfil {social} se ha guardado correctamente.",
-    languageCn: "您的 {social} 个人资料链接已成功保存！",
+        'Le informazioni del profilo fornite sono state salvate con successo!',
+    languageTr: "Sağlanan profil bilgileri başarıyla kaydedildi!",
+    languageEs:
+        "La información de perfil proporcionada se ha guardado correctamente.",
+    languageCn: "已成功保存所提供的个人资料信息！",
   },
   'NotEnoughCharacters': {
     languageEn:
@@ -5251,43 +4672,24 @@ const Map<String, Map<String, String>> localeItems = {
         "Has introducido muy pocos caracteres para cambiar esta preferencia.",
     languageCn: "您输入的字符太少，无法更改此首选项！",
   },
-  'NotEnoughCharactersForReview': {
+  'NotEnoughCharactersForEntity': {
     languageEn:
-        "Your review seems to be too short, please, come up with something more original!",
+        "Your {entity} seems to be too short, please, come up with something more original!",
     languageRu:
-        'Какой-то слишком короткий отзыв у тебя получился, придумай что-то более оригинальное!',
+        'Какой-то слишком короткий {entity} у тебя получился, придумай что-то более оригинальное!',
     languageUa:
-        'Якийсь занадто короткий відгук у тебе вийшов, придумай щось більш оригінальне!',
+        'Якийсь занадто короткий {entity} у тебе вийшов, придумай щось більш оригінальне!',
     languagePl:
-        'Masz trochę za krótką recenzję, wymyśl coś bardziej oryginalnego!',
+        'Masz trochę za krótką {entity}, wymyśl coś bardziej oryginalnego!',
     languageDe:
-        "Etwas zu kurzes Feedback hast du bekommen, denke an etwas Originelleres!",
+        "Etwas zu {entity} Feedback hast du bekommen, denke an etwas Originelleres!",
     languageIt:
-        'La tua recensione sembra troppo breve, per favore, inventa qualcosa di più originale!',
+        'La tua {entity} sembra essere troppo corta, per favore, proponi qualcosa di più originale!',
     languageTr:
-        "İncelemeniz çok kısa görünüyor, lütfen daha orijinal bir şeyle gelin!",
+        "{entity} çok kısa görünüyor, lütfen daha orijinal bir şey bulun!",
     languageEs:
-        "Su crítica parece demasiado corta, por favor, ¡proponga algo más original!",
-    languageCn: "你的评论似乎太短了，请写得更有新意一些！",
-  },
-  'NotEnoughCharactersForAnswer': {
-    languageEn:
-        "Your answer seems to be too short, please, come up with something more original!",
-    languageRu:
-        'Какой-то слишком короткий ответ у тебя получился, придумай что-то более оригинальное!',
-    languageUa:
-        'Якась занадто коротка відповідь у тебе вийшла, придумай щось більш оригінальне!',
-    languagePl:
-        'Twoja odpowiedź jest zbyt krótka, wymyśl coś bardziej oryginalnego!',
-    languageDe:
-        "Sie haben eine zu kurze Antwort erhalten, lassen Sie sich etwas Originelleres einfallen!",
-    languageIt:
-        'La tua risposta sembra essere troppo breve, per favore, inventa qualcosa di più originale!',
-    languageTr:
-        "Cevabınız çok kısa gibi görünüyor, lütfen daha orijinal bir şeyle gelin!",
-    languageEs:
-        "Su respuesta parece demasiado corta, por favor, ¡proponga algo más original!",
-    languageCn: "你的回答似乎太简短了，请想出更新颖的答案！",
+        "Tu {entity} parece demasiado corta, ¡por favor, inventa algo más original!",
+    languageCn: "你的{实体}似乎太短了，请想出一些更新颖的东西！",
   },
   'ChangeWillBeAvailableAt': {
     languageEn:
@@ -5595,7 +4997,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Rezension",
     languageIt: 'Recensione',
     languageTr: "geribildirim",
-    languageEs: "comentarios",
+    languageEs: "comentario",
     languageCn: "反馈",
   },
   // 2-4
@@ -5689,37 +5091,16 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "下载",
   },
   'MotEnoughData': {
-    languageEn: "Not enough data to display modification's statistics 🙁",
-    languageRu: 'Недостаточно данных для отображения статистики модификации 🙁',
-    languageUa: 'Недостатньо даних для відображення статистики модифікації 🙁',
-    languagePl: 'Za mało danych, aby wyświetlić statystyki modyfikacji 🙁',
-    languageDe: "Nicht genügend Daten, um Mod-Statistiken anzuzeigen 🙁",
-    languageIt:
-        'Dati insufficienti per visualizzare le statistiche delle modifiche 🙁',
+    languageEn: "Not enough data",
+    languageRu: 'Недостаточно данных',
+    languageUa: 'Недостатньо даних',
+    languagePl: 'Za mało danych',
+    languageDe: "Nicht genügend Daten",
+    languageIt: 'Dati insufficienti',
     languageTr:
-        "Değişiklik istatistiklerini görüntülemek için yeterli veri yok 🙁",
-    languageEs:
-        "No hay datos suficientes para mostrar las estadísticas de la modificación 🙁",
-    languageCn: "数据不足，无法显示修改的统计数据 🙁",
-  },
-  'NoChangelogForThisUpdate': {
-    languageEn:
-        'Unfortunately, the developer of this modification has not published a complete list of changes for this version. Looks like a simple fix for the latest game update.',
-    languageRu:
-        'К сожалению, разработчик данной модификации не опубликовал конкретный список изменений к последнему обновлению. Скорее всего модификация просто была обновлена под последнюю версию игры!',
-    languageUa:
-        'На жаль, розробник даної модифікації не опублікував повний список змін до останнього оновлення. Схоже, що це звичайний фікс під останню версію гри.',
-    languagePl:
-        'Niestety twórca tej modyfikacji nie opublikował konkretnej listy zmian. Najprawdopodobniej modyfikacja została zaktualizowana do najnowszej wersji gry!',
-    languageDe:
-        "Leider hat der Entwickler dieser Modifikation vor dem letzten Update nicht die vollständige Liste der Änderungen veröffentlicht. Es scheint, dass dies eine häufige Lösung für die neueste Version des Spiels ist.",
-    languageIt:
-        'Sfortunatamente, lo sviluppatore di questa modifica non ha pubblicato l`elenco completo delle modifiche prima dell`ultimo aggiornamento. Sembra che questa sia una soluzione comune per l`ultima versione del gioco.',
-    languageTr:
-        "Ne yazık ki, bu modifikasyonun geliştiricisi bu sürüm için tam bir değişiklik listesi yayınlamadı. En son oyun güncellemesi için basit bir düzeltme gibi görünüyor.",
-    languageEs:
-        "Por desgracia, el desarrollador de esta modificación no ha publicado una lista completa de cambios para esta versión. Parece una simple corrección para la última actualización del juego.",
-    languageCn: "遗憾的是，此修改的开发者并未公布此版本的完整更改列表。看起来只是对最新游戏更新的简单修复。",
+        "Değişiklik istatistiklerini görüntülemek için yeterli veri yok",
+    languageEs: "Datos insuficientes",
+    languageCn: "数据不足",
   },
   'MarkAfterUpdate': {
     languageEn: 'You can not mark modifications which are being under update!',
@@ -5775,19 +5156,18 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "只有在使用一段时间后，您才能对这一修改进行标记！",
   },
   'NoRateInOfflineMode': {
-    languageEn: "Mark setting function is not available in offline mode 🙁!",
-    languageRu: 'Функция установки рейтинга недоступна в автономном режиме 🙁!',
+    languageEn: "Mark setting function is not available in offline mode!",
+    languageRu: 'Функция установки рейтинга недоступна в автономном режиме!',
     languageUa:
-        'Функція встановлення рейтингу недоступна в автономному режимі 🙁!',
-    languagePl: 'Funkcja oceniania nie jest dostępna w trybie offline 🙁!',
-    languageDe:
-        "Die Bewertungsfunktion ist im Offline-Modus nicht verfügbar 🙁!",
+        'Функція встановлення рейтингу недоступна в автономному режимі!',
+    languagePl: 'Funkcja oceniania nie jest dostępna w trybie offline!',
+    languageDe: "Die Bewertungsfunktion ist im Offline-Modus nicht verfügbar!",
     languageIt:
-        'La funzione di valutazione non è disponibile in modalità offline 🙁!',
-    languageTr: "İşaret ayarlama işlevi çevrimdışı modda kullanılamaz 🙁!",
+        'La funzione di valutazione non è disponibile in modalità offline!',
+    languageTr: "İşaret ayarlama işlevi çevrimdışı modda kullanılamaz!",
     languageEs:
-        "¡La función de ajuste de marca no está disponible en modo offline 🙁!",
-    languageCn: "标记设置功能在脱机模式下不可用 🙁！",
+        "¡La función de ajuste de marca no está disponible en modo offline!",
+    languageCn: "标记设置功能在脱机模式下不可用！",
   },
   // 1 from 5
   'From5': {
@@ -5802,15 +5182,15 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "从 5",
   },
   'UnderUpdate': {
-    languageEn: 'Mod is under update!',
-    languageRu: 'Мод на обновлении!',
-    languageUa: 'Мод на оновленні!',
-    languagePl: 'Mod jest w fazie aktualizacji!',
-    languageDe: "Mod beim Update!",
+    languageEn: 'This modification is under update!',
+    languageRu: 'Модификация находится в стадии обновления!',
+    languageUa: 'Модифікація перебуває в стадії оновлення!',
+    languagePl: 'Modyfikacja w fazie aktualizacji',
+    languageDe: "Diese Modifikation der Aktualisierung!",
     languageIt: 'La mod è in fase di aggiornamento!',
-    languageTr: "Mod güncelleme altında",
-    languageEs: "Mod está bajo actualización",
-    languageCn: "模型正在更新中",
+    languageTr: "Bu değişiklik güncelleme aşamasındadır!",
+    languageEs: "Esta modificación se está actualizando!",
+    languageCn: "此修改正在更新中",
   },
   'TemporaryUnavailable': {
     languageEn: 'Temporary unavailable',
@@ -5844,40 +5224,39 @@ const Map<String, Map<String, String>> localeItems = {
         "不幸的是，您无法启动此修改，因为它正在更新中。通常，这个过程需要几个小时到几天的时间。真的想玩这个修改？请耐心等待！如果过了这段时间仍未更新，它将从 ExLoader 库中删除。",
   },
   'NoReviewsInOfflineMode': {
-    languageEn: 'Unfortunately, you can not add a review in an offline mode 🙁',
+    languageEn: 'Unfortunately, you can not add a review in an offline mode',
     languageRu:
-        'К сожалению, отправка комментариев недоступна в автономном режиме 🙁',
+        'К сожалению, отправка комментариев недоступна в автономном режиме',
     languageUa:
-        'На жаль, надсилання коментарів недоступне в автономному режимі 🙁',
+        'На жаль, надсилання коментарів недоступне в автономному режимі',
     languagePl:
-        'Niestety publikowanie komentarzy nie jest dostępne w trybie offline 🙁',
+        'Niestety publikowanie komentarzy nie jest dostępne w trybie offline',
     languageDe:
-        "Leider ist das Posten von Kommentaren im Offline-Modus nicht verfügbar 🙁",
+        "Leider ist das Posten von Kommentaren im Offline-Modus nicht verfügbar",
     languageIt:
-        'Sfortunatamente non puoi aggiungere una recensione in modalità offline 🙁',
-    languageTr: "Ne yazık ki, çevrimdışı modda bir inceleme ekleyemezsiniz 🙁",
-    languageEs:
-        "Lamentablemente, no puedes añadir una reseña en modo offline 🙁",
-    languageCn: "遗憾的是，您无法在离线模式下添加评论 🙁。",
+        'Sfortunatamente non puoi aggiungere una recensione in modalità offline',
+    languageTr: "Ne yazık ki, çevrimdışı modda bir inceleme ekleyemezsiniz",
+    languageEs: "Lamentablemente, no puedes añadir una reseña en modo offline",
+    languageCn: "遗憾的是，您无法在离线模式下添加评论。",
   },
-  'NoSpamPlease': {
+  'NoSpamPleaseEntity': {
     languageEn:
-        "Please, come up with a more informative review that will be useful to other users, hardly anyone is interested in reading spam!",
+        "Please, come up with a more informative {entity} that will be useful to other users, hardly anyone is interested in reading spam!",
     languageRu:
-        'Придумай более информативный отзыв, который будет полезен другим пользователям. Вряд ли кому-то интересно читать спам!',
+        'Придумай более информативный {entity}, который будет полезен другим пользователям. Вряд ли кому-то интересно читать спам!',
     languageUa:
-        "Придумай більш інформативний відгук, який буде корисним іншим користувачам. Навряд чи комусь цікаво читати спам!",
+        "Придумай більш інформативний {entity}, який буде корисним іншим користувачам. Навряд чи комусь цікаво читати спам!",
     languagePl:
-        'Wymyśl bardziej pouczającą recenzję, która będzie przydatna dla innych użytkowników. Mało kto jest zainteresowany czytaniem spamu!',
+        'Wymyśl bardziej pouczającą {entity}, która będzie przydatna dla innych użytkowników. Mało kto jest zainteresowany czytaniem spamu!',
     languageDe:
-        "Überlegen Sie sich eine informativere Bewertung, die für andere Benutzer nützlich sein wird. Kaum jemand interessiert sich für das Lesen von Spam!",
+        "Überlegen Sie sich eine informativere {entity}, die für andere Benutzer nützlich sein wird. Kaum jemand interessiert sich für das Lesen von Spam!",
     languageIt:
-        'Per favore, crea una recensione più informativa che sarà utile ad altri utenti, quasi nessuno è interessato a leggere lo spam!',
+        'Per favore, crea una {entity} più informativa che sarà utile ad altri utenti, quasi nessuno è interessato a leggere lo spam!',
     languageTr:
-        "Lütfen, diğer kullanıcılar için faydalı olacak daha bilgilendirici bir inceleme ile gelin, neredeyse hiç kimse spam okumakla ilgilenmiyor!",
+        "Lütfen, diğer kullanıcılar için faydalı olacak daha bilgilendirici bir {entity} ile gelin, neredeyse hiç kimse spam okumakla ilgilenmiyor!",
     languageEs:
-        "Por favor, haz una crítica más informativa que sea útil para otros usuarios, ¡a casi nadie le interesa leer spam!",
-    languageCn: "请写一篇内容更丰富、对其他用户有用的评论，几乎没人有兴趣看垃圾评论！",
+        "Por favor, haz una {entity} más informativa que sea útil para otros usuarios, ¡a casi nadie le interesa leer spam!",
+    languageCn: "请提供更多对其他用户有用的 {entity} 信息，几乎没有人有兴趣阅读垃圾信息！",
   },
   'NoSpamPleaseConfig': {
     languageEn:
@@ -5898,130 +5277,27 @@ const Map<String, Map<String, String>> localeItems = {
         "Por favor, inventa un nombre o descripción más informativos que sean útiles para otros usuarios, ¡a casi nadie le interesa leer spam!",
     languageCn: "请起一个对其他用户有用的更翔实的名称或描述，几乎没有人有兴趣阅读垃圾邮件！",
   },
-  'NoSpamPleaseAnswer': {
-    languageEn:
-        "Please, come up with a more informative answer that will be useful to review's author as well as for other users, hardly anyone will be interested in reading spam!",
-    languageRu:
-        'Придумай более информативный ответ, который будет интересен автору отзыва, а также другим пользователям. Вряд ли кому-то захочется читать спам!',
-    languageUa:
-        "Придумай більш інформативну відповідь, яка буде цікава автору відгуку, а також іншим користувачам. Навряд чи комусь захочеться читати спам!",
-    languagePl:
-        'Wymyśl bardziej pouczającą odpowiedź, która zainteresuje autora recenzji, a także innych użytkowników. Mało kto chce czytać spam!',
-    languageDe:
-        "Überlegen Sie sich eine informativere Antwort, die sowohl für den Autor der Bewertung als auch für andere Benutzer interessant sein wird. Kaum jemand will Spam lesen!",
-    languageIt:
-        'Per favore, fornisci una risposta più informativa che sarà utile all`autore della recensione così come agli altri utenti, quasi nessuno sarà interessato a leggere lo spam!',
-    languageTr:
-        "Lütfen, incelemenin yazarının yanı sıra diğer kullanıcılar için de yararlı olacak daha bilgilendirici bir cevap verin, neredeyse hiç kimse spam okumakla ilgilenmeyecektir!",
-    languageEs:
-        "Por favor, proponga una respuesta más informativa que sea útil tanto para el autor de la reseña como para los demás usuarios, ¡a casi nadie le interesa leer spam!",
-    languageCn: "请提供一个对评论作者和其他用户都有用的更翔实的答案，几乎没有人会有兴趣阅读垃圾邮件！",
+  'EntityAdded': {
+    languageEn: '{entity} is successfully added',
+    languageRu: '{entity} успешно добавлен',
+    languageUa: '{entity} успішно додана',
+    languagePl: '{entity} została pomyślnie dodana',
+    languageDe: "{entity} wurde erfolgreich hinzugefügt",
+    languageIt: '{entity} è stata aggiunta con successo',
+    languageTr: "{entity} başarıyla eklendi",
+    languageEs: "{entity} se ha añadido correctamente",
+    languageCn: "已成功添加 {entity}",
   },
-  'FailedToAddReview': {
-    languageEn: 'Unfortunately, an error occurred while adding your review 🙁',
-    languageRu: 'К сожалению, при добавлении твоего отзыва произошла ошибка 🙁',
-    languageUa: 'На жаль, при додаванні твого відкликання сталася помилка 🙁',
-    languagePl: 'Niestety wystąpił błąd podczas dodawania Twojej recenzji 🙁',
-    languageDe:
-        "Leider ist beim Hinzufügen deiner Antwort ein Fehler aufgetreten 🙁",
-    languageIt:
-        'Purtroppo si è verificato un errore durante l`aggiunta della tua recensione 🙁',
-    languageTr: "Maalesef yorumunuzu eklerken bir hata oluştu 🙁",
-    languageEs:
-        "Lamentablemente, se ha producido un error al añadir tu opinión 🙁",
-    languageCn: "不幸的是，在添加您的评论时发生了错误 🙁",
-  },
-  'FailedToAddAnswer': {
-    languageEn: 'Unfortunately, an error occurred while adding an answer 🙁',
-    languageRu: 'К сожалению, при добавлении ответа произошла ошибка 🙁',
-    languageUa: 'На жаль, при додаванні відповіді сталася помилка 🙁',
-    languagePl: 'Niestety podczas dodawania odpowiedzi wystąpił błąd 🙁',
-    languageDe:
-        "Leider ist beim Hinzufügen der Antwort ein Fehler aufgetreten 🙁",
-    languageIt:
-        'Purtroppo si è verificato un errore durante l`aggiunta della risposta 🙁',
-    languageTr: "Maalesef cevap eklenirken bir hata oluştu 🙁",
-    languageEs:
-        "Lamentablemente, se ha producido un error al añadir una respuesta 🙁",
-    languageCn: "不幸的是，在添加答案时发生了错误 🙁",
-  },
-  'FailedToEditReview': {
-    languageEn:
-        "Failed to edit your comment, it looks like something went wrong 🙁",
-    languageRu:
-        'Не удалось отредактировать твой комментарий, похоже, что-то пошло не так 🙁',
-    languageUa:
-        'Не вдалося відредагувати твій коментар, здається, щось пішло не так 🙁',
-    languagePl: 'Nie można edytować komentarza, coś poszło nie tak 🙁',
-    languageDe:
-        "Dein Kommentar konnte nicht bearbeitet werden, irgendetwas scheint schief gelaufen zu sein 🙁",
-    languageIt:
-        'Impossibile modificare il tuo commento, sembra che qualcosa sia andato storto 🙁',
-    languageTr:
-        "Yorumunuz düzenlenemedi, bir şeyler ters gitmiş gibi görünüyor 🙁",
-    languageEs: "Falló al editar tu comentario, parece que algo salió mal 🙁",
-    languageCn: "编辑您的评论失败，好像出错了 🙁",
-  },
-  'FailedToEditAnswer': {
-    languageEn:
-        "Failed to edit your answer, it looks like something went wrong 🙁",
-    languageRu:
-        'Не удалось отредактировать этот ответ, похоже, что-то пошло не так 🙁',
-    languageUa:
-        'Не вдалося відредагувати цю відповідь, здається, щось пішло не так 🙁',
-    languagePl: 'Nie udało się edytować tej odpowiedzi, coś poszło nie tak 🙁',
-    languageDe:
-        "Diese Antwort konnte nicht bearbeitet werden, da scheint etwas schief gelaufen zu sein 🙁",
-    languageIt:
-        'Impossibile modificare la risposta, sembra che qualcosa sia andato storto 🙁',
-    languageTr:
-        "Cevabınız düzenlenemedi, bir şeyler ters gitmiş gibi görünüyor 🙁",
-    languageEs: "Falló al editar tu respuesta, parece que algo salió mal 🙁",
-    languageCn: "编辑您的答案失败，好像出错了 🙁",
-  },
-  'ReviewAdded': {
-    languageEn: 'Review is successfully added',
-    languageRu: 'Отзыв успешно добавлен',
-    languageUa: 'Відгук успішно додано',
-    languagePl: 'Opinia została pomyślnie dodana',
-    languageDe: "Feedback erfolgreich hinzugefügt",
-    languageIt: 'La recensione è stata aggiunta con successo',
-    languageTr: "İnceleme başarıyla eklendi",
-    languageEs: "La revisión se ha añadido correctamente",
-    languageCn: "审查已成功添加",
-  },
-  'AnswerAdded': {
-    languageEn: 'Answer is successfully added',
-    languageRu: 'Ответ успешно добавлен',
-    languageUa: 'Відповідь успішно додана',
-    languagePl: 'Odpowiedź została pomyślnie dodana',
-    languageDe: "Antwort erfolgreich hinzugefügt",
-    languageIt: 'La risposta è stata aggiunta con successo',
-    languageTr: "Yanıt başarıyla eklendi",
-    languageEs: "La respuesta se ha añadido correctamente",
-    languageCn: "已成功添加答案",
-  },
-  'ReviewEdited': {
-    languageEn: 'Your review is saved',
-    languageRu: 'Твой отзыв сохранён',
-    languageUa: 'Твій відгук збережено',
-    languagePl: 'Twoja opinia została zapisana',
-    languageDe: "Ihre Bewertung wurde gespeichert",
-    languageIt: 'La tua recensione è stata salvata',
-    languageTr: "İncelemeniz kaydedildi",
-    languageEs: "Su opinión está guardada",
-    languageCn: "您的评论已保存",
-  },
-  'AnswerEdited': {
-    languageEn: 'Your answer is updated',
-    languageRu: 'Твой ответ обновлён',
-    languageUa: 'Твоя відповідь збережена',
-    languagePl: 'Twoja odpowiedź została zapisana',
-    languageDe: "Ihre Antwort wurde gespeichert",
-    languageIt: 'La tua risposta è aggiornata',
-    languageTr: "Cevabınız güncellendi",
-    languageEs: "Su respuesta está actualizada",
-    languageCn: "您的答案已更新",
+  'EntityEdited': {
+    languageEn: 'Your {entity} is saved',
+    languageRu: 'Твой {entity} сохранён',
+    languageUa: 'Твій {entity} збережено',
+    languagePl: 'Twoja {entity} została zapisana',
+    languageDe: "Ihre {entity} wurde gespeichert",
+    languageIt: 'La vostra {entity} è salvata',
+    languageTr: "Sizin {entity} kaydedildi",
+    languageEs: "Tu {entity} está guardada",
+    languageCn: "您的 {entity} 已保存",
   },
   'NextEditWillBeAvailableAt': {
     languageEn:
@@ -6055,218 +5331,139 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'FailedToFindTheModification': {
     languageEn:
-        "It looks like this modification has been removed from the application's library 🙁",
+        "It looks like this modification has been removed from the application's library",
     languageRu:
-        'Похоже, что эта модификация была удалена из библиотеки приложения 🙁',
-    languageUa:
-        'Здається, ця модифікація була видалена з бібліотеки ExLoader 🙁',
+        'Похоже, что эта модификация была удалена из библиотеки приложения',
+    languageUa: 'Здається, ця модифікація була видалена з бібліотеки ExLoader',
     languagePl:
-        'Wygląda na to, że ta modyfikacja została usunięta z biblioteki ExLoadera 🙁',
+        'Wygląda na to, że ta modyfikacja została usunięta z biblioteki ExLoadera',
     languageDe:
-        "Dieser Mod scheint aus der ExLoader-Bibliothek entfernt worden zu sein 🙁",
+        "Dieser Mod scheint aus der ExLoader-Bibliothek entfernt worden zu sein",
     languageIt:
-        'Questa mod sembra essere stata rimossa dalla libreria ExLoader 🙁',
+        'Questa mod sembra essere stata rimossa dalla libreria ExLoader',
     languageTr:
-        "Görünüşe göre bu değişiklik uygulamanın kütüphanesinden kaldırılmış 🙁",
+        "Görünüşe göre bu değişiklik uygulamanın kütüphanesinden kaldırılmış",
     languageEs:
-        "Parece que esta modificación se ha eliminado de la biblioteca de la aplicación 🙁",
-    languageCn: "该修改似乎已从应用程序库中删除 🙁",
+        "Parece que esta modificación se ha eliminado de la biblioteca de la aplicación",
+    languageCn: "该修改似乎已从应用程序库中删除",
   },
-  'PleaseUseSteamUrl': {
+  'PleaseUseValidUrl': {
     languageEn:
-        "Use an appropriate profile link following one of these «https://steamcommunity.com/profiles/76561197960265728» «https://steamcommunity.com/id/yournickname» formats!",
+        "Use an appropriate profile link following one of these «format1» «format2» formats!",
     languageRu:
-        'Используй корректную ссылку профиля в формате «https://steamcommunity.com/profiles/76561197960265728» или же «https://steamcommunity.com/id/yournickname»!',
+        'Используй корректную ссылку профиля в формате «format1» или же «format2»!',
     languageUa:
-        'Використовуй коректне посилання профілю в форматі «https://steamcommunity.com/profiles/76561197960265728» або ж «https://steamcommunity.com/id/yournickname»!',
+        'Використовуй коректне посилання профілю в форматі ««format1» або ж ««format12»!',
     languagePl:
-        'Użyj poprawnego linku do profilu w formacie «https://steamcommunity.com/profiles/76561197960265728» lub «https://steamcommunity.com/id/yournickname»!',
+        'Użyj poprawnego linku do profilu w formacie ««format1» lub ««format2»!',
     languageDe:
-        'Verwenden Sie den korrekten Profillink im Format «https://steamcommunity.com/profiles/76561197960265728» oder «https://steamcommunity.com/id/yournickname»!',
+        'Verwenden Sie den korrekten Profillink im Format «format1» oder «format2»!',
     languageIt:
-        'Utilizza il collegamento al profilo corretto nel formato «https://steamcommunity.com/profiles/76561197960265728» o «https://steamcommunity.com/id/yournickname»!',
+        'Utilizza il collegamento al profilo corretto nel formato «format1» o «format2»!',
     languageTr:
-        "Bu «https://steamcommunity.com/profiles/76561197960265728» «https://steamcommunity.com/id/yournickname» formatlarından birini takip eden uygun bir profil bağlantısı kullanın!",
+        "Bu «format1» «format2» formatlarından birini takip eden uygun bir profil bağlantısı kullanın!",
     languageEs:
-        "Utilice un enlace de perfil adecuado siguiendo uno de estos formatos «https://steamcommunity.com/profiles/76561197960265728» «https://steamcommunity.com/id/yournickname».",
-    languageCn:
-        "使用 «https://steamcommunity.com/profiles/76561197960265728» «https://steamcommunity.com/id/yournickname» 格式之一的适当个人资料链接！",
-  },
-  'PleaseUseTMeUrl': {
-    languageEn:
-        "Use an appropriate profile link following one of these «https://t.me/profile» «https://profile.t.me» formats!",
-    languageRu:
-        'Используй корректную ссылку профиля в формате «https://t.me/profile» или же «https://profile.t.me»!',
-    languageUa:
-        'Використовуй коректне посилання профілю в форматі «https://t.me/profile» або ж «https://profile.t.me»!',
-    languagePl:
-        'Użyj poprawnego linku do profilu w formacie «https://t.me/profile» lub «https://profile.t.me»!',
-    languageDe:
-        'Verwenden Sie den richtigen Profillink im Format «https://t.me/profile» oder «https://profile.t.me»!',
-    languageIt:
-        'Utilizza il collegamento al profilo corretto nel formato «https://t.me/profile» o «https://profile.t.me»!',
-    languageTr:
-        "Bu «https://t.me/profile» «https://profile.t.me» formatlarından birini takip eden uygun bir profil bağlantısı kullanın!",
-    languageEs:
-        "Utilice un enlace de perfil adecuado siguiendo uno de estos formatos «https://t.me/profile» «https://profile.t.me».",
-    languageCn:
-        "使用 «https://t.me/profile» «https://profile.t.me» 格式之一的适当个人资料链接！",
-  },
-  'PleaseUseDiscordLogin': {
-    languageEn:
-        "Use an appropriate username following this «profile#1101» or this «profile123» format!",
-    languageRu:
-        'Используй корректное имя пользователя в формате «profile#1101» или в новом формате «profile123»!',
-    languageUa:
-        "Використовуй коректне ім'я користувача в форматі «profile#1101» або ж «profile123»!",
-    languagePl:
-        'Użyj prawidłowej nazwy użytkownika w formacie «profile#1101» lub «profile123»!',
-    languageDe:
-        'Verwenden Sie einen gültigen Benutzernamen im Format «profile#1101» oder «profile123»!',
-    languageIt:
-        'Utilizza un nome utente valido nel formato «profilo#1101» o «profilo123»',
-    languageTr:
-        "Bu «profil#1101» veya bu «profil123» formatını takip eden uygun bir kullanıcı adı kullanın!",
-    languageEs:
-        "Utiliza un nombre de usuario apropiado siguiendo este formato «profile#1101» o «profile123».",
-    languageCn: "请按照 «profile#1101» 或 «profile123» 格式使用适当的用户名！",
+        "Utilice un enlace de perfil adecuado siguiendo uno de estos formatos «format1» «format2».",
+    languageCn: "使用 «format1» «format2» 格式之一的适当个人资料链接！",
   },
   'YouAreTemporaryBannedInReviewsOrConfigs': {
     languageEn:
-        "It seems that you have tried to write a review, or upload or edit a configuration using an uninformative, spam, advertising, or deceptive content too often! In order to save you from moderator's ban, the auto-check system temporarily restricted your access to the writing comments and configuration's uploading or editing features 🙁! Your ban expires on {date}.",
+        "It seems that you have tried to write a review, or upload or edit a configuration using an uninformative, spam, advertising, or deceptive content too often! In order to save you from moderator's ban, the auto-check system temporarily restricted your access to the writing comments and configuration's uploading or editing features! Your ban expires on {date}.",
     languageRu:
-        'Похоже, что ты слишком часто пытался написать отзыв или же загрузить конфигурацию, используя неинформативное, спамовое, рекламное либо же обманное содержание! Дабы модерация не забанила тебя за подобные действия, система автопроверки временно ограничила твой доступ к функционалу написания комментариев и к загрузке или же редактированию конфигураций 🙁! Срок действия бана истекает {date}.',
+        'Похоже, что ты слишком часто пытался написать отзыв или же загрузить конфигурацию, используя неинформативное, спамовое, рекламное либо же обманное содержание! Дабы модерация не забанила тебя за подобные действия, система автопроверки временно ограничила твой доступ к функционалу написания комментариев и к загрузке или же редактированию конфигураций! Срок действия бана истекает {date}.',
     languageUa:
-        "Схоже, що ти занадто часто намагался написати відгук або завантажити чи відредагувати конфігурацію, використовуючи неінформативний, спамовий, рекламний або ж обманний зміст! Щоб модерація не забанила тебе за подібні дії, система автоперевірки тимчасово обмежила твій доступ до функціоналу написання коментарів та завантаження чи редагування конфігурацій 🙁! Термін дії бана закінчується {date}.",
+        "Схоже, що ти занадто часто намагался написати відгук або завантажити чи відредагувати конфігурацію, використовуючи неінформативний, спамовий, рекламний або ж обманний зміст! Щоб модерація не забанила тебе за подібні дії, система автоперевірки тимчасово обмежила твій доступ до функціоналу написання коментарів та завантаження чи редагування конфігурацій! Термін дії бана закінчується {date}.",
     languagePl:
-        'Wygląda na to, że zbyt wiele razy próbowałeś napisać recenzję, przesłać lub edytować konfigurację, używając treści nieinformacyjnych, spamerskich, reklamowych lub scammerskich! Aby nie zostać zbanowanym przez moderatorów za takie działania, system automatycznej weryfikacji tymczasowo ograniczył Twój dostęp do możliwości pisania komentarzy oraz pobierania lub edytowania konfiguracji 🙁! Zakaz wygasa {date}.',
+        'Wygląda na to, że zbyt wiele razy próbowałeś napisać recenzję, przesłać lub edytować konfigurację, używając treści nieinformacyjnych, spamerskich, reklamowych lub scammerskich! Aby nie zostać zbanowanym przez moderatorów za takie działania, system automatycznej weryfikacji tymczasowo ograniczył Twój dostęp do możliwości pisania komentarzy oraz pobierania lub edytowania konfiguracji! Zakaz wygasa {date}.',
     languageDe:
-        "Es scheint, dass Sie zu oft versucht haben, eine Bewertung zu schreiben oder eine Konfiguration hochzuladen oder zu bearbeiten, indem Sie uninformative, Spam-, Werbe- oder irreführende Inhalte verwendet haben! Um nicht von den Moderatoren für solche Aktionen gesperrt zu werden, hat das Autoverifizierungssystem Ihren Zugriff vorübergehend auf die Funktionalität zum Schreiben von Kommentaren und zum Herunterladen oder Bearbeiten von Konfigurationen beschränkt 🙁! Die Sperre läuft am {date} ab.",
+        "Es scheint, dass Sie zu oft versucht haben, eine Bewertung zu schreiben oder eine Konfiguration hochzuladen oder zu bearbeiten, indem Sie uninformative, Spam-, Werbe- oder irreführende Inhalte verwendet haben! Um nicht von den Moderatoren für solche Aktionen gesperrt zu werden, hat das Autoverifizierungssystem Ihren Zugriff vorübergehend auf die Funktionalität zum Schreiben von Kommentaren und zum Herunterladen oder Bearbeiten von Konfigurationen beschränkt! Die Sperre läuft am {date} ab.",
     languageIt:
-        'Sembra che tu abbia provato a scrivere una recensione o a caricare o modificare una configurazione troppe volte utilizzando contenuti non informativi, spam, promozionali o fuorvianti! Per non essere bannato dai moderatori per tali azioni, il sistema di verifica automatica ha temporaneamente limitato il tuo accesso alla funzionalità di scrittura di commenti e di download o modifica delle configurazioni 🙁! Il blocco scade il {date}.',
+        'Sembra che tu abbia provato a scrivere una recensione o a caricare o modificare una configurazione troppe volte utilizzando contenuti non informativi, spam, promozionali o fuorvianti! Per non essere bannato dai moderatori per tali azioni, il sistema di verifica automatica ha temporaneamente limitato il tuo accesso alla funzionalità di scrittura di commenti e di download o modifica delle configurazioni! Il blocco scade il {date}.',
     languageTr:
-        "Görünüşe göre, bilgilendirici olmayan, spam, reklam veya aldatıcı bir içerik kullanarak çok sık bir inceleme yazmaya veya bir yapılandırma yüklemeye veya düzenlemeye çalıştınız! Sizi moderatör yasağından kurtarmak için, otomatik kontrol sistemi yorum yazma ve yapılandırma yükleme veya düzenleme özelliklerine erişiminizi geçici olarak kısıtladı 🙁! Yasağınız {date} tarihinde sona eriyor.",
+        "Görünüşe göre, bilgilendirici olmayan, spam, reklam veya aldatıcı bir içerik kullanarak çok sık bir inceleme yazmaya veya bir yapılandırma yüklemeye veya düzenlemeye çalıştınız! Sizi moderatör yasağından kurtarmak için, otomatik kontrol sistemi yorum yazma ve yapılandırma yükleme veya düzenleme özelliklerine erişiminizi geçici olarak kısıtladı! Yasağınız {date} tarihinde sona eriyor.",
     languageEs:
-        "Parece que has intentado escribir un comentario, o subir o editar una configuración utilizando un contenido poco informativo, spam, publicitario o engañoso ¡demasiadas veces! ¡Para salvarte del baneo del moderador, el sistema de autochequeo ha restringido temporalmente tu acceso a las funciones de escribir comentarios y subir o editar configuraciones 🙁! Tu bloqueo expira el {date}.",
+        "Parece que has intentado escribir un comentario, o subir o editar una configuración utilizando un contenido poco informativo, spam, publicitario o engañoso ¡demasiadas veces! ¡Para salvarte del baneo del moderador, el sistema de autochequeo ha restringido temporalmente tu acceso a las funciones de escribir comentarios y subir o editar configuraciones! Tu bloqueo expira el {date}.",
     languageCn:
-        "看来您尝试撰写评论或上传或编辑配置时，使用了过多的无信息、垃圾、广告或欺骗性内容！为了使您免于被版主封禁，自动检查系统暂时限制了您撰写评论和上传或编辑配置的权限🙁！您的禁言将于 {date} 到期。",
+        "看来您尝试撰写评论或上传或编辑配置时，使用了过多的无信息、垃圾、广告或欺骗性内容！为了使您免于被版主封禁，自动检查系统暂时限制了您撰写评论和上传或编辑配置的权限！您的禁言将于 {date} 到期。",
   },
-  'YourReviewIsTheSame': {
+  'YourEntityIsTheSame': {
     languageEn:
-        "To edit your comment, you need to change at least something in it so that it differs from the previous review!",
+        "To edit your {entity}, you need to change at least something in it so that it differs from the previous review!",
     languageRu:
-        'Чтобы отредактировать комментарий тебе необходимо изменить в нём хоть что-то, чтобы он отличался от предыдущего отзыва!',
+        'Чтобы отредактировать {entity} тебе необходимо изменить в нём хоть что-то, чтобы он отличался от предыдущего отзыва!',
     languageUa:
-        "Щоб відредагувати коментар тобі необхідно змінити в ньому хоч щось, щоб він відрізнявся від попереднього відгука!",
+        "Щоб відредагувати {entity} тобі необхідно змінити в ньому хоч щось, щоб він відрізнявся від попереднього відгука!",
     languagePl:
-        'Aby edytować komentarz, musisz coś w nim zmienić, aby różnił się od poprzedniej recenzji!',
+        'Aby edytować {entity}, musisz coś w nim zmienić, aby różnił się od poprzedniej recenzji!',
     languageDe:
-        "Um einen Kommentar zu bearbeiten, müssen Sie mindestens etwas daran ändern, damit er sich von der vorherigen Bewertung unterscheidet!",
+        "Um einen {entity} zu bearbeiten, müssen Sie mindestens etwas daran ändern, damit er sich von der vorherigen Bewertung unterscheidet!",
     languageIt:
-        'Per modificare un commento, devi cambiare almeno qualcosa al riguardo per renderlo diverso dalla recensione precedente!',
+        'Per modificare un {entity}, devi cambiare almeno qualcosa al riguardo per renderlo diverso dalla recensione precedente!',
     languageTr:
-        "Yorumunuzu düzenlemek için, önceki yorumdan farklı olması için en azından bir şeyi değiştirmeniz gerekir!",
+        "{entity}'nizi düzenlemek için, önceki incelemeden farklı olması için en azından içindeki bir şeyi değiştirmeniz gerekir!",
     languageEs:
-        "Para editar tu comentario, tienes que cambiar al menos algo en él para que difiera de la reseña anterior.",
-    languageCn: "要编辑您的评论，您至少需要修改一些内容，使其与之前的评论有所不同！",
-  },
-  'YourAnswerIsTheSame': {
-    languageEn:
-        "To edit your answer, you need to change at least something in it so that it differs from the previous one!",
-    languageRu:
-        'Чтобы отредактировать ответ тебе необходимо изменить в нём хоть что-то, чтобы он отличался от предыдущего варианта!',
-    languageUa:
-        "Щоб відредагувати відповідь тобі необхідно змінити в ній хоч щось, щоб вона відрізнялася від попереднього варіанту!",
-    languagePl:
-        'Aby edytować odpowiedź, musisz coś w niej zmienić, aby różniła się od poprzedniej wersji!',
-    languageDe:
-        'Um die Antwort zu bearbeiten, müssen Sie mindestens etwas daran ändern, damit sie sich von der vorherigen Version unterscheidet!',
-    languageIt:
-        'Per modificare la risposta, devi cambiare almeno qualcosa in essa per renderla diversa dalla versione precedente!',
-    languageTr:
-        "Cevabınızı düzenlemek için, bir öncekinden farklı olması için en azından bir şeyi değiştirmeniz gerekir!",
-    languageEs:
-        "Para editar tu respuesta, tienes que cambiar al menos algo en ella para que difiera de la anterior.",
-    languageCn: "要修改答案，您至少需要修改一些内容，使其与之前的答案有所不同！",
+        "Para editar tu {entity}, tienes que cambiar al menos algo en él para que difiera de la reseña anterior.",
+    languageCn: "要编辑您的 {entity}，您至少需要修改其中的某些内容，使其与之前的评论有所不同！",
   },
   'NetworkIssue': {
     languageEn:
-        "Failed to connect to the application's server. Perhaps we are currently working on server's optimization or it is under ddos attack. Maybe you're just not connected to the internet, or something on your device is blocking the connection to the ExLoader server, who knows... Sounds bad, we know 🙁. By the way, when the issue is on our side we publish all the info to our {Social} channel!  But if the problem is not on our side, then you can try turning on the VPN. There is a chance that it might help!",
+        "Failed to connect to the application's server. Perhaps we are currently working on server's optimization or it is under ddos attack. Maybe you're just not connected to the internet, or something on your device is blocking the connection to the ExLoader server, who knows... Sounds bad, we know. By the way, when the issue is on our side we publish all the info to our {Social} channel!\n\nBut if the problem is not on our side, then you can try turning on the VPN. There is a chance that it might help!",
     languageRu:
-        'Не удалось подключиться к серверу приложения. Возможно сейчас у нас проходят технические работы или же наш сервер активно ддосят. Быть может ты просто не подключен к интернету, либо что-то на твоём устройстве блокирует подключение к серверу ExLoader, кто знает... Такие вот дела 🙁. Кстати, когда проблема на нашей стороне, мы публикуем всю информацию о ней в наш {Social} канал!  А вот если проблема всё-же не на нашей стороне, тогда ты можешь попробовать включить впн. Есть шанс, что это поможет!',
+        'Не удалось подключиться к серверу приложения. Возможно сейчас у нас проходят технические работы или же наш сервер активно ддосят. Быть может ты просто не подключен к интернету, либо что-то на твоём устройстве блокирует подключение к серверу ExLoader, кто знает... Такие вот дела. Кстати, когда проблема на нашей стороне, мы публикуем всю информацию о ней в наш {Social} канал!\n\nА вот если проблема всё-же не на нашей стороне, тогда ты можешь попробовать включить впн. Есть шанс, что это поможет!',
     languageUa:
-        'Не вдалося підключитися до сервера програми. Можливо зараз у нас проходять технічні роботи або ж наш сервер активно ддосять. Бути може ти просто не підключен до інтернету, або щось на твоєму пристрої блокує підключення до сервера ExLoader, хто знає... Такі ось справи 🙁. До речі, коли проблема на нашому боці, ми публікуємо всю інформацію про неї в наш {Social} канал!  А ось якщо проблема все-таки не на нашому боці, тоді ти можеш спробувати включити впн. Є шанс, що це допоможе!',
+        'Не вдалося підключитися до сервера програми. Можливо зараз у нас проходять технічні роботи або ж наш сервер активно ддосять. Бути може ти просто не підключен до інтернету, або щось на твоєму пристрої блокує підключення до сервера ExLoader, хто знає... Такі ось справи. До речі, коли проблема на нашому боці, ми публікуємо всю інформацію про неї в наш {Social} канал!\n\nА ось якщо проблема все-таки не на нашому боці, тоді ти можеш спробувати включити впн. Є шанс, що це допоможе!',
     languagePl:
-        'Nie można było połączyć się z serwerem aplikacji. Być może aktualnie trwają prace techniczne lub nasz serwer nie jest aktywnie używany. Może po prostu nie masz połączenia z Internetem lub coś na Twoim urządzeniu blokuje połączenie z serwerem ExLoadera, kto wie... Wiemy, że źle brzmi to źle 🙁. Nawiasem mówiąc, gdy problem leży po naszej stronie, publikujemy wszystkie informacje na ten temat na naszym {Social}ie!  Ale jeśli problem nie leży po naszej stronie, możesz spróbować włączyć VPN. Jest szansa że to pomoże!',
+        'Nie można było połączyć się z serwerem aplikacji. Być może aktualnie trwają prace techniczne lub nasz serwer nie jest aktywnie używany. Może po prostu nie masz połączenia z Internetem lub coś na Twoim urządzeniu blokuje połączenie z serwerem ExLoadera, kto wie... Wiemy, że źle brzmi to źle. Nawiasem mówiąc, gdy problem leży po naszej stronie, publikujemy wszystkie informacje na ten temat na naszym {Social}ie!\n\nAle jeśli problem nie leży po naszej stronie, możesz spróbować włączyć VPN. Jest szansa że to pomoże!',
     languageDe:
-        "Es konnte keine Verbindung zum Anwendungsserver hergestellt werden. Möglicherweise finden derzeit technische Arbeiten statt, och wird unser Server aktiv verwendet. Vielleicht sind Sie nur nicht mit dem Internet verbunden, oder etwas auf Ihrem Gerät blockiert die Verbindung zum Server ExLoader, wer weiß... So sind die Dinge 🙁. Übrigens, wenn das Problem auf unserer Seite liegt, veröffentlichen wir alle Informationen darüber in unserem {Social}mkanal!  Aber wenn das Problem nicht auf unserer Seite liegt, dann können Sie versuchen, VPN einzuschalten. Es besteht die Möglichkeit, dass es hilft!",
+        "Es konnte keine Verbindung zum Anwendungsserver hergestellt werden. Möglicherweise finden derzeit technische Arbeiten statt, och wird unser Server aktiv verwendet. Vielleicht sind Sie nur nicht mit dem Internet verbunden, oder etwas auf Ihrem Gerät blockiert die Verbindung zum Server ExLoader, wer weiß... So sind die Dinge. Übrigens, wenn das Problem auf unserer Seite liegt, veröffentlichen wir alle Informationen darüber in unserem {Social}mkanal!\n\nAber wenn das Problem nicht auf unserer Seite liegt, dann können Sie versuchen, VPN einzuschalten. Es besteht die Möglichkeit, dass es hilft!",
     languageIt:
-        'Impossibile connettersi al server dell`applicazione. Forse stiamo lavorando all`ottimizzazione del server o è sotto attacco DDOS. Forse semplicemente non sei connesso a Internet, o qualcosa sul tuo dispositivo sta bloccando la connessione al server ExLoader, chi lo sa... Sembra brutto, lo sappiamo 🙁. A proposito, quando il problema è dalla nostra parte pubblichiamo tutte le informazioni sul nostro canale {Social}!  Ma se il problema non è dalla nostra parte, puoi provare ad attivare la VPN. C`è la possibilità che possa aiutare!',
+        'Impossibile connettersi al server dell`applicazione. Forse stiamo lavorando all`ottimizzazione del server o è sotto attacco DDOS. Forse semplicemente non sei connesso a Internet, o qualcosa sul tuo dispositivo sta bloccando la connessione al server ExLoader, chi lo sa... Sembra brutto, lo sappiamo. A proposito, quando il problema è dalla nostra parte pubblichiamo tutte le informazioni sul nostro canale {Social}!\n\nMa se il problema non è dalla nostra parte, puoi provare ad attivare la VPN. C`è la possibilità che possa aiutare!',
     languageTr:
-        "Uygulamanın sunucusuna bağlanılamadı. Belki de şu anda sunucunun optimizasyonu üzerinde çalışıyoruz veya ddos saldırısı altında. Belki de internete bağlı değilsinizdir veya cihazınızdaki bir şey ExLoader sunucusuna bağlantıyı engelliyordur, kim bilir... Kulağa kötü geliyor, biliyoruz 🙁. Bu arada, sorun bizim tarafımızda olduğunda tüm bilgileri {Social} kanalımızda yayınlıyoruz!  Ancak sorun bizim tarafımızda değilse, VPN'i açmayı deneyebilirsiniz. Yardımcı olma ihtimali var!",
+        "Uygulamanın sunucusuna bağlanılamadı. Belki de şu anda sunucunun optimizasyonu üzerinde çalışıyoruz veya ddos saldırısı altında. Belki de internete bağlı değilsinizdir veya cihazınızdaki bir şey ExLoader sunucusuna bağlantıyı engelliyordur, kim bilir... Kulağa kötü geliyor, biliyoruz. Bu arada, sorun bizim tarafımızda olduğunda tüm bilgileri {Social} kanalımızda yayınlıyoruz!\n\nAncak sorun bizim tarafımızda değilse, VPN'i açmayı deneyebilirsiniz. Yardımcı olma ihtimali var!",
     languageEs:
-        "No se ha podido conectar con el servidor de la aplicación. Tal vez estamos trabajando en la optimización del servidor o está bajo ataque DDoS. Tal vez simplemente no estás conectado a internet, o algo en tu dispositivo está bloqueando la conexión con el servidor de ExLoader, quién sabe... Suena mal, lo sabemos 🙁. Por cierto, cuando el problema es nuestro, publicamos toda la información en nuestro canal {Social}.  Pero si el problema no es por nuestra parte, entonces puedes probar a activar la VPN. Existe la posibilidad de que te ayude.",
+        "No se ha podido conectar con el servidor de la aplicación. Tal vez estamos trabajando en la optimización del servidor o está bajo ataque DDoS. Tal vez simplemente no estás conectado a internet, o algo en tu dispositivo está bloqueando la conexión con el servidor de ExLoader, quién sabe... Suena mal, lo sabemos. Por cierto, cuando el problema es nuestro, publicamos toda la información en nuestro canal {Social}.\n\nPero si el problema no es por nuestra parte, entonces puedes probar a activar la VPN. Existe la posibilidad de que te ayude.",
     languageCn:
-        "连接应用程序服务器失败。也许我们正在对服务器进行优化，或者服务器正在遭受 ddos 攻击。也许你只是没有连接到互联网，或者你设备上的某些东西阻止了与 ExLoader 服务器的连接，谁知道呢... 听起来很糟糕，我们知道🙁。顺便说一下，如果问题出在我们这边，我们会将所有信息发布到我们的 {Social} 频道！ 但如果问题不在我们这边，您可以尝试打开 VPN。这有可能会有所帮助！",
-  },
-  'BasicInformationDescription': {
-    languageEn:
-        "Need data on modification's VAC-bans statistics, it's impact on your account's trust factor level, viruses check, it's menu open key and it's stability data? It's all here",
-    languageRu:
-        'Нужны данные о статистике вак-банов, влиянии модификации на уровень фактора доверия твоего аккаунта, проверке модификации на вирусы, клавише открытия меню модификации и стабильности модификации? Всё это находится здесь!',
-    languageUa:
-        "Потрібні дані про статистику вак-банів, вплив модифікації на рівень фактора довіри твого облікового запису, перевірці модифікації на віруси, клавіші відкриття меню модифікації і стабільності модифікації? Все це знаходиться тут!",
-    languagePl:
-        'Potrzebujesz danych na temat statystyk vac-banów, wpływu modyfikacji na współczynnik zaufania Twojego konta, sprawdzania modów pod kątem wirusów, klawiszy menu modyfikacji i ich stabilności? Wszystko jest tutaj!',
-    languageDe:
-        "Benötigen Sie Daten zu Vac-Ban-Statistiken, Auswirkung einer Mod auf den Vertrauensfaktor Ihres Kontos, Mod-Prüfung auf Viren, Mod-Menütasten und Mod-Stabilität? Es ist alles hier!",
-    languageIt:
-        'Avete bisogno di dati sulle statistiche dei divieti VAC della modifica, sul suo impatto sul livello di fiducia del vostro account, sul controllo dei virus, sulla chiave di apertura del menu e sui dati di stabilità? È tutto qui',
-    languageTr:
-        "Modifikasyonun VAC yasakları istatistikleri, hesabınızın güven faktörü seviyesi üzerindeki etkisi, virüs kontrolü, menü açık anahtarı ve istikrar verileri hakkında veriye mi ihtiyacınız var? Hepsi burada",
-    languageEs:
-        "¿Necesitas datos sobre las estadísticas de prohibiciones VAC de la modificación, su impacto en el nivel de factor de confianza de tu cuenta, la comprobación de virus, la clave abierta de su menú y sus datos de estabilidad? Todo está aquí",
-    languageCn: "需要有关修改的 VAC 禁用统计、对账户信任度的影响、病毒检查、菜单开启密钥和稳定性数据？都在这里",
-  },
-  'MoreActionsDescription': {
-    languageEn:
-        "With this button, you can install configs from other users for this\nmodification, view solutions to its popular problems, contact\nmodification's support, view additional launch instructions, or\ndelete all of its files!",
-    languageRu:
-        'С помощью данной кнопки ты сможешь установить готовые конфиги\nк модификации, посмотреть решения её популярных проблем,\nсвязаться с поддержкой модификации, посмотреть инструкцию к её\nзапуску или же удалить все её файлы!',
-    languageUa:
-        "За допомогою даної кнопки ти зможеш встановити готові конфіги\nдо модифікації, подивитися рішення її популярних проблем,\nзв'язатися з підтримкою модифікації, подивитися інструкцію до її\nзапуску або ж видалити всі її файли!",
-    languagePl:
-        'Za pomocą tego przycisku będziesz mógł zainstalować gotowe konfiguracje\ndla modyfikacji, zobaczyć rozwiązania popularnych problemów,\nskontaktować się z obsługą modyfikacji, zapoznać się z instrukcjami jej\nuruchomienia lub usunąć jej wszystkie pliki!',
-    languageDe:
-        "Mit Hilfe dieser Schaltfläche können Sie vorgefertigte Konfigurationen\nfür die Modifikation installieren, Lösungen für häufig auftretende\nProbleme sehen, den Support der Modifikation kontaktieren,\ndie Anweisungen für ihren Start lesen oder alle ihre Dateien löschen!",
-    languageIt:
-        'Con questo pulsante puoi installare le configurazioni di altri utenti\nper questa modifica, visualizzare le soluzioni ai problemi più diffusi,\ncontattare il supporto della modifica, visualizzare ulteriori\nistruzioni di avvio o eliminare tutti i suoi file!',
-    languageTr:
-        "Bu düğme ile, bu modifikasyon için diğer kullanıcıların\nyapılandırmalarını yükleyebilir, popüler sorunlarının çözümlerini görüntüleyebilir,\nmodifikasyonun desteğiyle iletişime geçebilir, ek başlatma talimatlarını görüntüleyebilir veya tüm dosyalarını silebilirsiniz!",
-    languageEs:
-        "Con este botón, puedes instalar configuraciones de otros\nusuarios para esta modificación, ver soluciones a sus problemas populares, contactar\ncon el soporte de la modificación, ver instrucciones de lanzamiento adicionales, ¡o borrar todos sus archivos!",
-    languageCn:
-        "使用此按钮，您可以安装其他用户为该修改提供的配置，查看其常见问\n题的解决方案，联系修改的支持人员，查看其他启动说明，或删除其所有文件！",
+        "连接应用程序服务器失败。也许我们正在对服务器进行优化，或者服务器正在遭受 ddos 攻击。也许你只是没有连接到互联网，或者你设备上的某些东西阻止了与 ExLoader 服务器的连接，谁知道呢... 听起来很糟糕，我们知道。顺便说一下，如果问题出在我们这边，我们会将所有信息发布到我们的 {Social} 频道！\n\n但如果问题不在我们这边，您可以尝试打开 VPN。这有可能会有所帮助！",
   },
   'UnstableModification': {
     languageEn:
-        "According to our data, about {user} percent of users of this modification face the game crashing issue! If the game has not been recently updated, it means that this modification is terribly optimized for different systems, and most likely you may encounter various problems while using it 🙁",
+        "According to our data, about {user} {percent} of users of this modification have faced the game crashing issue during this day! If the game has not been recently updated, it means that this modification is terribly optimized for different systems, and most likely you may encounter various problems while using it",
     languageRu:
-        'Судя по нашим данным, около {user} процентов пользователей этой модификации сталкиваются с проблемой вылета игры! Если в недавнее время не выходило каких-либо обновлений игры, значит, эта модификация ужасно оптимизирована под работу на разных системах, и, вероятнее всего, ты можешь столкнуться с различными проблемами при её использовании 🙁',
+        'Судя по нашим данным, около {user} {percent} пользователей этой модификации столкнулись с проблемой вылета игры за сегодняшний день! Если в недавнее время не выходило каких-либо обновлений игры, значит, эта модификация ужасно оптимизирована под работу на разных системах, и, вероятнее всего, ты можешь столкнуться с различными проблемами при её использовании',
     languageUa:
-        "Судячи з наших даних, близько {user} відсотків користувачів цієї модифікації стикаються з проблемою вильоту гри! Якщо в недавній час не виходило будь-яких оновлень гри, значить, ця модифікація жахливо оптимізована під роботу на різних системах, і, найімовірніше, ти можеш зіткнутися з різними проблемами при її використанні 🙁",
+        "Судячи з наших даних, близько {user} {percent} користувачів цієї модифікації зіткнулися з проблемою вильоту гри за сьогоднішній день! Якщо в недавній час не виходило будь-яких оновлень гри, значить, ця модифікація жахливо оптимізована під роботу на різних системах, і, найімовірніше, ти можеш зіткнутися з різними проблемами при її використанні",
     languagePl:
-        'Z naszych danych wynika, że około {user} procent użytkowników tej modyfikacji doświadcza crashów gry! Jeśli ostatnio w grze nie pojawiły się żadne aktualizacje, oznacza to, że ta modyfikacja jest źle zoptymalizowana pod kątem pracy na różnych systemach i najprawdopodobniej możesz napotkać problemy podczas korzystania z niej 🙁',
+        'Według naszych danych, około {user} {percent} użytkowników tej modyfikacji napotkało dziś problem z zawieszaniem się gry! Jeśli ostatnio w grze nie pojawiły się żadne aktualizacje, oznacza to, że ta modyfikacja jest źle zoptymalizowana pod kątem pracy na różnych systemach i najprawdopodobniej możesz napotkać problemy podczas korzystania z niej',
     languageDe:
-        "Nach unseren Daten zu urteilen, sind etwa {user} Prozent der Benutzer dieser Modifikation mit dem Problem des Spielabsturzes konfrontiert! Wenn es in letzter Zeit keine Updates für das Spiel gab, dann ist dieser Mod schrecklich für verschiedene Systeme optimiert, und höchstwahrscheinlich können Sie bei der Verwendung auf verschiedene Probleme stoßen 🙁",
+        "Unseren Daten zufolge sind etwa {user} {percent} der Benutzer dieser Modifikation heute auf das Problem des Absturzes des Spiels gestoßen! Wenn es in letzter Zeit keine Updates für das Spiel gab, dann ist dieser Mod schrecklich für verschiedene Systeme optimiert, und höchstwahrscheinlich können Sie bei der Verwendung auf verschiedene Probleme stoßen",
     languageIt:
-        'A giudicare dai nostri dati, circa il {user} percento degli utenti di questa modifica deve affrontare il problema del crash del gioco! Se di recente non sono stati rilasciati aggiornamenti al gioco, significa che questa mod è terribilmente ottimizzata per diversi sistemi e molto probabilmente potresti riscontrare vari problemi durante l`utilizzo 🙁',
+        "Secondo i nostri dati, circa {user} {percent} di utenti di questa modifica hanno affrontato il problema del crash del gioco durante questa giornata! Se il gioco non è stato aggiornato di recente, significa che questa modifica è terribilmente ottimizzata per i diversi sistemi e molto probabilmente potreste riscontrare diversi problemi durante l'utilizzo.",
     languageTr:
-        "Verilerimize göre, bu modifikasyonun kullanıcılarının yaklaşık yüzde {user}'i oyunun çökmesi sorunuyla karşı karşıya! Oyun yakın zamanda güncellenmediyse, bu modifikasyonun farklı sistemler için korkunç derecede optimize edildiği anlamına gelir ve büyük olasılıkla kullanırken çeşitli sorunlarla karşılaşabilirsiniz 🙁",
+        "Verilerimize göre, bu modifikasyonun kullanıcılarından yaklaşık {user} {percent} bu gün boyunca oyunun çökmesi sorunuyla karşılaştı! Oyun yakın zamanda güncellenmediyse, bu modifikasyonun farklı sistemler için korkunç derecede optimize edildiği anlamına gelir ve büyük olasılıkla kullanırken çeşitli sorunlarla karşılaşabilirsiniz",
     languageEs:
-        "¡Según nuestros datos, alrededor del {user} por ciento de los usuarios de esta modificación se enfrentan al problema del bloqueo del juego! Si el juego no se ha actualizado recientemente, significa que esta modificación está terriblemente optimizado para diferentes sistemas, y lo más probable es que usted puede encontrar varios problemas durante su uso 🙁.",
+        "Según nuestros datos, alrededor de {user} {percent} de los usuarios de esta modificación se han enfrentado al problema de bloqueo del juego durante este día. Si el juego no ha sido actualizado recientemente, significa que esta modificación está terriblemente optimizada para diferentes sistemas, y lo más probable es que te encuentres con varios problemas al utilizarla",
     languageCn:
-        "根据我们的数据，大约有{user}%的此修改版用户会遇到游戏崩溃问题！如果游戏最近没有更新，这意味着此修改针对不同系统的优化非常糟糕，您在使用时很可能会遇到各种问题 🙁。",
+        "根据我们的数据，大约有 {user} {percent} 的该修改版用户在这一天中遇到过游戏崩溃问题！如果游戏最近没有更新，这意味着该修改程序针对不同系统的优化非常糟糕，您在使用时很可能会遇到各种问题",
+  },
+  'StableModification': {
+    languageEn:
+        "According to our data, about {user} {percent} of users of this modification have faced the game crashing issue during this day! This is a great indicator, that shows that the mod is working well and stable.",
+    languageRu:
+        'Судя по нашим данным, около {user} {percent} пользователей этой модификации столкнулись с проблемой вылета игры за сегодняшний день! Это хороший показатель, означающий хорошую и стабильную работу мода.',
+    languageUa:
+        "Судячи з наших даних, близько {user} {percent} користувачів цієї модифікації зіткнулися з проблемою вильоту гри за сьогоднішній день!Це хороший показник, що означає хорошу і стабільну роботу мода.",
+    languagePl:
+        'Według naszych danych, około {user} {percent} użytkowników tej modyfikacji napotkało dziś problem z zawieszaniem się gry!Jest to dobry wskaźnik, oznaczający, że mod działa dobrze i stabilnie.',
+    languageDe:
+        "Unseren Daten zufolge sind etwa {user} {percent} der Benutzer dieser Modifikation heute auf das Problem des Absturzes des Spiels gestoßen! Dies ist ein guter Indikator dafür, dass der Mod gut und stabil funktioniert.",
+    languageIt:
+        "Secondo i nostri dati, circa {user} {percent} degli utenti di questa modifica ha affrontato il problema del crash del gioco durante questa giornata! Questo è un ottimo indicatore, che dimostra che la modifica funziona bene ed è stabile.",
+    languageTr:
+        "Verilerimize göre, bu modifikasyonun kullanıcılarının yaklaşık {user} {percent}'i bu gün boyunca oyunun çökmesi sorunuyla karşılaştı! Bu, modun iyi ve kararlı çalıştığını gösteren harika bir göstergedir.",
+    languageEs:
+        "¡Según nuestros datos, alrededor de {user} {percent} de los usuarios de esta modificación se han enfrentado al problema de bloqueo del juego durante este día! Este es un gran indicador, que muestra que el mod está funcionando bien y estable.",
+    languageCn:
+        "根据我们的数据，大约有 {user} {percent} 的修改版用户在这一天中遇到过游戏崩溃问题！这是一个很好的指标，说明该修改器运行良好且稳定。",
   },
   'CrashStatistics': {
     languageEn:
@@ -6326,32 +5523,32 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'LibraryWithSuchTagIsEmpty': {
     languageEn:
-        "It seems that there are no modifications with such a tag in ExLoader's library 🙁",
+        "It seems that there are no modifications with such a tag in ExLoader's library",
     languageRu:
-        'Похоже, что в библиотеке ExLoader нет модификаций с таким тэгом 🙁',
+        'Похоже, что в библиотеке ExLoader нет модификаций с таким тэгом',
     languageUa:
-        'Здається, що в бібліотеці ExLoader немає модифікацій з таким тегом 🙁',
+        'Здається, що в бібліотеці ExLoader немає модифікацій з таким тегом',
     languagePl:
-        'Wygląda na to, że w Bibliotece ExLoadera nie ma modyfikacji z takim tagiem 🙁',
+        'Wygląda na to, że w Bibliotece ExLoadera nie ma modyfikacji z takim tagiem',
     languageDe:
-        "Die ExLoader-Bibliothek scheint keine Mods mit diesem Tag zu haben 🙁",
-    languageIt: 'La libreria ExLoader non sembra avere mod con questo tag 🙁',
+        "Die ExLoader-Bibliothek scheint keine Mods mit diesem Tag zu haben",
+    languageIt: 'La libreria ExLoader non sembra avere mod con questo tag',
     languageTr:
-        "ExLoader'ın kütüphanesinde böyle bir etikete sahip herhangi bir değişiklik yok gibi görünüyor 🙁",
+        "ExLoader'ın kütüphanesinde böyle bir etikete sahip herhangi bir değişiklik yok gibi görünüyor",
     languageEs:
-        "Parece que no hay modificaciones con dicha etiqueta en la librería de ExLoader 🙁 .",
-    languageCn: "在 ExLoader 的库中，似乎没有带有此类标记的修改🙁。",
+        "Parece que no hay modificaciones con dicha etiqueta en la librería de ExLoader .",
+    languageCn: "在 ExLoader 的库中，似乎没有带有此类标记的修改。",
   },
   'PressToCheckTheSource': {
     languageEn: "Click to open modification's check-source.",
-    languageRu: 'Нажми, чтобы перейти к источнику проверки модификации.',
-    languageUa: 'Натисни, щоб перейти до джерела перевірки модифікації.',
-    languagePl: 'Kliknij, aby przejść do źrodła sprawdzania modyfikacji.',
-    languageDe: "Klicken Sie hier, um zur Mod-Check-Quelle zu gelangen.",
-    languageIt: 'Fai clic qui per accedere alla fonte dei controllo mod.',
+    languageRu: 'Нажми, чтобы перейти к\nисточнику проверки модификации.',
+    languageUa: 'Натисни, щоб перейти до\nджерела перевірки модифікації.',
+    languagePl: 'Kliknij, aby przejść do\nźrodła sprawdzania modyfikacji.',
+    languageDe: "Klicken Sie hier, um zur\nMod-Check-Quelle zu gelangen.",
+    languageIt: 'Fai clic qui per accedere\nalla fonte dei controllo mod.',
     languageTr: "Değişikliğin çek kaynağını açmak için tıklayın.",
     languageEs:
-        "Haga clic para abrir la fuente de comprobación de la modificación.",
+        "Haga clic para abrir la fuente de\ncomprobación de la modificación.",
     languageCn: "点击打开修改的检查源。",
   },
   'Install': {
@@ -6366,54 +5563,53 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "安装",
   },
   'NoText': {
-    languageEn: "It seems that someone has stolen this review's data 🙁",
-    languageRu: 'Кажется кто-то украл текст этого комментария 🙁',
-    languageUa: 'Здається хтось вкрав текст цього коментаря 🙁',
-    languagePl: 'Wygląda na to, że ktoś ukradł tekst tego komentarza 🙁',
-    languageDe: "Offenbar hat jemand den Text dieses Kommentars geklaut 🙁",
-    languageIt:
-        'Sembra che qualcuno abbia rubato i dati di questa recensione 🙁',
-    languageTr: "Görünüşe göre birisi bu incelemenin verilerini çalmış 🙁",
-    languageEs: "Parece que alguien ha robado los datos de esta reseña 🙁 .",
-    languageCn: "似乎有人盗用了这篇评论的数据 🙁",
+    languageEn: "It seems that someone has stolen this review's data",
+    languageRu: 'Кажется кто-то украл текст этого комментария',
+    languageUa: 'Здається хтось вкрав текст цього коментаря',
+    languagePl: 'Wygląda na to, że ktoś ukradł tekst tego komentarza',
+    languageDe: "Offenbar hat jemand den Text dieses Kommentars geklaut",
+    languageIt: 'Sembra che qualcuno abbia rubato i dati di questa recensione',
+    languageTr: "Görünüşe göre birisi bu incelemenin verilerini çalmış",
+    languageEs: "Parece que alguien ha robado los datos de esta reseña .",
+    languageCn: "似乎有人盗用了这篇评论的数据",
   },
   'CanNotVoteInOfflineMode': {
     languageEn:
-        'Unfortunately, you can not rate a review or configuration in an offline mode 🙁',
+        'Unfortunately, you can not rate a review or configuration in an offline mode',
     languageRu:
-        'К сожалению, оценка отзывов и конфигураций недоступна в автономном режиме 🙁',
+        'К сожалению, оценка отзывов и конфигураций недоступна в автономном режиме',
     languageUa:
-        'На жаль, оцінка відгуків та конфігурацій недоступна в автономному режимі 🙁',
+        'На жаль, оцінка відгуків та конфігурацій недоступна в автономному режимі',
     languagePl:
-        'Niestety ocena recenzji i konfiguracji nie jest dostępna w trybie offline 🙁',
+        'Niestety ocena recenzji i konfiguracji nie jest dostępna w trybie offline',
     languageDe:
-        "Leider ist die Bewertung von Bewertungen und Konfigurationen im Offline-Modus nicht verfügbar 🙁",
+        "Leider ist die Bewertung von Bewertungen und Konfigurationen im Offline-Modus nicht verfügbar",
     languageIt:
-        'Sfortunatamente, le valutazioni e le configurazioni non sono disponibili in modalità offline 🙁',
+        'Sfortunatamente, le valutazioni e le configurazioni non sono disponibili in modalità offline',
     languageTr:
-        "Ne yazık ki, çevrimdışı modda bir incelemeyi veya yapılandırmayı derecelendiremezsiniz 🙁",
+        "Ne yazık ki, çevrimdışı modda bir incelemeyi veya yapılandırmayı derecelendiremezsiniz",
     languageEs:
-        "Lamentablemente, no se puede calificar una revisión o configuración en modo offline 🙁",
-    languageCn: "遗憾的是，您无法在离线模式下对评论或配置进行评分 🙁。",
+        "Lamentablemente, no se puede calificar una revisión o configuración en modo offline",
+    languageCn: "遗憾的是，您无法在离线模式下对评论或配置进行评分。",
   },
   'VoteIsDelayed': {
     languageEn:
-        "To avoid spam, you can will able able to change or set new vote only within half a minute 🙁",
+        "To avoid spam, you can will able able to change or set new vote only within half a minute",
     languageRu:
-        'Во избежание спама ты сможешь изменить или же поставить новую оценку лишь через пол минуты 🙁',
+        'Во избежание спама ты сможешь изменить или же поставить новую оценку лишь через пол минуты',
     languageUa:
-        'Щоб уникнути спаму ти зможеш змінити або ж поставити нову оцінку лише через пів хвилини 🙁',
+        'Щоб уникнути спаму ти зможеш змінити або ж поставити нову оцінку лише через пів хвилини',
     languagePl:
-        'Aby uniknąć spamu, możesz zmienić lub umieścić nową ocenę w ciągu pół minuty 🙁',
+        'Aby uniknąć spamu, możesz zmienić lub umieścić nową ocenę w ciągu pół minuty',
     languageDe:
-        "Um Spam zu vermeiden, kannst du nur eine halbe Minute später eine neue Bewertung vornehmen oder eine neue Bewertung abgeben 🙁",
+        "Um Spam zu vermeiden, kannst du nur eine halbe Minute später eine neue Bewertung vornehmen oder eine neue Bewertung abgeben",
     languageIt:
-        'Per evitare lo spam, puoi rivalutare o pubblicare una nuova recensione solo mezzo minuto dopo 🙁',
+        'Per evitare lo spam, puoi rivalutare o pubblicare una nuova recensione solo mezzo minuto dopo',
     languageTr:
-        "Spam'i önlemek için, yalnızca yarım dakika içinde yeni oylamayı değiştirebilir veya ayarlayabilirsiniz 🙁",
+        "Spam'i önlemek için, yalnızca yarım dakika içinde yeni oylamayı değiştirebilir veya ayarlayabilirsiniz",
     languageEs:
-        "Para evitar el spam, sólo podrás cambiar o establecer un nuevo voto en medio minuto 🙁.",
-    languageCn: "为避免垃圾邮件，您只能在半分钟内更改或设置新投票🙁。",
+        "Para evitar el spam, sólo podrás cambiar o establecer un nuevo voto en medio minuto.",
+    languageCn: "为避免垃圾邮件，您只能在半分钟内更改或设置新投票。",
   },
   // Like 2 years ago
   'Ago': {
@@ -6557,17 +5753,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Traducir a {language}",
     languageCn: "翻译成 {language}",
   },
-  'TranslateTo': {
-    languageEn: "Translate the review into {language}",
-    languageRu: 'Перевести отзыв на {language} язык',
-    languageUa: 'Перекласти відгук на {language} мову',
-    languagePl: 'Przetłumacz recenzję na język {language}',
-    languageDe: "Bewertung ins {language} übersetzen",
-    languageIt: 'Traduci la recensione in {language}',
-    languageTr: "Translate the review into {language}",
-    languageEs: "Traducir la reseña a {language}",
-    languageCn: "将评论翻译成 {language}",
-  },
   'En-enNoun': {
     languageEn: "English",
     languageRu: 'английский',
@@ -6667,43 +5852,25 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Chino",
     languageCn: "中文",
   },
-  'YourReviewWasDeleted': {
+  // Add new language (for example Fr-frNoun) here!
+  'YourEntityWasDeleted': {
     languageEn:
-        "It looks like that someone has deleted your review. If it wasn't you, then your comment violated ExLoader's rules and was removed by our moderation staff!",
+        "It looks like that someone has deleted your {entity}. If it wasn't you, then your comment violated ExLoader's rules and was removed by our moderation staff!",
     languageRu:
-        'Похоже, что твой отзыв кто-то удалил  🙁. Если это сделал не ты, значит твой комментарий нарушил правила ExLoader и был удалён модерацией!',
+        'Похоже, что твой {entity} кто-то удалил . Если это сделал не ты, значит твой комментарий нарушил правила ExLoader и был удалён модерацией!',
     languageUa:
-        'Схоже, що твій відгук хтось видалив 🙁. Якщо це зробив не ти, значить твій коментар порушив правила ExLoader і був видален модерацією!',
+        'Схоже, що твій {entity} хтось видалив. Якщо це зробив не ти, значить твій коментар порушив правила ExLoader і був видален модерацією!',
     languagePl:
-        'Wygląda na to, że ktoś usunął Twoją recenzję 🙁. Jeśli to nie ty, oznacza to, że Twój komentarz naruszył zasady Exloadera i został usunięty przez moderatorów!',
+        'Wygląda na to, że ktoś usunął Twoją {entity}. Jeśli to nie ty, oznacza to, że Twój komentarz naruszył zasady Exloadera i został usunięty przez moderatorów!',
     languageDe:
-        "Anscheinend hat jemand deine Bewertung gelöscht 🙁. Wenn Sie es nicht getan haben, dann hat Ihr Kommentar gegen die Regeln von ExLoader verstoßen und wurde von den Moderatoren gelöscht!",
+        "Anscheinend hat jemand deine {entity} gelöscht. Wenn Sie es nicht getan haben, dann hat Ihr Kommentar gegen die Regeln von ExLoader verstoßen und wurde von den Moderatoren gelöscht!",
     languageIt:
-        'A quanto pare qualcuno ha cancellato la tua recensione 🙁. Se non l`hai fatto, il tuo commento ha violato le regole di ExLoader ed è stato cancellato dai moderatori!',
+        'A quanto pare qualcuno ha cancellato la tua {entity}. Se non l`hai fatto, il tuo commento ha violato le regole di ExLoader ed è stato cancellato dai moderatori!',
     languageTr:
-        "Görünüşe göre birisi yorumunuzu silmiş. Eğer siz değilseniz, yorumunuz ExLoader'ın kurallarını ihlal etmiş ve moderasyon ekibimiz tarafından kaldırılmıştır!",
+        "Görünüşe göre birisi {entity}'nizi silmiş. Eğer siz değilseniz, yorumunuz ExLoader'ın kurallarını ihlal etmiş ve moderasyon ekibimiz tarafından kaldırılmıştır!",
     languageEs:
-        "Parece que alguien ha borrado tu comentario. Si no has sido tú, ¡entonces tu comentario infringe las normas de ExLoader y ha sido eliminado por nuestro personal de moderación!",
-    languageCn: "看起来有人删除了您的评论。如果不是您，那么您的评论违反了 ExLoader 的规则，已被我们的审核人员删除！",
-  },
-  'YourAnswerWasDeleted': {
-    languageEn:
-        "It looks like that someone has deleted your answer. If it wasn't you, then your answer violated ExLoader's rules and was removed by our moderation staff!",
-    languageRu:
-        'Похоже, что этот ответ кто-то удалил  🙁. Если это сделал не ты, значит твой ответ нарушил правила ExLoader и был удалён модерацией!',
-    languageUa:
-        'Схоже, що цю відповідь хтось видалив 🙁. Якщо це зробив не ти, значить твоя відповідь порушала правила ExLoader і був видален модерацією!',
-    languagePl:
-        'Wygląda na to, że ktoś usunął twoją odpowiedź 🙁. Jeśli to nie ty, oznacza to, że Twoja odpowiedź naruszyła zasady Exloadera i została usunięta przez moderatorów!',
-    languageDe:
-        "Sieht so aus, als hätte jemand diese Antwort gelöscht 🙁. Wenn Sie es nicht getan haben, dann hat Ihre Antwort gegen die Regeln von ExLoader verstoßen und wurde von den Moderatoren entfernt!",
-    languageIt:
-        'Sembra che qualcuno abbia cancellato questa risposta 🙁 Se non l`hai fatto, la tua risposta ha violato le regole di ExLoader ed è stata rimossa dai moderatori!',
-    languageTr:
-        "Görünüşe göre birisi cevabınızı silmiş. Eğer siz değilseniz, cevabınız ExLoader'ın kurallarını ihlal etmiş ve moderasyon ekibimiz tarafından kaldırılmıştır!",
-    languageEs:
-        "Parece que alguien ha borrado tu respuesta. Si no has sido tú, tu respuesta infringe las normas de ExLoader y ha sido eliminada por nuestro personal de moderación.",
-    languageCn: "好像有人删除了您的答案。如果不是您，那么您的回答违反了 ExLoader 的规则，已被我们的审核人员删除！",
+        "Parece que alguien ha borrado tu {entity}. Si no has sido tú, ¡entonces tu comentario infringe las normas de ExLoader y ha sido eliminado por nuestro personal de moderación!",
+    languageCn: "看来有人删除了您的 {entity}。如果不是您，那么您的评论违反了 ExLoader 的规则，已被我们的审核人员删除！",
   },
   'AnswersBranch': {
     languageEn: "Answers branch",
@@ -6737,22 +5904,22 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'WaitForUpdateToAddReview': {
     languageEn:
-        "In order to avoid spam, adding new reviews feature for modifications that are being under update is disabled 🙁",
+        "In order to avoid spam, adding new reviews feature for modifications that are being under update is disabled",
     languageRu:
-        'Во избежание спама, возможность добавления новых отзывов к модификациям, которые находятся в статусе обновление отключена 🙁',
+        'Во избежание спама, возможность добавления новых отзывов к модификациям, которые находятся в статусе обновление отключена',
     languageUa:
-        'Щоб уникнути спаму, можливість додавання нових відгуків до модифікацій, які знаходяться в статусі оновлення відключена 🙁',
+        'Щоб уникнути спаму, можливість додавання нових відгуків до модифікацій, які знаходяться в статусі оновлення відключена',
     languagePl:
-        'Aby uniknąć spamu, możliwość dodawania nowych recenzji do modyfikacji, które są w stanie aktualizacji, jest wyłączona 🙁',
+        'Aby uniknąć spamu, możliwość dodawania nowych recenzji do modyfikacji, które są w stanie aktualizacji, jest wyłączona',
     languageDe:
-        "Um Spam zu vermeiden, ist die Möglichkeit, Modifikationen, die sich im Status Update befinden, neues Feedback hinzuzufügen, deaktiviert 🙁",
+        "Um Spam zu vermeiden, ist die Möglichkeit, Modifikationen, die sich im Status Update befinden, neues Feedback hinzuzufügen, deaktiviert",
     languageIt:
-        'Per evitare spam, la possibilità di aggiungere nuovi feedback alle modifiche in stato di aggiornamento è disabilitata 🙁',
+        'Per evitare spam, la possibilità di aggiungere nuovi feedback alle modifiche in stato di aggiornamento è disabilitata',
     languageTr:
-        "Spam'i önlemek için, güncellenmekte olan değişiklikler için yeni yorum ekleme özelliği devre dışı bırakılmıştır 🙁",
+        "Spam'i önlemek için, güncellenmekte olan değişiklikler için yeni yorum ekleme özelliği devre dışı bırakılmıştır",
     languageEs:
-        "Con el fin de evitar el spam, la adición de nuevas revisiones función para las modificaciones que están siendo objeto de actualización está desactivada 🙁",
-    languageCn: "为避免垃圾邮件，已禁用为正在更新的修改添加新评论功能 🙁",
+        "Con el fin de evitar el spam, la adición de nuevas revisiones función para las modificaciones que están siendo objeto de actualización está desactivada",
+    languageCn: "为避免垃圾邮件，已禁用为正在更新的修改添加新评论功能",
   },
   'AccessLevel0': {
     languageEn: "Default user",
@@ -6882,17 +6049,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Si se ha publicado una actualización para el juego para el que estás intentando seleccionar la modificación, recibirás una notificación apropiada.",
     languageCn: "如果您要选择修改的游戏已发布更新，您将收到相应的通知",
-  },
-  'NoStatus': {
-    languageEn: "This user has not changed his status yet",
-    languageRu: 'Этот пользователь не изменял свой статус',
-    languageUa: 'Цей користувач не зміняв свій статус',
-    languagePl: 'Ten użytkownik nie zmienił swojego statusu',
-    languageDe: "Dieser Benutzer hat seinen Status nicht geändert",
-    languageIt: 'Questo utente non ha cambiato il suo stato',
-    languageTr: "Bu kullanıcı henüz durumunu değiştirmedi",
-    languageEs: "Este usuario aún no ha cambiado su estado",
-    languageCn: "该用户尚未更改状态",
   },
   'Ban': {
     languageEn: "Ban and unban user",
@@ -7049,15 +6205,15 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "Oops.... 似乎出错了",
   },
   'NotGood': {
-    languageEn: 'Not good 🙁',
-    languageRu: 'Не хорошо 🙁',
-    languageUa: 'Не добре 🙁',
-    languagePl: 'Nie dobrze 🙁',
-    languageDe: "Nicht gut 🙁",
-    languageIt: 'Non va bene 🙁',
-    languageTr: "İyi değil 🙁",
-    languageEs: "No es bueno 🙁",
-    languageCn: "不好 🙁",
+    languageEn: 'Not good',
+    languageRu: 'Не хорошо',
+    languageUa: 'Не добре',
+    languagePl: 'Nie dobrze',
+    languageDe: "Nicht gut",
+    languageIt: 'Non va bene',
+    languageTr: "İyi değil",
+    languageEs: "No es bueno",
+    languageCn: "不好",
   },
   'Auth': {
     languageEn: "Authenticate",
@@ -7183,7 +6339,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         "Unfortunately, you can not perform this operation in an offline mode. Wait until ExLoader can reach it's server and try to do it again!",
     languageRu:
-        'К сожалению, ты не можете выполнить это действие в автономном режиме.  Дождись, пока приложение сможет подключиться к своему серверу и повтори попытку!',
+        'К сожалению, ты не можете выполнить это действие в автономном режиме. Дождись, пока приложение сможет подключиться к своему серверу и повтори попытку!',
     languageUa:
         'На жаль, ти не зможеш виконати цю дію в автономному режимі. Дочекайся, поки ExLoader зможе підключитися до свого сервера і спробуй ще раз!',
     languagePl:
@@ -7277,25 +6433,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn:
         "与服务器的连接不稳定： 您的杀毒软件、防火墙、网络提供商或其他应用程序阻止了从客户端发送数据包的尝试！要解决这个问题，你需要找到这个应用程序，并允许我们的客户端访问互联网！或者，你也可以尝试在使用 ExLoader 的同时启用 VPN！",
   },
-  'LostConnectionError': {
-    languageEn:
-        "The connection with the server is lost. Perhaps this is a problem with your internet connection, or it's just some unscheduled work on the server. Wait until the connection is restored and continue doing whatever you did before.",
-    languageRu:
-        'Связь с сервером утрачена. Возможно, это проблема твоего интернет соединения, или это просто какие-то внеплановые работы на сервере. Дождись, пока соединение восстановится и продолжай делать то, что ты делал ранее.',
-    languageUa:
-        "Зв'язок з сервером втрачен. Можливо, це проблема твого інтернет з'єднання, або це просто якісь позапланові роботи на сервері. Дочекайся, поки з'єднання відновиться і продовжу робити те, що ти робив раніше.",
-    languagePl:
-        'Utrata komunikacji z serwerem. Może to problem z połączeniem internetowym lub po prostu nieplanowana praca na serwerze. Poczekaj na przywrócenie połączenia i kontynuuj robienie tego, co robiłeś wcześniej.',
-    languageDe:
-        "Die Kommunikation mit dem Server geht verloren. Vielleicht ist es ein Problem mit Ihrer Internetverbindung oder es sind nur einige außerplanmäßige Arbeiten auf dem Server. Warten Sie, bis die Verbindung wiederhergestellt ist, und fahren Sie mit dem fort, was Sie zuvor getan haben.",
-    languageIt:
-        'La comunicazione con il server è stata persa. Forse è un problema con la tua connessione Internet o c`è semplicemente del lavoro non programmato sul server. Attendi il ripristino della connessione e continua con quello che stavi facendo prima.',
-    languageTr:
-        "Sunucu ile bağlantı kesildi. Belki de bu internet bağlantınızla ilgili bir sorundur veya sunucuda planlanmamış bir çalışmadır. Bağlantı yeniden kurulana kadar bekleyin ve daha önce ne yaptıysanız onu yapmaya devam edin.",
-    languageEs:
-        "Se ha perdido la conexión con el servidor. Tal vez se trate de un problema con tu conexión a Internet o de algún trabajo no programado en el servidor. Espera a que se restablezca la conexión y sigue haciendo lo que hacías antes.",
-    languageCn: "与服务器的连接中断。可能是网络连接出了问题，也可能是服务器上的一些计划外工作。请等待连接恢复，然后继续之前的操作。",
-  },
   'ABitOfInformation': {
     languageEn: "A bit of information from modification's developer",
     languageRu: 'Немного информации от разработчика',
@@ -7329,237 +6466,43 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Faltan componentes necesarios para la modificación",
     languageCn: "缺少修改所需的组件",
   },
-  'FailedToInstallJava': {
+  'FailedToInstallComponents': {
     languageEn:
-        'Unfortunately, we were unable to install Java in an automatic mode, however, you can try doing it by yourself with the help of the internet!',
+        'Unfortunately, we were unable to install {entity} components in an automatic mode, however, you can try doing it by yourself with the help of the internet! Version you need is: ',
     languageRu:
-        'К сожалению, нам не удалось установить Java в автоматическом режиме, однако, ты можешь попробовать сделать это вручную с помощью любого сайта в интернете!',
+        'К сожалению, нам не удалось установить компоненты {entity} в автоматическом режиме, однако, ты можешь попробовать сделать это вручную с помощью любого сайта в интернете! Необходимая версия: ',
     languageUa:
-        'На жаль, нам не вдалося встановити компоненти Java в автоматичному режимі, однак, ти можеш спробувати зробити це вручну за допомогою будь-якого сайту в інтернеті!',
+        'На жаль, нам не вдалося встановити компоненти {entity} в автоматичному режимі, однак, ти можеш спробувати зробити це вручну за допомогою будь-якого сайту в інтернеті! Необхідна версія: ',
     languagePl:
-        'Niestety, nie udało nam się automatycznie zainstalować komponentów Javy, jednak możesz spróbować zrobić to ręcznie, korzystając z dowolnej witryny w Internecie!',
+        'Niestety, nie udało nam się automatycznie zainstalować komponentów {entity}, jednak możesz spróbować zrobić to ręcznie, korzystając z dowolnej witryny w Internecie! Wymagana wersja: ',
     languageDe:
-        "Leider konnten wir Java-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun!",
+        "Leider konnten wir die {entity}-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun! Benötigte Version: ",
     languageIt:
-        'Sfortunatamente non siamo riusciti a installare automaticamente i componenti Java, ma puoi provare a farlo manualmente da qualsiasi sito web su Internet!',
+        'Sfortunatamente non siamo riusciti a installare automaticamente i componenti {entity}, ma puoi provare a farlo manualmente da qualsiasi sito Web su Internet! Versione richiesta: ',
     languageTr:
-        "Ne yazık ki Java'yı otomatik modda yükleyemedik, ancak internetin yardımıyla bunu kendiniz yapmayı deneyebilirsiniz!",
+        "Ne yazık ki, {entity} bileşenlerini otomatik modda yükleyemedik, ancak internet yardımıyla kendiniz yapmayı deneyebilirsiniz! İhtiyacınız olan sürüm: ",
     languageEs:
-        "Lamentablemente, no hemos podido instalar Java de forma automática, pero puedes intentarlo tú mismo con la ayuda de Internet.",
-    languageCn: "遗憾的是，我们无法以自动模式安装 Java，不过，您可以尝试借助互联网自行安装！",
+        "Lamentablemente, no hemos podido instalar los componentes de {entity} de forma automática, pero puede intentarlo usted mismo con la ayuda de Internet. La versión que necesitas es: ",
+    languageCn: "遗憾的是，我们无法在自动模式下安装 {entity} 组件，不过，你可以尝试在互联网的帮助下自行安装！您需要的版本是: ",
   },
-  'FailedToInstallCheatEngine': {
+  'WhyYouNeedComponents': {
     languageEn:
-        'Unfortunately, we were unable to install CheatEngine in an automatic mode, however, you can try doing it by yourself with the help of the internet!',
+        'For the proper work of the modification {entity} components have to be installed on your system. If advertising offers appear in the installer, just click on the «Decline» button.',
     languageRu:
-        'К сожалению, нам не удалось установить CheatEngine в автоматическом режиме, однако, ты можешь попробовать сделать это вручную с помощью любого сайта в интернете!',
+        'Для корректной работы модификации на твоей системе должны быть установлены компоненты {entity}. В случае появления рекламных офферов в установщике просто нажми на кнопку «Decline».',
     languageUa:
-        'На жаль, нам не вдалося встановити компоненти CheatEngine в автоматичному режимі, однак, ти можеш спробувати зробити це вручну за допомогою будь-якого сайту в інтернеті!',
+        'Для коректної роботи модифікації на твоїй системі мають бути встановлені компоненти {entity}. У разі появи рекламних офферов в установнику просто натисни на кнопку «Decline».',
     languagePl:
-        'Niestety, nie udało nam się automatycznie zainstalować komponentów CheatEngine, jednak możesz spróbować zrobić to ręcznie, korzystając z dowolnej witryny w Internecie!',
+        'Aby modyfikacja działała poprawnie, w systemie muszą być zainstalowane składniki {entity}. W przypadku pojawienia się ofert reklamowych w instalatorze wystarczy nacisnąć przycisk «Decline».',
     languageDe:
-        "Leider konnten wir CheatEngine-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun!",
+        "Sie müssen {entity} Komponenten auf Ihrem System installiert haben, damit die Änderung korrekt funktioniert. Wenn im Installationsprogramm Werbeangebote erscheinen, klicken Sie einfach auf die Schaltfläche «Ablehnen».",
     languageIt:
-        'Sfortunatamente, non siamo riusciti a installare automaticamente i componenti di CheatEngine, ma puoi provare a farlo manualmente da qualsiasi sito Web su Internet!',
+        'Affinché la modifica funzioni correttamente, è necessario che sul sistema siano installati i componenti di {entity}. Se nel programma di installazione vengono visualizzate offerte pubblicitarie, è sufficiente fare clic sul pulsante «Rifiuta».',
     languageTr:
-        "Ne yazık ki, CheatEngine'i otomatik modda yükleyemedik, ancak internet yardımıyla kendi başınıza yapmayı deneyebilirsiniz!",
+        "Değişikliğin düzgün çalışması için sisteminizde {entity} bileşenlerinin yüklü olması gerekir. Yükleyicide reklam teklifleri görünürse, «Reddet» düğmesine tıklamanız yeterlidir.",
     languageEs:
-        "Desgraciadamente, no hemos podido instalar CheatEngine en modo automático, pero puedes intentarlo tú mismo con la ayuda de Internet.",
-    languageCn: "遗憾的是，我们无法以自动模式安装 CheatEngine，不过你可以尝试在互联网的帮助下自行安装！",
-  },
-  'FailedToInstallMicrosoft': {
-    languageEn:
-        'Unfortunately, we were unable to install Microsoft components in an automatic mode, however, you can try doing it by yourself with the help of the internet!',
-    languageRu:
-        'К сожалению, нам не удалось установить компоненты Microsoft в автоматическом режиме, однако, ты можешь попробовать сделать это вручную с помощью любого сайта в интернете!',
-    languageUa:
-        'На жаль, нам не вдалося встановити компоненти Microsoft в автоматичному режимі, однак, ти можеш спробувати зробити це вручну за допомогою будь-якого сайту в інтернеті!',
-    languagePl:
-        'Niestety, nie udało nam się automatycznie zainstalować komponentów firmy Microsoft, jednak możesz spróbować zrobić to ręcznie, korzystając z dowolnej witryny w Internecie!',
-    languageDe:
-        "Leider konnten wir Microsoft-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun!",
-    languageIt:
-        'Purtroppo non siamo riusciti a installare automaticamente i componenti Microsoft, ma puoi provare a farlo manualmente da qualsiasi sito Web su Internet!',
-    languageTr:
-        "Ne yazık ki, Microsoft bileşenlerini otomatik modda yükleyemedik, ancak internet yardımıyla bunu kendiniz yapmayı deneyebilirsiniz!",
-    languageEs:
-        "Lamentablemente, no hemos podido instalar los componentes de Microsoft de forma automática, pero puede intentarlo usted mismo con la ayuda de Internet.",
-    languageCn: "遗憾的是，我们无法以自动模式安装微软组件，不过，你可以尝试借助互联网自行安装！",
-  },
-  'FailedToInstallNetFramework': {
-    languageEn:
-        'Unfortunately, we were unable to install .NET Framework components in an automatic mode, however, you can try doing it by yourself with the help of the internet! Version you need is: ',
-    languageRu:
-        'К сожалению, нам не удалось установить компоненты .NET Framework в автоматическом режиме, однако, ты можешь попробовать сделать это вручную с помощью любого сайта в интернете! Необходимая версия: ',
-    languageUa:
-        'На жаль, нам не вдалося встановити компоненти .NET Framework в автоматичному режимі, однак, ти можеш спробувати зробити це вручну за допомогою будь-якого сайту в інтернеті! Необхідна версія: ',
-    languagePl:
-        'Niestety, nie udało nam się automatycznie zainstalować komponentów .NET Framework, jednak możesz spróbować zrobić to ręcznie, korzystając z dowolnej witryny w Internecie! Wymagana wersja: ',
-    languageDe:
-        "Leider konnten wir die .NET Framework-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun! Benötigte Version: ",
-    languageIt:
-        'Sfortunatamente non siamo riusciti a installare automaticamente i componenti .NET Framework, ma puoi provare a farlo manualmente da qualsiasi sito Web su Internet! Versione richiesta: ',
-    languageTr:
-        "Ne yazık ki, .NET Framework bileşenlerini otomatik modda yükleyemedik, ancak internet yardımıyla kendiniz yapmayı deneyebilirsiniz! İhtiyacınız olan sürüm:",
-    languageEs:
-        "Lamentablemente, no hemos podido instalar los componentes de .NET Framework de forma automática, pero puede intentarlo usted mismo con la ayuda de Internet. La versión que necesitas es:",
-    languageCn:
-        "遗憾的是，我们无法在自动模式下安装 .NET Framework 组件，不过，你可以尝试在互联网的帮助下自行安装！您需要的版本是",
-  },
-  'FailedToInstallPython': {
-    languageEn:
-        'Unfortunately, we were unable to install Python components in an automatic mode, however, you can try doing it by yourself with the help of the internet! Version you need is: ',
-    languageRu:
-        'К сожалению, нам не удалось установить компоненты Python в автоматическом режиме, однако, ты можешь попробовать сделать это вручную с помощью любого сайта в интернете! Необходимая версия: ',
-    languageUa:
-        'На жаль, нам не вдалося встановити компоненти Python в автоматичному режимі, однак, ти можеш спробувати зробити це вручну за допомогою будь-якого сайту в інтернеті! Необхідна версія: ',
-    languagePl:
-        'Niestety, nie byliśmy w stanie zainstalować komponentów Pythona automatycznie, jednak możesz spróbować zrobić to ręcznie, korzystając z dowolnej witryny w Internecie! Wymagana wersja: ',
-    languageDe:
-        "Leider konnten wir die Python-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun! Benötigte Version: ",
-    languageIt:
-        'Sfortunatamente non siamo riusciti a installare automaticamente i componenti Python, ma puoi provare a farlo manualmente da qualsiasi sito web su Internet! Versione richiesta: ',
-    languageTr:
-        "Ne yazık ki, Python bileşenlerini otomatik modda yükleyemedik, ancak internet yardımıyla kendiniz yapmayı deneyebilirsiniz! İhtiyacınız olan sürüm: ",
-    languageEs:
-        "Desgraciadamente, no hemos podido instalar los componentes de Python en modo automático, sin embargo, ¡puede intentar hacerlo usted mismo con la ayuda de Internet! La versión que necesitas es: ",
-    languageCn: "遗憾的是，我们无法在自动模式下安装 Python 组件，不过，您可以尝试借助互联网自行安装！您需要的版本是: ",
-  },
-  'FailedToInstallNetRuntime': {
-    languageEn:
-        'Unfortunately, we were unable to install .NET Runtime components in an automatic mode, however, you can try doing it by yourself with the help of the internet! Version you need is: ',
-    languageRu:
-        'К сожалению, нам не удалось установить компоненты .NET Runtime в автоматическом режиме, однако, ты можешь попробовать сделать это вручную с помощью любого сайта в интернете! Необходимая версия: ',
-    languageUa:
-        'На жаль, нам не вдалося встановити компоненти .NET Runtime в автоматичному режимі, однак, ти можеш спробувати зробити це вручну за допомогою будь-якого сайту в інтернеті! Необхідна версія: ',
-    languagePl:
-        'Niestety, nie byliśmy w stanie zainstalować komponentów .NET Runtime automatycznie, jednak możesz spróbować zrobić to ręcznie, korzystając z dowolnej witryny w Internecie! Wymagana wersja: ',
-    languageDe:
-        "Leider konnten wir die .NET Runtime-Komponenten nicht automatisch installieren, aber Sie können versuchen, dies manuell über eine beliebige Website im Internet zu tun! Benötigte Version: ",
-    languageIt:
-        'Sfortunatamente non siamo riusciti a installare automaticamente i componenti .NET Runtime, ma puoi provare a farlo manualmente da qualsiasi sito web su Internet! Versione richiesta: ',
-    languageTr:
-        "Ne yazık ki, .NET Runtime bileşenlerini otomatik modda yükleyemedik, ancak internet yardımıyla kendiniz yapmayı deneyebilirsiniz! İhtiyacınız olan sürüm: ",
-    languageEs:
-        "Lamentablemente, no hemos podido instalar los componentes .NET Runtime de forma automática, pero puede intentarlo usted mismo con la ayuda de Internet. La versión que necesita es: ",
-    languageCn:
-        "遗憾的是，我们无法在自动模式下安装 .NET Runtime 组件，不过，你可以在互联网的帮助下自己尝试安装！您需要的版本是: ",
-  },
-  'WhyYouNeedMicrosoft': {
-    languageEn:
-        'For the proper work of modifications you need to install Microsoft VC++ components. You can skip this step, however, later, you might face a lot of unexpected problems!',
-    languageRu:
-        'Для корректной работы модификаций тебе необходимо установить компоненты Microsoft. Этот шаг можно пропустить, однако, без этих компонентов, ты можешь столкнуться с большим количеством непредвиденных проблем!',
-    languageUa:
-        'Для коректної роботи модифікацій тобі необхідно встановити компоненти Microsoft. Ти можеш пропустити цей крок, однак, без цих компонентів, ти можеш зіткнутися з великою кількістю непередбачених проблем!',
-    languagePl:
-        'Aby modyfikacje działały poprawnie, należy zainstalować komponenty firmy Microsoft. Możesz pominąć ten krok, jednak bez tych komponentów możesz napotkać wiele nieprzewidzianych problemów!',
-    languageDe:
-        "Damit die Modifikationen richtig funktionieren, müssen Sie Microsoft-Komponenten installieren. Sie können diesen Schritt überspringen, aber ohne diese Komponenten können Sie auf viele unvorhergesehene Probleme stoßen!",
-    languageIt:
-        'Affinché le modifiche funzionino correttamente, è necessario installare i componenti Microsoft. Puoi saltare questo passaggio, ma senza questi componenti potresti riscontrare molti problemi imprevisti!',
-    languageTr:
-        "Modifikasyonların düzgün çalışması için Microsoft VC++ bileşenlerini yüklemeniz gerekir. Bu adımı atlayabilirsiniz, ancak daha sonra beklenmedik birçok sorunla karşılaşabilirsiniz!",
-    languageEs:
-        "Para que las modificaciones funcionen correctamente es necesario instalar los componentes de Microsoft VC++. ¡Puede omitir este paso, sin embargo, más tarde, usted podría enfrentar un montón de problemas inesperados!",
-    languageCn:
-        "为使修改工作正常进行，您需要安装 Microsoft VC++ 组件。您可以跳过这一步，但之后可能会遇到很多意想不到的问题！",
-  },
-  'WhyYouNeedNetFramework': {
-    languageEn:
-        'For the proper work of the modification .NET Framework has to be installed on your system.',
-    languageRu:
-        'Для корректной работы модификации на твоей системе должен быть установлен .NET Framework.',
-    languageUa:
-        'Для коректної роботи модифікації на твоїй системі повинен бути встановлений .NET Framework.',
-    languagePl:
-        'Do poprawnego działania modyfikacji w systemie musi być zainstalowany .NET Framework.',
-    languageDe:
-        "Das .NET Framework muss auf Ihrem System installiert sein, damit die Modifikation ordnungsgemäß funktioniert.",
-    languageIt:
-        'Affinché la modifica funzioni correttamente, è necessario che .NET Framework sia installato sul sistema.',
-    languageTr:
-        "Modifikasyonun düzgün çalışması için .NET Framework'ün sisteminizde yüklü olması gerekir.",
-    languageEs:
-        "Para que la modificación funcione correctamente, debe tener instalado .NET Framework en su sistema.",
-    languageCn: "为使修改程序正常工作，必须在系统中安装 .NET Framework。",
-  },
-  'WhyYouNeedNetRuntime': {
-    languageEn:
-        'For the proper work of the modification .NET Runtime has to be installed on your system.',
-    languageRu:
-        'Для корректной работы модификации на твоей системе должен быть установлен .NET Runtime.',
-    languageUa:
-        'Для коректної роботи модифікації на твоїй системі повинен бути встановлений .NET Runtime.',
-    languagePl:
-        'Do poprawnego działania modyfikacji w systemie musi być zainstalowany .NET Runtime.',
-    languageDe:
-        "Das .NET Runtime muss auf Ihrem System installiert sein, damit die Modifikation ordnungsgemäß funktioniert.",
-    languageIt:
-        'Affinché la modifica funzioni correttamente, è necessario che .NET Runtime sia installato sul sistema.',
-    languageTr:
-        "Modifikasyonun düzgün çalışması için .NET Runtime'ın sisteminizde yüklü olması gerekir.",
-    languageEs:
-        "Para que la modificación funcione correctamente, debe tener instalado .NET Runtime en su sistema.",
-    languageCn: "为使修改程序正常工作，您的系统必须安装 .NET Runtime。",
-  },
-  'WhyYouNeedJava': {
-    languageEn:
-        'For the proper work of the modification Java has to be installed on your system.',
-    languageRu:
-        'Для корректной работы модификации на твоей системе должна быть установлена Java.',
-    languageUa:
-        'Для коректної роботи модифікації на твоїй системі повинна бути встановлена Java.',
-    languagePl:
-        'Aby modyfikacja działała poprawnie, w systemie musi być zainstalowana Java.',
-    languageDe:
-        "Damit die Modifikation korrekt funktioniert, muss Java auf Ihrem System installiert sein.",
-    languageIt:
-        'Affinché la modifica funzioni correttamente, Java deve essere installato sul tuo sistema.',
-    languageTr:
-        "Modifikasyonun düzgün çalışması için Java'nın sisteminizde yüklü olması gerekir.",
-    languageEs:
-        "Para que la modificación funcione correctamente, Java debe estar instalado en su sistema.",
-    languageCn: "为使修改程序正常工作，您的系统必须安装 Java。",
-  },
-  'WhyYouNeedPython': {
-    languageEn:
-        'For the proper work of the modification Python of 3.8+ version has to be installed on your system.',
-    languageRu:
-        'Для корректной работы модификации на твоей системе должен быть установлен Python версии 3.8+.',
-    languageUa:
-        'Для коректної роботи модифікації на твоїй системі повинен бути встановлений Python версії 3.8+.',
-    languagePl:
-        'Do poprawnego działania modyfikacji w systemie musi być zainstalowany Python w wersji 3.8+.',
-    languageDe:
-        "Für den korrekten Betrieb der Modifikation muss Python Version 3.8+ auf Ihrem System installiert sein.",
-    languageIt:
-        'Affinché la modifica funzioni correttamente, sul tuo sistema deve essere installata la versione 3.8+ di Python.',
-    languageTr:
-        "Modifikasyonun düzgün çalışması için Python'un 3.8+ sürümünün sisteminizde yüklü olması gerekir.",
-    languageEs:
-        "Para el correcto funcionamiento de la modificación Python de 3.8+ versión tiene que ser instalado en su sistema.",
-    languageCn: "为使修改工作正常进行，您的系统必须安装 3.8 及以上版本的 Python。",
-  },
-  'WhyYouNeedCheatEngine': {
-    languageEn:
-        'For the proper work of the modification the latest version of CheatEngine must be installed on your system! If advertising offers appear in the installer, just click on the «Decline» button.',
-    languageRu:
-        'Для корректной работы модификации на твоей системе должен быть установлен CheatEngine самой последней версии! В случае появления рекламных офферов в установщике просто нажми на кнопку «Decline».',
-    languageUa:
-        'Для коректної роботи модифікації на твоїй системі повинен бути встановлений CheatEngine самої останньої версії! У разі появи рекламних офферов в установнику просто натисни на кнопку «Decline».',
-    languagePl:
-        'Aby modyfikacja działała poprawnie, w Twoim systemie musi być zainstalowana najnowsza wersja CheatEngine! W przypadku pojawienia się ofert reklamowych w instalatorze wystarczy nacisnąć przycisk «Decline».',
-    languageDe:
-        "Für den korrekten Betrieb der Modifikation muss Python Version 3.8+ auf Ihrem System installiert sein.",
-    languageIt:
-        'Per il corretto funzionamento della modifica è necessario che sul tuo sistema sia installata l`ultima versione di CheatEngine! Se nel programma di installazione vengono visualizzate offerte pubblicitarie, è sufficiente fare clic sul pulsante «Rifiuta».',
-    languageTr:
-        "Modifikasyonun düzgün çalışması için CheatEngine'in en son sürümü sisteminizde yüklü olmalıdır! Yükleyicide reklam teklifleri görünürse, «Reddet» düğmesine tıklamanız yeterlidir.",
-    languageEs:
-        "Para que la modificación funcione correctamente, debe tener instalada la última versión de CheatEngine. Si aparecen ofertas publicitarias en el instalador, simplemente haga clic en el botón «Rechazar».",
-    languageCn:
-        "为确保修改的正常运行，您的系统必须安装最新版本的 CheatEngine！如果安装程序中出现广告，只需点击 «拒绝» 按钮即可。",
+        "Debe tener componentes {entity} instalados en su sistema para que la modificación funcione correctamente. Si aparecen ofertas publicitarias en el instalador, simplemente haga clic en el botón «Rechazar»",
+    languageCn: "您的系统必须安装了 {entity} 组件，修改才能正常运行。。如果安装程序中出现广告，只需点击 «拒绝» 按钮即可。",
   },
   'Downloading': {
     languageEn: "Downloading",
@@ -7763,11 +6706,11 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa:
         'Натискаючи «{button_name}» та встановлюючи рекомендоване ExLoader програмне забезпечення, ви погоджуєтеся з ліцензійною угодою',
     languagePl:
-        'Klikając „{button_name}” i instalując zalecane oprogramowanie Exloadera, wyrażasz zgodę na warunki umowy licencyjnej',
+        'Klikając «{button_name}» i instalując zalecane oprogramowanie Exloadera, wyrażasz zgodę na warunki umowy licencyjnej',
     languageDe:
-        "Indem Sie auf „{button_name}“ klicken und die von ExLoader empfohlene Software installieren, stimmen Sie der Lizenzvereinbarung zu",
+        "Indem Sie auf «{button_name}» klicken und die von ExLoader empfohlene Software installieren, stimmen Sie der Lizenzvereinbarung zu",
     languageIt:
-        'Facendo clic su "{button_name}" e installando il software raccomandato da ExLoader, si accettano i termini e le condizioni di licenza del contratto di licenza di ExLoader.',
+        'Facendo clic su «{button_name}» e installando il software raccomandato da ExLoader, si accettano i termini e le condizioni di licenza del contratto di licenza di ExLoader.',
     languageTr:
         "«{button_name}» seçeneğine tıklayarak ve ExLoader tarafından önerilen yazılımı yükleyerek, ExLoader'ın lisans sözleşmesinin lisans hüküm ve koşullarını kabul etmiş olursunuz.",
     languageEs:
@@ -7827,11 +6770,11 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa:
         'Натискаючи «{button_name}» ви погоджуєтеся встановити Opera і приймаєте умови',
     languagePl:
-        'Klikając „{button_name}”, wyrażasz zgodę na instalację Opery i akceptujesz warunki',
+        'Klikając «{button_name}», wyrażasz zgodę na instalację Opery i akceptujesz warunki',
     languageDe:
-        'Indem Sie auf "{button_name}" klicken, stimmen Sie der Installation von Opera zu und akzeptieren die Bedingungen',
+        'Indem Sie auf «{button_name}» klicken, stimmen Sie der Installation von Opera zu und akzeptieren die Bedingungen',
     languageIt:
-        'Facendo clic su "{button_name}" si accetta di installare Opera e si acconsente alla sua',
+        'Facendo clic su «{button_name}» si accetta di installare Opera e si acconsente alla sua',
     languageTr:
         "«{button_name}» seçeneğine tıklayarak Opera'yı yüklemeyi kabul etmiş ve",
     languageEs:
@@ -7846,16 +6789,16 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa:
         'Натискаючи «{button_name}» ви погоджуєтеся оновити Opera і приймаєте умови',
     languagePl:
-        'Klikając „{button_name}”, zgadzasz się na aktualizację Opery i akceptujesz warunki',
+        'Klikając «{button_name}», zgadzasz się na aktualizację Opery i akceptujesz warunki',
     languageDe:
-        "Indem Sie auf „{button_name}“ klicken, stimmen Sie der Aktualisierung von Opera zu und akzeptieren die Bedingungen",
+        "Indem Sie auf «{button_name}» klicken, stimmen Sie der Aktualisierung von Opera zu und akzeptieren die Bedingungen",
     languageIt:
-        'Facendo clic su "{button_name}" si accetta di aggiornare Opera e si acconsente al suo',
+        'Facendo clic su «{button_name}» si accetta di aggiornare Opera e si acconsente al suo',
     languageTr:
         "«{button_name}» seçeneğine tıklayarak Opera'yı güncellemeyi kabul etmiş ve Opera'nın",
     languageEs:
         "Al hacer clic en «{button_name}» usted acepta actualizar Opera y consiente su",
-    languageCn: "点击  «{button_name}»，即表示您同意更新 Opera 并同意其",
+    languageCn: "点击 «{button_name}»，即表示您同意更新 Opera 并同意其",
   },
   'OperaLicense': {
     languageEn: 'End User License Agreement',
@@ -8052,17 +6995,6 @@ const Map<String, Map<String, String>> localeItems = {
         "La función de eliminación de la modificación no está disponible durante su lanzamiento.",
     languageCn: "在启动过程中，修改的删除功能不可用！",
   },
-  'NotAvailableOneWord': {
-    languageEn: 'Unavailable',
-    languageRu: 'Недоступно',
-    languageUa: 'Недоступно',
-    languagePl: 'Niedostępne',
-    languageDe: "Nicht verfügbar",
-    languageIt: 'Non disponibile',
-    languageTr: "Kullanılamıyor",
-    languageEs: "No disponible",
-    languageCn: "不可用",
-  },
   'EmailTooltip': {
     languageEn: 'Enter your email address',
     languageRu: 'Введи свою почту',
@@ -8232,74 +7164,72 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'AlreadyTaken': {
     languageEn:
-        "It looks like that nickname that you've chosen is already taken 🙁",
-    languageRu: 'Похоже, что выбранный тобой никнейм уже занят 🙁',
-    languageUa: 'Схоже, що обраний тобою нікнейм вже зайнят 🙁',
+        "It looks like that nickname that you've chosen is already taken",
+    languageRu: 'Похоже, что выбранный тобой никнейм уже занят',
+    languageUa: 'Схоже, що обраний тобою нікнейм вже зайнят',
     languagePl:
-        'Wygląda na to, że wybrany przez Ciebie pseudonim jest już zajęty 🙁',
+        'Wygląda na to, że wybrany przez Ciebie pseudonim jest już zajęty',
     languageDe:
-        "Es scheint, dass der von dir gewählte Spitzname bereits vergeben ist 🙁",
-    languageIt: 'Sembra che il nickname che hai scelto sia già preso 🙁',
-    languageTr: "Görünüşe göre seçtiğiniz takma ad çoktan alınmış 🙁",
-    languageEs: "Parece que ese nick que has elegido ya está cogido 🙁 .",
-    languageCn: "看来你选的昵称已经有人用了🙁。",
+        "Es scheint, dass der von dir gewählte Spitzname bereits vergeben ist",
+    languageIt: 'Sembra che il nickname che hai scelto sia già preso',
+    languageTr: "Görünüşe göre seçtiğiniz takma ad çoktan alınmış",
+    languageEs: "Parece que ese nick que has elegido ya está cogido .",
+    languageCn: "看来你选的昵称已经有人用了。",
   },
   '30DaysNotPassedNickname': {
-    languageEn:
-        "Oops, thirty days have to pass since the last nickname change 🙁",
+    languageEn: "Oops, thirty days have to pass since the last nickname change",
     languageRu:
-        'Воу, с момента прошлого изменения никнейма ещё не прошло тридцати дней 🙁',
+        'Воу, с момента прошлого изменения никнейма ещё не прошло тридцати дней',
     languageUa:
-        'Воу, з моменту минулої зміни нікнейма ще не пройшло тридцяти днів 🙁',
+        'Воу, з моменту минулої зміни нікнейма ще не пройшло тридцяти днів',
     languagePl:
-        'Wow, od ostatniej zmiany pseudonimu nie minęło jeszcze trzydzieści dni 🙁',
+        'Wow, od ostatniej zmiany pseudonimu nie minęło jeszcze trzydzieści dni',
     languageDe:
-        "Wow, seit der letzten Änderung des Nicknamens sind noch nicht 30 Tage vergangen 🙁",
+        "Wow, seit der letzten Änderung des Nicknamens sind noch nicht 30 Tage vergangen",
     languageIt:
-        'Wow, non sono passati 30 giorni dall`ultimo cambio di nickname 🙁',
+        'Wow, non sono passati 30 giorni dall`ultimo cambio di nickname',
     languageTr:
-        "Oops, son takma ad değişikliğinden bu yana otuz gün geçmesi gerekiyor 🙁",
+        "Oops, son takma ad değişikliğinden bu yana otuz gün geçmesi gerekiyor",
     languageEs:
-        "Uy, tienen que pasar treinta días desde el último cambio de nick 🙁",
-    languageCn: "哎呀，距离上次更改昵称还有三十天呢 🙁",
+        "Uy, tienen que pasar treinta días desde el último cambio de nick",
+    languageCn: "哎呀，距离上次更改昵称还有三十天呢",
   },
   '30DaysNotPassedAvatar': {
-    languageEn:
-        "Oops, thirty days have to pass since the last avatar change 🙁",
+    languageEn: "Oops, thirty days have to pass since the last avatar change",
     languageRu:
-        'Воу, с момента прошлого изменения аватарки ещё не прошло тридцати дней 🙁',
+        'Воу, с момента прошлого изменения аватарки ещё не прошло тридцати дней',
     languageUa:
-        'Воу, з моменту минулої зміни аватарки ще не пройшло тридцяти днів 🙁',
+        'Воу, з моменту минулої зміни аватарки ще не пройшло тридцяти днів',
     languagePl:
-        'Wow, nie minęło jeszcze trzydzieści dni od ostatniej zmiany avatara 🙁',
+        'Wow, nie minęło jeszcze trzydzieści dni od ostatniej zmiany avatara',
     languageDe:
-        "Wow, seit der letzten Avatar-Änderung sind noch keine dreißig Tage vergangen 🙁",
+        "Wow, seit der letzten Avatar-Änderung sind noch keine dreißig Tage vergangen",
     languageIt:
-        'Wow, non sono passati trenta giorni dall`ultimo cambio di avatar 🙁',
+        'Wow, non sono passati trenta giorni dall`ultimo cambio di avatar',
     languageTr:
-        "Oops, son avatar değişikliğinden bu yana otuz gün geçmesi gerekiyor 🙁",
+        "Oops, son avatar değişikliğinden bu yana otuz gün geçmesi gerekiyor",
     languageEs:
-        "Uy, tienen que pasar treinta días desde el último cambio de avatar 🙁",
-    languageCn: "哎呀，距离上次更换头像还有三十天呢 🙁",
+        "Uy, tienen que pasar treinta días desde el último cambio de avatar",
+    languageCn: "哎呀，距离上次更换头像还有三十天呢",
   },
   '1DayNotPassedStatus': {
     languageEn:
-        "Oops, twenty four hours have to pass since the last status change 🙁",
+        "Oops, twenty four hours have to pass since the last status change",
     languageRu:
-        'Воу, с момента прошлого изменения статуса ещё не прошло двадцати четырёх часов 🙁',
+        'Воу, с момента прошлого изменения статуса ещё не прошло двадцати четырёх часов',
     languageUa:
-        'Воу, з моменту минулої зміни статусу ще не пройшло двадцяти чотирьох годин 🙁',
+        'Воу, з моменту минулої зміни статусу ще не пройшло двадцяти чотирьох годин',
     languagePl:
-        'Wow, nie minęło jeszcze dwadzieścia cztery godziny od ostatniej zmiany statusu 🙁',
+        'Wow, nie minęło jeszcze dwadzieścia cztery godziny od ostatniej zmiany statusu',
     languageDe:
-        "Wow, seit der letzten Avatar-Änderung sind noch keine vierundzwanzig Stunden vergangen 🙁",
+        "Wow, seit der letzten Avatar-Änderung sind noch keine vierundzwanzig Stunden vergangen",
     languageIt:
-        'Wow, non sono passate nemmeno ventiquattr`ore dall`ultimo cambio avatar 🙁',
+        'Wow, non sono passate nemmeno ventiquattr`ore dall`ultimo cambio avatar',
     languageTr:
-        "Oops, son durum değişikliğinin üzerinden yirmi dört saat geçmesi gerekiyor 🙁",
+        "Oops, son durum değişikliğinin üzerinden yirmi dört saat geçmesi gerekiyor",
     languageEs:
-        "Uy, tienen que pasar veinticuatro horas desde el último cambio de estado 🙁",
-    languageCn: "哎呀，距离上次状态更改还有 24 小时 🙁 。",
+        "Uy, tienen que pasar veinticuatro horas desde el último cambio de estado",
+    languageCn: "哎呀，距离上次状态更改还有 24 小时 。",
   },
   'UpdatingTheApp': {
     languageEn: "Updating the app",
@@ -8396,19 +7326,19 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ConfigAlreadyDeleted': {
     languageEn:
-        "While you were looking for a configuration, this file has already been deleted 🙁",
-    languageRu: 'Пока ты искал себе конфигурацию, этот файл уже удалили 🙁',
-    languageUa: "Поки ти шукав собі конфігурацію, цей файл вже видалили 🙁",
+        "While you were looking for a configuration, this file has already been deleted",
+    languageRu: 'Пока ты искал себе конфигурацию, этот файл уже удалили',
+    languageUa: "Поки ти шукав собі конфігурацію, цей файл вже видалили",
     languagePl:
-        'W momencie w którym szukałeś konfiguracji, ten plik został już usunięty 🙁',
+        'W momencie w którym szukałeś konfiguracji, ten plik został już usunięty',
     languageDe:
-        "Während Sie nach einer Konfiguration gesucht haben, wurde diese Datei bereits gelöscht 🙁",
+        "Während Sie nach einer Konfiguration gesucht haben, wurde diese Datei bereits gelöscht",
     languageIt:
-        'Mentre stavi cercando una configurazione, questo file è già stato eliminato 🙁',
-    languageTr: "Siz bir yapılandırma ararken, bu dosya zaten silinmiş 🙁",
+        'Mentre stavi cercando una configurazione, questo file è già stato eliminato',
+    languageTr: "Siz bir yapılandırma ararken, bu dosya zaten silinmiş",
     languageEs:
-        "Mientras buscabas una configuración, este archivo ya ha sido borrado 🙁",
-    languageCn: "当您在查找配置时，该文件已被删除 🙁",
+        "Mientras buscabas una configuración, este archivo ya ha sido borrado",
+    languageCn: "当您在查找配置时，该文件已被删除",
   },
   'ConfigurationWasSuccessfullyDeleted': {
     languageEn:
@@ -8436,25 +7366,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyonlara göre arama",
     languageEs: "Búsqueda por configuraciones",
     languageCn: "按配置搜索",
-  },
-  'ConfigsCanBeBad': {
-    languageEn:
-        "🥷🥷🥷 Please note that some configurations or LUA from\nthis section may work poorly or might not work at\nall, since they are uploaded by other users of the application,\nnot by modifications developers. Thankfully, you can always\ndislike, write a negative review or send a complaint about\nany cfg/lua!",
-    languageRu:
-        '🥷🥷🥷 Обрати внимание, некоторые конфигурации или же ЛУА\nиз данного раздела могут работать плохо или не работать вовсе, так\nкак они загружаются другими пользователями приложения, а не\nразработчиками модификаций. Благо, ты всегда можешь поставить дизлайк,\nнаписать негативный отзыв или же подать жалобу на любой кфг!',
-    languageUa:
-        "🥷🥷🥷 Зверни увагу, деякі конфігурації або ж ЛУА з цього\nрозділу можуть працювати погано або не працювати зовсім, так як вони\nзавантажуються іншими користувачами програми, а не\nрозробниками модифікацій. Благо, ти завжди можеш поставити дизлайк,\nнаписати негативний відгук або ж подати скаргу на будь-який кфг!",
-    languagePl:
-        '🥷🥷🥷 Należy pamiętać, że niektóre konfiguracje lub LUA z\ntej sekcji mogą nie działać dobrze lub wcale, ponieważ są przesyłane\nprzez innych użytkowników programu, a nie przez twórców modyfikacji.\nBoże, zawsze możesz nie lubić, napisać negatywną recenzję lub złożyć\nskargę na dowolny cfg!',
-    languageDe:
-        "🥷🥷🥷 Bitte beachten Sie, dass einige Konfigurationen oder\nLUA aus diesem Abschnitt möglicherweise nicht gut oder überhaupt nicht\nfunktionieren, da sie von anderen Benutzern des Programms hochgeladen\nwerden, nicht von Mod-Entwicklern. Meine Güte, Sie können jederzeit\neine Abneigung, eine negative Bewertung oder eine Beschwerde über eine\nbeliebige cfg schreiben!",
-    languageIt:
-        '🥷🥷🥷 Tieni presente che alcune configurazioni o LUA di\nquesta sezione potrebbero non funzionare bene o non funzionare affatto\nperché vengono caricate da altri utenti del programma, non dagli\nsviluppatori di mod. Cavolo, puoi sempre scrivere una non mi piace,\nuna recensione negativa o un reclamo su qualsiasi cfg!',
-    languageTr:
-        "🥷🥷🥷 Lütfen bu bölümdeki bazı yapılandırmaların veya LUA'nın\nkötü çalışabileceğini veya hiç çalışmayabileceğini unutmayın, çünkü bunlar\nmodifikasyon geliştiricileri tarafından değil, uygulamanın diğer\nkullanıcıları tarafından yüklenmiştir. Neyse ki, herhangi bir cfg/lua\nhakkında her zaman beğenmeyebilir, olumsuz bir yorum yazabilir veya\nşikayet gönderebilirsiniz!",
-    languageEs:
-        "🥷🥷🥷 Ten en cuenta que algunas configuraciones o LUA de esta\nsección pueden funcionar mal o no funcionar en absoluto, ya que son subidas por otros\nusuarios de la aplicación, no por desarrolladores de modificaciones.\nAfortunadamente, ¡siempre puedes mostrar tu disconformidad,\nescribir una crítica negativa o enviar una queja sobre cualquier cfg/lua!",
-    languageCn: " 值得庆幸的是，您可以随时对任何 cfg/lua 提出异议、写负面评论或发送投诉！",
   },
   'SuccessfulConfigurationUpload': {
     languageEn:
@@ -8528,28 +7439,27 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "编辑此配置失败，好像已经删除！",
   },
   'FailedToFindConfig': {
-    languageEn: "Failed to find configuration with such title pattern 🙁",
-    languageRu: 'Не удалось найти конфигурацию с таким названием 🙁',
-    languageUa: 'Не вдалося знайти конфігурацію з такою назвою 🙁',
-    languagePl: 'Nie można znaleźć konfiguracji o tej nazwie 🙁',
-    languageDe: "Konnte keine Konfiguration mit diesem Namen finden 🙁",
-    languageIt: 'Impossibile trovare una configurazione con quel nome 🙁',
-    languageTr: "Böyle bir başlık desenine sahip yapılandırma bulunamadı 🙁",
-    languageEs:
-        "Error al encontrar configuración con dicho patrón de título 🙁",
-    languageCn: "Böyle bir başlık desenine sahip yapılandırma bulunamadı 🙁",
+    languageEn: "Failed to find configuration with such title pattern",
+    languageRu: 'Не удалось найти конфигурацию с таким названием',
+    languageUa: 'Не вдалося знайти конфігурацію з такою назвою',
+    languagePl: 'Nie można znaleźć konfiguracji o tej nazwie',
+    languageDe: "Konnte keine Konfiguration mit diesem Namen finden",
+    languageIt: 'Impossibile trovare una configurazione con quel nome',
+    languageTr: "Böyle bir başlık desenine sahip yapılandırma bulunamadı",
+    languageEs: "Error al encontrar configuración con dicho patrón de título",
+    languageCn: "Böyle bir başlık desenine sahip yapılandırma bulunamadı",
   },
   'NothingHere': {
-    languageEn: "It looks like there is nothing in this section yet 🙁",
-    languageRu: 'Похоже, что в этом разделе ещё ничего нет 🙁',
-    languageUa: 'Здається, у цьому розділі ще нічого немає 🙁',
-    languagePl: 'Wygląda na to, że w tej sekcji nie ma jeszcze nic 🙁',
+    languageEn: "It looks like there is nothing in this section yet",
+    languageRu: 'Похоже, что в этом разделе ещё ничего нет',
+    languageUa: 'Здається, у цьому розділі ще нічого немає',
+    languagePl: 'Wygląda na to, że w tej sekcji nie ma jeszcze nic',
     languageDe:
-        "Es scheint, dass in diesem Abschnitt noch nichts vorhanden ist 🙁",
-    languageIt: 'Sembra che non ci sia ancora nulla in questa sezione 🙁',
-    languageTr: "Bu bölümde henüz bir şey yok gibi görünüyor 🙁",
-    languageEs: "Parece que aún no hay nada en esta sección 🙁 .",
-    languageCn: "看起来这部分还没有任何内容 🙁",
+        "Es scheint, dass in diesem Abschnitt noch nichts vorhanden ist",
+    languageIt: 'Sembra che non ci sia ancora nulla in questa sezione',
+    languageTr: "Bu bölümde henüz bir şey yok gibi görünüyor",
+    languageEs: "Parece que aún no hay nada en esta sección .",
+    languageCn: "看起来这部分还没有任何内容",
   },
 
   /// by like from some author
@@ -8631,31 +7541,31 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "辱骂",
   },
   'NoComplaintsInOfflineMode': {
-    languageEn: "Complaints sending is not available in offline mode 🙁!",
-    languageRu: 'Отправка жалоб недоступна в автономном режиме 🙁!',
-    languageUa: "Надсилання скарг недоступне в автономному режимі 🙁!",
-    languagePl: 'Składanie reklamacji nie jest dostępne w trybie offline 🙁!',
+    languageEn: "Complaints sending is not available in offline mode!",
+    languageRu: 'Отправка жалоб недоступна в автономном режиме!',
+    languageUa: "Надсилання скарг недоступне в автономному режимі!",
+    languagePl: 'Składanie reklamacji nie jest dostępne w trybie offline!',
     languageDe:
-        "Das Einreichen von Beschwerden ist im Offline-Modus nicht verfügbar 🙁!",
+        "Das Einreichen von Beschwerden ist im Offline-Modus nicht verfügbar!",
     languageIt:
-        'La presentazione di reclami non è disponibile in modalità offline 🙁!',
-    languageTr: "Şikâyet gönderimi çevrimdışı modda kullanılamaz 🙁!",
+        'La presentazione di reclami non è disponibile in modalità offline!',
+    languageTr: "Şikâyet gönderimi çevrimdışı modda kullanılamaz!",
     languageEs:
-        "¡El envío de reclamaciones no está disponible en modo offline 🙁!",
-    languageCn: "投诉发送在脱机模式下不可用 🙁！",
+        "¡El envío de reclamaciones no está disponible en modo offline!",
+    languageCn: "投诉发送在脱机模式下不可用！",
   },
   'ComplaintIsSent': {
-    languageEn: "Thank you for participating in application's development 😀",
-    languageRu: 'Спасибо, что участвуешь в развитии нашего приложения 😀',
-    languageUa: "Дякуємо, що береш участь у розвитку ExLoader 😀",
-    languagePl: 'Dziękujemy za udział w rozwoju naszej aplikacji 😀',
+    languageEn: "Thank you for participating in application's development",
+    languageRu: 'Спасибо, что участвуешь в развитии нашего приложения',
+    languageUa: "Дякуємо, що береш участь у розвитку ExLoader",
+    languagePl: 'Dziękujemy za udział w rozwoju naszej aplikacji',
     languageDe:
-        "Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader 😀",
-    languageIt: 'Grazie per la tua partecipazione allo sviluppo di ExLoader 😀',
+        "Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader",
+    languageIt: 'Grazie per la tua partecipazione allo sviluppo di ExLoader',
     languageTr:
-        "Uygulamanın geliştirilmesine katıldığınız için teşekkür ederiz 😀",
-    languageEs: "Gracias por participar en el desarrollo de la aplicación 😀",
-    languageCn: "感谢您参与应用程序的开发 😀",
+        "Uygulamanın geliştirilmesine katıldığınız için teşekkür ederiz",
+    languageEs: "Gracias por participar en el desarrollo de la aplicación",
+    languageCn: "感谢您参与应用程序的开发",
   },
   'AddConfiguration': {
     languageEn: "Configuration's or LUA uploading form",
@@ -8872,7 +7782,7 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl:
         'Twoja konfiguracja składa się z kilku plików? Umieść je w jednym archiwum .zip, i gdy użytkownik zainstaluje Twoją konfigurację, ExLoader sam ją rozpakuje! Przykład: konfiguracja składa się z plików 1.cfg, 2.cfg, 3.cfg i znajduje się w podfolderze «Name» w folderze «Configs». Po prostu spakuj folder «Name» i pobierz go za pomocą tego formularza!',
     languageDe:
-        'Besteht die Konfiguration aus mehreren Dateien? Packen Sie sie in ein .zip-Archiv, und wenn der Benutzer Ihre Konfiguration installiert, entpackt ExLoader sie von selbst! Beispiel: Die Konfiguration besteht aus den Dateien 1.cfg, 2.cfg, 3.cfg und befindet sich im Unterordner „Name“ im Ordner „Configs“. Zippen Sie einfach den Ordner "Name"  und laden Sie ihn über dieses Formular herunter!',
+        'Besteht die Konfiguration aus mehreren Dateien? Packen Sie sie in ein .zip-Archiv, und wenn der Benutzer Ihre Konfiguration installiert, entpackt ExLoader sie von selbst! Beispiel: Die Konfiguration besteht aus den Dateien 1.cfg, 2.cfg, 3.cfg und befindet sich im Unterordner «Name » im Ordner «Configs ». Zippen Sie einfach den Ordner "Name"  und laden Sie ihn über dieses Formular herunter!',
     languageIt:
         'La tua configurazione è composta da più file? Inseriscili in un archivio .zip, e quando l`utente installa la tua configurazione, ExLoader la decomprimerà automaticamente! Esempio: la configurazione è composta dai file 1.cfg, 2.cfg, 3.cfg e si trova el «Name» sottocartella nella directory «Configs». Basta avvolgere la cartella «Name» in un archivio zip e caricarlo con questo modulo!',
     languageTr:
@@ -8922,41 +7832,41 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ConfigComplaintIsHandled': {
     languageEn:
-        "Your complaint about the «{config}» configuration or LUA has been processed! Thank you for participating in application's development 😀",
+        "Your complaint about the configuration or LUA has been processed! Thank you for participating in application's development",
     languageRu:
-        'Твоя жалоба на конфигурацию или же ЛУА «{config}» обработана! Спасибо, что участвуешь в развитии нашего приложения 😀',
+        'Твоя жалоба на конфигурацию или же ЛУА обработана! Спасибо, что участвуешь в развитии нашего приложения',
     languageUa:
-        "Твоя скарга на конфігурацію або ж ЛУА «{config}» оброблена! Спасибі, що береш участь у розвитку ExLoader 😀",
+        "Твоя скарга на конфігурацію або ж ЛУА оброблена! Спасибі, що береш участь у розвитку ExLoader",
     languagePl:
-        'Twoja skarga dotycząca konfiguracji lub LUA «{config}» została rozpatrzona! Dziękujemy za udział w rozwoju ExLoadera 😀',
+        'Twoja skarga dotycząca konfiguracji lub LUA została rozpatrzona! Dziękujemy za udział w rozwoju ExLoadera',
     languageDe:
-        'Ihre Beschwerde über die Konfiguration oder LUA «{config}» wurde bearbeitet! Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader 😀',
+        'Ihre Beschwerde über die Konfiguration oder LUA wurde bearbeitet! Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader',
     languageIt:
-        'Il tuo reclamo sulla configurazione o LUA «{config}» è stato elaborato! Grazie per la tua partecipazione allo sviluppo di ExLoader 😀',
+        'Il tuo reclamo sulla configurazione o LUA è stato elaborato! Grazie per la tua partecipazione allo sviluppo di ExLoader',
     languageTr:
-        '"{config}" yapılandırması veya LUA hakkındaki şikayetiniz işleme alındı! Uygulamanın geliştirilmesine katıldığınız için teşekkür ederiz 😀',
+        'Yapılandırması veya LUA hakkındaki şikayetiniz işleme alındı! Uygulamanın geliştirilmesine katıldığınız için teşekkür ederiz',
     languageEs:
-        '¡Tu queja sobre la configuración "{config}" o LUA ha sido procesada! Gracias por participar en el desarrollo de la aplicación 😀.',
-    languageCn: '您关于"{config}"配置或 LUA 的投诉已得到处理！感谢您参与应用程序的开发 😀',
+        '¡Tu queja sobre la configuración o LUA ha sido procesada! Gracias por participar en el desarrollo de la aplicación.',
+    languageCn: '您关于配置或 LUA 的投诉已得到处理！感谢您参与应用程序的开发',
   },
   'ReviewComplaintIsHandled': {
     languageEn:
-        "Your complaint about «{user}'s» review, «{review}» has been processed! Thank you for participating in application's development 😀",
+        "Your complaint about «{user}'s» review has been processed! Thank you for participating in application's development",
     languageRu:
-        'Твоя жалоба на комментарий пользователя «{user}», «{review}» обработана! Спасибо, что участвуешь в развитии нашего приложения 😀',
+        'Твоя жалоба на комментарий пользователя «{user}» обработана! Спасибо, что участвуешь в развитии нашего приложения',
     languageUa:
-        "Твоя скарга на комментар користувача «{user}», «{review}» оброблена! Спасибі, що береш участь у розвитку ExLoader 😀",
+        "Твоя скарга на комментар користувача «{user}» оброблена! Спасибі, що береш участь у розвитку ExLoader",
     languagePl:
-        'Twoja skarga dotycząca recenzji użytkownika «{user}», «{review}» została rozpatrzona! Dziękujemy za udział w rozwoju ExLoadera 😀',
+        'Twoja skarga dotycząca recenzji użytkownika «{user}» została rozpatrzona! Dziękujemy za udział w rozwoju ExLoadera',
     languageDe:
-        'Ihre Beschwerde über den Kommentar von Benutzer «{user}», «{review}» wurde bearbeitet! Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader 😀',
+        'Ihre Beschwerde über den Kommentar von Benutzer «{user}» wurde bearbeitet! Vielen Dank für Ihre Teilnahme an der Entwicklung von ExLoader',
     languageIt:
-        'Il tuo reclamo relativo al commento dell`utente «{user}», «{review}» è stato elaborato! Grazie per la tua partecipazione allo sviluppo di ExLoader 😀',
+        'Il tuo reclamo relativo al commento dell`utente «{user}» è stato elaborato! Grazie per la tua partecipazione allo sviluppo di ExLoader',
     languageTr:
-        '"{user}\'s" incelemesi hakkındaki şikayetiniz, "{review}" işleme alındı! Uygulamanın geliştirilmesine katıldığınız için teşekkür ederiz 😀',
+        "«{user}'s» incelemesi hakkındaki şikayetiniz, işleme alındı! Uygulamanın geliştirilmesine katıldığınız için teşekkür ederiz",
     languageEs:
-        '¡Tu queja sobre la opinión de "{user}", "{review}" ha sido procesada! Gracias por participar en el desarrollo de la aplicación 😀.',
-    languageCn: '您对"{user}的 "评论"{reveiw}"的投诉已处理完毕！感谢您参与应用程序的开发 😀',
+        '¡Tu queja sobre la opinión de «{user}» ha sido procesada! Gracias por participar en el desarrollo de la aplicación.',
+    languageCn: '您对 «{user}的» 评论的投诉已处理完毕！感谢您参与应用程序的开发',
   },
   'ReviewAnswer': {
     languageEn: "User «{user}» has answer to your review in «{review}» branch",
@@ -8971,24 +7881,22 @@ const Map<String, Map<String, String>> localeItems = {
     languageIt:
         'L`utente «{user}» ha risposto al tuo commento nella discussione «{review}».',
     languageTr:
-        '«{user}» kullanıcısının "{review}» dalında incelemenize cevabı var',
+        '«{user}» kullanıcısının «{review}» dalında incelemenize cevabı var',
     languageEs:
         'El usuario «{user}» ha respondido a tu opinión en la rama «{review}».',
     languageCn: "用户 «{user}» 在 «{review}» 分支中有对您评论的回复",
   },
   'BranchIsDeleted': {
-    languageEn:
-        "Unfortunately, this review's branch has already been deleted 🙁",
-    languageRu: 'К сожалению, эта ветка комментариев уже удалена 🙁',
-    languageUa: "На жаль, ця нитка коментарів вже видалена 🙁",
-    languagePl: 'Niestety ten wątek komentarzy został już usunięty 🙁',
-    languageDe: "Leider wurde dieser Kommentarthread bereits gelöscht 🙁",
+    languageEn: "Unfortunately, this review's branch has already been deleted",
+    languageRu: 'К сожалению, эта ветка комментариев уже удалена',
+    languageUa: "На жаль, ця нитка коментарів вже видалена",
+    languagePl: 'Niestety ten wątek komentarzy został już usunięty',
+    languageDe: "Leider wurde dieser Kommentarthread bereits gelöscht",
     languageIt:
-        'Sfortunatamente, questo thread di commenti è già stato eliminato 🙁',
-    languageTr: "Ne yazık ki bu yorumun dalı çoktan silinmiş 🙁",
-    languageEs:
-        "Lamentablemente, la rama de esta reseña ya ha sido eliminada 🙁",
-    languageCn: "不幸的是，该评论的分支已被删除 🙁",
+        'Sfortunatamente, questo thread di commenti è già stato eliminato',
+    languageTr: "Ne yazık ki bu yorumun dalı çoktan silinmiş",
+    languageEs: "Lamentablemente, la rama de esta reseña ya ha sido eliminada",
+    languageCn: "不幸的是，该评论的分支已被删除",
   },
   'OldConfig': {
     languageEn:
@@ -9020,44 +7928,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bir takma isim bul:",
     languageEs: "Inventa un apodo:",
     languageCn: "想个绰号",
-  },
-  'ChangeLogIsEmpty': {
-    languageEn:
-        "Unfortunately, there is no history of changes to this modification in ExLoader yet 🙁",
-    languageRu:
-        'К сожалению, в ExLoader ещё нет истории изменений этой модификации 🙁',
-    languageUa:
-        "На жаль, в ExLoader ще немає історії змін цієї модифікації  🙁",
-    languagePl:
-        'Niestety ExLoader nie ma jeszcze historii zmian dla tej modyfikacji 🙁',
-    languageDe:
-        "ExLoader hat leider noch keine Modifikationshistorie für diesen Mod 🙁",
-    languageIt:
-        'Sfortunatamente, ExLoader non ha ancora una cronologia delle modifiche per questa mod 🙁',
-    languageTr:
-        "Ne yazık ki, ExLoader'da bu değişiklikle ilgili henüz bir değişiklik geçmişi yok 🙁",
-    languageEs:
-        "Lamentablemente, aún no hay historial de cambios de esta modificación en ExLoader 🙁.",
-    languageCn: "遗憾的是，ExLoader 中还没有对这一修改进行更改的历史记录 🙁。",
-  },
-  'HideDialogTip': {
-    languageEn:
-        "❎❎❎ Hint: you can close this menu by clicking on any not taken area of the screen outside of this window!",
-    languageRu:
-        '❎❎❎ Подсказка: ты можешь закрыть это меню, нажав в любую свободную область экрана за пределами этого окошка!',
-    languageUa:
-        "❎❎❎ Підказка: ти можеш закрити це меню, натиснувши в будь-яку вільну область екрану за межами цього віконця!",
-    languagePl:
-        '❎❎❎ Podpowiedź: możesz zamknąć to menu, klikając dowolny wolny obszar ekranu poza tym oknem!',
-    languageDe:
-        "❎❎❎ Tipp: Sie können dieses Menü schließen, indem Sie auf einen beliebigen freien Bereich des Bildschirms außerhalb dieses Fensters klicken!",
-    languageIt:
-        '❎❎❎ Suggerimento: puoi chiudere questo menu facendo clic su qualsiasi area libera dello schermo al di fuori di questa finestra!',
-    languageTr:
-        "❎❎❎ İpucu: Bu pencerenin dışında ekranın alınmayan herhangi bir alanına tıklayarak bu menüyü kapatabilirsiniz!",
-    languageEs:
-        "❎❎❎ Sugerencia: ¡puede cerrar este menú haciendo clic en cualquier zona no ocupada de la pantalla fuera de esta ventana!",
-    languageCn: "❎ ❎ ❎ 提示：单击此窗口外屏幕上任何未使用的区域即可关闭此菜单！",
   },
   'Hint': {
     languageEn: "Hint",
@@ -9238,7 +8108,7 @@ const Map<String, Map<String, String>> localeItems = {
 17. Try to circumvent the rules by finding loopholes. If you do that, we'll just update the rules and punish you for breaking them anyway!
 """,
     languagePl: """
-1. Obrażanie, próba okazywania agresi, grożenie lub prowokowanie innych użytkowników aplikacji. (Reguła „On zaczął to pierwszy” nie działa tutaj).
+1. Obrażanie, próba okazywania agresi, grożenie lub prowokowanie innych użytkowników aplikacji. (Reguła «On zaczął to pierwszy» nie działa tutaj).
 
 2. Staranie się prowokować innych użytkowników do łamania zasad aplikacji.
 
@@ -9248,7 +8118,7 @@ const Map<String, Map<String, String>> localeItems = {
 
 5. Publikowanie materiałów 18+ lub szokujących w dowolnej formie (gify, zdjęcia, filmy, opisy tekstowe, linki itp., w tym sceny erotyczne, brutalne, nieprzyjemne i inne podobne).
 
-6. Używanie materiałów opisanych w zasadzie „5” jako awatara, pseudonimu, statusu lub linku do sieci społecznościowej.
+6. Używanie materiałów opisanych w zasadzie «5» jako awatara, pseudonimu, statusu lub linku do sieci społecznościowej.
 
 7. Spam, wysyłanie dużej ilości bezsensownych wiadomości.
 
@@ -9461,23 +8331,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ViolateDescription': {
     languageEn:
-        "Nothing! Just joking..., first your reputation level will be dropped by other ExLoader users, and then you will be banned, what will lead to a full limitation of all application's social activity 🙁. So be nice, talk with others the way you would like others to talk with you, be friendly, and everything will be fine!",
+        "Nothing! Just joking..., first your reputation level will be dropped by other ExLoader users, and then you will be banned, what will lead to a full limitation of all application's social activity. So be nice, talk with others the way you would like others to talk with you, be friendly, and everything will be fine!",
     languageRu:
-        'Ничего! Шутка, сперва твой уровень репутации будет занижен другими пользователями ExLoader, а затем ты и вовсе получишь бан, который ограничит всю социальную активность в приложении 🙁. Так что будь паинькой, общайся с другими так, как хотел бы, чтобы другие общались с тобой, будь адекватным и дружелюбным, и всё будет хорошо!',
+        'Ничего! Шутка, сперва твой уровень репутации будет занижен другими пользователями ExLoader, а затем ты и вовсе получишь бан, который ограничит всю социальную активность в приложении. Так что будь паинькой, общайся с другими так, как хотел бы, чтобы другие общались с тобой, будь адекватным и дружелюбным, и всё будет хорошо!',
     languageUa:
-        "Нічого! Жарт, спершу твій рівень репутації буде занижен іншими користувачами ExLoader, а потім ти і зовсім отримаєш бан, який обмежить всю соціальну активність в програмі 🙁. Так що будь доброзичливим, спілкуйся з іншими так, як хотів би, щоб інші спілкувалися з тобою, і все буде добре!",
+        "Нічого! Жарт, спершу твій рівень репутації буде занижен іншими користувачами ExLoader, а потім ти і зовсім отримаєш бан, який обмежить всю соціальну активність в програмі. Так що будь доброзичливим, спілкуйся з іншими так, як хотів би, щоб інші спілкувалися з тобою, і все буде добре!",
     languagePl:
-        'Nic! Żartuję, najpierw Twój poziom reputacji zostanie obniżony przez innych użytkowników Exloadera, a następnie zostaniesz całkowicie zbanowany, co ograniczy wszelką aktywność społecznościową w programie 🙁. Bądź więc miły, rozmawiaj z innymi tak, jak chcesz, aby inni mówili do ciebie, a wszystko będzie dobrze!',
+        'Nic! Żartuję, najpierw Twój poziom reputacji zostanie obniżony przez innych użytkowników Exloadera, a następnie zostaniesz całkowicie zbanowany, co ograniczy wszelką aktywność społecznościową w programie. Bądź więc miły, rozmawiaj z innymi tak, jak chcesz, aby inni mówili do ciebie, a wszystko będzie dobrze!',
     languageDe:
-        "Nichts! Nur ein Scherz, zuerst wird Ihr Rufniveau von anderen ExLoader-Benutzern gesenkt, und dann werden Sie ganz gesperrt, was alle sozialen Aktivitäten im Programm einschränkt 🙁. Seien Sie also freundlich, sprechen Sie mit anderen so, wie Sie möchten, dass andere mit Ihnen sprechen, und es wird Ihnen gut gehen!",
+        "Nichts! Nur ein Scherz, zuerst wird Ihr Rufniveau von anderen ExLoader-Benutzern gesenkt, und dann werden Sie ganz gesperrt, was alle sozialen Aktivitäten im Programm einschränkt. Seien Sie also freundlich, sprechen Sie mit anderen so, wie Sie möchten, dass andere mit Ihnen sprechen, und es wird Ihnen gut gehen!",
     languageIt:
-        'Niente! Sto scherzando, prima il tuo livello di reputazione presso gli altri utenti di ExLoader verrà abbassato e poi verrai bannato del tutto, il che limiterà tutte le attività sociali nel programma 🙁. Quindi sii gentile, parla agli altri nel modo in cui vorresti che gli altri parlassero con te, e starai bene!',
+        'Niente! Sto scherzando, prima il tuo livello di reputazione presso gli altri utenti di ExLoader verrà abbassato e poi verrai bannato del tutto, il che limiterà tutte le attività sociali nel programma. Quindi sii gentile, parla agli altri nel modo in cui vorresti che gli altri parlassero con te, e starai bene!',
     languageTr:
-        "Hiçbir şey! Sadece şaka yapıyorum..., önce itibar seviyeniz diğer ExLoader kullanıcıları tarafından düşürülecek ve ardından yasaklanacaksınız, bu da tüm uygulamanın sosyal faaliyetlerinin tamamen sınırlandırılmasına yol açacaktır 🙁. Bu yüzden nazik olun, başkalarının sizinle konuşmasını istediğiniz şekilde konuşun, arkadaşça davranın ve her şey yoluna girecek!",
+        "Hiçbir şey! Sadece şaka yapıyorum..., önce itibar seviyeniz diğer ExLoader kullanıcıları tarafından düşürülecek ve ardından yasaklanacaksınız, bu da tüm uygulamanın sosyal faaliyetlerinin tamamen sınırlandırılmasına yol açacaktır. Bu yüzden nazik olun, başkalarının sizinle konuşmasını istediğiniz şekilde konuşun, arkadaşça davranın ve her şey yoluna girecek!",
     languageEs:
-        "¡¡¡Nada!!! Sólo bromeaba..., primero tu nivel de reputación será bajado por otros usuarios de ExLoader, y después serás baneado, lo que conllevará una limitación total de toda la actividad social de la aplicación 🙁. Así que sé amable, habla con los demás como te gustaría que los demás hablaran contigo, sé simpático, ¡y todo irá bien!",
+        "¡¡¡Nada!!! Sólo bromeaba..., primero tu nivel de reputación será bajado por otros usuarios de ExLoader, y después serás baneado, lo que conllevará una limitación total de toda la actividad social de la aplicación. Así que sé amable, habla con los demás como te gustaría que los demás hablaran contigo, sé simpático, ¡y todo irá bien!",
     languageCn:
-        "没什么！只是开个玩笑......，首先您的声誉等级会被其他 ExLoader 用户降低，然后您会被禁言，这将导致所有应用程序的社交活动受到全面限制🙁。因此，请善待他人，以您希望他人与您交谈的方式与他人交谈，友好相处，一切都会好起来的！",
+        "没什么！只是开个玩笑......，首先您的声誉等级会被其他 ExLoader 用户降低，然后您会被禁言，这将导致所有应用程序的社交活动受到全面限制。因此，请善待他人，以您希望他人与您交谈的方式与他人交谈，友好相处，一切都会好起来的！",
   },
   'PressToOpenRules': {
     languageEn:
@@ -9500,41 +8370,24 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'NoNotificationsInOffline': {
     languageEn:
-        "Unfortunately, you can not open notifications screen in offline mode 🙁",
+        "Unfortunately, you can not open notifications screen in offline mode",
     languageRu:
-        'К сожалению, просмотр уведомлений недоступен в автономном режиме 🙁',
-    languageUa:
-        "На жаль, перегляд сповіщень недоступний в автономному режимі 🙁",
+        'К сожалению, просмотр уведомлений недоступен в автономном режиме',
+    languageUa: "На жаль, перегляд сповіщень недоступний в автономному режимі",
     languagePl:
-        'Niestety przeglądanie powiadomień nie jest dostępne w trybie offline 🙁',
+        'Niestety przeglądanie powiadomień nie jest dostępne w trybie offline',
     languageDe:
-        "Leider ist das Anzeigen von Benachrichtigungen im Offline-Modus nicht verfügbar 🙁",
+        "Leider ist das Anzeigen von Benachrichtigungen im Offline-Modus nicht verfügbar",
     languageIt:
-        'Sfortunatamente, la visualizzazione delle notifiche in modalità offline non è disponibile 🙁',
+        'Sfortunatamente, la visualizzazione delle notifiche in modalità offline non è disponibile',
     languageTr:
-        "Ne yazık ki, çevrimdışı modda bildirimler ekranını açamazsınız 🙁",
+        "Ne yazık ki, çevrimdışı modda bildirimler ekranını açamazsınız",
     languageEs:
-        "Lamentablemente, no se puede abrir la pantalla de notificaciones en modo offline 🙁",
-    languageCn: "遗憾的是，您无法在离线模式下打开通知屏幕 🙁。",
-  },
-  'TapForCallback': {
-    languageEn: "Some notifications may execute an action when clicked!",
-    languageRu:
-        'Некоторые уведомления могут выполнить какое-то действие при нажатии на них!',
-    languageUa:
-        "Деякі повідомлення можуть виконати якусь дію при натисканні на них!",
-    languagePl: 'Niektóre powiadomienia mogą wykonać an akcję po kliknięciu!',
-    languageDe:
-        "Einige Nachrichten können eine Aktion ausführen, wenn sie angeklickt werden!",
-    languageIt:
-        'Alcuni messaggi possono eseguire un`azione quando vengono cliccati!',
-    languageTr: "Bazı bildirimler tıklandığında bir eylem gerçekleştirebilir!",
-    languageEs:
-        "Algunas notificaciones pueden ejecutar una acción al hacer clic.",
-    languageCn: "某些通知可能会在点击时执行一项操作！",
+        "Lamentablemente, no se puede abrir la pantalla de notificaciones en modo offline",
+    languageCn: "遗憾的是，您无法在离线模式下打开通知屏幕。",
   },
   'NoNotifications': {
-    languageEn: "There are no notifications for you!",
+    languageEn: "You don’t have any notifications yet!",
     languageRu: 'А уведомлений то нет!',
     languageUa: "А повідомлень то немає!",
     languagePl: 'A powiadomień nie ma!',
@@ -9546,58 +8399,56 @@ const Map<String, Map<String, String>> localeItems = {
   },
   // TODD:!
   'Newbies': {
-    languageEn:
-        'Newbies{space}and{space}returnees{space}in{space}the{space}library: ',
-    languageRu: 'Новинки{space}и{space}возвращённые{space}модификации: ',
-    languageUa: 'Новинки{space}та{space}повернуті{space}модифікації: ',
-    languagePl: 'Nowe{space}modyfikacje{space}i{space}przywrócone{space}: ',
-    languageDe: "Neue{space}und{space}zurückgegebene{space}mods: ",
-    languageIt:
-        'Nuovi{space}e{space}ritornati{space}nella{space}libreria{space}: ',
-    languageTr: "Kütüphaneye yeni gelenler ve geri dönenler:",
-    languageEs: "Novatos y retornados en la biblioteca:",
+    languageEn: 'Newbies and returnees in the library: ',
+    languageRu: 'Новинки и возвращённые модификации: ',
+    languageUa: 'Новинки та повернуті модифікації: ',
+    languagePl: 'Nowe modyfikacje i przywrócone: ',
+    languageDe: "Neue und zurückgegebene mods: ",
+    languageIt: 'Novità e modifiche restituite: ',
+    languageTr: "Yenilikler ve iade edilen modifikasyonlar: ",
+    languageEs: "Novedades y modificaciones devueltas: ",
     languageCn: "图书馆里的新手和回归者：",
   },
   'GotUpdated': {
-    languageEn: "Modifications{space}which{space}were{space}updated: ",
-    languageRu: "Модификации,{space}получившие{space}обновление: ",
-    languageUa: "Модифікації,{space}які{space}отримали{space}оновлення: ",
-    languagePl: "Modyfikacje{space},które{space}otrzymały{space}aktualizacje: ",
-    languageDe: "Modifikationen{space},die{space}erhielten{space}Updates: ",
-    languageIt: 'Modifiche{space}che{space}sono{space}state{space}aggiornate: ',
-    languageTr: "Güncellenen değişiklikler:",
-    languageEs: "Modificaciones que se actualizaron:",
+    languageEn: "Modifications which were updated: ",
+    languageRu: "Модификации, получившие обновление: ",
+    languageUa: "Модифікації, які отримали оновлення: ",
+    languagePl: "Modyfikacje, które otrzymały aktualizacje: ",
+    languageDe: "Modifikationen, die erhielten Updates: ",
+    languageIt: 'Modifiche che sono state aggiornate: ',
+    languageTr: "Güncellenen değişiklikler: ",
+    languageEs: "Modificaciones que se actualizaron: ",
     languageCn: "已更新的修改：",
   },
   'WereDeleted': {
-    languageEn: "Deleted{space}modifications: ",
-    languageRu: "Удалённые{space}модификации: ",
-    languageUa: "Видалені{space}модифікації: ",
-    languagePl: "Usunięte{space}modyfikacje: ",
-    languageDe: "Gelöschte{space}mods: ",
-    languageIt: 'Modifiche{space}eliminate: ',
+    languageEn: "Deleted modifications: ",
+    languageRu: "Удалённые модификации: ",
+    languageUa: "Видалені модифікації: ",
+    languagePl: "Usunięte modyfikacje: ",
+    languageDe: "Gelöschte mods: ",
+    languageIt: 'Modifiche eliminate: ',
     languageTr: "Silinmiş değişiklikler: ",
     languageEs: "Modificaciones suprimidas:",
     languageCn: "删除的修改：",
   },
   'WelcomeBackNews': {
     languageEn:
-        '📅 Welcome back! We have prepared a list of changes in modifications library for you. ',
+        'Welcome back! We have prepared a list of changes in modifications library for you. ',
     languageRu:
-        '📅 С возвращением! Мы подготовили для тебя список изменений в библиотеке модификаций за время твоего отсутствия. ',
+        'С возвращением! Мы подготовили для тебя список изменений в библиотеке модификаций за время твоего отсутствия. ',
     languageUa:
-        '📅 З поверненням! Ми підготували для тебе список змін в бібліотеці модифікацій за час твоєї відсутності. ',
+        'З поверненням! Ми підготували для тебе список змін в бібліотеці модифікацій за час твоєї відсутності. ',
     languagePl:
-        '📅 Witaj z powrotem! Przygotowaliśmy dla ciebie listę zmian w bibliotece modyfikacji podczas Twojej nieobecności. ',
+        'Witaj z powrotem! Przygotowaliśmy dla ciebie listę zmian w bibliotece modyfikacji podczas Twojej nieobecności. ',
     languageDe:
-        "📅 Willkommen zurück! Wir haben für Sie eine Liste der Änderungen in der Modifikationsbibliothek während Ihrer Abwesenheit vorbereitet. ",
+        "Willkommen zurück! Wir haben für Sie eine Liste der Änderungen in der Modifikationsbibliothek während Ihrer Abwesenheit vorbereitet. ",
     languageIt:
-        '📅 Bentornato! Abbiamo preparato per te un elenco delle modifiche nella libreria delle modifiche durante la tua assenza. ',
+        'Bentornato! Abbiamo preparato per te un elenco delle modifiche nella libreria delle modifiche durante la tua assenza. ',
     languageTr:
-        "📅 Tekrar hoş geldiniz! Sizin için modifikasyon kütüphanesindeki değişikliklerin bir listesini hazırladık. ",
+        "Tekrar hoş geldiniz! Sizin için modifikasyon kütüphanesindeki değişikliklerin bir listesini hazırladık. ",
     languageEs:
-        "📅 ¡Bienvenido de nuevo! Hemos preparado una lista de cambios en la biblioteca de modificaciones para usted. ",
-    languageCn: "📅 欢迎回来！我们为您准备了一份修改库变化列表。 ",
+        "¡Bienvenido de nuevo! Hemos preparado una lista de cambios en la biblioteca de modificaciones para usted. ",
+    languageCn: "欢迎回来！我们为您准备了一份修改图书馆的变化列表。",
   },
   'Microsoft': {
     languageEn: 'Microsoft components',
@@ -9797,77 +8648,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bulunan çakışan yazılımların listesi",
     languageEs: "Lista de programas conflictivos encontrados",
     languageCn: "找到的冲突软件列表",
-  },
-  'GameVersion': {
-    languageEn: 'Game version',
-    languageRu: 'Версия игры',
-    languageUa: 'Версія гри',
-    languagePl: 'Wersja gry',
-    languageDe: "Spielversion",
-    languageIt: 'Versione del gioco',
-    languageTr: "Oyun versiyonu",
-    languageEs: "Versión del juego",
-    languageCn: "游戏版本",
-  },
-  'GameVersionBad': {
-    languageEn: 'Your game version is outdated!',
-    languageRu: 'Твоя версия игры неактуальна!',
-    languageUa: 'Твоя версія гри неактуальна!',
-    languagePl: 'Twoja wersja gry jest nieaktualna!',
-    languageDe: "Ihre Version des Spiels ist veraltet!",
-    languageIt: 'La tua versione del gioco è obsoleta!',
-    languageTr: "Oyun sürümünüz güncel değil!",
-    languageEs: "Tu versión del juego no está actualizada.",
-    languageCn: "您的游戏版本已经过时！",
-  },
-  'GameVersionGood': {
-    languageEn: 'You are using the latest game version',
-    languageRu: 'Ты используешь актуальную версию игры',
-    languageUa: 'Ти використовуєш актуальну версію гри',
-    languagePl: 'Używasz najnowszej wersji gry',
-    languageDe: "Sie verwenden die neueste Version des Spiels",
-    languageIt: 'Stai utilizzando l`ultima versione del gioco',
-    languageTr: "En son oyun sürümünü kullanıyorsunuz",
-    languageEs: "Estás utilizando la última versión del juego",
-    languageCn: "您使用的是最新的游戏版本",
-  },
-  'NotAllSupportOldGame': {
-    languageEn:
-        'Do not forget to always check the relevance of the game, do not use beta versions and play only on the licensed version of the game!',
-    languageRu:
-        'Не забывай всегда проверять актуальность игры, не используй бета-версии и играй только на лицензионной версии игры!',
-    languageUa:
-        'Не забувай завжди перевіряти актуальність гри, не використовуй бета-версії і грай тільки на ліцензійній версії гри!',
-    languagePl:
-        'Nie zapomnij zawsze sprawdzić przydatności gry, nie używaj wersji beta i graj tylko w licencjonowaną wersję gry!',
-    languageDe:
-        "Vergessen Sie nicht, immer die Relevanz des Spiels zu überprüfen, verwenden Sie keine Beta-Versionen und spielen Sie nur mit der lizenzierten Version des Spiels!",
-    languageIt:
-        'Non dimenticare di controllare sempre la pertinenza del gioco, non utilizzare versioni beta e gioca solo con la versione con licenza del gioco!',
-    languageTr:
-        "Her zaman oyunun uygunluğunu kontrol etmeyi unutmayın, beta sürümlerini kullanmayın ve sadece oyunun lisanslı sürümünde oynayın!",
-    languageEs:
-        "No olvides comprobar siempre la pertinencia del juego, no utilices versiones beta y juega sólo con la versión con licencia del juego.",
-    languageCn: "不要忘记随时检查游戏的相关性，不要使用测试版，只玩正版游戏！",
-  },
-  'DisableBetaTip': {
-    languageEn:
-        'To disable the beta version, go to steam, library, choose the appropriate game, properties, betas',
-    languageRu:
-        'Для отключения бета-версии перейди в стим, библиотека, выбери нужную игру, свойства, бета-версии',
-    languageUa:
-        'Для відключення бета-версії перейди в стім, бібліотека, вибери потрібну гру, властивості, тестування',
-    languagePl:
-        'Aby wyłączyć wersję beta, przejdź do Steam, biblioteki, wybierz żądaną grę, właściwości, betas',
-    languageDe:
-        "Um die Beta-Version zu deaktivieren, gehen Sie zu Steam, Bibliothek, wählen Sie das gewünschte Spiel, Eigenschaften, Testen",
-    languageIt:
-        'Per disabilitare la versione beta, vai su Steam, libreria, scegli il gioco, proprietà, beta',
-    languageTr:
-        "Beta sürümünü devre dışı bırakmak için steam'e gidin, kütüphane, uygun oyunu seçin, özellikler, betalar",
-    languageEs:
-        "Para desactivar la versión beta, vaya a steam, biblioteca, elija el juego correspondiente, propiedades, betas",
-    languageCn: "要禁用测试版，请进入蒸汽、资料库，选择相应的游戏、属性、测试版",
   },
   'Recommended': {
     languageEn: 'Launch options to be added',
@@ -10194,41 +8974,6 @@ const Map<String, Map<String, String>> localeItems = {
         "El método de lanzamiento actual puede ser incompatible con el recomendado por la modificación.",
     languageCn: "当前的发射方法可能与修改建议的方法不兼容！",
   },
-  'InjectionMethodDescriptionThird': {
-    languageEn:
-        'Check all injection methods that are supported by this modification: {injections}',
-    languageRu:
-        'Проверь все способы инъекции, поддерживаемые данной модификацией: {injections}',
-    languageUa:
-        "Перевір всі способи ін'єкції, підтримувані даною модифікацією: {injections}",
-    languagePl:
-        'Sprawdź wszystkie metody wstrzykiwania obsługiwane przez tę modifikacje: {injections}',
-    languageDe:
-        "Überprüfen Sie alle Injektionsmethoden, die von diesem Mod unterstützt werden: {injections}",
-    languageIt:
-        'Controlla tutti i metodi di iniezione supportati da questa mod: {injections}',
-    languageTr:
-        "Bu değişiklik tarafından desteklenen tüm enjeksiyon yöntemlerini kontrol edin: {injections}",
-    languageEs:
-        "Compruebe todos los métodos de inyección que admite esta modificación: {injections}",
-    languageCn: "检查此修改支持的所有注入方法：{injections}",
-  },
-  'InjectionMethodDescriptionSecond': {
-    languageEn:
-        'You have tried all available ways of launching this modification.',
-    languageRu: 'Ты испробовал все доступные методы запуска модификации.',
-    languageUa: "Ти випробував всі доступні методи запуску модифікації.",
-    languagePl:
-        'Wypróbowałeś wszystkie dostępne metody uruchamiania modyfikacji.',
-    languageDe:
-        "Sie haben alle verfügbaren Methoden zum Starten der Modifikation ausprobiert.",
-    languageIt:
-        'Hai provato tutti i metodi disponibili per avviare la modifica.',
-    languageTr: "Bu değişikliği başlatmak için mevcut tüm yolları denediniz.",
-    languageEs:
-        "Ha probado todas las formas disponibles de lanzar esta modificación.",
-    languageCn: "您已经尝试了所有可用的方法来启动此修改。",
-  },
   'InjectionMethodTip': {
     languageEn:
         "Not all modifications support the same injection method. Try opening the ExLoader settings and changing the preferred modifications launch method. We do not give any guarantees that this will help 100%, but it's still worth a try.",
@@ -10361,7 +9106,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         'Some applications like OBS, Bandicam, Fraps, Action, Nvidia ShadowPlay, FPS monitor, MSI Afterburner and other similar overlays may affect the fact that the menu of the launched modification will not be displayed in the game. If you encounter such problem, try disabling them before launching the modification!',
     languageRu:
-        'Некоторые программы по типу OBS, Bandicam, Fraps, Action, Nvidia ShadowPlay, FPS monitor, MSI Afterburner и другие подобные оверлеи могут повлиять на то, что меню запущенной модификации не отобразиться в игре. Если ты столкнёшься с подобной проблемой, попробуй отключить их перед запуском модификации!',
+        'Некоторые программы по типу OBS, Bandicam, Fraps, Action, Nvidia ShadowPlay, FPS monitor, MSI Afterburner и другие подобные оверлеи могут повлиять на то, что меню запущенной модификации не отобразится в игре. Если ты столкнёшься с подобной проблемой, попробуй отключить их перед запуском модификации!',
     languageUa:
         'Деякі програми по типу OBS, Bandicam, Fraps, Action, Nvidia ShadowPlay, FPS monitor, MSI Afterburner і інші подібні оверлеї можуть вплинути на те, що меню запущеної модифікації не відобразитися в грі. Якщо ти зіткнешся з подібною проблемою, спробуй відключити їх перед запуском модифікації!',
     languagePl:
@@ -10450,7 +9195,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageIt:
         'Non dimenticate di impostare la modalità di rendering/visualizzazione del gioco su «Finestrato» o «Finestrato a schermo intero» nelle impostazioni di {game}; ciò deve essere fatto per avviare questa modifica! Di solito, queste impostazioni sono configurate nelle impostazioni «Video/Immagine», «Grafica» o «Display/Monitor»" del gioco. Se avete già eseguito questi passaggi, saltate questa finestra di dialogo usando il pulsante sottostante!',
     languageTr:
-        "{game} ayarlarında oyun işleme/görüntüleme modunu «Pencereli» veya «Tam ekran pencereli» olarak ayarlamayı unutmayın, bu değişikliği başlatmak için bu yapılmalıdır! Bu ayarlar genellikle oyundaki «Video/Görüntü», «Grafikler» veya «Ekran/Monitör» ayarlarında yapılandırılır.\n\nBu adımları zaten yaptıysanız, aşağıdaki düğmeyi kullanarak bu iletişim kutusunu atlayın!",
+        "{game}» ayarlarında oyun işleme/görüntüleme modunu «Pencereli» veya «Tam ekran pencereli» olarak ayarlamayı unutmayın, bu değişikliği başlatmak için bu yapılmalıdır! Bu ayarlar genellikle oyundaki «Video/Görüntü», «Grafikler» veya «Ekran/Monitör» ayarlarında yapılandırılır.\n\nBu adımları zaten yaptıysanız, aşağıdaki düğmeyi kullanarak bu iletişim kutusunu atlayın!",
     languageEs:
         "No olvide configurar el modo de renderizado/visualización del juego a «Ventana» o «Ventana a pantalla completa» en los ajustes de {game}, ¡esto debe hacerse para lanzar esta modificación! Normalmente, estos ajustes se configuran en los ajustes de «Video/Imagen», «Gráficos» o «Pantalla/Monitor» en el juego.\n\n¡Si ya has hecho estos pasos, simplemente salta este diálogo usando el botón de abajo!",
     languageCn:
@@ -10488,32 +9233,17 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "你需要做点什么...",
   },
   'NoProfileInOffline': {
-    languageEn:
-        'Unfortunately, you can not open this profile in offline mode 🙁',
-    languageRu:
-        'К сожалению, открытие профиля недоступно в автономном режиме 🙁',
-    languageUa: 'На жаль, відкриття профілю недоступне в автономному режимі 🙁',
-    languagePl:
-        'Niestety otwarcie profilu nie jest dostępne w trybie offline 🙁',
+    languageEn: 'Unfortunately, you can not open this profile in offline mode',
+    languageRu: 'К сожалению, открытие профиля недоступно в автономном режиме',
+    languageUa: 'На жаль, відкриття профілю недоступне в автономному режимі',
+    languagePl: 'Niestety otwarcie profilu nie jest dostępne w trybie offline',
     languageDe:
-        "Leider ist das Öffnen eines Profils im Offline-Modus nicht verfügbar 🙁",
+        "Leider ist das Öffnen eines Profils im Offline-Modus nicht verfügbar",
     languageIt:
-        'Sfortunatamente non puoi aprire questo profilo in modalità offline 🙁',
-    languageTr: "Maalesef bu profili çevrimdışı modda açamazsınız 🙁",
-    languageEs:
-        "Lamentablemente, no puedes abrir este perfil en modo offline 🙁",
-    languageCn: "遗憾的是，您无法在脱机模式下打开此配置文件 🙁。",
-  },
-  'Socials': {
-    languageEn: 'Social networks',
-    languageRu: 'Социальные сети',
-    languageUa: 'Соціальні мережі',
-    languagePl: 'Portale społecznościowe',
-    languageDe: "Soziale Netzwerke",
-    languageIt: 'Social networks',
-    languageTr: "Sosyal ağlar",
-    languageEs: "Redes sociales",
-    languageCn: "社交网络",
+        'Sfortunatamente non puoi aprire questo profilo in modalità offline',
+    languageTr: "Maalesef bu profili çevrimdışı modda açamazsınız",
+    languageEs: "Lamentablemente, no puedes abrir este perfil en modo offline",
+    languageCn: "遗憾的是，您无法在脱机模式下打开此配置文件。",
   },
   'ProfileLinkCopied': {
     languageEn: 'The profile username has been copied to your clipboard!',
@@ -10743,7 +9473,7 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl:
         '- Kliknij tutaj, aby otworzyć oficjalną stronę Forge, wybierz wymaganą wersję gry w tabeli po lewej stronie i kliknij kolumnę «Installer» w «Download Recommended».',
     languageDe:
-        "- Klicken Sie hier, um die offizielle Forge-Website zu öffnen, wählen Sie die gewünschte Version des Spiels in der Tabelle links aus und klicken Sie im Block „Download Recommended“ auf „Installer“.",
+        "- Klicken Sie hier, um die offizielle Forge-Website zu öffnen, wählen Sie die gewünschte Version des Spiels in der Tabelle links aus und klicken Sie im Block «Download Recommended» auf «Installer».",
     languageIt:
         '– Fai clic qui per aprire il sito Web ufficiale di Forge, scegli la versione del gioco nella colonna di sinistra e premi «Installer» nel blocco «Download Recommended».',
     languageTr:
@@ -10766,10 +9496,10 @@ const Map<String, Map<String, String>> localeItems = {
     languageIt:
         '– Fai clic qui per aprire il sito Web ufficiale di Fabric e premi il pulsante «Download for Windows».',
     languageTr:
-        '- Resmi Fabric web sitesini açmak için buraya tıklayın ve "Windows için İndir" düğmesine basın.',
+        '- Resmi Fabric web sitesini açmak için buraya tıklayın ve «Windows için İndir» düğmesine basın.',
     languageEs:
-        '- Haga clic aquí para abrir el sitio web oficial de Fabric y pulse el botón "Descargar para Windows".',
-    languageCn: '- 单击此处打开 Fabric 官方网站，然后按 "下载 Windows 版 "按钮。',
+        '- Haga clic aquí para abrir el sitio web oficial de Fabric y pulse el botón «Descargar para Windows».',
+    languageCn: '- 单击此处打开 Fabric 官方网站，然后按 «下载 Windows 版» 按钮。',
   },
   'ForgeSecond': {
     languageEn:
@@ -10781,14 +9511,14 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl:
         '– Otwórz pobrany instalator, upewnij się, że ścieżka do gry jest poprawna, kliknij «Ok» i poczekaj na zakończenie instalacji Forge.',
     languageDe:
-        "– Öffnen Sie das heruntergeladene Installationsprogramm, vergewissern Sie sich, dass der Pfad zum Spiel korrekt ist, klicken Sie auf „Ok“ und warten Sie, bis die Installation von Forge abgeschlossen ist.",
+        "– Öffnen Sie das heruntergeladene Installationsprogramm, vergewissern Sie sich, dass der Pfad zum Spiel korrekt ist, klicken Sie auf «Ok » und warten Sie, bis die Installation von Forge abgeschlossen ist.",
     languageIt:
         '– Apri il programma di installazione scaricato, assicurati che il percorso del gioco sia specificato correttamente, fai clic su «Ok» e attendi il completamento dell`installazione di Forge.',
     languageTr:
-        '- İndirilen yükleyiciyi açın, oyun yolunun doğru belirtildiğinden emin olun, "Tamam "a tıklayın ve Forge yüklemesinin tamamlanmasını bekleyin.',
+        '- İndirilen yükleyiciyi açın, oyun yolunun doğru belirtildiğinden emin olun, «Tamam» a tıklayın ve Forge yüklemesinin tamamlanmasını bekleyin.',
     languageEs:
-        '- Abre el instalador descargado, asegúrate de que la ruta del juego está especificada correctamente, haz clic en "Aceptar" y espera a que se complete la instalación de Forge.',
-    languageCn: '- 打开下载的安装程序，确保正确指定游戏路径，点击 "OK"，等待 Forge 安装完成。',
+        '- Abre el instalador descargado, asegúrate de que la ruta del juego está especificada correctamente, haz clic en «Aceptar» y espera a que se complete la instalación de Forge.',
+    languageCn: '- 打开下载的安装程序，确保正确指定游戏路径，点击 «OK»，等待 Forge 安装完成。',
   },
   'FabricSecond': {
     languageEn:
@@ -10800,14 +9530,14 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl:
         '– Otwórz pobrany instalator, wybierz wymaganą wersję gry, upewnij się, że ścieżka do gry jest poprawna, kliknij «Install», i poczekaj na zakończenie instalacji Fabric.',
     languageDe:
-        "– Öffnen Sie das heruntergeladene Installationsprogramm, wählen Sie die erforderliche Spielversion aus, vergewissern Sie sich, dass der Pfad zum Spiel korrekt ist, klicken Sie auf „Installieren“ und warten Sie, bis die Fabric-Installation abgeschlossen ist.",
+        "– Öffnen Sie das heruntergeladene Installationsprogramm, wählen Sie die erforderliche Spielversion aus, vergewissern Sie sich, dass der Pfad zum Spiel korrekt ist, klicken Sie auf «Installieren » und warten Sie, bis die Fabric-Installation abgeschlossen ist.",
     languageIt:
         '– Apri il programma di installazione scaricato, seleziona la tua versione del gioco, assicurati che il percorso del gioco sia specificato correttamente, fai clic su «Install» e attendi il completamento dell`installazione di Fabric.',
     languageTr:
-        '- İndirilen yükleyiciyi açın, oyun sürümünüzü seçin, oyun yolunun doğru belirtildiğinden emin olun, "Yükle "ye tıklayın ve Fabric yüklemesinin tamamlanmasını bekleyin.',
+        '- İndirilen yükleyiciyi açın, oyun sürümünüzü seçin, oyun yolunun doğru belirtildiğinden emin olun, «Yükle» ye tıklayın ve Fabric yüklemesinin tamamlanmasını bekleyin.',
     languageEs:
-        '- Abre el instalador descargado, selecciona tu versión del juego, asegúrate de que la ruta del juego está especificada correctamente, haz clic en "Instalar" y espera a que se complete la instalación de Fabric.',
-    languageCn: '- 打开下载的安装程序，选择你的游戏版本，确保正确指定游戏路径，点击 "安装"，然后等待 Fabric 安装完成。',
+        '- Abre el instalador descargado, selecciona tu versión del juego, asegúrate de que la ruta del juego está especificada correctamente, haz clic en «Instalar» y espera a que se complete la instalación de Fabric.',
+    languageCn: '- 打开下载的安装程序，选择你的游戏版本，确保正确指定游戏路径，点击 «安装»，然后等待 Fabric 安装完成。',
   },
   'MinecraftComponentsEnding': {
     languageEn:
@@ -10838,15 +9568,15 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl:
         '- Otwórz stronę Fabric-API po kliknięciu tego tekstu, znajdź swoją wersję gry na poniższej liście, kliknij przycisk «Download file» i przenieś pobrany plik do folderu «mods» w folderze gry. Jeśli nie ma takiego folderu - utwórz go sam!',
     languageDe:
-        '- Öffnen Sie die Fabric-API-Site, nachdem Sie auf diesen Text geklickt haben, suchen Sie Ihre Version des Spiels in der Liste unten, klicken Sie auf die Schaltfläche "Datei herunterladen" und verschieben Sie die heruntergeladene Datei in den Ordner "mods" im Spielordner. Wenn es keinen solchen Ordner gibt - erstellen Sie ihn selbst!',
+        '- Öffnen Sie die Fabric-API-Site, nachdem Sie auf diesen Text geklickt haben, suchen Sie Ihre Version des Spiels in der Liste unten, klicken Sie auf die Schaltfläche «Datei herunterladen» und verschieben Sie die heruntergeladene Datei in den Ordner «mods» im Spielordner. Wenn es keinen solchen Ordner gibt - erstellen Sie ihn selbst!',
     languageIt:
         '– Apri il sito Web Fabric-API facendo clic su questo testo, trova la tua versione del gioco nell`elenco sottostante, premi il pulsante «Download file» e sposta il file scaricato nella directory «mods» nella cartella del gioco. Se non esiste una cartella di questo tipo, creala tu stesso!',
     languageTr:
-        '- Bu metne tıklayarak Fabric-API web sitesini açın, aşağıdaki listeden oyun sürümünüzü bulun, "Dosyayı indir" düğmesine basın ve indirilen dosyayı oyun klasöründeki "mods" dizinine taşıyın. Eğer böyle bir klasör yoksa, o zaman kendiniz oluşturun!',
+        '- Bu metne tıklayarak Fabric-API web sitesini açın, aşağıdaki listeden oyun sürümünüzü bulun, «Dosyayı indir» düğmesine basın ve indirilen dosyayı oyun klasöründeki «mods» dizinine taşıyın. Eğer böyle bir klasör yoksa, o zaman kendiniz oluşturun!',
     languageEs:
-        '- Abre el sitio web de Fabric-API haciendo clic en este texto, busca tu versión del juego en la lista de abajo, pulsa el botón "Descargar archivo" y mueve el archivo descargado al directorio "mods" de la carpeta del juego. Si no existe tal directorio, ¡créalo tú mismo!',
+        '- Abre el sitio web de Fabric-API haciendo clic en este texto, busca tu versión del juego en la lista de abajo, pulsa el botón «Descargar archivo» y mueve el archivo descargado al directorio «mods» de la carpeta del juego. Si no existe tal directorio, ¡créalo tú mismo!',
     languageCn:
-        '- 点击此文本打开 Fabric-API 网站，在下面的列表中找到您的游戏版本，按下 "下载文件 "按钮并将下载的文件移至游戏文件夹中的 "mods "目录。如果没有此类文件夹，请自行创建！',
+        '- 点击此文本打开 Fabric-API 网站，在下面的列表中找到您的游戏版本，按下 «下载文件» 按钮并将下载的文件移至游戏文件夹中的 «mods» 目录。如果没有此类文件夹，请自行创建！',
   },
   'DoYouHaveThisFabricOrForge': {
     languageEn:
@@ -11111,9 +9841,8 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Utwórz skrót do programu na pulpicie',
     languageDe: "App-Verknüpfung auf dem Desktop erstellen",
     languageIt: 'Crea il collegamento dell`applicazione sul Desktop',
-    languageTr: "Masaüstü klasöründe uygulamanın kısayolunu oluşturun",
-    languageEs:
-        "Crear un acceso directo a la aplicación en la carpeta Escritorio",
+    languageTr: "Masaüstünde bir uygulama kısayolu oluşturma",
+    languageEs: "Crear un acceso directo a ExLoader en el escritorio",
     languageCn: "在桌面文件夹中创建应用程序的快捷方式",
   },
   'LaunchExLoader': {
@@ -11209,10 +9938,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Danke, dass du dich für uns entschieden hast, SwiftSoft LLC.",
     languageIt:
         'Grazie per averci scelto. Cordiali saluti, il team di SwiftSoft LLC.',
-    languageTr:
-        "Bizi tercih ettiğiniz için teşekkür ederiz. Saygılarımızla, SwiftSoft LLC ekibi.",
-    languageEs:
-        "Gracias por elegirnos. Atentamente, el equipo de SwiftSoft LLC.",
+    languageTr: "Bizi tercih ettiğiniz için teşekkür ederiz, SwiftSoft LLC..",
+    languageEs: "Gracias por elegirnos. Atentamente, SwiftSoft LLC.",
     languageCn: "感谢您选择我们。SwiftSoft LLC 团队谨此致谢。",
   },
   'CloseTheApp': {
@@ -11267,7 +9994,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Alles ist bereit, ExLoader ist einsatzbereit!",
     languageIt: 'Tutto è fatto, l`applicazione è pronta per l`uso!',
     languageTr: "Everything is done, application is ready to use",
-    languageEs: "Ya está todo hecho, ¡la aplicación está lista para usarse!",
+    languageEs: "Todo listo, la app está disponible para su uso",
     languageCn: "一切就绪，应用程序即可使用！",
   },
   'ErrorDuringInstallation': {
@@ -11344,7 +10071,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Aplicación actualizada!",
     languageCn: "申请已更新！",
   },
-  'DelailedListOfChanges': {
+  'DetailedListOfChanges': {
     languageEn:
         "If you are interested, then you can read the detailed list of changes in our official {Social} channel, available with the button below",
     languageRu:
@@ -11362,25 +10089,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Si está interesado, puede leer la lista detallada de cambios en nuestro canal oficial {Social}, disponible con el botón siguiente",
     languageCn: "如果您有兴趣，可以通过下面的按钮在我们的官方 {Social} 频道阅读详细的更改列表",
-  },
-  'DoNotForgetToMarkConfig': {
-    languageEn:
-        "Don't forget to mark the configuration after\nplaying with it to help other users with\nchoosing a high-quality config!",
-    languageRu:
-        'Не забудь оценить конфигурацию после игры с ней,\nчтобы помочь другим пользователям с выбором\nкачественного конфига!',
-    languageUa:
-        'Не забудь оцінити конфігурацію після гри з нею,\nщоб допомогти іншим користувачам з вибором\nякісного конфігу!',
-    languagePl:
-        'Nie zapomnij ocenić konfiguracji po graniu z\nnią, aby pomóc innym użytkownikom z\nwyborem wysokiej jakości konfiguracji!',
-    languageDe:
-        "Vergessen Sie nicht, die Konfiguration zu bewerten, nachdem Sie damit gespielt haben,\num anderen Benutzern bei der Auswahl einer qualitativ hochwertigen Konfiguration zu helfen!",
-    languageIt:
-        'Non dimenticare di valutare la configurazione dopo averla giocata\nper aiutare gli altri utenti a scegliere una\nconfigurazione di qualità!',
-    languageTr:
-        "Diğer kullanıcılara yüksek kaliteli bir yapılandırma\nseçmelerinde yardımcı olmak için yapılandırmayla\noynadıktan sonra işaretlemeyi unutmayın!",
-    languageEs:
-        "No olvides marcar la configuración después de jugar\ncon ella para ayudar a otros usuarios a elegir una\nconfiguración de alta calidad.",
-    languageCn: "玩过之后别忘了标记配置，以帮助其他用户选择高质量的配置！",
   },
   'ExloaderLauncher': {
     languageEn: "Launch with ExLoader",
@@ -11448,15 +10156,15 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "因使用修改而导致游戏崩溃的数据",
   },
   'SearchByUsers': {
-    languageEn: "Search among users",
-    languageRu: 'Поиск среди пользователей',
-    languageUa: 'Пошук серед користувачів',
-    languagePl: 'Szukaj wśród użytkowników',
-    languageDe: "Suchen Sie unter Benutzern",
-    languageIt: 'Cerca tra gli utenti',
-    languageTr: "Kullanıcılar arasında arama",
-    languageEs: "Búsqueda entre usuarios",
-    languageCn: "在用户中搜索",
+    languageEn: "Search among users (3+ symbols)",
+    languageRu: 'Поиск среди пользователей (3+ символа)',
+    languageUa: 'Пошук серед користувачів (3+ символи)',
+    languagePl: 'Szukaj wśród użytkowników (3+ symbole)',
+    languageDe: "Suchen Sie unter Benutzern (3+ Symbole)",
+    languageIt: 'Cerca tra gli utenti (3+ simboli)',
+    languageTr: "Kullanıcılar arasında arama (3+ sembol)",
+    languageEs: "Búsqueda entre usuarios (3+ símbolos)",
+    languageCn: "在用户中搜索 (3 个以上符号）",
   },
   'WaitingForInput': {
     languageEn: "Enter something to the search-bar to get the users list",
@@ -11474,17 +10182,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Introduce algo en la barra de búsqueda para obtener la lista de usuarios",
     languageCn: "在搜索栏输入内容，获取用户列表",
-  },
-  'WillBeUnbanned': {
-    languageEn: "User will be unbanned",
-    languageRu: 'Пользователь будет разбанен',
-    languageUa: 'Користувач буде розбанен',
-    languagePl: 'Użytkownik zostanie zdemontowany',
-    languageDe: "Der Benutzer wird entsperrt",
-    languageIt: 'L`utente vuole essere sbloccato',
-    languageTr: "Kullanıcı yasağı kaldırılacak",
-    languageEs: "El usuario será desbaneado",
-    languageCn: "用户将被解禁",
   },
   'NoComplaintsHere': {
     languageEn:
@@ -11644,24 +10341,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "No fijado",
     languageCn: "未设置",
   },
-  'FastGameSwitch': {
-    languageEn:
-        "A quick jump to the game selection page\nwith other modifications can be found here!",
-    languageRu:
-        'Быстрый переход на страницу выбора игры с\nдругими модификациями можно найти здесь!',
-    languageUa:
-        'Швидкий перехід на сторінку вибору гри з\nіншими модифікаціями можна знайти тут!',
-    languagePl:
-        'Szybki skok do strony wyboru gry z innymi\nmodyfikacjami można znaleźć tutaj!',
-    languageDe: "Ein schneller wechsel zwischen spielen ist hier möglich",
-    languageIt:
-        'Un rapido salto alla pagina di selezione del\ngioco con altre modifiche puoi trovarle qui!',
-    languageTr:
-        "Diğer değişikliklerin yer aldığı oyun seçim sayfasına buradan ulaşabilirsiniz!",
-    languageEs:
-        "Aquí se puede acceder rápidamente a la\npágina de selección de juegos con otras\nmodificaciones.",
-    languageCn: "点击此处可快速跳转到游戏选择页面，了解其他修改！",
-  },
   'SpecialThanksForTranslation': {
     languageEn:
         "Special thanks to {users} for their help in translation of ExLoader for this language!",
@@ -11770,17 +10449,16 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "强大",
   },
   'FailedToApplySystemFeature': {
-    languageEn: "Unfortunately, your system does not support this feature 🙁",
-    languageRu: 'К сожалению, твоя система не поддерживает данную функцию 🙁',
-    languageUa: 'На жаль, твоя система не підтримує цю функцію 🙁',
-    languagePl: 'Niestety, twój system nie obsługuje tej funkcji 🙁',
-    languageDe: 'Leider unterstützt Ihr System diese Funktion nicht 🙁',
+    languageEn: "Unfortunately, your system does not support this feature",
+    languageRu: 'К сожалению, твоя система не поддерживает данную функцию',
+    languageUa: 'На жаль, твоя система не підтримує цю функцію',
+    languagePl: 'Niestety, twój system nie obsługuje tej funkcji',
+    languageDe: 'Leider unterstützt Ihr System diese Funktion nicht',
     languageIt:
-        'Sfortunatamente, il tuo sistema non supporta questa funzionalità 🙁',
-    languageTr: "Maalesef sisteminiz bu özelliği desteklemiyor 🙁",
-    languageEs:
-        "Lamentablemente, tu sistema no es compatible con esta función 🙁",
-    languageCn: "很遗憾，您的系统不支持此功能 🙁",
+        'Sfortunatamente, il tuo sistema non supporta questa funzionalità',
+    languageTr: "Maalesef sisteminiz bu özelliği desteklemiyor",
+    languageEs: "Lamentablemente, tu sistema no es compatible con esta función",
+    languageCn: "很遗憾，您的系统不支持此功能",
   },
   'WindowSize': {
     languageEn: "ExLoader window size",
@@ -11795,23 +10473,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'SizeChangeConsequences': {
     languageEn:
-        "Changing the size of the application window may cause some widgets to jump while scrolling or while hovering over them with the mouse cursor. Unfortunately, this problem is related directly with the engine of our application and will be fixed only when the framework developers fix it 🙁",
+        "Changing the size of the application window may cause some widgets to jump while scrolling or while hovering over them with the mouse cursor. Unfortunately, this problem is related directly with the engine of our application and will be fixed only when the framework developers fix it",
     languageRu:
-        'Изменение размера окна приложения может привести к тому, что некоторые виджеты начнут прыгать при скроллинге или же при наведении на них курсором мышки. К сожалению, данная проблема напрямую связаны с движком нашего приложения и будет исправлена лишь тогда, когда её починят разработчики фреймворка 🙁',
+        'Изменение размера окна приложения может привести к тому, что некоторые виджеты начнут прыгать при скроллинге или же при наведении на них курсором мышки. К сожалению, данная проблема напрямую связаны с движком нашего приложения и будет исправлена лишь тогда, когда её починят разработчики фреймворка',
     languageUa:
-        "Зміна розміру вікна програми може привести до того, що деякі віджети почнуть стрибати при скролінгу або ж при наведенні на них курсором мишки. На жаль, дана проблема безпосередньо пов'язані з движком нашого застосування і буде виправлена лише тоді, коли її полагодять розробники фреймворка 🙁",
+        "Зміна розміру вікна програми може привести до того, що деякі віджети почнуть стрибати при скролінгу або ж при наведенні на них курсором мишки. На жаль, дана проблема безпосередньо пов'язані з движком нашого застосування і буде виправлена лише тоді, коли її полагодять розробники фреймворка",
     languagePl:
-        'Zmiana rozmiaru okna aplikacji może spowodować, że niektóre widżety zaczną przeskakiwać podczas przewijania lub po najechaniu na nie kursorem myszy. Niestety ten problem jest bezpośrednio związany z silnikiem naszej aplikacji i zostanie naprawiony tylko wtedy, gdy zostanie naprawiony przez programistów frameworka 🙁',
+        'Zmiana rozmiaru okna aplikacji może spowodować, że niektóre widżety zaczną przeskakiwać podczas przewijania lub po najechaniu na nie kursorem myszy. Niestety ten problem jest bezpośrednio związany z silnikiem naszej aplikacji i zostanie naprawiony tylko wtedy, gdy zostanie naprawiony przez programistów frameworka',
     languageDe:
-        'Das Ändern der Größe des Anwendungsfensters kann dazu führen, dass einige Widgets beim Scrollen oder beim Bewegen der Maus über sie springen. Leider hängt dieses Problem direkt mit der Engine unserer Anwendung zusammen und wird nur behoben, wenn es von den Entwicklern des Frameworks repariert wird 🙁',
+        'Das Ändern der Größe des Anwendungsfensters kann dazu führen, dass einige Widgets beim Scrollen oder beim Bewegen der Maus über sie springen. Leider hängt dieses Problem direkt mit der Engine unserer Anwendung zusammen und wird nur behoben, wenn es von den Entwicklern des Frameworks repariert wird',
     languageIt:
-        'La modifica delle dimensioni della finestra dell`applicazione potrebbe causare il salto di alcuni widget durante lo scorrimento o mentre si passa sopra con il cursore del mouse. Sfortunatamente, questo problema è direttamente correlato al motore della nostra applicazione e verrà risolto solo quando gli sviluppatori del framework lo risolveranno 🙁',
+        'La modifica delle dimensioni della finestra dell`applicazione potrebbe causare il salto di alcuni widget durante lo scorrimento o mentre si passa sopra con il cursore del mouse. Sfortunatamente, questo problema è direttamente correlato al motore della nostra applicazione e verrà risolto solo quando gli sviluppatori del framework lo risolveranno',
     languageTr:
-        "Uygulama penceresinin boyutunu değiştirmek, kaydırma sırasında veya fare imleciyle üzerlerinde gezinirken bazı widget'ların atlamasına neden olabilir. Ne yazık ki, bu sorun doğrudan uygulamamızın motoruyla ilgilidir ve yalnızca çerçeve geliştiricileri bunu düzelttiğinde düzeltilecektir 🙁",
+        "Uygulama penceresinin boyutunu değiştirmek, kaydırma sırasında veya fare imleciyle üzerlerinde gezinirken bazı widget'ların atlamasına neden olabilir. Ne yazık ki, bu sorun doğrudan uygulamamızın motoruyla ilgilidir ve yalnızca çerçeve geliştiricileri bunu düzelttiğinde düzeltilecektir",
     languageEs:
-        "Cambiar el tamaño de la ventana de la aplicación puede hacer que algunos widgets salten al desplazarse o al pasar el cursor del ratón sobre ellos. Lamentablemente, este problema está relacionado directamente con el motor de nuestra aplicación y sólo se solucionará cuando los desarrolladores del framework lo arreglen 🙁.",
+        "Cambiar el tamaño de la ventana de la aplicación puede hacer que algunos widgets salten al desplazarse o al pasar el cursor del ratón sobre ellos. Lamentablemente, este problema está relacionado directamente con el motor de nuestra aplicación y sólo se solucionará cuando los desarrolladores del framework lo arreglen.",
     languageCn:
-        "更改应用程序窗口的大小可能会导致某些窗口小部件在滚动或用鼠标光标悬停时跳动。不幸的是，这个问题与我们应用程序的引擎直接相关，只有当框架开发人员修复这个问题时才能解决 🙁。",
+        "更改应用程序窗口的大小可能会导致某些窗口小部件在滚动或用鼠标光标悬停时跳动。不幸的是，这个问题与我们应用程序的引擎直接相关，只有当框架开发人员修复这个问题时才能解决。",
   },
   'Modification': {
     languageEn: "Modification",
@@ -12534,62 +11212,24 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Eliminación de sonidos añadidos manualmente",
     languageCn: "删除手动添加的声音",
   },
-  'AudioAssetsAreNeeded': {
-    languageEn:
-        "For this settings part to work correctly, you need to download additional sound files using the button below!",
-    languageRu:
-        'Для корректной работы функционала из данной вкладки тебе необходимо загрузить дополнительные файлы с помощью кнопки ниже!',
-    languageUa:
-        'Для коректної роботи функціоналу з даної вкладки тобі необхідно завантажити додаткові файли за допомогою кнопки нижче!',
-    languagePl:
-        'Aby funkcjonalność działała poprawnie z tej zakładki, musisz pobrać dodatkowe pliki za pomocą przycisku poniżej!',
-    languageDe:
-        'Um die Funktionalität dieser Registerkarte korrekt zu nutzen, musst du zusätzliche Dateien mit dem unten stehenden Button herunterladen!',
-    languageIt:
-        'Affinché questa parte delle impostazioni funzioni correttamente, è necessario scaricare file audio aggiuntivi utilizzando il pulsante in basso!',
-    languageTr:
-        "Bu ayarlar bölümünün doğru çalışması için, aşağıdaki düğmeyi kullanarak ek ses dosyaları indirmeniz gerekir!",
-    languageEs:
-        "Para que esta parte de ajustes funcione correctamente, necesitas descargar archivos de sonido adicionales usando el botón de abajo.",
-    languageCn: "要使设置部分正常工作，您需要使用下面的按钮下载额外的声音文件！",
-  },
-  'FailedToInstallAudio': {
-    languageEn:
-        "Unfortunately, an audio files installation process has failed, please, try again a little bit later 🙁",
-    languageRu:
-        'К сожалению, нам не удалось установить необходимые аудио файлы, попробуй повторить процесс установки чуточку позже 🙁',
-    languageUa:
-        'На жаль, нам не вдалося встановити необхідні аудіофайли, спробуй повторити процес установки трішки пізніше 🙁',
-    languagePl:
-        'Niestety nie udało nam się zainstalować niezbędnych plików audio, spróbuj powtórzyć proces instalacji trochę później 🙁',
-    languageDe:
-        'Leider konnten wir die erforderlichen Audiodateien nicht installieren, versuchen Sie, den Installationsvorgang ein wenig später zu wiederholen 🙁',
-    languageIt:
-        'Sfortunatamente, il processo di installazione dei file audio non è riuscito, riprova più tardi 🙁',
-    languageTr:
-        "Maalesef bir ses dosyası yükleme işlemi başarısız oldu, lütfen biraz sonra tekrar deneyin 🙁",
-    languageEs:
-        "Desafortunadamente, un proceso de instalación de archivos de audio ha fallado, por favor, inténtalo de nuevo un poco más tarde 🙁",
-    languageCn: "很遗憾，音频文件安装过程失败，请稍后再试。",
-  },
   'OldPCsAndSounds': {
     languageEn:
-        "Please, note that the sound effects features may work with a slight delay on old devices 🙁",
+        "Please, note that the sound effects features may work with a slight delay on old devices",
     languageRu:
-        'Обрати внимание, на слабых компьютерах функции звуковых эффектов могут работать с небольшой задержкой 🙁',
+        'Обрати внимание, на слабых компьютерах функции звуковых эффектов могут работать с небольшой задержкой',
     languageUa:
-        "Зверни увагу, на слабких комп'ютерах функції звукових ефектів можуть працювати з невеликою затримкою 🙁",
+        "Зверни увагу, на слабких комп'ютерах функції звукових ефектів можуть працювати з невеликою затримкою",
     languagePl:
-        'Uwaga, na słabych komputerach funkcje efektów dźwiękowych mogą działać z niewielkim opóźnieniem 🙁',
+        'Uwaga, na słabych komputerach funkcje efektów dźwiękowych mogą działać z niewielkim opóźnieniem',
     languageDe:
-        'Bitte beachten Sie, dass die Soundeffektfunktionen auf schwachen Computern mit einer kurzen Verzögerung ausgeführt werden können 🙁',
+        'Bitte beachten Sie, dass die Soundeffektfunktionen auf schwachen Computern mit einer kurzen Verzögerung ausgeführt werden können',
     languageIt:
-        'Tieni presente che le funzionalità degli effetti sonori potrebbero funzionare con un leggero ritardo sui vecchi dispositivi 🙁',
+        'Tieni presente che le funzionalità degli effetti sonori potrebbero funzionare con un leggero ritardo sui vecchi dispositivi',
     languageTr:
-        "Lütfen ses efektleri özelliklerinin eski cihazlarda hafif bir gecikmeyle çalışabileceğini unutmayın 🙁",
+        "Lütfen ses efektleri özelliklerinin eski cihazlarda hafif bir gecikmeyle çalışabileceğini unutmayın",
     languageEs:
-        "Por favor, ten en cuenta que las funciones de efectos de sonido pueden funcionar con un ligero retraso en dispositivos antiguos 🙁",
-    languageCn: "请注意，音效功能在旧设备上可能会略有延迟 🙁。",
+        "Por favor, ten en cuenta que las funciones de efectos de sonido pueden funcionar con un ligero retraso en dispositivos antiguos",
+    languageCn: "请注意，音效功能在旧设备上可能会略有延迟。",
   },
   'AutoUpdateAudio': {
     languageEn: "Automatically update sounds pack",
@@ -12621,29 +11261,31 @@ const Map<String, Map<String, String>> localeItems = {
         "La aplicación comprobará automáticamente si el paquete de sonido está actualizado cada vez que se inicie.",
     languageCn: "每次启动应用程序时，它都会自动检查音效包的更新！",
   },
-  'AllGames': {
-    languageEn: 'All cool games in a single EasyGames library!',
-    languageRu: 'Все крутые игры в библиотеке EasyGames!',
-    languageUa: 'Всі круті ігри в єдиній бібліотеці EasyGames!',
-    languageIt: 'Tutti i fantastici giochi in un`unica libreria EasyGames!',
-    languageTr: "Tüm harika oyunlar tek bir EasyGames kütüphanesinde!",
-    languageEs: "¡Todos los juegos geniales en una sola biblioteca EasyGames!",
-    languageCn: "所有超酷游戏都在一个 EasyGames 库中！",
-  },
-  'AllGamesInOnePlace': {
-    languageEn: 'We have collected all cool games in one unified place',
-    languageRu: 'Мы собрали все самые крутые игры в одном едином месте',
-    languageUa: 'Ми зібрали всі круті ігри в одному єдиному місці',
+  'AllModsForGamesInOnePlace': {
+    languageEn:
+        'We have collected all cool and free mods for popular games in one unified place',
+    languageRu:
+        'Мы собрали все самые крутые бесплатные моды к популярным играм в одном едином месте',
+    languageUa:
+        'Ми зібрали всі найкрутіші безкоштовні моди до популярних ігор в одному єдиному місці',
+    languagePl:
+        "Zebraliśmy wszystkie najfajniejsze darmowe mody do popularnych gier w jednym miejscu",
+    languageDe:
+        'Wir haben die coolsten kostenlosen Mods für beliebte Spiele an einem einzigen Ort gesammelt',
     languageIt:
-        'Abbiamo raccolto tutti i giochi più interessanti in un unico posto',
-    languageTr: "Tüm harika oyunları tek bir yerde topladık",
-    languageEs: "Hemos reunido todos los mejores juegos en un único lugar",
-    languageCn: "我们在一个统一的地方收集了所有很酷的游戏",
+        'Abbiamo raccolto tutte le mod gratuite per i giochi più popolari in un unico posto.',
+    languageTr:
+        "Popüler oyunlar için tüm harika ve ücretsiz modları tek bir yerde topladık",
+    languageEs:
+        "Hemos reunido todos los mods geniales y gratuitos para juegos populares en un lugar unificado",
+    languageCn: "我们在一个统一的地方为热门游戏收集了所有很酷的免费修改器",
   },
   'LogInEasily': {
     languageEn: 'Log-in easily to get started,',
     languageRu: 'Всё просто, никаких данных, кроме',
     languageUa: 'Все просто, ніяких даних, крім',
+    languagePl: "Zaloguj się łatwo, aby rozpocząć,",
+    languageDe: "Melden Sie sich an, um loszulegen,",
     languageIt: 'Accedi facilmente per iniziare,',
     languageTr: "Kolayca Giriş Yapın",
     languageEs: "ConéctateFácilmente",
@@ -12653,6 +11295,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'only your email',
     languageRu: 'твоей почты,',
     languageUa: 'твоєї пошти,',
+    languagePl: "potrzebny jest tylko Twój",
+    languageDe: "Sie brauchen nur Ihre",
     languageIt: 'solo la tua email',
     languageTr: "sadece e-postanız",
     languageEs: "sólo su correo electrónico",
@@ -12662,19 +11306,12 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'is needed',
     languageRu: 'нам не нужно',
     languageUa: 'нам не потрібно',
+    languagePl: "adres e-mail",
+    languageDe: "E-Mail-Adresse",
     languageIt: 'è necessario',
     languageTr: "gerekli",
     languageEs: "es necesario",
     languageCn: "需要",
-  },
-  'EmailTooltipEasyGames': {
-    languageEn: 'Enter your email, no password is needed',
-    languageRu: 'Введи свою почту, никаких паролей',
-    languageUa: 'Введи свою пошту, ніяких паролів',
-    languageIt: 'Inserisci la tua email, non è necessaria alcuna password',
-    languageTr: "E-postanızı girin, şifre gerekmez",
-    languageEs: "Introduzca su correo electrónico, no necesita contraseña",
-    languageCn: "输入您的电子邮件，无需密码",
   },
   'LogInNoEmail': {
     languageEn: 'Log-in as a guest',
@@ -12691,6 +11328,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'Log in With Email',
     languageRu: 'Войти с помощью почты',
     languageUa: 'Увійти за допомогою пошти',
+    languagePl: "Zaloguj się za pomocą e-maila",
+    languageDe: "Mit E-Mail anmelden",
     languageIt: 'Accedi con l`e-mail',
     languageTr: "E-posta ile Giriş Yapın",
     languageEs: "Iniciar sesión con correo electrónico",
@@ -12700,6 +11339,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'or',
     languageRu: 'или',
     languageUa: 'або',
+    languagePl: "lub",
+    languageDe: "oder",
     languageIt: 'o',
     languageTr: "veya",
     languageEs: "o",
@@ -12734,7 +11375,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "En modo invitado no podrás <bd>dejar <bd>comentarios, <bd>calificar <bd>mods <bd>y <bd>configs, <bd>guardar tus <bd>estadísticas, <bd>personalizar tu <bd>perfil, <bd>comparte <bd>configs, <bd>sube <bd>vídeos, <bd>envía <bd>quejas, <bd>recibe <bd>notificaciones y ¡realiza cualquier otra acción social!",
     languageCn:
-        "在访客模式下，您将无法<bd>留下<bd>评论、<bd>为<bd>修改器<bd>和<bd>配置评分、<bd>保存您的<bd>统计信息、<bd>自定义您的<bd>配置文件、 <bd>分享<bd>配置、<bd>上传<bd>视频、<bd>发送<bd>投诉、<bd>接收<bd>通知并执行任何其他社交操作！",
+        "在访客模式下，您将无法 <bd>留下 <bd>评论、 <bd>为 <bd>修改器 <bd>和 <bd>配置评分、 <bd>保存您的 <bd>统计信息、 <bd>自定义您的 <bd>配置文件、 <bd>分享 <bd>配置、 <bd>上传 <bd>视频、 <bd>发送 <bd>投诉、 <bd>接收 <bd>通知并执行任何其他社交操作！",
   },
   'UserAgreement': {
     languageEn:
@@ -12768,6 +11409,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'Level',
     languageRu: 'Уровень',
     languageUa: 'Рівень',
+    languagePl: "Level",
+    languageDe: "Niveau",
     languageIt: 'Livello',
     languageTr: "Seviye",
     languageEs: "Nivel",
@@ -12780,6 +11423,10 @@ const Map<String, Map<String, String>> localeItems = {
         'Управляй внешним видом приложение, настройками загрузок, системами аудио и уведомлений, а также своим профилем!',
     languageUa:
         'Керуй зовнішнім виглядом додаток, настройками завантажень, системами аудіо і повідомлень, а також своїм профілем!',
+    languagePl:
+        "Zarządzaj wyglądem aplikacji, ustawieniami pobierania, systemami audio i powiadomień oraz preferencjami profilu!",
+    languageDe:
+        "Verwalten Sie das Erscheinungsbild der App, die Einstellungen für das Herunterladen, die Audio- und Benachrichtigungssysteme und Ihre Profileinstellungen!",
     languageIt:
         'Gestisci l`aspetto dell`app, le impostazioni di download, i sistemi audio e di notifica e le preferenze del tuo profilo!',
     languageTr:
@@ -12795,6 +11442,10 @@ const Map<String, Map<String, String>> localeItems = {
         'В этом списке ты найдёшь как собранную нами коллекцию, так и вручную добавленные картинки',
     languageUa:
         'У цьому списку ти знайдеш як зібрану нами колекцію, так і вручну додані картинки',
+    languagePl:
+        "Na tej liście znajdziesz zarówno bibliotekę, którą zebraliśmy dla Ciebie, jak i wszystkie ręcznie dodane obrazy",
+    languageDe:
+        "In dieser Liste finden Sie sowohl die Bibliothek, die wir für Sie zusammengestellt haben, als auch alle manuell hinzugefügten Bilder",
     languageIt:
         'In questo elenco troverai sia la libreria che abbiamo raccolto per te sia tutte le immagini aggiunte manualmente',
     languageTr:
@@ -12811,15 +11462,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yama",
     languageEs: "parche",
     languageCn: "补丁",
-  },
-  'IssueOrBug': {
-    languageEn: 'Notify us about an issue',
-    languageRu: 'Сообщить о проблеме',
-    languageUa: 'Повідомити про помилку',
-    languageIt: 'Segnalaci un problema',
-    languageTr: "Bir sorun hakkında bizi bilgilendirin",
-    languageEs: "Notifíquenos un problema",
-    languageCn: "将问题通知我们",
   },
   'GBs': {
     languageEn: 'gb/s',
@@ -13037,6 +11679,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'notifications',
     languageRu: 'уведомления',
     languageUa: 'сповіщення',
+    languagePl: "powiadomienia",
+    languageDe: "Notifikationen",
     languageIt: 'notifiche',
     languageTr: "bildirim",
     languageEs: "notificaciones",
@@ -13047,6 +11691,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn: 'notifications',
     languageRu: 'уведомлений',
     languageUa: 'сповіщень',
+    languagePl: "powiadomienia",
+    languageDe: "Notifikationen",
     languageIt: 'notifiche',
     languageTr: "bildirimler",
     languageEs: "notificaciones",
@@ -13075,7 +11721,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Historia",
     languageCn: "历史",
   },
-
   'NotificationsGuide': {
     languageEn:
         "Check this page later, we’ll let you know when we get news for you.",
@@ -13293,28 +11938,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Popularidad de los partidos entre semana",
     languageCn: "一周内比赛的受欢迎程度",
   },
-  'ImagesForMods': {
-    languageEn: "Display modifications previews",
-    languageRu: 'Отобразить превью модификаций',
-    languageUa: "Відобразити прев'ю модифікацій",
-    languagePl: 'Wyświetlanie podglądu modyfikacji',
-    languageDe: 'Voransichten von Modifikationen anzeigen',
-    languageIt: 'Mostra le anteprime delle modifiche',
-    languageTr: "Değişiklik önizlemelerini görüntüleme",
-    languageEs: "Visualizar previsualizaciones de modificaciones",
-    languageCn: "显示修改预览",
-  },
-  'ImagesForModsDisable': {
-    languageEn: "Hide modifications previews",
-    languageRu: 'Скрыть превью модификаций',
-    languageUa: "Приховати прев'ю модифікацій",
-    languagePl: 'Ukryj podgląd modyfikacji',
-    languageDe: 'Vorschaubilder von Modifikationen ausblenden',
-    languageIt: 'Nascondi le anteprime delle modifiche',
-    languageTr: "Değişiklik önizlemelerini gizle",
-    languageEs: "Ocultar vistas previas de modificaciones",
-    languageCn: "隐藏修改预览",
-  },
   'ModificationIsDeleted': {
     languageEn: "Modification is already deleted",
     languageRu: 'Модификация уже удалена',
@@ -13483,79 +12106,79 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'InvalidYouTubeUrl': {
     languageEn:
-        "Unfortunately, we won't be able to add this YouTube video, there seems to be something wrong with it 🙁. Make sure the link is entered correctly and your video is available for others!",
+        "Unfortunately, we won't be able to add this YouTube video, there seems to be something wrong with it. Make sure the link is entered correctly and your video is available for others!",
     languageRu:
-        'К сожалению, мы не сможем добавить данное YouTube видео, похоже, что с ним что-то не так 🙁. Убедись, что ссылка введена верно и видео доступно для просмотра другим пользователям!',
+        'К сожалению, мы не сможем добавить данное YouTube видео, похоже, что с ним что-то не так. Убедись, что ссылка введена верно и видео доступно для просмотра другим пользователям!',
     languageUa:
-        "На жаль, ми не зможемо додати це YouTube відео, схоже, що з ним щось не так 🙁. Переконайся, що посилання введено правильно і відео доступне для перегляду іншим користувачам!",
+        "На жаль, ми не зможемо додати це YouTube відео, схоже, що з ним щось не так. Переконайся, що посилання введено правильно і відео доступне для перегляду іншим користувачам!",
     languagePl:
-        'Niestety nie będziemy mogli dodać tego filmu na YouTube, wygląda na to, że coś jest z nim nie tak 🙁. Upewnij się, że link został wprowadzony poprawnie, a wideo jest dostępne dla innych!',
+        'Niestety nie będziemy mogli dodać tego filmu na YouTube, wygląda na to, że coś jest z nim nie tak. Upewnij się, że link został wprowadzony poprawnie, a wideo jest dostępne dla innych!',
     languageDe:
-        'Leider können wir dieses YouTube-Video nicht hinzufügen, es sieht so aus, als ob etwas damit nicht stimmt 🙁. Vergewissern Sie sich, dass der Link korrekt eingegeben wurde und das Video für andere zugänglich ist!',
+        'Leider können wir dieses YouTube-Video nicht hinzufügen, es sieht so aus, als ob etwas damit nicht stimmt. Vergewissern Sie sich, dass der Link korrekt eingegeben wurde und das Video für andere zugänglich ist!',
     languageIt:
-        'Sfortunatamente non saremo in grado di aggiungere questo video di YouTube, sembra che ci sia qualcosa che non va 🙁. Assicurati che il collegamento sia inserito correttamente e che il tuo video sia disponibile per gli altri!',
+        'Sfortunatamente non saremo in grado di aggiungere questo video di YouTube, sembra che ci sia qualcosa che non va. Assicurati che il collegamento sia inserito correttamente e che il tuo video sia disponibile per gli altri!',
     languageTr:
-        "Maalesef bu YouTube videosunu ekleyemeyeceğiz, bir sorun var gibi görünüyor 🙁. Bağlantının doğru girildiğinden ve videonuzun başkaları için kullanılabilir olduğundan emin olun!",
+        "Maalesef bu YouTube videosunu ekleyemeyeceğiz, bir sorun var gibi görünüyor. Bağlantının doğru girildiğinden ve videonuzun başkaları için kullanılabilir olduğundan emin olun!",
     languageEs:
-        "Lamentablemente, no podremos añadir este vídeo de YouTube, parece que hay algún problema 🙁. Asegúrate de que el enlace está introducido correctamente y de que tu vídeo está disponible para los demás.",
-    languageCn: "很遗憾，我们无法添加此 YouTube 视频，因为它似乎出了点问题🙁。请确保链接输入正确，并且您的视频可供他人观看！",
+        "Lamentablemente, no podremos añadir este vídeo de YouTube, parece que hay algún problema. Asegúrate de que el enlace está introducido correctamente y de que tu vídeo está disponible para los demás.",
+    languageCn: "很遗憾，我们无法添加此 YouTube 视频，因为它似乎出了点问题。请确保链接输入正确，并且您的视频可供他人观看！",
   },
   'GifAvatarIsNotAllowed': {
     languageEn:
-        "Unfortunately, your reputation level is too low to set up an animated avatar 🙁",
+        "Unfortunately, your reputation level is too low to set up an animated avatar",
     languageRu:
-        'К сожалению, твой уровень репутации слишком низок, дабы установить анимированную аватарку 🙁',
+        'К сожалению, твой уровень репутации слишком низок, дабы установить анимированную аватарку',
     languageUa:
-        "На жаль, твій рівень репутації занадто низький, щоб встановити анімовану аватарку 🙁",
+        "На жаль, твій рівень репутації занадто низький, щоб встановити анімовану аватарку",
     languagePl:
-        'Niestety, twój poziom reputacji jest zbyt niski, by ustawić animowany awatar 🙁',
+        'Niestety, twój poziom reputacji jest zbyt niski, by ustawić animowany awatar',
     languageDe:
-        'Leider ist Ihr Ansehen zu gering, um einen animierten Avatar einzurichten 🙁',
+        'Leider ist Ihr Ansehen zu gering, um einen animierten Avatar einzurichten',
     languageIt:
-        'Sfortunatamente, la tua reputazione è troppo bassa per creare un avatar animato 🙁',
+        'Sfortunatamente, la tua reputazione è troppo bassa per creare un avatar animato',
     languageTr:
-        "Ne yazık ki itibar seviyeniz animasyonlu bir avatar oluşturmak için çok düşük 🙁",
+        "Ne yazık ki itibar seviyeniz animasyonlu bir avatar oluşturmak için çok düşük",
     languageEs:
-        "Por desgracia, tu nivel de reputación es demasiado bajo para configurar un avatar animado 🙁",
-    languageCn: "不幸的是，您的声望级别太低，无法设置动画头像 🙁。",
+        "Por desgracia, tu nivel de reputación es demasiado bajo para configurar un avatar animado",
+    languageCn: "不幸的是，您的声望级别太低，无法设置动画头像。",
   },
   'AvatarFrameIsNotAllowed': {
     languageEn:
-        "Unfortunately, your reputation level is too low to set up an avatar frame 🙁",
+        "Unfortunately, your reputation level is too low to set up an avatar frame",
     languageRu:
-        'К сожалению, твой уровень репутации слишком низок, дабы установить рамку аватарки 🙁',
+        'К сожалению, твой уровень репутации слишком низок, дабы установить рамку аватарки',
     languageUa:
-        "На жаль, твій рівень репутації занадто низький, щоб встановити рамку аватарки 🙁",
+        "На жаль, твій рівень репутації занадто низький, щоб встановити рамку аватарки",
     languagePl:
-        'Niestety, twój poziom reputacji jest zbyt niski, by ustawić ramkę awatara 🙁',
+        'Niestety, twój poziom reputacji jest zbyt niski, by ustawić ramkę awatara',
     languageDe:
-        'Leider ist Ihr Ansehen zu gering, um einen Avatarrahmen einzurichten 🙁',
+        'Leider ist Ihr Ansehen zu gering, um einen Avatarrahmen einzurichten',
     languageIt:
-        'Sfortunatamente, la tua reputazione è troppo bassa per impostare una cornice avatar 🙁',
+        'Sfortunatamente, la tua reputazione è troppo bassa per impostare una cornice avatar',
     languageTr:
-        "Ne yazık ki, itibar seviyeniz bir avatar çerçevesi oluşturmak için çok düşük 🙁",
+        "Ne yazık ki, itibar seviyeniz bir avatar çerçevesi oluşturmak için çok düşük",
     languageEs:
-        "Por desgracia, tu nivel de reputación es demasiado bajo para configurar un marco de avatar 🙁",
-    languageCn: "不幸的是，您的声望级别太低，无法设置头像框 🙁。",
+        "Por desgracia, tu nivel de reputación es demasiado bajo para configurar un marco de avatar",
+    languageCn: "不幸的是，您的声望级别太低，无法设置头像框。",
   },
   'VideoIsNotAllowed': {
     languageEn:
-        "Uploading a video requires a higher reputation level than which you have 🙁",
+        "Uploading a video requires a higher reputation level than which you have",
     languageRu:
-        'Для загрузки видео необходим более высокий уровень репутации, чем тот, что есть у тебя 🙁',
+        'Для загрузки видео необходим более высокий уровень репутации, чем тот, что есть у тебя',
     languageUa:
-        "Для завантаження відео необхідний вищий рівень репутації, ніж той, що є у тебе 🙁",
+        "Для завантаження відео необхідний вищий рівень репутації, ніж той, що є у тебе",
     languagePl:
-        'Przesyłanie wideo wymaga wyższego poziomu reputacji niż ten, który posiadasz 🙁',
+        'Przesyłanie wideo wymaga wyższego poziomu reputacji niż ten, który posiadasz',
     languageDe:
-        'Das Hochladen eines Videos erfordert eine höhere Reputation als die, die Sie haben 🙁',
+        'Das Hochladen eines Videos erfordert eine höhere Reputation als die, die Sie haben',
     languageIt:
-        'Caricare un video richiede una reputazione superiore a quella che hai 🙁',
+        'Caricare un video richiede una reputazione superiore a quella che hai',
     languageTr:
-        "Bir video yüklemek, sahip olduğunuzdan daha yüksek bir itibar seviyesi gerektirir 🙁",
+        "Bir video yüklemek, sahip olduğunuzdan daha yüksek bir itibar seviyesi gerektirir",
     languageEs:
-        "Subir un vídeo requiere un nivel de reputación superior al que tienes 🙁 .",
-    languageCn: "上传视频需要比您的声誉级别更高的声誉🙁。",
+        "Subir un vídeo requiere un nivel de reputación superior al que tienes .",
+    languageCn: "上传视频需要比您的声誉级别更高的声誉。",
   },
   'YouTubeCFGReview': {
     languageEn: "Video review of the config or LUA on YouTube",
@@ -13623,457 +12246,457 @@ const Map<String, Map<String, String>> localeItems = {
   'ReputationExLoader': {
     languageEn: '''
 Levels from -4 and above:
-  - You can't set dislikes or likes
-  - You can write only 2 comments per day
-  - You can upload only 1 config per day
-  - You can't complain about other people's
-  comments, configs or lua
+ - You can't set dislikes or likes
+ - You can write only 2 comments per day
+ - You can upload only 1 config per day
+ - You can't complain about other people's
+ comments, configs or lua
 
 Levels from -3 to -1:
-  - You can set 1 dislike per day, you can't set likes
-  - You can post only 4 comments per day
-  - You can upload only 2 configs per day
-  - You can leave only 1 complaint per day about
-  someone else's configs, lua or comments
+ - You can set 1 dislike per day, you can't set likes
+ - You can post only 4 comments per day
+ - You can upload only 2 configs per day
+ - You can leave only 1 complaint per day about
+ someone else's configs, lua or comments
 
 Level 0:
-  - You can set only 2 dislikes per day
-  - You can write only 6 comments per day
-  - You can upload only 4 configs per day
-  - You can leave only 2 complaints per day about
-  someone else's configs, lua or comments
+ - You can set only 2 dislikes per day
+ - You can write only 6 comments per day
+ - You can upload only 4 configs per day
+ - You can leave only 2 complaints per day about
+ someone else's configs, lua or comments
 
 Levels from 1 to 3:
-  - You can set only 6 dislikes per day
-  - You can write up to 20 comments per day
-  - You can upload up to 10 configs per day
-  - You can add a video review to your config
-  
+ - You can set only 6 dislikes per day
+ - You can write up to 20 comments per day
+ - You can upload up to 10 configs per day
+ - You can add a video review to your config
+ 
 Level 3:
-  - You can set animated avatars
+ - You can set animated avatars
 
 Levels 4 and 5:
-  - An icon of the active user is displayed
-  next to your nickname
-  - You can set an avatar frame
-  - You can set up to 10 dislikes per day
-  - You can write up to 50 comments per day
-  - You can upload up to 15 configs per day
-
+ - An icon of the active user is displayed 
+ next to your nickname
+ - You can set an avatar frame
+ - You can set up to 10 dislikes per day
+ - You can write up to 50 comments per day
+ - You can upload up to 15 configs per day
+ 
 Level 5:
-  - You can upload protected LUA, however,
-  not without skipping the basic check
+ - You can upload protected LUA, however,
+ not without skipping the basic check
 
 Levels from 6 and above:
-  - All bonuses from previous levels
-  - You can set up to 14 dislikes per day
-  - You can write up to 200 comments per day
-  - You can upload up to 25 configs per day
-
+ - All bonuses from previous levels
+ - You can set up to 14 dislikes per day
+ - You can write up to 200 comments per day
+ - You can upload up to 25 configs per day
+ 
 Reputation is given and taken away for participation in the social life of the app, such as for received likes and dislikes, writing comments, uploading configs, bans, etc. You can see your reputation level in your profile! By the way, during holidays and themed events, all the experience you get is doubled.''',
     languageRu: '''
 Уровни от -4 и выше:
-  - Нельзя ставить дизлайки или лайки
-  - Можно писать только 2 комментария в день
-  - Можно загружать только 1 конфиг в день
-  - Нельзя жаловаться на чужие комментарии,
-  конфиги или луа
+ - Нельзя ставить дизлайки или лайки
+ - Можно писать только 2 комментария в день
+ - Можно загружать только 1 конфиг в день
+ - Нельзя жаловаться на чужие комментарии,
+ конфиги или луа
 
 Уровни от -3 до -1:
-  - Можно ставить только 1 дизлайк в день, нельзя
-  ставить лайки
-  - Можно писать только 4 комментария в день
-  - Можно загружать только 2 конфига в день
-  - Можно оставлять только 1 жалобу в день на чужие
-  конфиги, луа или же комментарии
+ - Можно ставить только 1 дизлайк в день, нельзя
+ ставить лайки
+ - Можно писать только 4 комментария в день
+ - Можно загружать только 2 конфига в день
+ - Можно оставлять только 1 жалобу в день на чужие
+ конфиги, луа или же комментарии
 
 Уровень 0:
-  - Можно ставить только 2 дизлайка в день
-  - Можно писать только 6 комментариев в день
-  - Можно загружать только 4 конфига в день
-  - Можно оставлять только 2 жалобы в день на чужие
-  конфиги, луа или же комментарии
+ - Можно ставить только 2 дизлайка в день
+ - Можно писать только 6 комментариев в день
+ - Можно загружать только 4 конфига в день
+ - Можно оставлять только 2 жалобы в день на чужие
+ конфиги, луа или же комментарии
 
 Уровни от 1 до 3:
-  - Можно ставить до 6 дизлайков в день
-  - Можно писать до 20 комментариев в день
-  - Можно загружать до 10 конфигов в день
-  - Можно добавлять видеообзор к своему конфигу
-
+ - Можно ставить до 6 дизлайков в день
+ - Можно писать до 20 комментариев в день
+ - Можно загружать до 10 конфигов в день
+ - Можно добавлять видеообзор к своему конфигу
+ 
 Уровень 3:
-  - Можно ставить анимированные аватарки
+ - Можно ставить анимированные аватарки
 
 Уровни 4 и 5:
-  - Возле ника отображается икона активного
-  пользователя
-  - Можно ставить рамку над аватаркой
-  - Можно ставить до 10 дизлайков в день
-  - Можно писать до 50 комментариев в день
-  - Можно загружать до 15 конфигов в день
+ - Возле ника отображается икона активного
+ пользователя
+ - Можно ставить рамку над аватаркой
+ - Можно ставить до 10 дизлайков в день
+ - Можно писать до 50 комментариев в день
+ - Можно загружать до 15 конфигов в день
 
 Уровень 5:
-  - Разрешено загружать LUA с протектом, однако,
-  не без пропуска базовой проверки
+ - Разрешено загружать LUA с протектом, однако,
+ не без пропуска базовой проверки
 
 Уровни от 6 и выше:
-  - Все бонусы предыдущих уровней
-  - Можно ставить до 14 дизлайков в день
-  - Можно писать до 200 комментариев в день
-  - Можно загружать до 25 конфигов в день
+ - Все бонусы предыдущих уровней
+ - Можно ставить до 14 дизлайков в день
+ - Можно писать до 200 комментариев в день
+ - Можно загружать до 25 конфигов в день
 
 Репутация выдаётся и отнимается за участие в социальной жизни приложения, например, за полученные лайки или же дизлайки, за написание комментариев, загрузку конфигов, баны и т.д. Свой уровень репутации можно посмотерть у себя в профиле! Кстати, во время праздников и тематических ивентов весь получаемый опыт удваивается.''',
     languageUa: '''
 Рівні від -4 і вище:
-  - Не можна ставити дизлайки або лайки
-  - Можна писати 2 коментарі на день
-  - Можна завантажувати 1 конфіг на день
-  - Не можна скаржитися на чужі коментарі,
-  конфіги або луа
+ - Не можна ставити дизлайки або лайки
+ - Можна писати 2 коментарі на день
+ - Можна завантажувати 1 конфіг на день
+ - Не можна скаржитися на чужі коментарі,
+ конфіги або луа
 
 Рівні від -3 до -1:
-  - Можна ставити 1 дизлайк на день, не можна ставити лайки
-  - Можна писати 4 коментарі на день
-  - Можна завантажувати 2 конфіги на день
-  - Можна залишати 1 скаргу на день на чужі
-  конфіги, луа або ж коментарі
+ - Можна ставити 1 дизлайк на день, не можна ставити лайки
+ - Можна писати 4 коментарі на день
+ - Можна завантажувати 2 конфіги на день
+ - Можна залишати 1 скаргу на день на чужі
+ конфіги, луа або ж коментарі
 
 Рівень 0:
-  - Можна ставити 2 дизлайки на день
-  - Можна писати 6 коментарів на день
-  - Можна завантажувати 4 конфіги на день
-  - Можна залишати 2 скарги на день на чужі
-  конфіги, луа або ж коментарі
+ - Можна ставити 2 дизлайки на день
+ - Можна писати 6 коментарів на день
+ - Можна завантажувати 4 конфіги на день
+ - Можна залишати 2 скарги на день на чужі
+ конфіги, луа або ж коментарі
 
 Рівні від 1 до 3:
-  - Можна ставити 6 дизлайків на день
-  - Можна писати 20 коментарів на день
-  - Можна завантажувати 10 конфігів на день
-  - Можна додавати відеоогляд до свого конфігуру
+ - Можна ставити 6 дизлайків на день
+ - Можна писати 20 коментарів на день
+ - Можна завантажувати 10 конфігів на день
+ - Можна додавати відеоогляд до свого конфігуру
 
 Рівень 3:
-  - Можна ставити анімовані аватарки
+ - Можна ставити анімовані аватарки
 
 Рівні 4 і 5:
-  - Біля ніка відображається ікона активного
-  користувача
-  - Можна ставити рамку над аватаркою
-  - Можна ставити 10 дизлайків на день
-  - Можна писати 50 коментарів на день
-  - Можна завантажувати 15 конфігів на день
-  
+ - Біля ніка відображається ікона активного
+ користувача
+ - Можна ставити рамку над аватаркою
+ - Можна ставити 10 дизлайків на день
+ - Можна писати 50 коментарів на день
+ - Можна завантажувати 15 конфігів на день
+ 
 Рівень 5:
-  - Дозволено завантажувати LUA з протектом, однак,
-  не без пропуску базової перевірки
+ - Дозволено завантажувати LUA з протектом, однак,
+ не без пропуску базової перевірки
 
 Рівні від 6 і вище:
-  - Усі бонуси попередніх рівнів
-  - Можна ставити 14 дизлайків на день
-  - Можна писати 200 коментарів на день
-  - Можна завантажувати 25 конфігів на день
-  
+ - Усі бонуси попередніх рівнів
+ - Можна ставити 14 дизлайків на день
+ - Можна писати 200 коментарів на день
+ - Можна завантажувати 25 конфігів на день
+ 
 Репутацію видають і забирають за участь у соціальному житті застосунку, наприклад, за отримані лайки або ж дизлайки, за написання коментарів, завантаження конфігів, бани тощо. Свій рівень репутації можна подивитися у себе в профілі! До речі, під час свят і тематичних івентів весь одержуваний досвід подвоюється.''',
     languagePl: '''
 Poziomy od -4 wzwyż:
-  - Nie można nie lubić ani polubić
-  - Możesz napisać 2 komentarze dziennie
-  - Możesz przesłać 1 konfigurację dziennie
-  - Nie możesz narzekać na komentarze innych osób,
-  konfiguracje lub lua innych osób
+ - Nie można nie lubić ani polubić
+ - Możesz napisać 2 komentarze dziennie
+ - Możesz przesłać 1 konfigurację dziennie
+ - Nie możesz narzekać na komentarze innych osób,
+ konfiguracje lub lua innych osób
 
 Poziomy od -3 do -1:
-  - Możesz opublikować 1 dislikes dziennie, nie możesz
-  opublikować likes
-  - Możesz opublikować 4 komentarze dziennie
-  - Możesz przesłać 2 konfiguracje dziennie
-  - Możesz zostawić 1 skargę dziennie na czyjeś
-  konfiguracje, lua lub komentarze
+ - Możesz opublikować 1 dislikes dziennie, nie możesz
+ opublikować likes
+ - Możesz opublikować 4 komentarze dziennie
+ - Możesz przesłać 2 konfiguracje dziennie
+ - Możesz zostawić 1 skargę dziennie na czyjeś
+ konfiguracje, lua lub komentarze
 
 Poziom 0:
-  - Możesz umieścić 2 dislikes dziennie
-  - Możesz napisać 6 komentarzy dziennie
-  - Możesz przesłać 4 konfiguracje dziennie
-  - Możesz zostawić 2 skargi dziennie dotyczące
-  cudzych konfiguracje, lua lub komentarze
+ - Możesz umieścić 2 dislikes dziennie
+ - Możesz napisać 6 komentarzy dziennie
+ - Możesz przesłać 4 konfiguracje dziennie
+ - Możesz zostawić 2 skargi dziennie dotyczące
+ cudzych konfiguracje, lua lub komentarze
 
 Poziomy od 1 do 3:
-  - Możesz opublikować 6 polubień dziennie
-  - Możesz napisać 20 komentarzy dziennie
-  - Możesz przesłać 10 konfiguracji dziennie
-  - Możesz dodać recenzję wideo do swojej konfiguracji
+ - Możesz opublikować 6 polubień dziennie
+ - Możesz napisać 20 komentarzy dziennie
+ - Możesz przesłać 10 konfiguracji dziennie
+ - Możesz dodać recenzję wideo do swojej konfiguracji
 
 Poziom 3:
-  - Możesz dodawać animowane awatary
+ - Możesz dodawać animowane awatary
 
 Poziomy 4 i 5:
-  - Ikona aktywnego użytkownika jest wyświetlana obok
-  pseudonimu użytkownik
-  - Można opublikować 10 polubień dziennie
-  - Użytkownik może napisać 50 komentarzy dziennie
-  - Można przesłać 15 konfiguracji dziennie
-  - Możesz umieścić ramkę na swoim awatarze
-
+ - Ikona aktywnego użytkownika jest wyświetlana obok
+ pseudonimu użytkownik
+ - Można opublikować 10 polubień dziennie
+ - Użytkownik może napisać 50 komentarzy dziennie
+ - Można przesłać 15 konfiguracji dziennie
+ - Możesz umieścić ramkę na swoim awatarze
+ 
 Poziom 5:
-  - Dozwolone ładowanie LUA z bieżnikiem, jednak,
-  nie bez pominięcia podstawowej kontroli
+ - Dozwolone ładowanie LUA z bieżnikiem, jednak,
+ nie bez pominięcia podstawowej kontroli
 
 Poziomy od 6 wzwyż:
-  - Wszystkie bonusy z poprzednich poziomów
-  - Możesz dać 14 polubień dziennie
-  - Możesz napisać 200 komentarzy dziennie
-  - Możesz przesłać 25 konfiguracji dziennie
-
+ - Wszystkie bonusy z poprzednich poziomów
+ - Możesz dać 14 polubień dziennie
+ - Możesz napisać 200 komentarzy dziennie
+ - Możesz przesłać 25 konfiguracji dziennie
+ 
 Reputacja jest przyznawana i odbierana za udział w życiu społecznościowym aplikacji, takim jak otrzymane polubienia lub nie, pisanie komentarzy, przesyłanie konfiguracji, bany itp. Poziom reputacji można sprawdzić w swoim profilu! Nawiasem mówiąc, podczas świąt i wydarzeń tematycznych wszystkie doświadczenia są podwojone.''',
     languageDe: '''
 Levels von -4 und höher:
-  - Sie können nicht dislikes oder likes
-  - Du kannst 2 Kommentare pro Tag schreiben
-  - Du kannst 1 Konfiguration pro Tag hochladen
-  - Du kannst dich nicht über die Kommentare anderer
-  Leute beschweren, Configs oder Lua
+ - Sie können nicht dislikes oder likes
+ - Du kannst 2 Kommentare pro Tag schreiben
+ - Du kannst 1 Konfiguration pro Tag hochladen
+ - Du kannst dich nicht über die Kommentare anderer
+ Leute beschweren, Configs oder Lua
 
 Levels von -3 bis -1:
-  - Du kannst 1 Dislikes pro Tag posten, keine Likes
-  - Du kannst 4 Kommentare pro Tag posten
-  - Du darfst 2 Configs pro Tag hochladen
-  - Du darfst 1 Beschwerde pro Tag über die
-  Konfigs, Lua oder Kommentare
+ - Du kannst 1 Dislikes pro Tag posten, keine Likes
+ - Du kannst 4 Kommentare pro Tag posten
+ - Du darfst 2 Configs pro Tag hochladen
+ - Du darfst 1 Beschwerde pro Tag über die
+ Konfigs, Lua oder Kommentare
 
 Stufe 0:
-  - Du kannst 2 Dislikes pro Tag schreiben
-  - Du kannst 6 Kommentare pro Tag schreiben
-  - Du kannst 4 Configs pro Tag hochladen
-  - Du kannst 2 Beschwerden pro Tag über andere
-  Configs, Lua oder Kommentare
+ - Du kannst 2 Dislikes pro Tag schreiben
+ - Du kannst 6 Kommentare pro Tag schreiben
+ - Du kannst 4 Configs pro Tag hochladen
+ - Du kannst 2 Beschwerden pro Tag über andere
+ Configs, Lua oder Kommentare
 
 Levels von 1 bis 3:
-  - Du kannst 6 Dislikes pro Tag posten
-  - Du kannst 20 Kommentare pro Tag schreiben
-  - Du kannst 10 Configs pro Tag hochladen
-  - Du kannst eine Videobewertung zu deiner Konfiguration
-  hinzufügen
+ - Du kannst 6 Dislikes pro Tag posten
+ - Du kannst 20 Kommentare pro Tag schreiben
+ - Du kannst 10 Configs pro Tag hochladen
+ - Du kannst eine Videobewertung zu deiner Konfiguration
+ hinzufügen
 
 Stufe 3:
-  - Du kannst animierte Avatare einfügen
+ - Du kannst animierte Avatare einfügen
 
 Stufen 4 und 5:
-  - Ein Icon des aktiven Benutzers wird neben dem
-  Nickname angezeigt Benutzer
-  - Du kannst 10 Dislikes pro Tag posten
-  - Du kannst 50 Kommentare pro Tag schreiben
-  - Du kannst 15 Configs pro Tag hochladen
-  - Du kannst einen Rahmen über Ihren Avatar legen
-
+ - Ein Icon des aktiven Benutzers wird neben dem
+ Nickname angezeigt Benutzer
+ - Du kannst 10 Dislikes pro Tag posten
+ - Du kannst 50 Kommentare pro Tag schreiben
+ - Du kannst 15 Configs pro Tag hochladen
+ - Du kannst einen Rahmen über Ihren Avatar legen
+ 
 Stufe 5:
-  - Erlaubt, LUA mit einem Profil zu laden, jedoch
-  nicht ohne die Basisprüfung zu überspringen
+ - Erlaubt, LUA mit einem Profil zu laden, jedoch
+ nicht ohne die Basisprüfung zu überspringen
 
 Levels ab 6 und höher:
-  - Alle Boni der vorherigen Levels
-  - Du kannst 14 Dislikes pro Tag vergeben
-  - Du kannst 200 Kommentare pro Tag schreiben
-  - Du kannst 25 Konfigurationen pro Tag hochladen
-
+ - Alle Boni der vorherigen Levels
+ - Du kannst 14 Dislikes pro Tag vergeben
+ - Du kannst 200 Kommentare pro Tag schreiben
+ - Du kannst 25 Konfigurationen pro Tag hochladen
+ 
 Reputation wird für die Teilnahme am sozialen Leben der App vergeben und abgezogen, z. B. für erhaltene Likes oder Dislikes, das Schreiben von Kommentaren, das Hochladen von Configs, Verbote usw. Du kannst deinen Ruf in deinem Profil sehen! Übrigens, während der Feiertage und bei thematischen Veranstaltungen werden alle Erfahrungen, die Sie machen, verdoppelt.''',
     languageIt: '''
 Livelli da -4 e inferiore:
-   - Non puoi impostare Non mi piace o Mi piace
-   - Puoi scrivere solo 2 commenti al giorno
-   - Puoi caricare solo 1 configurazione al giorno
-   - Non puoi lamentarti di quelle degli altri
-   commenti, configurazioni o lua
+ - Non puoi impostare Non mi piace o Mi piace
+ - Puoi scrivere solo 2 commenti al giorno
+ - Puoi caricare solo 1 configurazione al giorno
+ - Non puoi lamentarti di quelle degli altri
+ commenti, configurazioni o lua
 
 Livelli da -3 a -1:
-   - Puoi impostare 1 non mi piace al giorno, non puoi impostare i mi piace
-   - Puoi pubblicare solo 4 commenti al giorno
-   - Puoi caricare solo 2 configurazioni al giorno
-   - Puoi lasciare solo 1 reclamo al giorno circa
-   configurazioni, lua o commenti di qualcun altro
+ - Puoi impostare 1 non mi piace al giorno, non puoi impostare i mi piace
+ - Puoi pubblicare solo 4 commenti al giorno
+ - Puoi caricare solo 2 configurazioni al giorno
+ - Puoi lasciare solo 1 reclamo al giorno circa
+ configurazioni, lua o commenti di qualcun altro
 
 Livello 0:
-   - Puoi impostare solo 2 Non mi piace al giorno
-   - Puoi scrivere solo 6 commenti al giorno
-   - Puoi caricare solo 4 configurazioni al giorno
-   - Puoi lasciare solo 2 reclami al giorno circa
-   configurazioni, lua o commenti di qualcun altro
+ - Puoi impostare solo 2 Non mi piace al giorno
+ - Puoi scrivere solo 6 commenti al giorno
+ - Puoi caricare solo 4 configurazioni al giorno
+ - Puoi lasciare solo 2 reclami al giorno circa
+ configurazioni, lua o commenti di qualcun altro
 
 Livelli da 1 a 3:
-   - Puoi impostare solo 6 Non mi piace al giorno
-   - Puoi scrivere fino a 20 commenti al giorno
-   - Puoi caricare fino a 10 configurazioni al giorno
-   - Puoi aggiungere una recensione video alla tua configurazione
+ - Puoi impostare solo 6 Non mi piace al giorno
+ - Puoi scrivere fino a 20 commenti al giorno
+ - Puoi caricare fino a 10 configurazioni al giorno
+ - Puoi aggiungere una recensione video alla tua configurazione
 
 Livello 3:
-   - Puoi impostare avatar animati
+ - Puoi impostare avatar animati
 
 Livelli 4 e 5:
-   - Viene visualizzata l'icona dell'utente attivo
-   accanto al tuo nickname
-   - Puoi impostare una cornice per l'avatar
-   - Puoi impostare fino a 10 Non mi piace al giorno
-   - Puoi scrivere fino a 50 commenti al giorno
-   - Puoi caricare fino a 15 configurazioni al giorno
+ - Viene visualizzata l'icona dell'utente attivo
+ accanto al tuo nickname
+ - Puoi impostare una cornice per l'avatar
+ - Puoi impostare fino a 10 Non mi piace al giorno
+ - Puoi scrivere fino a 50 commenti al giorno
+ - Puoi caricare fino a 15 configurazioni al giorno
 
 Livello 5:
-   - Puoi comunque caricare LUA protetti
-   non senza saltare il controllo di base
+ - Puoi comunque caricare LUA protetti
+ non senza saltare il controllo di base
 
 Livelli da 6 in su:
-   - Tutti i bonus dei livelli precedenti
-   - Puoi impostare fino a 14 Non mi piace al giorno
-   - Puoi scrivere fino a 200 commenti al giorno
-   - Puoi caricare fino a 25 configurazioni al giorno
+ - Tutti i bonus dei livelli precedenti
+ - Puoi impostare fino a 14 Non mi piace al giorno
+ - Puoi scrivere fino a 200 commenti al giorno
+ - Puoi caricare fino a 25 configurazioni al giorno
 
 La reputazione viene data e tolta per la partecipazione alla vita sociale dell'app, ad esempio per Mi piace e Non mi piace ricevuti, scrivendo commenti, caricando configurazioni, divieti, ecc. Puoi vedere il tuo livello di reputazione nel tuo profilo! A proposito, durante le vacanze e gli eventi a tema, tutta l'esperienza che ottieni è raddoppiata.''',
     languageTr: """
 4 ve üzeri seviyeler:
-  - Beğenmeme veya beğenme ayarlayamazsınız
-  - Günde sadece 2 yorum yazabilirsiniz
-  - Günde yalnızca 1 yapılandırma yükleyebilirsiniz
-  - Başkalarının yaptıklarından şikayet edemezsin.
-  yorumlar, konfigürasyonlar veya lua
+ - Beğenmeme veya beğenme ayarlayamazsınız
+ - Günde sadece 2 yorum yazabilirsiniz
+ - Günde yalnızca 1 yapılandırma yükleyebilirsiniz
+ - Başkalarının yaptıklarından şikayet edemezsin.
+ yorumlar, konfigürasyonlar veya lua
 
 Seviyeler -3 ile -1 arasında:
-  - Günde 1 beğenmeme ayarlayabilirsiniz, beğeni ayarlayamazsınız
-  - Günde sadece 4 yorum gönderebilirsiniz
-  - Günde yalnızca 2 yapılandırma yükleyebilirsiniz
-  - Hakkında günde sadece 1 şikayet bırakabilirsiniz
-  başkasının yapılandırmaları, lua veya yorumları
+ - Günde 1 beğenmeme ayarlayabilirsiniz, beğeni ayarlayamazsınız
+ - Günde sadece 4 yorum gönderebilirsiniz
+ - Günde yalnızca 2 yapılandırma yükleyebilirsiniz
+ - Hakkında günde sadece 1 şikayet bırakabilirsiniz
+ başkasının yapılandırmaları, lua veya yorumları
 
 Seviye 0:
-  - Günde sadece 2 beğenmeme ayarlayabilirsiniz
-  - Günde sadece 6 yorum yazabilirsiniz
-  - Günde sadece 4 yapılandırma yükleyebilirsiniz
-  - Hakkında günde sadece 2 şikayet bırakabilirsiniz
-  başkasının yapılandırmaları, lua veya yorumları
+ - Günde sadece 2 beğenmeme ayarlayabilirsiniz
+ - Günde sadece 6 yorum yazabilirsiniz
+ - Günde sadece 4 yapılandırma yükleyebilirsiniz
+ - Hakkında günde sadece 2 şikayet bırakabilirsiniz
+ başkasının yapılandırmaları, lua veya yorumları
 
 1'den 3'e kadar seviyeler:
-  - Günde sadece 6 beğenmeme ayarlayabilirsiniz
-  - Günde en fazla 20 yorum yazabilirsiniz
-  - Günde en fazla 10 yapılandırma yükleyebilirsiniz
-  - Yapılandırmanıza bir video inceleme ekleyebilirsiniz
+ - Günde sadece 6 beğenmeme ayarlayabilirsiniz
+ - Günde en fazla 20 yorum yazabilirsiniz
+ - Günde en fazla 10 yapılandırma yükleyebilirsiniz
+ - Yapılandırmanıza bir video inceleme ekleyebilirsiniz
   
 Seviye 3:
-  - Animasyonlu avatarlar ayarlayabilirsiniz
+ - Animasyonlu avatarlar ayarlayabilirsiniz
 
 Seviye 4 ve 5:
-  - Aktif kullanıcının bir simgesi görüntülenir
-  takma adınızın yanında
-  - Bir avatar çerçevesi ayarlayabilirsiniz
-  - Günde en fazla 10 beğenmeme ayarlayabilirsiniz
-  - Günde en fazla 50 yorum yazabilirsiniz
-  - Günde en fazla 15 yapılandırma yükleyebilirsiniz
+ - Aktif kullanıcının bir simgesi görüntülenir
+ takma adınızın yanında
+ - Bir avatar çerçevesi ayarlayabilirsiniz
+ - Günde en fazla 10 beğenmeme ayarlayabilirsiniz
+ - Günde en fazla 50 yorum yazabilirsiniz
+ - Günde en fazla 15 yapılandırma yükleyebilirsiniz
 
 Seviye 5:
-  - Ancak korumalı LUA yükleyebilirsiniz,
-  temel kontrolü atlamadan olmaz
+ - Ancak korumalı LUA yükleyebilirsiniz,
+ temel kontrolü atlamadan olmaz
 
 6 ve üzeri seviyeler:
-  - Önceki seviyelerdeki tüm bonuslar
-  - Günde en fazla 14 beğenmeme ayarlayabilirsiniz
-  - Günde en fazla 200 yorum yazabilirsiniz
-  - Günde en fazla 25 yapılandırma yükleyebilirsiniz
+ - Önceki seviyelerdeki tüm bonuslar
+ - Günde en fazla 14 beğenmeme ayarlayabilirsiniz
+ - Günde en fazla 200 yorum yazabilirsiniz
+ - Günde en fazla 25 yapılandırma yükleyebilirsiniz
   
 İtibar, beğenme ve beğenmeme, yorum yazma, yapılandırma yükleme, yasaklama vb. gibi uygulamanın sosyal yaşamına katılım için verilir ve alınır. İtibar seviyenizi profilinizde görebilirsiniz! Bu arada, tatiller ve temalı etkinlikler sırasında, kazandığınız tüm deneyim iki katına çıkar.
 """,
     languageEs: """
 Niveles de -4 en adelante:
-  - No se puede poner dislikes ni likes
-  - Sólo puedes escribir 2 comentarios al día
-  - Sólo puedes subir 1 configuración al día
-  - No puedes quejarte de los comentarios
-  comentarios, configs o lua de otras personas
+ - No se puede poner dislikes ni likes
+ - Sólo puedes escribir 2 comentarios al día
+ - Sólo puedes subir 1 configuración al día
+ - No puedes quejarte de los comentarios
+ comentarios, configs o lua de otras personas
 
 Niveles de -3 a -1:
-  - Puedes poner 1 dislike por día, no puedes poner likes
-  - Sólo puedes publicar 4 comentarios al día
-  - Sólo puedes subir 2 configuraciones al día
-  - Sólo puedes dejar 1 queja al día sobre
-  las configuraciones, lua o comentarios de otra persona
+ - Puedes poner 1 dislike por día, no puedes poner likes
+ - Sólo puedes publicar 4 comentarios al día
+ - Sólo puedes subir 2 configuraciones al día
+ - Sólo puedes dejar 1 queja al día sobre
+ las configuraciones, lua o comentarios de otra persona
 
 Nivel 0:
-  - Puedes poner sólo 2 dislikes al día
-  - Sólo puedes escribir 6 comentarios al día
-  - Sólo puedes subir 4 configs al día
-  - Puedes dejar sólo 2 quejas al día sobre
-  configs, lua o comentarios de otra persona
+ - Puedes poner sólo 2 dislikes al día
+ - Sólo puedes escribir 6 comentarios al día
+ - Sólo puedes subir 4 configs al día
+ - Puedes dejar sólo 2 quejas al día sobre
+ configs, lua o comentarios de otra persona
 
 Niveles del 1 al 3:
-  - Puedes poner sólo 6 dislikes por día
-  - Puedes escribir hasta 20 comentarios al día
-  - Puedes subir hasta 10 configs al día
-  - Puedes añadir una reseña en vídeo a tu config
+ - Puedes poner sólo 6 dislikes por día
+ - Puedes escribir hasta 20 comentarios al día
+ - Puedes subir hasta 10 configs al día
+ - Puedes añadir una reseña en vídeo a tu config
   
 Nivel 3:
-  - Puedes poner avatares animados
+ - Puedes poner avatares animados
 
 Niveles 4 y 5:
-  - Se muestra un icono del usuario activo
-  junto a su alias
-  - Puedes establecer un marco para el avatar
-  - Puedes poner hasta 10 dislikes al día
-  - Puedes escribir hasta 50 comentarios al día
-  - Puedes subir hasta 15 configuraciones al día
+ - Se muestra un icono del usuario activo
+ junto a su alias
+ - Puedes establecer un marco para el avatar
+ - Puedes poner hasta 10 dislikes al día
+ - Puedes escribir hasta 50 comentarios al día
+ - Puedes subir hasta 15 configuraciones al día
 
 Nivel 5:
-  - Puedes subir LUA protegidos
-  no sin saltarse la comprobación básica
+ - Puedes subir LUA protegidos
+ no sin saltarse la comprobación básica
 
 Niveles del 6 en adelante:
-  - Todas las bonificaciones de los niveles anteriores
-  - Puedes poner hasta 14 dislikes al día
-  - Puedes escribir hasta 200 comentarios al día
-  - Puedes subir hasta 25 configuraciones al día
+ - Todas las bonificaciones de los niveles anteriores
+ - Puedes poner hasta 14 dislikes al día
+ - Puedes escribir hasta 200 comentarios al día
+ - Puedes subir hasta 25 configuraciones al día
   
 La reputación se da y se quita por la participación en la vida social de la aplicación, como por ejemplo por recibir me gusta y no me gusta, escribir comentarios, subir configuraciones, baneos, etc. Puedes ver tu nivel de reputación en tu perfil. Por cierto, durante las vacaciones y los eventos temáticos, toda la experiencia que consigas se duplica
 """,
     languageCn: """
 级别为 -4 及以上：
-  - 您不能设置 "不喜欢 "或 "喜欢"。
-  - 每天只能写 2 条评论
-  - 每天只能上传 1 个配置
-  - 不能抱怨他人的
-  评论、配置或 lua
+ - 您不能设置 "不喜欢 "或 "喜欢"。
+ - 每天只能写 2 条评论
+ - 每天只能上传 1 个配置
+ - 不能抱怨他人的
+ 评论、配置或 lua
 
 级别从 -3 到 -1：
-  - 每天只能设置 1 个 "不喜欢"，不能设置 "喜欢"。
-  - 每天只能发表 4 条评论
-  - 每天只能上传 2 个配置
-  - 每天只能对
-  他人的配置、lua 或评论
+ - 每天只能设置 1 个 "不喜欢"，不能设置 "喜欢"。
+ - 每天只能发表 4 条评论
+ - 每天只能上传 2 个配置
+ - 每天只能对
+ 他人的配置、lua 或评论
 
 0 级：
-  - 每天只能设置 2 个 "不喜欢"。
-  - 每天只能写 6 条评论
-  - 每天只能上传 4 个配置
-  - 每天只能对
-  别人的配置、lua 或评论留言
+ - 每天只能设置 2 个 "不喜欢"。
+ - 每天只能写 6 条评论
+ - 每天只能上传 4 个配置
+ - 每天只能对
+ 别人的配置、lua 或评论留言
 
 1 至 3 级：
-  - 每天只能设置 6 个 "不喜欢"。
-  - 每天最多可以写 20 条评论
-  - 每天最多可上传 10 个配置
-  - 您可以为您的配置添加视频评论
+ - 每天只能设置 6 个 "不喜欢"。
+ - 每天最多可以写 20 条评论
+ - 每天最多可上传 10 个配置
+ - 您可以为您的配置添加视频评论
   
 第 3 级：
-  - 您可以设置动画头像
+ - 您可以设置动画头像
 
 第 4 级和第 5 级：
-  - 活跃用户的图标会显示在
-  在您的昵称旁边
-  - 您可以设置头像框架
-  - 每天最多可设置 10 个 "不喜欢"。
-  - 每天最多可写 50 条评论
-  - 每天最多可上传 15 个配置
+ - 活跃用户的图标会显示在
+ 在您的昵称旁边
+ - 您可以设置头像框架
+ - 每天最多可设置 10 个 "不喜欢"。
+ - 每天最多可写 50 条评论
+ - 每天最多可上传 15 个配置
 
 第 5 级：
-  - 但您可以上传受保护的 LUA、
-  但不能跳过基本检查
+ - 但您可以上传受保护的 LUA、
+ 但不能跳过基本检查
 
 6 级及以上：
-  - 前几级的所有奖励
-  - 每天最多可设置 14 个 "不喜欢"。
-  - 每天最多可写 200 条评论
-  - 每天最多可上传 25 个配置
+ - 前几级的所有奖励
+ - 每天最多可设置 14 个 "不喜欢"。
+ - 每天最多可写 200 条评论
+ - 每天最多可上传 25 个配置
   
 声望会因参与应用程序的社交活动而产生或消失，例如收到赞和不赞、撰写评论、上传配置、禁言等。您可以在个人档案中查看自己的声望等级！另外，在节假日和主题活动期间，您获得的所有经验都会翻倍、
 """,
@@ -14102,9 +12725,9 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEn:
         "You have already gained {experience} to your next reputation level!",
     languageRu:
-        'Вы набрали уже {experience} опыта до следующего уровня репутации!',
+        'Ты набрал уже {experience} опыта до следующего уровня репутации!',
     languageUa:
-        "Ви набрали вже {experience} досвіду до наступного рівня репутації!",
+        "Ти набрав вже {experience} досвіду до наступного рівня репутації!",
     languagePl: 'Zdobyłeś już {experience} na kolejny poziom reputacji!',
     languageDe:
         'Sie haben bereits {experience} gesammelt, um die nächste Reputationsstufe zu erreichen!',
@@ -14437,6 +13060,36 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs: "Abrir la videoguía",
     languageCn: "打开视频指南",
   },
+  'ViewTextGuide': {
+    languageEn: "Open the text guide",
+    languageRu: 'Показать текстовую инструкцию',
+    languageUa: 'Показати текстову інструкцію',
+    languagePl: 'Pokaż instrukcje tekstowe',
+    languageDe: "Textanweisungen anzeigen",
+    languageIt: 'Mostra istruzioni di testo',
+    languageTr: "Metin talimatlarını göster",
+    languageEs: "Mostrar instrucciones de texto",
+    languageCn: "显示文字说明",
+  },
+  'VideoGuideDescription': {
+    languageEn:
+        "Video guide that shows how to launch or how to use this modification:",
+    languageRu:
+        'Видео-инструкция по запуску или же использованию этой модификации:',
+    languageUa:
+        'Відео-інструкція із запуску або ж використання цієї модифікації:',
+    languagePl:
+        'Instrukcje wideo dotyczące uruchamiania lub korzystania z tej modyfikacji:',
+    languageDe:
+        "Video-Anleitung für den Start oder die Verwendung dieser Modifikation:",
+    languageIt:
+        'Istruzioni video su come avviare o utilizzare questa modifica:',
+    languageTr:
+        "Bu modifikasyonun nasıl başlatılacağı veya kullanılacağı hakkında video talimatı:",
+    languageEs:
+        "Instrucciones en vídeo sobre cómo iniciar o utilizar esta modificación:",
+    languageCn: "关于如何启动或使用此改装的视频指导：",
+  },
   'UpdateObject': {
     languageEn: "Notification about an update of",
     languageRu: 'Уведомить об обновлении',
@@ -14719,7 +13372,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
   },
   'IDoNotKnowTheUpdateLink': {
     languageEn:
-        "This mod has just stopped working after the last game update and I want to report it!",
+        "This mod has just stopped working after the lastest game update and I want to report it!",
     languageRu:
         'Мод просто перестал работать после последнего обновления игры и я хочу об этом сообщить!',
     languageUa:
@@ -14799,22 +13452,22 @@ La reputación se da y se quita por la participación en la vida social de la ap
   },
   'NoComments': {
     languageEn:
-        "It looks like that no one has added a single review for this CFG/LUA yet. You can be the first one to do it!",
+        "It looks like that no one has added a single review for this mod, cfg or lua yet. You can be the first one to do it!",
     languageRu:
-        'Похоже, что ещё никто не добавил свой отзыв к этому кфг/луа. Ты можешь стать первым!',
+        'Похоже, что ещё никто не добавил свой отзыв к этому моду, кфг или же луа. Ты можешь стать первым!',
     languageUa:
-        "Схоже, що ще ніхто не додав свій відгук до цього кфг/луа. Ти можеш стати першим!",
+        "Схоже, що ще ніхто не додав свій відгук до цього моду, кфг або луа. Ти можеш стати першим!",
     languagePl:
-        'Wygląda na to, że nikt jeszcze nie dodał swojej recenzji dla tego cfg/lua. Możesz być pierwszy!',
+        'Wygląda na to, że nikt jeszcze nie dodał swojej recenzji dla tego modu, cfg lub lua. Możesz być pierwszy!',
     languageDe:
-        "Sieht so aus, als hätte noch niemand seine Bewertung für diese cfg/lua abgegeben. Sie können der Erste sein!",
+        "Sieht so aus, als hätte noch niemand seine Bewertung für diese mod, cfg oder lua abgegeben. Sie können der Erste sein!",
     languageIt:
-        'Sembra che nessuno abbia ancora fornito la propria recensione per questo cfg/lua. Potresti essere il primo!',
+        'Sembra che nessuno abbia ancora aggiunto una singola recensione per questa mod, cfg o lua. Puoi essere il primo a farlo!',
     languageTr:
-        "Görünüşe göre henüz kimse bu CFG/LUA için bir yorumda bulunmamış. Bunu yapan ilk kişi siz olabilirsiniz!",
+        "Görünüşe göre henüz kimse bu mod, cfg veya lua için tek bir yorum eklememiş. Bunu yapan ilk kişi siz olabilirsiniz!",
     languageEs:
-        "Parece que nadie ha añadido aún una reseña para este CFG/LUA. ¡Puedes ser el primero en hacerlo!",
-    languageCn: "看起来还没有人对此 CFG/LUA 进行评论。您可以成为第一个这样做的人！",
+        "Parece que nadie ha añadido una sola revisión para este mod, cfg o lua todavía. ¡Puedes ser el primero en hacerlo!",
+    languageCn: "看起来还没有人对此 mod、cfg 或 lua 进行评论。您可以成为第一个这样做的人！",
   },
   'ReconnectionSucceeded': {
     languageEn:
@@ -14897,24 +13550,13 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs: "No añadir ningún archivo a las exclusiones del antivirus",
     languageCn: "完全不在杀毒软件排除项中添加任何文件",
   },
-  'SwipeOrScroll': {
-    languageEn: 'Scroll or swipe down to see more!',
-    languageRu: 'Прокрути или свайпни, чтобы увидеть больше!',
-    languageUa: 'Прокрути або свайпни, щоб побачити більше!',
-    languagePl: 'Przewiń lub przesuń, aby zobaczyć więcej!',
-    languageDe: 'Scrollen oder wischen Sie, um mehr zu sehen!',
-    languageIt: 'Scorri per vedere di più!',
-    languageTr: "Daha fazlasını görmek için kaydırın veya aşağı kaydırın!",
-    languageEs: "Desplácese o deslice el dedo hacia abajo para ver más.",
-    languageCn: "滚动或向下滑动可查看更多内容！",
-  },
   'PopularInSeason': {
     languageEn: "Popular within season",
     languageRu: 'Популярные за сезон',
     languageUa: 'Популярні за сезон',
     languagePl: 'Popularne w tym sezonie',
     languageDe: 'Beliebt für die Saison',
-    languageIt: 'Popolare durante la stagione',
+    languageIt: 'Popolare in stagione',
     languageTr: "Sezon içinde popüler",
     languageEs: "Popular en temporada",
     languageCn: "季节内受欢迎",
@@ -14929,7 +13571,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languagePl:
         'Opcje są napisane w języku angielskim, ponieważ są przeznaczone dla osób, które je rozumieją. Jeśli nie wiesz nic o tych opcjach, lepiej ich nie dotykaj! Opcje są resetowane po ponownym uruchomieniu aplikacji i mają zastosowanie tylko do wstrzykiwania własnych modów z odpowiedniej sekcji (prawie wszystkie).',
     languageDe:
-        "Die Optionen sind in englischer Sprache verfasst, da sie für Menschen gedacht sind, die sie verstehen. Wenn Sie nichts über diese Optionen wissen, ist es besser, sie nicht zu berühren! Die Optionen werden beim Neustart der Anwendung zurückgesetzt und gelten nur für das Einfügen Ihrer eigenen Mods aus dem entsprechenden Abschnitt.",
+        "Die Optionen sind in englischer Sprache verfasst, da sie für Menschen gedacht sind, die sie verstehen. Wenn Sie nichts über diese Optionen wissen, ist es besser, sie nicht zu berühren! Die Optionen werden beim Neustart der Anwendung zurückgesetzt und gelten nur für das Einfügen Ihrer eigenen Mods aus dem entsprechenden Abschnitt (fast alle).",
     languageIt:
         'Queste opzioni sono create per le persone che capiscono qualcosa nella mappatura delle librerie. Se non sai nulla di queste opzioni, è meglio non toccarle affatto! Le opzioni vengono ripristinate con il riavvio dell`applicazione e applicano solo la mappatura delle tue mod dalla sezione corrispondente.',
     languageTr:
@@ -14968,5 +13610,239 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Con esta opción de clasificación, sólo verá los comentarios que se hayan escrito en los últimos 45 días. Para ver todos los comentarios, seleccione cualquier otra opción de clasificación.",
     languageCn: "使用该排序选项，您只能看到最近 45 天内撰写的评论！要查看所有评论，请选择其他排序选项。",
+  },
+  'DownloadLinksCanBeFoundInTheLibrary': {
+    languageEn:
+        "Download links for this pirated version of the game are available in the ExLoader library, where all the mods for {game} are located!",
+    languageRu:
+        'Ссылки на скачивание этой самой пиратской версии игры доступны в библиотеке ExLoader, там, где расположены все моды для {game}!',
+    languageUa:
+        'Посилання на скачування цієї самої піратської версії гри доступні в бібліотеці ExLoader, там, де розташовані всі моди для {game}!',
+    languagePl:
+        'Linki do pobrania tej pirackiej wersji gry są dostępne w bibliotece ExLoader, gdzie znajdują się wszystkie mody do {game}!',
+    languageDe:
+        'Download-Links für diese sehr raubkopierte Version des Spiels sind in der ExLoader-Bibliothek verfügbar, wo sich alle Mods für {game} befinden!',
+    languageIt:
+        "I link per il download di questa versione pirata del gioco sono disponibili nella libreria ExLoader, dove si trovano tutte le mod per {game}!",
+    languageTr:
+        "Oyunun bu korsan sürümü için indirme bağlantıları, {game} için tüm modların bulunduğu ExLoader kütüphanesinde mevcuttur!",
+    languageEs:
+        "Los enlaces de descarga para esta versión pirata del juego están disponibles en la biblioteca ExLoader, ¡donde se encuentran todos los mods para {game}!",
+    languageCn: "此盗版游戏的下载链接可在 ExLoader 库中找到，{game} 的所有修改器都位于此库中！",
+  },
+  'DownloadLinksCanBeFoundInTheInternet': {
+    languageEn:
+        "Download links for this pirated version of the game can be found in YouTube or with any search engine in the internet, that's not that hard!",
+    languageRu:
+        'Ссылки на скачивание этой самой пиратской версии игры ты можешь найти в YouTube или же в поисковике своего браузера, это не сложно!',
+    languageUa:
+        'Посилання на скачування цієї самої піратської версії гри ти можеш знайти в YouTube або ж у пошуковику свого браузера, це не складно!',
+    languagePl:
+        'Linki do pobrania tej bardzo pirackiej wersji gry można znaleźć na YouTube lub w wyszukiwarce przeglądarki, nie jest to trudne!',
+    languageDe:
+        'Sie können Links zum Herunterladen dieser sehr raubkopierten Version des Spiels auf YouTube oder in Ihrer Browser-Suchmaschine finden, es ist nicht schwer',
+    languageIt:
+        "I link per il download di questa versione pirata del gioco possono essere trovati su YouTube o con qualsiasi motore di ricerca in internet, non è così difficile!",
+    languageTr:
+        "Oyunun bu korsan sürümü için indirme bağlantıları YouTube'da veya internetteki herhangi bir arama motorunda bulunabilir, bu o kadar da zor değil!",
+    languageEs:
+        "Los enlaces de descarga de esta versión pirata del juego se pueden encontrar en YouTube o con cualquier buscador de internet, ¡no es tan difícil!",
+    languageCn: "这种盗版游戏的下载链接可以在 YouTube 或互联网上的任何搜索引擎上找到，并不难！",
+  },
+  'LookForModsVersions': {
+    languageEn:
+        "When choosing a version of the pirate client, focus on those versions that are supported by this modification: {versions}.",
+    languageRu:
+        'При выборе версии пиратского клиента ориентируйся на те версии, которые поддерживаются модификацией: {versions}.',
+    languageUa:
+        'Під час вибору версії піратського клієнта орієнтуйся на ті версії, які підтримуються модифікацією: {versions}.',
+    languagePl:
+        'Wybierając wersję pirackiego klienta, należy skupić się na tych wersjach, które są obsługiwane przez modyfikację: {versions}.',
+    languageDe:
+        'Bei der Auswahl einer Version des Piratenclients sollten Sie sich auf die Versionen konzentrieren, die von der Modifikation unterstützt werden: {versions}.',
+    languageIt:
+        "Quando si sceglie una versione del client pirata, concentrarsi sulle versioni supportate da questa modifica: {versions}.",
+    languageTr:
+        "Korsan istemcinin bir sürümünü seçerken, bu değişiklik tarafından desteklenen sürümlere odaklanın: {versions}.",
+    languageEs:
+        "Cuando elija una versión del cliente pirata, céntrese en las versiones compatibles con esta modificación: {versions}.",
+    languageCn: "在选择盗版客户端版本时，请关注本修改支持的版本：{versions}。",
+  },
+  'ThereMightBeAnAntivirusIssue': {
+    languageEn:
+        "It seems that during the last launch of one of the modifications you encountered an ExLoader crash. Most likely, this happened due to some antivirus software that prevents modifications from being launched. In this situation, the only solution to the problem is to completely remove those antiviruses that could affect it. Note, the removal of antivirus should be done from the Windows Control Panel, not with the help of some third-party utilities.\n\nIf you have already uninstalled all interfering antiviruses, but the problem persists, try to download the «Antivirus name uninstall tool» until on the official website of the antivirus, and uninstall this software with it!\n\nYou can just skip this error using the button below!",
+    languageRu:
+        'Похоже, что во время прошлого запуска одной из модификации ты столкнулся с вылетом ExLoader. Вероятнее всего, это связано с каким-то антивирусом, который мешает запуску модификаций. В данной ситуации единственным решением проблемы таких вылетов является полное удаление тех антивирусов, которые могли на это повлиять. Обрати внимание, удаление антивируса необходимо выполнять из панели управления Windows, а не с помощью каких-то сторонних утилит.\n\nЕсли ты уже удалил все мешающие антивирусы, но проблема сохранилась, попробуй скачать утилиту «Название антивируса uninstall tool» на официальном сайте антивируса, и удалить данное ПО с помощью неё!\n\nЕсли что, эту ошибку можно просто пропустить с помощью кнопки ниже!',
+    languageUa:
+        "Схоже, що під час минулого запуску однієї з модифікацій ти зіткнувся з вильотом ExLoader. Найімовірніше, це пов'язано з якимось антивірусом, який заважає запуску модифікацій. У цій ситуації єдиним вирішенням проблеми таких вильотів є повне видалення тих антивірусів, які могли на це вплинути. Зверни увагу, видалення антивірусу необхідно виконувати з панелі керування Windows, а не за допомогою якихось сторонніх утиліт.\n\nЯкщо ти вже видалив усі антивіруси, що заважають, але проблема збереглася, спробуй завантажити утиліту «Назва антивірусу uninstall tool» на офіційному сайті антивірусу та видалити це ПЗ за допомогою неї!\n\nЦю помилку можна просто пропустити за допомогою кнопки нижче!",
+    languagePl:
+        'Wygląda na to, że podczas ostatniego uruchomienia jednej z modyfikacji wystąpiła awaria programu ExLoader. Najprawdopodobniej jest to spowodowane przez jakiś program antywirusowy, który uniemożliwia uruchomienie modyfikacji. W tej sytuacji, jedynym rozwiązaniem problemu takich dropoutów jest całkowite usunięcie tych antywirusów, które mogą mieć na to wpływ. Uwaga, usuwanie programów antywirusowych powinno odbywać się z poziomu Panelu sterowania systemu Windows, a nie za pomocą narzędzi innych firm.\n\nJeśli odinstalowałeś już wszystkie przeszkadzające programy antywirusowe, ale problem nadal występuje, spróbuj pobrać narzędzie «Antivirus nazwa uninstall tool» na oficjalnej stronie programu antywirusowego i odinstaluj to oprogramowanie za jego pomocą!\n\nW razie czego, możesz po prostu pominąć ten błąd za pomocą przycisku poniżej!',
+    languageDe:
+        'Es scheint, dass Sie bei der letzten Ausführung einer der Modifikationen einen ExLoader-Absturz erlitten haben. Höchstwahrscheinlich ist dies auf ein Antivirenprogramm zurückzuführen, das die Ausführung von Modifikationen verhindert. In dieser Situation besteht die einzige Lösung für das Problem solcher Aussetzer darin, die Antivirenprogramme, die es beeinflussen könnten, vollständig zu entfernen. Beachten Sie, dass die Entfernung von Antivirenprogrammen über die Systemsteuerung von Windows erfolgen sollte, nicht mit Hilfe von Dienstprogrammen Dritter.\n\nWenn Sie bereits alle störenden Antivirenprogramme deinstalliert haben, das Problem aber weiterhin besteht, versuchen Sie, das Hilfsprogramm «Antivirus name uninstall tool» auf der offiziellen Website des Antivirenprogramms herunterzuladen, und deinstallieren Sie diese Software damit!\n\nWenn nicht, können Sie diesen Fehler mit der unten stehenden Schaltfläche einfach übergehen!',
+    languageIt:
+        "Sembra che durante l'ultimo lancio di una delle modifiche si sia verificato un arresto anomalo di ExLoader. Molto probabilmente ciò è avvenuto a causa di un software antivirus che impedisce l'avvio delle modifiche. In questa situazione, l'unica soluzione al problema è rimuovere completamente gli antivirus che potrebbero influire. Si noti che la rimozione degli antivirus deve essere eseguita dal Pannello di controllo di Windows, non con l'aiuto di alcune utility di terze parti.\n\nSe avete già disinstallato tutti gli antivirus che interferiscono, ma il problema persiste, provate a scaricare lo «Strumento di disinstallazione del nome dell'antivirus» fino al sito ufficiale dell'antivirus, e disinstallate questo software con esso!\n\nPotete evitare questo errore utilizzando il pulsante qui sotto!",
+    languageTr:
+        "Görünüşe göre değişikliklerden birinin son başlatılması sırasında bir ExLoader çökmesiyle karşılaştınız. Büyük olasılıkla bu, değişikliklerin başlatılmasını engelleyen bazı antivirüs yazılımları nedeniyle meydana geldi. Bu durumda, sorunun tek çözümü, onu etkileyebilecek antivirüsleri tamamen kaldırmaktır. Antivirüsün kaldırılmasının bazı üçüncü taraf yardımcı programların yardımıyla değil, Windows Denetim Masası'ndan yapılması gerektiğini unutmayın.\n\nMüdahale eden tüm antivirüsleri zaten kaldırdıysanız, ancak sorun devam ediyorsa, antivirüsün resmi web sitesine kadar «Antivirüs adı kaldırma aracını» indirmeyi deneyin ve bu yazılımı onunla kaldırın!\n\nAşağıdaki düğmeyi kullanarak bu hatayı atlayabilirsiniz!",
+    languageEs:
+        "Parece que durante el último lanzamiento de una de las modificaciones te encontraste con un fallo de ExLoader. Lo más probable es que esto haya sucedido debido a algún software antivirus que impide el lanzamiento de las modificaciones. En esta situación, la única solución al problema es eliminar completamente aquellos antivirus que pudieran afectarlo. Nota, la eliminación de antivirus debe hacerse desde el Panel de Control de Windows, no con la ayuda de algunas utilidades de terceros.\n\nSi ya has desinstalado todos los antivirus que interferían, pero el problema persiste, intenta descargar la «Herramienta de desinstalación del nombre del antivirus» hasta en la página oficial del antivirus, y desinstala este software con ella.\n\n¡Puede omitir este error utilizando el botón de abajo!",
+    languageCn:
+        "似乎在上次启动某个修改时，您遇到了 ExLoader 崩溃。很有可能是因为某些杀毒软件阻止了修改的启动。在这种情况下，解决问题的唯一办法就是彻底清除那些可能对其产生影响的杀毒软件。请注意，应在 Windows 控制面板中删除杀毒软件，而不是借助某些第三方实用程序。\n\n如果已经卸载了所有干扰的杀毒软件，但问题仍然存在，请尝试在杀毒软件的官方网站上下载 «杀毒软件名称卸载工具»，并用它卸载该软件！ 您可以使用下面的按钮跳过此错误！",
+  },
+  'NextCheckWithin': {
+    languageEn: "The next game settings check is within",
+    languageRu: 'Следующая проверка игры через',
+    languageUa: 'Наступна перевірка гри через',
+    languagePl: 'Następny test gry przez',
+    languageDe: 'Der nächste Spieltest durch',
+    languageIt: "Il prossimo playtest attraverso",
+    languageTr: "Bir sonraki oyun ayarları kontrolü",
+    languageEs: "La próxima prueba de juego a través de",
+    languageCn: "下一次游戏设置检查在",
+  },
+  'GameMustBeMaximizedWhenCheckIsBeingDone': {
+    languageEn:
+        "The game window must be maximized and opened when progress bar is about to be filled for game parameters check!",
+    languageRu:
+        'Окно игры должно быть развёрнутым и открытым во время проверки параметров игры!',
+    languageUa:
+        'Вікно гри має бути розгорнуте до максимуму і відкрите, коли індикатор прогресу буде заповнений для перевірки параметрів гри!',
+    languagePl:
+        'Okno gry musi być zmaksymalizowane i otwarte, gdy pasek postępu ma zostać wypełniony w celu sprawdzenia parametrów gry!',
+    languageDe:
+        'Das Spielfenster muss maximiert und geöffnet sein, wenn der Fortschrittsbalken für die Überprüfung der Spielparameter gefüllt werden soll!',
+    languageIt:
+        "La finestra di gioco deve essere massimizzata e aperta quando la barra di avanzamento sta per essere riempita per il controllo dei parametri di gioco!",
+    languageTr:
+        "Oyun parametrelerinin kontrolü için oyun penceresi büyütülmeli ve ilerleme çubuğu dolmak üzereyken açılmalıdır!",
+    languageEs:
+        "La ventana del juego debe maximizarse y abrirse cuando la barra de progreso esté a punto de llenarse para comprobar los parámetros del juego.",
+    languageCn: "游戏窗口必须最大化，并在进度条即将填满时打开，以便检查游戏参数！",
+  },
+  'Unknown': {
+    languageEn: 'Unknown',
+    languageRu: 'Неизвестно',
+    languageUa: 'Невідомо',
+    languagePl: 'Nieznany',
+    languageDe: "Unbekannt",
+    languageIt: "Sconosciuto",
+    languageTr: "Bilinmiyor",
+    languageEs: "Desconocido",
+    languageCn: "未知",
+  },
+  'MirrorBackground': {
+    languageEn: 'Mirror selected background image',
+    languageRu: 'Отзеркаливать картинку заднего фона',
+    languageUa: 'Віддзеркалювати картинку заднього фону',
+    languagePl: 'Aby wykonać odbicie lustrzane obrazu tła',
+    languageDe: "So spiegeln Sie das Hintergrundbild",
+    languageIt: "Specchia l'immagine di sfondo selezionata",
+    languageTr: "Seçilen arka plan görüntüsünü yansıtma",
+    languageEs: "Reflejar la imagen de fondo seleccionada",
+    languageCn: "镜像所选背景图片",
+  },
+  'MirrorBackgroundDescription': {
+    languageEn:
+        'Selected image will be reversed from left to right or vice versa, depending on whether this option is enabled or not',
+    languageRu:
+        'Выбранная картинка будет перевёрнута слева на право или же наоборот, в зависимости от включенности данной опции',
+    languageUa:
+        'Обрана картинка буде перевернута зліва на право або ж навпаки, залежно від увімкнення цієї опції',
+    languagePl:
+        'Wybrane zdjęcie zostanie odwrócone od lewej do prawej lub odwrotnie, w zależności od tego, czy opcja ta jest włączona',
+    languageDe:
+        "Das ausgewählte Bild wird von links nach rechts oder umgekehrt gedreht, je nachdem, ob diese Option aktiviert ist oder nicht",
+    languageIt:
+        "L'immagine selezionata verrà invertita da sinistra a destra o viceversa, a seconda che l'opzione sia abilitata o meno.",
+    languageTr:
+        "Seçilen görüntü, bu seçeneğin etkin olup olmamasına bağlı olarak soldan sağa veya tam tersi şekilde ters çevrilecektir",
+    languageEs:
+        "La imagen seleccionada se invertirá de izquierda a derecha o viceversa, dependiendo de si esta opción está activada o no.",
+    languageCn: "所选图像将从左到右反转，反之亦然，取决于是否启用该选项",
+  },
+  'StartScrollingToLoadComments': {
+    languageEn: 'Start scrolling to load comments',
+    languageRu: 'Проскролль вниз, чтобы загрузить комментарии',
+    languageUa: 'Проскрольте вниз, щоб завантажити коментарі',
+    languagePl: 'Rozpocznij przewijanie, aby załadować komentarze',
+    languageDe: "Starten Sie den Bildlauf, um Kommentare zu laden",
+    languageIt: "Iniziare a scorrere per caricare i commenti",
+    languageTr: "Yorumları yüklemek için kaydırmaya başlayın",
+    languageEs: "Empiece a desplazarse para cargar los comentarios",
+    languageCn: "开始滚动以加载评论",
+  },
+  'PlaytimeSort': {
+    languageEn: 'By the total played time',
+    languageRu: 'По наигранному времени',
+    languageUa: 'За награним часом',
+    languagePl: "Jeśli chodzi o czas gry",
+    languageDe: "Nach Spielzeit",
+    languageIt: "Per il tempo totale di gioco",
+    languageTr: "Toplam oyun süresine göre",
+    languageEs: "Por el tiempo total jugado",
+    languageCn: "按总播放时间计算",
+  },
+  'LastLaunchSort': {
+    languageEn: 'By the date of the last launch',
+    languageRu: 'По дате последнего запуска',
+    languageUa: 'За датою останнього запуску',
+    languagePl: "Według daty ostatniego uruchomienia",
+    languageDe: "Nach dem letzten Startdatum",
+    languageIt: "Entro la data dell'ultimo lancio",
+    languageTr: "Son fırlatma tarihine kadar",
+    languageEs: "En la fecha del último lanzamiento",
+    languageCn: "最后一次发射日期",
+  },
+  'LaunchesSort': {
+    languageEn: 'By the number of launches',
+    languageRu: 'По количеству запусков',
+    languageUa: 'За кількістю запусків',
+    languagePl: "Według liczby uruchomień",
+    languageDe: "Nach Anzahl der Starts",
+    languageIt: "Per il numero di lanci",
+    languageTr: "Fırlatma sayısına göre",
+    languageEs: "Por el número de lanzamientos",
+    languageCn: "按发射次数",
+  },
+  'MaybeVideoIsDeleted': {
+    languageEn: 'This video may have already been deleted!',
+    languageRu: 'Возможно это видео уже удалено!',
+    languageUa: 'Можливо це відео вже видалено!',
+    languagePl: "To wideo mogło już zostać usunięte!",
+    languageDe: "Dieses Video kann bereits gelöscht worden sein!",
+    languageIt: "Questo video potrebbe essere già stato cancellato!",
+    languageTr: "Bu video çoktan silinmiş olabilir!",
+    languageEs: "Puede que este vídeo ya se haya eliminado.",
+    languageCn: "该视频可能已被删除！",
+  },
+  'PleaseTellUsWhatIsWrong': {
+    languageEn:
+        'Describe the exact issue that happened with this mod in "{textishere}" column!',
+    languageRu:
+        'Опиши, что конкретно перестало работать или же сломалось в графе "{textishere}"!',
+    languageUa:
+        'Напиши, що конкретно перестало працювати або ж зламалося в графі "{textishere}"!',
+    languagePl:
+        'Napisz, co dokładnie przestało działać lub się zepsuło w kolumnie "{textishere}"!',
+    languageDe:
+        'Schreiben Sie in die Spalte "{textishere}", was genau nicht mehr funktioniert oder kaputt ist!',
+    languageIt:
+        'Descrivi il problema esatto che si è verificato con questa mod nella colonna "{textishere}"!',
+    languageTr:
+        'Bu modda meydana gelen sorunu "{textishere}" sütununda tam olarak açıklayın!',
+    languageEs:
+        'Describa el problema exacto que ha tenido con este mod en la columna "{textishere}".',
+    languageCn: '在 "{textishere}" 栏中描述此修改器发生的确切问题！',
+  },
+  'RecentReviewsDescription': {
+    languageEn: 'List of all recent reviews for all modifications',
+    languageRu: 'Список последних комментариев ко всем модификациям',
+    languageUa: 'Список останніх коментарів до всіх модифікацій',
+    languagePl: "Lista ostatnich komentarzy do wszystkich modyfikacji",
+    languageDe: "Liste der jüngsten Kommentare zu allen Änderungen",
+    languageIt: "Elenco di tutte le recensioni recenti per tutte le modifiche",
+    languageTr: "Tüm değişiklikler için son incelemelerin listesi",
+    languageEs:
+        "Lista de todas las revisiones recientes de todas las modificaciones",
+    languageCn: "所有修改的最新审查清单",
   },
 };
