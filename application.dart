@@ -2099,25 +2099,6 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Notificaciones sobre el estado de las reclamaciones",
     languageCn: "有关投诉状态的通知",
   },
-  'NotificationsAboutComplaintsDescriptionEasyGames': {
-    languageEn:
-        "The result of reviewing your complaints about comments, profiles and other places will be sent to your notifications",
-    languageRu:
-        'Результат проверки твоих жалоб на комментарии, профили и другие места будет отправлен тебе в уведомления',
-    languageUa:
-        'Результат перевірки твоїх скарг на коментарі, профілі та інші місця буде надіслано тобі в сповіщення',
-    languagePl:
-        'O wyniku sprawdzenia Twoich reklamacji dotyczących komentarzy, profili i innych miejsc zostaniesz poinformowany',
-    languageDe:
-        "Das Ergebnis der Überprüfung Ihrer Beschwerden über Kommentare, Profile und andere Stellen wird Ihnen mitgeteilt",
-    languageIt:
-        'Il risultato dell`esame dei tuoi reclami su commenti, profili e altre cose verrà inviato alle tue notifiche',
-    languageTr:
-        "Yorumlar, profiller ve diğer yerler hakkındaki şikayetlerinizin inceleme sonucu bildirimlerinize gönderilecektir",
-    languageEs:
-        "El resultado de la revisión de sus quejas sobre comentarios, perfiles y otros lugares se enviará a sus notificaciones",
-    languageCn: "您对评论、简介和其他地方的投诉的审查结果将发送到您的通知中",
-  },
   'NotificationsAboutComplaintsDescription': {
     languageEn:
         "The result of reviewing of your complaints about configurations, LUA or comments will be sent to your notifications",
@@ -3086,23 +3067,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'FailedToLaunchTheModification': {
     languageEn:
-        "An unexpected error has occurred during modification's launch process. Try changing modification's injection method in ExLoader settings, or test the launch of some other modification. The list of available modifications for each injection method can be viewed in the application settings!",
+        "An unexpected error has occurred during modification's launch process. Try changing modification's injection method in ExLoader settings, or test the launch of some other modification. The list of available modifications for each injection method can be viewed in the application settings!\n\nIf the problem persists, write to our support, attaching screenshots from the log file, which you can view using the button below!",
     languageRu:
-        'В ходе запуска модификации произошла непредвиденная ошибка. Попробуй изменить способ инъекции модификаций в настройках ExLoader или же протестируй запуск какой-нибудь другой модификации. Список доступных модификаций под каждый способ инъекции можно посмотреть в настройках приложения!',
+        'В ходе запуска модификации произошла непредвиденная ошибка. Попробуй изменить способ инъекции модификаций в настройках ExLoader или же протестируй запуск какой-нибудь другой модификации. Список доступных модификаций под каждый способ инъекции можно посмотреть в настройках приложения!\n\nЕсли проблема сохраняется, напиши в нашу поддержку, прикрепив скриншоты из лог файла, который можно увидеть с помощью кнопки ниже!',
     languageUa:
-        "В ході запуску модифікації сталася непередбачена помилка. Спробуй змінити спосіб ін'єкції модифікацій в налаштуваннях ExLoader або ж протестуй запуск якої-небудь іншої модифікації. Список доступних модифікацій під кожен спосіб ін'єкції можна подивитися в налаштуваннях програми!",
+        "В ході запуску модифікації сталася непередбачена помилка. Спробуй змінити спосіб ін'єкції модифікацій в налаштуваннях ExLoader або ж протестуй запуск якої-небудь іншої модифікації. Список доступних модифікацій під кожен спосіб ін'єкції можна подивитися в налаштуваннях програми!\n\nЯкщо проблема зберігається, напиши в нашу підтримку, прикріпивши скріншоти з лог файлу, який можна побачити за допомогою кнопки нижче!",
     languagePl:
-        'Podczas uruchamiania modyfikacji wystąpił nieoczekiwany błąd. Spróbuj zmienić sposób wstrzykiwania modyfikacji w ustawieniach Exloadera lub przetestuj uruchomienie innej modyfikacji. Listę dostępnych modyfikacji dla każdej metody wstrzykiwania można zobaczyć w ustawieniach aplikacji!',
+        'Podczas uruchamiania modyfikacji wystąpił nieoczekiwany błąd. Spróbuj zmienić sposób wstrzykiwania modyfikacji w ustawieniach Exloadera lub przetestuj uruchomienie innej modyfikacji. Listę dostępnych modyfikacji dla każdej metody wstrzykiwania można zobaczyć w ustawieniach aplikacji!\n\nJeśli problem nie ustąpi, napisz do naszej pomocy technicznej, załączając zrzuty ekranu z pliku dziennika, który możesz zobaczyć za pomocą przycisku poniżej!',
     languageDe:
-        "Beim Starten der Modifikation ist ein unerwarteter Fehler aufgetreten. Versuchen Sie, die Art und Weise zu ändern, wie Modifikationen in den ExLoader-Einstellungen injiziert werden, oder testen Sie, ob eine andere Modifikation ausgeführt wird. Die Liste der verfügbaren Modifikationen für jede Injektionsmethode kann in den Anwendungseinstellungen eingesehen werden!",
+        "Beim Starten der Modifikation ist ein unerwarteter Fehler aufgetreten. Versuchen Sie, die Art und Weise zu ändern, wie Modifikationen in den ExLoader-Einstellungen injiziert werden, oder testen Sie, ob eine andere Modifikation ausgeführt wird. Die Liste der verfügbaren Modifikationen für jede Injektionsmethode kann in den Anwendungseinstellungen eingesehen werden!\n\nWenn das Problem weiterhin besteht, schreiben Sie an unseren Support und fügen Sie Screenshots der Protokolldatei bei, die Sie über die Schaltfläche unten aufrufen können!",
     languageIt:
-        'Si è verificato un errore imprevisto durante il processo di avvio della modifica. Prova a cambiare il metodo di iniezione della modifica nelle impostazioni di ExLoader o prova l`avvio di qualche altra modifica. L`elenco delle modifiche disponibili per ciascun metodo di iniezione può essere visualizzato nelle impostazioni dell`applicazione!',
+        'Si è verificato un errore imprevisto durante il processo di avvio della modifica. Prova a cambiare il metodo di iniezione della modifica nelle impostazioni di ExLoader o prova l`avvio di qualche altra modifica. L`elenco delle modifiche disponibili per ciascun metodo di iniezione può essere visualizzato nelle impostazioni dell`applicazione!\n\nSe il problema persiste, scrivete al nostro supporto, allegando gli screenshot del file di log, che potete vedere utilizzando il pulsante qui sotto!',
     languageTr:
-        "Değişikliğin başlatma işlemi sırasında beklenmedik bir hata oluştu. ExLoader ayarlarında modifikasyonun enjeksiyon yöntemini değiştirmeyi deneyin veya başka bir modifikasyonun başlatılmasını test edin. Her enjeksiyon yöntemi için mevcut değişikliklerin listesi uygulama ayarlarında görüntülenebilir!",
+        "Değişikliğin başlatma işlemi sırasında beklenmedik bir hata oluştu. ExLoader ayarlarında modifikasyonun enjeksiyon yöntemini değiştirmeyi deneyin veya başka bir modifikasyonun başlatılmasını test edin. Her enjeksiyon yöntemi için mevcut değişikliklerin listesi uygulama ayarlarında görüntülenebilir!\n\nSorun devam ederse, aşağıdaki düğmeyi kullanarak görebileceğiniz günlük dosyasından ekran görüntüleri ekleyerek desteğimize yazın!",
     languageEs:
-        "Se ha producido un error inesperado durante el proceso de lanzamiento de la modificación. Intente cambiar el método de inyección de la modificación en la configuración de ExLoader o pruebe el lanzamiento de otra modificación. La lista de modificaciones disponibles para cada método de inyección se puede ver en la configuración de la aplicación.",
+        "Se ha producido un error inesperado durante el proceso de lanzamiento de la modificación. Intente cambiar el método de inyección de la modificación en la configuración de ExLoader o pruebe el lanzamiento de otra modificación. La lista de modificaciones disponibles para cada método de inyección se puede ver en la configuración de la aplicación.\n\nSi el problema persiste, escribe a nuestro servicio de asistencia adjuntando capturas de pantalla del archivo de registro, que puedes ver utilizando el botón de abajo.",
     languageCn:
-        "修改启动过程中出现意外错误。请尝试在 ExLoader 设置中更改修改的注入方法，或测试其他修改的启动。可在应用程序设置中查看每种注入方法的可用修改列表！",
+        "修改启动过程中出现意外错误。请尝试在 ExLoader 设置中更改修改的注入方法，或测试其他修改的启动。可在应用程序设置中查看每种注入方法的可用修改列表！\n\n如果问题仍然存在，请写信给我们的支持人员，并附上日志文件的截图，您可以使用下面的按钮查看！",
   },
   'VerifyingFiles': {
     languageEn: "Verifying installation files",
@@ -5097,8 +5078,7 @@ const Map<String, Map<String, String>> localeItems = {
     languagePl: 'Za mało danych',
     languageDe: "Nicht genügend Daten",
     languageIt: 'Dati insufficienti',
-    languageTr:
-        "Değişiklik istatistiklerini görüntülemek için yeterli veri yok",
+    languageTr: "Yeterli veri yok",
     languageEs: "Datos insuficientes",
     languageCn: "数据不足",
   },
@@ -5814,7 +5794,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Італійську',
     languagePl: 'Włoski',
     languageDe: "Italienisch",
-    languageIt: 'Tedesco',
+    languageIt: 'Italiano',
     languageTr: "İtalyan",
     languageEs: "Italiano",
     languageCn: "意大利语",
@@ -10904,6 +10884,17 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Cliente oficial del juego",
     languageCn: "官方游戏客户端",
   },
+  'AnyClient': {
+    languageEn: "Any game client",
+    languageRu: 'Любой клиент игры',
+    languageUa: 'Будь-який клієнт гри',
+    languagePl: 'Dowolny klient gry',
+    languageDe: 'Jeder Spiel-Client',
+    languageIt: 'Qualsiasi client di gioco',
+    languageTr: "Herhangi bir oyun istemcisi",
+    languageEs: "Cualquier cliente de juego",
+    languageCn: "任何游戏客户端",
+  },
   'SteamClient': {
     languageEn: "Steam version of the game",
     languageRu: 'Версия игры со Steam',
@@ -13469,22 +13460,6 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Parece que nadie ha añadido una sola revisión para este mod, cfg o lua todavía. ¡Puedes ser el primero en hacerlo!",
     languageCn: "看起来还没有人对此 mod、cfg 或 lua 进行评论。您可以成为第一个这样做的人！",
   },
-  'ReconnectionSucceeded': {
-    languageEn:
-        "Connection to the application's server has been successfully re-established!",
-    languageRu: 'Соединение с сервером приложения успешно восстановлено!',
-    languageUa: "З'єднання із сервером програми успішно відновлено!",
-    languagePl:
-        'Połączenie z serwerem aplikacji zostało pomyślnie przywrócone!',
-    languageDe:
-        'Die Verbindung zum Anwendungsserver wurde erfolgreich wiederhergestellt!',
-    languageIt:
-        'La connessione al server delle applicazioni è stata ripristinata con successo!',
-    languageTr: "Uygulamanın sunucusuyla bağlantı başarıyla yeniden kuruldu!",
-    languageEs:
-        "La conexión con el servidor de la aplicación se ha restablecido correctamente.",
-    languageCn: "已成功重新建立与应用程序服务器的连接！",
-  },
   'PlaceForAnAd': {
     languageEn: "Place for an ad...",
     languageRu: 'Место для рекламы...',
@@ -13844,5 +13819,38 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Lista de todas las revisiones recientes de todas las modificaciones",
     languageCn: "所有修改的最新审查清单",
+  },
+  'AllParts': {
+    languageEn: '(all parts)',
+    languageRu: '(все части)',
+    languageUa: '(всі частини)',
+    languagePl: "(wszystkie części)",
+    languageDe: "(alle Teile)!",
+    languageIt: "(tutte le parti)",
+    languageTr: "(tüm parçalar)",
+    languageEs: "(todas las partes)",
+    languageCn: "(所有部分)",
+  },
+  'SomeGamesAreCombined': {
+    languageEn: 'Some of the games are combined into a single card to save space. For example, a lot parts of Battlefield, Call of Duty, Counter-Strike, etc.',
+    languageRu: 'Некоторые игры объеденены в одну карточку для экономии пространства. Например, много частей Battlefield, Call of Duty, Counter-Strike и т.д.',
+    languageUa: "Деякі ігри об'єднані в одну картку для економії простору. Наприклад, багато частин Battlefield, Call of Duty, Counter-Strike тощо.",
+    languagePl: "Niektóre gry zostały połączone w jedną kartę, aby zaoszczędzić miejsce. Na przykład wiele części Battlefield, Call of Duty, Counter-Strike itp.",
+    languageDe: "Einige der Spiele sind auf einer einzigen Karte zusammengefasst, um Platz zu sparen. Zum Beispiel viele Teile von Battlefield, Call of Duty, Counter-Strike, etc.",
+    languageIt: "Alcuni giochi sono stati combinati in un'unica scheda per risparmiare spazio. Ad esempio, molte parti di Battlefield, Call of Duty, Counter-Strike e così via.",
+    languageTr: "Bazı oyunlar yerden tasarruf etmek için tek bir kartta birleştirilmiştir. Örneğin, Battlefield, Call of Duty, Counter-Strike vb. oyunların birçok parçası.",
+    languageEs: "Algunos juegos se combinan en una sola tarjeta para ahorrar espacio. Por ejemplo, muchas partes de Battlefield, Call of Duty, Counter-Strike, etc.",
+    languageCn: "为了节省空间，有些游戏被合并到一张卡中。例如，《战地》、《使命召唤》、《反恐精英》等游戏的很多部分。",
+  },
+  'PleaseUseNormalVersion': {
+    languageEn: 'Use the selected version of the mod only with the specified version of the game! If you try to use the mod on any other version of the game, it will simply crash, the mod will not work or you will encounter any other similar problem!',
+    languageRu: 'Используй выбранную версию модификации только с указанной версией игры! Если ты попробуешь использовать мод на какой-то другой версии игры, она просто вылетит, мод не будет работать или же ты столкнёшься с любой другой аналогичной проблемой!',
+    languageUa: 'Використовуй обрану версію модифікації тільки із зазначеною версією гри! Якщо ти спробуєш використовувати мод на будь-якій іншій версії гри, вона просто вилетить, мод не працюватиме або ж ти зіткнешся з якоюсь іншою схожою проблемою!',
+    languagePl: "Wybranej wersji moda należy używać wyłącznie z określoną wersją gry! Jeśli spróbujesz użyć moda na jakiejkolwiek innej wersji gry, po prostu się zawiesi, mod nie będzie działał lub napotkasz inny podobny problem!",
+    languageDe: "Verwenden Sie die ausgewählte Version des Mods nur mit der angegebenen Version des Spiels! Wenn Sie versuchen, die mod auf jede andere Version des Spiels zu verwenden, wird es einfach abstürzen, die mod wird nicht funktionieren oder Sie werden ein anderes ähnliches Problem auftreten!",
+    languageIt: "Utilizzare la versione selezionata della mod solo con la versione del gioco specificata! Se si tenta di utilizzare la mod su qualsiasi altra versione del gioco, il gioco si bloccherà, la mod non funzionerà o si verificherà qualche altro problema simile!",
+    languageTr: "Modun seçilen sürümünü sadece oyunun belirtilen sürümü ile kullanın! Modu oyunun başka bir sürümünde kullanmaya çalışırsanız, basitçe çökecek, mod çalışmayacak veya benzer başka bir sorunla karşılaşacaksınız!",
+    languageEs: "Utiliza la versión seleccionada del mod sólo con la versión especificada del juego. Si intentas utilizar el mod con cualquier otra versión del juego, simplemente se bloqueará, el mod no funcionará o te encontrarás con algún otro problema similar.",
+    languageCn: "只能在指定版本的游戏中使用所选版本的 MOD！如果您尝试在任何其他版本的游戏中使用该 MOD，它将直接崩溃、无法运行或遇到其他类似问题！",
   },
 };
