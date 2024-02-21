@@ -12,6 +12,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tüm oyun modifikasyonları tek bir kütüphanede",
     languageEs: "Todas las modificaciones del juego en una sola biblioteca",
     languageCn: "在单个 ExLoader 库中对所有游戏进行修改",
+    languageKr: '모든 게임 업데이트 사항',
   },
   'Exit': {
     languageEn: 'Exit',
@@ -23,6 +24,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Çıktı",
     languageEs: "Salida",
     languageCn: "输出",
+    languageKr: '나가기',
   },
   'Library': {
     languageEn: 'Library',
@@ -34,6 +36,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kütüphane",
     languageEs: "Biblioteca",
     languageCn: "图书馆",
+    languageKr: '라이브러리',
   },
   'Games': {
     languageEn: "Games",
@@ -45,6 +48,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunlar",
     languageEs: "Juegos",
     languageCn: "游戏",
+    languageKr: "게임",
   },
   'Settings': {
     languageEn: 'Settings',
@@ -56,6 +60,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ayarlar",
     languageEs: "Ajustes",
     languageCn: "设置",
+    languageKr: '설정',
   },
   'CustomModificationsScreenEG': {
     languageEn: 'Your mods',
@@ -67,6 +72,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kendi modlarınız",
     languageEs: "Tus propios mods",
     languageCn: "您的修改器",
+    languageKr: "나의 모드",
   },
   'BookmarksScreen': {
     languageEn: 'Bookmarked',
@@ -78,6 +84,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Favoriler",
     languageEs: "Favoritos",
     languageCn: "最爱",
+    languageKr: "북마크",
   },
   'Search': {
     languageEn: 'Search',
@@ -89,6 +96,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Arama",
     languageEs: "Buscar",
     languageCn: "搜索",
+    languageKr: "검색",
   },
   'Newbie': {
     languageEn: 'Newbie',
@@ -100,6 +108,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yenilikçi",
     languageEs: "Novedad",
     languageCn: "新奇",
+    languageCn: "您的修改器",
+    languageKr: "Newbie",
   },
   'Navigate': {
     languageEn: 'Take a look',
@@ -111,6 +121,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gitmek",
     languageEs: "Echa un vistazo",
     languageCn: "转到",
+    languageKr: "살펴보다",
   },
   'Author': {
     languageEn: 'Author',
@@ -122,6 +133,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yazar",
     languageEs: "Autor",
     languageCn: "作者",
+    languageKr: "만든사람",
   },
   'LatestUpdate': {
     languageEn: 'Latest update date',
@@ -133,6 +145,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Son güncelleme",
     languageEs: "Última actualización",
     languageCn: "最后更新",
+    languageKr: "마지막 업데이트 날짜",
   },
   'AddToBookmarksHint': {
     languageEn: 'Add to bookmarked',
@@ -144,6 +157,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Favorilere ekle",
     languageEs: "Añadir a favoritos",
     languageCn: "添加到收藏夹",
+    languageKr: "북마크에 추가",
   },
   'RemoveFromBookmarkedHint': {
     languageEn: 'Remove from bookmarked',
@@ -155,6 +169,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yer imlerinden kaldır",
     languageEs: "Eliminar de favoritos",
     languageCn: "不喜欢",
+    languageKr: "북마크에서 삭제",
   },
   'ModificationType': {
     languageEn: "Modification's type",
@@ -166,6 +181,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişikliğin türü",
     languageEs: "Tipo de modificación",
     languageCn: "修改类型",
+    languageKr: "Modification's type",
   },
   'NoneSort': {
     languageEn: "Without sorting",
@@ -177,6 +193,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sıralama olmadan",
     languageEs: "Sin clasificación",
     languageCn: "不分类",
+    languageKr: "정렬",
   },
   'ByRate': {
     languageEn: "By rate",
@@ -188,6 +205,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Orana göre",
     languageEs: "Por tipo",
     languageCn: "按费率",
+    languageKr: "평가 순",
   },
   'ByUpdate': {
     languageEn: "By update date",
@@ -199,6 +217,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Güncelleme tarihine göre",
     languageEs: "Por fecha de actualización",
     languageCn: "按更新日期",
+    languageKr: "업데이트 순",
   },
   'ByAlphabet': {
     languageEn: "By alphabet",
@@ -210,6 +229,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Alfabe ile",
     languageEs: "Por alfabeto",
     languageCn: "按字母顺序",
+    languageKr: "알파벳 순",
   },
   'SimplePlural': {
     languageEn: 'Humble | Legit',
@@ -221,6 +241,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Mütevazı | Legit",
     languageEs: "Humilde | Legítimo",
     languageCn: "谦卑 | 合法",
+    languageKr: "Humble | Legit",
   },
   'MediumPlural': {
     languageEn: 'Advanced | Semi-rage',
@@ -232,6 +253,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gelişmiş | Yarı-öfke",
     languageEs: "Avanzado | Semi-rage",
     languageCn: "高级 | 半愤怒 | 半hvh",
+    languageKr: "Advanced | Semi-rage",
   },
   'AdvancedPlural': {
     languageEn: 'Universal | Hvh',
@@ -243,6 +265,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Evrensel | HvH",
     languageEs: "Universal | HvH",
     languageCn: "环球之怒 | HvH",
+    languageKr: "유니버셜 | Hvh",
   },
   'Optical': {
     languageEn: 'Optical',
@@ -254,6 +277,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Optik",
     languageEs: "Óptico",
     languageCn: "光学",
+    languageKr: "광학",
   },
   'Macros': {
     languageEn: 'Macros',
@@ -265,6 +289,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Makrolar",
     languageEs: "Macros",
     languageCn: "宏",
+    languageKr: "메크로",
   },
   'Simple': {
     languageEn: 'Humble',
@@ -276,6 +301,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Basit",
     languageEs: "Simple",
     languageCn: "简单",
+    languageKr: "일반",
   },
   'Medium': {
     languageEn: 'Advanced',
@@ -287,6 +313,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gelişmiş",
     languageEs: "Avanzado",
     languageCn: "高级",
+    languageKr: "고급",
   },
   'Advanced': {
     languageEn: 'Universal',
@@ -298,6 +325,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Evrensel",
     languageEs: "Universal",
     languageCn: "通用",
+    languageKr: "유니버셜",
   },
   'Neuronet': {
     languageEn: 'Neuronet',
@@ -309,6 +337,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Nöronet",
     languageEs: "Neurona",
     languageCn: "神经网络",
+    languageKr: "뉴런",
   },
   'Farmbot': {
     languageEn: 'Farm-bot',
@@ -320,6 +349,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Çiftlik-bot",
     languageEs: "Granja robot",
     languageCn: "农场机器人",
+    languageKr: "농장봇",
   },
   'FarmbotDescription': {
     languageEn:
@@ -340,6 +370,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Las modificaciones de Farmbot están diseñadas para ayudarte a acumular experiencia/artículos/lo que sea en el juego dejando tu ordenador encendido durante un rato. Enciéndelo, sal a comer y ¡el bot jugará por ti!",
     languageCn:
         "农场机器人改装的目的是帮助你在游戏中暂时不打开电脑就能获得经验/物品/其他任何东西。打开电脑，出去吃个午饭，机器人就会为你演奏！",
+    languageKr:
+        "농장봇 모드의 목적은 잠시 휴식할때 컴퓨터를 켜지 않고도 게임에서의 경험치 또는 아이템 무엇이든 얻을 수 있도록 돕는 모드 입니다.컴퓨터를 켜고 점심을 먹으러 가면 당신을 위해 봇이 일을 하고 있을 겁니다.",
   },
   'Movement': {
     languageEn: 'Movement',
@@ -351,6 +383,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hareket",
     languageEs: "Movimiento",
     languageCn: "运动",
+    languageKr: "운동",
   },
   'MovementPlural': {
     languageEn: 'Movement | Bhop',
@@ -362,6 +395,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hareket | Bhop",
     languageEs: "Movimiento | Bhop",
     languageCn: "运动 | 博普",
+    languageKr: "운동 | 밥",
   },
   'MovementDescription': {
     languageEn:
@@ -381,6 +415,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las modificaciones de movimiento están diseñadas para ayudarte a grabar los movimientos o acciones del juego y repetirlos en el momento adecuado con las teclas vinculadas. Por ejemplo, para realizar sprints o lanzar granadas.",
     languageCn: "动作修改的目的是帮助您记录游戏动作或操作，并在适当的时候通过绑定的按键重复这些动作或操作。例如，进行冲刺或投掷手榴弹。",
+    languageKr: "치트의 목적은 게임 액션이나 작업을 기록하고 바인딩된 키를 통해 적절한 시간에 반복하도록 돕는 것입니다. 예를 들어 전력 질주를 수행하거나 수류탄을 던지십시오. ",
   },
   'OpticalPlural': {
     languageEn: 'Optical | Skins',
@@ -392,6 +427,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Optik | Kaplamalar",
     languageEs: "Óptica | Pieles",
     languageCn: "光学仪器 | 皮肤",
+    languageKr: "광학기기 | 피부",
   },
   'NeuronetPlural': {
     languageEn: 'Neuronets',
@@ -403,6 +439,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Nöronetler",
     languageEs: "Neuronas",
     languageCn: "神经元网络",
+    languageKr: "뉴런넷",
   },
   'FarmbotPlural': {
     languageEn: 'Farm-bots | bots',
@@ -414,6 +451,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Çiftlik-botları | botlar",
     languageEs: "Granjas robot",
     languageCn: "农场机器人",
+    languageKr: "농장봇",
   },
   'MacrosPlural': {
     languageEn: 'Macros',
@@ -425,6 +463,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Makrolar",
     languageEs: "Macros",
     languageCn: "宏",
+    languageKr: "메크로",
   },
   'Launch': {
     languageEn: 'Launch',
@@ -436,6 +475,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Fırlatma",
     languageEs: "Lanzamiento",
     languageCn: "启动",
+    languageKr: "런처",
   },
   'AdvancedVersion': {
     languageEn:
@@ -455,6 +495,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡Esta modificación tiene una versión avanzada que puedes abrir directamente en ExLoader!",
     languageCn: "该修改有一个高级版本，可以直接在 ExLoader 中打开！",
+    languageKr: "ExLoader에서 직업 업데이트 할 수 있는 최신버전이 있습니다!",
   },
   'DisableVacModule': {
     languageEn:
@@ -475,6 +516,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Desactiva el módulo VAC. Reduce las posibilidades de recibir un ban anti-trampas. Ten en cuenta que esta función no ayuda en el 100% de los casos y no te protege de overwatch. Steam se reiniciará al activar esta función. Puede afectar al factor de confianza de tu cuenta.",
     languageCn:
         "禁用 VAC 模块。降低被反作弊封禁的几率。请注意，此功能并非在 100% 的情况下都有帮助，也不能保护您免受过量监视！激活此功能后，Steam 将重新启动。可能会影响您的账户信任度！",
+    languageKr:
+        "VAC 모듈을 비활성화합니다. 부정행위 방지를 통해 차단될 가능성을 줄입니다. 이 기능은 항상 100% 보호되지 않으며 사용시 본인에게 책임이 있습니다.! 이 기능을 활성화하면 Steam이 다시 시작됩니다. 당신의 계정에 영향을 미칠 수 있습니다! 주의하세요! ",
   },
   'TrustableModification': {
     languageEn:
@@ -494,6 +537,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Esta modificación ha superado con éxito una comprobación de ausencia de virus realizada por un representante independiente.",
     languageCn: "此改装已成功通过独立代表的病毒缺失检查。",
+    languageKr: "이 모드는 바이러스 검사를 성공적으로 통과했습니다.",
   },
   'NotTrustableModification': {
     languageEn:
@@ -513,6 +557,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Tenga en cuenta que un representante independiente no ha comprobado la ausencia de virus en estas modificaciones.",
     languageCn: "请注意，本修改版未经独立代表检查是否存在病毒。",
+    languageKr: "이 모드는 바이러스가 확인이 안되었습니다.주의하세요!",
   },
   'PressToOpenMenu': {
     languageEn: "Modification's menu opens with {key} key",
@@ -524,6 +569,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon menüsü {key} tuşu ile açılır",
     languageEs: "El menú de modificación se abre con la tecla {key}",
     languageCn: "用 {key} 键打开修改菜单",
+    languageKr: "편집 메뉴를 사용하려면 {key} 키를 사용하세요.",
   },
   'YouCanRebind': {
     languageEn:
@@ -543,6 +589,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Si no te gusta esta clave, siempre puedes volver a vincularla en la configuración de ExLoader. Tenga en cuenta que si cambia la clave, la aplicación debe estar abierta mientras se ejecuta la modificación.",
     languageCn: "如果不喜欢这个密钥，可以在 ExLoader 设置中重新绑定！请注意，如果更改密钥，必须在修改运行时打开应用程序。",
+    languageKr: "키를 변경하려면 ExLoader 설정에서 다시 변경 할 수 있습니다! 키를 변경하는 경우 치트가 실행 되는 동안 애플리케이션을 열어야 합니다.",
   },
   'YouCanRebindLaptop': {
     languageEn:
@@ -562,6 +609,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Si no te gusta esta clave, siempre puedes volver a vincularla en la configuración de ExLoader. Tenga en cuenta que si cambia la clave, la aplicación debe estar abierta mientras se ejecuta la modificación.",
     languageCn: "如果不喜欢这个密钥，可以在 ExLoader 设置中重新绑定！请注意，如果更改密钥，必须在修改运行时打开应用程序。",
+    languageKr: "키를 변경하려면 ExLoader 설정에서 다시 변경 할 수 있습니다! 키를 변경하는 경우 치트가 실행 되는 동안 애플리케이션을 열어야 합니다.",
   },
   'SafeToUse': {
     languageEn:
@@ -581,6 +629,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Basándonos en las estadísticas recogidas recientemente, las posibilidades de que VAC sea bloqueado por usar esta modificación son extremadamente pequeñas, lo que significa que es seguro usarla. Porcentaje de bloqueos recibidos durante las dos últimas semanas: ",
     languageCn: "根据最近收集的统计数据，因使用此修改而被 VAC 封杀的几率极小，这意味着使用此修改是安全的。最近两周收到封禁的百分比：",
+    languageKr: "최근 통계에 따르면, 이 모드를 사용하면 VAC가 금지될 가능성은 극히 적으므로 이 모드를 사용해도 안전합니다. 지난 2주 동안 차단된 비율: ",
   },
   'UnsafeToUse': {
     languageEn:
@@ -601,6 +650,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Por favor, ten en cuenta que no recomendamos usar esta modificación en los modos de juego oficiales (como matchmaking, deathmatch, etc.) debido al riesgo de que tu cuenta sea bloqueada. Las modificaciones con este estado son más adecuadas para jugar en los servidores de la comunidad o en los modos HvH. Porcentaje de baneos recibidos durante las dos últimas semanas: ",
     languageCn:
         "请注意，我们不建议在官方游戏模式（如匹配、死亡竞赛等）中使用此修改，因为会增加您的账户被 VAC 封锁的风险。此状态下的修改最适合在社区服务器或 HvH 模式中使用。最近两周收到封禁的百分比：",
+    languageKr: 
+        "공식 게임 모드(예: 매치메이킹, 데스매치 등)에서는 이 치트를 사용하지 않는 것이 좋습니다. VAC에 의해 계정이 차단될 위험이 높아지기 때문입니다. 이 치트는 커뮤니티 서버 또는 HvH 모드에서 가장 잘 사용됩니다. 지난 2주 동안 차단된 비율:",
   },
   'AlmostSafe': {
     languageEn:
@@ -621,6 +672,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Use esta modificación bajo su propio riesgo. Las estadísticas de vac bans se mantienen en un nivel extremadamente inestable. Cualquier previsión es inexacta e impredecible. Porcentaje de prohibiciones recibidas durante las dos últimas semanas:",
     languageCn:
         "请自行承担使用此修改的风险！它的 vac bans 统计保持在一个极不稳定的水平上。任何预测都是不准确和不可预测的。最近两周收到封禁的百分比：",
+    languageCn:
+        "이 치트를 사용하는 데 따른 책임은 본인에게 있습니다! 진공 차단 통계는 매우 일관성 없는 수준으로 유지됩니다. 모든 예측은 부정확하고 예측할 수 없습니다. 지난 2주 동안 차단된 비율:",
   },
   'InstallConfigs': {
     languageEn: 'Install configs for modification',
@@ -632,6 +685,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklik için konfigürasyonları yükleyin",
     languageEs: "Instalar configuraciones para modificarlas",
     languageCn: "安装配置以供修改",
+    languageKr: "치트를 위한 구성요소 설치",
   },
   'OpenConfigFolder': {
     languageEn: "Open modification's files folder",
@@ -643,6 +697,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon dosyaları klasörünü açın",
     languageEs: "Abrir la carpeta de archivos de modificación",
     languageCn: "打开修改文件文件夹",
+    languageKr: "치트 파일 폴더 열기",
   },
   'RemoveModificationFiles': {
     languageEn: "Delete all modification's files",
@@ -654,6 +709,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tüm değişiklik dosyalarını sil",
     languageEs: "Borrar todos los archivos de modificación",
     languageCn: "删除所有修改文件",
+    languageKr: "치트 파일 모두 삭제",
   },
   'ModificationDoesNotWork': {
     languageEn: 'Modification does not work, help',
@@ -665,6 +721,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklik çalışmıyor, yardım",
     languageEs: "La modificación no funciona, ayuda",
     languageCn: "修改不起作用，请帮助",
+    languageKr: "치트가 실행되지 않습니다. 도움말",
   },
   'ContactSupport': {
     languageEn: "Contact {mod} support",
@@ -676,6 +733,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "{mod} destek ile iletişime geçin",
     languageEs: "Contacta con {mod} support",
     languageCn: "联系 {mod} 支持",
+    languageKr: "{mod} 지원팀에 문의하세요",
   },
   'LaunchGuide': {
     languageEn: "Modification's launch guide",
@@ -687,6 +745,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon başlatma kılavuzu",
     languageEs: "Guía de lanzamiento de la modificación",
     languageCn: "改装启动指南",
+    languageKr: "모딩 스타일 가이드",
   },
   'Cancel': {
     languageEn: "Cancel",
@@ -698,6 +757,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İptal",
     languageEs: "Cancelar",
     languageCn: "取消",
+    languageKr: "취소",
   },
   'PictureMayDiffer': {
     languageEn:
@@ -717,6 +777,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La modificación de la captura de pantalla puede diferir de su versión actual",
     languageCn: "截图中的修改可能与当前版本不同",
+    languageKr: "스크린샷의 치트는 현재 버전과 다를 수 있습니다.",
   },
   'Good': {
     languageEn: "Okay",
@@ -728,6 +789,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tamam",
     languageEs: "Vale",
     languageCn: "好了",
+    languageKr: "오케이",
   },
   'OkayButDoNotShowItAgain': {
     languageEn: "Okay, don't show it again!",
@@ -739,6 +801,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tamam, bir daha gösterme!",
     languageEs: "¡Vale, no lo vuelvas a enseñar!",
     languageCn: "好了，别再放了",
+    languageKr: "오케이, 더이상 안봄!",
   },
   'ZoomImageTip': {
     languageEn:
@@ -758,6 +821,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Puede ampliar cualquier parte de la imagen en este menú con la rueda del ratón.",
     languageCn: "您可以使用鼠标滚轮放大该菜单中图像的任何部分！",
+    languageKr: "이 메뉴에 있는 이미지의 모든 부분을 확대 할 수 있습니다!",
   },
   'EraseActivity': {
     languageEn: "Erase all modification's activity",
@@ -769,6 +833,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tüm değişiklik faaliyetlerini sil",
     languageEs: "Borrar toda la actividad de modificación",
     languageCn: "删除所有修改活动",
+    languageKr: "모든 편집 삭제",
   },
   'WhatsNew': {
     languageEn: "What's new",
@@ -780,6 +845,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yenilikler",
     languageEs: "Novedades",
     languageCn: "最新消息",
+    languageKr: "최근 뉴스",
   },
   'ReadMore': {
     languageEn: "Read more",
@@ -791,6 +857,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Daha fazla bilgi edinin",
     languageEs: "Seguir leyendo",
     languageCn: "更多信息",
+    languageKr: "추가 정보",
   },
   'LastUpdate': {
     languageEn: "Last update",
@@ -802,6 +869,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Son güncelleme",
     languageEs: "Última actualización",
     languageCn: "最后更新",
+    languageKr: "마지막 업데이트",
   },
   'PressToSaveMark': {
     languageEn: "Press the icon and your mark will be saved",
@@ -813,6 +881,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Simgeye bastığınızda işaretiniz kaydedilecektir",
     languageEs: "Pulsa el icono y tu marca se guardará",
     languageCn: "按下图标即可保存标记",
+    languageKr: "아이콘을 누르면 마크가 저장됩니다.",
   },
   'YourMark': {
     languageEn: "Your mark",
@@ -824,6 +893,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İşaretiniz",
     languageEs: "Su marca",
     languageCn: "您的印记",
+    languageKr: "나의 마크",
   },
   'Send': {
     languageEn: "Send",
@@ -835,6 +905,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gönder",
     languageEs: "Enviar",
     languageCn: "发送",
+    languageKr: "보내다",
   },
   'YourReview': {
     languageEn: "Your review",
@@ -846,6 +917,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sizin yorumunuz",
     languageEs: "Su opinión",
     languageCn: "您的评论",
+    languageKr: "당신의 의견",
   },
   'Back': {
     languageEn: 'Back',
@@ -857,6 +929,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Geri",
     languageEs: "Volver",
     languageCn: "返回",
+    languageKr: "뒤로가기",
   },
   'BackToThePrevious': {
     languageEn: 'Back to the previous screen',
@@ -868,6 +941,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Önceki ekrana geri dön",
     languageEs: "Volver a la pantalla anterior",
     languageCn: "返回上一屏幕",
+    languageKr: "이전 화면으로 돌아가기",
   },
   'SearchByGames': {
     languageEn: 'Search by games',
@@ -879,6 +953,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunlara göre ara",
     languageEs: "Buscar por juegos",
     languageCn: "按游戏搜索",
+    languageKr: "게임 검색",
   },
   'SearchByFrames': {
     languageEn: 'Search by frames',
@@ -890,6 +965,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Çerçevelere göre ara",
     languageEs: "Búsqueda por marcos",
     languageCn: "按框架搜索",
+    languageKr: "프레임 검색",
   },
   'SearchByModifications': {
     languageEn: 'Search by modifications',
@@ -901,6 +977,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişikliklere göre ara",
     languageEs: "Búsqueda por modificaciones",
     languageCn: "按修改搜索",
+    languageKr: "모드 검색",
   },
   'SearchByModificationsAndVersions': {
     languageEn: 'Search by modifications and their versions',
@@ -912,6 +989,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişikliklere ve sürümlerine göre arama yapın",
     languageEs: "Búsqueda por modificaciones y sus versiones",
     languageCn: "按修改及其版本搜索",
+    languageKr: "모드 버전으로 검색",
   },
   'NothingFoundByYourQuery': {
     languageEn: 'Nothing found with your query',
@@ -923,6 +1001,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sorgunuzla ilgili bir şey bulunamadı",
     languageEs: "No se ha encontrado nada con tu consulta",
     languageCn: "未找到与您的查询相关的内容",
+    languageKr: "모드 버전으로 검색",
   },
   'ServerRoom': {
     languageEn: 'Server room',
@@ -934,6 +1013,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sunucu odası",
     languageEs: "Sala de servidores",
     languageCn: "服务器机房",
+    languageKr: "서버 룸",
   },
   'WelcomeBackUser': {
     languageEn: 'Welcome back, {user}',
@@ -945,6 +1025,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tekrar hoş geldiniz, {user}",
     languageEs: "Bienvenido, {user}",
     languageCn: "欢迎回来，{user}",
+    languageKr: "다시 오신 걸 황영합니다，{user}",
   },
   'RefreshData': {
     languageEn: 'Refresh data',
@@ -956,6 +1037,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Verileri yenileyin",
     languageEs: "Actualizar datos",
     languageCn: "刷新数据",
+    languageKr: "새로고침，{user}",
   },
   // one complaint
   'Complaint': {
@@ -968,6 +1050,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şikâyet",
     languageEs: "Denuncia",
     languageCn: "投诉",
+    languageKr: "의견",
   },
   // two-4 complaints
   'ComplaintSecond': {
@@ -980,6 +1063,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şikayetler",
     languageEs: "Quejas",
     languageCn: "投诉",
+    languageKr: "의견",
   },
   // 5-9/0 complaints
   'ComplaintThird': {
@@ -992,6 +1076,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şikayetler",
     languageEs: "Quejas",
     languageCn: "投诉",
+    languageKr: "의견",
   },
   'ReviewsComplaints': {
     languageEn: 'about comments to mods/cfgs',
@@ -1003,6 +1088,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "modlara/cfgs'ye yapilan yorumlar hakkinda",
     languageEs: "sobre los comentarios a los mods/cfgs",
     languageCn: "关于对版主/理事的评论",
+    languageKr: "about comments to mods/cfg",
   },
   'ReviewsComplaintsGames': {
     languageEn: 'about comments to games',
@@ -1014,6 +1100,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "oyunlara yapılan yorumlar hakkında",
     languageEs: "sobre los comentarios a los juegos",
     languageCn: "关于对游戏的评论",
+    languageKr: "게임에 대한 평가",
   },
   'ConfigsComplaints': {
     languageEn: 'about configs for modifications',
@@ -1025,6 +1112,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "değişiklikler için konfigürasyonlar hakkında",
     languageEs: "sobre configuraciones para modificaciones",
     languageCn: "关于修改配置",
+    languageKr: "모드 치트 정보",
   },
   'UpdateNotifications': {
     languageEn: 'about updates for modifications',
@@ -1036,6 +1124,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "değişiklikler için güncellemeler hakkında",
     languageEs: "sobre actualizaciones para modificaciones",
     languageCn: "关于修改更新",
+    languageKr: "업데이트 사항",
   },
   'Modifications': {
     languageEn: 'Modifications',
@@ -1047,6 +1136,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklikler",
     languageEs: "Modificaciones",
     languageCn: "修改",
+    languageKr: "치트",
   },
   'Mods': {
     languageEn: 'Mods',
@@ -1058,6 +1148,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modlar",
     languageEs: "Mods",
     languageCn: "修改",
+    languageKr: "모드",
   },
   'Open': {
     languageEn: 'Open',
@@ -1069,6 +1160,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Açık",
     languageEs: "Abrir",
     languageCn: "开放",
+    languageKr: "열기",
   },
   'Configs': {
     languageEn: 'Configurations',
@@ -1080,6 +1172,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyonlar",
     languageEs: "Configuraciones",
     languageCn: "配置",
+    languageKr: "구성",
   },
   'ConfigsDescription': {
     languageEn: "Handle сonfiguration's and LUA complaints",
@@ -1091,6 +1184,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyon ve LUA şikayetlerini ele alın",
     languageEs: "Gestión de reclamaciones de configuración y LUA",
     languageCn: "处理配置和 LUA 投诉",
+    languageKr: "구성 및 LUA 불만 처리",
   },
   'Comments': {
     languageEn: 'Comments',
@@ -1102,6 +1196,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yorumlar",
     languageEs: "Comentarios",
     languageCn: "评论",
+    languageKr: "코멘트",
   },
   'CommentsDescription': {
     languageEn: 'Managing comments and their complaints',
@@ -1113,6 +1208,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yorumların ve şikayetlerin yönetilmesi",
     languageEs: "Gestionar los comentarios y sus quejas",
     languageCn: "管理评论及其投诉",
+    languageKr: "의견 및 불만사항 관리",
   },
   'Profiles': {
     languageEn: 'Users',
@@ -1124,6 +1220,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcılar",
     languageEs: "Usuarios",
     languageCn: "用户",
+    languageKr: "유저",
   },
   'ProfilesDescription': {
     languageEn: 'Editing profiles and blocking them',
@@ -1135,6 +1232,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Profilleri düzenleme ve engelleme",
     languageEs: "Editar perfiles y bloquearlos",
     languageCn: "编辑配置文件并阻止它们",
+    languageKr: "프로필 편집 및 차단",
   },
   'Notifications': {
     languageEn: "Notifications",
@@ -1146,6 +1244,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bildirimler",
     languageEs: "Notificaciones",
     languageCn: "通知",
+    languageKr: "알림",
   },
   'Status': {
     languageEn: "Current status",
@@ -1157,6 +1256,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Mevcut durum",
     languageEs: "Situación actual",
     languageCn: "现状",
+    languageKr: "현재 상태",
   },
   'ActionBlocks': {
     languageEn: "Action blocks",
@@ -1168,6 +1268,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Eylem blokları",
     languageEs: "Bloques de acción",
     languageCn: "行动区块",
+    languageKr: "Action blocks",
   },
   'Recent': {
     languageEn: "Recent",
@@ -1179,6 +1280,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yakın zamanda",
     languageEs: "Recientes",
     languageCn: "最近",
+    languageKr: "최근",
   },
   // Plural
   'Popular': {
@@ -1191,6 +1293,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Popüler",
     languageEs: "Populares",
     languageCn: "热门",
+    languageKr: "인기 있는",
   },
   // Not plural
   'PopularSingle': {
@@ -1203,6 +1306,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Popüler",
     languageEs: "Populares",
     languageCn: "热门",
+    languageKr: "인기 있는",
   },
   // Plural
   'Old': {
@@ -1215,6 +1319,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Eskiler",
     languageEs: "Antiguos",
     languageCn: "旧的",
+    languageKr: "오래된",
   },
   'ShowAll': {
     languageEn: "Show all",
@@ -1226,6 +1331,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hepsini göster",
     languageEs: "Mostrar todo",
     languageCn: "显示全部",
+    languageKr: "모두 표시",
   },
   'Answer': {
     languageEn: 'Reply',
@@ -1237,6 +1343,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yanıtla",
     languageEs: "Respuesta",
     languageCn: "答复",
+    languageKr: "회신하다",
   },
   'ShowAnswers': {
     languageEn: 'Show {number} {answers}',
@@ -1248,6 +1355,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Göster {number} {answers}",
     languageEs: "Mostrar {number} {answers}",
     languageCn: "显示 {number} {answers}",
+    languageKr: "표시 {number} {answers}",
   },
   // 1 answer
   'AnswerSingle': {
@@ -1260,6 +1368,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "cevap",
     languageEs: "responder",
     languageCn: "答话",
+    languageKr: "답변",
   },
   // 2-4 answers
   'AnswerFirst': {
@@ -1272,6 +1381,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "cevaplar",
     languageEs: "respuestas",
     languageCn: "答案",
+    languageKr: "답변",
   },
   // 5-9/0 answers
   'AnswerSecond': {
@@ -1284,6 +1394,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "cevaplar",
     languageEs: "respuestas",
     languageCn: "answers",
+    languageKr: "답변",
   },
   'Edit': {
     languageEn: 'Edit',
@@ -1295,6 +1406,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Düzenle",
     languageEs: "Editar",
     languageCn: "编辑",
+    languageKr: "수정",
   },
   'Complain': {
     languageEn: "Complain",
@@ -1306,6 +1418,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şikayet et",
     languageEs: "Reclame",
     languageCn: "投诉",
+    languageKr: "의견",
   },
   'UserComments': {
     languageEn: "User's reviews",
@@ -1317,6 +1430,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcı yorumları",
     languageEs: "Opiniones de usuarios",
     languageCn: "用户评论",
+    languageKr: "유저 코멘트",
   },
   'General': {
     languageEn: 'General',
@@ -1328,6 +1442,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Genel",
     languageEs: "General",
     languageCn: "一般情况",
+    languageKr: "글로벌",
   },
   'Appearance': {
     languageEn: 'Appearance',
@@ -1339,6 +1454,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Görünüş",
     languageEs: "Apariencia",
     languageCn: "外观",
+    languageKr: "외부",
   },
   'AppLanguage': {
     languageEn: "Application's language",
@@ -1350,6 +1466,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulama dili",
     languageEs: "Idioma de la aplicación",
     languageCn: "申请语言",
+    languageKr: "어플리케이션 언어",
   },
   'ModificationsOpenHideKey': {
     languageEn: "Modification's menu interacting key",
@@ -1361,6 +1478,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon menüsü etkileşim tuşu",
     languageEs: "Tecla de interacción del menú de modificación",
     languageCn: "修改菜单交互键",
+    languageKr: "치트메뉴 상호 작용 키 수정",
   },
   'LocalModificationsOpenHideKey': {
     languageEn: "Local modification's menu interacting key",
@@ -1372,6 +1490,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yerel modifikasyon menüsü etkileşim tuşu",
     languageEs: "Tecla de interacción del menú de modificación local",
     languageCn: "本地修改菜单交互键",
+    languageKr: "로컬 치트 메뉴 상호 작용 키",
   },
   'NotForAllModifications': {
     languageEn:
@@ -1391,6 +1510,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Por desgracia, esta función no es compatible con todas las modificaciones. Si la modificación no reacciona a la tecla seleccionada, tendrá que utilizar el bind estándar.",
     languageCn: "遗憾的是，该功能并非与所有修改都兼容。如果修改对所选键没有反应，则必须使用标准绑定。",
+    languageKr: "안타깝게도 이 기능은 모든 치트와 호환되지 않습니다. 치트에서 선택한 키에 반응하지 않으면 표준 키를 사용해야 합니다",
   },
   'LocalKeyBindDescription': {
     languageEn:
@@ -1410,6 +1530,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Ten en cuenta que este bind sólo funcionará si la tecla original para abrir el menú de modificación local es Insert",
     languageCn: "请注意，只有在打开本地修改菜单的原始键为 Insert 时，此绑定才会起作用。",
+    languageKr: "이 키는 로컬 치트 메뉴를 연 원래 키가 삽입인 경우에만 작동합니다.",
   },
   'InjectionMethod': {
     languageEn: 'Injection method',
@@ -1421,6 +1542,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Enjeksiyon yöntemi",
     languageEs: "Método de inyección",
     languageCn: "注射方法",
+    languageKr: "주입방법",
   },
   'Hidden': {
     languageEn: 'Hidden',
@@ -1432,6 +1554,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gizli",
     languageEs: "Sigiloso",
     languageCn: "隐身",
+    languageKr: "숨김",
   },
   'Universal': {
     languageEn: "Universal",
@@ -1443,6 +1566,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Evrensel",
     languageEs: "Universal",
     languageCn: "通用",
+    languageKr: "Universal",
   },
   'KeyIsOccupied': {
     languageEn: 'The key you selected is already being used by some function!',
@@ -1456,6 +1580,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La tecla seleccionada ya está siendo utilizada por otra función.",
     languageCn: "您选择的键已被某些功能使用！",
+    languageKr: "선택한 키는 이미 다른 기능에서 사용 중입니다!",
   },
   'GameAutoLaunch': {
     languageEn: 'Automatically launch the game',
@@ -1467,6 +1592,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunu otomatik olarak başlat",
     languageEs: "Iniciar automáticamente el juego",
     languageCn: "自动启动游戏",
+    languageKr: "자동으로 게임시작",
   },
   'GameAutoLaunchDescription': {
     languageEn:
@@ -1486,6 +1612,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "ExLoader iniciará el juego (sólo para juegos de Steam) antes de inyectar la modificación.",
     languageCn: "ExLoader 会在注入修改之前自行启动游戏（仅适用于 Steam 游戏）。",
+    languageKr: "ExLoader는 치트를 삽입하기 전에 게임 자체를 시작합니다(Steam 게임에만 해당)",
   },
   'NotifyAboutChanges': {
     languageEn: 'Receive notifications about modifications',
@@ -1497,6 +1624,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklikler hakkında bildirim alma",
     languageEs: "Recibir notificaciones sobre modificaciones",
     languageCn: "接收修改通知",
+    languageKr: "치트에 대한 알림 받기",
   },
   'AddToExclusions': {
     languageEn: 'Windows Defender exclusions',
@@ -1508,6 +1636,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Windows Defender dışlamaları",
     languageEs: "Exclusiones de Windows Defender",
     languageCn: "Windows Defender 排除",
+    languageKr: "Windows Defender 제외",
   },
   'Other': {
     languageEn: 'Other',
@@ -1519,6 +1648,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Diğer",
     languageEs: "Otros",
     languageCn: "其他",
+    languageKr: "Other",
   },
   'Light': {
     languageEn: 'Light (BETA)',
@@ -1530,6 +1660,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Işık (BETA)",
     languageEs: "Luz (BETA)",
     languageCn: "光 (BETA)",
+    languageKr: "빛 (BETA)",
   },
   'Dark': {
     languageEn: 'Dark',
@@ -1541,6 +1672,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Karanlık",
     languageEs: "Oscuro",
     languageCn: "黑暗",
+    languageKr: "다크",
   },
   'AppTheme': {
     languageEn: "Application's theme",
@@ -1552,6 +1684,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulama teması",
     languageEs: "Tema de la aplicación",
     languageCn: "应用程序的主题",
+    languageKr: "애플리케이션 테마",
   },
   'ChangeBackgroundAutomatically': {
     languageEn: "Automatic background and color change",
@@ -1563,6 +1696,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Otomatik arka plan ve renk değişimi",
     languageEs: "Cambio automático de fondo y color",
     languageCn: "自动更换背景和颜色",
+    languageKr: "배경과 색상을 자동으로 변경",
   },
   'FetchWeather': {
     languageEn: 'Synchronize the weather',
@@ -1574,6 +1708,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hava durumunu senkronize edin",
     languageEs: "Sincronizar el tiempo",
     languageCn: "同步天气",
+    languageKr: "날씨 동기화",
   },
   'FetchWeatherDescription': {
     languageEn:
@@ -1593,6 +1728,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¿Está nevando o lloviendo fuera de la ventana? ¡Haz el mismo tiempo en la aplicación con un solo clic!",
     languageCn: "窗外正在下雪或下雨？只需点击一下，就能在应用程序中显示同样的天气！",
+    languageKr: "창밖에는 눈이 오나요, 비가 오나요? 단 한 번의 클릭으로 동일한 날씨를 앱에 표시할 수 있습니다!",
   },
   'GrainEffect': {
     languageEn: 'Grain effect',
@@ -1604,6 +1740,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tahıl etkisi",
     languageEs: "Efecto grano",
     languageCn: "纹理效果",
+    languageKr: "질감 효과",
   },
   'Disabled': {
     languageEn: 'Disabled',
@@ -1615,6 +1752,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Engelli",
     languageEs: "Discapacitados",
     languageCn: "残疾",
+    languageKr: "연결끊김",
   },
   'GreatVisible': {
     languageEn: 'Notable',
@@ -1626,6 +1764,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Önemli",
     languageEs: "Notable",
     languageCn: "著名",
+    languageKr: "주목할 만한",
   },
   'MediumVisible': {
     languageEn: 'Neutral',
@@ -1637,6 +1776,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Nötr",
     languageEs: "Neutro",
     languageCn: "中性",
+    languageKr: "중립",
   },
   'LowVisible': {
     languageEn: 'Inconspicuous',
@@ -1648,6 +1788,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Göze çarpmayan",
     languageEs: "Discreto",
     languageCn: "不显眼",
+    languageKr: "눈에 띄지 않음",
   },
   'MainColor': {
     languageEn: 'Accent color',
@@ -1659,6 +1800,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Vurgu rengi",
     languageEs: "Color de acento",
     languageCn: "点缀色",
+    languageKr: "악센트 색상",
   },
   'CouldNotSelectThisImage': {
     languageEn:
@@ -1678,6 +1820,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Desafortunadamente, ExLoader no pudo analizar su imagen. Puede intentar seleccionar otra.",
     languageCn: "很遗憾，ExLoader 无法分析您的图像。您可以尝试选择其他图像！",
+    languageKr: "안타깝게도 ExLoader는 이미지를 분석할 수 없습니다. 다른 이미지를 선택해 보세요!",
   },
   'ChooseAnImage': {
     languageEn: 'Choose a file of the desired image',
@@ -1689,6 +1832,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İstediğiniz görüntünün dosyasını seçin",
     languageEs: "Elija un archivo de la imagen deseada",
     languageCn: "选择所需图像的文件",
+    languageKr: "원하는 이미지 파일을 선택하세요",
   },
   'BackgroundIsAlreadyInstalled': {
     languageEn: 'The background you selected is already added to the app!',
@@ -1702,6 +1846,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El fondo que has seleccionado ya está añadido a la aplicación.",
     languageCn: "您选择的背景已经添加到应用程序中！",
+    languageKr: "원하는 배경이 앱에 추가되었습니다!",
   },
   'ImageIsSaved': {
     languageEn: 'Your picture is saved and applied!',
@@ -1713,6 +1858,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Resminiz kaydedildi ve uygulandı!",
     languageEs: "Tu foto está guardada y aplicada.",
     languageCn: "保存并应用您的图片！",
+    languageKr: "이미지를 저장하고 적용해보세요!!",
   },
   'Background': {
     languageEn: 'Background image',
@@ -1724,6 +1870,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Arka plan görüntüsü",
     languageEs: "Imagen de fondo",
     languageCn: "背景图片",
+    languageKr: "배경 그림",
   },
   'DeleteThisImage': {
     languageEn: 'Delete this background',
@@ -1735,6 +1882,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu arka planı silin",
     languageEs: "Borrar este fondo",
     languageCn: "删除此背景",
+    languageKr: "배경 삭제",
   },
   'AddCustomBackground': {
     languageEn: 'Add your own background',
@@ -1746,6 +1894,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kendi arka planınızı ekleyin",
     languageEs: "Añade tu propio fondo",
     languageCn: "添加自己的背景",
+    languageKr: "나만의 배경 추가",
   },
   'CustomImage': {
     languageEn:
@@ -1766,6 +1915,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Añade tu propio fondo. Ten en cuenta que tu imagen personalizada puede quedar genial con el tema oscuro e increíblemente desagradable con el claro, ¡o viceversa! Intenta elegir imágenes oscuras para el tema oscuro e imágenes muy claras para el tema claro.",
     languageCn:
         "添加自己的背景。请注意，您的自定义图片在深色主题下可能看起来很棒，而在浅色主题下则会令人难以置信地反感，反之亦然！请尝试为深色主题选择深色图片，为浅色主题选择浅色图片。",
+    languageKr:
+        "나만의 배경을 추가하세요. 사용자 정의 이미지는 어두운 테마에서는 멋져 보일 수 있지만 밝은 테마에서는 놀라울 정도로 불쾌할 수 있으며, 그 반대의 경우도 마찬가지입니다! 어두운 테마에는 어두운 이미지를 선택하고 밝은 테마에는 밝은 이미지를 선택해 보세요.",
   },
   'OpenImageDirectory': {
     languageEn: "Open image's backup directory",
@@ -1777,6 +1928,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Görüntünün yedek dizinini açın",
     languageEs: "Abrir el directorio de copia de seguridad de la imagen",
     languageCn: "打开图像的备份目录",
+    languageKr: "이미지 백업 디렉터리 열기",
   },
   'Never': {
     languageEn: "Never change",
@@ -1788,6 +1940,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Asla değişme",
     languageEs: "Nunca cambies",
     languageCn: "永不改变",
+    languageKr: "변경하지않음",
   },
   'EachWeek': {
     languageEn: "Once a week",
@@ -1799,6 +1952,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Haftada bir kez",
     languageEs: "Una vez a la semana",
     languageCn: "每周一次",
+    languageKr: "일주일에 한 번",
   },
   'EveryDay': {
     languageEn: "Every day",
@@ -1810,6 +1964,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Her gün",
     languageEs: "Todos los días",
     languageCn: "每天",
+    languageKr: "매일",
   },
   'OnEachRestart': {
     languageEn: "On application's restart",
@@ -1821,6 +1976,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulama yeniden başlatıldığında",
     languageEs: "Al reiniciar la aplicación",
     languageCn: "应用程序重新启动时",
+    languageKr: "애플리케이션이 다시 시작",
   },
   'ApplyingYourImage': {
     languageEn: "Processing your image before saving it",
@@ -1832,6 +1988,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kaydetmeden önce görüntünüzü işleme",
     languageEs: "Procesar la imagen antes de guardarla",
     languageCn: "保存前处理图像",
+    languageKr: "저장하기 전에 이미지를 처리하세요",
   },
   'ApplyingYourAvatar': {
     languageEn: "Processing your avatar image",
@@ -1843,6 +2000,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Avatar resminizi işleme",
     languageEs: "Tratamiento de la imagen de su avatar",
     languageCn: "处理您的头像",
+    languageKr: "아바타 처리",
   },
   'AdaptForNewThemes': {
     languageEn: "Adaptation for special events",
@@ -1854,6 +2012,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Özel etkinlikler için uyarlama",
     languageEs: "Adaptación para acontecimientos especiales",
     languageCn: "为特殊活动进行调整",
+    languageKr: "특별 이벤트에 맞게 조정",
   },
   'AdaptForNewThemesDescription': {
     languageEn:
@@ -1873,6 +2032,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El fondo de la aplicación y algunos de sus elementos se transformarán en función de las vacaciones actuales",
     languageCn: "应用程序的背景和部分元素将根据当前的假期进行转换",
+    languageKr: "애플리케이션의 배경과 일부 요소는 현재 휴일에 따라 변경됩니다.",
   },
   'NewYear': {
     languageEn: "Christmas",
@@ -1884,6 +2044,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Noel",
     languageEs: "Navidad",
     languageCn: "圣诞节",
+    languageKr: "크리스마스",
   },
   'Halloween': {
     languageEn: "Halloween",
@@ -1895,6 +2056,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Halloween",
     languageEs: "Halloween",
     languageCn: "万圣节",
+    languageKr: "할로윈",
   },
   'LoveDay': {
     languageEn: "Romantic",
@@ -1906,6 +2068,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Romantik",
     languageEs: "Romántico",
     languageCn: "浪漫",
+    languageKr: "로맨틱",
   },
   'SchoolDay': {
     languageEn: "Study day",
@@ -1917,6 +2080,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Çalışma günü",
     languageEs: "Día de estudio",
     languageCn: "学习日",
+    languageKr: "공부하는 날",
   },
   'JokeDay': {
     languageEn: "Fool's day",
@@ -1928,6 +2092,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Aptallar Günü",
     languageEs: "Día de los Inocentes",
     languageCn: "愚人节",
+    languageKr: "만우절",
   },
   'SummerStart': {
     languageEn: "Summerrr",
@@ -1939,6 +2104,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yazrrr",
     languageEs: "Veranorrr",
     languageCn: "夏季",
+    languageKr: "여름",
   },
   'VictoryDay': {
     languageEn: "War",
@@ -1950,6 +2116,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Savaş",
     languageEs: "Guerra",
     languageCn: "战争",
+    languageKr: "전쟁",
   },
   'SpaceDay': {
     languageEn: "Space",
@@ -1961,6 +2128,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uzay",
     languageEs: "Espacio",
     languageCn: "空间",
+    languageKr: "우주",
   },
   'IceCreamDay': {
     languageEn: "Ice cream",
@@ -1972,6 +2140,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Dondurma",
     languageEs: "Helados",
     languageCn: "冰淇淋",
+    languageKr: "아이스크림",
   },
   'FishingDay': {
     languageEn: "Fishes",
@@ -1983,6 +2152,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Balıklar",
     languageEs: "Peces",
     languageCn: "鱼类",
+    languageKr: "물고기",
   },
   'TastyFoodDay': {
     languageEn: "Goodies",
@@ -1994,6 +2164,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şekerlemelers",
     languageEs: "Golosinas",
     languageCn: "好东西",
+    languageKr: "맛있는 것",
   },
   'CatsDay': {
     languageEn: "Kitties",
@@ -2005,6 +2176,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kedicikler",
     languageEs: "Gatitos",
     languageCn: "小猫咪",
+    languageKr: "주방",
   },
   'Anime': {
     languageEn: 'Anime',
@@ -2016,6 +2188,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Anime",
     languageEs: "Anime",
     languageCn: "动漫",
+    languageKr: "동물",
   },
   'All': {
     languageEn: 'Receive notifications about all modifications',
@@ -2027,6 +2200,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tüm değişiklikler hakkında bildirim alın",
     languageEs: "Recibir notificaciones sobre todas las modificaciones",
     languageCn: "接收有关所有修改的通知",
+    languageKr: "모든 치트에 대한 알림 받기",
   },
   'None': {
     languageEn: 'Do not receive such notifications',
@@ -2038,6 +2212,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu tür bildirimleri almayın",
     languageEs: "No recibir estas notificaciones",
     languageCn: "不接收此类通知",
+    languageKr: "그런 알림을 받지 마세요",
   },
   'ByGameId': {
     languageEn:
@@ -2057,6 +2232,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Ocultar notificaciones de modificaciones de juegos que no has lanzado",
     languageCn: "隐藏未启动游戏的修改通知",
+    languageKr: "시작되지 않은 게임에 대한 치트 알림 숨기기",
   },
   'ClearList': {
     languageEn: 'Clear the list of launched games',
@@ -2068,6 +2244,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Başlatılan oyunların listesini temizleyin",
     languageEs: "Borrar la lista de juegos lanzados",
     languageCn: "清除已启动游戏的列表",
+    languageKr: "출시된 게임 목록 지우기",
   },
   'ClearListExecuted': {
     languageEn:
@@ -2087,6 +2264,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Se ha borrado la lista de juegos a los que has lanzado o instalado modificaciones.",
     languageCn: "已启动或安装修改的游戏列表已清除！",
+    languageKr: "치트 출시 또는 설치된 게임 목록이 삭제되었습니다!",
   },
   'NotificationsAboutComplaints': {
     languageEn: "Notifications about the complaints status",
@@ -2098,6 +2276,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şikayetlerin durumu hakkında bildirimler",
     languageEs: "Notificaciones sobre el estado de las reclamaciones",
     languageCn: "有关投诉状态的通知",
+    languageKr: "민원현황 알림",
   },
   'NotificationsAboutComplaintsDescription': {
     languageEn:
@@ -2117,6 +2296,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El resultado de la revisión de sus quejas sobre configuraciones, LUA o comentarios se enviará a sus notificaciones",
     languageCn: "您对配置、LUA 或意见的投诉审查结果将发送到您的通知中",
+    languageKr: "구성, LUA 또는 의견과 관련된 불만 사항 검토 결과가 알림으로 전송됩니다.",
   },
   'NotificationsAboutAnswers': {
     languageEn: "Receive notifications about responses",
@@ -2128,6 +2308,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yanıtlar hakkında bildirimler alın",
     languageEs: "Recibir notificaciones sobre las respuestas",
     languageCn: "接收回复通知",
+    languageKr: "답변 알림 받기",
   },
   'NotificationsAboutAnswersDescription': {
     languageEn:
@@ -2147,6 +2328,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Cuando alguien añada una respuesta a tu comentario, recibirás la notificación correspondiente.",
     languageCn: "当有人对您的评论添加回复时，您将收到相应的通知",
+    languageKr: "누군가가 귀하의 댓글에 답글을 추가하면 알림을 받게 됩니다.",
   },
   'CanNotChangeThisInOfflineMode': {
     languageEn:
@@ -2166,6 +2348,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡Lamentablemente, no puedes cambiar la configuración del perfil en modo sin conexión!",
     languageCn: "遗憾的是，您无法在脱机模式下更改 profle 设置！",
+    languageKr: "안타깝게도 오프라인 모드에서는 프로필 설정을 변경할 수 없습니다!",
   },
   'MultipleFoldersDetected': {
     languageEn:
@@ -2185,6 +2368,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "ExLoader ha encontrado varias carpetas posibles para la instalación de esta modificación de la configuración y las ha abierto todas.",
     languageCn: "ExLoader 找到了几个可能用于安装修改配置的文件夹，并将它们全部打开！",
+    languageKr: "ExLoader는 치트 구성을 설치하는 데 사용할 수 있는 여러 폴더를 찾아 모두 열었습니다!",
   },
   'NotAvailable': {
     languageEn:
@@ -2202,6 +2386,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Por desgracia, esta modificación no es compatible con esta función.",
     languageCn: "遗憾的是，此修改与此功能不兼容！",
+    languageKr: "불행하게도 이 치트는 이 기능과 호환되지 않습니다!",
   },
   'MaybeWithoutConfigs': {
     languageEn:
@@ -2221,6 +2406,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Quizá no tenga ningún sistema de configuración, o quizá sus configuraciones estén basadas en la nube.",
     languageCn: "也许它根本没有配置系统，也许它的配置是基于云的！",
+    languageKr: "구성 시스템이 전혀 없을 수도 있고, 구성이 클라우드 기반일 수도 있습니다!",
   },
   'CloudConfigSystemFolder': {
     languageEn:
@@ -2240,6 +2426,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Esta modificación utiliza un sistema de configuración en la nube y no dispone de almacenamiento local.",
     languageCn: "这种修改使用云配置系统，没有本地存储！",
+    languageKr: "이 치트는 로컬 저장소가 아닌 클라우드 구성 시스템을 사용합니다!",
   },
   'UnknownFolder': {
     languageEn:
@@ -2259,6 +2446,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Desafortunadamente, ExLoader no sabe dónde está la carpeta de archivos para esta modificación",
     languageCn: "遗憾的是，ExLoader 不知道修改文件的文件夹在哪里。",
+    languageKr: "불행하게도 ExLoader는 치트 파일의 폴더가 어디에 있는지 모릅니다.",
   },
   'CloudConfigSystemConfigs': {
     languageEn:
@@ -2278,6 +2466,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Esta modificación utiliza un sistema de configuración en la nube, ¡puedes instalarlos en la propia modificación o en su página web!",
     languageCn: "本修改器使用云配置系统，您可以将它们安装在修改器本身或其网站上！",
+    languageKr: "이 모더는 모더 자체나 웹사이트에 설치할 수 있는 클라우드 구성 시스템을 사용합니다!",
   },
   'ConfigsCanNotBeInstalledInOffline': {
     languageEn: 'Configs installation is not available in an offline mode!',
@@ -2292,6 +2481,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡La instalación de Configs no está disponible en modo offline!",
     languageCn: "配置安装在脱机模式下不可用！",
+    languageKr: "오프라인 모드에서는 구성 설치를 사용할 수 없습니다!",
   },
   'InstallTheGameToOpenFolder': {
     languageEn:
@@ -2311,6 +2501,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Tienes que instalar el juego para abrir la carpeta de archivos de esta modificación",
     languageCn: "您必须先安装游戏，才能打开此修改文件的文件夹",
+    languageKr: "이 치트 파일의 폴더를 열려면 먼저 게임을 설치해야 합니다.",
   },
   'InstallTheGameToInstallConfigs': {
     languageEn:
@@ -2330,6 +2521,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Tienes que instalar el juego para descargar configs para esta modificación. Si el juego ya está instalado, y el error no desaparece, intente instalar las configuraciones mientras el proceso del juego está abierto.",
     languageCn: "您必须安装游戏才能下载此修改的配置。如果游戏已经安装，但错误没有消失，请尝试在游戏进程打开时安装配置。",
+    languageKr: 
+        "이 치트를 다운로드하려면 게임이 설치되어 있어야 합니다. 게임을 설치했는데 오류가 사라지지 않으면 게임 프로세스가 열려 있는 동안 구성을 설치해 보세요.",
   },
   'FailedToInstallConfigs': {
     languageEn:
@@ -2347,6 +2540,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Desafortunadamente, no pudimos instalar esta configuración o LUA",
     languageCn: "遗憾的是，我们无法安装此配置或 LUA",
+    languageKr: "안타깝게도 이 구성이나 LUA를 설치할 수 없습니다.",
   },
   'ConfigsAlreadyInstalled': {
     languageEn: "It seems that configs you've chose is already installed!",
@@ -2362,6 +2556,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que la configuración que has elegido ya está instalada.",
     languageCn: "您选择的配置似乎已经安装！",
+    languageKr: "선택한 구성이 설치된 것 같습니다!",
   },
   'SubscriptionExpired': {
     languageEn: "Your ExLoader subscription has expired",
@@ -2373,6 +2568,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader aboneliğinizin süresi doldu",
     languageEs: "Tu suscripción a ExLoader ha expirado",
     languageCn: "您的 ExLoader 订阅已过期",
+    languageKr: "ExLoader 구독이 만료되었습니다",
   },
   'VACReplacementProcessIsStarted': {
     languageEn:
@@ -2388,6 +2584,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El proceso de desactivación del módulo de protección del juego ha comenzado.",
     languageCn: "禁用游戏保护模块的过程已经开始！",
+    languageKr: "게임 보호 모듈을 비활성화하는 프로세스가 시작되었습니다!",
   },
   'SteamIsNotInstalled': {
     languageEn:
@@ -2407,6 +2604,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Error al desactivar el módulo de protección: ¡Tienes que instalar Steam primero!",
     languageCn: "禁用保护模块失败： 您必须先安装 Steam！",
+    languageKr: "보호 모듈 비활성화 실패: 먼저 Steam을 설치해야 합니다!",
   },
   'VacIsAlreadyDisabled': {
     languageEn:
@@ -2426,6 +2624,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Esta función ya funciona. Para volver a habilitar VAC-Module, reinicie el proceso steam",
     languageCn: "该功能已在运行！要重新启用 VAC 模块，请重启蒸汽程序",
+    languageKr: "해당 기능이 이미 실행 중입니다! VAC 모듈을 다시 활성화하려면 스팀 프로그램을 다시 시작하세요.",
   },
   'FailedToReplaceVACModule': {
     languageEn:
@@ -2445,6 +2644,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Error al desactivar el módulo de protección: Se ha producido un error inesperado.",
     languageCn: "禁用保护模块失败： 发生了一些意外错误！",
+    languageKr: "보호 모듈을 비활성화하지 못했습니다. 예상치 못한 오류가 발생했습니다!",
   },
   'SteamWasNotLaunched': {
     languageEn:
@@ -2464,6 +2664,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Error al desactivar el módulo de protección: ¡el proceso steam no se ha relanzado!",
     languageCn: "禁用保护模块失败：steam 进程未重新启动！",
+    languageKr: "보호 모듈 비활성화 실패: 스팀 프로세스가 다시 시작되지 않았습니다",
   },
   'VacModuleIsReplaced': {
     languageEn:
@@ -2483,6 +2684,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡El módulo VAC ha sido reemplazado con éxito! Para que todo vuelva a la normalidad, reinicie el proceso de Steam",
     languageCn: "已成功更换 VAC 模块！要恢复一切，只需重启蒸汽程序即可",
+    languageKr: "VAC 모듈이 성공적으로 교체되었습니다! 모든 것을 복원하려면 Steam 프로그램을 다시 시작하세요.",
   },
   'AlreadyInList': {
     languageEn:
@@ -2502,6 +2704,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡Modificación no ha sido añadido a tu biblioteca porque ya está en ella!",
     languageCn: "修改还没有添加到您的资料库中，因为它已经在资料库中了！",
+    languageKr: "치트가 이미 라이브러리에 있으므로 라이브러리에 추가되지 않았습니다!",
   },
   'WaitForLibraryToAdd': {
     languageEn:
@@ -2521,6 +2724,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Espera a que ExLoader analice tu modificación y la añada a tu biblioteca.",
     languageCn: "等待 ExLoader 分析您的修改并将其添加到库中！",
+    languageKr: "ExLoader가 치트을 분석하고 라이브러리에 추가할 때까지 기다리세요!",
   },
   'WaitForLibraryToUpdate': {
     languageEn:
@@ -2540,6 +2744,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Espere a que ExLoader analice su modificación y la actualice en su biblioteca.",
     languageCn: "等待 ExLoader 分析你的修改并将其更新到你的库中！",
+    languageKr: "ExLoader가 변경 사항을 분석하고 라이브러리에 업데이트할 때까지 기다리세요!",
   },
   'FailedToUpdateCustomModification': {
     languageEn: 'Failed to update modification with selected file!',
@@ -2552,6 +2757,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "No se ha podido actualizar la modificación del archivo seleccionado.",
     languageCn: "更新所选文件的修改失败！",
+    languageKr: "선택한 파일의 치트 업데이트  실패했습니다!",
   },
   'FailedToAddCustomModification': {
     languageEn: 'Failed to add selected modification!',
@@ -2564,6 +2770,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Seçilen değişiklik eklenemedi!",
     languageEs: "No se ha podido añadir la modificación seleccionada.",
     languageCn: "添加所选修改失败！",
+    languageKr: "선택한 치트를 추가하지 못했습니다.",
   },
   'ChooseADllOrExe': {
     languageEn: 'Choose a file of the desired modification',
@@ -2575,6 +2782,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İstediğiniz değişikliğe ait bir dosya seçin",
     languageEs: "Elija un archivo de la modificación deseada",
     languageCn: "选择所需的修改文件",
+    languageKr: "원하는 치트 파일을 선택하세요",
   },
   'DeletedSuccessfully': {
     languageEn: 'Modification has been removed from your library',
@@ -2586,6 +2794,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklik kütüphanenizden kaldırıldı",
     languageEs: "La modificación ha sido eliminada de su biblioteca",
     languageCn: "修改已从您的资料库中删除",
+    languageKr: "치트가 데이터베이스에서 삭제되었습니다.",
   },
   'Restore': {
     languageEn: 'Restore',
@@ -2597,6 +2806,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Geri Yükleme",
     languageEs: "Restaurar",
     languageCn: "恢复",
+    languageKr: "복원",
   },
   'ModificationWillBeRemoved': {
     languageEn:
@@ -2616,6 +2826,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El proceso de eliminación de todos los archivos de la modificación se iniciará en cinco segundos.",
     languageCn: "删除所有修改文件的过程将在五秒钟内启动！",
+    languageKr: "치트 모든 파일을 삭제하는 과정은 5초 이내에 시작됩니다!",
   },
   'ModificationDeleted': {
     languageEn: 'Modifications files have been successfully deleted!',
@@ -2628,6 +2839,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Los archivos de modificaciones se han eliminado correctamente.",
     languageCn: "已成功删除修改文件！",
+    languageKr: "치트 파일이 성공적으로 삭제되었습니다!",
   },
   'ModificationNotDeleted': {
     languageEn: "ExLoader did not find any modification's files on your device",
@@ -2644,6 +2856,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "ExLoader no ha encontrado ningún archivo de modificación en su dispositivo.",
     languageCn: "ExLoader 在您的设备上未找到任何修改文件",
+    languageKr: "ExLoader가 장치에서 치트 파일을 찾지 못했습니다.",
   },
   'NoSupportLinkIsProvided': {
     languageEn:
@@ -2663,6 +2876,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El desarrollador de esta modificación no proporcionó ningún enlace de contacto para asistencia.",
     languageCn: "该修改的开发者没有提供任何支持联系链接！",
+    languageKr: "이 치트의 개발자는 지원 연락처 링크를 제공하지 않았습니다!",
   },
   'CannotOpenThisLink': {
     languageEn: "Unfortunately, ExLoader cannot open this link",
@@ -2674,6 +2888,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Maalesef ExLoader bu bağlantıyı açamıyor",
     languageEs: "Desafortunadamente, ExLoader no puede abrir este enlace",
     languageCn: "不幸的是，ExLoader 无法打开此链接。",
+    languageKr: "불행하게도 ExLoader는 이 링크를 열 수 없습니다.",
   },
   'AddingToExclusions': {
     languageEn: "Setting up the Windows Defender",
@@ -2685,6 +2900,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Windows Defender'ın Kurulumu",
     languageEs: "Configuración de Windows Defender",
     languageCn: "设置 Windows Defender",
+    languageKr: "Windows Defender 설정",
   },
   'ReplacingModule': {
     languageEn: "Changing game's loading module",
@@ -2696,6 +2912,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun yükleme modülünü değiştirme",
     languageEs: "Cambio del módulo de carga del juego",
     languageCn: "更改游戏的加载模块",
+    languageKr: "게임 로딩 모듈 변경",
   },
   'SelectedKey': {
     languageEn: "Selected key:",
@@ -2707,6 +2924,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Seçilen anahtar:",
     languageEs: "Llave seleccionada:",
     languageCn: "选定密钥：",
+    languageKr: "선택한 키:",
   },
   'GoogleAuthPageTitle': {
     languageEn: "ExLoader - authorization is completed",
@@ -2718,6 +2936,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader - yetkilendirme tamamlandı",
     languageEs: "ExLoader - autorización completada",
     languageCn: "ExLoader - 授权已完成",
+    languageKr: "ExLoader - 인증 완료",
   },
   'GameUpdateMessage': {
     languageEn:
@@ -2738,6 +2957,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Por favor, ten en cuenta que ha habido una actualización del {game} en los últimos días. Esto significa que algunas modificaciones pueden empezar a funcionar de forma inestable y provocar fallos en el juego. Si te encuentras con un problema de este tipo, simplemente espera a que los desarrolladores actualicen su proyecto. Normalmente, esto ocurre en un plazo de entre unas horas y varios días. Recuerda que el equipo de ExLoader no crea ni actualiza modificaciones, ¡sólo publicamos sus versiones actuales en nuestra biblioteca!",
     languageCn:
         "请注意，最近几天进行了 {game} 更新。这意味着某些修改可能会开始以不稳定的方式运行，并导致游戏崩溃！如果您遇到此类问题，请等待开发人员更新项目。通常情况下，这种情况会在几小时到几天内发生。请记住，ExLoader 团队不会创建或更新修改，我们只会将其当前版本发布到我们的库中！",
+    languageKr:
+        "지난 며칠 동안 {game} 업데이트가 있었습니다. 이는 특정 치트가 불안정한 방식으로 작동하기 시작하여 게임이 중단될 수 있음을 의미합니다! 이러한 문제가 발생하면 개발자가 프로젝트를 업데이트할 때까지 기다리십시오. 일반적으로 이는 몇 시간에서 며칠 내에 발생합니다. ExLoader 팀은 치트를 생성하거나 업데이트하지 않으며 현재 버전만 저장소에 게시한다는 점을 기억하십시오!",
   },
   'GoogleAuthPageDescription': {
     languageEn: "Validation is completed, you can go back to the application",
@@ -2750,6 +2971,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Doğrulama tamamlandığında uygulamaya geri dönebilirsiniz",
     languageEs: "La validación se ha completado, puede volver a la aplicación",
     languageCn: "验证完成后，您可以返回应用程序",
+    languageKr: "유효성 검사가 완료되면 다시 신청서로 돌아가실 수 있습니다",
   },
   'Discount': {
     languageEn: "Discount",
@@ -2761,6 +2983,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İndirim",
     languageEs: "Descuento",
     languageCn: "折扣",
+    languageKr: "할인",
   },
   'BonusDays': {
     languageEn: "bonus {days}",
@@ -2772,6 +2995,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "bonus {days}",
     languageEs: "bonificación {days}",
     languageCn: "奖金 {days}",
+    languageKr: "보너스 {일}",
   },
   'PreLaunchCheck': {
     languageEn: 'Pre-launch check',
@@ -2783,6 +3007,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Lansman öncesi kontrol",
     languageEs: "Comprobación previa al lanzamiento",
     languageCn: "发射前检查",
+    languageKr: "출시 전 점검",
   },
   'DisableAC': {
     languageEn:
@@ -2803,6 +3028,8 @@ const Map<String, Map<String, String>> localeItems = {
         "El proceso de lanzamiento de la modificación se ha interrumpido debido a la presencia de un anti-tramposo de usuario activo y en funcionamiento. Desactiva todos los programas como FaceIt, ESEA, EAC, BattleEye, Byfron, Vanguard, MRAC, etc. para continuar.",
     languageCn:
         "由于存在有效的用户反作弊程序，修改的启动过程被中断。禁用 FaceIt、ESEA、EAC、BattleEye、Byfron、Vanguard、MRAC 等所有程序才能继续！",
+    languageKr:
+        "활성 사용자 치트 방지 프로그램으로 인해 치트 프로세스가 중단되었습니다. 계속하려면 FaceIt, ESEA, EAC, BattleEye, Byfron, Vanguard, MRAC 및 기타 모든 프로그램을 비활성화하세요!",
   },
   'CmdWasNotFound': {
     languageEn:
@@ -2823,6 +3050,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Parece que a su dispositivo le falta la línea de comandos. Para solucionar este problema, devuelva el archivo cmd.exe a la carpeta Windows\\System32 de la unidad de disco de su sistema. Desafortunadamente, ExLoader no funcionará correctamente sin tal acción por su parte.",
     languageCn:
         "您的设备似乎缺少命令行。要解决这个问题，请将 cmd.exe 文件放回系统驱动器上的 Windows\\System32 文件夹。不幸的是，如果你不这样做，ExLoader 将无法正常工作。",
+    languageKr:
+        "장치에 명령줄이 없는 것 같습니다. 이 문제를 해결하려면 cmd.exe 파일을 시스템 드라이브의 Windows\\System32 폴더에 다시 넣으십시오. 안타깝게도 이렇게 하지 않으면 ExLoader가 제대로 작동하지 않습니다.",
   },
   'WindowsIsIncompatible': {
     languageEn:
@@ -2842,6 +3071,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, tu versión de Windows es incompatible con la recomendada por la modificación. Si quieres jugar con esta modificación, tendrás que instalar Windows",
     languageCn: "不幸的是，您的 Windows 版本与修改版推荐的版本不兼容。如果你想玩这个修改，你必须安装 Windows",
+    languageKr: "귀하의 윈도우 버전은 이 치트를 사용하는데 맞지 않습니다. 이 치트를 사용하려면 치트에 맞는 권장사항을 확인하시고 윈도우를 설치 하세요.",
+    
   },
   'GPUIsIncompatible': {
     languageEn:
@@ -2861,6 +3092,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que tu tarjeta de video es incompatible con una de las necesarias para lanzar esta modificación. Necesitarás una de las GPUs de los siguientes fabricantes para usar este mod:",
     languageCn: "看来您的显卡与启动此修改所需的显卡之一不兼容。您需要以下制造商生产的 GPU 才能使用此修改程序：",
+    languageKr: "귀하의 그래픽 카드가 치트를 시작하는 데 필요한 그래픽 카드 중 하나와 호환되지 않는 것 같습니다. 이 치트를 사용하려면 다음 제조업체의 GPU가 필요합니다.:",
   },
   'ComponentsCheckUnified': {
     languageEn: 'Checking for installation of {components} components',
@@ -2873,6 +3105,7 @@ const Map<String, Map<String, String>> localeItems = {
         "{components} bileşenlerinin yüklenip yüklenmediğini kontrol etme",
     languageEs: "Comprobación de la instalación de componentes de {components}",
     languageCn: "检查 {components} 组件的安装情况",
+    languageKr: "{components} 구성요소 설치를 확인하세요.",
   },
   'InstallingInjectionModule': {
     languageEn: "Installing the modification's launch module",
@@ -2884,6 +3117,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyonun başlatma modülünün yüklenmesi",
     languageEs: "Instalación del módulo de lanzamiento de la modificación",
     languageCn: "Installing the modification's launch module",
+    languageKr: "치트의 실행 모듈 설치",
   },
   'InstallingFonts': {
     languageEn: 'Installing important fonts',
@@ -2895,6 +3129,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Önemli yazı tiplerini yükleme",
     languageEs: "Instalación de fuentes importantes",
     languageCn: "安装重要字体",
+    languageKr: "중요한 글꼴 설치",
   },
   'InstallingExtraFiles': {
     languageEn: "Preparing modification's extra files",
@@ -2906,6 +3141,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyonun ekstra dosyalarını hazırlama",
     languageEs: "Preparar los archivos adicionales de la modificación",
     languageCn: "准备修改的额外文件",
+    languageKr: "치트를 준비할 추가 파일",
   },
   'UpdatingExtraFiles': {
     languageEn: "Updating modification's extra files",
@@ -2917,6 +3153,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyonun ekstra dosyalarını güncelleme",
     languageEs: "Actualización de los archivos adicionales de la modificación",
     languageCn: "更新修改的额外文件",
+    languageKr: "추가 파일 업데이트됨",
   },
   'UnpackingExtraFiles': {
     languageEn: "Unpacking modification's extra files",
@@ -2928,6 +3165,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyonun ekstra dosyalarını açma",
     languageEs: "Descomprimir los archivos adicionales de la modificación",
     languageCn: "解压修改额外文件",
+    languageKr: "추가 파일의 압축을 풀고 수정합니다.",
   },
   'PreparingProcesses': {
     languageEn: 'Configuring the processes',
@@ -2939,6 +3177,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Süreçleri yapılandırma",
     languageEs: "Configurar los procesos",
     languageCn: "配置流程",
+    languageKr: "구성 프로세스",
   },
   'LaunchingCSGO': {
     languageEn: "Launching the {game}",
@@ -2950,6 +3189,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "{game} başlatılıyor",
     languageEs: "Iniciar el {game}",
     languageCn: "启动 {game}",
+    languageKr: "시작 {game}",
   },
   'Game': {
     languageEn: 'game',
@@ -2961,6 +3201,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "oyun",
     languageEs: "juego",
     languageCn: "比赛",
+    languageKr: "게임",
   },
   'WaitingForCSGOLaunch': {
     languageEn: "Waiting for you to launch the {game}",
@@ -2972,6 +3213,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "{game} başlatmanızı bekliyorum",
     languageEs: "Esperando a que lances el {game}",
     languageCn: "等待您启动 {game}。",
+    languageKr: "{game} 시작 중...",
   },
   'FailedToLaunchDueToSteam': {
     languageEn:
@@ -2991,6 +3233,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El proceso de lanzamiento de la modificación se ha interrumpido debido a la ausencia de Steam instalado en tu dispositivo. Instala Steam y vuelve a intentar iniciar la modificación para continuar.",
     languageCn: "由于您的设备上未安装 Steam，导致修改启动过程中断。请安装 Steam 并重新尝试启动修改以继续！",
+    languageKr: "Steam이 설치되지 않았습니다. Steam 설치 한 후 다시 실행해주세요",
   },
   'LaunchingSteam': {
     languageEn: 'Launching steam',
@@ -3002,6 +3245,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Steam başlatılıyor",
     languageEs: "Lanzamiento de steam",
     languageCn: "启动 steam",
+    languageKr: "시작 steam",
   },
   'WaitingForSteamLaunch': {
     languageEn: 'Waiting for you to launch steam',
@@ -3013,6 +3257,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Steam'i başlatmanı bekliyorum",
     languageEs: "Esperando el lanzamiento de steam",
     languageCn: "等待您推出 steam",
+    languageKr: "steam을 기다리고 있습니다.",
   },
   'CheckingModules': {
     languageEn: 'Analyzing game modules',
@@ -3024,6 +3269,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyun modüllerini analiz etme",
     languageEs: "Análisis de módulos de juego",
     languageCn: "分析游戏模块",
+    languageKr: "게임 모듈 분석",
   },
   'CheckingCSGOSettings': {
     languageEn:
@@ -3042,6 +3288,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Comprobar la configuración del juego, maximizar la ventana del juego y mantenerla abierta.",
     languageCn: "检查游戏设置，最大化游戏窗口并保持打开状态",
+    languageKr: "게임 설정을 확인하고 게임 창을 최대화한 후 열어 두세요.",
   },
   'CreatingModificationFile': {
     languageEn: "Creating the modification's module",
@@ -3053,6 +3300,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon modülünün oluşturulması",
     languageEs: "Creación del módulo de modificación",
     languageCn: "创建修改模块",
+    languageKr: "치트 모듈 생성",
   },
   'ModificationInjecting': {
     languageEn: "Implementing modification's module",
@@ -3064,6 +3312,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon modülünün uygulanması",
     languageEs: "Aplicación del módulo de modificación",
     languageCn: "实施修改模块",
+    languageKr: "치트 모듈 구현",
   },
   'FailedToLaunchTheModification': {
     languageEn:
@@ -3084,6 +3333,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Se ha producido un error inesperado durante el proceso de lanzamiento de la modificación. Intente cambiar el método de inyección de la modificación en la configuración de ExLoader o pruebe el lanzamiento de otra modificación. La lista de modificaciones disponibles para cada método de inyección se puede ver en la configuración de la aplicación.\n\nSi el problema persiste, escribe a nuestro servicio de asistencia adjuntando capturas de pantalla del archivo de registro, que puedes ver utilizando el botón de abajo.",
     languageCn:
         "修改启动过程中出现意外错误。请尝试在 ExLoader 设置中更改修改的注入方法，或测试其他修改的启动。可在应用程序设置中查看每种注入方法的可用修改列表！\n\n如果问题仍然存在，请写信给我们的支持人员，并附上日志文件的截图，您可以使用下面的按钮查看！",
+    languageKr:
+        "치트 시작 중에 예기치 않은 오류가 발생했습니다. ExLoader 설정에서 주입방법을 변경해보거나 다른 치트를 테스트해 보십시오. 각 주입 방법에 대해 사용 치트목록은 애플리케이션 설정에서 볼 수 있습니다! \n\n문제가 지속되면 지원팀에 문의하고 로그 파일의 스크린샷을 첨부해 주세요. 아래 버튼을 사용하여 볼 수 있습니다!",
   },
   'VerifyingFiles': {
     languageEn: "Verifying installation files",
@@ -3095,6 +3346,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kurulum dosyalarının doğrulanması",
     languageEs: "Verificación de los archivos de instalación",
     languageCn: "验证安装文件",
+    languageKr: "설치 파일 확인",
   },
   'InstallingModification': {
     languageEn: "Installing the modification",
@@ -3106,6 +3358,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişikliğin yüklenmesi",
     languageEs: "Instalación de la modificación",
     languageCn: "安装修改",
+    languageKr: "치트 설치",
   },
   'UpdatingModification': {
     languageEn: "Updating the modification",
@@ -3117,6 +3370,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişikliğin güncellenmesi",
     languageEs: "Actualización de la modificación",
     languageCn: "Değişikliğin güncellenmesi",
+    languageKr: "변경사항 업데이트",
   },
   'AnalyzingGameBehaviour': {
     languageEn: "Watching the game's behaviour",
@@ -3128,6 +3382,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun davranışını izlemek",
     languageEs: "Observar el comportamiento del juego",
     languageCn: "观察游戏行为",
+    languageKr: "게임 동작 관찰",
   },
   'NoUserRights': {
     languageEn:
@@ -3148,6 +3403,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Su cuenta de usuario no tiene privilegios de administrador. Vaya al panel de control, cuentas de usuario, cambie el tipo de cuenta y seleccione «Administrador» para el usuario {user}. No olvide reiniciar su dispositivo después de estos cambios.",
     languageCn:
         "您的用户账户没有管理员权限。进入控制面板、用户账户，更改账户类型并为{user}用户选择 «管理员»。更改后不要忘记重启设备！",
+    languageKr:
+        "귀하의 사용자 계정에는 관리자 권한이 없습니다. 제어판, 사용자 계정으로 이동하여 계정 유형을 변경하고 {user}에 대해 «관리자»를 선택하십시오. 변경 후에는 장치를 다시 시작하는 것을 잊지 마세요!",
   },
   // 1 second
   'OneSecond': {
@@ -3160,6 +3417,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "saniye",
     languageEs: "segundo",
     languageCn: "秒钟",
+    languageKr: "초",
   },
   // 2-4 seconds
   'TwoSeconds': {
@@ -3172,6 +3430,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "saniye",
     languageEs: "segundos",
     languageCn: "秒钟",
+    languageKr: "초",
   },
   // 5-9/0 seconds
   'Seconds': {
@@ -3184,6 +3443,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "saniye",
     languageEs: "segundos",
     languageCn: "秒钟",
+    languageKr: "초",
   },
   'OneMinute': {
     languageEn: 'minute',
@@ -3195,6 +3455,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "dakika",
     languageEs: "minuto",
     languageCn: "分钟",
+    languageKr: "분",
   },
   // Like "he played for 1 minute"
   'OneMinuteNoun': {
@@ -3207,6 +3468,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "dakika",
     languageEs: "minutos",
     languageCn: "分钟",
+    languageKr: "분",
   },
   'TwoMinutes': {
     languageEn: 'minutes',
@@ -3218,6 +3480,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "dakika",
     languageEs: "minutos",
     languageCn: "分钟",
+    languageKr: "분",
   },
   'Minutes': {
     languageEn: 'minutes',
@@ -3229,6 +3492,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "dakika",
     languageEs: "minutos",
     languageCn: "分钟",
+    languageKr: "분",
   },
   'OneHour': {
     languageEn: 'hour',
@@ -3240,6 +3504,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "saat",
     languageEs: "hora",
     languageCn: "小时",
+    languageKr: "시간",
   },
   'TwoHours': {
     languageEn: 'hours',
@@ -3251,6 +3516,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "saat",
     languageEs: "horas",
     languageCn: "小时",
+    languageKr: "시간",
   },
   'Hours': {
     languageEn: 'hours',
@@ -3262,6 +3528,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "saat",
     languageEs: "horas",
     languageCn: "小时",
+    languageKr: "시간",
   },
   'OneDay': {
     languageEn: 'day',
@@ -3273,6 +3540,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "gün",
     languageEs: "día",
     languageCn: "天",
+    languageKr: "일",
   },
   'TwoDays': {
     languageEn: 'days',
@@ -3284,6 +3552,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "gün",
     languageEs: "días",
     languageCn: "天",
+    languageKr: "일",
   },
   'Days': {
     languageEn: 'days',
@@ -3295,6 +3564,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "gün",
     languageEs: "días",
     languageCn: "天",
+    languageKr: "일",
   },
   'OneWeek': {
     languageEn: 'week',
@@ -3306,6 +3576,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "hafta",
     languageEs: "semana",
     languageCn: "周",
+    languageKr: "주",
   },
   'TwoWeeks': {
     languageEn: 'weeks',
@@ -3317,6 +3588,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "hafta",
     languageEs: "semanas",
     languageCn: "周",
+    languageKr: "주",
   },
   'Weeks': {
     languageEn: 'weeks',
@@ -3328,6 +3600,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "hafta",
     languageEs: "semanas",
     languageCn: "周",
+    languageKr: "주",
   },
   'OneMonth': {
     languageEn: 'month',
@@ -3339,6 +3612,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ay",
     languageEs: "mes",
     languageCn: "个月",
+    languageKr: "월",
   },
   'TwoMonths': {
     languageEn: 'months',
@@ -3350,6 +3624,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ay",
     languageEs: "meses",
     languageCn: "个月",
+    languageKr: "월",
   },
   'Months': {
     languageEn: 'months',
@@ -3361,6 +3636,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ay",
     languageEs: "meses",
     languageCn: "个月",
+    languageKr: "월",
   },
   'OneYear': {
     languageEn: 'year',
@@ -3372,6 +3648,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yıl",
     languageEs: "año",
     languageCn: "年",
+    languageKr: "년",
   },
   'TwoMYears': {
     languageEn: 'years',
@@ -3383,6 +3660,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yıl",
     languageEs: "años",
     languageCn: "年",
+    languageKr: "년",
   },
   'YearsNoun': {
     languageEn: 'year',
@@ -3394,6 +3672,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yıl",
     languageEs: "años",
     languageCn: "年",
+    languageKr: "년",
   },
   'Years': {
     languageEn: 'years',
@@ -3405,6 +3684,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yıl",
     languageEs: "años",
     languageCn: "年",
+    languageKr: "년",
   },
   // Like just month name
   'January': {
@@ -3417,6 +3697,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ocak",
     languageEs: "Enero",
     languageCn: "一月份",
+    languageKr: "1월",
   },
   // Like The 2nd of January
   'JanuaryNoun': {
@@ -3429,6 +3710,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ocak",
     languageEs: "Enero",
     languageCn: "一月份",
+    languageKr: "1월",
   },
   'February': {
     languageEn: 'February',
@@ -3440,6 +3722,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şubat",
     languageEs: "Febrero",
     languageCn: "二月份",
+    languageKr: "2월",
   },
   'FebruaryNoun': {
     languageEn: 'February',
@@ -3451,6 +3734,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şubat",
     languageEs: "Febrero",
     languageCn: "二月份",
+    languageKr: "2월",
   },
   'March': {
     languageEn: 'March',
@@ -3462,6 +3746,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Mart",
     languageEs: "Marzo",
     languageCn: "三月份",
+    languageKr: "3월",
   },
   'MarchNoun': {
     languageEn: 'March',
@@ -3473,6 +3758,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Mart",
     languageEs: "Marzo",
     languageCn: "三月份",
+    languageKr: "3월",
   },
   'April': {
     languageEn: 'April',
@@ -3484,6 +3770,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Nisan",
     languageEs: "Abril",
     languageCn: "四月",
+    languageKr: "4월",
   },
   'AprilNoun': {
     languageEn: 'April',
@@ -3495,6 +3782,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Nisan",
     languageEs: "Abril",
     languageCn: "四月",
+    languageKr: "4월",
   },
   'May': {
     languageEn: 'May',
@@ -3506,6 +3794,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Mayıs",
     languageEs: "Mayo",
     languageCn: "五月份",
+    languageKr: "5월",
   },
   'MayNoun': {
     languageEn: 'May',
@@ -3517,6 +3806,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Mayıs",
     languageEs: "Mayo",
     languageCn: "五月份",
+    languageKr: "5월",
   },
   'June': {
     languageEn: 'June',
@@ -3528,6 +3818,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Haziran",
     languageEs: "Junio",
     languageCn: "June",
+    languageKr: "6월",
   },
   'JuneNoun': {
     languageEn: 'June',
@@ -3539,6 +3830,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Haziran",
     languageEs: "Junio",
     languageCn: "June",
+    languageKr: "6월",
   },
   'July': {
     languageEn: 'July',
@@ -3550,6 +3842,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Temmuz",
     languageEs: "Julio",
     languageCn: "七月",
+    languageKr: "7월",
   },
   'JulyNoun': {
     languageEn: 'July',
@@ -3561,6 +3854,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Temmuz",
     languageEs: "Julio",
     languageCn: "七月",
+    languageKr: "7월",
   },
   'August': {
     languageEn: 'August',
@@ -3572,6 +3866,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ağustos",
     languageEs: "Agosto",
     languageCn: "八月",
+    languageKr: "8월",
   },
   'AugustNoun': {
     languageEn: 'August',
@@ -3583,6 +3878,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ağustos",
     languageEs: "Agosto",
     languageCn: "八月",
+    languageKr: "8월",
   },
   'September': {
     languageEn: 'September',
@@ -3594,6 +3890,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Eylül",
     languageEs: "Septiembre",
     languageCn: "九月份",
+    languageKr: "9월",
   },
   'SeptemberNoun': {
     languageEn: 'September',
@@ -3605,6 +3902,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Eylül",
     languageEs: "Septiembre",
     languageCn: "九月份",
+    languageKr: "9월",
   },
   'October': {
     languageEn: 'October',
@@ -3616,6 +3914,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ekim",
     languageEs: "Octubre",
     languageCn: "十月份",
+    languageKr: "10월",
   },
   'OctoberNoun': {
     languageEn: 'October',
@@ -3627,6 +3926,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ekim",
     languageEs: "Octubre",
     languageCn: "十月份",
+    languageKr: "10월",
   },
   'November': {
     languageEn: 'November',
@@ -3638,6 +3938,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kasım",
     languageEs: "Noviembre",
     languageCn: "十一月",
+    languageKr: "11월",
   },
   'NovemberNoun': {
     languageEn: 'November',
@@ -3649,6 +3950,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kasım",
     languageEs: "Noviembre",
     languageCn: "十一月",
+    languageKr: "11월",
   },
   'December': {
     languageEn: 'December',
@@ -3660,6 +3962,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Aralık",
     languageEs: "Diciembre",
     languageCn: "十二月",
+    languageKr: "12월",
   },
   'DecemberNoun': {
     languageEn: 'December',
@@ -3671,6 +3974,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Aralık",
     languageEs: "Diciembre",
     languageCn: "十二月",
+    languageKr: "12월",
   },
   // Like at 7 o'clock
   'At': {
@@ -3683,6 +3987,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "de",
     languageEs: "en",
     languageCn: "于",
+    languageKr: "에",
   },
   'UpdateFailed': {
     languageEn:
@@ -3702,6 +4007,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, se ha producido algún error al actualizar la aplicación, pero puede descargar la nueva versión usted mismo utilizando el botón siguiente",
     languageCn: "不幸的是，在更新应用程序时出现了一些错误，不过你可以使用下面的按钮自行下载新版本",
+    languageKr: "아쉽게도 앱을 업데이트하는 과정에서 일부 오류가 발생했지만, 아래 버튼을 통해 직접 새 버전을 다운로드하실 수 있습니다.",
   },
   'UpdateFailedTryManual': {
     languageEn:
@@ -3722,6 +4028,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Parece que se ha producido un error inesperado durante la actualización de ExLoader, sin embargo, puedes instalarlo manualmente: ¡sólo tienes que hacer clic en el botón de abajo y arrastrar todos los archivos de la carpeta abierta al directorio donde tengas instalado ExLoader!",
     languageCn:
         "看来在 ExLoader 更新过程中发生了意外错误，不过你可以手动安装：只需点击下面的按钮，然后将打开文件夹中的所有文件拖到安装 ExLoader 的目录中即可！",
+    languageKr: 
+        "ExLoader 업데이트 과정에서 예상치 못한 오류가 발생한 것 같습니다. 수동으로 설치할 수도 있습니다. 아래 버튼을 클릭하고 열려 있는 폴더에 있는 모든 파일을 ExLoader가 설치된 디렉터리로 드래그하기만 하면 됩니다!",
   },
   'OpenDirectory': {
     languageEn: "Open directory",
@@ -3733,6 +4041,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Açık dizin",
     languageEs: "Abrir directorio",
     languageCn: "打开目录",
+    languageKr: "오픈 디렉토리",
   },
   'MissingAssets': {
     languageEn:
@@ -3752,6 +4061,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que algunos archivos de la aplicación no se instalaron durante el proceso de instalación de la aplicación. Lamentablemente, ¡tendrás que volver a instalar ExLoader desde nuestra página oficial!",
     languageCn: "在安装过程中，应用程序的某些文件似乎没有安装。很遗憾，你必须从我们的官方网站重新安装 ExLoader！",
+    languageKr: "설치 과정에서 일부 응용 프로그램 파일이 설치되지 않은 것으로 나타납니다. 안타깝게도 공식 웹사이트에서 ExLoader를 다시 설치해야 합니다!",
   },
   'NotForMobile': {
     languageEn: "This section is not available for mobile modifications!",
@@ -3763,6 +4073,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu bölüm mobil modifikasyonlar için mevcut değildir!",
     languageEs: "Esta sección no está disponible para modificaciones móviles.",
     languageCn: "本部分不适用于手机修改！",
+    languageKr: "이 섹션은 휴대폰 개조에는 적용되지 않습니다!",
   },
   'NoLaunchGuide': {
     languageEn:
@@ -3782,6 +4093,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El desarrollador de esta modificación no dejó instrucciones específicas de lanzamiento",
     languageCn: "该修改的开发者没有留下任何具体的启动说明",
+    languageKr: "이 치트의 개발자는 특정 실행 지침을 남기지 않았습니다.",
   },
   'HintsAndTips': {
     languageEn: 'Hints and tips',
@@ -3793,6 +4105,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İpuçları ve tavsiyeler",
     languageEs: "Consejos y sugerencias",
     languageCn: "提示和窍门",
+    languageKr: "팁과 요령",
   },
   'ResetTipsAndHints': {
     languageEn: 'Reset hints and extended tips status',
@@ -3804,6 +4117,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İpuçlarını ve genişletilmiş ipuçlarını sıfırlama durumu",
     languageEs: "Restablecer el estado de sugerencias y consejos ampliados",
     languageCn: "重置提示和扩展提示状态",
+    languageKr: "프롬프트 및 확장 프롬프트 상태 재설정",
   },
   'HintsCleared': {
     languageEn:
@@ -3823,6 +4137,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Ya está, ¡todos los consejos y banners de formación volverán a aparecer!",
     languageCn: "就这样，所有提示和培训横幅将再次显示！",
+    languageKr: "이제 모든 팁과 교육 배너가 다시 표시됩니다!",
   },
   'ResetTipsAndHintsDescription': {
     languageEn:
@@ -3842,6 +4157,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         'Se volverán a mostrar todas las pistas en las que hayas pulsado «no volver a mostrar», así como los banners que explican la finalidad de los elementos de la aplicación.',
     languageCn: "所有点击 «不再显示» 的提示以及解释应用程序元素用途的横幅都会再次显示。",
+    languageKr: "'다시 표시 안 함'을 클릭하면 모든 메시지가 다시 표시되고 애플리케이션 요소의 목적을 설명하는 배너도 표시됩니다.",
   },
   'AppVersion': {
     languageEn: "Application's version",
@@ -3853,6 +4169,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulama sürümü",
     languageEs: "Versión de la aplicación",
     languageCn: "应用程序的版本",
+    languageKr: "애플리케이션 버전",
   },
   'YouUseTheLatestVersion': {
     languageEn:
@@ -3870,6 +4187,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Tiene instalada la última actualización de la versión {version} de la aplicación.",
     languageCn: "您已安装应用程序版本 {version} 的最新更新！",
+    languageKr: "애플리케이션 {version}의 최신 업데이트를 설치했습니다!",
   },
   'YouUseNotTheLatestVersion': {
     languageEn:
@@ -3890,6 +4208,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Es posible que no esté utilizando la última versión de la aplicación, ya que ésta no ha podido recuperar sus datos de actualización debido a problemas de conectividad con su servidor. La versión de su cliente es: {version}.",
     languageCn:
         "这可能是因为您使用的应用程序不是最新版本，因为它与服务器的连接出现问题，无法获取更新数据！您的客户端版本是：{version}.",
+    languageKr:
+        "이는 사용 중인 애플리케이션이 최신 버전이 아니기 때문에 서버 연결에 문제가 있어 업데이트된 데이터를 얻을 수 없기 때문일 수 있습니다! 귀하의 클라이언트 버전은 {version}입니다.",
   },
   'BuildName': {
     languageEn: "build",
@@ -3901,6 +4221,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "derleme",
     languageEs: "construir",
     languageCn: "构建",
+    languageKr: "build",
   },
   'AppActivity': {
     languageEn: "Modifications and application's activity traces",
@@ -3912,6 +4233,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklikler ve uygulamanın etkinlik izleri",
     languageEs: "Modificaciones y rastros de actividad de la aplicación",
     languageCn: "修改和应用程序的活动跟踪",
+    languageKr: "치트 및 애플리케이션 활동 추적",
   },
   'DeleteExLoader': {
     languageEn: "Delete ExLoader and erase activity traces",
@@ -3923,6 +4245,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader'ı silme ve etkinlik izlerini silme",
     languageEs: "Eliminar ExLoader y borrar los rastros de actividad",
     languageCn: "删除 ExLoader 并清除活动痕迹",
+    languageKr: "ExLoader를 제거하고 활동 흔적 지우기",
   },
   'ExLoaderWilLBeErasedSoon': {
     languageEn:
@@ -3942,6 +4265,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡El proceso de borrado completo de ExLoader, así como todas las modificaciones y sus configuraciones comenzará en 5 segundos!",
     languageCn: "完整的 ExLoader 清除过程以及所有修改及其配置将在 5 秒后开始！",
+    languageKr: "모든 치트 구성이 포함된 전체 ExLoader 제거 프로세스는 5초 안에 시작됩니다!",
   },
   'ExLoaderErasingProcessIsStarted': {
     languageEn:
@@ -3962,6 +4286,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Se inicia el proceso de autodestrucción de ExLoader y las modificaciones de la biblioteca. Dado que la aplicación elimina los rastros de decenas de claves de registro y carpetas, este proceso puede tardar unos minutos, espere...",
     languageCn:
         "开始自毁 ExLoader 和修改库的过程。由于该程序会删除数十个注册表键值和文件夹中的痕迹，因此这一过程可能需要几分钟，请稍候...",
+    languageKr:
+        "ExLoader를 삭제하고 라이브러리를 삭제하는 프로세스를 시작합니다. 프로그램이 수십 개의 레지스트리 키와 폴더의 흔적을 삭제하므로 이 프로세스는 몇 분 정도 걸릴 수 있습니다. 잠시 기다려 주십시오...",
   },
   'EraseDescription': {
     languageEn:
@@ -3982,6 +4308,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Registro, ShellBugs, LastActivityView, Descargas, Recientes, Documentos, AppData, Historial de Archivos, Carpeta de Juegos, ... - ¡Los rastros de la aplicación, las modificaciones de la librería y sus configuraciones serán completamente borrados de todos estos lugares como si nunca hubieras descargado ExLoader!",
     languageCn:
         "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Archive History, Game Folder, ... - 应用程序的痕迹、库中的修改及其配置将从所有这些地方被完全清除，就像你从未下载过 ExLoader 一样！",
+    languageKr:
+        "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Archive History, Game Folder, ... - ExLoader를 삭제하고 애플리케이션의 흔적, 라이브러리의 치트 및 해당 구성이 모든 위치에서 완전히 지워집니다!",
   },
   'Profile': {
     languageEn: "Profile",
@@ -3993,6 +4321,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Profil",
     languageEs: "Perfil",
     languageCn: "简介",
+    languageKr: "프로필",
   },
   'Nickname': {
     languageEn: "Your nickname",
@@ -4004,6 +4333,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Takma adınız",
     languageEs: "Tu apodo",
     languageCn: "您的昵称",
+    languageKr: "닉네임",
   },
   'NotSet': {
     languageEn: "Not set",
@@ -4015,6 +4345,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ayarlanmamış",
     languageEs: "No fijado",
     languageCn: "未设置",
+    languageKr: "설정되지 않음",
   },
   'NoMoreOftenThan30DaysNickname': {
     languageEn: "You can change your nickname no more than once every 30 days!",
@@ -4031,6 +4362,7 @@ const Map<String, Map<String, String>> localeItems = {
         "Takma adınızı her 30 günde bir defadan fazla değiştiremezsiniz!",
     languageEs: "No puedes cambiar de apodo más de una vez cada 30 días.",
     languageCn: "每 30 天最多只能更改一次昵称！",
+    languageKr: "닉네임은 30일에 한 번만 변경할 수 있습니다!",
   },
   'Save': {
     languageEn: "Save",
@@ -4042,6 +4374,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kaydet",
     languageEs: "Guardar",
     languageCn: "节省",
+    languageKr: "저장",
   },
   'YourStatus': {
     languageEn: "Your status",
@@ -4053,6 +4386,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sizin durumunuz",
     languageEs: "Su situación",
     languageCn: "您的状态",
+    languageKr: "상태",
   },
   'YourAvatar': {
     languageEn: "Your avatar",
@@ -4064,6 +4398,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Avatarın",
     languageEs: "Tu avatar",
     languageCn: "你的头像",
+    languageKr: "아바타",
   },
   'NoMoreOftenThan1DayStatus': {
     languageEn: "You can change your status no more than once a day!",
@@ -4076,6 +4411,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Durumunuzu günde en fazla bir kez değiştirebilirsiniz!",
     languageEs: "No puedes cambiar de estado más de una vez al día.",
     languageCn: "您每天最多可以更改一次状态！",
+    languageKr: "상태는 하루에 한 번만 변경할 수 있습니다!",
   },
   'NoMoreOftenThan30DaysAvatar': {
     languageEn: "You can change your avatar no more than once every 30 days!",
@@ -4091,6 +4427,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Avatarınızı her 30 günde bir defadan fazla değiştiremezsiniz!",
     languageEs: "No puedes cambiar tu avatar más de una vez cada 30 días.",
     languageCn: "每 30 天更换头像的次数不得超过一次！",
+    languageKr: "30일에 한 번 이상 아바타를 변경할 수 없습니다!",
   },
   'HideStatistics': {
     languageEn: "Hide my data",
@@ -4102,6 +4439,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Verilerimi gizle",
     languageEs: "Ocultar mis datos",
     languageCn: "隐藏我的数据",
+    languageKr: "내 데이터 숨기기",
   },
   'HideStatisticsDescription': {
     languageEn:
@@ -4121,6 +4459,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Tus estadísticas y otra información personal, excepto el apodo, el estado y el avatar, estarán ocultos para los demás usuarios.",
     languageCn: "除昵称、状态和头像外，您的统计数据和其他个人信息将对其他用户隐藏！",
+    languageKr: "귀하의 닉네임, 상태 및 아바타를 제외하고 귀하의 통계 및 기타 개인 정보는 다른 사용자에게 숨겨집니다!",
   },
   'Your': {
     languageEn: "Your",
@@ -4132,6 +4471,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Senin",
     languageEs: "Su",
     languageCn: "您的",
+    languageKr: "나",
   },
   'OutSocialNetworks': {
     languageEn: "Our social networks",
@@ -4143,6 +4483,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "我们的社交网络",
     languageEs: "Nuestras redes sociales",
     languageCn: "我们的社交网络",
+    languageKr: "소셜 네트워크",
   },
   'OutSocialNetworksDescription': {
     languageEn:
@@ -4162,6 +4503,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Toda la información sobre actualizaciones, trabajos técnicos o cualquier problema se publica aquí mismo",
     languageCn: "有关更新、技术工作或任何问题的所有信息均在此处发布",
+    languageKr: "업데이트, 기술 작업 또는 질문에 대한 모든 정보는 여기에 게시됩니다.",
   },
   'ShowLogFile': {
     languageEn: "Show log file data",
@@ -4173,6 +4515,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Günlük dosyası verilerini göster",
     languageEs: "Mostrar datos del archivo de registro",
     languageCn: "显示日志文件数据",
+    languageKr: "로그 파일 데이터 표시",
   },
   'FailedToCopyClipboardData': {
     languageEn: "Failed to copy data from the application's log file!",
@@ -4187,6 +4530,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Error al copiar datos del archivo de registro de la aplicación",
     languageCn: "从应用程序日志文件复制数据失败",
+    languageKr: "애플리케이션 로그 파일에서 데이터를 복사하지 못했습니다.",
   },
   'Version': {
     languageEn: "version",
@@ -4198,6 +4542,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "versiyon",
     languageEs: "versión",
     languageCn: "版本",
+    languageKr: "버전",
   },
   'UpdateLink': {
     languageEn: "Link to the update archive",
@@ -4209,6 +4554,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Güncelleme arşivine bağlantı",
     languageEs: "Enlace al archivo de actualizaciones",
     languageCn: "更新档案链接",
+    languageKr: "프로필 링크 업데이트",
   },
   'Rules': {
     languageEn: 'Rules',
@@ -4220,6 +4566,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kurallar",
     languageEs: "Reglas",
     languageCn: "规则",
+    languageKr: "규칙",
   },
   'Add': {
     languageEn: "Add new",
@@ -4231,6 +4578,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yeni ekle",
     languageEs: "Añadir nuevo",
     languageCn: "添加新内容",
+    languageKr: "새 콘텐츠 추가",
   },
   'ResetVersion': {
     languageEn: "Reset version to the current one",
@@ -4242,6 +4590,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sürümü geçerli olana sıfırla",
     languageEs: "Restablecer la versión actual",
     languageCn: "将版本重置为当前版本",
+    languageKr: "버전을 현재 버전으로 재설정",
   },
   'ClipboardDataIsCopiedButEmpty': {
     languageEn: "Log data is completely empty!",
@@ -4253,6 +4602,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Günlük verileri tamamen boş!",
     languageEs: "Los datos del registro están completamente vacíos.",
     languageCn: "日志数据完全为空！",
+    languageKr: "로그 데이터가 완전히 비어 있습니다!",
   },
   'FailedToLaunchBecauseSteamWasRestarted': {
     languageEn:
@@ -4272,6 +4622,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "No se ha podido iniciar la modificación porque has reiniciado Steam durante el proceso de inicio de la modificación.",
     languageCn: "启动修改失败，因为您在修改启动过程中重启了 Steam！",
+    languageKr: "모드 실행 중에 Steam을 다시 시작했기 때문에 모드 실행에 실패했습니다!",
   },
   'StartTime': {
     languageEn: "Start time in unix system",
@@ -4283,6 +4634,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Unix sisteminde başlangıç zamanı",
     languageEs: "Hora de inicio en el sistema unix",
     languageCn: "Unix 系统的启动时间",
+    languageKr: "Unix 시스템 시작 시간",
   },
   'EndTime': {
     languageEn: "End time in unix system",
@@ -4294,6 +4646,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Unix sisteminde bitiş zamanı",
     languageEs: "Hora de finalización en el sistema unix",
     languageCn: "Unix 系统中的结束时间",
+    languageKr: "Unix 시스템 종료 시간",
   },
   'Delete': {
     languageEn: "Delete",
@@ -4305,6 +4658,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Silme",
     languageEs: "Borrar",
     languageCn: "删除",
+    languageKr: "삭제",
   },
   'Close': {
     languageEn: "Close",
@@ -4316,6 +4670,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kapat",
     languageEs: "Cerrar",
     languageCn: "关闭",
+    languageKr: "닫기",
   },
   'Handle': {
     languageEn: "Handle",
@@ -4327,6 +4682,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tutamak",
     languageEs: "Mango",
     languageCn: "手柄",
+    languageKr: "핸들",
   },
   'Select': {
     languageEn: "Select",
@@ -4338,6 +4694,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Seçiniz",
     languageEs: "Seleccione",
     languageCn: "选择",
+    languageKr: "선택",
   },
   'MaybeYouWantedToEnter': {
     languageEn:
@@ -4357,6 +4714,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¿Quizá querías decir {mail}? Asegúrate de que todo está bien escrito y vuelve a intentarlo)",
     languageCn: "也许您指的是 {mail}？请确保输入正确，然后再试一次)",
+    languageKr: "어쩌면 {mail}을 말씀하시는 건가요? 정확하게 입력했는지 확인 후 다시 시도해 주세요.)",
   },
   'NoIMeantIt': {
     languageEn: "No, I entered my email correctly!",
@@ -4368,6 +4726,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hayır, e-postamı doğru girdim!",
     languageEs: "No, introduje mi correo electrónico correctamente.",
     languageCn: "不，我输入的电子邮件是正确的！",
+    languageKr: "아니요, 제가 입력한 이메일이 맞습니다!",
   },
   'WaitForAMinute': {
     languageEn: "Wait for a minute before the next auth attempt!",
@@ -4383,6 +4742,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Espere un minuto antes del siguiente intento de autenticación.",
     languageCn: "等待一分钟后再尝试下一次验证！",
+    languageKr: "다음 인증을 시도하기 전에 1분 정도 기다리세요!",
   },
   'EmailIsInvalid': {
     languageEn:
@@ -4402,6 +4762,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, no podremos enviar una carta a este correo electrónico, ¡intenta utilizar otro!",
     languageCn: "很遗憾，我们无法向这个邮箱发送信件，请尝试使用另一个邮箱！",
+    languageKr: "죄송합니다. 이 이메일 주소로는 편지를 보낼 수 없습니다. 다른 주소를 사용해 주세요!",
   },
   'GoogleAuthIsNotAvailable': {
     languageEn:
@@ -4421,6 +4782,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, Google auth no está disponible en este momento, prueba con otro método de autenticación.",
     languageCn: "很遗憾，Google auth 现在不可用，请尝试其他验证方法！",
+    languageKr: "안타깝게도 지금은 Google 인증을 사용할 수 없습니다. 다른 인증 방법을 사용해 보세요.",
   },
   'InvalidEmail': {
     languageEn: 'Enter a valid email address!',
@@ -4432,6 +4794,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Geçerli bir e-posta adresi girin!",
     languageEs: "Introduzca una dirección de correo electrónico válida.",
     languageCn: "输入有效的电子邮件地址！",
+    languageKr: "유효한 이메일 주소를 입력하세요.",
   },
   'FailedToConnect': {
     languageEn: "Failed to connect to the app's server",
@@ -4443,6 +4806,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulamanın sunucusuna bağlanılamadı",
     languageEs: "Ha fallado la conexión con el servidor de la app",
     languageCn: "连接应用程序服务器失败",
+    languageKr: "애플리케이션 서버에 연결하지 못했습니다.",
   },
   'GoogleAuthHasFailed': {
     languageEn:
@@ -4462,6 +4826,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, ExLoader no ha podido realizar el proceso de autorización con tu cuenta de Google. Prueba a utilizar otros métodos de autenticación en la aplicación.",
     languageCn: "很遗憾，ExLoader 无法通过使用您的 Google 帐户进行授权。请尝试使用应用程序中的其他验证方法！",
+    languageKr: "안타깝게도 ExLoader는 귀하의 Google 계정을 사용하여 승인할 수 없습니다. 앱 내에서 다른 인증 방법을 시도해 보세요!",
   },
   'ModificationsFileIsNotChosenYet': {
     languageEn: "Modification's file is not chosen yet",
@@ -4473,6 +4838,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklik dosyası henüz seçilmedi",
     languageEs: "Aún no se ha elegido el archivo de la modificación",
     languageCn: "尚未选择修改文件",
+    languageKr: "치트를 선택하지 않았습니다.",
   },
   'Purchase': {
     languageEn: "Purchase",
@@ -4484,6 +4850,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Satın alma",
     languageEs: "Comprar",
     languageCn: "购买",
+    languageKr: "구입",
   },
   'IBoughtItAlready': {
     languageEn:
@@ -4503,6 +4870,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Ya he comprado esta modificación y quiero lanzarla con ExLoader.",
     languageCn: "我已经买了这个修改器，想用 ExLoader 启动它！",
+    languageKr: "이 모드를 구입했고 ExLoader로 실행하고 싶습니다!",
   },
   'WhichGame': {
     languageEn: "What game has your modification been created for?",
@@ -4514,6 +4882,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyonunuz hangi oyun için oluşturuldu?",
     languageEs: "¿Para qué juego se ha creado tu modificación?",
     languageCn: "您的改装是为什么游戏设计的？",
+    languageKr: "당신의 모드는 어떤 게임을 위해 설계되었나요?",
   },
   'UseGameIcons': {
     languageEn: "Use icons below to select the game",
@@ -4525,6 +4894,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunu seçmek için aşağıdaki simgeleri kullanın",
     languageEs: "Utilice los iconos siguientes para seleccionar el juego",
     languageCn: "使用下面的图标选择游戏",
+    languageKr: "아래 아이콘을 사용하여 게임을 선택하세요.",
   },
   'AddToGlobalLibrary': {
     languageEn:
@@ -4544,6 +4914,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Aplicación para añadir su modificación a la biblioteca de ExLoader (sólo para desarrolladores)",
     languageCn: "将您的修改添加到 ExLoader 库中的应用程序（仅适用于开发人员）",
+    languageKr: "ExLoader 라이브러리의 애플리케이션에 치트 추가(개발자 전용)",
   },
   'OkayIUnderstand': {
     languageEn: "Okay, thanks, i understood!",
@@ -4555,6 +4926,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tamam, teşekkürler, anladım!",
     languageEs: "Vale, gracias, ¡lo he entendido!",
     languageCn: "好的，谢谢，我明白了！",
+    languageKr: "알겠습니다. 감사합니다. 이해합니다!",
   },
   'FailedToFindFrame': {
     languageEn: "Failed to find avatar frame with such title pattern",
@@ -4566,6 +4938,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Böyle bir başlık desenine sahip avatar çerçevesi bulunamadı",
     languageEs: "Error al encontrar marco de avatar con tal patrón de título",
     languageCn: "未找到具有此类标题图案的头像框",
+    languageKr: "해당 제목 패턴이 포함된 아바타 프레임이 없습니다.",
   },
   'FailedToChangeStatus': {
     languageEn:
@@ -4585,6 +4958,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡Lamentablemente, no hemos podido actualizar tu estado, tal vez, hay algo mal en él!",
     languageCn: "很遗憾，我们无法更新您的状态，也许是出了什么问题！",
+    languageKr: "죄송합니다. 상태를 업데이트할 수 없습니다. 문제가 발생한 것 같습니다.",
   },
   'FailedToChangeAvatar': {
     languageEn:
@@ -4604,6 +4978,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, no hemos podido actualizar tu avatar, ¡quizá deberías elegir otra foto!",
     languageCn: "很遗憾，我们无法更新您的头像，也许您应该换一张照片！",
+    languageKr: "안타깝게도 귀하의 프로필 사진을 업데이트할 수 없습니다. 프로필 사진을 변경해야 할 수도 있습니다!",
   },
   'FailedToChangeNickname': {
     languageEn:
@@ -4623,6 +4998,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, no hemos podido actualizar tu nick, ¡quizás, hay algo mal en él!",
     languageCn: "很遗憾，我们无法更新您的昵称，也许是昵称出了问题！",
+    languageKr: "죄송합니다. 닉네임을 업데이트할 수 없습니다. 닉네임에 문제가 있을 수 있습니다.",
   },
   'ProfileInfoIsSaved': {
     languageEn: "Provided profile info has been successfully saved!",
@@ -4637,6 +5013,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La información de perfil proporcionada se ha guardado correctamente.",
     languageCn: "已成功保存所提供的个人资料信息！",
+    languageKr: "입력하신 프로필 정보가 성공적으로 저장되었습니다!",
   },
   'NotEnoughCharacters': {
     languageEn:
@@ -4652,6 +5029,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Has introducido muy pocos caracteres para cambiar esta preferencia.",
     languageCn: "您输入的字符太少，无法更改此首选项！",
+    languageKr: "이 기본 설정을 변경하기에는 너무 적은 문자를 입력했습니다!",
   },
   'NotEnoughCharactersForEntity': {
     languageEn:
@@ -4671,6 +5049,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Tu {entity} parece demasiado corta, ¡por favor, inventa algo más original!",
     languageCn: "你的{实体}似乎太短了，请想出一些更新颖的东西！",
+    languageKr: "귀하의 {entity}이(가) 너무 짧은 것 같습니다. 좀 더 독창적인 것을 생각해 보세요!",
   },
   'ChangeWillBeAvailableAt': {
     languageEn:
@@ -4688,6 +5067,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡El próximo cambio de esta preferencia estará disponible en {date}!",
     languageCn: "该偏好的下一次更改将在 {date} 进行！",
+    languageKr: "이 기본 설정에 대한 다음 변경 사항은 {date}에 있을 예정입니다!",
   },
   'FileSizeIsToGross': {
     languageEn:
@@ -4707,6 +5087,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El tamaño del archivo es demasiado bruto, ¡intenta usar un avatar con un peso inferior a 1 megabyte!",
     languageCn: "文件太大，请尝试使用重量小于 1 兆字节的头像！",
+    languageKr: "파일이 너무 큽니다. 1MB 미만의 아바타를 사용해 보세요!",
   },
   'Premium': {
     languageEn: "Premium",
@@ -4718,6 +5099,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Premium",
     languageEs: "Premium",
     languageCn: "高级",
+    languageKr: "Premium",
   },
   'PremiumDescription': {
     languageEn:
@@ -4734,6 +5116,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Una buena modificación privada, ¡que sale más barata que una taza de café!",
     languageCn: "好的私人改装，价格比一杯咖啡还便宜！",
+    languageKr: "개인치트도 잘되고 가격도 커피한잔보다 저렴해요!",
   },
   'PopularDescription': {
     languageEn: "One of the most popular modifications to your chosen game!",
@@ -4746,6 +5129,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡Una de las modificaciones más populares para el juego elegido!",
     languageCn: "这是您所选游戏中最受欢迎的修改之一！",
+    languageKr: "이것은 선택한 게임에 대한 가장 인기 있는 치트 중 하나입니다!",
   },
   'OpticalDescription': {
     languageEn:
@@ -4765,6 +5149,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las modificaciones ópticas están diseñadas para ayudarte a disfrutar de la belleza del juego cambiando sus componentes visuales (modelos de objetos, jugadores, el mundo circundante, etc.).",
     languageCn: "光学修改的目的是通过改变游戏的视觉组件（物品、玩家、周围世界等的模型）来帮助您享受游戏之美。",
+    languageKr: "시각적 치트의 목적은 시각적 구성 요소(아이템 모델, 플레이어, 주변 세계 등)를 변경하여 게임의 아름다움을 즐길 수 있도록 돕는 것입니다.",
   },
   'MacrosDescription': {
     languageEn:
@@ -4784,6 +5169,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las macros controlan directamente el movimiento de tu ratón y no se inyectan en el juego de ninguna manera, por lo que suelen ser extremadamente seguras de usar.",
     languageCn: "宏直接控制鼠标的移动，不会以任何方式注入到游戏中，因此使用起来通常非常安全。",
+    languageKr: "매크로는 마우스 움직임을 직접 제어하고 어떤 방식으로든 게임에 삽입되지 않으므로 일반적으로 사용하기에 매우 안전합니다.",
   },
   'SimpleDescription': {
     languageEn:
@@ -4803,6 +5189,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las modificaciones humildes están diseñadas para partidas sencillas y para aumentar el rango de juego en el matchmaking en los niveles primario y secundario. Tienen la funcionalidad mínima necesaria para una partida cómoda y son estupendas para principiantes.",
     languageCn: "简陋改装版专为简单游戏和在初级和中级匹配中提高游戏等级而设计。它们具备舒适游戏所需的最低功能，非常适合初学者。",
+    languageKr:
+        "기본 모드는 간단한 플레이를 위해 설계되었으며 초급 및 중급 경기에서 게임 레벨을 높일 수 있습니다. 편안한 게임에 필요한 최소한의 기능을 갖추고 있어 초보자에게 이상적입니다.",
   },
   'MediumDescription': {
     languageEn:
@@ -4822,6 +5210,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las modificaciones avanzadas están diseñadas para partidas difíciles y para aumentar el rango en matchmaking a un nivel alto. Tienen una amplia funcionalidad y son ideales para usuarios expertos.",
     languageCn: "高级修改是专为高难度游戏和在高水平匹配中提高游戏排名而设计的。它们具有广泛的功能，非常适合熟练用户使用。",
+    languageKr:
+        "고급 치트는 어려운 게임과 높은 수준의 경기에서 게임 순위를 높이기 위해 설계되었습니다. 다양한 기능을 갖추고 있어 숙련된 사용자가 사용하기에 이상적입니다.",
   },
   'AdvancedDescription': {
     languageEn:
@@ -4841,6 +5231,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las modificaciones universales están diseñadas para partidas muy duras (normalmente contra otros jugadores que utilizan modificaciones universales). Tienen una funcionalidad extremadamente enorme y son adecuadas para usuarios avanzados.",
     languageCn: "通用改装是专为高难度游戏（通常是与其他使用通用改装的玩家对战）而设计的。它们具有极其强大的功能，适合高级用户使用。",
+    languageKr: "유니버설 모드는 어려운 게임(보통 유니버설 모드를 사용하는 다른 플레이어와의 대결)을 위해 설계되었습니다. 이는 매우 강력하며 고급 사용자에게 적합합니다.",
   },
   'NeuronetDescription': {
     languageEn:
@@ -4860,6 +5251,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las redes neuronales son modificaciones basadas en la inteligencia artificial y ¡funcionan sin leer ni cambiar la memoria del juego! Para jugar con estas modificaciones, ¡necesitas tener un buen ordenador!",
     languageCn: "神经网络是基于人工智能的修改，无需读取或更改游戏内存即可运行！要玩这种改装游戏，你需要有一台好电脑！",
+    languageKr: "신경망은 게임 메모리를 읽거나 변경하지 않고 실행되는 인공 지능 기반 치트 입니다! 이 모딩 게임을 플레이하려면 좋은 컴퓨터가 필요합니다!",
   },
   'NoButton': {
     languageEn:
@@ -4879,6 +5271,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Desafortunadamente, ExLoader no sabe qué tecla abre el menú de esta modificación. Tal vez no tiene un menú.",
     languageCn: "不幸的是，ExLoader 不知道哪个键可以打开该修改的菜单。也许它根本就没有菜单。",
+    languageKr: "불행하게도 ExLoader는 치트 메뉴를 여는 키가 무엇인지 알지 못합니다. 어쩌면 메뉴가 전혀 없을 수도 있습니다.",
   },
   'BonusesForUsersOfExLoader': {
     languageEn:
@@ -4898,6 +5291,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Los usuarios que compren esta modificación con ExLoader recibirán agradables y útiles bonificaciones por cada pago.",
     languageCn: "使用 ExLoader 购买此修改器的用户，每次付款都会获得令人愉快的实用奖励！",
+    languageKr: "ExLoader를 사용하여 이 치트를 구매하는 사용자는 결제할 때마다 즐겁고 실용적인 보너스를 받게 됩니다!",
   },
   // 1 mark
   'MarksFirst': {
@@ -4910,6 +5304,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "değerlendirme",
     languageEs: "evaluación",
     languageCn: "项评估",
+    languageKr: "평가",
   },
   // 2-4 marks
   'MarksSecond': {
@@ -4922,6 +5317,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "değerlendirme",
     languageEs: "evaluaciones",
     languageCn: "项评估",
+    languageKr: "평가",
   },
   'MarksThird': {
     languageEn: 'marks',
@@ -4933,6 +5329,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "değerlendirme",
     languageEs: "evaluaciones",
     languageCn: "项评估",
+    languageKr: "평가",
   },
   'BasedOn': {
     languageEn: 'Based on',
@@ -4944,6 +5341,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Buna göre",
     languageEs: "Basado en",
     languageCn: "根据",
+    languageKr: "기반",
   },
   // based on 1 review
   'ReviewsBasedOn': {
@@ -4956,6 +5354,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yorumlar",
     languageEs: "retirada",
     languageCn: "召回",
+    languageKr: "리뷰",
   },
   // based on 0/2-9 reviews
   'ReviewsSecondBasedOn': {
@@ -4968,6 +5367,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yorumlar",
     languageEs: "reseñas",
     languageCn: "评论",
+    languageKr: "리뷰",
   },
   // 1
   'Reviews': {
@@ -4980,6 +5380,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "geribildirim",
     languageEs: "comentario",
     languageCn: "反馈",
+    languageKr: "리뷰",
   },
   // 2-4
   'ReviewsSecond': {
@@ -4992,6 +5393,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yorumlar",
     languageEs: "reseñas",
     languageCn: "评论",
+    languageKr: "리뷰",
   },
   // 0, 5-9
   'ReviewsThird': {
@@ -5004,6 +5406,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yorumlar",
     languageEs: "reseñas",
     languageCn: "评论",
+    languageKr: "리뷰",
   },
   'Launches': {
     languageEn: 'launch',
@@ -5015,6 +5418,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "fırlatma",
     languageEs: "lanzamiento",
     languageCn: "发射",
+    languageKr: "런처",
   },
   'LaunchesSecond': {
     languageEn: 'launches',
@@ -5026,6 +5430,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "fırlatma",
     languageEs: "lanzamientos",
     languageCn: "发射",
+    languageKr: "런처",
   },
   'LaunchesThird': {
     languageEn: 'launches',
@@ -5037,6 +5442,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "fırlatma",
     languageEs: "lanzamientos",
     languageCn: "发射",
+    languageKr: "런처",
   },
   'Installs': {
     languageEn: 'download',
@@ -5048,6 +5454,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "indirme",
     languageEs: "descarga",
     languageCn: "下载",
+    languageKr: "다운로드",
   },
   'InstallsSecond': {
     languageEn: 'downloads',
@@ -5059,6 +5466,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "indirme",
     languageEs: "descargas",
     languageCn: "下载",
+    languageKr: "다운로드",
   },
   'InstallsThird': {
     languageEn: 'downloads',
@@ -5070,6 +5478,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "indirme",
     languageEs: "descargas",
     languageCn: "下载",
+    languageKr: "다운로드",
   },
   'MotEnoughData': {
     languageEn: "Not enough data",
@@ -5081,6 +5490,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yeterli veri yok",
     languageEs: "Datos insuficientes",
     languageCn: "数据不足",
+    languageKr: "데이터가 충분하지 않습니다.",
   },
   'MarkAfterUpdate': {
     languageEn: 'You can not mark modifications which are being under update!',
@@ -5097,6 +5507,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "No se pueden marcar las modificaciones que se están actualizando.",
     languageCn: "您不能标记正在更新的修改！",
+    languageKr: "업데이트 중인 치트는 표시할 수 없습니다!",
   },
   'MarkAfterBuy': {
     languageEn:
@@ -5116,6 +5527,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Adquiera esta modificación y autentifíquese en el sistema del socio para poder fijar las marcas.",
     languageCn: "购买此修改并在合作伙伴的系统中授权，以便能够设置标记！",
+    languageKr: "이 치트를 구매하고 파트너 시스템에서 태그를 설정할 수 있도록 승인하세요!",
   },
   'MarkAfterPlay': {
     languageEn:
@@ -5134,6 +5546,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Sólo podrás marcar a esta modificación después de jugar un rato con ella.",
     languageCn: "只有在使用一段时间后，您才能对这一修改进行标记！",
+    languageKr: "이 치트를 한동안 사용한 후에만 표시할 수 있습니다!",
   },
   'NoRateInOfflineMode': {
     languageEn: "Mark setting function is not available in offline mode!",
@@ -5148,6 +5561,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡La función de ajuste de marca no está disponible en modo offline!",
     languageCn: "标记设置功能在脱机模式下不可用！",
+    languageKr: "오프라인 모드에서는 태그 설정 기능을 사용할 수 없습니다!",
   },
   // 1 from 5
   'From5': {
@@ -5160,6 +5574,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "5'ten itibaren",
     languageEs: "Desde 5",
     languageCn: "从 5",
+    languageKr: "5시부터",
   },
   'UnderUpdate': {
     languageEn: 'This modification is under update!',
@@ -5171,6 +5586,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu değişiklik güncelleme aşamasındadır!",
     languageEs: "Esta modificación se está actualizando!",
     languageCn: "此修改正在更新中",
+    languageKr: "이 치트는 업데이트 중입니다.",
   },
   'TemporaryUnavailable': {
     languageEn: 'Temporary unavailable',
@@ -5182,6 +5598,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Geçici olarak kullanılamıyor",
     languageEs: "No disponible temporalmente",
     languageCn: "暂时不可用",
+    languageKr: "일시적으로 이용할 수 없습니다",
   },
   'ModificationIsUnderUpdate': {
     languageEn:
@@ -5202,6 +5619,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Lamentablemente, no puedes lanzar esta modificación porque está en proceso de actualización. Normalmente, este proceso tarda entre varias horas y varios días. ¿De verdad quieres jugar con esta modificación? Ten paciencia y espera. Si la modificación no se actualiza después de este período - se eliminará de la biblioteca ExLoader.",
     languageCn:
         "不幸的是，您无法启动此修改，因为它正在更新中。通常，这个过程需要几个小时到几天的时间。真的想玩这个修改？请耐心等待！如果过了这段时间仍未更新，它将从 ExLoader 库中删除。",
+    languageKr:
+        "안타깝게도 이 치트는 업데이트 중이므로 시작할 수 없습니다. 일반적으로 이 프로세스는 몇 시간에서 며칠 정도 걸립니다. 정말 이 치트를 가지고 플레이하고 싶으신가요? 기다리세요! 이 시간 이후에도 업데이트되지 않으면 ExLoader 라이브러리에서 제거됩니다.",
   },
   'NoReviewsInOfflineMode': {
     languageEn: 'Unfortunately, you can not add a review in an offline mode',
@@ -5218,6 +5637,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ne yazık ki, çevrimdışı modda bir inceleme ekleyemezsiniz",
     languageEs: "Lamentablemente, no puedes añadir una reseña en modo offline",
     languageCn: "遗憾的是，您无法在离线模式下添加评论。",
+    languageKr: "안타깝게도 오프라인 모드에서는 댓글을 추가할 수 없습니다.",
   },
   'NoSpamPleaseEntity': {
     languageEn:
@@ -5237,6 +5657,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Por favor, haz una {entity} más informativa que sea útil para otros usuarios, ¡a casi nadie le interesa leer spam!",
     languageCn: "请提供更多对其他用户有用的 {entity} 信息，几乎没有人有兴趣阅读垃圾信息！",
+    languageKr: "다른 사용자에게 유용한 더 많은 {entity} 정보를 제공하십시오. 스팸을 읽는 데 관심을 갖는 사람은 거의 없습니다!",
   },
   'NoSpamPleaseConfig': {
     languageEn:
@@ -5256,6 +5677,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Por favor, inventa un nombre o descripción más informativos que sean útiles para otros usuarios, ¡a casi nadie le interesa leer spam!",
     languageCn: "请起一个对其他用户有用的更翔实的名称或描述，几乎没有人有兴趣阅读垃圾邮件！",
+    languageKr: "다른 사용자에게 유용할 수 있는 보다 유익한 이름이나 설명을 생각해 보십시오. 스팸을 읽는 데 관심을 갖는 사람은 거의 없습니다!",
   },
   'EntityAdded': {
     languageEn: '{entity} is successfully added',
@@ -5267,6 +5689,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "{entity} başarıyla eklendi",
     languageEs: "{entity} se ha añadido correctamente",
     languageCn: "已成功添加 {entity}",
+    languageKr: "{entity}이(가) 성공적으로 추가되었습니다",
   },
   'EntityEdited': {
     languageEn: 'Your {entity} is saved',
@@ -5278,6 +5701,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sizin {entity} kaydedildi",
     languageEs: "Tu {entity} está guardada",
     languageCn: "您的 {entity} 已保存",
+    languageKr: "귀하의 {entity}이(가) 저장되었습니다",
   },
   'NextEditWillBeAvailableAt': {
     languageEn:
@@ -5297,6 +5721,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Sólo podrás escribir una nueva opinión o editar la actual a partir de {date}.",
     languageCn: "只有在 {date}，您才能撰写新评论或编辑当前评论！",
+    languageKr: "{date}에만 새 댓글을 쓰거나 현재 댓글을 편집할 수 있습니다!",
   },
   'Description': {
     languageEn: "Modification's description",
@@ -5308,6 +5733,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişikliğin açıklaması",
     languageEs: "Descripción de la modificación",
     languageCn: "修改说明",
+    languageKr: "치트설명",
   },
   'FailedToFindTheModification': {
     languageEn:
@@ -5326,6 +5752,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que esta modificación se ha eliminado de la biblioteca de la aplicación",
     languageCn: "该修改似乎已从应用程序库中删除",
+    languageKr: "치트가 앱 라이브러리에서 제거된 것 같습니다.",
   },
   'PleaseUseValidUrl': {
     languageEn:
@@ -5345,6 +5772,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Utilice un enlace de perfil adecuado siguiendo uno de estos formatos «format1» «format2».",
     languageCn: "使用 «format1» «format2» 格式之一的适当个人资料链接！",
+    languageKr: "«format1» «format2» 형식 중 하나에서 적절한 프로필 링크를 사용하세요!",
   },
   'YouAreTemporaryBannedInReviewsOrConfigs': {
     languageEn:
@@ -5365,6 +5793,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Parece que has intentado escribir un comentario, o subir o editar una configuración utilizando un contenido poco informativo, spam, publicitario o engañoso ¡demasiadas veces! ¡Para salvarte del baneo del moderador, el sistema de autochequeo ha restringido temporalmente tu acceso a las funciones de escribir comentarios y subir o editar configuraciones! Tu bloqueo expira el {date}.",
     languageCn:
         "看来您尝试撰写评论或上传或编辑配置时，使用了过多的无信息、垃圾、广告或欺骗性内容！为了使您免于被版主封禁，自动检查系统暂时限制了您撰写评论和上传或编辑配置的权限！您的禁言将于 {date} 到期。",
+    languageKr:
+        "리뷰를 작성하거나 구성을 업로드 또는 편집하려고 할 때 정보가 없거나 스팸성이거나 광고성이 있거나 사기성 콘텐츠를 너무 많이 사용한 것 같습니다. 중재자에 의해 귀하가 금지되는 것을 방지하기 위해 자동 확인 시스템은 귀하의 댓글 작성, 구성 업로드 또는 편집 기능을 일시적으로 제한했습니다! 귀하의 차단은 {date}에 만료됩니다.",
   },
   'YourEntityIsTheSame': {
     languageEn:
@@ -5384,6 +5814,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Para editar tu {entity}, tienes que cambiar al menos algo en él para que difiera de la reseña anterior.",
     languageCn: "要编辑您的 {entity}，您至少需要修改其中的某些内容，使其与之前的评论有所不同！",
+    languageKr: "{entity}을(를) 편집하려면 이전 댓글과 다르게 만들기 위해 최소한 그 안에 있는 내용을 변경해야 합니다!",
   },
   'NetworkIssue': {
     languageEn:
@@ -5404,6 +5835,9 @@ const Map<String, Map<String, String>> localeItems = {
         "No se ha podido conectar con el servidor de la aplicación. Tal vez estamos trabajando en la optimización del servidor o está bajo ataque DDoS. Tal vez simplemente no estás conectado a internet, o algo en tu dispositivo está bloqueando la conexión con el servidor de ExLoader, quién sabe... Suena mal, lo sabemos. Por cierto, cuando el problema es nuestro, publicamos toda la información en nuestro canal {Social}.\n\nPero si el problema no es por nuestra parte, entonces puedes probar a activar la VPN. Existe la posibilidad de que te ayude.",
     languageCn:
         "连接应用程序服务器失败。也许我们正在对服务器进行优化，或者服务器正在遭受 ddos 攻击。也许你只是没有连接到互联网，或者你设备上的某些东西阻止了与 ExLoader 服务器的连接，谁知道呢... 听起来很糟糕，我们知道。顺便说一下，如果问题出在我们这边，我们会将所有信息发布到我们的 {Social} 频道！\n\n但如果问题不在我们这边，您可以尝试打开 VPN。这有可能会有所帮助！",
+    languageKr:
+        "애플리케이션 서버에 연결하지 못했습니다. 아마도 우리가 서버를 최적화하고 있는 것일 수도 있고, 서버가 DDoS 공격을 받고 있는 것일 수도 있습니다. 어쩌면 인터넷에 연결되어 있지 않거나 장치의 무언가가 ExLoader 서버에 대한 연결을 차단하고 있을 수도 있습니다. 그런데 문제가 우리 측에 있다면 모든 정보를 {Social} 채널에 게시하겠습니다! \n\n그러나 문제가 우리 측에 있는 것이 아니라면 VPN을 켜 볼 수 있습니다. 이것이 도움이 될 것입니다!",
+    
   },
   'UnstableModification': {
     languageEn:
@@ -5424,6 +5858,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Según nuestros datos, alrededor de {user} {percent} de los usuarios de esta modificación se han enfrentado al problema de bloqueo del juego durante este día. Si el juego no ha sido actualizado recientemente, significa que esta modificación está terriblemente optimizada para diferentes sistemas, y lo más probable es que te encuentres con varios problemas al utilizarla",
     languageCn:
         "根据我们的数据，大约有 {user} {percent} 的该修改版用户在这一天中遇到过游戏崩溃问题！如果游戏最近没有更新，这意味着该修改程序针对不同系统的优化非常糟糕，您在使用时很可能会遇到各种问题",
+    languageKr:
+        "우리 데이터에 따르면 이 치트 사용자 중 약 {user} {percent}가 이날 게임 충돌을 경험했습니다! 게임이 최근에 업데이트되지 않았다면, 이는 모더가 다양한 시스템에 대해 매우 제대로 최적화되지 않았음을 의미하며, 이를 사용할 때 다양한 문제에 직면할 가능성이 높습니다.",
   },
   'StableModification': {
     languageEn:
@@ -5444,6 +5880,8 @@ const Map<String, Map<String, String>> localeItems = {
         "¡Según nuestros datos, alrededor de {user} {percent} de los usuarios de esta modificación se han enfrentado al problema de bloqueo del juego durante este día! Este es un gran indicador, que muestra que el mod está funcionando bien y estable.",
     languageCn:
         "根据我们的数据，大约有 {user} {percent} 的修改版用户在这一天中遇到过游戏崩溃问题！这是一个很好的指标，说明该修改器运行良好且稳定。",
+    languageKr:
+        "우리 데이터에 따르면, 이날 치트 사용자 중 약 {user} {percent}가 게임 충돌을 경험했습니다! 이는 수정자가 잘 작동하고 안정적이라는 좋은 지표입니다.",
   },
   'CrashStatistics': {
     languageEn:
@@ -5464,6 +5902,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Datos de estabilidad de la modificación: aproximadamente el {user} {percent} de los usuarios de esta modificación se han enfrentado al problema del bloqueo del juego durante este día!",
     languageCn:
         "修改的稳定性数据：大约有 {user} {percent} 的用户在这一天内遇到了游戏崩溃的问题。{2} 此修改的用户在这一天中遇到过游戏崩溃的问题！",
+    languageKr:
+        "치트 안정성 데이터: 대략 {user} {percent}의 사용자가 하루 동안 게임 충돌을 경험했습니다. {2} 이 수정 버전의 사용자는 하루 종일 게임 충돌을 경험했습니다!",
   },
   // 1 percent
   'Percent': {
@@ -5476,6 +5916,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yüzde",
     languageEs: "por ciento",
     languageCn: "百分比",
+    languageKr: "백분율",
   },
   // 2-4
   'PercentSecond': {
@@ -5488,6 +5929,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yüzde",
     languageEs: "por ciento",
     languageCn: "百分比",
+    languageKr: "백분율",
   },
   // 0, 5-9
   'PercentFirst': {
@@ -5500,6 +5942,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yüzde",
     languageEs: "por ciento",
     languageCn: "百分比",
+    languageKr: "백분율",
   },
   'LibraryWithSuchTagIsEmpty': {
     languageEn:
@@ -5518,6 +5961,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que no hay modificaciones con dicha etiqueta en la librería de ExLoader .",
     languageCn: "在 ExLoader 的库中，似乎没有带有此类标记的修改。",
+    languageKr: "ExLoader의 라이브러리에는 이와 같이 표시된 치트가 없는 것 같습니다.",
   },
   'PressToCheckTheSource': {
     languageEn: "Click to open modification's check-source.",
@@ -5530,6 +5974,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Haga clic para abrir la fuente de\ncomprobación de la modificación.",
     languageCn: "点击打开修改的检查源。",
+    languageKr: "치트 검사 소스를 열려면 클릭하세요.",
   },
   'Install': {
     languageEn: "Install",
@@ -5541,6 +5986,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kurulum",
     languageEs: "Instale",
     languageCn: "安装",
+    languageKr: "설치",
   },
   'NoText': {
     languageEn: "It seems that someone has stolen this review's data",
@@ -5552,6 +5998,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Görünüşe göre birisi bu incelemenin verilerini çalmış",
     languageEs: "Parece que alguien ha robado los datos de esta reseña .",
     languageCn: "似乎有人盗用了这篇评论的数据",
+    languageKr: "누군가 이 리뷰의 데이터를 훔친 것 같습니다.",
   },
   'CanNotVoteInOfflineMode': {
     languageEn:
@@ -5571,6 +6018,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, no se puede calificar una revisión o configuración en modo offline",
     languageCn: "遗憾的是，您无法在离线模式下对评论或配置进行评分。",
+    languageKr: "안타깝게도 오프라인 모드에서는 리뷰나 구성을 평가할 수 없습니다.",
   },
   'VoteIsDelayed': {
     languageEn:
@@ -5590,6 +6038,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Para evitar el spam, sólo podrás cambiar o establecer un nuevo voto en medio minuto.",
     languageCn: "为避免垃圾邮件，您只能在半分钟内更改或设置新投票。",
+    languageKr: "스팸을 방지하려면 30분 이내에만 새 설문조사를 변경하거나 설정할 수 있습니다.",
   },
   // Like 2 years ago
   'Ago': {
@@ -5602,6 +6051,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "önce",
     languageEs: "hace",
     languageCn: "前",
+    languageKr: "전",
   },
   'YesterdayAt': {
     languageEn: "yesterday at",
@@ -5613,6 +6063,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "dün",
     languageEs: "ayer en",
     languageCn: "昨天在",
+    languageKr: "어제 시간",
   },
   'ADayBeforeAt': {
     languageEn: "the day before at",
@@ -5624,6 +6075,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "bir gün önce",
     languageEs: "el día anterior en",
     languageCn: "前一天在",
+    languageKr: "어제",
   },
   'RightNow': {
     languageEn: "right now",
@@ -5635,6 +6087,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "hemen şimdi",
     languageEs: "ahora mismo",
     languageCn: "马上",
+    languageKr: "지금",
   },
   'ThisReviewWasEdited': {
     languageEn: "This comment was edited after publication!",
@@ -5646,6 +6099,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu yorum yayınlandıktan sonra düzenlenmiştir",
     languageEs: "Este comentario fue editado después de su publicación",
     languageCn: "此评论在发表后进行了编辑",
+    languageKr: "이 댓글은 게시된 후 수정되었습니다.",
   },
   'ThisConfigWasEdited': {
     languageEn:
@@ -5664,6 +6118,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡Esta configuración o LUA fue editada(actualizada) después de su publicación!",
     languageCn: "本配置或 LUA 在发布后进行了编辑（更新）！",
+    languageKr: "이 구성 또는 LUA는 게시 후 편집(업데이트)되었습니다!",
   },
   'LowRating': {
     languageEn: "This review has a very low rating. Click to read",
@@ -5680,6 +6135,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Esta crítica tiene una valoración muy baja. Haga clic para leer",
     languageCn: "本评论的评分很低。点击阅读",
+    languageKr: "이 리뷰는 평점이 낮습니다. 읽으려면 클릭하세요",
   },
   'ProfanityPresent': {
     languageEn:
@@ -5699,6 +6155,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Esta crítica contiene blasfemias y no es informativa. Haga clic para leer",
     languageCn: "本评论包含亵渎性内容，不提供任何信息。点击阅读",
+    languageKr: "이 리뷰에는 욕설이 포함되어 있으며 유익하지 않습니다. 읽으려면 클릭하세요",
   },
   'ClickToHide': {
     languageEn: "Click to hide",
@@ -5710,6 +6167,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gizlemek için tıklayın",
     languageEs: "Haga clic para ocultar",
     languageCn: "点击隐藏",
+    languageKr: "숨기려면 클릭하세요",
   },
   'CancelTranslation': {
     languageEn: "Undo translation",
@@ -5721,6 +6179,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Çeviriyi geri al",
     languageEs: "Deshacer la traducción",
     languageCn: "撤销翻译",
+    languageKr: "번역 취소",
   },
   'TranslateToShort': {
     languageEn: "Translate into {language}",
@@ -5732,6 +6191,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "{language}'e çevirin",
     languageEs: "Traducir a {language}",
     languageCn: "翻译成 {language}",
+    languageKr: "{language}로 번역",
   },
   'En-enNoun': {
     languageEn: "English",
@@ -5743,6 +6203,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İngilizce",
     languageEs: "Inglés",
     languageCn: "英语",
+    languageKr: "영어",
   },
   'Ru-ruNoun': {
     languageEn: "Russian",
@@ -5754,6 +6215,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Rusça",
     languageEs: "Ruso",
     languageCn: "俄罗斯",
+    languageKr: "러시아",
   },
   'Ua-uaNoun': {
     languageEn: "Ukrainian",
@@ -5765,6 +6227,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ukrayna",
     languageEs: "Ucraniano",
     languageCn: "乌克兰",
+    languageKr: "우크라이나",
   },
   'Pl-plNoun': {
     languageEn: "Polish",
@@ -5776,6 +6239,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Lehçe",
     languageEs: "Polaco",
     languageCn: "波兰语",
+    languageKr: "폴란드",
   },
   'De-deNoun': {
     languageEn: "German",
@@ -5787,6 +6251,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Alman",
     languageEs: "Alemán",
     languageCn: "德国",
+    languageKr: "독일",
   },
   'It-itNoun': {
     languageEn: "Italian",
@@ -5798,6 +6263,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İtalyan",
     languageEs: "Italiano",
     languageCn: "意大利语",
+    languageKr: "이탈리아",
   },
   'Tr-trNoun': {
     languageEn: "Turkish",
@@ -5809,6 +6275,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Türkçe",
     languageEs: "Turco",
     languageCn: "土耳其语",
+    languageKr: "터키",
   },
   'Es-esNoun': {
     languageEn: "Spanish",
@@ -5820,6 +6287,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İspanyolca",
     languageEs: "Español",
     languageCn: "西班牙语",
+    languageKr: "스페인",
   },
   'Cn-cnNoun': {
     languageEn: "Chinese",
@@ -5831,6 +6299,19 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Çince",
     languageEs: "Chino",
     languageCn: "中文",
+    languageKr: "중국",
+  },
+  'Kr-cnNoun': {
+    languageEn: "korean",
+    languageRu: 'Корейский',
+    languageUa: 'Корейский',
+    languagePl: 'koreański',
+    languageDe: "Koreanisch",
+    languageIt: 'coreano',
+    languageTr: "Koreli",
+    languageEs: "korealane",
+    languageCn: "韩国",
+    languageKr: "한국",
   },
   // Add new language (for example Fr-frNoun) here!
   'YourEntityWasDeleted': {
@@ -5851,6 +6332,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que alguien ha borrado tu {entity}. Si no has sido tú, ¡entonces tu comentario infringe las normas de ExLoader y ha sido eliminado por nuestro personal de moderación!",
     languageCn: "看来有人删除了您的 {entity}。如果不是您，那么您的评论违反了 ExLoader 的规则，已被我们的审核人员删除！",
+    languageKr: "누군가 귀하의 {entity}을(를) 삭제한 것 같습니다. 귀하가 아닌 경우 귀하의 댓글은 ExLoader의 규칙을 위반했으며 중재자에 의해 삭제되었습니다!",
   },
   'AnswersBranch': {
     languageEn: "Answers branch",
@@ -5862,6 +6344,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Cevaplar şubesi",
     languageEs: "Respuestas",
     languageCn: "答案部门",
+    languageKr: "답변 분기",
   },
   'BuyToAddReply': {
     languageEn:
@@ -5881,6 +6364,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Puedes añadir comentarios o respuestas a las modificaciones premium sólo después de comprarlas.",
     languageCn: "只有在购买后，您才能为高级修改添加评论或回复！",
+    languageKr: "프리미엄 편집에는 구매 후에만 댓글이나 답글을 추가할 수 있습니다!",
   },
   'WaitForUpdateToAddReview': {
     languageEn:
@@ -5900,6 +6384,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Con el fin de evitar el spam, la adición de nuevas revisiones función para las modificaciones que están siendo objeto de actualización está desactivada",
     languageCn: "为避免垃圾邮件，已禁用为正在更新的修改添加新评论功能",
+    languageKr: "스팸을 방지하기 위해 수정사항 업데이트에 새 댓글을 추가하는 기능이 비활성화되었습니다.",
   },
   'AccessLevel0': {
     languageEn: "Default user",
@@ -5911,6 +6396,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Varsayılan kullanıcı",
     languageEs: "Usuario por defecto",
     languageCn: "默认用户",
+    languageKr: "기본 사용자",
   },
   'AccessLevel1': {
     languageEn: "Publisher",
@@ -5922,6 +6408,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yayıncı",
     languageEs: "Editorial",
     languageCn: "出版商",
+    languageKr: "발행자",
   },
   'AccessLevel1WithName': {
     languageEn: "{modification} author",
@@ -5933,6 +6420,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "{modification} yazar",
     languageEs: "{modification} autor",
     languageCn: "{modification} 作者",
+    languageKr: "{modification} 작성자",
   },
   'AccessLevel2': {
     languageEn: "SwiftSoft developer",
@@ -5944,6 +6432,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "SwiftSoft geliştiricisi",
     languageEs: "Desarrollador de SwiftSoft",
     languageCn: "SwiftSoft 开发人员",
+    languageKr: "SwiftSoft 개발자",
   },
   'AccessLevel3': {
     languageEn: "Tester",
@@ -5955,6 +6444,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Test Cihazı",
     languageEs: "Comprobador",
     languageCn: "测试仪",
+    languageKr: "테스터",
   },
   'AccessLevel4': {
     languageEn: "Moderator",
@@ -5966,6 +6456,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Moderatör",
     languageEs: "Moderador",
     languageCn: "主持人",
+    languageKr: "관리자",
   },
   'AccessLevel5': {
     languageEn: "Lead moderator",
@@ -5977,6 +6468,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Lider moderatör",
     languageEs: "Moderador principal",
     languageCn: "首席主持人",
+    languageKr: "부관리자",
   },
   'AccessLevel6': {
     languageEn: "Application's developer",
@@ -5988,6 +6480,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulama geliştiricisi",
     languageEs: "Desarrollador de la aplicación",
     languageCn: "应用程序开发人员",
+    languageKr: "애플리케이션 개발자",
   },
   'AccessLevel': {
     languageEn: "User's access level",
@@ -5999,6 +6492,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcının erişim seviyesi",
     languageEs: "Nivel de acceso del usuario",
     languageCn: "用户访问级别",
+    languageKr: "유저 액세스 레벨",
   },
   'NotificationsAboutSteamGamesUpdates': {
     languageEn: "Notify about steam game updates",
@@ -6010,6 +6504,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Steam oyun güncellemeleri hakkında bilgilendir",
     languageEs: "Notificar actualizaciones de juegos de steam",
     languageCn: "通知蒸汽游戏更新",
+    languageKr: "Steam 게임 업데이트 알림",
   },
   'NotificationsAboutSteamGamesUpdatesDescription': {
     languageEn:
@@ -6029,6 +6524,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Si se ha publicado una actualización para el juego para el que estás intentando seleccionar la modificación, recibirás una notificación apropiada.",
     languageCn: "如果您要选择修改的游戏已发布更新，您将收到相应的通知",
+    languageKr: "치트 게임에 대한 업데이트가 출시된 경우 적절한 알림을 받게 됩니다.",
   },
   'Ban': {
     languageEn: "Ban and unban user",
@@ -6040,6 +6536,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcıyı yasakla ve yasağı kaldır",
     languageEs: "Banear y desbanear usuarios",
     languageCn: "禁用和解禁用户",
+    languageKr: "사용자 금지 및 금지 해제",
   },
   'NotNeeded': {
     languageEn: "Not needed",
@@ -6051,6 +6548,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gerekli değil",
     languageEs: "No es necesario",
     languageCn: "不需要",
+    languageKr: "필요하지 않음",
   },
   '1Day': {
     languageEn: "Issue ban for one day",
@@ -6062,6 +6560,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bir gün süreyle yasaklama",
     languageEs: "Prohibición de entrada durante un día",
     languageCn: "禁言一天",
+    languageKr: "하루 동안 금지됨",
   },
   '3Days': {
     languageEn: "Issue ban for three days",
@@ -6073,6 +6572,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Üç gün süreyle yayın yasağı",
     languageEs: "Prohibición de entrada durante tres días",
     languageCn: "发布禁令三天",
+    languageKr: "3일 동안 금지됨",
   },
   '7Days': {
     languageEn: "Issue ban for seven days",
@@ -6084,6 +6584,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Prohibición durante siete días",
     languageEs: "Prohibición durante siete días",
     languageCn: "发出七天禁令",
+    languageKr: "7일 동안 금지됨",
   },
   '30Days': {
     languageEn: "Issue ban for one month",
@@ -6095,6 +6596,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bir ay süreyle yayın yasağı",
     languageEs: "Prohibición de entrada durante un mes",
     languageCn: "禁言一个月",
+    languageKr: "30일 동안 금지됨",
   },
   'BanForever': {
     languageEn: "Ban forever",
@@ -6106,6 +6608,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sonsuza kadar yasakla",
     languageEs: "Prohibir para siempre",
     languageCn: "永远禁止",
+    languageKr: "영구정지",
   },
   'RemoveBan': {
     languageEn: "Revoke ban",
@@ -6117,6 +6620,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yasağı iptal et",
     languageEs: "Revocar la prohibición",
     languageCn: "撤销禁令",
+    languageKr: "정지해제",
   },
   'ResetNickname': {
     languageEn: "Reset user's nickname",
@@ -6128,6 +6632,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcının takma adını sıfırla",
     languageEs: "Restablecer el apodo del usuario",
     languageCn: "重置用户昵称",
+    languageKr: "사용자 닉네임 재설정",
   },
   'ResetAvatar': {
     languageEn: "Reset user's avatar",
@@ -6139,6 +6644,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcının avatarını sıfırla",
     languageEs: "Restablecer el avatar del usuario",
     languageCn: "重置用户头像",
+    languageKr: "사용자 아바타 재설정",
   },
   'ResetStatus': {
     languageEn: "Reset user's status",
@@ -6150,6 +6656,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcı durumunu sıfırla",
     languageEs: "Restablecer el estado del usuario",
     languageCn: "重置用户状态",
+    languageKr: "사용자 상태 재설정",
   },
   'ResetSubscription': {
     languageEn: "Reset user's subscription",
@@ -6161,6 +6668,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcının aboneliğini sıfırla",
     languageEs: "Restablecer la suscripción del usuario",
     languageCn: "重置用户订阅",
+    languageKr: "사용자 구독 재설정",
   },
   'ResetSocials': {
     languageEn: "Reset user's social networks",
@@ -6172,6 +6680,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcının sosyal ağlarını sıfırlayın",
     languageEs: "Restablecer las redes sociales del usuario",
     languageCn: "重置用户的社交网络",
+    languageKr: "사용자의 소셜 네트워크 재설정",
   },
   'SomethingWentWrong': {
     languageEn: 'Oops.... Seems that something went wrong',
@@ -6183,6 +6692,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oops.... Görünüşe göre bir şeyler ters gitti",
     languageEs: "Oops.... Parece que algo salió mal",
     languageCn: "Oops.... 似乎出错了",
+    languageKr: "이런.... 뭔가 잘못된 것 같습니다",
   },
   'NotGood': {
     languageEn: 'Not good',
@@ -6194,6 +6704,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İyi değil",
     languageEs: "No es bueno",
     languageCn: "不好",
+    languageKr: "Not good",
   },
   'Auth': {
     languageEn: "Authenticate",
@@ -6205,6 +6716,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oturum aç",
     languageEs: "Acceder",
     languageCn: "登录",
+    languageKr: "인증",
   },
   'AntivirusIsBad': {
     languageEn:
@@ -6225,6 +6737,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Lamentablemente, su programa antivirus o cortafuegos no permite que ExLoader descargue los archivos necesarios. Para continuar, comprueba la configuración de tu antivirus y cortafuegos e inténtalo de nuevo.",
     languageCn:
         "不幸的是，您的杀毒软件或防火墙不允许 ExLoader 下载必要的文件。若要继续，请检查杀毒软件和防火墙软件的设置，然后再试一次！",
+    languageKr:
+        "안타깝게도 바이러스 백신 소프트웨어나 방화벽에서는 ExLoader가 필요한 파일을 다운로드하는 것을 허용하지 않습니다. 계속하려면 바이러스 백신 및 방화벽 소프트웨어 설정을 확인하고 다시 시도하십시오!",
   },
   'BetterConsiderIfNormal': {
     languageEn:
@@ -6245,6 +6759,8 @@ const Map<String, Map<String, String>> localeItems = {
         "¡⛔️ Sin embargo, ya que esta modificación aún no ha sido verificada por la ausencia de virus, la decisión de lanzarlo o no en caso de cualquier problema con su antivirus, lo hace sólo bajo su propio riesgo! P.D. la función de añadir automáticamente los mods sin virus a las exclusiones de Windows Defender se puede activar en la configuración de ExLoader.",
     languageCn:
         "⛔️ 不过，由于此修改尚未经过病毒检测，因此在您的杀毒软件出现任何问题时，是否启动此修改的风险将由您自行承担！附注：可在 ExLoader 设置中启用自动将未检查病毒的修改添加到 Windows Defender 排除项的功能！",
+    languageKr:
+        "⛔️ 이 치트는 바이러스 테스트를 거치지 않았기 때문에 바이러스 백신 소프트웨어에 문제가 있는 경우 이 치트를 실행하는 데 따른 위험은 전적으로 귀하의 책임입니다! 추신: Windows Defender 제외에 바이러스가 확인되지 않은 치트를 자동으로 추가하는 기능은 ExLoader 설정에서 활성화할 수 있습니다!",
   },
   'WhyAntivirusSaysIt': {
     languageEn:
@@ -6265,6 +6781,8 @@ const Map<String, Map<String, String>> localeItems = {
         "✅ Algunos antivirus tienen una actitud muy negativa hacia los mods, considerándolos un software pirata que viola las reglas del juego, por lo que pueden mostrar deliberadamente falsos positivos, mostrando virus inexistentes, con el fin de reducir el número de jugadores ilegales. Y el mod que has intentado lanzar ya ha sido comprobado por un representante independiente en cuanto a la ausencia de virus, ¡y su uso es completamente seguro!",
     languageCn:
         "✅ 有些反病毒软件对 MOD 持非常否定的态度，认为它们是违反游戏规则的盗版软件，因此它们可能会故意显示假阳性，显示不存在的病毒，以减少非法玩家的数量。而您尝试启动的 MOD 已由独立代表检查过是否存在病毒，完全可以安全使用！",
+    languageKr:
+        "✅ 일부 바이러스 백신 소프트웨어는 치트에 대해 매우 부정적인 태도를 가지고 있으며, 게임 규칙을 위반하는 불법 복제 소프트웨어로 간주하여 의도적으로 오탐지를 표시하여 존재하지 않는 바이러스를 표시할 수 있습니다. 불법선수. 그리고 귀하가 실행하려는 치트는 독립적인 담당자에 의해 바이러스 검사를 거쳤으며 사용하기에 완전히 안전합니다!",
   },
   'PossibleAntivirusList': {
     languageEn:
@@ -6284,6 +6802,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La lista de posibles programas que pueden provocar este error es la siguiente",
     languageCn: "可能导致该错误发生的软件列表",
+    languageKr: "이 오류가 발생할 수 있는 소프트웨어 목록",
   },
   'WindowsDefender': {
     languageEn: 'Windows Defender',
@@ -6295,6 +6814,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Windows Defender",
     languageEs: "Windows Defender",
     languageCn: "Windows Defender",
+    languageKr: "Windows Defender",
   },
   'CanNotLaunchInOfflineMode': {
     languageEn:
@@ -6314,6 +6834,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Desafortunadamente, no puedes lanzar esta modificación en modo offline. Espere hasta que ExLoader pueda alcanzar su servidor e intente lanzarlo de nuevo.",
     languageCn: "遗憾的是，您无法在离线模式下启动此修改。请等到 ExLoader 可以连接到服务器后再尝试启动！",
+    languageKr: "안타깝게도 오프라인 모드에서는 이 치트를 시작할 수 없습니다. 다시 시작하기 전에 ExLoader가 서버에 연결할 수 있을 때까지 기다리십시오!",
   },
   'CanNotUseThisFunctionInOfflineMode': {
     languageEn:
@@ -6333,6 +6854,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Desafortunadamente, no puede realizar esta operación en modo offline. Espere hasta que ExLoader pueda acceder a su servidor e inténtelo de nuevo.",
     languageCn: "遗憾的是，您无法在脱机模式下执行此操作。请等到 ExLoader 可以连接到服务器后再尝试执行！",
+    languageKr: "안타깝게도 오프라인 모드에서는 이 작업을 수행할 수 없습니다. 실행을 시도하기 전에 ExLoader가 서버에 연결할 수 있을 때까지 기다리십시오!",
   },
   'GameWasClosedDuringInjection': {
     languageEn:
@@ -6352,6 +6874,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El proceso de lanzamiento de la modificación se ha interrumpido debido a que el juego se ha cerrado durante el proceso de inyección.",
     languageCn: "由于游戏在注入过程中关闭，导致修改启动过程中断！",
+    languageKr: "주입 과정에서 게임이 종료되어 수정 시작 과정이 중단되었습니다!",
   },
   'CrashMessage': {
     languageEn:
@@ -6372,6 +6895,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Parece que la modificación que has intentado lanzar ha provocado un bloqueo del juego. Ten en cuenta que no es un problema de ExLoader, sino de la modificación o de tu dispositivo. Para más información, haz clic en el botón de abajo.\n\nEste problema puede estar relacionado sólo con la modificación que has lanzado. Si no puedes deshacerte de este problema con los consejos de abajo, ¡intenta jugar con otras modificaciones de nuestra biblioteca!",
     languageCn:
         "看来您尝试启动的修改导致了游戏崩溃！请注意，这不是 ExLoader 的问题，而是修改或设备的问题。更多信息请点击下面的按钮\n\n这个问题可能只与你启动的修改有关。如果使用以下提示仍无法解决此问题，请尝试使用我们资料库中的其他修改程序！",
+    languageKr:
+        "실행하려고 했던 치트로 인해 게임이 중단된 것 같습니다! 이는 ExLoader의 문제가 아니라 개조 또는 장치의 문제입니다. 자세한 내용을 보려면 아래 버튼을 클릭하십시오.\n\n이 문제는 귀하가 시작한 치트에만 관련될 수 있습니다. 아래 팁을 사용해도 문제를 해결할 수 없다면 라이브러리에서 다른 치트를 사용해 보세요!",
   },
   'CrashMessageCustom': {
     languageEn:
@@ -6392,6 +6917,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Parece que la modificación que has intentado lanzar ha provocado un bloqueo del juego. Ten en cuenta que no es un problema de ExLoader, sino de la propia modificación, del método de inyección seleccionado en la configuración de la aplicación o de tu dispositivo. Para obtener más información, haga clic en el botón de abajo.",
     languageCn:
         "看来您尝试启动的修改导致了游戏崩溃！请注意，这不是 ExLoader 的问题，而是修改本身、在应用程序设置中选择的注入方法或您设备的问题。更多信息请点击下面的按钮！",
+    languageKr:
+        "실행하려고 했던 치트로 인해 게임이 중단된 것 같습니다! 이는 ExLoader의 문제가 아니라 치트 자체, 애플리케이션 설정에서 선택한 주입 방법 또는 장치의 문제입니다. 자세한 내용을 보려면 아래 버튼을 클릭하세요!",
   },
   'UseVPNError': {
     languageEn:
@@ -6412,6 +6939,8 @@ const Map<String, Map<String, String>> localeItems = {
         "La conexión con el servidor es inestable: ¡Su antivirus, firewall, proveedor de Internet o alguna otra aplicación bloquea el intento de enviar paquetes desde el lado del cliente! Para resolver este problema necesita encontrar esta aplicación y permitir el acceso a internet a nuestro cliente en ella, ¡simplemente una eliminación del bloqueador puede no ayudar a resolverlo! O puedes intentar habilitar una VPN mientras usas ExLoader.",
     languageCn:
         "与服务器的连接不稳定： 您的杀毒软件、防火墙、网络提供商或其他应用程序阻止了从客户端发送数据包的尝试！要解决这个问题，你需要找到这个应用程序，并允许我们的客户端访问互联网！或者，你也可以尝试在使用 ExLoader 的同时启用 VPN！",
+    languageKr:
+        "서버 연결이 불안정합니다. 바이러스 백신, 방화벽, 네트워크 공급자 또는 기타 응용 프로그램이 클라이언트에서 패킷을 보내려는 시도를 차단하고 있습니다. 이 문제를 해결하려면 이 애플리케이션을 찾아 클라이언트가 인터넷에 액세스할 수 있도록 허용해야 합니다! 또는 ExLoader를 사용하는 동안 VPN을 활성화해 볼 수도 있습니다!",
   },
   'ABitOfInformation': {
     languageEn: "A bit of information from modification's developer",
@@ -6434,6 +6963,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "şimdi bunu tekrar gösterin",
     languageEs: "ahora muestre esto de nuevo",
     languageCn: "现在再播放一次",
+    languageKr: "지금 다시 플레이해 보세요",
   },
   'ComponentsInstalling': {
     languageEn: "Required for modification components are missing",
@@ -6445,6 +6975,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon için gerekli bileşenler eksik",
     languageEs: "Faltan componentes necesarios para la modificación",
     languageCn: "缺少修改所需的组件",
+    languageKr: "치트에 필요한 구성요소가 누락되었습니다.",
   },
   'FailedToInstallComponents': {
     languageEn:
@@ -6464,6 +6995,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, no hemos podido instalar los componentes de {entity} de forma automática, pero puede intentarlo usted mismo con la ayuda de Internet. La versión que necesitas es: ",
     languageCn: "遗憾的是，我们无法在自动模式下安装 {entity} 组件，不过，你可以尝试在互联网的帮助下自行安装！您需要的版本是: ",
+    languageKr:
+        "안타깝게도 자동 모드에서는 {entity} 구성요소를 설치할 수 없습니다. 하지만 인터넷의 도움을 받아 직접 설치해 볼 수 있습니다! 필요한 버전은 다음과 같습니다.",
   },
   'WhyYouNeedComponents': {
     languageEn:
@@ -6483,6 +7016,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Debe tener componentes {entity} instalados en su sistema para que la modificación funcione correctamente. Si aparecen ofertas publicitarias en el instalador, simplemente haga clic en el botón «Rechazar»",
     languageCn: "您的系统必须安装了 {entity} 组件，修改才能正常运行。。如果安装程序中出现广告，只需点击 «拒绝» 按钮即可。",
+    languageKr: "치트가 제대로 작동하려면 시스템에 {entity} 구성 요소가 설치되어 있어야 합니다. . 설치 프로그램에 광고가 나타나면 «Rechazar» 버튼을 클릭하세요.",
   },
   'Downloading': {
     languageEn: "Downloading",
@@ -6494,6 +7028,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İndiriliyor",
     languageEs: "Descargando",
     languageCn: "下载",
+    languageKr: "다운로드 중",
   },
   'OutOf': {
     languageEn: "out of",
@@ -6505,6 +7040,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "dışarı",
     languageEs: "de",
     languageCn: "由于",
+    languageKr: "out of",
   },
   'Skip': {
     languageEn: 'Skip',
@@ -6516,6 +7052,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Atla",
     languageEs: "Saltar",
     languageCn: "跳过",
+    languageKr: "스킵",
   },
   'LaunchProcessIsFinished': {
     languageEn: 'Modification is ready to use',
@@ -6527,6 +7064,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon kullanıma hazır",
     languageEs: "La modificación está lista para su uso",
     languageCn: "修改后即可使用",
+    languageKr: "치트 사용가능",
   },
   'InstallationIsFinished': {
     languageEn: 'Modification is ready to use',
@@ -6538,6 +7076,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon kullanıma hazır",
     languageEs: "La modificación está lista para su uso",
     languageCn: "修改后即可使用",
+    languageKr: "치트 사용가능",
   },
   'StandardKeyButton': {
     languageEn: "Standard key for modification's menu opening:",
@@ -6549,6 +7088,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon menüsünün açılması için standart tuş:",
     languageEs: "Tecla estándar para la apertura del menú de modificación:",
     languageCn: "用于打开修改菜单的标准键：",
+    languageKr: "치트메뉴를 열기위한 키:",
   },
   'NoButtonNoMenu': {
     languageEn: 'Without key-button and maybe without menu',
@@ -6560,6 +7100,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tuş düğmesi ve belki de menü olmadan",
     languageEs: "Sin botón y quizás sin menú",
     languageCn: "没有按键，可能也没有菜单",
+    languageKr: "버튼도 없고 메뉴도 없을 수도 있음",
   },
   'IHaveAProblem': {
     languageEn: 'I have a problem, please, help',
@@ -6571,6 +7112,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bir sorunum var, lütfen yardım edin",
     languageEs: "Tengo un problema, por favor, ayuda",
     languageCn: "我有一个问题，请帮助我",
+    languageKr: "문제가 있어요 도와주세요",
   },
   'ConfigsInstallation': {
     languageEn:
@@ -6590,6 +7132,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Puedes instalar configuraciones preconfiguradas por otros usuarios utilizando el botón de engranaje de la página de la modificación.\n\nSin embargo, algunas modificaciones no admiten esta función por una razón u otra.",
     languageCn: "您可以使用修改页面上的齿轮按钮安装其他用户提供的预制配置\n\n不过，有些修改由于某种原因不支持此功能！",
+    languageKr:
+        "치트 페이지의 톱니바퀴 버튼을 사용하여 다른 사용자가 제공한 사전 구성을 설치할 수 있습니다.\n\n그러나 일부 치트에서는 어떤 이유로 이 기능을 지원하지 않습니다!",
   },
   'WeOfferYouYandex': {
     languageEn:
@@ -6609,6 +7153,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Le sugerimos que instale el rápido, sencillo y cómodo navegador Yandex para trabajar cómodamente en Internet.",
     languageCn: "我们建议您安装快速、简单、方便的 Yandex 浏览器，以便轻松上网。",
+    languageKr: "빠르고 간단하며 편리한 Yandex 브라우저를 설치하여 쉽게 웹 서핑을 하시길 권장합니다.",
   },
   'WeOfferYouYandexButNotBrowser': {
     languageEn:
@@ -6628,6 +7173,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Te sugerimos que instales extensiones de Yandex para navegadores y configuraciones para acceder rápidamente a la búsqueda y los servicios de Yandex.",
     languageCn: "我们建议您为浏览器和设置安装 Yandex 扩展，以便快速访问 Yandex 搜索和服务。",
+    languageKr: "Yandex 검색 및 서비스에 빠르게 액세스하려면 브라우저에 Yandex 확장 프로그램과 설정을 설치하는 것이 좋습니다.",
   },
   'WeOfferYouOpera': {
     languageEn:
@@ -6647,6 +7193,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Te sugerimos que instales el navegador Opera, rápido, seguro y fácil de usar, que incluye un bloqueador de anuncios, un economizador de batería y una VPN gratuita.",
     languageCn: "我们建议你安装快速、安全、易用的 Opera 浏览器，内置广告拦截器、电池保护器和免费 VPN。",
+    languageKr: "광고 차단기, 배터리 절약 기능, 무료 VPN이 내장된 빠르고 안전하며 사용하기 쉬운 Opera 브라우저를 설치하는 것이 좋습니다.",
   },
   'WeOfferYouToUpdateOpera': {
     languageEn:
@@ -6666,6 +7213,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Le sugerimos que actualice su navegador Opera, rápido, seguro y fácil de usar, que incluye un bloqueador de anuncios, un economizador de batería y una VPN gratuita.",
     languageCn: "我们建议你更新快速、安全、易用的 Opera 浏览器，内置广告拦截器、电池保护器和免费 VPN。",
+    languageKr: "광고 차단기, 배터리 절약 기능, 무료 VPN이 내장된 빠르고 안전하며 사용하기 쉬운 Opera 브라우저로 업데이트하는 것이 좋습니다.",
   },
   'ShowMore': {
     languageEn: 'Learn more',
@@ -6677,6 +7225,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Daha fazla bilgi edinin",
     languageEs: "Más información",
     languageCn: "了解更多",
+    languageKr: "더 알아보기",
   },
   'Agreement': {
     languageEn:
@@ -6697,6 +7246,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Al hacer clic en «{nombre_del_botón}» e instalar el software recomendado por ExLoader, usted acepta los términos y condiciones del contrato de licencia del",
     languageCn:
         "点击 «{button_name}» 并安装 ExLoader 推荐的软件，即表示您同意该软件的许可协议中的许可条款和条件。",
+    languageKr:
+        "«{button_name}»을 클릭하고 ExLoader에서 권장하는 소프트웨어를 설치하면 해당 소프트웨어에 대한 라이센스 계약의 라이센스 이용 약관에 동의하는 것입니다.",
   },
   'YaBrowser': {
     languageEn: 'Yandex browser',
@@ -6708,6 +7259,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yandex tarayıcı",
     languageEs: "Navegador Yandex",
     languageCn: "Yandex 浏览器",
+    languageKr: "Yandex 브라우저",
   },
   'And': {
     languageEn: 'and',
@@ -6719,6 +7271,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ve",
     languageEs: "y",
     languageCn: "和",
+    languageKr: "and",
   },
   'DesktopSoftware': {
     languageEn: 'desktop Yandex software',
@@ -6730,6 +7283,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "masaüstü Yandex yazılımı",
     languageEs: "software Yandex de escritorio",
     languageCn: "桌面 Yandex 软件",
+    languageKr: "데스크탑 Yandex 소프트웨어",
   },
   'DoNotForgetToMark': {
     languageEn: 'Do not forget to leave a review after playing!',
@@ -6741,6 +7295,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oynadıktan sonra yorum bırakmayı unutmayın!",
     languageEs: "No olvides dejar tu opinión después de jugar.",
     languageCn: "玩过之后，别忘了留下评论！",
+    languageKr: "플레이 후 리뷰를 남기는 것도 잊지 마세요!",
   },
   'OperaAgreeFinal': {
     languageEn:
@@ -6760,6 +7315,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Al hacer clic en «{button_name}», acepta instalar Opera y da su consentimiento para su uso",
     languageCn: "点击 «{button_name}»，即表示您同意安装 Opera 并同意其",
+    languageKr: "«{button_name}»을 클릭하면 Opera 설치에 동의하고 다음 사항에 동의하는 것입니다.",
   },
   'OperaAgreeFinalButUpdate': {
     languageEn:
@@ -6779,6 +7335,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Al hacer clic en «{button_name}» usted acepta actualizar Opera y consiente su",
     languageCn: "点击 «{button_name}»，即表示您同意更新 Opera 并同意其",
+    languageKr: "«{button_name}»을 클릭하면 Opera 업데이트에 동의하고 다음 사항에 동의하게 됩니다.",
   },
   'OperaLicense': {
     languageEn: 'End User License Agreement',
@@ -6790,6 +7347,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Son Kullanıcı Lisans Sözleşmesi",
     languageEs: "Acuerdo de licencia de usuario final",
     languageCn: "最终用户许可协议",
+    languageKr: "최종 사용자 라이센스 계약",
   },
   'OperaPrivacy': {
     languageEn: 'Privacy Policy',
@@ -6801,6 +7359,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gizlilik Politikası",
     languageEs: "Política de privacidad",
     languageCn: "隐私政策",
+    languageKr: "개인 정보 정책",
   },
   'OperaEnding': {
     languageEn:
@@ -6820,6 +7379,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Este software puede eliminarse en cualquier momento a través de la utilidad de agregar o quitar programas.",
     languageCn: "该软件可随时通过添加/删除程序实用程序删除。",
+    languageKr: "이 소프트웨어는 프로그램 추가/제거 유틸리티를 통해 언제든지 제거할 수 있습니다.",
   },
   'LaunchIsInLauncher': {
     languageEn:
@@ -6840,6 +7400,8 @@ const Map<String, Map<String, String>> localeItems = {
         "La modificación se puede iniciar utilizando su lanzador de Minecraft, para el que se instaló esta modificación.\n\n¡Sólo tienes que abrir el cargador, seleccione la nueva versión del cliente, haga clic en «Play» y disfrutar del juego!",
     languageCn:
         "可以使用安装了此修改程序的威廉与发射器启动此修改程序。\n\n只需打开加载器，选择新版客户端，点击 «Play（播放）»，即可享受游戏乐趣！",
+    languageKr:
+        "이 치트는 이 치트가 설치된 William & Launcher를 사용하여 시작할 수 있습니다. \n\n로더를 열고 새 클라이언트를 선택한 후 «Play»를 클릭하고 게임을 즐겨보세요!",
   },
   'InstallAPK': {
     languageEn:
@@ -6859,6 +7421,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Ya puedes instalar el archivo APK descargado en cualquier emulador o en tu smartphone y empezar a jugar con una versión modificada del juego.",
     languageCn: "现在，您可以在任何模拟器或智能手机上安装下载的 APK 文件，然后开始玩修改版的游戏！",
+    languageKr: "이제 다운로드한 APK 파일을 에뮬레이터나 스마트폰에 설치하고 치트의 게임을 플레이할 수 있습니다!",
   },
   'NextLoader': {
     languageEn:
@@ -6878,6 +7441,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El proceso de lanzamiento inicial se ha completado con éxito, sin embargo, esta modificación tiene su propio cargador, ¡que continuará su proceso de lanzamiento!",
     languageCn: "初始启动过程已成功完成，但该改装件有自己的加载器，将继续执行下一步启动过程！",
+    languageKr: "초기 부팅 프로세스는 성공적으로 완료되었지만 치트에는 자체 로더가 있으며 부팅 프로세스의 다음 단계를 계속 진행합니다!",
   },
   'RegisterIfNeeded': {
     languageEn:
@@ -6897,6 +7461,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¿El lanzador de la modificación requiere una autorización? Simplemente regístrese en su sistema con cualquier dato y utilícelo para iniciar sesión. La autorización y la creación de cuenta son completamente gratuitas, ¡sólo se requieren para identificar a los usuarios!",
     languageCn: "修改启动器需要授权？只需在其系统中输入任何数据并登录即可！授权和账户创建完全免费，只需确认用户身份即可！",
+    languageKr: "치트를 수정하려면 승인이 필요합니까? 시스템에 데이터를 입력하고 로그인하세요! 승인 및 계정 생성은 완전 무료입니다. 사용자의 신원만 확인하세요!",
   },
   'AuthNeeded': {
     languageEn:
@@ -6916,6 +7481,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "🔐 ¿El lanzador de la modificación requiere una autorización? ¡Sólo tiene que utilizar los datos que ha proporcionado durante el proceso de compra!",
     languageCn: "🔐 修改的启动器需要授权？只需使用您在购买过程中提供的数据即可！",
+    languageKr: "🔐 수정된 치트에 인증이 필요한가요? 구매 과정에서 제공한 데이터를 활용하세요!",
   },
   'Launching': {
     languageEn: 'Modification is starting',
@@ -6927,6 +7493,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon başlıyor",
     languageEs: "Comienza la modificación",
     languageCn: "修改开始",
+    languageKr: "치트 수정",
   },
   'PrepeareForInstallation': {
     languageEn: "Prepearing for modification's installation",
@@ -6938,6 +7505,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyon kurulumu için ön hazırlık",
     languageEs: "Preparación para la instalación de modificaciones",
     languageCn: "改装安装前的准备工作",
+    languageKr: "치트 및 설치 전 준비사항",
   },
   'WaitForDownloadingToComplete': {
     languageEn:
@@ -6957,6 +7525,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, no puedes cancelar el lanzamiento de la modificación mientras se descargan sus archivos. Espera a que finalice el proceso de instalación de la modificación y vuelve a intentarlo.",
     languageCn: "遗憾的是，您无法在下载文件时取消启动修改。请等待修改程序安装完成后再试一次！",
+    languageKr: "안타깝게도 파일을 다운로드하는 동안에는 치트 수정을 취소할 수 없습니다. 수정 프로그램이 설치될 때까지 기다렸다가 다시 시도해 주세요!",
   },
   'NotAvailableOnLaunch': {
     languageEn:
@@ -6974,6 +7543,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La función de eliminación de la modificación no está disponible durante su lanzamiento.",
     languageCn: "在启动过程中，修改的删除功能不可用！",
+    languageKr:
+        "The modification's removal function is not available during its launch!",
   },
   'EmailTooltip': {
     languageEn: 'Enter your email address',
@@ -6985,6 +7556,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "E-posta adresinizi girin",
     languageEs: "Introduzca su dirección de correo electrónico",
     languageCn: "输入您的电子邮件地址",
+    languageKr: "당신의 이메일 주소를 입력 해주세요",
   },
   'Next': {
     languageEn: 'Next step',
@@ -6996,6 +7568,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sonraki adım",
     languageEs: "Siguiente paso",
     languageCn: "下一步",
+    languageKr: "다음 단계",
   },
   'IWillDoItAfterGameIsLaunched': {
     languageEn: "Okay, I'll do it once the game is launched",
@@ -7007,6 +7580,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tamam, oyun başladığında yapacağım.",
     languageEs: "De acuerdo, lo haré una vez que se lance el juego.",
     languageCn: "好吧，游戏推出后我会做的",
+    languageKr: "네, 게임이 출시되면 할게요",
   },
   'WeWillSendEmail': {
     languageEn: 'We will send a confirmation letter to your email address',
@@ -7019,6 +7593,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Le enviaremos una carta de confirmación a su dirección de correo electrónico",
     languageCn: "我们将向您的电子邮件地址发送一封确认信",
+    languageKr: "귀하의 이메일 주소로 확인 편지를 보내드리겠습니다.",
   },
   'AuthWithGoogle': {
     languageEn: "Authenticate with your Google account",
@@ -7030,6 +7605,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Google hesabınızla kimlik doğrulaması yapın",
     languageEs: "Autentícate con tu cuenta de Google",
     languageCn: "使用 Google 帐户进行身份验证",
+    languageKr: "Google 계정으로 인증",
   },
   'LetterIsReady': {
     languageEn: "Letter is delivered!",
@@ -7041,6 +7617,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Mektup teslim edildi!",
     languageEs: "¡Carta entregada!",
     languageCn: "信件已送达！",
+    languageKr: "귀하의 이메일 주소로 인증메일을 보냈습니다.",
   },
   'Resend': {
     languageEn: 'Send again',
@@ -7052,6 +7629,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tekrar gönder",
     languageEs: "Enviar de nuevo",
     languageCn: "再次发送",
+    languageKr: "재전송",
   },
   'ResendHint': {
     languageEn:
@@ -7072,6 +7650,8 @@ const Map<String, Map<String, String>> localeItems = {
         "¿No ha encontrado la carta? Asegúrese de que ha escrito correctamente su correo electrónico e intente comprobar las carpetas de «spam» y «promociones», pero en casos excepcionales, el proceso de entrega de la carta puede demorarse varios minutos. O vuelve atrás y utiliza el inicio de sesión como google/modo invitado para entrar en el ExLoader.",
     languageCn:
         "没有找到信件？请确保您的电子邮件输入正确，并尝试检查 «垃圾邮件» 和 «促销» 文件夹，但在极少数情况下，信件发送过程可能会延迟几分钟！或返回并使用登录为 google/访客模式进入 ExLoader。",
+    languageKr:
+        "메일을 확인 할 수 없나요? 이메일을 올바르게 입력했는지 확인하고 «스팸» 및 «프로모션» 폴더를 확인해 보세요. 그러나 드물게 편지 전송 프로세스가 몇 분 정도 지연될 수 있습니다! 또는 돌아가서 google/guest 모드로 로그인을 사용하여 ExLoader를 입력하세요.",
   },
   'ConfirmDescription': {
     languageEn:
@@ -7089,6 +7669,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gönderdiğimiz buton ile yetkilendirmeyi onaylayın",
     languageEs: "Confirme la autorización con el botón que hemos enviado a",
     languageCn: "使用我们发送到以下地址的按钮确认授权",
+    languageKr: "다음 주소로 전송되는 버튼을 사용하여 승인을 확인하세요.",
   },
   'ConfirmAuthWithPageInBrowser': {
     languageEn:
@@ -7108,6 +7689,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Confirme la autorización utilizando la página que hemos abierto en su navegador. Por cierto, ¡hemos copiado el enlace de autorización en tu portapapeles!",
     languageCn: "使用我们在浏览器中打开的页面确认授权。顺便说一下，我们已将授权链接复制到您的剪贴板！",
+    languageKr: "새 창에서 확인을 클릭하세요.링크를 클립보드에 복사했습니다!",
   },
   'AlmostLaunched': {
     languageEn: 'Just one more step',
@@ -7119,6 +7701,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sadece bir adım daha",
     languageEs: "Sólo un paso más",
     languageCn: "只差一步",
+    languageKr: "조금만 더",
   },
   'ConfirmingYourIdentity': {
     languageEn: "Synchronizing your profile with the server",
@@ -7130,6 +7713,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Profilinizi sunucu ile senkronize etme",
     languageEs: "Sincronizar su perfil con el servidor",
     languageCn: "与服务器同步配置文件",
+    languageKr: "구성 파일을 서버와 동기화",
   },
   'SyncingLibrary': {
     languageEn: "Syncing app's library",
@@ -7141,6 +7725,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulama kitaplığını senkronize etme",
     languageEs: "Sincronizar la biblioteca de la aplicación",
     languageCn: "同步应用程序的资料库",
+    languageKr: "애플리케이션의 데이터베이스 동기화",
   },
   'AlreadyTaken': {
     languageEn:
@@ -7155,6 +7740,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Görünüşe göre seçtiğiniz takma ad çoktan alınmış",
     languageEs: "Parece que ese nick que has elegido ya está cogido .",
     languageCn: "看来你选的昵称已经有人用了。",
+    languageKr: "선택하신 닉네임은 이미 누군가가 사용하고 있는 것 같습니다.",
   },
   '30DaysNotPassedNickname': {
     languageEn: "Oops, thirty days have to pass since the last nickname change",
@@ -7173,6 +7759,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Uy, tienen que pasar treinta días desde el último cambio de nick",
     languageCn: "哎呀，距离上次更改昵称还有三十天呢",
+    languageKr: "오, 마지막으로 닉네임을 바꾼지 30일이 지나지 않았습니다.",
   },
   '30DaysNotPassedAvatar': {
     languageEn: "Oops, thirty days have to pass since the last avatar change",
@@ -7191,6 +7778,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Uy, tienen que pasar treinta días desde el último cambio de avatar",
     languageCn: "哎呀，距离上次更换头像还有三十天呢",
+    languageKr: "오, 마지막으로 아바타를 바꾼지 아직 30일이 지나지 않았습니다.",
   },
   '1DayNotPassedStatus': {
     languageEn:
@@ -7210,6 +7798,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Uy, tienen que pasar veinticuatro horas desde el último cambio de estado",
     languageCn: "哎呀，距离上次状态更改还有 24 小时 。",
+    languageKr: "이런, 마지막 상태 변경 이후 24시간이 지나지 않았습니다.",
   },
   'UpdatingTheApp': {
     languageEn: "Updating the app",
@@ -7221,6 +7810,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulamayı güncelleme",
     languageEs: "Actualizar la aplicación",
     languageCn: "更新应用程序",
+    languageKr: "애플리케이션 업데이트",
   },
   'IssuesDescription': {
     languageEn:
@@ -7240,6 +7830,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¿La modificación no se ha iniciado, el juego se\nha bloqueado o has encontrado algún tipo de problema? Entonces,\n¡haz clic aquí!",
     languageCn: "修改无法启动、游戏崩溃或您遇到了某种问题？请点击此处！",
+    languageKr: "치트가 시작되지 않거나, 게임이 충돌하거나, 어떤 문제가 발생했습니까? 여기를 클릭하세요!",
   },
   'ByInstalls': {
     languageEn: 'By installs',
@@ -7251,6 +7842,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Per installazioni",
     languageEs: "Por instalación",
     languageCn: "通过安装",
+    languageKr: "설치 수 기준",
   },
   'NewPlural': {
     languageEn: 'New',
@@ -7262,6 +7854,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yeni",
     languageEs: "Nuevo",
     languageCn: "新",
+    languageKr: "새로운",
   },
   'Installed': {
     languageEn: 'Installed',
@@ -7273,6 +7866,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yüklendi",
     languageEs: "Instalado",
     languageCn: "已安装",
+    languageKr: "설치됨",
   },
   'Mine': {
     languageEn: 'Mine',
@@ -7284,6 +7878,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Maden",
     languageEs: "Mina",
     languageCn: "地雷",
+    languageKr: "Mine",
   },
   'NoInternetForConfigurations': {
     languageEn:
@@ -7303,6 +7898,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, no podrás utilizar el ConfigurationsHUB en modo offline. Espere a que la aplicación se vuelva a conectar al servidor y vuelva a intentarlo.",
     languageCn: "不幸的是，你将无法在离线模式下使用 ConfigurationsHUB。请等待应用程序重新连接到服务器后再试一次！",
+    languageKr:
+        "안타깝게도 오프라인 모드에서는 ConfigurationsHUB를 사용할 수 없습니다. 애플리케이션이 서버에 다시 연결될 때까지 기다린 후 다시 시도하세요!",
   },
   'ConfigAlreadyDeleted': {
     languageEn:
@@ -7319,6 +7916,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Mientras buscabas una configuración, este archivo ya ha sido borrado",
     languageCn: "当您在查找配置时，该文件已被删除",
+    languageKr: "구성을 찾는 동안 파일이 삭제되었습니다.",
   },
   'ConfigurationWasSuccessfullyDeleted': {
     languageEn:
@@ -7335,6 +7933,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Su configuración se ha eliminado correctamente del servidor de la aplicación.",
     languageCn: "您的配置已从应用程序服务器上成功删除！",
+    languageKr: "귀하의 구성이 애플리케이션 서버에서 성공적으로 삭제되었습니다!",
   },
   'SearchByConfigs': {
     languageEn: 'Search by configurations',
@@ -7346,6 +7945,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyonlara göre arama",
     languageEs: "Búsqueda por configuraciones",
     languageCn: "按配置搜索",
+    languageKr: "구성으로 검색",
   },
   'SuccessfulConfigurationUpload': {
     languageEn:
@@ -7362,6 +7962,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Su configuración se ha cargado correctamente en el servidor de la aplicación.",
     languageCn: "您的配置已成功上传到应用程序服务器！",
+    languageKr: "구성이 애플리케이션 서버에 성공적으로 업로드되었습니다!",
   },
   'SuccessfulConfigurationEditing': {
     languageEn:
@@ -7380,6 +7981,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Su configuración se ha guardado correctamente en el servidor de la aplicación.",
     languageCn: "您的配置已成功重新保存在应用程序服务器上！",
+    languageKr: "구성이 애플리케이션 서버에 성공적으로 다시 저장되었습니다!",
   },
   'ConfigurationAlreadyUploaded': {
     languageEn:
@@ -7399,6 +8001,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que otro usuario ya ha cargado en el servidor exactamente la misma configuración.",
     languageCn: "看起来完全相同的配置已经被另一个用户上传到服务器上了！",
+    languageKr: "다른 사용자가 동일한 구성을 서버에 업로드한 것 같습니다!",
   },
   'ConfigurationAlreadyDeleted': {
     languageEn:
@@ -7417,6 +8020,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "No se ha podido editar esta configuración, ¡parece que ya se ha eliminado!",
     languageCn: "编辑此配置失败，好像已经删除！",
+    languageKr: "이 구성을 편집하지 못했습니다. 삭제된 것 같습니다.",
   },
   'FailedToFindConfig': {
     languageEn: "Failed to find configuration with such title pattern",
@@ -7428,6 +8032,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Böyle bir başlık desenine sahip yapılandırma bulunamadı",
     languageEs: "Error al encontrar configuración con dicho patrón de título",
     languageCn: "Böyle bir başlık desenine sahip yapılandırma bulunamadı",
+    languageKr: "해당 헤더 패턴이 포함된 구성을 찾을 수 없습니다.",
   },
   'NothingHere': {
     languageEn: "It looks like there is nothing in this section yet",
@@ -7440,6 +8045,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu bölümde henüz bir şey yok gibi görünüyor",
     languageEs: "Parece que aún no hay nada en esta sección .",
     languageCn: "看起来这部分还没有任何内容",
+    languageKr: "이 섹션에는 아직 아무것도 없는 것 같습니다.",
   },
 
   /// by like from some author
@@ -7453,6 +8059,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "tarafından",
     languageEs: "por",
     languageCn: "由",
+    languageKr: "by",
   },
   'ComplainObject': {
     languageEn: "Complaint's object:",
@@ -7464,6 +8071,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şikayetin konusu:",
     languageEs: "Objeto de la demanda:",
     languageCn: "投诉对象：",
+    languageKr: "불만 사항:",
   },
   'ComplainDescription': {
     languageEn: "Complaint's description:",
@@ -7475,6 +8083,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Şikayetin açıklaması:",
     languageEs: "Descripción de la queja:",
     languageCn: "投诉描述",
+    languageKr: "불만 사항 설명",
   },
   'ComplainType': {
     languageEn: "Violation type:",
@@ -7486,6 +8095,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İhlal türü:",
     languageEs: "Tipo de infracción:",
     languageCn: "违规类型：",
+    languageKr: "위반 유형",
   },
   'Spam': {
     languageEn: "Spam",
@@ -7497,6 +8107,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Spam",
     languageEs: "Spam",
     languageCn: "垃圾邮件",
+    languageKr: "Spam",
   },
   'Advert': {
     languageEn: "Advertisement",
@@ -7508,6 +8119,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Reklam",
     languageEs: "Publicidad",
     languageCn: "广告",
+    languageKr: "광고",
   },
   'Insult': {
     languageEn: "Insults",
@@ -7519,6 +8131,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hakaretler",
     languageEs: "Insultos",
     languageCn: "辱骂",
+    languageKr: "모욕",
   },
   'NoComplaintsInOfflineMode': {
     languageEn: "Complaints sending is not available in offline mode!",
@@ -7533,6 +8146,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡El envío de reclamaciones no está disponible en modo offline!",
     languageCn: "投诉发送在脱机模式下不可用！",
+    languageKr: "오프라인 모드에서는 불만사항 전송이 불가능합니다!",
   },
   'ComplaintIsSent': {
     languageEn: "Thank you for participating in application's development",
@@ -7546,6 +8160,7 @@ const Map<String, Map<String, String>> localeItems = {
         "Uygulamanın geliştirilmesine katıldığınız için teşekkür ederiz",
     languageEs: "Gracias por participar en el desarrollo de la aplicación",
     languageCn: "感谢您参与应用程序的开发",
+    languageKr: "애플리케이션 개발에 참여해 주셔서 감사합니다.",
   },
   'AddConfiguration': {
     languageEn: "Configuration's or LUA uploading form",
@@ -7557,6 +8172,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyon veya LUA yükleme formu",
     languageEs: "Formulario de carga de configuraciones o LUA",
     languageCn: "配置或 LUA 上传表格",
+    languageKr: "구성 또는 LUA 업로드 양식",
   },
   'EditConfiguration': {
     languageEn: "Configuration's or LUA editing form",
@@ -7568,6 +8184,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyon veya LUA düzenleme formu",
     languageEs: "Formulario de configuración o edición de LUA",
     languageCn: "配置或 LUA 编辑表单",
+    languageKr: "구성 또는 LUA 편집 양식",
   },
   'AutoConfigurationDelete': {
     languageEn:
@@ -7587,6 +8204,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las configuraciones y las LUA se eliminan automáticamente si nadie las instala en un plazo de 60 días.",
     languageCn: "如果 60 天内无人安装，配置和 LUA 将自动删除。",
+    languageKr: "60일 이내에 아무도 설치하지 않으면 구성과 LUA가 자동으로 삭제됩니다.",
   },
   'ConfigFile': {
     languageEn: "Configuration or LUA file",
@@ -7598,6 +8216,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yapılandırma veya LUA dosyası",
     languageEs: "Archivo de configuración o LUA",
     languageCn: "配置或 LUA 文件",
+    languageKr: "구성 또는 LUA 파일",
   },
   'Change': {
     languageEn: "Change",
@@ -7609,6 +8228,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişim",
     languageEs: "Cambia",
     languageCn: "改变",
+    languageKr: "변경",
   },
   'RemoveFromServer': {
     languageEn: "Delete the configuration or LUA from the server",
@@ -7620,6 +8240,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yapılandırmayı veya LUA'yı sunucudan silme",
     languageEs: "Borrar la configuración o LUA del servidor",
     languageCn: "从服务器上删除配置或 LUA",
+    languageKr: "서버에서 구성 또는 LUA 제거",
   },
   'ConfigName': {
     languageEn: "Configuration's or LUA name:",
@@ -7631,6 +8252,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyonun veya LUA'nın adı:",
     languageEs: "Nombre de la configuración o LUA:",
     languageCn: "配置或 LUA 名称：",
+    languageKr: "구성 또는 LUA 이름:",
   },
   'ConfigDescription': {
     languageEn: "Configuration's or LUA description:",
@@ -7642,6 +8264,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yapılandırma veya LUA açıklaması:",
     languageEs: "Descripción de la configuración o LUA:",
     languageCn: "配置或 LUA 描述：",
+    languageKr: "구성 또는 LUA 설명:",
   },
   'ChooseConfigFile': {
     languageEn: "Select the configuration's or LUA's file",
@@ -7654,6 +8277,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yapılandırma veya LUA dosyasını seçin",
     languageEs: "Seleccione el archivo de configuración o LUA",
     languageCn: "选择配置或 LUA 文件",
+    languageKr: "구성 또는 LUA 파일 선택",
   },
   'ChooseAnotherFile': {
     languageEn:
@@ -7673,6 +8297,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Desafortunadamente, no podremos subir esta configuración o LUA al servidor, ¡elige otro archivo!",
     languageCn: "很遗憾，我们无法将此配置或 LUA 上传到服务器，请选择其他文件！",
+    languageKr: "죄송합니다. 이 구성이나 LUA를 서버에 업로드할 수 없습니다. 다른 파일을 선택하세요!",
   },
   'SmallOrBigFile': {
     languageEn:
@@ -7692,6 +8317,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El tamaño del archivo es demasiado pequeño o demasiado grande, ¡intente elegir otra configuración o LUA!",
     languageCn: "文件太小或太大，请尝试选择其他配置或 LUA！",
+    languageKr: "파일이 너무 작거나 너무 큽니다. 다른 구성이나 LUA를 선택해 보십시오!",
   },
   'EnterSomething': {
     languageEn:
@@ -7710,6 +8336,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡Rellene primero los campos de nombre y descripción de la configuración o LUA!",
     languageCn: "首先填写配置或 LUA 的名称和描述字段！",
+    languageKr: "구성 또는 LUA의 이름과 설명 필드를 채우는 것부터 시작하세요!",
   },
   'SelectFileFirst': {
     languageEn:
@@ -7729,6 +8356,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que olvidaste seleccionar el archivo de configuración o LUA que debe cargarse en el servidor.",
     languageCn: "看来你忘记选择应该上传到服务器的配置或 LUA 文件了！",
+    languageKr: "서버에 업로드해야 하는 구성 또는 LUA 파일을 선택하는 것을 잊어버린 것 같습니다!",
   },
   'SavingConfig': {
     languageEn: "Saving your configuration or LUA...",
@@ -7740,6 +8368,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yapılandırmanızı veya LUA'nızı kaydetme...",
     languageEs: "Guardar la configuración o LUA...",
     languageCn: "保存您的配置或 LUA...",
+    languageKr: "구성 또는 LUA를 저장하세요...",
   },
   'UploadingConfig': {
     languageEn: "Uploading your configuration or LUA...",
@@ -7751,6 +8380,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yapılandırmanızı veya LUA'nızı yüklüyor...",
     languageEs: "Cargando su configuración o LUA...",
     languageCn: "上传您的配置或 LUA...",
+    languageKr: "구성 또는 LUA를 업로드하세요...",
   },
   'WrapWithZip': {
     languageEn:
@@ -7771,6 +8401,8 @@ const Map<String, Map<String, String>> localeItems = {
         "¿Su configuración consta de varios archivos? Póngalos en un archivo .zip y, cuando el usuario instale su configuración, ExLoader la descomprimirá automáticamente. Ejemplo: la configuración consta de los archivos 1.cfg, 2.cfg, 3.cfg y se encuentra en la subcarpeta «Nombre» del directorio «Configs». ¡Simplemente envuelva la carpeta «Nombre» con un archivo zip y súbalo con este formulario!",
     languageCn:
         "您的配置由多个文件组成？将它们放在一个 .zip 压缩包中，当用户安装配置时，ExLoader 会自动解压缩！例如：配置由文件 1.cfg、2.cfg 和 3.cfg 组成，位于 «Configs» 目录下的 «Name» 子文件夹中。只需将 «Name» 文件夹打包成 zip 压缩包，然后使用此表单上传即可！",
+    languageKr:
+        "구성이 여러 파일로 구성되어 있습니까? .zip 아카이브에 넣으면 사용자가 구성을 설치할 때 ExLoader가 자동으로 압축을 풉니다! 예를 들어 구성은 «Configs» 디렉터리 아래의 «Name» 하위 폴더에 있는 1.cfg, 2.cfg 및 3.cfg 파일로 구성됩니다. «이름» 폴더를 압축하고 이 양식을 사용하여 업로드하세요!",
   },
   'EditFirst': {
     languageEn:
@@ -7789,6 +8421,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Primero, ¡cambia al menos algo para actualizar la configuración o LUA!",
     languageCn: "首先，至少要更改一些配置或 LUA！",
+    languageKr: "먼저, 최소한 일부 구성이나 LUA를 변경하세요!",
   },
   'PleaseWaitBeforeComplaint': {
     languageEn:
@@ -7809,6 +8442,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Bueno... Gracias por intentar ayudar tanto a nuestro proyecto, pero el envío tan frecuente de quejas parece spam. Por esta razón, hemos restringido su acceso a esta función durante media hora. Lo sentimos si nos equivocamos...",
     languageCn:
         "嗯... 感谢您如此努力地帮助我们的项目，但如此频繁地发送投诉看起来就像垃圾邮件。因此，我们限制您使用该功能半小时。如果我们做错了，请原谅...",
+    languageKr:
+        "흠... 우리 프로젝트를 돕기 위해 열심히 일해주셔서 감사합니다. 그런데 너무 자주 불만사항을 보내는 것은 스팸처럼 보입니다. 따라서 이 기능의 사용은 30분으로 제한됩니다. 실수했다면 용서해주세요...",
   },
   'ConfigComplaintIsHandled': {
     languageEn:
@@ -7828,6 +8463,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         '¡Tu queja sobre la configuración o LUA ha sido procesada! Gracias por participar en el desarrollo de la aplicación.',
     languageCn: '您关于配置或 LUA 的投诉已得到处理！感谢您参与应用程序的开发',
+    languageKr: "구성 또는 LUA에 대한 귀하의 불만 사항이 해결되었습니다! 애플리케이션 개발에 참여해 주셔서 감사합니다.",
   },
   'ReviewComplaintIsHandled': {
     languageEn:
@@ -7847,6 +8483,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         '¡Tu queja sobre la opinión de «{user}» ha sido procesada! Gracias por participar en el desarrollo de la aplicación.',
     languageCn: '您对 «{user}的» 评论的投诉已处理完毕！感谢您参与应用程序的开发',
+    languageKr: "«{user}» 댓글에 대한 귀하의 불만 사항이 처리되었습니다! 애플리케이션 개발에 참여해 주셔서 감사합니다.",
   },
   'ReviewAnswer': {
     languageEn: "User «{user}» has answer to your review in «{review}» branch",
@@ -7865,6 +8502,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         'El usuario «{user}» ha respondido a tu opinión en la rama «{review}».',
     languageCn: "用户 «{user}» 在 «{review}» 分支中有对您评论的回复",
+    languageKr: "사용자 «{user}»가 «{review}» 브랜치에서 귀하의 댓글에 답글을 달았습니다.",
   },
   'BranchIsDeleted': {
     languageEn: "Unfortunately, this review's branch has already been deleted",
@@ -7877,6 +8515,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ne yazık ki bu yorumun dalı çoktan silinmiş",
     languageEs: "Lamentablemente, la rama de esta reseña ya ha sido eliminada",
     languageCn: "不幸的是，该评论的分支已被删除",
+    languageKr: "안타깝게도 이 댓글의 포크가 삭제되었습니다.",
   },
   'OldConfig': {
     languageEn:
@@ -7897,6 +8536,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Parece que la configuración o LUA que estás intentando subir no es compatible con la modificación {modification}. Quizás fue hecho para una versión anterior de esta modificación, o tienes algo mezclado. Asegúrate de que has seleccionado un archivo apropiado e inténtalo de nuevo.",
     languageCn:
         "您试图上传的配置或 LUA 与 {modification} 修改不兼容！可能是为该修改的旧版本制作的，也可能是您弄混了。请确保您选择了合适的文件，然后再试一次。",
+    languageKr:
+        "업로드하려는 구성 또는 LUA가 {modification} 치트 호환되지 않습니다! 어쩌면 이 모드의 이전 버전용으로 만들어졌을 수도 있고, 혼동했을 수도 있습니다. 적절한 파일을 선택했는지 확인하고 다시 시도하십시오.",
   },
   'CreateNickname': {
     languageEn: "Come up with a nickname:",
@@ -7908,6 +8549,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bir takma isim bul:",
     languageEs: "Inventa un apodo:",
     languageCn: "想个绰号",
+    languageKr: "별명을 생각해 보세요",
   },
   'Hint': {
     languageEn: "Hint",
@@ -7919,6 +8561,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İpucu",
     languageEs: "Sugerencia",
     languageCn: "提示",
+    languageKr: "힌트",
   },
   'AreYouSure': {
     languageEn: "Are you sure that it's what you want?",
@@ -7930,6 +8573,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İstediğinin bu olduğuna emin misin?",
     languageEs: "¿Está seguro de que es lo que quiere?",
     languageCn: "你确定这是你想要的吗？",
+    languageKr: "이것이 당신이 원하는 것이 확실합니까?",
   },
   'OldConfigWarning': {
     languageEn:
@@ -7950,6 +8594,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Parece que ese config o LUA que está intentando instalar está hecho para una versión antigua de la modificación {modification}. Tal vez su autor subió este archivo hace mucho tiempo y aún no lo ha actualizado para la última versión de la modificación.",
     languageCn:
         "看起来您试图安装的配置或 LUA 是为旧版本的 {modification} 修改而制作的。也许它的作者很久以前就上传了这个文件，但还没有根据最新的修改版本进行更新。",
+    languageKr:
+        "설치하려는 구성 또는 LUA가 이전 버전의 {modification}용으로 만들어진 것 같습니다. 어쩌면 작성자가 오래 전에 이 파일을 업로드했지만 최신 수정 버전으로 업데이트하지 않았을 수도 있습니다.",
   },
   'RulesBasic': {
     languageEn:
@@ -7969,6 +8615,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Para que las reseñas y otros lugares de actividad social de nuestra aplicación no se conviertan en un lugar que ni los más frikis quieran abrir, ¡intenta seguir las normas que se describen a continuación!",
     languageCn: "为了使我们应用程序的评论和其他社交活动场所不成为最狂热的怪胎也不愿打开的地方，请尝试遵守以下规则！",
+    languageKr: "우리 앱의 댓글과 기타 소셜 공간이 가장 열성적인 괴짜들조차 공개하고 싶지 않은 장소가 되지 않도록 다음 규칙을 따르도록 노력하세요!",
   },
   'WhatShouldNotBeDone': {
     languageEn: "WHAT IS BETTER NOT TO BE DONE?",
@@ -7980,6 +8627,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "NEYIN YAPILMAMASI DAHA IYIDIR?",
     languageEs: "¿QUÉ ES MEJOR NO HACER?",
     languageCn: "什么是最好不要做的？",
+    languageKr: "하지 않는 것이 가장 좋은 것은 무엇입니까?",
   },
   "RulesAreRules": {
     languageUa: """
@@ -8297,6 +8945,41 @@ const Map<String, Map<String, String>> localeItems = {
 
 17. 试图通过寻找漏洞来规避规则。如果您这样做，我们只会更新规则，并对您的违规行为进行处罚！
 """,
+    languageKr: """
+1. 다른 사용자에게 모욕, 공격, 위협 또는 도발하는 행동( "그가 먼저 시작했다" 규칙은 적용되지 않음)을 금합니다.
+
+2. 다른 사용자를 도발하여 ExLoader 규칙을 위반하도록 시도하는 행동을 금합니다.
+
+3. 광고, 파일 링크, 비호강 채널 또는 소셜 네트워크를 비롯한 불쾌한 콘텐츠를 게시하는 것을 금합니다.
+
+4. 국적, 연령, 신앙 등의 이유로 애플리케이션 사용자나 특정 그룹을 차별하는 행동을 금합니다.
+
+5. 18+ 또는 충격적인 콘텐츠를 어떠한 형태로든 게시하는 것을 금합니다(포르노, 폭력, 불쾌하거나 기타 유사한 장면을 포함한 GIF, 이미지, 비디오, 텍스트 설명, 링크 등).
+
+6. 프로필 사진, 닉네임, 상태 또는 소셜 미디어 링크에서 5번 항목에서 언급한 자료를 사용하는 것을 금합니다.
+
+7. 스팸, 부동, 대량의 의미 없는 정보를 전송하는 것을 금합니다.
+
+8. 다른 사용자를 모욕하거나 고발하는 행동을 금합니다.
+
+9. 금지 조치를 우회하기 위해 여러 계정을 생성하려는 시도를 금합니다.
+
+10. 모드나 프로젝트 관리자로 속이거나 다른 사용자를 오도하려는 시도를 금합니다.
+
+11. 다른 사용자를 익명 처리하거나 그들의 요청 없이 개인 연락처 정보를 공개하는 것을 금합니다.
+
+12. 악의적인 주장으로 댓글이나 설정을 막는 것을 금합니다.
+
+13. 거의 모든 댓글이나 닉네임에서 욕설을 무분별하게 사용하는 것을 금합니다.
+
+14. 업로드된 설정에 주제와 무관한 댓글이나 설명을 달지 않도록 합니다.
+
+15. 댓글, 설정 및 기타 유사한 위치에 긍정적이거나 부정적인 평가를 추가하는 것을 시도하는 것을 금합니다.
+
+16. 바이러스를 전파하거나 기기를 손상시키거나 무용지물 파일을 사용하는 시도를 금합니다.
+
+17. 규칙을 회피하기 위해 취약점을 찾으려는 시도를 금합니다. 만약 이를 시도한다면 규칙을 업데이트하고 규정 위반에 대해 처벌할 것입니다!
+""",
   },
   'ViolateAnd': {
     languageEn: "WHAT HAPPENS IF I BREAK THE RULES?",
@@ -8308,6 +8991,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "KURALLARI IHLAL EDERSEM NE OLUR?",
     languageEs: "¿QUÉ OCURRE SI INCUMPLO LAS NORMAS?",
     languageCn: "如果我违反规定会怎样？",
+    languageKr: "규칙을 어기면 어떻게 되나요?",
   },
   'ViolateDescription': {
     languageEn:
@@ -8328,6 +9012,8 @@ const Map<String, Map<String, String>> localeItems = {
         "¡¡¡Nada!!! Sólo bromeaba..., primero tu nivel de reputación será bajado por otros usuarios de ExLoader, y después serás baneado, lo que conllevará una limitación total de toda la actividad social de la aplicación. Así que sé amable, habla con los demás como te gustaría que los demás hablaran contigo, sé simpático, ¡y todo irá bien!",
     languageCn:
         "没什么！只是开个玩笑......，首先您的声誉等级会被其他 ExLoader 用户降低，然后您会被禁言，这将导致所有应用程序的社交活动受到全面限制。因此，请善待他人，以您希望他人与您交谈的方式与他人交谈，友好相处，一切都会好起来的！",
+    languageKr:
+        "아무것도 아님! 농담입니다... 먼저 다른 ExLoader 사용자에 의해 귀하의 평판 수준이 낮아진 다음 귀하는 금지되어 모든 응용 프로그램의 소셜 활동이 완전히 제한됩니다. 그러므로 다른 사람들에게 친절하게 대하고, 다른 사람들이 당신에게 말해주기를 바라는 방식으로 다른 사람들에게 말하고, 친절하게 대하면 모든 것이 잘 될 것입니다!",
   },
   'PressToOpenRules': {
     languageEn:
@@ -8347,6 +9033,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "No olvide leer las normas de aplicación antes de enviar una reclamación.",
     languageCn: "在提交投诉之前，请不要忘记阅读申请规则！",
+    languageKr: "불만 사항을 제출하기 전에 신청 규칙을 읽어보는 것을 잊지 마세요!",
   },
   'NoNotificationsInOffline': {
     languageEn:
@@ -8365,6 +9052,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, no se puede abrir la pantalla de notificaciones en modo offline",
     languageCn: "遗憾的是，您无法在离线模式下打开通知屏幕。",
+    languageKr: "안타깝게도 오프라인 모드에서는 알림 화면을 열 수 없습니다.",
   },
   'NoNotifications': {
     languageEn: "You don’t have any notifications yet!",
@@ -8376,6 +9064,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sizin için bildirim yok!",
     languageEs: "No hay notificaciones para ti.",
     languageCn: "您没有收到任何通知！",
+    languageKr: "알림을 받지 못했습니다!",
   },
   // TODD:!
   'Newbies': {
@@ -8388,6 +9077,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yenilikler ve iade edilen modifikasyonlar: ",
     languageEs: "Novedades y modificaciones devueltas: ",
     languageCn: "图书馆里的新手和回归者：",
+    languageKr: "도서관의 초보자와 귀국자:",
   },
   'GotUpdated': {
     languageEn: "Modifications which were updated: ",
@@ -8399,6 +9089,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Güncellenen değişiklikler: ",
     languageEs: "Modificaciones que se actualizaron: ",
     languageCn: "已更新的修改：",
+    languageKr: "업데이트된 수정 사항:",
   },
   'WereDeleted': {
     languageEn: "Deleted modifications: ",
@@ -8410,6 +9101,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Silinmiş değişiklikler: ",
     languageEs: "Modificaciones suprimidas:",
     languageCn: "删除的修改：",
+    languageKr: "삭제된 수정사항:",
   },
   'WelcomeBackNews': {
     languageEn:
@@ -8429,6 +9121,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡Bienvenido de nuevo! Hemos preparado una lista de cambios en la biblioteca de modificaciones para usted. ",
     languageCn: "欢迎回来！我们为您准备了一份修改图书馆的变化列表。",
+    languageKr: "돌아온 것을 환영합니다! 우리는 라이브러리를 수정하는 변경 사항 목록을 준비했습니다.",
   },
   'Microsoft': {
     languageEn: 'Microsoft components',
@@ -8440,6 +9133,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Microsoft bileşenleri",
     languageEs: "Componentes de Microsoft",
     languageCn: "微软组件",
+    languageKr: "마이크로소프트 구성요소",
   },
   'MicrosoftNotFound': {
     languageEn:
@@ -8455,6 +9149,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Los paquetes redistribuibles de Microsoft Visual C++ no están instalados.",
     languageCn: "未安装 Microsoft Visual C++ Redistributable 软件包！",
+    languageKr: "Microsoft Visual C++ 재배포 가능 패키지가 설치되지 않았습니다!",
   },
   'MicrosoftFound': {
     languageEn: 'Microsoft Visual C++ Redistributable packages are installed',
@@ -8468,6 +9163,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Los paquetes redistribuibles de Microsoft Visual C++ están instalados",
     languageCn: "已安装 Microsoft Visual C++ Redistributable 软件包",
+    languageKr: "Microsoft Visual C++ 재배포 가능 패키지가 설치되었습니다.",
   },
   'MicrosoftWhy': {
     languageEn:
@@ -8488,6 +9184,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Los componentes de Microsoft VC++ de las versiones de 2005 a 2023 son necesarios para que muchas modificaciones funcionen correctamente. Puede descargarlos en cualquier sitio web adecuado",
     languageCn:
         "许多修改都需要使用 2005 至 2023 版本的 Microsoft VC++组件才能正常运行。您可以在任何合适的网站上下载这些组件",
+    languageKr:
+        "많은 수정 사항이 제대로 작동하려면 Microsoft VC++ 구성 요소 버전 2005~2023이 필요합니다. 적절한 웹사이트에서 이러한 구성요소를 다운로드할 수 있습니다.",
   },
   'SystemVersion': {
     languageEn: "System version",
@@ -8499,6 +9197,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sistem sürümü",
     languageEs: "Versión del sistema",
     languageCn: "系统版本",
+    languageKr: "시스템 버전",
   },
   'SystemVersionGood': {
     languageEn: "Your system is running on the latest version of used Windows",
@@ -8516,6 +9215,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Su sistema funciona con la última versión de Windows utilizada",
     languageCn: "您的系统运行的是最新版本的 Windows 操作系统",
+    languageKr: "귀하의 시스템은 최신 버전의 Windows 운영 체제를 실행하고 있습니다.",
   },
   'SystemVersionBad': {
     languageEn:
@@ -8535,6 +9235,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que su versión de Windows puede actualizarse a una más reciente.",
     languageCn: "看来您的 Windows 版本可以升级到更新的版本！",
+    languageKr: "사용 중인 Windows 버전을 최신 버전으로 업그레이드할 수 있는 것 같습니다!",
   },
   'SystemVersionWhy': {
     languageEn:
@@ -8555,6 +9256,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Intente comprobar regularmente si hay nuevas actualizaciones en su sistema operativo, y utilice también la última versión de Windows desde el sitio web de Microsoft. Puede comprobar las actualizaciones en el centro de actualizaciones de Windows.",
     languageCn:
         "尽量定期检查操作系统是否有新的更新，并使用微软网站上的最新 Windows 版本。您可以在 Windows 更新中心检查更新。",
+    languageKr:
+        "운영 체제에서 새로운 업데이트가 있는지 정기적으로 확인하고 Microsoft 웹사이트에서 최신 Windows 버전을 사용해 보세요. Windows 업데이트 센터에서 업데이트를 확인할 수 있습니다",
   },
   'AntivirusSoftware': {
     languageEn: 'Conflicting applications',
@@ -8566,6 +9269,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Çakışan uygulamalar",
     languageEs: "Aplicaciones conflictivas",
     languageCn: "相互冲突的应用程序",
+    languageKr: "충돌하는 응용 프로그램",
   },
   'AntivirusSoftwareNotFound': {
     languageEn: 'No software conflicting with ExLoader was found',
@@ -8579,6 +9283,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader ile çakışan bir yazılım bulunamadı",
     languageEs: "No se ha encontrado ningún software conflictivo con ExLoader",
     languageCn: "未找到与 ExLoader 冲突的软件",
+    languageKr: "ExLoader와 충돌하는 소프트웨어가 발견되지 않았습니다.",
   },
   'AntivirusSoftwareFound': {
     languageEn:
@@ -8598,6 +9303,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¡Hay programas instalados en su dispositivo que interfieren con el correcto funcionamiento de las modificaciones!",
     languageCn: "设备上安装的某些程序会干扰修改功能的正常运行！",
+    languageKr: "기기에 설치된 특정 프로그램이 수정 기능의 정상적인 작동을 방해할 수 있습니다!",
   },
   'AntivirusWhy': {
     languageEn:
@@ -8617,6 +9323,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La mayoría de los programas antivirus consideran sospechosas las modificaciones y bloquean su correcto funcionamiento. ¡Tenga en cuenta que a menudo la desactivación habitual del antivirus no ayuda a resolver el problema!",
     languageCn: "大多数杀毒软件会认为这些修改可疑，并阻止其正常运行。请注意，通常禁用杀毒软件并不能解决问题！",
+    languageKr:
+        "대부분의 바이러스 백신 소프트웨어는 이러한 수정을 의심스러운 것으로 간주하여 제대로 작동하지 못하게 합니다. 일반적으로 바이러스 백신 소프트웨어를 비활성화해도 문제가 해결되지는 않습니다.",
   },
   'ListOfFound': {
     languageEn: 'List of found conflicting software',
@@ -8628,6 +9336,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bulunan çakışan yazılımların listesi",
     languageEs: "Lista de programas conflictivos encontrados",
     languageCn: "找到的冲突软件列表",
+    languageKr: "발견된 충돌 소프트웨어 목록",
   },
   'Recommended': {
     languageEn: 'Launch options to be added',
@@ -8639,6 +9348,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Eklenecek başlatma seçenekleri",
     languageEs: "Opciones de lanzamiento por añadir",
     languageCn: "将添加的启动选项",
+    languageKr: "추가될 실행 옵션",
   },
   'NotRecommended': {
     languageEn: 'Launch options to be removed',
@@ -8650,6 +9360,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kaldırılacak başlatma seçenekleri",
     languageEs: "Opciones de lanzamiento que deben eliminarse",
     languageCn: "要删除的启动选项",
+    languageKr: "제거할 시작 옵션",
   },
   'DisableFullscreen': {
     languageEn: "Disable fullscreen mode for modification's proper work",
@@ -8667,6 +9378,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Desactiva el modo de pantalla completa para que la modificación funcione correctamente",
     languageCn: "禁用全屏模式，使修改正常工作",
+    languageKr: "수정 사항이 제대로 작동하도록 전체 화면 모드를 비활성화합니다.",
   },
   'LaunchOptions': {
     languageEn: 'Launch options and settings',
@@ -8678,6 +9390,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Başlatma seçenekleri ve ayarları",
     languageEs: "Opciones de inicio y configuración",
     languageCn: "启动选项和设置",
+    languageKr: "시작 옵션 및 설정",
   },
   'LaunchOptionsBad': {
     languageEn:
@@ -8697,6 +9410,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las opciones o ajustes de inicio del juego no coinciden con los recomendados.",
     languageCn: "您的游戏启动选项或设置与建议的不一致！",
+    languageKr: "게임 시작 옵션이나 설정이 권장 사항과 일치하지 않습니다!",
   },
   'LaunchOptionsGood': {
     languageEn:
@@ -8715,6 +9429,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Tus opciones y ajustes de inicio del juego coinciden con los recomendados",
     languageCn: "您的游戏启动选项和设置符合建议的选项和设置",
+    languageKr: "게임 시작 옵션 및 설정이 권장 옵션 및 설정과 일치합니다.",
   },
   'GoodParams': {
     languageEn:
@@ -8731,6 +9446,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Las opciones de lanzamiento y los ajustes son buenos, no tienes que nada.",
     languageCn: "启动选项和设置都很好，你不需要做任何事情。",
+    languageKr: "시작 옵션과 설정은 괜찮으므로 아무것도 할 필요가 없습니다.",
   },
   'OwnLoader': {
     languageEn: "Additional launcher",
@@ -8742,6 +9458,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ek fırlatıcı",
     languageEs: "Lanzador adicional",
     languageCn: "附加发射器",
+    languageKr: "추가 런처",
   },
   'OwnLoaderDescription': {
     languageEn: "This modification uses it's own loader for injection!",
@@ -8757,6 +9474,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Esta modificación utiliza su propio cargador para la inyección.",
     languageCn: "这种修改使用自己的加载器进行注入！",
+    languageKr: "이 치트는 주입을 위해 자체 로더를 사용합니다!",
   },
   'OwnLoaderTooltip': {
     languageEn:
@@ -8776,6 +9494,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Cualquier problema asociado con el proceso de lanzamiento de esta modificación no se aplica a ExLoader, ¡ya que utiliza su propio lanzador durante el proceso de inyección!",
     languageCn: "与该修改的启动过程相关的任何问题都不适用于 ExLoader，因为它在注入过程中使用自己的启动器！",
+    languageKr:
+        "이 치트의 실행 프로세스와 관련된 모든 문제는 ExLoader에 적용되지 않습니다. ExLoader는 주입 프로세스 중에 자체 실행 프로그램을 사용하기 때문입니다!",
   },
   'ModificationVersion': {
     languageEn: "Modification's version",
@@ -8787,6 +9507,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişikliğin versiyonu",
     languageEs: "Versión de la modificación",
     languageCn: "修改版本",
+    languageKr: "치트 버전",
   },
   'ModificationVersionBad': {
     languageEn:
@@ -8805,6 +9526,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La fecha de compilación de la modificación difiere de la fecha de la última actualización del juego.",
     languageCn: "修改的构建日期与最新的游戏更新日期不同！",
+    languageKr: "치트의 빌드 날짜가 최신 게임 업데이트 날짜와 다릅니다!",
   },
   'ModificationVersionGood': {
     languageEn:
@@ -8820,6 +9542,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La modificación está actualizada y es compatible con la última versión del juego",
     languageCn: "该修改是最新的，支持最新版本的游戏",
+    languageKr: "이 치트는 최신 버전이며 최신 버전의 게임을 지원합니다.",
   },
   'UpdateModification': {
     languageEn:
@@ -8840,6 +9563,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Muchas modificaciones o parte de su funcionalidad dejan de funcionar tras las actualizaciones del juego. Si la razón del fallo del juego es este problema, simplemente espera hasta que el desarrollador actualice su producto, no hay otras soluciones. Recuerda que las modificaciones son actualizadas por sus creadores, ¡no por el equipo de ExLoader!",
     languageCn:
         "许多修改或其部分功能会在游戏更新后停止工作。如果游戏崩溃的原因是这个问题，那就等待开发者更新其产品，没有其他解决办法。请记住，修改由其创建者更新，而非 ExLoader 团队更新！",
+    languageKr:
+        "게임이 업데이트된 후에는 많은 치트의 기능이 작동하지 않습니다. 이 문제가 게임 충돌의 원인이라면 개발자가 제품을 업데이트할 때까지 기다리십시오. 다른 해결 방법은 없습니다. 치트는 ExLoader 팀이 아닌 작성자에 의해 업데이트된다는 점을 기억하십시오!",
   },
   'ConfigsAndOptions': {
     languageEn: 'Configurations and options',
@@ -8851,6 +9576,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyonlar ve seçenekler",
     languageEs: "Configuraciones y opciones",
     languageCn: "配置和选项",
+    languageKr: "구성 및 옵션",
   },
   'ConfigsAndOptionsTip': {
     languageEn:
@@ -8870,6 +9596,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Compruebe las configuraciones que utiliza o configure las modificaciones manualmente.",
     languageCn: "检查您使用的配置或手动配置修改！",
+    languageKr: "사용 중인 구성을 확인하거나 수동으로 수정하세요!",
   },
   'CrashForConfig': {
     languageEn:
@@ -8889,6 +9616,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Si el juego se bloquea después de cargar una configuración o después de activar alguna función, esa es la razón del bloqueo. Intenta configurar tú mismo la modificación o descarga sólo las últimas configuraciones actualizadas.",
     languageCn: "如果在加载配置或启用某些功能后遇到游戏崩溃，这就是崩溃的原因。请尝试自行配置修改或只下载最近更新的配置。",
+    languageKr:
+        "구성을 로드하거나 특정 기능을 활성화한 후 게임 충돌이 발생하는 경우 이것이 충돌의 원인입니다. 구성을 직접 수정하거나 가장 최근에 업데이트된 구성만 다운로드해 보십시오.",
   },
   'ModificationsSource': {
     languageEn: 'Source of the modification',
@@ -8900,6 +9629,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişikliğin kaynağı",
     languageEs: "Fuente de la modificación",
     languageCn: "修改来源",
+    languageKr: "치트 소스 수정",
   },
   'ModificationsSourceTip': {
     languageEn: "Modification you chose is not from the ExLoader's library!",
@@ -8914,6 +9644,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La modificación que ha elegido no es de la biblioteca de ExLoader.",
     languageCn: "您选择的修改不是来自 ExLoader 库！",
+    languageKr: "선택한 치트는 ExLoader 라이브러리에 없습니다!",
   },
   'NotFromExLoader': {
     languageEn:
@@ -8934,6 +9665,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Las modificaciones que añadas tú mismo pueden estar obsoletas o contener virus en lugar de la funcionalidad de la propia modificación. Cuando juegues con modificaciones añadidas manualmente, ¡presta atención a la fuente de su publicación, así como a la fecha de su última actualización!",
     languageCn:
         "您自己添加的修改可能已经过时或包含病毒软件，而不是修改本身的功能。在使用手动添加的修改时，请注意其发布来源以及最近一次更新的日期！",
+    languageKr:
+        "귀하가 직접 추가한 치트는 오래되었거나 치트의 자체의 기능보다는 바이러스 소프트웨어를 포함할 수 있습니다. 수동으로 치트를 사용하는 경우 해당 내용이 게시된 소스와 마지막 업데이트 날짜를 기록해 두십시오!",
   },
   'InjectionMethodDescription': {
     languageEn:
@@ -8953,6 +9686,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El método de lanzamiento actual puede ser incompatible con el recomendado por la modificación.",
     languageCn: "当前的发射方法可能与修改建议的方法不兼容！",
+    languageKr: "현재 실행 방법은 제안된 치트와 호환되지 않을 수 있습니다!",
   },
   'InjectionMethodTip': {
     languageEn:
@@ -8973,6 +9707,8 @@ const Map<String, Map<String, String>> localeItems = {
         "No todas las modificaciones admiten el mismo método de inyección. Intente abrir la configuración de ExLoader y cambiar el método de lanzamiento de modificaciones preferido. No garantizamos que esto ayude al 100%, pero merece la pena intentarlo.",
     languageCn:
         "并非所有修改都支持相同的注入方法。请尝试打开 ExLoader 设置并更改首选的修改启动方法。我们不保证这样做会有 100% 的帮助，但还是值得一试。",
+    languageKr:
+        "모든 치트가 동일한 주입 방법을 지원하는 것은 아닙니다. ExLoader 설정을 열고 치트 실행 방법을 변경해 보세요. 이것이 100% 도움이 될 것이라는 보장은 없지만 시도해 볼 가치는 있습니다.",
   },
   'InjectionMethodTipSecond': {
     languageEn:
@@ -8993,6 +9729,8 @@ const Map<String, Map<String, String>> localeItems = {
         "No todas las modificaciones admiten el mismo método de inyección, sin embargo, ya has probado todas las formas disponibles en ExLoader, y esto significa que lo más probable es que el problema del fallo del juego radique en otra cosa.",
     languageCn:
         "然而，并非所有修改都支持相同的注入方法，您已经尝试了 ExLoader 中所有可用的方法，这意味着游戏崩溃的问题很可能出在其他方面。",
+    languageKr:
+        "치트들이 동일한 삽입 방법을 지원하는 것은 아니며 ExLoader에서 사용 가능한 모든 방법을 시도했습니다. 이는 게임 충돌 문제가 다른 곳에서 발생할 가능성이 가장 높다는 것을 의미합니다.",
   },
   'ServersType': {
     languageEn: "Type of the server",
@@ -9004,6 +9742,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sunucu tipi",
     languageEs: "Tipo de servidor",
     languageCn: "服务器类型",
+    languageKr: "서버 유형",
   },
   'ServersTypeDescription': {
     languageEn:
@@ -9023,6 +9762,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La mayoría de las modificaciones están optimizadas únicamente para jugar en servidores oficiales.",
     languageCn: "大多数修改只针对在官方游戏服务器上进行游戏进行了优化！",
+    languageKr: "대부분의 치트는 공식 게임 서버에서만 플레이하도록 최적화되어 있습니다!",
   },
   'ServersTypeTooltip': {
     languageEn:
@@ -9042,6 +9782,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Los servidores comunitarios antitrampas personalizados pueden bloquear parte de la funcionalidad de la modificación y, por tanto, provocar caídas del juego al cargar en el mapa.",
     languageCn: "自定义反作弊社区服务器可能会阻止修改的部分功能，从而导致在地图上加载时游戏崩溃。",
+    languageKr:
+        "사용자 지정 치트 방지 커뮤니티 서버는 일부 치트를 차단하여 지도를 로드할 때 게임이 중단될 수 있습니다.",
   },
   'SystemResult': {
     languageEn: 'Popular problems and their solutions',
@@ -9053,6 +9795,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Popüler sorunlar ve çözümleri",
     languageEs: "Problemas populares y sus soluciones",
     languageCn: "常见问题及其解决方案",
+    languageKr: "자주 묻는 질문(FAQ)과 해결 방법",
   },
   'Overlay': {
     languageEn: 'Overlay and recording',
@@ -9064,6 +9807,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kaplama ve kayıt",
     languageEs: "Superposición y grabación",
     languageCn: "叠加和记录",
+    languageKr: "오버레이 및 녹음",
   },
   'OverlayStatus': {
     languageEn: "Some applications may affect modification's rendering system!",
@@ -9081,6 +9825,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Algunas aplicaciones pueden afectar al sistema de renderizado de la modificación.",
     languageCn: "某些应用程序可能会影响修改的渲染系统！",
+    languageKr: "일부 응용 프로그램은 수정된 렌더링 시스템에 영향을 미칠 수 있습니다!",
   },
   'OverlayDescription': {
     languageEn:
@@ -9101,6 +9846,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Algunas aplicaciones como OBS, Bandicam, Fraps, Action, Nvidia ShadowPlay, FPS monitor, MSI Afterburner y otras superposiciones similares pueden afectar al hecho de que el menú de la modificación lanzada no se muestre en el juego. Si te encuentras con este problema, intenta desactivarlas antes de iniciar la modificación.",
     languageCn:
         "某些应用程序（如 OBS、Bandicam、Fraps、Action、Nvidia ShadowPlay、FPS monitor、MSI Afterburner 和其他类似的覆盖程序）可能会影响游戏中不显示已启动修改的菜单。如果遇到此类问题，请尝试在启动修改前禁用它们！",
+    languageKr:
+        "OBS, Bandicam, Fraps, Action, Nvidia ShadowPlay, FPS 모니터, MSI Afterburner 및 기타 유사한 오버레이와 같은 특정 응용 프로그램은 게임 내 메뉴에서 부팅 수정 사항을 표시하는 데 영향을 미칠 수 있습니다. 이러한 문제가 발생하면 치트를 시작하기 전에 해당 문제를 비활성화해 보십시오!",
   },
   'FPS': {
     languageEn: 'Game performance',
@@ -9112,6 +9859,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyun performansı",
     languageEs: "Rendimiento del juego",
     languageCn: "游戏性能",
+    languageKr: "게임 성능",
   },
   'FPSStatus': {
     languageEn: 'Not all modifications are properly optimized for old devices!',
@@ -9129,6 +9877,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "No todas las modificaciones están bien optimizadas para los dispositivos antiguos.",
     languageCn: "并非所有修改都针对旧设备进行了适当优化！",
+    languageKr: "모든 치트가 구형 장치에 적절하게 최적화된 것은 아닙니다!",
   },
   'FPSDescription': {
     languageEn:
@@ -9149,6 +9898,8 @@ const Map<String, Map<String, String>> localeItems = {
         "La caída de FPS al jugar con alguna modificación específica es un fenómeno bastante común. Por desgracia, es imposible arreglarlo manualmente. El problema es que muchos desarrolladores ni siquiera intentan escribir un código bueno y optimizado para sus proyectos. La única solución es utilizar otras modificaciones.",
     languageCn:
         "在进行某些特定修改后玩游戏时出现 FPS 下降是很常见的现象。唉，手动修复是不可能的。问题是，许多开发人员甚至不尝试为自己的项目编写良好的优化代码。唯一的解决办法就是使用其他修改。",
+    languageKr:
+        "특정 치트를 사용 한 후 게임을 플레이하는 동안 FPS 저하를 경험하는 것은 매우 일반적입니다. 아아, 수동 수리는 불가능합니다. 문제는 많은 개발자가 자신의 프로젝트에 최적화된 좋은 코드를 작성하려고 시도조차 하지 않는다는 것입니다. 유일한 해결책은 다른 치트를 사용하는 것입니다.",
   },
   'WhatCouldHappen': {
     languageEn: 'What could have caused this?',
@@ -9160,6 +9911,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Buna ne sebep olmuş olabilir?",
     languageEs: "¿Qué ha podido causar esto?",
     languageCn: "是什么造成了这种情况？",
+    languageKr: "원인은 무엇입니까?",
   },
   'WindowedModeJustTip': {
     languageEn:
@@ -9180,6 +9932,8 @@ const Map<String, Map<String, String>> localeItems = {
         "No olvide configurar el modo de renderizado/visualización del juego a «Ventana» o «Ventana a pantalla completa» en los ajustes de {game}, ¡esto debe hacerse para lanzar esta modificación! Normalmente, estos ajustes se configuran en los ajustes de «Video/Imagen», «Gráficos» o «Pantalla/Monitor» en el juego.\n\n¡Si ya has hecho estos pasos, simplemente salta este diálogo usando el botón de abajo!",
     languageCn:
         '别忘了在{game}设置中将游戏渲染/显示模式设置为 «窗口» 或 «全屏窗口»，必须这样才能启动此修改！通常，这些设置会在游戏中的 «视频/图像»、«图形» 或 «显示/显示器» 设置中进行配置！',
+    languageKr:
+        "{game} 설정에서 게임 렌더링/디스플레이 모드를 'Windowed' 또는 'Fullscreen Window'로 설정하는 것을 잊지 마세요. 이 치트를 활성화하려면 이것이 필요합니다! 일반적으로 이러한 설정은 게임의 «비디오/이미지», «그래픽» 또는 «디스플레이/모니터» 설정에서 구성됩니다!",
   },
   'WindowedMode': {
     languageEn:
@@ -9200,6 +9954,8 @@ const Map<String, Map<String, String>> localeItems = {
         'Para que el mod que estás intentando lanzar funcione correctamente, necesitas configurar el modo de renderizado/visualización del juego a «Ventana» o «Ventana a pantalla completa» en los ajustes de {game}, ¡sin estos cambios no podrás utilizar este mod! Normalmente, estos ajustes se configuran en los ajustes «Vídeo/Imagen», «Gráficos» o «Pantalla/Monitor» del juego.',
     languageCn:
         '为了让您尝试启动的 MOD 正常工作，您需要在 {game} 设置中将游戏渲染/显示模式设置为 «窗口» 或 «全屏窗口»，否则您将无法使用此 MOD！通常，这些设置会在游戏中的 «视频/图像»、«图形» «或 显示/显示器» 设置中进行配置。',
+    languageKr:
+        "실행하려는 모드가 제대로 작동하려면 {game} 설정에서 게임 렌더링/표시 모드를 '창' 또는 '전체 화면 창'으로 설정해야 합니다. 그렇지 않으면 이 치트를 사용할 수 없습니다. ! 일반적으로 이러한 설정은 게임 내 «비디오/이미지», «그래픽» «또는 디스플레이/모니터» 설정에서 구성됩니다.",
   },
   'ActionNeeded': {
     languageEn: 'You need to do something...',
@@ -9211,6 +9967,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bir şeyler yapmalısın.",
     languageEs: "Tienes que hacer algo...",
     languageCn: "你需要做点什么...",
+    languageKr: "뭔가를 해야 해...",
   },
   'NoProfileInOffline': {
     languageEn: 'Unfortunately, you can not open this profile in offline mode',
@@ -9224,6 +9981,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Maalesef bu profili çevrimdışı modda açamazsınız",
     languageEs: "Lamentablemente, no puedes abrir este perfil en modo offline",
     languageCn: "遗憾的是，您无法在脱机模式下打开此配置文件。",
+    languageKr: "안타깝게도 이 프로필은 오프라인 모드에서 열 수 없습니다.",
   },
   'ProfileLinkCopied': {
     languageEn: 'The profile username has been copied to your clipboard!',
@@ -9237,6 +9995,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El nombre de usuario del perfil se ha copiado en el portapapeles.",
     languageCn: "个人资料用户名已复制到剪贴板！",
+    languageKr: "프로필 사용자 이름이 클립보드에 복사되었습니다!",
   },
   'LinkCopied': {
     languageEn: "Mod's update link has been copied to your clipboard!",
@@ -9250,6 +10009,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El enlace de actualización de Mod se ha copiado en tu portapapeles.",
     languageCn: "Mod 的更新链接已复制到您的剪贴板！",
+    languageKr: "치트의 업데이트 링크가 클립보드에 복사되었습니다!",
   },
   // 1 config
   'ConfigsSecond': {
@@ -9262,6 +10022,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyon",
     languageEs: "Configuración",
     languageCn: "配置",
+    languageKr: "구성",
   },
   // 2-4 configs
   'ConfigsThird': {
@@ -9274,6 +10035,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyonlar",
     languageEs: "Configuraciones",
     languageCn: "配置",
+    languageKr: "구성",
   },
   // 5-9/0 configs
   'ConfigsFirst': {
@@ -9286,6 +10048,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyonlar",
     languageEs: "Configuraciones",
     languageCn: "配置",
+    languageKr: "구성",
   },
   'CommentsSecond': {
     languageEn: 'Comment',
@@ -9297,6 +10060,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yorum",
     languageEs: "Comentario",
     languageCn: "评论",
+    languageKr: "코멘트",
   },
   'CommentsThird': {
     languageEn: 'Comments',
@@ -9308,6 +10072,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yorumlar",
     languageEs: "Comentarios ",
     languageCn: "评论",
+    languageKr: "코멘트",
   },
   'CommentsFirst': {
     languageEn: 'Comments',
@@ -9319,6 +10084,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yorumlar",
     languageEs: "Comentarios ",
     languageCn: "评论",
+    languageKr: "코멘트",
   },
   // like "played for 3 minutes" or "total played: "
   'InGame': {
@@ -9331,6 +10097,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "oynadı",
     languageEs: "jugado",
     languageCn: "游戏",
+    languageKr: "played",
   },
   'LastLaunch': {
     languageEn: "last launched",
@@ -9342,6 +10109,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "son lansman",
     languageEs: "último lanzamiento",
     languageCn: "最后发射",
+    languageKr: "마지막으로 출시됨",
   },
   'Statistics': {
     languageEn: "Statistics",
@@ -9353,6 +10121,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İstatistikler",
     languageEs: "Estadísticas",
     languageCn: "统计资料",
+    languageKr: "통계 데이터",
   },
   // like totally, for the whole time (played)
   'ForAllTime': {
@@ -9365,6 +10134,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "her zaman için",
     languageEs: "para siempre",
     languageCn: "万古长青",
+    languageKr: "항상",
   },
   'StatsIsEmpty': {
     languageEn:
@@ -9384,6 +10154,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que este usuario aún no ha lanzado ninguna modificación con ExLoader",
     languageCn: "看起来该用户尚未使用 ExLoader 启动任何修改",
+    languageKr: "이 사용자는 ExLoader를 사용하여 치트를 시작한 적이 없는 것 같습니다.",
   },
   'KeepUp': {
     languageEn:
@@ -9403,6 +10174,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Sigue así, sigue jugando con varias modificaciones de la biblioteca ExLoader y pronto aparecerán en esta sección tus estadísticas personales para cada una de ellas.",
     languageCn: "继续努力，不断尝试 ExLoader 库中的各种修改，很快您对每种修改的个人统计数据就会出现在本节中！",
+    languageKr:
+        "계속해서 좋은 작업을 수행하고 ExLoader 라이브러리의 다양한 치트를 계속 시도하면 곧 각 치트에 대한 개인 통계가 이 섹션에 표시됩니다!",
   },
   'InfoHidden': {
     languageEn:
@@ -9420,6 +10193,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El resto de la información del perfil queda oculta por la configuración de privacidad",
     languageCn: "隐私设置会隐藏个人档案的其他信息",
+    languageKr: "개인 정보 보호 설정은 다른 프로필 정보를 숨깁니다.",
   },
   'Yes': {
     languageEn: 'Yes',
@@ -9431,6 +10205,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Evet",
     languageEs: "Sí",
     languageCn: "是",
+    languageKr: "네",
   },
   'No': {
     languageEn: 'No',
@@ -9442,6 +10217,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hayır",
     languageEs: "No",
     languageCn: "没有",
+    languageKr: "아니오",
   },
   'ForgeFirst': {
     languageEn:
@@ -9461,6 +10237,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         '- Haz clic aquí para abrir el sitio web oficial de Forge, elige la versión de tu juego en la columna de la izquierda y pulsa "Instalador" en el bloque "Descarga recomendada".',
     languageCn: '- 点击此处打开 Forge 官方网站，在左侧栏中选择你的游戏版本，然后点击 "下载推荐 "中的 "安装程序"。',
+    languageKr:
+        "- Forge 공식 웹사이트를 열려면 여기를 클릭하고 왼쪽 열에서 게임 버전을 선택한 후 '권장 사항 다운로드'에서 '설치 프로그램'을 클릭하세요.",
   },
   'FabricFirst': {
     languageEn:
@@ -9480,6 +10258,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         '- Haga clic aquí para abrir el sitio web oficial de Fabric y pulse el botón «Descargar para Windows».',
     languageCn: '- 单击此处打开 Fabric 官方网站，然后按 «下载 Windows 版» 按钮。',
+    languageKr: "- 공식 Fabric 웹사이트를 열고 «Windows용 다운로드» 버튼을 누르려면 여기를 클릭하세요.",
   },
   'ForgeSecond': {
     languageEn:
@@ -9499,6 +10278,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         '- Abre el instalador descargado, asegúrate de que la ruta del juego está especificada correctamente, haz clic en «Aceptar» y espera a que se complete la instalación de Forge.',
     languageCn: '- 打开下载的安装程序，确保正确指定游戏路径，点击 «OK»，等待 Forge 安装完成。',
+    languageKr: "- 다운로드한 설치 프로그램을 열고 게임 경로가 올바르게 지정되었는지 확인한 후 «확인»을 클릭하고 Forge 설치가 완료될 때까지 기다립니다.",
   },
   'FabricSecond': {
     languageEn:
@@ -9518,6 +10298,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         '- Abre el instalador descargado, selecciona tu versión del juego, asegúrate de que la ruta del juego está especificada correctamente, haz clic en «Instalar» y espera a que se complete la instalación de Fabric.',
     languageCn: '- 打开下载的安装程序，选择你的游戏版本，确保正确指定游戏路径，点击 «安装»，然后等待 Fabric 安装完成。',
+    languageKr: "- 다운로드한 설치 프로그램을 열고 게임 버전을 선택하고 게임 경로가 올바르게 지정되었는지 확인한 후 «설치»를 클릭하고 Fabric 설치가 완료될 때까지 기다립니다.",
   },
   'MinecraftComponentsEnding': {
     languageEn:
@@ -9537,6 +10318,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         '- Inicie el juego y salga de él para completar la instalación de los componentes y proceder a la instalación de las modificaciones.',
     languageCn: '- 启动并退出游戏，以完成组件安装并继续安装修改程序！',
+    languageKr: "- 게임을 시작하고 종료하여 구성 요소 설치를 완료하고 모드 설치를 계속하세요!",
   },
   'FabricThird': {
     languageEn:
@@ -9557,6 +10339,8 @@ const Map<String, Map<String, String>> localeItems = {
         '- Abre el sitio web de Fabric-API haciendo clic en este texto, busca tu versión del juego en la lista de abajo, pulsa el botón «Descargar archivo» y mueve el archivo descargado al directorio «mods» de la carpeta del juego. Si no existe tal directorio, ¡créalo tú mismo!',
     languageCn:
         '- 点击此文本打开 Fabric-API 网站，在下面的列表中找到您的游戏版本，按下 «下载文件» 按钮并将下载的文件移至游戏文件夹中的 «mods» 目录。如果没有此类文件夹，请自行创建！',
+    languageKr:
+        "- 이 텍스트를 클릭하여 Fabric-API 웹사이트를 열고 아래 목록에서 게임 버전을 찾은 다음 «파일 다운로드» 버튼을 누르고 다운로드한 파일을 게임 폴더의 «mods» 디렉터리로 이동합니다. 해당 폴더가 없다면 직접 만드세요!",
   },
   'DoYouHaveThisFabricOrForge': {
     languageEn:
@@ -9574,6 +10358,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¿Tienes ya instalados {componentes} para esta versión del juego?",
     languageCn: "您是否已经为这个版本的游戏安装了{components}？",
+    languageKr: "이 버전의 게임에 대해 {components}를 설치하셨나요?",
   },
   'ChooseGameVersion': {
     languageEn: 'Choose the version of the game:',
@@ -9585,6 +10370,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun versiyonunu seçin:",
     languageEs: "Elige la versión del juego:",
     languageCn: "选择游戏版本：",
+    languageKr: "게임 버전 선택:",
   },
   'CheckThePath': {
     languageEn: 'Make sure that the game path is specified correctly:',
@@ -9598,6 +10384,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Asegúrese de que la ruta del juego está especificada correctamente:",
     languageCn: "确保正确指定游戏路径：",
+    languageKr: "게임 경로를 올바르게 지정했는지 확인하세요.",
   },
   'ChooseGamePath': {
     languageEn: 'Specify path to the game',
@@ -9609,6 +10396,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun yolunu belirtin",
     languageEs: "Especifique la ruta al juego",
     languageCn: "指定游戏路径",
+    languageKr: "게임 경로 지정",
   },
   'ChooseGameOrModificationVersion': {
     languageEn: 'Choose the version of the game or modification:',
@@ -9620,6 +10408,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun sürümünü veya modifikasyonu seçin:",
     languageEs: "Elige la versión del juego o la modificación:",
     languageCn: "选择游戏或修改的版本：",
+    languageKr: "게임 또는 치트를 선택하세요:",
   },
   'ChooseVersionFirst': {
     languageEn:
@@ -9638,6 +10427,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Para continuar, ¡tienes que elegir la versión del juego o las modificaciones!",
     languageCn: "要继续，您需要选择游戏的版本或修改！",
+    languageKr: "계속하려면 게임 버전이나 치트를 선택해야 합니다!",
   },
   'NetFrameworkIsNeeded': {
     languageEn:
@@ -9658,6 +10448,8 @@ const Map<String, Map<String, String>> localeItems = {
         "¡Para el correcto funcionamiento de la aplicación, es posible que necesite instalar .NET Framework versión 4.8! ¿Desea descargar e instalar los componentes de .NET Framework ahora mismo? Por cierto, este paso puede omitirse si todo va bien con la aplicación.",
     languageCn:
         "为使应用程序正常运行，您可能需要安装 .NET Framework 4.8 版本！您想立即下载并安装 .NET Framework 组件吗？顺便说一句，如果应用程序一切正常，这一步可以省略。",
+    languageKr:
+        "애플리케이션을 제대로 실행하려면 .NET Framework 버전 4.8을 설치해야 할 수도 있습니다! 지금 .NET Framework 구성 요소를 다운로드하여 설치하시겠습니까? 그런데 응용 프로그램에 문제가 없으면 이 단계를 생략할 수 있습니다.",
   },
   'FailedToInstallNetFrameworkInstaller': {
     languageEn:
@@ -9678,6 +10470,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Lamentablemente, se ha producido un error inesperado durante la instalación automática de los componentes de .NET Framework, sin embargo, ¡puede intentar hacerlo manualmente! ¿Desea abrir la página de descarga de .NET Framework en su navegador?",
     languageCn:
         "不幸的是，在自动安装 .NET Framework 组件时发生了意外错误，不过您可以尝试手动安装！您想在浏览器中打开 .NET Framework 的下载页面吗？",
+    languageKr:
+        "안타깝게도 .NET Framework 구성 요소를 자동으로 설치하는 동안 예상치 못한 오류가 발생했습니다. 수동으로 설치해 볼 수도 있습니다! 브라우저에서 .NET Framework 다운로드 페이지를 열시겠습니까?",
   },
   'Welcome': {
     languageEn: 'Welcome to the',
@@ -9689,6 +10483,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hoş geldiniz",
     languageEs: "Bienvenido a la",
     languageCn: "欢迎来到",
+    languageKr: "에 오신 것을 환영합니다",
   },
   'UnifiedLibrary': {
     languageEn: 'ExLoader installation assistant',
@@ -9700,6 +10495,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader kurulum asistanı",
     languageEs: "Asistente de instalación de ExLoader",
     languageCn: "ExLoader 安装助手",
+    languageKr: "ExLoader 설치 도우미",
   },
   'WhatIsInstallerFor': {
     languageEn:
@@ -9719,6 +10515,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Este instalador le ayudará con la instalación de la última versión de ExLoader",
     languageCn: "该安装程序将帮助你安装最新的 ExLoader 版本",
+    languageKr: "이 설치 프로그램은 최신 ExLoader 버전을 설치하는 데 도움이 됩니다.",
   },
   'Begin': {
     languageEn: 'Configure manually',
@@ -9730,6 +10527,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Manuel olarak yapılandırma",
     languageEs: "Configurar manualmente",
     languageCn: "手动配置",
+    languageKr: "수동 구성",
   },
   'FastBegin': {
     languageEn: 'Instant installation',
@@ -9741,6 +10539,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Anında kurulum",
     languageEs: "Instalación instantánea",
     languageCn: "即时安装",
+    languageKr: "즉시 설치",
   },
   'FastBeginDescription': {
     languageEn:
@@ -9760,6 +10559,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Método de instalación recomendado En este modo, la aplicación se instalará automáticamente con los parámetros adecuados.",
     languageCn: "推荐安装方法！在此模式下，程序将自动安装并设置相应参数。",
+    languageKr: "권장 설치 방법! 이 모드에서는 프로그램이 자동으로 해당 매개변수를 설치하고 설정합니다.",
   },
   'SlowBeginDescription': {
     languageEn:
@@ -9779,6 +10579,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "En modo manual, tendrás que configurar tú mismo todo el proceso de instalación.",
     languageCn: "在手动模式下，您必须自行配置整个安装过程！",
+    languageKr: "수동 모드에서는 전체 설치를 직접 구성해야 합니다!",
   },
   'InstallationSettings': {
     languageEn: 'Setting up the installation parameters',
@@ -9790,6 +10591,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kurulum parametrelerinin ayarlanması",
     languageEs: "Configuración de los parámetros de instalación",
     languageCn: "设置安装参数",
+    languageKr: "설치 매개변수 설정",
   },
   'BeginInstallation': {
     languageEn: 'Start installation',
@@ -9801,6 +10603,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kurulumu başlatın",
     languageEs: "Iniciar la instalación",
     languageCn: "开始安装",
+    languageKr: "설치 시작",
   },
   'ChooseInstallationPath': {
     languageEn: 'Choose directory where ExLoader will be installed:',
@@ -9813,6 +10616,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader'ın yükleneceği dizini seçin:",
     languageEs: "Elija el directorio donde se instalará ExLoader:",
     languageCn: "选择安装 ExLoader 的目录：",
+    languageKr: "ExLoader가 설치된 디렉터리를 선택합니다.",
   },
   'CreateShortcut': {
     languageEn: "Create application's shortcut in the Desktop folder",
@@ -9824,6 +10628,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Masaüstünde bir uygulama kısayolu oluşturma",
     languageEs: "Crear un acceso directo a ExLoader en el escritorio",
     languageCn: "在桌面文件夹中创建应用程序的快捷方式",
+    languageKr: "바탕 화면 폴더에 응용 프로그램에 대한 바로 가기 만들기",
   },
   'LaunchExLoader': {
     languageEn: "Launch ExLoader after the installation process",
@@ -9835,6 +10640,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yükleme işleminden sonra ExLoader'ı başlatın",
     languageEs: "Inicie ExLoader después del proceso de instalación",
     languageCn: "安装完成后启动 ExLoader",
+    languageKr: "설치가 완료되면 ExLoader를 시작합니다.",
   },
   'AppInstalling': {
     languageEn: 'Application is being installed',
@@ -9846,6 +10652,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulama yükleniyor",
     languageEs: "Se está instalando la aplicación",
     languageCn: "应用程序正在安装",
+    languageKr: "애플리케이션을 설치하는 중입니다.",
   },
   'JustAFewMoments': {
     languageEn: "Just a few more moments, you're almost there!",
@@ -9857,6 +10664,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sadece birkaç dakika daha, neredeyse vardınız!",
     languageEs: "Sólo unos momentos más, ¡ya casi está!",
     languageCn: "再等一会儿，你们就快到了！",
+    languageKr: "조금만 더 기다리면 거의 다 올 거예요!",
   },
   'WaitForAssistant': {
     languageEn:
@@ -9876,6 +10684,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Espera a que el asistente descargue e instale los archivos de ExLoader en tu dispositivo",
     languageCn: "等待助手将 ExLoader 文件下载并安装到设备上",
+    languageKr: "보조자가 ExLoader 파일을 장치에 다운로드하고 설치할 때까지 기다립니다.",
   },
   'AppInstalled': {
     languageEn: 'ExLoader is installed',
@@ -9887,6 +10696,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader yüklendi",
     languageEs: "ExLoader está instalado",
     languageCn: "ExLoader 已安装",
+    languageKr: "ExLoader가 설치되었습니다.",
   },
   'EverythingIsDone': {
     languageEn: 'Everything is done, application is ready to use!',
@@ -9898,6 +10708,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Her şey tamam, uygulama kullanıma hazır!",
     languageEs: "Ya está todo hecho, ¡la aplicación está lista para usarse!",
     languageCn: "一切就绪，应用程序即可使用！",
+    languageKr: "모든 것이 준비되었으며 앱을 사용할 준비가 되었습니다!",
   },
   'EverythingIsDoneFinish': {
     languageEn: 'Application is successfully installed!',
@@ -9909,6 +10720,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulama başarıyla yüklendi!",
     languageEs: "La aplicación se ha instalado correctamente.",
     languageCn: "应用程序已成功安装！",
+    languageKr: "응용 프로그램이 성공적으로 설치되었습니다!",
   },
   'ThankYouForChoosingUs': {
     languageEn: 'Thank you for choosing us. Sincerely, the SwiftSoft LLC team.',
@@ -9921,6 +10733,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bizi tercih ettiğiniz için teşekkür ederiz, SwiftSoft LLC..",
     languageEs: "Gracias por elegirnos. Atentamente, SwiftSoft LLC.",
     languageCn: "感谢您选择我们。SwiftSoft LLC 团队谨此致谢。",
+    languageKr: "우리를 선택해 주셔서 감사합니다. SwiftSoft LLC 팀으로부터 감사드립니다.",
   },
   'CloseTheApp': {
     languageEn: 'Close the installer',
@@ -9932,6 +10745,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yükleyiciyi kapatın",
     languageEs: "Cerrar el instalador",
     languageCn: "关闭安装程序",
+    languageKr: "설치 프로그램을 닫습니다.",
   },
   'OpenExLoader': {
     languageEn: 'Launch ExLoader',
@@ -9943,6 +10757,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader'ı başlatın",
     languageEs: "Iniciar ExLoader",
     languageCn: "启动 ExLoader",
+    languageKr: "ExLoader 시작",
   },
   'OpenExLoaderAndOffers': {
     languageEn: 'Continue and open the ExLoader',
@@ -9954,6 +10769,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Devam edin ve ExLoader'ı açın",
     languageEs: "Continúa y abre ExLoader",
     languageCn: "继续并打开 ExLoader",
+    languageKr: "계속해서 ExLoader를 엽니다.",
   },
   'CloseInstallerAndOffers': {
     languageEn: 'Continue and close the installer',
@@ -9965,6 +10781,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Devam edin ve yükleyiciyi kapatın",
     languageEs: "Continuar y cerrar el instalador",
     languageCn: "继续并关闭安装程序",
+    languageKr: "계속하고 설치 프로그램을 닫습니다.",
   },
   'EverythingIsDoneShort': {
     languageEn: 'Everything is done, application is ready to use!',
@@ -9976,6 +10793,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Everything is done, application is ready to use",
     languageEs: "Todo listo, la app está disponible para su uso",
     languageCn: "一切就绪，应用程序即可使用！",
+    languageKr: "모든 것이 준비되었으며 앱을 사용할 준비가 되었습니다!",
   },
   'ErrorDuringInstallation': {
     languageEn:
@@ -9996,6 +10814,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Lamentablemente, se ha producido un error de instalación. Para solucionarlo, compruebe la configuración de su cortafuegos y antivirus e intente instalar nuestra aplicación de nuevo. Tal vez deberías probar a activar/desactivar la VPN. Lista de posibles programas conflictivos [podría no estar completa]:",
     languageCn:
         "不幸的是，出现了安装错误。要解决这个问题，请检查您的防火墙和杀毒软件设置，然后尝试重新安装我们的应用程序！也许您应该尝试启用/禁用 VPN。可能存在冲突的软件列表[可能不全]：",
+    languageKr:
+        "죄송합니다. 설치 오류가 발생했습니다. 이 문제를 해결하려면 방화벽 및 바이러스 백신 설정을 확인하고 앱을 다시 설치해 보세요! VPN을 활성화/비활성화해야 할 수도 있습니다. 충돌 가능성이 있는 소프트웨어 목록[완전하지 않을 수 있음]:",
   },
   'UnifiedLibrarySlogan': {
     languageEn: 'Unified library of game modifications',
@@ -10007,6 +10827,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Birleştirilmiş oyun modifikasyonları kütüphanesi",
     languageEs: "Biblioteca unificada de modificaciones del juego",
     languageCn: "统一的游戏修改库",
+    languageKr: "통합된 게임 수정 라이브러리",
   },
   'UpdateFile': {
     languageEn: "Application's update file is not chosen yet",
@@ -10020,6 +10841,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El archivo de actualización de la aplicación aún no se ha elegido",
     languageCn: "尚未选择应用程序的更新文件",
+    languageKr: "아직 애플리케이션 업데이트 파일을 선택하지 않았습니다.",
   },
   'UpdateIsNeeded': {
     languageEn:
@@ -10039,6 +10861,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Si tienes instalado un cliente de aplicación antiguo, actualízalo a la nueva versión mediante Google Play para poder utilizarlo.",
     languageCn: "如果您安装了旧版应用程序客户端，请使用 Google Play 升级到新版本后使用！",
+    languageKr: "이전 버전의 애플리케이션 클라이언트가 설치되어 있는 경우, 사용하기 전에 Google Play를 통해 새 버전으로 업그레이드하세요!",
   },
   'AppIsUpdated': {
     languageEn: "Application is updated!",
@@ -10050,6 +10873,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Başvuru güncellendi!",
     languageEs: "Aplicación actualizada!",
     languageCn: "申请已更新！",
+    languageKr: "어플리케이션이 업데이트가 되었습니다!",
   },
   'DetailedListOfChanges': {
     languageEn:
@@ -10069,6 +10893,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Si está interesado, puede leer la lista detallada de cambios en nuestro canal oficial {Social}, disponible con el botón siguiente",
     languageCn: "如果您有兴趣，可以通过下面的按钮在我们的官方 {Social} 频道阅读详细的更改列表",
+    languageKr: "관심이 있으시면 아래 버튼을 통해 공식 {Social} 채널에서 자세한 변경 사항 목록을 읽어보실 수 있습니다.",
   },
   'ExloaderLauncher': {
     languageEn: "Launch with ExLoader",
@@ -10080,6 +10905,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader ile başlatın",
     languageEs: "Lanzamiento con ExLoader",
     languageCn: "使用 ExLoader 启动",
+    languageKr: "ExLoader를 사용하여 실행",
   },
   'OriginalLauncher': {
     languageEn:
@@ -10099,6 +10925,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Ejecutar a través del lanzador oficial de la modificación (para quienes tengan problemas con la primera opción).",
     languageCn: "通过官方修改的启动器启动（适用于使用第一个选项有问题的用户）",
+    languageKr: "공식 수정된 런처를 통해 실행(첫 번째 옵션을 사용하는 데 문제가 있는 사용자용)",
   },
   'CrashesStats': {
     languageEn: "Crashes statistics for this day",
@@ -10110,6 +10937,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu güne ait kaza istatistikleri",
     languageEs: "Estadísticas de colisiones de este día",
     languageCn: "本日碰撞统计",
+    languageKr: "오늘의 치트 통계",
   },
   'Crashes': {
     languageEn: "Modifications crashes",
@@ -10121,6 +10949,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Modifikasyonlar çöküyor",
     languageEs: "Modificaciones choques",
     languageCn: "修改崩溃",
+    languageKr: "치트 수정",
   },
   'CrashesDescription': {
     languageEn: "Data on game crashes due to modifications usage",
@@ -10134,6 +10963,7 @@ const Map<String, Map<String, String>> localeItems = {
         "Modifikasyon kullanımı nedeniyle oyun çökmelerine ilişkin veriler",
     languageEs: "Datos sobre caídas del juego debidas al uso de modificaciones",
     languageCn: "因使用修改而导致游戏崩溃的数据",
+    languageKr: "치트 사용으로 인한 게임 충돌",
   },
   'SearchByUsers': {
     languageEn: "Search among users (3+ symbols)",
@@ -10145,6 +10975,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kullanıcılar arasında arama (3+ sembol)",
     languageEs: "Búsqueda entre usuarios (3+ símbolos)",
     languageCn: "在用户中搜索 (3 个以上符号）",
+    languageKr: "사용자 간 검색(3개 이상의 기호)",
   },
   'WaitingForInput': {
     languageEn: "Enter something to the search-bar to get the users list",
@@ -10162,6 +10993,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Introduce algo en la barra de búsqueda para obtener la lista de usuarios",
     languageCn: "在搜索栏输入内容，获取用户列表",
+    languageKr: "사용자 목록을 얻으려면 검색창에 콘텐츠를 입력하세요.",
   },
   'NoComplaintsHere': {
     languageEn:
@@ -10177,6 +11009,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hiç şikayet yok! Her şey zaten işlenmiş gibi görünüyor",
     languageEs: "No hay quejas. Parece que ya se ha tramitado todo",
     languageCn: "没有投诉！看起来一切都已处理完毕",
+    languageKr: "불만이 없습니다! 이미 다 처리된 것 같군요",
   },
   'ConfigsDeletion': {
     languageEn: "Configurations deletion",
@@ -10188,6 +11021,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyon silme",
     languageEs: "Eliminación de configuraciones",
     languageCn: "删除配置",
+    languageKr: "구성 삭제",
   },
   'ReviewsDeletion': {
     languageEn: "Reviews deletion",
@@ -10199,6 +11033,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İncelemelerin silinmesi",
     languageEs: "Supresión de reseñas",
     languageCn: "删除评论",
+    languageKr: "댓글 삭제",
   },
   'DeleteJustThisReview': {
     languageEn: "Delete only this review",
@@ -10210,6 +11045,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sadece bu incelemeyi sil",
     languageEs: "Borrar sólo esta revisión",
     languageCn: "仅删除此评论",
+    languageKr: "이 댓글 그냥 삭제하세요",
   },
   'DeleteJustThisConfig': {
     languageEn: "Delete only this configuration",
@@ -10221,6 +11057,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yalnızca bu yapılandırmayı sil",
     languageEs: "Borrar sólo esta configuración",
     languageCn: "仅删除此配置",
+    languageKr: "이 구성만 삭제하세요.",
   },
   'DeleteAllReviewsForWeek': {
     languageEn: "Delete all reviews written during this week",
@@ -10232,6 +11069,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu hafta içinde yazılan tüm incelemeleri silin",
     languageEs: "Borrar todas las reseñas escritas durante esta semana",
     languageCn: "删除本周内撰写的所有评论",
+    languageKr: "이번주에 쓴 댓글 모두 삭제",
   },
   'DeleteAllConfigsForWeek': {
     languageEn: "Delete all configurations uploaded during this week",
@@ -10243,6 +11081,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu hafta içinde yüklenen tüm konfigürasyonları sil",
     languageEs: "Borrar todas las configuraciones cargadas durante esta semana",
     languageCn: "删除本周上传的所有配置",
+    languageKr: "이번 주에 업로드된 모든 구성 삭제",
   },
   'DeleteAllReviews': {
     languageEn: "Delete all user's reviews",
@@ -10254,6 +11093,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tüm kullanıcı yorumlarını sil",
     languageEs: "Borrar todas las opiniones de los usuarios",
     languageCn: "删除所有用户评论",
+    languageKr: "모든 사용자 댓글 삭제",
   },
   'DeleteAllConfigs': {
     languageEn: "Delete all user's configurations",
@@ -10265,6 +11105,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tüm kullanıcı konfigürasyonlarını silme",
     languageEs: "Borrar todas las configuraciones del usuario",
     languageCn: "删除所有用户配置",
+    languageKr: "모든 사용자 구성 삭제",
   },
   'Name': {
     languageEn: "Title",
@@ -10276,6 +11117,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Başlık",
     languageEs: "Título",
     languageCn: "标题",
+    languageKr: "제목",
   },
   'File': {
     languageEn: "File",
@@ -10287,6 +11129,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Dosya",
     languageEs: "Archivo",
     languageCn: "文件",
+    languageKr: "파일",
   },
   'DescriptionTitle': {
     languageEn: "Description",
@@ -10298,6 +11141,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Açıklama",
     languageEs: "Descripción",
     languageCn: "说明",
+    languageKr: "설명",
   },
   'AppropriateExtension': {
     languageEn: "Approptiate extension",
@@ -10309,6 +11153,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygun uzatma",
     languageEs: "Apropiar prórroga",
     languageCn: "批准延期",
+    languageKr: "보조금 연장",
   },
   'NotPresent': {
     languageEn: "Not set",
@@ -10320,6 +11165,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ayarlanmamış",
     languageEs: "No fijado",
     languageCn: "未设置",
+    languageKr: "설정되지 않음",
   },
   'SpecialThanksForTranslation': {
     languageEn:
@@ -10339,6 +11185,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Un agradecimiento especial a {users} por su ayuda en la traducción de ExLoader a este idioma.",
     languageCn: "特别感谢 {users} 帮助将 ExLoader 翻译成这种语言！",
+    languageKr: "ExLoader를 이 언어로 번역하는 데 도움을 준 {users}에게 특별히 감사드립니다!",
   },
   'ChooseGameFirst': {
     languageEn: "To open the library, you need to choose some game first!",
@@ -10350,6 +11197,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kütüphaneyi açmak için önce bir oyun seçmeniz gerekiyor!",
     languageEs: "Para abrir la biblioteca, primero tienes que elegir un juego.",
     languageCn: "要打开游戏库，首先需要选择一款游戏！",
+    languageKr: "게임 라이브러리를 열려면 먼저 게임을 선택해야 합니다!",
   },
   'ThatPlaceWhere': {
     languageEn:
@@ -10369,6 +11217,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¿Necesita saber en qué carpeta están instalados\nlos archivos de configuración y otras modificaciones?\nHaga clic aquí.",
     languageCn: "需要查找配置和其他修改文件安装在哪个文件夹中？请点击此处！",
+    languageKr: "구성 및 기타 수정된 파일이 설치된 폴더를 찾아야 합니까? 여기를 클릭하세요!",
   },
   // (Used in settings for changing how application's window corners look like)
   'Rounding': {
@@ -10381,6 +11230,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Köşeleri yuvarlama",
     languageEs: "Redondeo de esquinas",
     languageCn: "四舍五入",
+    languageKr: "Corners rounding",
   },
   // Rounding is turned off, absent
   '0.0Rounding': {
@@ -10393,6 +11243,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kapatıldı",
     languageEs: "Apagado",
     languageCn: "已关闭",
+    languageKr: "Turned off",
   },
   // Types of rounding(small/average/big/etc.)
   '6.0Rounding': {
@@ -10405,6 +11256,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Küçük",
     languageEs: "Pequeño",
     languageCn: "小型",
+    languageKr: "소형",
   },
   '9.0Rounding': {
     languageEn: "Average",
@@ -10416,6 +11268,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ortalama",
     languageEs: "Media",
     languageCn: "平均",
+    languageKr: "평균",
   },
   '12.0Rounding': {
     languageEn: "Strong",
@@ -10427,6 +11280,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Güçlü",
     languageEs: "Fuerte",
     languageCn: "强大",
+    languageKr: "강한",
   },
   'FailedToApplySystemFeature': {
     languageEn: "Unfortunately, your system does not support this feature",
@@ -10439,6 +11293,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Maalesef sisteminiz bu özelliği desteklemiyor",
     languageEs: "Lamentablemente, tu sistema no es compatible con esta función",
     languageCn: "很遗憾，您的系统不支持此功能",
+    languageKr: "안타깝게도 귀하의 시스템은 이 기능을 지원하지 않습니다",
   },
   'WindowSize': {
     languageEn: "ExLoader window size",
@@ -10450,6 +11305,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "ExLoader pencere boyutu",
     languageEs: "Tamaño de la ventana de ExLoader",
     languageCn: "ExLoader 窗口大小",
+    languageKr: "ExLoader 창 크기",
   },
   'SizeChangeConsequences': {
     languageEn:
@@ -10470,6 +11326,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Cambiar el tamaño de la ventana de la aplicación puede hacer que algunos widgets salten al desplazarse o al pasar el cursor del ratón sobre ellos. Lamentablemente, este problema está relacionado directamente con el motor de nuestra aplicación y sólo se solucionará cuando los desarrolladores del framework lo arreglen.",
     languageCn:
         "更改应用程序窗口的大小可能会导致某些窗口小部件在滚动或用鼠标光标悬停时跳动。不幸的是，这个问题与我们应用程序的引擎直接相关，只有当框架开发人员修复这个问题时才能解决。",
+    languageKr:
+        "응용 프로그램 창의 크기를 변경하면 마우스 커서로 스크롤하거나 가리키면 일부 위젯이 점프할 수 있습니다. 불행하게도 이 문제는 우리 애플리케이션의 엔진과 직접적으로 관련되어 있으며 프레임워크 개발자가 이 문제를 해결할 때만 해결될 것입니다.",
   },
   'Modification': {
     languageEn: "Modification",
@@ -10481,6 +11339,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklik",
     languageEs: "Modificación",
     languageCn: "修改",
+    languageKr: "치트",
   },
   'SuspsendedProcessFound': {
     languageEn:
@@ -10501,6 +11360,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Tenga en cuenta que este error puede saltarse simplemente utilizando el botón de abajo. Si la modificación se inicia sin problemas después de omitir este error, ¡entonces puedes ignorar este aviso!\n\nParece que tu software antivirus o algún otro sistema ha congelado el acceso al proceso {game}. Este es un problema extremadamente raro, sin embargo, no será difícil solucionarlo - ¡simplemente reinicia el ordenador y debería desaparecer por sí mismo! Suena mal, ¡lo sabemos!",
     languageCn:
         "请注意，可以使用下面的按钮跳过此错误！如果跳过此错误后，修改程序能顺利启动，那么你可以忽略此警告！\n\n看来是你的杀毒软件或其他系统冻结了{game}进程的访问权限。这是一个极其罕见的问题，不过解决起来并不困难--只需重启电脑，它就会自行消失！听起来很糟糕，我们知道！",
+    languageKr:
+        "아래 버튼을 사용하면 이 오류를 건너뛸 수 있습니다. 이 오류를 건너뛴 후 수정된 프로그램이 성공적으로 시작되면 이 경고를 무시해도 됩니다! \n\n귀하의 바이러스 백신 소프트웨어 또는 기타 시스템이 {게임} 프로세스에 대한 액세스를 정지한 것 같습니다. 이는 극히 드문 문제이지만 해결하기 어렵지 않습니다. 컴퓨터를 다시 시작하기만 하면 문제가 해결됩니다! 안 좋은 것 같군요. 우리도 알고 있어요!",
   },
   'HelpToFixTranslationIssues': {
     languageEn:
@@ -10520,6 +11381,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "¿Ha encontrado un error en la traducción de la aplicación o quiere ayudarnos a traducirla a otro idioma? Escríbenos aquí.",
     languageCn: "发现应用程序的翻译有误，或希望帮助我们将其翻译成其他语言？那就请写在这里！",
+    languageKr:
+        "잘못 번역된 앱을 발견했거나 해당 앱을 다른 언어로 번역하는 데 도움을 주고 싶으십니까? 그럼 여기에 적어주세요!",
   },
   'CancelLaunch': {
     languageEn: "Cancel the launch",
@@ -10531,6 +11394,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Fırlatmayı iptal edin",
     languageEs: "Cancelar el lanzamiento",
     languageCn: "取消发射",
+    languageKr: "런처 취소",
   },
   'AntiCheatWarning': {
     languageEn:
@@ -10551,6 +11415,8 @@ const Map<String, Map<String, String>> localeItems = {
         "Por favor, ten en cuenta que {game} tiene un sistema anti-trampas muy bueno, lo que significa que casi todas las modificaciones gratuitas pueden llevar a un bloqueo del juego o dejar de funcionar después de la más pequeña actualización del juego. Recomendamos usar estas modificaciones sólo en aquellas cuentas que no te arrepentirás de perder y no te acostumbres mucho a ellas.",
     languageCn:
         "请注意，{game} 拥有非常完善的反作弊系统，这意味着几乎所有的免费修改都可能导致游戏封禁或在最小的游戏更新后停止工作。我们建议您只在那些不会因为失去而后悔的账号上使用这些修改，而且不要太习惯使用它们！",
+    languageKr:
+        "{game}에는 매우 정교한 치트 방지 시스템이 있다는 점에 유의하세요. 즉, 거의 모든 무료 치로로 인해 가장 작은 게임 업데이트 이후에도 게임이 금지되거나 작동이 중지될 수 있습니다. 이러한 수정 사항은 잃어버린 것을 후회하지 않을 계정에만 사용하고 너무 익숙해지지 않는 것이 좋습니다!",
   },
   'CodeIsCopied': {
     languageEn:
@@ -10567,6 +11433,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "El código de autorización se ha copiado correctamente en su portapapeles.",
     languageCn: "授权码已成功复制到您的剪贴板！",
+    languageKr: "인증 코드가 클립보드에 성공적으로 복사되었습니다.",
   },
   'FailedToCopyCode': {
     languageEn: "Couldn't copy this authorization code to your clipboard!",
@@ -10583,6 +11450,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "No se ha podido copiar este código de autorización en el portapapeles.",
     languageCn: "无法将此授权代码复制到剪贴板！",
+    languageKr: "이 인증 코드는 클립보드에 복사할 수 없습니다!",
   },
   'YouAuthCode': {
     languageEn: "Your authorization code",
@@ -10594,6 +11462,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yetki kodunuz",
     languageEs: "Su código de autorización",
     languageCn: "您的授权码",
+    languageKr: "귀하의 인증 코드",
   },
   'CodeIsValidWithin30Minutes': {
     languageEn:
@@ -10613,6 +11482,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Este código caducará en los próximos 30 minutos, ¡puede ser útil en la fase de autorización en el menú de la modificación!",
     languageCn: "该代码将在接下来的 30 分钟内失效，在修改菜单的授权阶段可能会有用！",
+    languageKr: "이 코드는 30분 후에 만료되며 메뉴 수정 인증 단계에서 유용할 수 있습니다!",
   },
   'SpecifyPathForMobile': {
     languageEn: "Specify the installation path of the modification's APK file:",
@@ -10627,6 +11497,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Especifique la ruta de instalación del archivo APK de la modificación:",
     languageCn: "指定修改的 APK 文件的安装路径：",
+    languageKr: "치트 APK 파일의 설치 경로를 지정합니다.",
   },
   'CFGAndLuaSwitcher': {
     languageEn:
@@ -10646,6 +11517,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Algunas modificaciones apoyan no sólo la instalación de configs,\nsino también LUA. ¡Usted puede cambiar entre ellos está aquí!",
     languageCn: "有些修改不仅支持配置安装，还支持 LUA。您可以在这里进行切换！",
+    languageKr: "일부 치트는 구성 설치뿐만 아니라 LUA도 지원합니다. 여기서 전환하시면 됩니다!",
   },
   'CFG': {
     languageEn: "Configurations",
@@ -10657,6 +11529,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Konfigürasyonlar",
     languageEs: "Configuraciones",
     languageCn: "配置",
+    languageKr: "구성",
   },
   'LUA': {
     languageEn: "LUA scipts",
@@ -10668,6 +11541,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "LUA scipts",
     languageEs: "Esciptos LUA",
     languageCn: "LUA 片段",
+    languageKr: "LUA scipts",
   },
   'IAmUploadingLUA': {
     languageEn: "This file is a LUA, not a configuration",
@@ -10679,6 +11553,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu dosya bir LUA'dır, yapılandırma değildir",
     languageEs: "Este archivo es un LUA, no una configuración",
     languageCn: "该文件是 LUA 文件，不是配置文件",
+    languageKr: "이 파일은 구성 파일이 아닌 LUA 파일입니다.",
   },
   'ConfigWillBeReplaced': {
     languageEn:
@@ -10699,6 +11574,8 @@ const Map<String, Map<String, String>> localeItems = {
         "La instalación de esta configuración o LUA anulará uno de los archivos previamente instalados. Esto puede estar relacionado con el hecho de que varios autores han subido diferentes configuraciones o LUAS que tienen el mismo nombre de archivo. ¿Continuar con la instalación?",
     languageCn:
         "安装此配置或 LUA 将覆盖先前安装的文件之一。这可能与多位作者上传了具有相同文件名的不同配置或 LUAS 有关。继续安装？",
+    languageKr:
+        "이 구성 또는 LUA를 설치하면 이전에 설치된 파일 중 하나를 덮어쓰게 됩니다. 이는 여러 작성자가 동일한 파일 이름으로 서로 다른 구성 또는 LUAS를 업로드하는 것과 관련이 있을 수 있습니다. 설치를 계속하시겠습니까?",
   },
   'ModificationsNotificationsFormat': {
     languageEn: "Format of modifications notifications",
@@ -10710,6 +11587,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklik bildirimlerinin formatı",
     languageEs: "Formato de las notificaciones de modificaciones",
     languageCn: "修改通知的格式",
+    languageKr: "알림 형식 수정",
   },
   'AsDialog': {
     languageEn: "In special dialog on application's startup",
@@ -10721,6 +11599,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulamanın başlangıcındaki özel iletişim kutusunda",
     languageEs: "En un diálogo especial al iniciar la aplicación",
     languageCn: "在应用程序启动时的特殊对话框中",
+    languageKr: "응용 프로그램 시작 시 특수 대화 상자에서",
   },
   'InPage': {
     languageEn: "On the notifications page with the rest of the notifications",
@@ -10732,6 +11611,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bildirimlerin geri kalanıyla birlikte bildirimler sayfasında",
     languageEs: "En la página de notificaciones con el resto de notificaciones",
     languageCn: "在通知页面与其他通知一起显示",
+    languageKr: "알림 페이지에 다른 알림과 함께 표시됨",
   },
   'MonoFlags': {
     languageEn:
@@ -10751,6 +11631,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Puede que necesite especificar los valores de Namespace, Class y Method para lanzar este mod. Puede especificar estos valores aquí separados por comas.",
     languageCn: "您可能需要指定命名空间、类和方法值来启动此模块。您可以在此处用逗号分隔指定这些值！",
+    languageKr:
+        "이 모듈을 시작하려면 네임스페이스, 클래스 및 메서드 값을 지정해야 할 수도 있습니다. 여기에서 쉼표로 구분된 값을 지정할 수 있습니다!",
   },
   'SteamModule': {
     languageEn:
@@ -10770,6 +11652,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Si la modificación necesita que se inyecte un módulo especial de Steam para su lanzamiento, puede añadir su archivo aquí:",
     languageCn: "如果修改启动时需要注入特殊的 Steam 模块，则可以在此处添加文件：",
+    languageKr:
+        "치트 시작 시 특수 Steam 모듈을 삽입해야 하는 경우 여기에 파일을 추가할 수 있습니다.",
   },
   'ConfigComplaint': {
     languageEn:
@@ -10789,6 +11673,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         'Si el motivo de tu queja es un problema de configuración o de LUA, márcalo con un "no me gusta" para que otros usuarios no se encuentren con el mismo problema mientras tramitamos tu queja.',
     languageCn: '如果您投诉的原因是配置或 LUA 问题，请用 "不喜欢 "标记，以免其他用户在我们处理您的投诉时遇到同样的问题！',
+    languageKr:
+        "불만 사항의 ​​원인이 구성 또는 LUA 문제인 경우 불만 사항을 처리하는 동안 다른 사용자가 동일한 문제를 겪지 않도록 "비추천"으로 표시해 주십시오!",
   },
   // TODO:!
   'PayAttentionToCFG': {
@@ -10809,6 +11695,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Por favor, ten en cuenta que esta configuración o LUA tiene una valoración muy baja, ¡quizás haya algo mal en ella!",
     languageCn: "请注意，该配置或 LUA 的评分很低，可能有什么问题！",
+    languageKr:
+        "이 구성이나 LUA의 등급은 낮습니다. 뭔가 잘못되었을 수 있습니다!",
   },
   'ConfigMayDiffer': {
     languageEn:
@@ -10828,6 +11716,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La configuración o LUA de la captura de pantalla puede diferir de su versión real. Por favor, tenga en cuenta que estas imágenes son subidas por el autor de la tarjeta y no por la administración del proyecto.",
     languageCn: "截图中的配置或 LUA 可能与实际版本不同。请注意，这些图片由卡片作者上传，而非项目管理人员上传！",
+    languageKr:
+        "스크린샷의 구성이나 LUA는 실제 버전과 다를 수 있습니다. 해당 이미지는 프로젝트 관리자가 아닌 카드 작성자가 업로드한 것임을 참고해주세요!",
   },
   'ImagesDeletion': {
     languageEn: "Images deletion",
@@ -10839,6 +11729,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Görüntü silme",
     languageEs: "Eliminación de imágenes",
     languageCn: "图像删除",
+    languageKr: "이미지 제거",
   },
   'VideoDeletion': {
     languageEn: "Delete video review",
@@ -10850,6 +11741,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Video incelemesini sil",
     languageEs: "Borrar revisión de vídeo",
     languageCn: "删除视频审查",
+    languageKr: "동영상 리뷰 삭제",
   },
   'Needed': {
     languageEn: "Needed",
@@ -10861,6 +11753,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Gerekli",
     languageEs: "Necesario",
     languageCn: "需要",
+    languageKr: "필요",
   },
   'PirateClient': {
     languageEn: "Pirate game client",
@@ -10872,6 +11765,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Korsan oyun istemcisi",
     languageEs: "Juego de piratas cliente",
     languageCn: "海盗游戏客户端",
+    languageKr: "해적 게임 클라이언트",
   },
   'OfficialClient': {
     languageEn: "Official game client",
@@ -10883,6 +11777,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Resmi oyun istemcisi",
     languageEs: "Cliente oficial del juego",
     languageCn: "官方游戏客户端",
+    languageKr: "공식 게임 클라이언트",
   },
   'AnyClient': {
     languageEn: "Any game client",
@@ -10894,6 +11789,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Herhangi bir oyun istemcisi",
     languageEs: "Cualquier cliente de juego",
     languageCn: "任何游戏客户端",
+    languageKr: "모든 게임 클라이언트",
   },
   'SteamClient': {
     languageEn: "Steam version of the game",
@@ -10905,6 +11801,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun Steam versiyonu",
     languageEs: "Versión Steam del juego",
     languageCn: "蒸汽版游戏",
+    languageKr: "게임의 스팀 버전",
   },
   'NoOriginalClient': {
     languageEn:
@@ -10925,6 +11822,8 @@ const Map<String, Map<String, String>> localeItems = {
         "No lances este mod o esta versión del mod en Steam, EpicGames, Microsoft o cualquier otra versión original del juego, ¡sólo está creado para el cliente pirata del {game}!",
     languageCn:
         "请勿在 Steam、EpicGames、Microsoft 或其他任何正版游戏上启动此 mod 或此版本的 mod，它仅为 {game} 的盗版客户端而创建！",
+    languageKr:
+        "Steam, EpicGames, Microsoft 또는 기타 합법적인 게임에서 이 모드나 이 버전의 모드를 실행하지 마십시오. 이 치트는 {game}의 불법 복제 클라이언트용으로만 생성되었습니다!",
   },
   'MultiPlayer': {
     languageEn: "Multiplayer version of the game",
@@ -10936,6 +11835,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun çok oyunculu versiyonu",
     languageEs: "Versión multijugador del juego",
     languageCn: "多人版游戏",
+    languageKr: "게임의 멀티플레이어 버전",
   },
   'SinglePlayer': {
     languageEn: "Singleplayer version of the game",
@@ -10947,6 +11847,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun tek oyunculu versiyonu",
     languageEs: "Versión para un jugador",
     languageCn: "单人游戏版",
+    languageKr: "싱글 플레이어 버전",
   },
   'EpicGamesClient': {
     languageEn: "EpicGames version of the game",
@@ -10958,6 +11859,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun EpicGames versiyonu",
     languageEs: "Versión del juego de EpicGames",
     languageCn: "EpicGames 版游戏",
+    languageKr: "EpicGames 버전의 게임",
   },
   'MicrosoftClient': {
     languageEn: "Microsoft version of the game",
@@ -10969,6 +11871,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun Microsoft versiyonu",
     languageEs: "Versión del juego para Microsoft",
     languageCn: "微软游戏版本",
+    languageKr: "마이크로소프트 게임 버전",
   },
   'ItchIOClient': {
     languageEn: "Itch.io version of the game",
@@ -10980,6 +11883,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Oyunun Itch.io versiyonu",
     languageEs: "Versión Itch.io del juego",
     languageCn: "Itch.io 版游戏",
+    languageKr: "Itch.io 버전의 게임",
   },
   'DriverMode': {
     languageEn: "Driver version",
@@ -10991,6 +11895,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sürücü sürümü",
     languageEs: "Versión del controlador",
     languageCn: "驱动程序版本",
+    languageKr: "드라이버 버전",
   },
   'UserMode': {
     languageEn: "Usermode version",
@@ -11002,6 +11907,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Usermode sürümü",
     languageEs: "Versión del modo de usuario",
     languageCn: "使用模式版本",
+    languageKr: "스키마 버전 사용",
   },
   'Audio': {
     languageEn: "Audio",
@@ -11013,6 +11919,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ses",
     languageEs: "Audio",
     languageCn: "音频",
+    languageKr: "오디오",
   },
   'StartupAudio': {
     languageEn: "Funny voice acting on application's startup",
@@ -11024,6 +11931,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Uygulama başlangıcında komik seslendirme",
     languageEs: "Divertido doblaje al iniciar la aplicación",
     languageCn: "应用程序启动时的滑稽语音表演",
+    languageKr: "응용 프로그램 시작 시 재미있는 목소리 연기",
   },
   'NoAudio': {
     languageEn: "Without audio",
@@ -11035,6 +11943,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ses olmadan",
     languageEs: "Sin audio",
     languageCn: "无音频",
+    languageKr: "오디오 없음",
   },
   'BuiltIn': {
     languageEn: "Play random voice acting that is built into the app",
@@ -11048,6 +11957,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Juega a la actuación de voz aleatoria que está integrada en la aplicación",
     languageCn: "播放应用程序内置的随机语音表演",
+    languageKr: "앱에 내장된 무작위 음성 쇼 재생",
   },
   'CustomAudio': {
     languageEn:
@@ -11066,6 +11976,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Reproduce locuciones aleatorias sólo de la lista de tus propios archivos de audio",
     languageCn: "只从自己的音频文件列表中随机播放配音",
+    languageKr: "자신의 오디오 파일 목록에서만 더빙 셔플",
   },
   'BothAudioModes': {
     languageEn: "Use both custom and built-in in the app voice actings",
@@ -11084,6 +11995,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Utiliza actuaciones de voz personalizadas e integradas en la aplicación",
     languageCn: "在应用程序中使用自定义和内置语音表演",
+    languageKr: "앱에서 사용자 지정 및 내장된 음성 연주를 사용하세요.",
   },
   'SoundVolume': {
     languageEn: "Sound volume as a percentage",
@@ -11095,6 +12007,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yüzde olarak ses seviyesi",
     languageEs: "Volumen sonoro en porcentaje",
     languageCn: "音量百分比",
+    languageKr: "볼륨 비율",
   },
   'AddCustomSounds': {
     languageEn: "Add custom audio",
@@ -11106,6 +12019,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Özel ses ekleme",
     languageEs: "Añadir audio personalizado",
     languageCn: "添加自定义音频",
+    languageKr: "맞춤 오디오 추가",
   },
   'HandlingAudio': {
     languageEn: "Processing the selected audio...",
@@ -11117,6 +12031,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Seçilen ses işleniyor...",
     languageEs: "Procesar el audio seleccionado...",
     languageCn: "处理所选音频",
+    languageKr: "선택한 오디오 처리",
   },
   'YourAudioIsSaved': {
     languageEn: "Your audio has been successfully saved!",
@@ -11128,6 +12043,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sesiniz başarıyla kaydedildi!",
     languageEs: "Tu audio se ha guardado correctamente.",
     languageCn: "您的音频已成功保存！",
+    languageKr: "오디오가 성공적으로 저장되었습니다!",
   },
   'AddCustomSoundsDescription': {
     languageEn:
@@ -11147,6 +12063,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Puedes añadir tus propios archivos de audio para la divertida actuación de voz en la función de inicio de la aplicación. No olvides cambiar el formato de aleatorización de audio después de añadir tus archivos.",
     languageCn: "您可以添加自己的音频文件，在程序启动时为有趣的配音表演配音。添加文件后，别忘了更改音频随机化格式！",
+    languageKr:
+        "프로그램이 시작될 때 재미있는 음성 해설 공연을 위해 자신만의 오디오 파일을 추가할 수 있습니다. 파일을 추가한 후 오디오 무작위 형식을 변경하는 것을 잊지 마세요!",
   },
   'TestVolume': {
     languageEn: "Test volume",
@@ -11158,6 +12076,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Test hacmi",
     languageEs: "Volumen de la prueba",
     languageCn: "测试容量",
+    languageKr: "볼륨 테스트",
   },
   'Standard': {
     languageEn: "Standard",
@@ -11169,6 +12088,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Standart",
     languageEs: "Estándar",
     languageCn: "标准",
+    languageKr: "기준",
   },
   'HoverEffect': {
     languageEn: "Hover sound effect",
@@ -11180,6 +12100,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hover ses efekti",
     languageEs: "Efecto de sonido al pasar el ratón",
     languageCn: "悬停音效",
+    languageKr: "호버 음향 효과",
   },
   'ClickEffect': {
     languageEn: "Click sound effect",
@@ -11191,6 +12112,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tıklama ses efekti",
     languageEs: "Efecto de sonido de clic",
     languageCn: "点击音效",
+    languageKr: "음향 효과를 클릭하세요.",
   },
   'DeleteAudio': {
     languageEn: "Deletion of manually added sounds",
@@ -11202,6 +12124,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Manuel olarak eklenen seslerin silinmesi",
     languageEs: "Eliminación de sonidos añadidos manualmente",
     languageCn: "删除手动添加的声音",
+    languageKr: "수동으로 추가한 소리 제거",
   },
   'OldPCsAndSounds': {
     languageEn:
@@ -11221,6 +12144,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Por favor, ten en cuenta que las funciones de efectos de sonido pueden funcionar con un ligero retraso en dispositivos antiguos",
     languageCn: "请注意，音效功能在旧设备上可能会略有延迟。",
+    languageKr: "구형 장치에서는 음향 효과 기능이 약간 지연될 수 있습니다.",
   },
   'AutoUpdateAudio': {
     languageEn: "Automatically update sounds pack",
@@ -11232,6 +12156,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ses paketini otomatik olarak güncelle",
     languageEs: "Actualizar automáticamente el paquete de sonidos",
     languageCn: "自动更新音效包",
+    languageKr: "사운드 효과 팩 자동 업데이트",
   },
   'AutoUpdateAudioDescription': {
     languageEn:
@@ -11251,6 +12176,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "La aplicación comprobará automáticamente si el paquete de sonido está actualizado cada vez que se inicie.",
     languageCn: "每次启动应用程序时，它都会自动检查音效包的更新！",
+    languageKr: "앱을 실행할 때마다 자동으로 사운드 팩 업데이트를 확인합니다!",
   },
   'AllModsForGamesInOnePlace': {
     languageEn:
@@ -11270,6 +12196,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Hemos reunido todos los mods geniales y gratuitos para juegos populares en un lugar unificado",
     languageCn: "我们在一个统一的地方为热门游戏收集了所有很酷的免费修改器",
+    languageKr: "인기 게임의 멋진 무료 치트를 모두 한곳에 모았습니다.",
   },
   'LogInEasily': {
     languageEn: 'Log-in easily to get started,',
@@ -11281,6 +12208,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Kolayca Giriş Yapın",
     languageEs: "ConéctateFácilmente",
     languageCn: "轻松登录",
+    languageKr: "간편한 로그인",
   },
   'OnlyEmail': {
     languageEn: 'only your email',
@@ -11292,6 +12220,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "sadece e-postanız",
     languageEs: "sólo su correo electrónico",
     languageCn: "只有您的电子邮件",
+    languageKr: "당신의 이메일만",
   },
   'IsNeeded': {
     languageEn: 'is needed',
@@ -11303,6 +12232,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "gerekli",
     languageEs: "es necesario",
     languageCn: "需要",
+    languageKr: "필요",
   },
   'LogInNoEmail': {
     languageEn: 'Log-in as a guest',
@@ -11314,6 +12244,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Misafir olarak giriş yapın",
     languageEs: "Conectarse como invitado",
     languageCn: "以访客身份登录",
+    languageKr: "게스트로 로그인",
   },
   'LogInEmail': {
     languageEn: 'Log in With Email',
@@ -11325,6 +12256,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "E-posta ile Giriş Yapın",
     languageEs: "Iniciar sesión con correo electrónico",
     languageCn: "使用电子邮件登录",
+    languageKr: "이메일을 사용하여 로그인",
   },
   'Or': {
     languageEn: 'or',
@@ -11336,6 +12268,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "veya",
     languageEs: "o",
     languageCn: "或",
+    languageKr: "그리고",
   },
   'AreYouSureGuestMode': {
     languageEn: 'Are you sure?',
@@ -11347,6 +12280,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Emin misin?",
     languageEs: "¿Seguro?",
     languageCn: "你确定吗？",
+    languageKr: "확실합니까?",
   },
   'DisadvantagesOfGuestMode': {
     languageEn:
@@ -11367,6 +12301,8 @@ const Map<String, Map<String, String>> localeItems = {
         "En modo invitado no podrás <bd>dejar <bd>comentarios, <bd>calificar <bd>mods <bd>y <bd>configs, <bd>guardar tus <bd>estadísticas, <bd>personalizar tu <bd>perfil, <bd>comparte <bd>configs, <bd>sube <bd>vídeos, <bd>envía <bd>quejas, <bd>recibe <bd>notificaciones y ¡realiza cualquier otra acción social!",
     languageCn:
         "在访客模式下，您将无法 <bd>留下 <bd>评论、 <bd>为 <bd>修改器 <bd>和 <bd>配置评分、 <bd>保存您的 <bd>统计信息、 <bd>自定义您的 <bd>配置文件、 <bd>分享 <bd>配置、 <bd>上传 <bd>视频、 <bd>发送 <bd>投诉、 <bd>接收 <bd>通知并执行任何其他社交操作！",
+    languageKr:
+        "게스트 모드에서는 <bd>댓글 남기기<bd>, <bd> 수정자<bd> 및 <bd>에 대한 평가 구성, <bd> <bd> 통계 저장, < bd> 사용자 정의를 수행할 수 없습니다. <bd> 프로필, <bd> <bd> 구성 공유, <bd> <bd> 동영상 업로드, <bd> <bd> 불만 사항 보내기, <bd> <bd> 알림 수신 및 기타 소셜 활동 수행!",
   },
   'UserAgreement': {
     languageEn:
@@ -11386,6 +12322,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         'Al hacer clic en "Sí, iniciar sesión como invitado", acepta el Contrato de licencia de usuario final.',
     languageCn: '点击 "是，以访客身份登录"，即表示您同意最终用户许可协议！',
+    languageKr:
+        "'예, 게스트로 로그인합니다'를 클릭하면 최종 사용자 라이센스 계약에 동의하는 것입니다!",
   },
   'Guest': {
     languageEn: 'Guest',
@@ -11395,6 +12333,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Ospite",
     languageEs: "Invitado",
     languageCn: "游客",
+    languageKr: "게스트",
   },
   'Level': {
     languageEn: 'Level',
@@ -11406,6 +12345,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Seviye",
     languageEs: "Nivel",
     languageCn: "级别",
+    languageKr: "레벨",
   },
   'SettingsDescription': {
     languageEn:
@@ -11425,6 +12365,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Gestiona la apariencia de la aplicación, su configuración de descarga, los sistemas de audio y notificaciones y las preferencias de tu perfil.",
     languageCn: "管理应用程序的外观、下载设置、音频和通知系统以及个人资料偏好！",
+    languageKr:
+        "앱의 모양, 다운로드 설정, 오디오 및 알림 시스템, 프로필 기본 설정을 관리하세요!",
   },
   'ExploreOurCollection': {
     languageEn:
@@ -11444,6 +12386,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "En esta lista encontrará tanto la biblioteca que hemos recopilado para usted como todas las imágenes añadidas manualmente",
     languageCn: "在此列表中，您可以找到我们为您收集的图片库和所有手动添加的图片",
+    languageKr:
+        "이 목록에서는 우리가 수집한 이미지 갤러리와 수동으로 추가한 모든 이미지를 찾을 수 있습니다.",
   },
   'Patch': {
     languageEn: 'patch',
@@ -11453,6 +12397,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yama",
     languageEs: "parche",
     languageCn: "补丁",
+    languageKr: "patch",
   },
   'GBs': {
     languageEn: 'gb/s',
@@ -11464,6 +12409,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "gb/s",
     languageEs: "gb/s",
     languageCn: "gb/s",
+    languageKr: "gb/s",
   },
   'GB': {
     languageEn: 'gb',
@@ -11475,6 +12421,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "gb",
     languageEs: "gb",
     languageCn: "gb",
+    languageKr: "gb",
   },
   'MBs': {
     languageEn: 'mb/s',
@@ -11486,6 +12433,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "mb/s",
     languageEs: "mb/s",
     languageCn: "mb/s",
+    languageKr: "mb/s",
   },
   'MB': {
     languageEn: 'mb',
@@ -11497,6 +12445,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "mb",
     languageEs: "mb",
     languageCn: "mb",
+    languageKr: "mb",
   },
   'KBs': {
     languageEn: 'kb/s',
@@ -11508,6 +12457,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "kb/s",
     languageEs: "kb/s",
     languageCn: "kb/s",
+    languageKr: "kb/s",
   },
   'KB': {
     languageEn: 'kb',
@@ -11519,6 +12469,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "kb",
     languageEs: "kb",
     languageCn: "kb",
+    languageKr: "kb",
   },
   'Bs': {
     languageEn: 'b/s',
@@ -11530,6 +12481,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "b/s",
     languageEs: "b/s",
     languageCn: "b/s",
+    languageKr: "b/s",
   },
   'B': {
     languageEn: 'b',
@@ -11541,6 +12493,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "b",
     languageEs: "b",
     languageCn: "b",
+    languageKr: "b",
   },
   'WriteMessage': {
     languageEn: 'Write a message',
@@ -11552,6 +12505,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bir mesaj yazın",
     languageEs: "Escribir un mensaje",
     languageCn: "写留言",
+    languageKr: "메시지 쓰기",
   },
   'DateJoined': {
     languageEn: 'Date joined',
@@ -11563,6 +12517,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Katılma tarihi",
     languageEs: "Fecha de incorporación",
     languageCn: "加入日期",
+    languageKr: "가입 날짜",
   },
   'NoSocials': {
     languageEn:
@@ -11581,6 +12536,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Este usuario aún no ha añadido sus redes sociales a la configuración del perfil",
     languageCn: "该用户尚未在个人档案设置中添加社交网络",
+    languageKr: "이 사용자는 프로필 설정에 소셜 네트워크를 추가하지 않았습니다.",
   },
   'ReviewsMultiple': {
     languageEn: 'Reviews',
@@ -11592,6 +12548,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yorumlar",
     languageEs: "Reseñas",
     languageCn: "评论",
+    languageKr: "리뷰",
   },
   // Like "You have 0 unread/new messages"
   'YouHave': {
@@ -11604,6 +12561,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sen varsın",
     languageEs: "Usted tiene",
     languageCn: "您有",
+    languageKr: "나의",
   },
   // 1 new
   'NewSecond': {
@@ -11616,6 +12574,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yeni",
     languageEs: "nuevo",
     languageCn: "新",
+    languageKr: "새로운",
   },
   // 0/2+ new
   'NewFirst': {
@@ -11628,6 +12587,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "yeni",
     languageEs: "nuevos",
     languageCn: "新",
+    languageKr: "새로운",
   },
   // 0, 2+
   'UnreadFirst': {
@@ -11640,6 +12600,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "okunmamış",
     languageEs: "no leídos",
     languageCn: "未读",
+    languageKr: "읽히지 않은",
   },
   // 1
   'UnreadSecond': {
@@ -11652,6 +12613,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "okunmamış",
     languageEs: "no leído",
     languageCn: "未读",
+    languageKr: "읽히지 않은",
   },
   // 1
   'NotificationsFirst': {
@@ -11664,6 +12626,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "bildirim",
     languageEs: "notificación",
     languageCn: "通知",
+    languageKr: "notification",
   },
   // 2-4
   'NotificationsSecond': {
@@ -11676,6 +12639,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "bildirim",
     languageEs: "notificaciones",
     languageCn: "份通知",
+    languageKr: "notification",
   },
   // 0, 5-9
   'NotificationsThird': {
@@ -11688,6 +12652,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "bildirimler",
     languageEs: "notificaciones",
     languageCn: "份通知",
+    languageKr: "notification",
   },
   'NewNotifications': {
     languageEn: 'New notifications',
@@ -11699,6 +12664,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Yeni bildirimler",
     languageEs: "Nuevas notificaciones",
     languageCn: "新通知",
+    languageKr: "새로운 알림",
   },
   // Like history of already read notifications
   'History': {
@@ -11711,6 +12677,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tarih",
     languageEs: "Historia",
     languageCn: "历史",
+    languageKr: "히스토리",
   },
   'NotificationsGuide': {
     languageEn:
@@ -11730,6 +12697,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Consulte esta página más tarde, le avisaremos cuando tengamos noticias para usted.",
     languageCn: "请稍后查看本页面，我们会在有新消息时通知您。",
+    languageKr: "나중에 이 페이지를 확인해 주시면 새로운 정보가 있으면 알려드리겠습니다.",
   },
   'ModUpdatesTitle': {
     languageEn: 'Mods updates',
@@ -11741,6 +12709,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Mod güncellemeleri",
     languageEs: "Actualizaciones de mods",
     languageCn: "修改器更新",
+    languageKr: "치트 업데이트",
   },
   'ModUpdatesDescription': {
     languageEn: 'List of mod update reports',
@@ -11752,6 +12721,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Mod güncelleme raporlarının listesi",
     languageEs: "Lista de informes de actualización de mods",
     languageCn: "模式更新报告列表",
+    languageKr: "치트 업데이트 목록",
   },
   'WeCouldNotFindAnythingInBookmarks': {
     languageEn: 'It seems that right now your library is empty',
@@ -11763,6 +12733,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Görünüşe göre şu anda kitaplığınız boş",
     languageEs: "Parece que ahora mismo tu biblioteca está vacía",
     languageCn: "现在看来，您的资料库是空的",
+    languageKr: "이제 데이터베이스가 비어 있는 것 같습니다.",
   },
   'AddGamesToBookmarks': {
     languageEn:
@@ -11780,6 +12751,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Añade modificaciones a los marcadores para lanzarlos o descargarlos rápidamente",
     languageCn: "为书签添加修改，以便快速启动或下载",
+    languageKr: "빠른 실행 또는 다운로드를 위해 북마크에 편집 내용 추가",
   },
   "Filters": {
     languageEn: 'Filters',
@@ -11791,6 +12763,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Filtreler",
     languageEs: "Filtros",
     languageCn: "过滤器",
+    languageKr: "필터",
   },
   "ClearFilters": {
     languageEn: 'Clear filters',
@@ -11802,6 +12775,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Filtreleri temizle",
     languageEs: "Limpiar filtros",
     languageCn: "清除过滤器",
+    languageKr: "필터 지우기",
   },
   'AcrylicEffect': {
     languageEn: 'Acrylic effect',
@@ -11813,6 +12787,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Akrilik efekt",
     languageEs: "Efecto acrílico",
     languageCn: "丙烯酸效果",
+    languageKr: "아크릴 효과",
   },
   'AcrylicEffectDescription': {
     languageEn:
@@ -11832,6 +12807,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Aplica los efectos de transparencia y desenfoque a la ventana de la aplicación. Desactiva otros efectos visuales y ajustes.",
     languageCn: "为应用程序窗口应用透明度和模糊效果。禁用其他一些视觉效果和设置！",
+    languageKr:
+        "응용 프로그램 창에 투명도 및 흐림 효과를 적용합니다. 다른 시각 효과 및 설정을 비활성화하십시오!",
   },
   'Sorting': {
     languageEn: 'Sorting',
@@ -11843,6 +12820,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Sıralama",
     languageEs: "Clasificación",
     languageCn: "分类",
+    languageKr: "분류",
   },
   'RecommendedImageSize': {
     languageEn:
@@ -11862,6 +12840,9 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Le recomendamos que suba capturas de pantalla completa sin recortar para obtener la mejor calidad.",
     languageCn: "请注意，我们建议在不做任何裁剪的情况下上传全屏截图，以获得最佳质量",
+    languageKr:
+        "최고의 품질을 위해 자르지 않은 전체 화면 스크린샷을 업로드하는 것이 좋습니다.",
+
   },
   'Overview': {
     languageEn: "Overview",
@@ -11873,6 +12854,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Genel Bakış",
     languageEs: "Estadísticas",
     languageCn: "统计资料",
+    languageKr: "통계 데이터",
   },
   'PopularModsOfTheWeek': {
     languageEn: "Popular modifications of the week",
@@ -11884,6 +12866,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Haftanın popüler modifikasyonları",
     languageEs: "Modificaciones populares de la semana",
     languageCn: "本周热门修改",
+    languageKr: "이번 주 인기 치트",
   },
   'PopularReviewsOfTheWeek': {
     languageEn: "Popular comments of the week",
@@ -11895,6 +12878,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Haftanın popüler yorumları",
     languageEs: "Comentarios populares de la semana",
     languageCn: "本周热门评论",
+    languageKr: "이번 주 인기 댓글",
   },
   'PopularConfigsOfTheWeek': {
     languageEn: "Popular configs and LUAs of the week",
@@ -11906,6 +12890,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Haftanın popüler yapılandırmaları ve LUA'ları",
     languageEs: "Configuraciones y LUAs populares de la semana",
     languageCn: "本周热门配置和 LUA",
+    languageKr: "이번 주 핫 구성 및 LUA",
   },
   'UniqueInstallsOfModsForGames': {
     languageEn: "Unique installations of mods for {game}: ",
@@ -11917,6 +12902,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "{game} için benzersiz mod kurulumları:",
     languageEs: "Instalaciones únicas de mods para {game}:",
     languageCn: "为 {game} 安装独特的 mod：",
+    languageKr: "{game}에 대한 고유한 치트를 설치하세요:",
   },
   'PopularGamesOfTheWeek': {
     languageEn: "Popularity of games during the week",
@@ -11928,6 +12914,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Hafta boyunca oyunların popülerliği",
     languageEs: "Popularidad de los partidos entre semana",
     languageCn: "一周内比赛的受欢迎程度",
+    languageKr: "이번주 대회 인기",
   },
   'ModificationIsDeleted': {
     languageEn: "Modification is already deleted",
@@ -11939,6 +12926,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Değişiklik zaten silinmiş",
     languageEs: "Modificación ya eliminada",
     languageCn: "修改已删除",
+    languageKr: "치트가 삭제되었습니다.",
   },
   'EmailAuthIsDisabled': {
     languageEn:
@@ -11958,6 +12946,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que la autorización de correo electrónico no está disponible temporalmente, ¡intenta iniciar sesión con Google!",
     languageCn: "看起来电子邮件授权暂时不可用，请尝试使用 Google 登录！",
+    languageKr:
+        "일시적으로 이메일 승인이 불가능한 것 같습니다. Google로 로그인해 보세요!",
   },
   'UpdateFilters': {
     languageEn:
@@ -11977,6 +12967,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Actualiza tus filtros y/o borra la barra de búsqueda para mostrar la lista de juegos o mods.",
     languageCn: "更新筛选器和/或清除搜索栏，以显示游戏或修改器列表！",
+    languageKr:
+        "게임이나 치트 목록을 표시하려면 필터를 업데이트하거나 검색 표시줄을 삭제하세요!",
   },
   'OpenInYouTube': {
     languageEn: "Open this video in YouTube",
@@ -11988,6 +12980,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu videoyu YouTube'da açın",
     languageEs: "Abrir este vídeo en YouTube",
     languageCn: "在 YouTube 中打开此视频",
+    languageKr: "YouTube에서 이 동영상을 엽니다.",
   },
   'SkipAllTips': {
     languageEn: "Mark all hints as read",
@@ -11999,6 +12992,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Tüm ipuçlarını okundu olarak işaretleyin",
     languageEs: "Marcar todas las pistas como leídas",
     languageCn: "将所有提示标记为已读",
+    languageKr: "모든 팁을 읽음으로 표시",
   },
   'HintsMarkedAsRead': {
     languageEn:
@@ -12018,6 +13012,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Eso es todo, ¡todos los consejos y banners de formación están marcados como se muestra!",
     languageCn: "就是这样，所有提示和培训横幅都标注如图所示！",
+    languageKr: "모든 팁과 교육 배너가 표시된 대로 표시됩니다!",
   },
   'VoteLimitExceededPlus': {
     languageEn:
@@ -12037,6 +13032,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         'Parece que tu límite diario de "Me gusta" ha llegado al máximo. Mejora tu reputación para aumentar estos límites.',
     languageCn: "您的每日点赞上限已达上限。请提高您的声誉，以提高这些限制！",
+    languageKr: "일일 좋아요 한도에 도달했습니다. 이러한 한도를 높이려면 평판을 높이세요!",
   },
   'VoteLimitExceededMinus': {
     languageEn:
@@ -12056,6 +13052,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que tu límite diario de aversiones ha llegado al máximo. Mejora tu reputación para aumentar estos límites.",
     languageCn: "您的每日点赞上限已经达到上限。请提高您的声望，以提高这些限制！",
+    languageKr: "일일 좋아요 한도에 도달했습니다. 이러한 한도를 높이려면 평판을 높여주세요!",
   },
   'ConfigUploadLimitExceeded': {
     languageEn:
@@ -12075,6 +13072,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que tu límite diario de subida de configuraciones ha llegado al máximo. Aumenta tu reputación para aumentar estos límites.",
     languageCn: "看来您的每日配置上传限制已达到上限。请提高您的声望，以提高这些限制！",
+    languageKr: "일일 좋아요 한도에 도달했습니다. 이러한 한도를 높이려면 평판을 높여주세요!",
   },
   'ReviewWriteLimitExceeded': {
     languageEn:
@@ -12094,6 +13092,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Parece que tu límite diario para escribir comentarios ha llegado al máximo. Mejora tu reputación para aumentar estos límites.",
     languageCn: "看来您的每日评论上限已达上限。请提高您的声誉，以提高这些限制！",
+    languageKr: "일일 좋아요 한도에 도달했습니다. 이러한 한도를 높이려면 평판을 높여주세요!",
   },
   'InvalidYouTubeUrl': {
     languageEn:
@@ -12113,6 +13112,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Lamentablemente, no podremos añadir este vídeo de YouTube, parece que hay algún problema. Asegúrate de que el enlace está introducido correctamente y de que tu vídeo está disponible para los demás.",
     languageCn: "很遗憾，我们无法添加此 YouTube 视频，因为它似乎出了点问题。请确保链接输入正确，并且您的视频可供他人观看！",
+    languageKr:
+        "안타깝게도 이 YouTube 동영상에 문제가 있는 것 같아서 추가할 수 없습니다. 링크가 올바르게 입력되었는지, 다른 사람들이 귀하의 동영상을 볼 수 있는지 확인하세요!",
   },
   'GifAvatarIsNotAllowed': {
     languageEn:
@@ -12132,6 +13133,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Por desgracia, tu nivel de reputación es demasiado bajo para configurar un avatar animado",
     languageCn: "不幸的是，您的声望级别太低，无法设置动画头像。",
+    languageKr: "안타깝게도 애니메이션 아바타를 설정하기에는 평판 수준이 너무 낮습니다.",
   },
   'AvatarFrameIsNotAllowed': {
     languageEn:
@@ -12151,6 +13153,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Por desgracia, tu nivel de reputación es demasiado bajo para configurar un marco de avatar",
     languageCn: "不幸的是，您的声望级别太低，无法设置头像框。",
+    languageKr: "안타깝게도 귀하의 평판 수준이 너무 낮아 아바타 프레임을 설정할 수 없습니다.",
   },
   'VideoIsNotAllowed': {
     languageEn:
@@ -12170,6 +13173,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Subir un vídeo requiere un nivel de reputación superior al que tienes .",
     languageCn: "上传视频需要比您的声誉级别更高的声誉。",
+    languageKr: "동영상을 업로드하려면 자신의 평판 수준보다 더 높은 평판이 필요합니다.",
   },
   'YouTubeCFGReview': {
     languageEn: "Video review of the config or LUA on YouTube",
@@ -12181,6 +13185,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "YouTube'da yapılandırma veya LUA'nın video incelemesi",
     languageEs: "Revisión en vídeo de la configuración o LUA en YouTube",
     languageCn: "YouTube 上的配置或 LUA 视频回顾",
+    languageKr: "YouTube에서 구성 또는 LUA 비디오 검토",
   },
   'EditYourVideoBeforePublish': {
     languageEn:
@@ -12200,6 +13205,8 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         'Para asegurarte de que este vídeo es relevante para nuestra aplicación y no es spam, añade la palabra «{word}» a su descripción o a su título.',
     languageCn: "为确保该视频与我们的应用程序相关且不是垃圾邮件，请在其描述或标题中添加«{word}»一词！",
+    languageKr:
+        "동영상이 스팸이 아닌 우리 앱과 관련이 있는지 확인하려면 설명이나 제목에 «{word}»라는 단어를 추가하세요!",
   },
   'ActiveUser': {
     languageEn: "Active user",
@@ -12211,6 +13218,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Aktif kullanıcı",
     languageEs: "Usuario activo",
     languageCn: "活跃用户",
+    languageKr: "활성 사용자",
   },
   "AvailableFromLvl": {
     languageEn: "Available starting at {level} reputation level",
@@ -12222,6 +13230,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "{level} itibar seviyesinden itibaren kullanılabilir",
     languageEs: "Disponible a partir del nivel de reputación {level}.",
     languageCn: "从 {level} 声望级别开始可用",
+    languageKr: "평판 레벨 {level}부터 사용 가능",
   },
   'ReputationAndWhatIsIt': {
     languageEn: "Reputation levels and what they are",
@@ -12233,6 +13242,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "İtibar seviyeleri ve ne oldukları",
     languageEs: "Niveles de reputación y qué son",
     languageCn: "声誉等级及其含义",
+    languageKr: "평판 수준과 그 의미",
   },
   'ReputationExLoader': {
     languageEn: '''
@@ -12691,6 +13701,52 @@ La reputación se da y se quita por la participación en la vida social de la ap
   
 声望会因参与应用程序的社交活动而产生或消失，例如收到赞和不赞、撰写评论、上传配置、禁言等。您可以在个人档案中查看自己的声望等级！另外，在节假日和主题活动期间，您获得的所有经验都会翻倍、
 """,
+    languageKr: """
+-4 레벨 및 그 이상:
+  - '싫어요' 또는 '좋아요' 설정 불가능
+  - 매일 최대 2개의 댓글 작성 가능
+  - 매일 최대 1개의 설정 업로드 가능
+  - 다른 사람의 댓글, 설정 또는 lua에 불만 제기 불가능
+
+-3부터 -1 레벨:
+  - 매일 '싫어요' 1회만 설정 가능, '좋아요' 설정 불가능
+  - 매일 최대 4개의 댓글 작성 가능
+  - 매일 최대 2개의 설정 업로드 가능
+  - 다른 사람의 설정, lua 또는 댓글에 대해 매일 한 번씩만 의견 제시 가능
+
+레벨 0:
+  - 매일 '싫어요' 2회만 설정 가능
+  - 매일 최대 6개의 댓글 작성 가능
+  - 매일 최대 4개의 설정 업로드 가능
+  - 다른 사람의 설정, lua 또는 댓글에 대해 매일 한 번씩만 의견 제시 가능
+
+1에서 3 레벨:
+  - 매일 '싫어요' 6회까지 설정 가능
+  - 매일 최대 20개의 댓글 작성 가능
+  - 매일 최대 10개의 설정 업로드 가능
+  - 설정에 동영상 댓글 추가 가능
+
+레벨 3:
+  - 애니메이션 프로필 설정 가능
+
+4 및 5 레벨:
+  - 활발한 사용자 아이콘이 닉네임 옆에 표시됨
+  - 프로필 프레임 설정 가능
+  - 매일 최대 10회 '싫어요' 설정 가능
+  - 매일 최대 50개의 댓글 작성 가능
+  - 매일 최대 15개의 설정 업로드 가능
+
+레벨 5:
+  - 보호된 LUA 업로드 가능, 기본적인 확인은 거쳐야 함
+
+6 레벨 이상:
+  - 앞서 언급된 모든 혜택
+  - 매일 최대 14회 '싫어요' 설정 가능
+  - 매일 최대 200개의 댓글 작성 가능
+  - 매일 최대 25개의 설정 업로드 가능
+
+평판은 애플리케이션의 소셜 활동에 참여함에 따라 생성 또는 소멸되며, 좋아요 및 싫어요 받기, 댓글 작성, 설정 업로드, 금지 등이 포함됩니다. 개인 프로필에서 자신의 평판 레벨을 확인할 수 있습니다! 또한, 휴일 및 주제 행사 기간 동안 얻은 모든 경험은 두 배로 적용됩니다.
+""",
   },
   'ProtectedLuasAreNotAllowed': {
     languageEn:
@@ -12711,6 +13767,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Desafortunadamente no puedes subir LUAs inseguras, protegidas u ofuscadas. Está prohibido para garantizar la seguridad de otros usuarios. El rigor de comprobación de tu LUA disminuye a medida que aumenta tu nivel de reputación.",
     languageCn:
         "遗憾的是，您不能上传不安全的、受保护的或混淆的 LUA。这是为了确保其他用户的安全而禁止的！您的 LUA 检查严格程度会随着您的信誉等级的提高而降低。",
+    languageKr:
+        "안타깝게도 보안되지 않거나 보호되거나 난독화된 LUA는 업로드할 수 없습니다. 이는 다른 이용자의 안전을 위해 금지됩니다! 신뢰성 수준이 높아질수록 LUA 검사의 엄격성은 감소합니다.",
   },
   'ReputationLevelProgress': {
     languageEn:
@@ -12729,6 +13787,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "¡Ya has ganado {experience} para tu siguiente nivel de reputación!",
     languageCn: "您已经获得了下一级声望的 {experience}！",
+    languageKr: "다음 레벨의 평판에서 {experience}을(를) 얻었습니다!",
   },
   'HiddenAsNoun': {
     languageEn: 'Hidden',
@@ -12740,6 +13799,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Gizli",
     languageEs: "Oculto",
     languageCn: "隐藏",
+    languageKr: "숨김",
   },
   'NameRandomization': {
     languageEn: "Application's name randomization",
@@ -12751,6 +13811,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Uygulama adı randomizasyonu",
     languageEs: "Aleatorización del nombre de la aplicación",
     languageCn: "应用程序名称随机化",
+    languageKr: "애플리케이션 이름 무작위화",
   },
   'NameRandomizationDescription': {
     languageEn:
@@ -12770,6 +13831,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "El nombre del archivo ejecutable de la aplicación cambiará cada vez que se ejecute.",
     languageCn: "每次启动时，应用程序可执行文件的名称都会改变",
+    languageKr: "애플리케이션 실행 파일의 이름은 실행될 때마다 변경됩니다.",
   },
   'ReputationControll': {
     languageEn: "Reputation's experience management",
@@ -12781,6 +13843,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "İtibarın deneyim yönetimi",
     languageEs: "Gestión de la experiencia de la reputación",
     languageCn: "声誉经验管理",
+    languageKr: "평판 경험 관리",
   },
   'SubscriptionControll': {
     languageEn: "Subscription management",
@@ -12792,6 +13855,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Abonelik yönetimi",
     languageEs: "Gestión de suscripciones",
     languageCn: "订阅管理",
+    languageKr: "구독 관리",
   },
   'ExperienceIsDoubled': {
     languageEn:
@@ -12811,6 +13875,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "En honor a la celebración de las «{holiday}» toda la experiencia por likes, comentarios, cfg y demás actividad se duplica, ¡felices fiestas!{emoji}",
     languageCn: "为了庆祝 «{holiday}»，所有点赞、评论、cfg 和其他活动的经验都将翻倍，节日快乐！{emoji}。",
+    languageKr:
+        "«{holiday}»를 축하하기 위해 모든 좋아요, 댓글, cfg 및 기타 활동 경험이 두 배로 늘어납니다. 즐거운 휴일 보내세요! {emoji}.",
   },
   'DownloadModLauncher': {
     languageEn: "Download modification",
@@ -12822,6 +13888,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Modifikasyon indir",
     languageEs: "Descargar modificación",
     languageCn: "下载修改",
+    languageKr: "치트 다운로드",
   },
   'Support': {
     languageEn: "Support",
@@ -12833,6 +13900,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Destek",
     languageEs: "Ayuda",
     languageCn: "支持",
+    languageKr: "지원",
   },
   'LaunchOnlyInAnotherLauncher': {
     languageEn:
@@ -12853,6 +13921,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Desafortunadamente, el lanzamiento de esta modificación sólo está disponible después de instalar su propio lanzador, puedes hacerlo usando el botón de abajo. ¡Después de descargar el cargador, sólo tienes que seguir las instrucciones dejadas por los desarrolladores del mod!",
     languageCn:
         "不幸的是，只有在安装了自己的启动器后才能启动此修改，您可以使用下面的按钮进行安装。下载加载器后，只需按照修改程序开发人员留下的说明操作即可！",
+    languageKr:
+        "안타깝게도 이 치트는 아래 버튼을 사용하여 설치할 수 있는 자체 실행 프로그램을 설치한 경우에만 실행할 수 있습니다. 로더를 다운로드한 후 치트 개발자가 남긴 지침을 따르세요!",
   },
   'AlsoComponentsMightBeNeeded': {
     languageEn:
@@ -12872,6 +13942,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Además, puede que necesites instalar los siguientes componentes para ejecutar este mod y su cargador:",
     languageCn: "此外，您可能需要安装以下组件才能运行此 MOD 及其加载程序：",
+    languageKr:
+        "또한 이 치트와 해당 로더를 실행하려면 다음 구성 요소를 설치해야 할 수도 있습니다.",
   },
   // Like up to 5% of discount
   'UpTo': {
@@ -12884,6 +13956,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "kadar",
     languageEs: "hasta",
     languageCn: "到",
+    languageKr: "최대",
   },
   'ModIsNotCheckedYet': {
     languageEn: "Mod was not checked for virus threats absence",
@@ -12896,6 +13969,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Mod virüs tehditleri açısından kontrol edilmedi",
     languageEs: "Mod no se comprobó la ausencia de amenazas de virus",
     languageCn: "未检查是否存在病毒威胁",
+    languageKr: "바이러스 위협이 확인되지 않았습니다.",
   },
   'ModIsChecked': {
     languageEn: "Mod has been tested for absence of virus threats",
@@ -12908,6 +13982,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Mod, virüs tehdidi içermediği için test edilmiştir",
     languageEs: "Mod ha sido probado para la ausencia de amenazas de virus",
     languageCn: "模块已通过测试，不存在病毒威胁",
+    languageKr: "치트가 테스트를 통과했으며 바이러스 위협이 없습니다.",
   },
   'CrashesInfo': {
     languageEn: "Detailed information on mod's crashes statistics",
@@ -12921,6 +13996,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Información detallada sobre las estadísticas de colisiones de mods",
     languageCn: "有关修改器崩溃统计的详细信息",
+    languageKr: "치트 충돌 통계에 대한 세부정보",
   },
   'CrashesInfoUnavailable': {
     languageEn:
@@ -12940,6 +14016,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Por desgracia, no disponemos de estadísticas sobre las caídas de esas modificaciones, que no se lanzan a través de nuestra aplicación.",
     languageCn: "遗憾的是，我们没有关于这些修改崩溃的统计数据，因为它们不是通过我们的应用程序启动的！",
+    languageKr:
+        "안타깝게도 이러한 치트가 우리 애플리케이션을 통해 실행되지 않았기 때문에 충돌에 대한 통계가 없습니다!",
   },
   'BansInfo': {
     languageEn: "Extended analysis of mod's bans statistics",
@@ -12951,6 +14029,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Mod yasakları istatistiklerinin genişletilmiş analizi",
     languageEs: "Análisis ampliado de las estadísticas de expulsiones de mods",
     languageCn: "版主禁令统计扩展分析",
+    languageKr: "치트 금지 통계에 대한 확장된 분석",
   },
   'BansInfoUnavailable': {
     languageEn:
@@ -12970,6 +14049,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Lamentablemente, no recopilamos datos sobre las prohibiciones de modificaciones que no están en Steam.",
     languageCn: "遗憾的是，我们没有收集有关非 Steam 平台修改禁令的数据！",
+    languageKr: "불행하게도 우리는 Steam이 아닌 플랫폼의 모드 금지에 대한 데이터를 수집하지 않습니다!",
   },
   'NotifyAboutAnUpdate': {
     languageEn: "Notify us about mod's update",
@@ -12981,6 +14061,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Mod güncellemesi hakkında bizi bilgilendirin",
     languageEs: "Notifíquenos la actualización de mods",
     languageCn: "通知我们有关修改器的更新",
+    languageKr: "치트 업데이트에 대해 알림",
   },
   'NotifyAboutAnUpdateExtended': {
     languageEn:
@@ -13000,6 +14081,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Avísanos de la actualización del mod o de que\nha dejado de funcionar tras la actualización del juego",
     languageCn: "通知我们有关修改器更新的信息，\n或通知我们有关游戏更新后修改器停止工作的信息",
+    languageKr:
+        "치트 업데이트에 대해 알려주십시오.\또는 게임 업데이트 후 작동이 중지되는 치트에 대해 알려주십시오.",
   },
   'SteamBetaSelectionNeeded': {
     languageEn:
@@ -13020,6 +14103,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Para lanzar algunos o casi todos los mods para este juego necesitas habilitar su versión beta en Steam. Para ello, ve a tu biblioteca de Steam, selecciona el juego, abre sus propiedades, ve a versiones beta y habilita esta versión: «{version}»!",
     languageCn:
         "要启动该游戏的部分或几乎所有多器官功能障碍，您需要在 Steam 中启用其测试版。为此，请进入 Steam 库，选择游戏，打开其属性，转到测试版本并启用该版本：«{version}»！",
+    languageKr:
+        "게임 모드의 일부 또는 거의 전부를 실행하려면 Steam에서 베타 버전을 활성화해야 합니다. 이렇게 하려면 Steam 라이브러리로 이동하여 게임을 선택하고 해당 속성을 연 다음 베타 버전으로 이동하여 이 버전을 활성화하세요: «{version}»!",
   },
   'VideoGuideMinecraftDescription': {
     languageEn:
@@ -13039,6 +14124,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "¿Cómo lanzar esta modificación después de la instalación? Para grabar este vídeo hemos utilizado el Minecraft Launcher original, sin embargo, ¡esta guía funcionará con cualquier Launcher!",
     languageCn: "安装后如何启动此修改？为了录制这段视频，我们使用了原始的威廉与启动器，不过，本指南适用于任何启动器！",
+    languageKr:
+        "설치 후 이 치트를 어떻게 시작합니까? 이 비디오를 녹화하기 위해 우리는 원본 Willem & Launcher를 사용했지만 이 가이드는 모든 런처에서 작동합니다!",
   },
   'ViewVideoGuide': {
     languageEn: "Open the video-guide",
@@ -13050,6 +14137,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Video kılavuzu açın",
     languageEs: "Abrir la videoguía",
     languageCn: "打开视频指南",
+    languageKr: "비디오 가이드 열기",
   },
   'ViewTextGuide': {
     languageEn: "Open the text guide",
@@ -13061,6 +14149,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Metin talimatlarını göster",
     languageEs: "Mostrar instrucciones de texto",
     languageCn: "显示文字说明",
+    languageKr: "텍스트 설명 표시",
   },
   'VideoGuideDescription': {
     languageEn:
@@ -13080,6 +14169,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Instrucciones en vídeo sobre cómo iniciar o utilizar esta modificación:",
     languageCn: "关于如何启动或使用此改装的视频指导：",
+    languageKr: "이 치트를 시작하거나 사용하는 방법에 대한 비디오 튜토리얼:",
   },
   'UpdateObject': {
     languageEn: "Notification about an update of",
@@ -13091,6 +14181,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Bir güncelleme hakkında bildirim",
     languageEs: "Notificación sobre una actualización de",
     languageCn: "更新通知",
+    languageKr: "업데이트 알림",
   },
   'UpdateSourceLink': {
     languageEn: "Link to the update source",
@@ -13102,6 +14193,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Güncelleme kaynağına bağlantı",
     languageEs: "Enlace a la fuente de la actualización",
     languageCn: "更新源链接",
+    languageKr: "소스 링크 업데이트",
   },
   'LinkIsEmpty': {
     languageEn: "It looks like you provided an empty link!",
@@ -13114,6 +14206,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Görünüşe göre boş bir bağlantı vermişsiniz!",
     languageEs: "Parece que ha proporcionado un enlace vacío.",
     languageCn: "看起来你提供的是一个空链接！",
+    languageKr: "빈 링크를 제공한 것 같습니다!",
   },
   'WeAcceptOnlyTheseSources': {
     languageEn:
@@ -13134,6 +14227,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Para evitar la publicación de virus, sólo aceptamos las siguientes fuentes: el foro Unkn0wncheats, la sección verificada del foro YouGame, repositorios GitHub de código abierto o la misma fuente de la que se tomó la modificación: ¡{source}!",
     languageCn:
         "为避免发布病毒，我们只接受以下来源：Unkn0wncheats 论坛、YouGame 论坛上的验证版块、开源 GitHub 存储库，或与修改内容相同的来源：{source}！",
+    languageKr:
+        "바이러스 게시를 방지하기 위해 Unkn0wcheats 포럼, YouGame 포럼의 검증된 섹션, 오픈 소스 GitHub 저장소 또는 수정된 콘텐츠와 동일한 소스: {source}의 소스만 허용합니다!",
   },
   'ChangeAvatarFrame': {
     languageEn: "Change avatar frame",
@@ -13145,6 +14240,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Avatar çerçevesini değiştir",
     languageEs: "Cambiar el marco del avatar",
     languageCn: "更改头像框架",
+    languageKr: "아바타 프레임 변경",
   },
   'NoBeta': {
     languageEn: "Standard version of the game, with disabled beta version",
@@ -13156,6 +14252,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Oyunun standart sürümü, devre dışı bırakılmış beta sürümü ile",
     languageEs: "Versión estándar del juego, con la versión beta desactivada",
     languageCn: "标准版游戏，带禁用测试版",
+    languageKr: "베타가 비활성화된 게임의 표준 버전",
   },
   'AutoTranslation': {
     languageEn: "Automatic translation",
@@ -13167,6 +14264,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Otomatik çeviri",
     languageEs: "Traducción automática",
     languageCn: "自动翻译",
+    languageKr: "자동 번역",
   },
   'AutoTranslationDescription': {
     languageEn:
@@ -13186,6 +14284,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Todas las reseñas, configuraciones, LUAs y otros widgets se traducirán automáticamente a tu idioma",
     languageCn: "所有评论、配置、LUAs 和其他小工具都将自动翻译成您的语言",
+    languageKr: "모든 댓글, 구성, LUA 및 기타 가젯은 자동으로 귀하의 언어로 번역됩니다.",
   },
   'SetupForYourSelf': {
     languageEn: "Setup ExLoader for yourself!",
@@ -13197,6 +14296,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "ExLoader'ı kendiniz için kurun!",
     languageEs: "Instale ExLoader usted mismo",
     languageCn: "为自己设置 ExLoader！",
+    languageKr: "ExLoader를 직접 설정해 보세요!",
   },
   'AllTheseAndOtherSettings': {
     languageEn:
@@ -13216,6 +14316,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Todas estas y muchas otras preferencias se pueden cambiar en los ajustes de la aplicación en cualquier momento.",
     languageCn: "您可以随时在应用程序设置中更改所有这些和许多其他偏好设置！",
+    languageKr:
+        "앱 설정에서 언제든지 이 모든 기본 설정과 기타 다양한 기본 설정을 변경할 수 있습니다!",
   },
   'RestartWithLogOptions': {
     languageEn: "Restart ExLoader with debug mode",
@@ -13227,6 +14329,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "ExLoader'ı hata ayıklama moduyla yeniden başlatın",
     languageEs: "Reinicie ExLoader con el modo de depuración",
     languageCn: "以调试模式重启 ExLoader",
+    languageKr: "디버그 모드에서 ExLoader를 다시 시작합니다.",
   },
   'Logout': {
     languageEn: "Log out",
@@ -13238,6 +14341,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Oturumu kapat",
     languageEs: "Cerrar sesión",
     languageCn: "退出登录",
+    languageKr: "로그아웃",
   },
   'PleaseSayUsWatsWrongFirst': {
     languageEn:
@@ -13258,6 +14362,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Para poner una nota baja (1 o 2) a esta modificación, debes dejar un comentario describiendo qué es exactamente lo que no te ha gustado de ella. Esto ayudará al desarrollador a solucionar tu problema y a mejorar el mod.",
     languageCn:
         "为了给此修改设置低分（1 分或 2 分），您必须留下评论，说明您不喜欢它的具体原因。这将有助于开发人员解决您的问题，使修改更完善！",
+    languageKr:
+        "이 치트에 대해 낮은 점수(1 또는 2)를 주려면 마음에 들지 않는 구체적인 이유와 함께 리뷰를 남겨야 합니다. 이는 개발자가 문제를 해결하고 치트를 더욱 완벽하게 만드는 데 도움이 됩니다!",
   },
   'OtherMods': {
     languageEn: "🎲 Other modifications",
@@ -13269,6 +14375,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "🎲 Diğer modifikasyonlar",
     languageEs: "🎲 Otras modificaciones",
     languageCn: "🎲 其他修改",
+    languageKr: "🎲 기타치트",
   },
   'OtherModsDescription': {
     languageEn:
@@ -13288,6 +14395,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Todos los mods para este juego que alguna vez estuvieron presentes en ExLoader se pueden ver aquí",
     languageCn: "在 ExLoader 中出现过的该游戏的所有修改器都可以在这里看到",
+    languageKr: "ExLoader에 등장한 게임의 모든 치트를 여기에서 볼 수 있습니다.",
   },
   'AutoProfanityHide': {
     languageEn: "Hide profanity",
@@ -13299,6 +14407,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Küfürleri gizle",
     languageEs: "Ocultar blasfemias",
     languageCn: "隐藏脏话",
+    languageKr: "욕설 숨기기",
   },
   'NotInformativeText': {
     languageEn: "Come up with something more adequate and/or informative!",
@@ -13311,6 +14420,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Daha uygun ve/veya bilgilendirici bir şeyle gelin!",
     languageEs: "Propón algo más adecuado y/o informativo.",
     languageCn: "拿出更充分和/或更有信息量的东西！",
+    languageKr: "좀 더 실질적이고 유익한 내용을 생각해 보세요!",
   },
   'AutoProfanityHideDescription': {
     languageEn:
@@ -13330,6 +14440,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Todos los comentarios con lenguaje soez se ocultarán automáticamente, ni siquiera sabrás que existen",
     languageCn: "所有粗言秽语的评论将被自动隐藏，您甚至不会知道它们的存在",
+    languageKr: "모든 욕설 댓글은 자동으로 숨겨지며 해당 댓글이 존재하는지조차 알 수 없습니다.",
   },
   'AutoProfanityWrapping': {
     languageEn: "Warn of the presence of foul language",
@@ -13341,6 +14452,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Küfürlü dilin varlığı konusunda uyarın",
     languageEs: "Advertir de la presencia de lenguaje soez",
     languageCn: "警告出现粗言秽语",
+    languageKr: "저속한 언어에 대한 경고",
   },
   'AutoProfanityWrappingDescription': {
     languageEn:
@@ -13360,6 +14472,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Todos los comentarios que contengan blasfemias irán acompañados de una advertencia especial que ocultará temporalmente su aparición.",
     languageCn: "所有带有亵渎语言的评论都会被特殊警告包装起来，暂时隐藏其外观",
+    languageKr:
+        "욕설이 포함된 모든 댓글은 특별 경고로 처리되어 일시적으로 모습이 숨겨집니다.",
   },
   'IDoNotKnowTheUpdateLink': {
     languageEn:
@@ -13379,6 +14493,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Este mod ha dejado de funcionar tras la última actualización del juego y quiero informar de ello.",
     languageCn: "上一次游戏更新后，这个修改器就停止工作了，我想报告一下！",
+    languageKr:
+        "이 치트는 마지막 게임 업데이트 이후 작동이 중지되어 이를 신고하고 싶었습니다!",
   },
   'DebugConsole': {
     languageEn: "Debug console",
@@ -13390,6 +14506,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Hata ayıklama konsolu",
     languageEs: "Consola de depuración",
     languageCn: "调试控制台",
+    languageKr: "디버그 콘솔",
   },
   'SocialPromo': {
     languageEn:
@@ -13410,6 +14527,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Únete a nuestro servidor Discord de habla inglesa y de la UE, donde encontrarás una comunidad de jugadores de mods, apoyo, diferentes roles y muchas otras cosas interesantes. Haz clic para abrir o desliza el dedo hacia los lados para ocultar este aviso.",
     languageCn:
         "加入我们的欧盟/亚洲和英语 Discord 服务器，在这里您可以找到 mod 游戏社区、支持、不同角色和许多其他很酷的东西！点击打开，或横向滑动隐藏此公告。",
+    languageKr:
+        "치트 게임 커뮤니티, 지원, 다양한 캐릭터 및 기타 멋진 것들을 찾을 수 있는 EU/아시아 및 영어 Discord 서버에 가입하세요! 이 공지사항을 열려면 클릭하고, 숨기려면 가로로 스와이프하세요.",
   },
   'WhereToDownloadGame': {
     languageEn:
@@ -13429,6 +14548,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "¿No sabes dónde descargar el juego {Game} para lanzar estos mods? Entonces haz clic en el botón lateral o intenta encontrar manualmente la versión necesaria en Internet.",
     languageCn: "不知道从哪里下载 {Game} 游戏来启动这些修改器？那就点击旁边的按钮或尝试在互联网上手动查找所需的版本！",
+    languageKr:
+        "이러한 치트를 활성화하려면 {Game}을 어디서 다운로드해야 할지 모르시나요? 그런 다음 옆에 있는 버튼을 클릭하거나 인터넷에서 수동으로 필요한 버전을 찾아보세요!",
   },
   'Download': {
     languageEn: "Download",
@@ -13440,6 +14561,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "İndir",
     languageEs: "Descargar",
     languageCn: "下载",
+    languageKr: "다운로드",
   },
   'NoComments': {
     languageEn:
@@ -13459,6 +14581,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Parece que nadie ha añadido una sola revisión para este mod, cfg o lua todavía. ¡Puedes ser el primero en hacerlo!",
     languageCn: "看起来还没有人对此 mod、cfg 或 lua 进行评论。您可以成为第一个这样做的人！",
+    languageKr:
+        "아직 이 치트, cfg 또는 lua에 대해 아무도 댓글을 달지 않은 것 같습니다. 당신이 가장 먼저 그렇게 할 수 있습니다!",
   },
   'PlaceForAnAd': {
     languageEn: "Place for an ad...",
@@ -13470,6 +14594,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Reklam için bir yer...",
     languageEs: "Lugar para un anuncio...",
     languageCn: "广告位置...",
+    languageKr: "광고 게재위치...",
   },
   'Ad': {
     languageEn: "Advertisement",
@@ -13481,6 +14606,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Reklam",
     languageEs: "Publicidad",
     languageCn: "广告",
+    languageKr: "광고",
   },
   'OnlyTrusted': {
     languageEn: "Add only virus-checked mod files to antivirus exceptions",
@@ -13498,6 +14624,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Añadir a las excepciones del antivirus sólo los archivos mod verificados por virus",
     languageCn: "只将经过病毒检测的 mod 文件添加到杀毒软件的例外情况中",
+    languageKr:
+        "바이러스 백신 소프트웨어 예외에 둔 바이러스 검사 치트 파일만 추가",
   },
   'EvenUntrusted': {
     languageEn: "Add both virus-checked and virus-unchecked mods files",
@@ -13513,6 +14641,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Hem virüs kontrollü hem de virüs kontrolsüz mod dosyaları ekleyin",
     languageEs: "Añade archivos mods con y sin virus",
     languageCn: "添加已检查病毒和未检查病毒的修改文件",
+    languageKr:
+        "바이러스 검사 및 검사 해제된 수정 파일 추가",
   },
   'NoTrustedNoUntrusted': {
     languageEn: "Do not add any files to antivirus exclusions at all",
@@ -13524,6 +14654,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Antivirüs istisnalarına hiçbir dosya eklemeyin",
     languageEs: "No añadir ningún archivo a las exclusiones del antivirus",
     languageCn: "完全不在杀毒软件排除项中添加任何文件",
+    languageKr: "바이러스 백신 제외에 파일을 전혀 추가하지 마세요.",
   },
   'PopularInSeason': {
     languageEn: "Popular within season",
@@ -13535,6 +14666,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Sezon içinde popüler",
     languageEs: "Popular en temporada",
     languageCn: "季节内受欢迎",
+    languageKr: "시즌 인기",
   },
   'CustomMapperSettings': {
     languageEn:
@@ -13555,6 +14687,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Estas opciones están creadas para personas que entienden algo de cartografía de bibliotecas. Si no sabes nada de estas opciones, ¡es mejor que no las toques! Las opciones se restablecen con el reinicio de la aplicación y aplican sólo sus propios mods de mapeo de la sección correspondiente (casi todos).",
     languageCn:
         "这些选项是为了解图书馆映射的人设计的。如果你对这些选项一无所知，最好不要触碰它们！这些选项会在应用程序重启时重置，并且只应用相应部分（几乎全部）中自己的修改映射。",
+    languageKr:
+        "이러한 옵션은 라이브러리 매핑을 이해하는 사람들을 위해 설계되었습니다. 이러한 옵션에 대해 아무것도 모른다면, 해당 옵션을 건드리지 않는 것이 가장 좋습니다! 이러한 옵션은 애플리케이션을 다시 시작할 때 재설정되며 해당 섹션의 자체 수정 매핑(거의 모두)만 적용됩니다.",
   },
   'NewClientVersion': {
     languageEn: "New client version: {version}!",
@@ -13566,6 +14700,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Yeni istemci sürümü: {version}!",
     languageEs: "Nueva versión de cliente: ¡{version}!",
     languageCn: "新客户端版本：{version}！",
+    languageKr: "새 클라이언트 버전: {version}!",
   },
   'OnlyLastReviews': {
     languageEn:
@@ -13585,6 +14720,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Con esta opción de clasificación, sólo verá los comentarios que se hayan escrito en los últimos 45 días. Para ver todos los comentarios, seleccione cualquier otra opción de clasificación.",
     languageCn: "使用该排序选项，您只能看到最近 45 天内撰写的评论！要查看所有评论，请选择其他排序选项。",
+    languageKr:
+        "이 정렬 옵션을 사용하면 지난 45일 이내에 작성된 리뷰만 볼 수 있습니다! 모든 댓글을 보려면 다른 정렬 옵션을 선택하세요.",
   },
   'DownloadLinksCanBeFoundInTheLibrary': {
     languageEn:
@@ -13604,6 +14741,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Los enlaces de descarga para esta versión pirata del juego están disponibles en la biblioteca ExLoader, ¡donde se encuentran todos los mods para {game}!",
     languageCn: "此盗版游戏的下载链接可在 ExLoader 库中找到，{game} 的所有修改器都位于此库中！",
+    languageKr:
+        "이 불법 복제 게임의 다운로드 링크는 {game}에 대한 모든 수정자가 있는 ExLoader 저장소에서 찾을 수 있습니다!",
   },
   'DownloadLinksCanBeFoundInTheInternet': {
     languageEn:
@@ -13623,6 +14762,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Los enlaces de descarga de esta versión pirata del juego se pueden encontrar en YouTube o con cualquier buscador de internet, ¡no es tan difícil!",
     languageCn: "这种盗版游戏的下载链接可以在 YouTube 或互联网上的任何搜索引擎上找到，并不难！",
+    languageKr:
+        "이 불법 복제 게임의 다운로드 링크는 YouTube나 인터넷 검색 엔진에서 찾을 수 있습니다. 어렵지 않습니다!",
   },
   'LookForModsVersions': {
     languageEn:
@@ -13642,6 +14783,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Cuando elija una versión del cliente pirata, céntrese en las versiones compatibles con esta modificación: {versions}.",
     languageCn: "在选择盗版客户端版本时，请关注本修改支持的版本：{versions}。",
+    languageKr:
+        "불법 복제된 클라이언트 버전을 선택할 때 이 치트가 지원하는 버전({versions})에 주의하세요.",
   },
   'ThereMightBeAnAntivirusIssue': {
     languageEn:
@@ -13662,6 +14805,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Parece que durante el último lanzamiento de una de las modificaciones te encontraste con un fallo de ExLoader. Lo más probable es que esto haya sucedido debido a algún software antivirus que impide el lanzamiento de las modificaciones. En esta situación, la única solución al problema es eliminar completamente aquellos antivirus que pudieran afectarlo. Nota, la eliminación de antivirus debe hacerse desde el Panel de Control de Windows, no con la ayuda de algunas utilidades de terceros.\n\nSi ya has desinstalado todos los antivirus que interferían, pero el problema persiste, intenta descargar la «Herramienta de desinstalación del nombre del antivirus» hasta en la página oficial del antivirus, y desinstala este software con ella.\n\n¡Puede omitir este error utilizando el botón de abajo!",
     languageCn:
         "似乎在上次启动某个修改时，您遇到了 ExLoader 崩溃。很有可能是因为某些杀毒软件阻止了修改的启动。在这种情况下，解决问题的唯一办法就是彻底清除那些可能对其产生影响的杀毒软件。请注意，应在 Windows 控制面板中删除杀毒软件，而不是借助某些第三方实用程序。\n\n如果已经卸载了所有干扰的杀毒软件，但问题仍然存在，请尝试在杀毒软件的官方网站上下载 «杀毒软件名称卸载工具»，并用它卸载该软件！ 您可以使用下面的按钮跳过此错误！",
+    languageKr:
+        "마지막으로 치트를 시작했을 때 ExLoader 충돌이 발생한 것 같습니다. 대부분의 경우 일부 바이러스 백신 소프트웨어로 인해 치트가 시작되지 않습니다. 이 경우 문제를 해결하는 유일한 방법은 영향을 미칠 수 있는 바이러스 백신 소프트웨어를 완전히 제거하는 것입니다. 바이러스 백신 소프트웨어는 일부 타사 유틸리티를 사용하기보다는 Windows 제어판에서 제거해야 합니다. \n\n방해하는 바이러스 백신 소프트웨어를 모두 제거했지만 문제가 계속 지속되는 경우, 바이러스 백신 소프트웨어 공식 웹사이트에서 '바이러스 백신 소프트웨어 이름 제거 도구'를 다운로드하여 소프트웨어를 제거해 보십시오. ! 아래 버튼을 사용하면 이 오류를 건너뛸 수 있습니다!",
   },
   'NextCheckWithin': {
     languageEn: "The next game settings check is within",
@@ -13673,6 +14818,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Bir sonraki oyun ayarları kontrolü",
     languageEs: "La próxima prueba de juego a través de",
     languageCn: "下一次游戏设置检查在",
+    languageKr: "다음 게임 설정 확인",
   },
   'GameMustBeMaximizedWhenCheckIsBeingDone': {
     languageEn:
@@ -13692,6 +14838,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "La ventana del juego debe maximizarse y abrirse cuando la barra de progreso esté a punto de llenarse para comprobar los parámetros del juego.",
     languageCn: "游戏窗口必须最大化，并在进度条即将填满时打开，以便检查游戏参数！",
+    languageKr:
+        "게임 매개변수를 확인하려면 진행률 표시줄이 채워지려고 할 때 게임 창을 최대화하고 열어야 합니다!",
   },
   'Unknown': {
     languageEn: 'Unknown',
@@ -13703,6 +14851,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Bilinmiyor",
     languageEs: "Desconocido",
     languageCn: "未知",
+    languageKr: "알려지지 않은",
   },
   'MirrorBackground': {
     languageEn: 'Mirror selected background image',
@@ -13714,6 +14863,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Seçilen arka plan görüntüsünü yansıtma",
     languageEs: "Reflejar la imagen de fondo seleccionada",
     languageCn: "镜像所选背景图片",
+    languageKr: "선택한 배경 이미지 미러링",
   },
   'MirrorBackgroundDescription': {
     languageEn:
@@ -13733,6 +14883,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "La imagen seleccionada se invertirá de izquierda a derecha o viceversa, dependiendo de si esta opción está activada o no.",
     languageCn: "所选图像将从左到右反转，反之亦然，取决于是否启用该选项",
+    languageKr:
+        "옵션 활성화 여부에 따라 선택한 이미지가 왼쪽에서 오른쪽으로 또는 그 반대로 반전됩니다.",
   },
   'StartScrollingToLoadComments': {
     languageEn: 'Start scrolling to load comments',
@@ -13744,6 +14896,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Yorumları yüklemek için kaydırmaya başlayın",
     languageEs: "Empiece a desplazarse para cargar los comentarios",
     languageCn: "开始滚动以加载评论",
+    languageKr: "댓글을 로드하려면 스크롤을 시작하세요.",
   },
   'PlaytimeSort': {
     languageEn: 'By the total played time',
@@ -13755,6 +14908,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Toplam oyun süresine göre",
     languageEs: "Por el tiempo total jugado",
     languageCn: "按总播放时间计算",
+    languageKr: "총 플레이 시간을 기준으로 계산",
   },
   'LastLaunchSort': {
     languageEn: 'By the date of the last launch',
@@ -13766,6 +14920,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Son fırlatma tarihine kadar",
     languageEs: "En la fecha del último lanzamiento",
     languageCn: "最后一次发射日期",
+    languageKr: "마지막 출시일",
   },
   'LaunchesSort': {
     languageEn: 'By the number of launches',
@@ -13777,6 +14932,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Fırlatma sayısına göre",
     languageEs: "Por el número de lanzamientos",
     languageCn: "按发射次数",
+    languageKr: "발사 횟수를 누르세요",
   },
   'MaybeVideoIsDeleted': {
     languageEn: 'This video may have already been deleted!',
@@ -13788,6 +14944,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Bu video çoktan silinmiş olabilir!",
     languageEs: "Puede que este vídeo ya se haya eliminado.",
     languageCn: "该视频可能已被删除！",
+    languageKr: "이 영상은 삭제되었을 수도 있습니다!",
   },
   'PleaseTellUsWhatIsWrong': {
     languageEn:
@@ -13807,6 +14964,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         'Describa el problema exacto que ha tenido con este mod en la columna "{textishere}".',
     languageCn: '在 "{textishere}" 栏中描述此修改器发生的确切问题！',
+    languageKr:
+        "'{textishere}' 열에서 이 치트에 발생하는 정확한 문제를 설명하세요!",
   },
   'RecentReviewsDescription': {
     languageEn: 'List of all recent reviews for all modifications',
@@ -13819,6 +14978,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Lista de todas las revisiones recientes de todas las modificaciones",
     languageCn: "所有修改的最新审查清单",
+    languageKr: "모든 치트의 최신 검토 목록",
   },
   'AllParts': {
     languageEn: '(all parts)',
@@ -13830,6 +14990,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "(tüm parçalar)",
     languageEs: "(todas las partes)",
     languageCn: "(所有部分)",
+    languageKr: "(모든 부분)",
   },
   'SomeGamesAreCombined': {
     languageEn: 'Some of the games are combined into a single card to save space. For example, a lot parts of Battlefield, Call of Duty, Counter-Strike, etc.',
@@ -13841,6 +15002,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Bazı oyunlar yerden tasarruf etmek için tek bir kartta birleştirilmiştir. Örneğin, Battlefield, Call of Duty, Counter-Strike vb. oyunların birçok parçası.",
     languageEs: "Algunos juegos se combinan en una sola tarjeta para ahorrar espacio. Por ejemplo, muchas partes de Battlefield, Call of Duty, Counter-Strike, etc.",
     languageCn: "为了节省空间，有些游戏被合并到一张卡中。例如，《战地》、《使命召唤》、《反恐精英》等游戏的很多部分。",
+    languageKr:
+        "공간을 절약하기 위해 일부 게임은 단일 카드에 결합됩니다. 예를 들어 Battlefield, Call of Duty 및 Counter-Strike와 같은 게임의 많은 부분이 있습니다.",
   },
   'PleaseUseNormalVersion': {
     languageEn: 'Use the selected version of the mod only with the specified version of the game! If you try to use the mod on any other version of the game, it will simply crash, the mod will not work or you will encounter any other similar problem!',
@@ -13852,5 +15015,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Modun seçilen sürümünü sadece oyunun belirtilen sürümü ile kullanın! Modu oyunun başka bir sürümünde kullanmaya çalışırsanız, basitçe çökecek, mod çalışmayacak veya benzer başka bir sorunla karşılaşacaksınız!",
     languageEs: "Utiliza la versión seleccionada del mod sólo con la versión especificada del juego. Si intentas utilizar el mod con cualquier otra versión del juego, simplemente se bloqueará, el mod no funcionará o te encontrarás con algún otro problema similar.",
     languageCn: "只能在指定版本的游戏中使用所选版本的 MOD！如果您尝试在任何其他版本的游戏中使用该 MOD，它将直接崩溃、无法运行或遇到其他类似问题！",
+    languageKr:
+        "선택한 버전의 치트는 지정된 버전의 게임에서만 사용할 수 있습니다! 다른 버전의 게임에서 이 모드를 사용하려고 하면 충돌이 발생하거나 실행이 실패하거나 기타 유사한 문제가 발생합니다!",
   },
 };
