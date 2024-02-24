@@ -1298,10 +1298,10 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'Complain': {
     languageEn: "Complain",
-    languageRu: 'Пожаловаться',
-    languageUa: 'Поскаржитися',
+    languageRu: 'Жалоба',
+    languageUa: 'Скарга',
     languagePl: 'Zgłoś',
-    languageDe: "Sich beklagen",
+    languageDe: "Bescheid",
     languageIt: 'Reclamo',
     languageTr: "Şikayet et",
     languageEs: "Reclame",
@@ -2721,23 +2721,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'GameUpdateMessage': {
     languageEn:
-        'Please note that there was a {game} update in recent days. This means that some modifications may start working in an unstable way and lead to crashes of the game! If you encounter such a problem, just wait for the developers to update their project. Usually, this happens within a few hours to several days. Remember, that the ExLoader team does not create or update modifications, we only publish their current versions to our library!',
+        'Please note that there was a «{game}» update in recent days. This means that some modifications may start working in an unstable way and lead to crashes of the game! If you encounter such a problem, just wait for the developers to update their project. Usually, this happens within a few hours to several days. Remember, that the ExLoader team does not create or update modifications, we only publish their current versions to our library!',
     languageRu:
-        'Обрати внимание, что в последние дни вышло обновление {game}. Это означает, что некоторые привычные для тебя модификации могут начать работать нестабильно и привести к вылетам игры! Если ты столкнулся с подобной проблемой, просто ожидай, пока разработчик обновит свой проект. Обычно, это происходит в течение от нескольких часов до нескольких дней. Помни, что команда ExLoader не занимается созданием, и обновлением модификаций, мы лишь публикуем их актуальные версии в нашу библиотеку!',
+        'Обрати внимание, что в последние дни вышло обновление «{game}». Это означает, что некоторые привычные для тебя модификации могут начать работать нестабильно и привести к вылетам игры! Если ты столкнулся с подобной проблемой, просто ожидай, пока разработчик обновит свой проект. Обычно, это происходит в течение от нескольких часов до нескольких дней. Помни, что команда ExLoader не занимается созданием, и обновлением модификаций, мы лишь публикуем их актуальные версии в нашу библиотеку!',
     languageUa:
-        "Зверни увагу, що в останні дні вийшло оновлення {game}. Це означає, що деякі звичні для тебе модифікації можуть почати працювати нестабільно і привести до вильотів гри! Якщо ти зіткнулся з подібною проблемою, просто чекай, поки розробник оновить свій проект. Зазвичай, це відбувається протягом від декількох годин до декількох днів. Пам'ятай, що команда ExLoader не займається створенням, і оновленням модифікацій, ми лише публікуємо їх актуальні версії в нашу бібліотеку!",
+        "Зверни увагу, що в останні дні вийшло оновлення «{game}». Це означає, що деякі звичні для тебе модифікації можуть почати працювати нестабільно і привести до вильотів гри! Якщо ти зіткнулся з подібною проблемою, просто чекай, поки розробник оновить свій проект. Зазвичай, це відбувається протягом від декількох годин до декількох днів. Пам'ятай, що команда ExLoader не займається створенням, і оновленням модифікацій, ми лише публікуємо їх актуальні версії в нашу бібліотеку!",
     languagePl:
-        'Pamiętaj, że w ciągu ostatnich kilku dni została wydana aktualizacja {game}. Oznacza to, że niektóre modyfikacje mogą zacząć działać niestabilnie co prowadzi do zcrashowania gry! Jeśli napotkasz podobny problem, po prostu poczekaj podczas gdy developer zaaktualizuje swój projekt. Zwykle trwa to od kilku godzin do kilku dni. Pamiętaj, że zespół ExLoader nie tworzy i nie aktualizuje modyfikacji, publikujemy tylko ich aktualne wersje w naszej bibliotece!',
+        'Pamiętaj, że w ciągu ostatnich kilku dni została wydana aktualizacja «{game}». Oznacza to, że niektóre modyfikacje mogą zacząć działać niestabilnie co prowadzi do zcrashowania gry! Jeśli napotkasz podobny problem, po prostu poczekaj podczas gdy developer zaaktualizuje swój projekt. Zwykle trwa to od kilku godzin do kilku dni. Pamiętaj, że zespół ExLoader nie tworzy i nie aktualizuje modyfikacji, publikujemy tylko ich aktualne wersje w naszej bibliotece!',
     languageDe:
-        'Bitte beachten Sie, dass in den letzten Tagen das {game} veröffentlicht wurde. Dies bedeutet, dass einige Modifikationen, an die Sie gewöhnt sind,  angefangen werden können. funktioniert instabil und führt zu Spielabstürzen! Wenn Sie auf ein ähnliches Problem stoßen, warten Sie während der Entwickler aktualisiert Ihr Projekt. Normalerweise geschieht dies innerhalb weniger Stunden bis zu mehreren Tagen. Denken Sie daran, dass der Befehl ExLoader nicht erstellt, sondern und aktualisieren die Mods, wir veröffentlichen nur ihre aktuellen Versionen in unserer Bibliothek!',
+        'Bitte beachten Sie, dass in den letzten Tagen das «{game}» veröffentlicht wurde. Dies bedeutet, dass einige Modifikationen, an die Sie gewöhnt sind,  angefangen werden können. funktioniert instabil und führt zu Spielabstürzen! Wenn Sie auf ein ähnliches Problem stoßen, warten Sie während der Entwickler aktualisiert Ihr Projekt. Normalerweise geschieht dies innerhalb weniger Stunden bis zu mehreren Tagen. Denken Sie daran, dass der Befehl ExLoader nicht erstellt, sondern und aktualisieren die Mods, wir veröffentlichen nur ihre aktuellen Versionen in unserer Bibliothek!',
     languageIt:
-        'Si prega di notare che negli ultimi giorni è stato effettuato un aggiornamento del {game}. Ciò significa che alcune modifiche potrebbero iniziare a funzionare in modo instabile e causare crash del gioco! Se riscontrate questo problema, aspettate che gli sviluppatori aggiornino il loro progetto. Di solito, questo avviene nel giro di poche ore o di alcuni giorni. Ricordate che il team di ExLoader non crea né aggiorna le modifiche, ma si limita a pubblicare le loro versioni correnti nella nostra libreria!',
+        'Si prega di notare che negli ultimi giorni è stato effettuato un aggiornamento del «{game}». Ciò significa che alcune modifiche potrebbero iniziare a funzionare in modo instabile e causare crash del gioco! Se riscontrate questo problema, aspettate che gli sviluppatori aggiornino il loro progetto. Di solito, questo avviene nel giro di poche ore o di alcuni giorni. Ricordate che il team di ExLoader non crea né aggiorna le modifiche, ma si limita a pubblicare le loro versioni correnti nella nostra libreria!',
     languageTr:
-        "Lütfen son günlerde bir {game} güncellemesi olduğunu unutmayın. Bu, bazı değişikliklerin kararsız bir şekilde çalışmaya başlayabileceği ve oyunun çökmesine neden olabileceği anlamına gelir! Böyle bir sorunla karşılaşırsanız, geliştiricilerin projelerini güncellemelerini bekleyin. Genellikle, bu birkaç saat ila birkaç gün içinde gerçekleşir. Unutmayın, ExLoader ekibi değişiklikleri oluşturmaz veya güncellemez, sadece mevcut sürümlerini kütüphanemizde yayınlarız!",
+        "Lütfen son günlerde bir «{game}» güncellemesi olduğunu unutmayın. Bu, bazı değişikliklerin kararsız bir şekilde çalışmaya başlayabileceği ve oyunun çökmesine neden olabileceği anlamına gelir! Böyle bir sorunla karşılaşırsanız, geliştiricilerin projelerini güncellemelerini bekleyin. Genellikle, bu birkaç saat ila birkaç gün içinde gerçekleşir. Unutmayın, ExLoader ekibi değişiklikleri oluşturmaz veya güncellemez, sadece mevcut sürümlerini kütüphanemizde yayınlarız!",
     languageEs:
-        "Por favor, ten en cuenta que ha habido una actualización del {game} en los últimos días. Esto significa que algunas modificaciones pueden empezar a funcionar de forma inestable y provocar fallos en el juego. Si te encuentras con un problema de este tipo, simplemente espera a que los desarrolladores actualicen su proyecto. Normalmente, esto ocurre en un plazo de entre unas horas y varios días. Recuerda que el equipo de ExLoader no crea ni actualiza modificaciones, ¡sólo publicamos sus versiones actuales en nuestra biblioteca!",
+        "Por favor, ten en cuenta que ha habido una actualización del «{game}» en los últimos días. Esto significa que algunas modificaciones pueden empezar a funcionar de forma inestable y provocar fallos en el juego. Si te encuentras con un problema de este tipo, simplemente espera a que los desarrolladores actualicen su proyecto. Normalmente, esto ocurre en un plazo de entre unas horas y varios días. Recuerda que el equipo de ExLoader no crea ni actualiza modificaciones, ¡sólo publicamos sus versiones actuales en nuestra biblioteca!",
     languageCn:
-        "请注意，最近几天进行了 {game} 更新。这意味着某些修改可能会开始以不稳定的方式运行，并导致游戏崩溃！如果您遇到此类问题，请等待开发人员更新项目。通常情况下，这种情况会在几小时到几天内发生。请记住，ExLoader 团队不会创建或更新修改，我们只会将其当前版本发布到我们的库中！",
+        "请注意，最近几天进行了 «{game}» 更新。这意味着某些修改可能会开始以不稳定的方式运行，并导致游戏崩溃！如果您遇到此类问题，请等待开发人员更新项目。通常情况下，这种情况会在几小时到几天内发生。请记住，ExLoader 团队不会创建或更新修改，我们只会将其当前版本发布到我们的库中！",
   },
   'GoogleAuthPageDescription': {
     languageEn: "Validation is completed, you can go back to the application",
@@ -3763,6 +3763,26 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr: "Bu bölüm mobil modifikasyonlar için mevcut değildir!",
     languageEs: "Esta sección no está disponible para modificaciones móviles.",
     languageCn: "本部分不适用于手机修改！",
+  },
+  "NotForMobileAsLaunch": {
+    languageEn:
+        "You can launch or install this mod only with your PC! Launching mods from your phone is not possible, as this is just a client for easy update information tracking, statistics and talking with other ExLoader users in comments!",
+    languageRu:
+        'Ты можешь запустить или же установить эту модификацию только со своего ПК! Запуск модов с телефона невозможен, так как это просто клиент для удобного отслеживания информации об апдейтах, статистики и общения в комменитариях с другими пользователями ExLoader!',
+    languageUa:
+        "Ти можеш запустити або ж встановити цю модифікацію тільки зі свого ПК! Запуск модів з телефону неможливий, тому що це просто клієнт для зручного відстеження інформації про апдейти, статистики і спілкування в коментарях з іншими користувачами ExLoader!",
+    languagePl:
+        'Możesz uruchomić lub zainstalować ten mod tylko z komputera! Uruchamianie modów z telefonu nie jest możliwe, ponieważ jest to tylko klient do łatwego śledzenia informacji o aktualizacjach, statystyk i komunikowania się w komentarzach z innymi użytkownikami ExLoadera!',
+    languageDe:
+        "Sie können diese Mod nur von Ihrem PC aus ausführen oder installieren! Das Ausführen von Mods von Ihrem Telefon ist nicht möglich, da dies nur ein Client für die einfache Verfolgung von Update-Informationen, Statistiken und Kommunikation in Kommentaren mit anderen ExLoader-Benutzern ist!",
+    languageIt:
+        "Puoi eseguire o installare questa mod solo dal tuo PC! L'esecuzione di mod dal telefono non è possibile, in quanto questo è solo un client per monitorare facilmente le informazioni sugli aggiornamenti, le statistiche e comunicare nei commenti con altri utenti di ExLoader!",
+    languageTr:
+        "Bu modu yalnızca bilgisayarınızdan çalıştırabilir veya yükleyebilirsiniz! Telefonunuzdan mod çalıştırmak mümkün değildir, çünkü bu sadece güncelleme bilgilerinin, istatistiklerin kolay takibi ve diğer ExLoader kullanıcılarıyla yorumlarda iletişim kurmak için bir istemcidir!",
+    languageEs:
+        "¡Puede ejecutar o instalar este mod sólo desde su PC! ¡Ejecutar mods desde su teléfono no es posible, ya que esto es sólo un cliente para facilitar el seguimiento de la información de actualización, las estadísticas y la comunicación en los comentarios con otros usuarios ExLoader!",
+    languageCn:
+        "您只能在电脑上运行或安装此模块！无法通过手机运行 MOD，因为这只是一个客户端，用于轻松跟踪更新信息、统计数据以及与其他 ExLoader 用户进行评论交流！",
   },
   'NoLaunchGuide': {
     languageEn:
@@ -8263,7 +8283,7 @@ const Map<String, Map<String, String>> localeItems = {
 17. Intenta eludir las normas encontrando lagunas. Si lo haces, ¡actualizaremos las normas y te castigaremos por incumplirlas de todos modos!
 """,
     languageCn: """
-1. 侮辱、攻击、威胁或挑衅应用程序的其他用户（"他先开始 "规则在此不适用）。
+1. 侮辱、攻击、威胁或挑衅应用程序的其他用户（他先开始 规则在此不适用）。
 
 2. 试图挑衅其他用户违反 ExLoader 规则。
 
@@ -8273,7 +8293,7 @@ const Map<String, Map<String, String>> localeItems = {
 
 5. 以任何形式发布 18+ 或令人震惊的内容（GIF、图片、视频、文字描述、链接等，包括色情、暴力、不雅观或其他类似场景）。
 
-6. 在您的头像、昵称、状态或社交网络链接中使用第 "5 "条所述材料。
+6. 在您的头像、昵称、状态或社交网络链接中使用第 5 条所述材料。
 
 7. 垃圾邮件、浮动、发送大量无意义的信息。
 
@@ -12642,28 +12662,28 @@ La reputación se da y se quita por la participación en la vida social de la ap
 """,
     languageCn: """
 级别为 -4 及以上：
- - 您不能设置 "不喜欢 "或 "喜欢"。
+ - 您不能设置 不喜欢 或 喜欢。
  - 每天只能写 2 条评论
  - 每天只能上传 1 个配置
  - 不能抱怨他人的
  评论、配置或 lua
 
 级别从 -3 到 -1：
- - 每天只能设置 1 个 "不喜欢"，不能设置 "喜欢"。
+ - 每天只能设置 1 个 不喜欢，不能设置 喜欢。
  - 每天只能发表 4 条评论
  - 每天只能上传 2 个配置
  - 每天只能对
  他人的配置、lua 或评论
 
 0 级：
- - 每天只能设置 2 个 "不喜欢"。
+ - 每天只能设置 2 个 不喜欢。
  - 每天只能写 6 条评论
  - 每天只能上传 4 个配置
  - 每天只能对
  别人的配置、lua 或评论留言
 
 1 至 3 级：
- - 每天只能设置 6 个 "不喜欢"。
+ - 每天只能设置 6 个 不喜欢。
  - 每天最多可以写 20 条评论
  - 每天最多可上传 10 个配置
  - 您可以为您的配置添加视频评论
@@ -12675,7 +12695,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
  - 活跃用户的图标会显示在
  在您的昵称旁边
  - 您可以设置头像框架
- - 每天最多可设置 10 个 "不喜欢"。
+ - 每天最多可设置 10 个 不喜欢。
  - 每天最多可写 50 条评论
  - 每天最多可上传 15 个配置
 
@@ -12685,7 +12705,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
 
 6 级及以上：
  - 前几级的所有奖励
- - 每天最多可设置 14 个 "不喜欢"。
+ - 每天最多可设置 14 个 不喜欢。
  - 每天最多可写 200 条评论
  - 每天最多可上传 25 个配置
   
@@ -13832,25 +13852,53 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageCn: "(所有部分)",
   },
   'SomeGamesAreCombined': {
-    languageEn: 'Some of the games are combined into a single card to save space. For example, a lot parts of Battlefield, Call of Duty, Counter-Strike, etc.',
-    languageRu: 'Некоторые игры объеденены в одну карточку для экономии пространства. Например, много частей Battlefield, Call of Duty, Counter-Strike и т.д.',
-    languageUa: "Деякі ігри об'єднані в одну картку для економії простору. Наприклад, багато частин Battlefield, Call of Duty, Counter-Strike тощо.",
-    languagePl: "Niektóre gry zostały połączone w jedną kartę, aby zaoszczędzić miejsce. Na przykład wiele części Battlefield, Call of Duty, Counter-Strike itp.",
-    languageDe: "Einige der Spiele sind auf einer einzigen Karte zusammengefasst, um Platz zu sparen. Zum Beispiel viele Teile von Battlefield, Call of Duty, Counter-Strike, etc.",
-    languageIt: "Alcuni giochi sono stati combinati in un'unica scheda per risparmiare spazio. Ad esempio, molte parti di Battlefield, Call of Duty, Counter-Strike e così via.",
-    languageTr: "Bazı oyunlar yerden tasarruf etmek için tek bir kartta birleştirilmiştir. Örneğin, Battlefield, Call of Duty, Counter-Strike vb. oyunların birçok parçası.",
-    languageEs: "Algunos juegos se combinan en una sola tarjeta para ahorrar espacio. Por ejemplo, muchas partes de Battlefield, Call of Duty, Counter-Strike, etc.",
+    languageEn:
+        'Some of the games are combined into a single card to save space. For example, a lot parts of Battlefield, Call of Duty, Counter-Strike, etc.',
+    languageRu:
+        'Некоторые игры объеденены в одну карточку для экономии пространства. Например, много частей Battlefield, Call of Duty, Counter-Strike и т.д.',
+    languageUa:
+        "Деякі ігри об'єднані в одну картку для економії простору. Наприклад, багато частин Battlefield, Call of Duty, Counter-Strike тощо.",
+    languagePl:
+        "Niektóre gry zostały połączone w jedną kartę, aby zaoszczędzić miejsce. Na przykład wiele części Battlefield, Call of Duty, Counter-Strike itp.",
+    languageDe:
+        "Einige der Spiele sind auf einer einzigen Karte zusammengefasst, um Platz zu sparen. Zum Beispiel viele Teile von Battlefield, Call of Duty, Counter-Strike, etc.",
+    languageIt:
+        "Alcuni giochi sono stati combinati in un'unica scheda per risparmiare spazio. Ad esempio, molte parti di Battlefield, Call of Duty, Counter-Strike e così via.",
+    languageTr:
+        "Bazı oyunlar yerden tasarruf etmek için tek bir kartta birleştirilmiştir. Örneğin, Battlefield, Call of Duty, Counter-Strike vb. oyunların birçok parçası.",
+    languageEs:
+        "Algunos juegos se combinan en una sola tarjeta para ahorrar espacio. Por ejemplo, muchas partes de Battlefield, Call of Duty, Counter-Strike, etc.",
     languageCn: "为了节省空间，有些游戏被合并到一张卡中。例如，《战地》、《使命召唤》、《反恐精英》等游戏的很多部分。",
   },
   'PleaseUseNormalVersion': {
-    languageEn: 'Use the selected version of the mod only with the specified version of the game! If you try to use the mod on any other version of the game, it will simply crash, the mod will not work or you will encounter any other similar problem!',
-    languageRu: 'Используй выбранную версию модификации только с указанной версией игры! Если ты попробуешь использовать мод на какой-то другой версии игры, она просто вылетит, мод не будет работать или же ты столкнёшься с любой другой аналогичной проблемой!',
-    languageUa: 'Використовуй обрану версію модифікації тільки із зазначеною версією гри! Якщо ти спробуєш використовувати мод на будь-якій іншій версії гри, вона просто вилетить, мод не працюватиме або ж ти зіткнешся з якоюсь іншою схожою проблемою!',
-    languagePl: "Wybranej wersji moda należy używać wyłącznie z określoną wersją gry! Jeśli spróbujesz użyć moda na jakiejkolwiek innej wersji gry, po prostu się zawiesi, mod nie będzie działał lub napotkasz inny podobny problem!",
-    languageDe: "Verwenden Sie die ausgewählte Version des Mods nur mit der angegebenen Version des Spiels! Wenn Sie versuchen, die mod auf jede andere Version des Spiels zu verwenden, wird es einfach abstürzen, die mod wird nicht funktionieren oder Sie werden ein anderes ähnliches Problem auftreten!",
-    languageIt: "Utilizzare la versione selezionata della mod solo con la versione del gioco specificata! Se si tenta di utilizzare la mod su qualsiasi altra versione del gioco, il gioco si bloccherà, la mod non funzionerà o si verificherà qualche altro problema simile!",
-    languageTr: "Modun seçilen sürümünü sadece oyunun belirtilen sürümü ile kullanın! Modu oyunun başka bir sürümünde kullanmaya çalışırsanız, basitçe çökecek, mod çalışmayacak veya benzer başka bir sorunla karşılaşacaksınız!",
-    languageEs: "Utiliza la versión seleccionada del mod sólo con la versión especificada del juego. Si intentas utilizar el mod con cualquier otra versión del juego, simplemente se bloqueará, el mod no funcionará o te encontrarás con algún otro problema similar.",
-    languageCn: "只能在指定版本的游戏中使用所选版本的 MOD！如果您尝试在任何其他版本的游戏中使用该 MOD，它将直接崩溃、无法运行或遇到其他类似问题！",
+    languageEn:
+        'Use the selected version of the mod only with the specified version of the game! If you try to use the mod on any other version of the game, it will simply crash, the mod will not work or you will encounter any other similar problem!',
+    languageRu:
+        'Используй выбранную версию модификации только с указанной версией игры! Если ты попробуешь использовать мод на какой-то другой версии игры, она просто вылетит, мод не будет работать или же ты столкнёшься с любой другой аналогичной проблемой!',
+    languageUa:
+        'Використовуй обрану версію модифікації тільки із зазначеною версією гри! Якщо ти спробуєш використовувати мод на будь-якій іншій версії гри, вона просто вилетить, мод не працюватиме або ж ти зіткнешся з якоюсь іншою схожою проблемою!',
+    languagePl:
+        "Wybranej wersji moda należy używać wyłącznie z określoną wersją gry! Jeśli spróbujesz użyć moda na jakiejkolwiek innej wersji gry, po prostu się zawiesi, mod nie będzie działał lub napotkasz inny podobny problem!",
+    languageDe:
+        "Verwenden Sie die ausgewählte Version des Mods nur mit der angegebenen Version des Spiels! Wenn Sie versuchen, die mod auf jede andere Version des Spiels zu verwenden, wird es einfach abstürzen, die mod wird nicht funktionieren oder Sie werden ein anderes ähnliches Problem auftreten!",
+    languageIt:
+        "Utilizzare la versione selezionata della mod solo con la versione del gioco specificata! Se si tenta di utilizzare la mod su qualsiasi altra versione del gioco, il gioco si bloccherà, la mod non funzionerà o si verificherà qualche altro problema simile!",
+    languageTr:
+        "Modun seçilen sürümünü sadece oyunun belirtilen sürümü ile kullanın! Modu oyunun başka bir sürümünde kullanmaya çalışırsanız, basitçe çökecek, mod çalışmayacak veya benzer başka bir sorunla karşılaşacaksınız!",
+    languageEs:
+        "Utiliza la versión seleccionada del mod sólo con la versión especificada del juego. Si intentas utilizar el mod con cualquier otra versión del juego, simplemente se bloqueará, el mod no funcionará o te encontrarás con algún otro problema similar.",
+    languageCn:
+        "只能在指定版本的游戏中使用所选版本的 MOD！如果您尝试在任何其他版本的游戏中使用该 MOD，它将直接崩溃、无法运行或遇到其他类似问题！",
+  },
+  'Copy': {
+    languageEn: 'Copy',
+    languageRu: 'Скопировать',
+    languageUa: 'Скопіювати',
+    languagePl: "Kopia",
+    languageDe: "Kopieren",
+    languageIt: "Copia",
+    languageTr: "Anlaşıldı",
+    languageEs: "Copia",
+    languageCn: "复制",
   },
 };
