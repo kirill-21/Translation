@@ -229,6 +229,20 @@ const translationElements = [
     },
   },
   {
+    name: 'LangTagForAbsoluteLinks', value: {
+      languageEn: 'en.',
+      // Only this one must be empty!
+      languageRu: '',
+      languageUa: 'ua.',
+      languagePl: 'pl.',
+      languageDe: "de.",
+      languageIt: 'it.',
+      languageTr: 'tr.',
+      languageEs: 'es.',
+      languageCn: 'cn.',
+    },
+  },
+  {
     name: 'MainPageTitle', value: {
       languageEn: 'ExLoader | Best free cheats for CS2 and other games',
       languageRu: 'ExLoader | Читы на КС2 и другие игры',
@@ -1637,15 +1651,15 @@ const translationElements = [
   },
   {
     name: "CSSVersion", value: {
-      languageEn: "layout.css",
-      languageRu: 'layout.css',
-      languageUa: 'layout.css',
-      languagePl: 'layout.css',
-      languageDe: 'layout.css',
-      languageIt: 'layout.css',
-      languageTr: 'layout.css',
-      languageEs: 'layout.css',
-      languageCn: 'layout_asia.css',
+      languageEn: "font_other.css",
+      languageRu: 'font_other.css',
+      languageUa: 'font_other.css',
+      languagePl: 'font_other.css',
+      languageDe: 'font_other.css',
+      languageIt: 'font_other.css',
+      languageTr: 'font_other.css',
+      languageEs: 'font_other.css',
+      languageCn: 'font_asia.css',
     },
   },
   {
