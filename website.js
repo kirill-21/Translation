@@ -8,7 +8,7 @@ const _languages = {
   'Русский': 'languageRu',
   'Italiano': 'languageIt',
   'Türk': 'languageTr',
-  'Española': 'languageEs',
+  'Español': 'languageEs',
   '中文': 'languageCn',
 }
 
@@ -38,7 +38,7 @@ const translationElements = [
       languageDe: 'Deutsch',
       languageIt: 'Italiano',
       languageTr: 'Türk',
-      languageEs: 'Española',
+      languageEs: 'Español',
       languageCn: '中文',
     },
   },
@@ -199,7 +199,7 @@ const translationElements = [
       languageIt: 'Volevo scaricare cheats gratuiti per',
       languageTr: 'için ücretsiz hileleri indirmek istedim',
       languageEs: '¿Desea descargar trucos gratis para',
-      languageCn: '想要下载不含病毒的',
+      languageCn: '想要免费下载 外挂 | 辅助 吗？',
     },
   },
   {
@@ -212,7 +212,7 @@ const translationElements = [
       languageIt: 'virus-gratis? Tutti i cheats sono aggiornati all\'ultima versione del gioco e hanno funzionalità come wh, aim, skinchager, ecc.',
       languageTr: "virüsler olmadan? ExLoader'dasınız! Tüm hileler oyunun en son sürümü için güncellenmiştir ve vh, aim, skinler vb. içerir.",
       languageEs: 'sin virus? ¡Estás en ExLoader! Todos los trucos están actualizados para la última versión del juego e incluyen wh, aim, skins, etc.',
-      languageCn: '免费作弊器. 您的 ExLoader！所有作弊器均为最新版本，包括 wh, aim, skinchager 等。',
+      languageCn: '免费作弊器. 您的 ExLoader！所有 外挂 | 辅助 均更新至最新游戏版本，并具有wh、aim、皮肤修改器 | skinchanger 等功能。',
     },
   },
   {
@@ -252,7 +252,7 @@ const translationElements = [
       languageIt: 'ExLoader | I migliori cheats gratuiti per CS2 e altri giochi',
       languageTr: 'ExLoader | CS2 ve diğer oyunlar için hileler',
       languageEs: 'ExLoader | Trucos para CS2 y otros juegos',
-      languageCn: 'ExLoader | CS2 和其他游戏的作弊器',
+      languageCn: 'ExLoader | CS2 和其他游戏的最佳免费 外挂 | 辅助',
     },
   },
   {
@@ -265,7 +265,7 @@ const translationElements = [
       languageIt: 'Questa app ti aiuterà a scaricare cheat per giochi tra cui wh, trigger, skinchanger e aim!',
       languageTr: 'Bu uygulama CS2 ve wh, trigger, skinchanger ve aim dahil diğer oyunlar için hileleri indirmenize yardımcı olacak!',
       languageEs: 'Esta aplicación te ayudará a descargar trucos para CS2 y otros juegos como wx, trigger, skinchanger y aim.',
-      languageCn: '此应用程序将帮助您下载 CS2 和其他游戏的作弊器，包括 wh, trigger, skinchanger 和 aim！',
+      languageCn: '此应用程序将帮助您下载 外挂 | 辅助 游戏，包括 wh、trigger、皮肤修改器 | skinchanger 和 aim！',
     },
   },
   {
@@ -278,7 +278,7 @@ const translationElements = [
       languageIt: 'ExLoader, modifiche, cs2, hack cs2, cs2 cheats, download, gratuito, xloader, exlaoder, wh, aim, skin changer, bunnyhop, nessun ban, nessun virus',
       languageTr: 'ExLoader, modifikasyonlar, cs2, cs2 hackleri, cs2 hileleri, indir, ücretsiz, xloader, exlaoder, wh, aim, skin changer, bunnyhop, yasak yok, virüs yok',
       languageEs: 'ExLoader, modificaciones, cs2, cs2 hacks, cs2 cheats, descargar, gratis, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses',
-      languageCn: 'ExLoader, modifications, cs2, cs2 hacks, cs2 cheats, download, free, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses',
+      languageCn: 'ExLoader, modifications, cs2 cs2 外挂 | 辅助, download, free, xloader, exlaoder, wh, aim, 皮肤修改器 | skin changer, bunnyhop, no ban, no viruses',
     },
   },
   {
@@ -291,7 +291,7 @@ const translationElements = [
       languageIt: 'La nostra applicazione ti aiuterà a scaricare cheats per CS2 e altri giochi, inclusi wh, trigger, aim, skinchanger e tutto questo gratuitamente, senza virus.',
       languageTr: 'Uygulamamız, CS2 ve diğer oyunlar için wh, trigger, aim, skinchanger ve tüm bunlar dahil olmak üzere hileleri herhangi bir virüs olmadan ücretsiz olarak indirmenize yardımcı olacaktır.',
       languageEs: 'Nuestra aplicación te ayudará a descargar trucos para CS2 y otros juegos, incluyendo wh, trigger, aim, skinchanger y todo esto gratis, sin virus.',
-      languageCn: '我们的应用程序将帮助您免费下载 CS2 和其他游戏的作弊器，包括 wh、trigger、aim、skinchanger 等，而且不含任何病毒。',
+      languageCn: '我们的应用程序将帮助您下载 外挂 | 辅助 for CS2 和其他游戏，包括 wh、trigger、aim、皮肤修改器 | skinchanger 等，而且不含任何病毒。',
     },
   },
   {
@@ -304,7 +304,7 @@ const translationElements = [
       languageIt: 'Volevi trovare cheats per CS2 o qualche altro gioco? Considerati fortunato!',
       languageTr: 'CS2 veya başka bir oyun için hileler mi arıyordunuz? Kendinizi şanslı sayın!',
       languageEs: '¿Estabas buscando trucos para CS2 o algún otro juego? ¡Considérate afortunado!',
-      languageCn: '您在寻找 CS2 或其他游戏的作弊器吗？你应该感到幸运！',
+      languageCn: '想找到 CS2 或其他游戏的 外挂 | 辅助？ 请认为自己很幸运！',
     },
   },
   {
@@ -512,7 +512,7 @@ const translationElements = [
       languageIt: 'Cheats per',
       languageTr: 'Hileler için',
       languageEs: 'Trucos para',
-      languageCn: '作弊器',
+      languageCn: '外挂 | 辅助 对于',
     },
   },
   {
@@ -551,7 +551,7 @@ const translationElements = [
       languageIt: 'Cheat',
       languageTr: 'Hile',
       languageEs: 'Engañar',
-      languageCn: '作弊',
+      languageCn: '外挂 | 辅助',
     },
   },
   {
@@ -564,7 +564,7 @@ const translationElements = [
       languageIt: 'SkinChanger',
       languageTr: 'SkinChanger',
       languageEs: 'SkinChanger',
-      languageCn: 'SkinChanger',
+      languageCn: '皮肤修改器 | SkinChanger',
     },
   },
   {
@@ -590,7 +590,7 @@ const translationElements = [
       languageIt: 'Legit cheat',
       languageTr: 'Legit Hile',
       languageEs: 'Legit Engañar',
-      languageCn: 'Legit 作弊',
+      languageCn: 'Legit 外挂 | 辅助',
     },
   },
   {
@@ -603,7 +603,7 @@ const translationElements = [
       languageIt: 'Rage cheat',
       languageTr: 'Rage Hile',
       languageEs: 'Rage Engañar',
-      languageCn: 'Rage 作弊',
+      languageCn: 'Rage 外挂 | 辅助',
     },
   },
   {
@@ -616,7 +616,7 @@ const translationElements = [
       languageIt: 'Movement cheat',
       languageTr: 'Movement Hile',
       languageEs: 'Movement Engañar',
-      languageCn: 'Movement 作弊',
+      languageCn: 'Movement 外挂 | 辅助',
     },
   },
   {
@@ -655,7 +655,7 @@ const translationElements = [
       languageIt: 'Cheat-Neuronet | Bot',
       languageTr: 'Hile-Neuronet | Bot',
       languageEs: 'Engañar-Neuronet | Bot',
-      languageCn: 'Cheat-Neuronet | Bot',
+      languageCn: '外挂-辅助-Neuronet | Bot',
     },
   },
   {
@@ -668,7 +668,7 @@ const translationElements = [
       languageIt: 'Cheat farm-bot | Bot',
       languageTr: 'Hile farm-bot | Bot',
       languageEs: 'Engañar farm-bot | Bot',
-      languageCn: '欺骗农场机器人',
+      languageCn: '外挂-辅助-场机器人 | 机器人',
     },
   },
   {
@@ -694,7 +694,7 @@ const translationElements = [
       languageIt: 'HvH cheat',
       languageTr: 'HvH hile',
       languageEs: 'HvH engañar',
-      languageCn: 'HvH 作弊',
+      languageCn: 'HvH 外挂 | 辅助',
     },
   },
   {
@@ -707,7 +707,7 @@ const translationElements = [
       languageIt: 'Crack cheat',
       languageTr: 'Crack hile',
       languageEs: 'Crack engañar',
-      languageCn: 'Crack 作弊',
+      languageCn: 'Crack 外挂 | 辅助',
     },
   },
   {
@@ -720,7 +720,7 @@ const translationElements = [
       languageIt: 'InventoryChanger',
       languageTr: 'InventoryChanger',
       languageEs: 'InventoryChanger',
-      languageCn: 'InventoryChanger',
+      languageCn: '库存修改器 | InventoryChanger',
     },
   },
   {
@@ -746,7 +746,7 @@ const translationElements = [
       languageIt: 'Se il gioco per il quale desideri scaricare i cheats utilizza il sistema anti-cheat VAC, le statistiche sui ban per l\'utilizzo di ciascuna modifica per questo gioco sono disponibili sulla scheda delle modifice. Se il gioco utilizza altri anti-cheat (come ESEA, EAC, FaceIT, BattleEye, Vanguard, MRAC, ecc.) la nostra app ti informerà automaticamente su tutti i possibili rischi prima di lanciare un cheat gratuito!',
       languageTr: 'Hilelerini indirmek istediğiniz oyun bir VAC sistemine sahipse, bu oyun için her bir özel modifikasyonun kullanımının yasaklanmasına ilişkin istatistikler modifikasyonun kendi kartında mevcuttur. Oyun diğer anti-okuyucuları kullanıyorsa (ESEA, EAC, FaceIT, BattleEye, Vanguard, MRAC, vb. gibi), uygulamamız ücretsiz hileyi çalıştırmadan önce sizi tüm olası riskler hakkında otomatik olarak bilgilendirecektir!',
       languageEs: 'Si el juego para el que quieres descargar trucos tiene un sistema VAC, las estadísticas sobre prohibiciones de uso de cada modificación específica para este juego están disponibles en la ficha de la propia modificación. Si el juego utiliza otros antilectores (como ESEA, EAC, FaceIT, BattleEye, Vanguard, MRAC, etc.), ¡nuestra aplicación te avisará automáticamente de todos los posibles riesgos antes de ejecutar el cheat gratuito!',
-      languageCn: '如果您要下载作弊器的游戏有 VAC 系统，那么在该游戏中使用每个特定修改的禁用统计信息可在修改本身的卡片上找到。如果游戏使用其他反读取器（如 ESEA、EAC、FaceIT、BattleEye、Vanguard、MRAC 等），在运行免费作弊器之前，我们的应用程序会自动通知您所有可能的风险！',
+      languageCn: '如果您要下载的游戏 外挂 | 辅助 采用VAC反作弊系统，那么在该游戏中使用每个特定修改的禁用统计信息可在修改本身的卡片上找到。如果游戏使用其他反读取器（如 ESEA、EAC、FaceIT、BattleEye、Vanguard、MRAC 等），在运行免费作弊器之前，我们的应用程序会自动通知您所有可能的风险！',
     },
   },
   {
@@ -772,7 +772,7 @@ const translationElements = [
       languageIt: "Per installare configurazioni predefinite e script lua per la modifica, è possibile fare clic sul pulsante dell'ingranaggio, che si trova vicino al pulsante di avvio della modifica. Allo stesso modo è possibile aprire la cartella dei file cheat! Sia il legit cfg che il rage cfg sono disponibili nella nostra libreria. Se volete giocare in modo che Overwatch/Admin from spectators non vi banni (in quelle partite in cui è presente tale sistema), usate la configurazione legit, mentre se state combattendo con un altro cheater, potete provare a usare la rage cfg, ma ricordate che più dura è la configurazione, più alte sono le possibilità di essere bannati dal sistema di Overwatch/Admin from spectator (in quelle partite in cui è presente tale sistema).",
       languageTr: "Modifikasyon için önceden hazırlanmış yapılandırmaları ve lua komut dosyalarını yüklemek için, modifikasyonun başlat düğmesinin yanında bulunan dişli düğmesine tıklayabilirsiniz. Hile dosyaları klasörünü de aynı şekilde açabilirsiniz! Hem legit cfg hem de rage cfg kütüphanemizde mevcuttur. Overwatch/Seyircilerden gelen yöneticinin sizi yasaklamaması için oynamak istiyorsanız (böyle bir sistemin mevcut olduğu oyunlarda), yasal yapılandırmayı kullanın ve başka bir hileci ile savaşıyorsanız, öfke cfg'yi kullanmayı deneyebilirsiniz, ancak yapılandırma ne kadar zor olursa, Overwatch sistemi/Seyircilerden gelen yönetici tarafından yasaklanma şansının o kadar yüksek olduğunu unutmayın (böyle bir sistemin mevcut olduğu oyunlarda).",
       languageEs: 'Para instalar configuraciones pre-hechas y scripts lua para la modificación, puedes hacer clic en el botón de engranaje, que se encuentra cerca del botón de lanzamiento de la modificación. Puedes abrir la carpeta de archivos de trucos de la misma manera. Tanto legit cfg como rage cfg están disponibles en nuestra biblioteca. Si quieres jugar de manera que el Overwatch/Admin del espectador no te banee (en aquellos juegos donde tal sistema esté presente), usa el legit config, y si estás luchando con otro tramposo, puedes intentar usar el rage cfg, sin embargo recuerda que cuanto más dura sea la configuración, mayores serán las posibilidades de ser baneado por el sistema Overwatch/Admin del espectador (en aquellos juegos donde tal sistema esté presente).',
-      languageCn: '要为修改安装预制配置和 lua 脚本，可以点击齿轮按钮，它位于修改的启动按钮附近。您也可以用同样的方法打开作弊文件文件夹！合法 cfg 和愤怒 cfg 都可以在我们的资料库中找到。如果您想让守望先锋系统/管理员不封禁您（在存在此类系统的游戏中），请使用合法配置；如果您要与其他作弊者对战，可以尝试使用愤怒 cfg，但请记住，配置越强硬，被守望先锋系统/管理员封禁的几率就越高（在存在此类系统的游戏中）。',
+      languageCn: '要为修改安装预制配置和 lua 脚本，可以点击齿轮按钮，它位于修改的启动按钮附近。您也可以用同样的方法打开 mod 文件夹！合法 cfg 和愤怒 cfg 都可以在我们的资料库中找到。如果您想在游戏中不被守望先锋系统/管理员禁止（在存在此类系统的游戏中），请使用合法配置；如果您要与其他 MOD 玩家对战，可以尝试使用愤怒 cfg，但请记住，配置越强硬，被守望先锋系统/管理员禁止的几率就越高（在存在此类系统的游戏中）。',
     },
   },
   {
@@ -798,7 +798,7 @@ const translationElements = [
       languageIt: 'Per iniziare, scarica il nostro programma ufficiale utilizzando il pulsante grande nella parte superiore di questa pagina. Apri il file scaricato, scegli il percorso in cui verrà installato ExLoader e fai clic su Continua. Successivamente inizierà il processo di installazione, che solitamente richiede dai 10 ai 20 secondi, a seconda della velocità della tua connessione Internet. Al termine di questo processo, ti verrà richiesto di aprire ExLoader, a cui dovrai accedere utilizzando la E-Mail o il tuo account Google, non è necessario inserire password! Una volta fatto ciò, puoi scegliere un gioco a cui desideri avviare una modifica e verrai indirizzato nella libreria dei cheat per questo gioco. Quindi puoi scegliere quale mod ti piace di più e fare clic sul pulsante di avvio!',
       languageTr: "İlk olarak, bu sayfanın üst kısmındaki büyük düğmeyi kullanarak resmi yükleyicimizi indirin. İndirilen dosyayı açın, ExLoader'ın kurulacağı yolu seçin ve devam et'e tıklayın. Bu, internet hızınıza bağlı olarak genellikle 10 ila 20 saniye arasında süren yükleme işlemini başlatacaktır. Bu işlem tamamlandıktan sonra, ExLoader'ı açmanız istenecektir, burada e-postanızı veya Google hesabınızı kullanarak yetkilendirmeniz gerekecektir, şifre gerekmez! Bunu yaptıktan sonra, modifikasyonu çalıştırmak istediğiniz oyunu seçebilir ve bu oyun için hile kütüphanesine girebilirsiniz. Sonrasında tek yapmanız gereken en çok beğendiğinizi seçmek ve Çalıştır düğmesine tıklamak!",
       languageEs: 'En primer lugar, descargue nuestro instalador oficial utilizando el botón grande situado en la parte superior de esta página. Abre el archivo descargado, selecciona la ruta donde se instalará ExLoader y haz clic en continuar. Esto iniciará el proceso de instalación, que suele tardar entre 10 y 20 segundos, dependiendo de tu velocidad de Internet. Una vez finalizado este proceso, se te pedirá que abras ExLoader, donde tendrás que autorizarte utilizando tu correo electrónico o tu cuenta de Google, ¡no se necesitan contraseñas! Una vez hecho esto, puedes seleccionar el juego en el que deseas ejecutar la modificación, y entrar en la biblioteca de trucos para este juego. Después, sólo tienes que elegir el que más te guste y hacer clic en el botón Ejecutar.',
-      languageCn: '首先，使用本页顶部的大按钮下载我们的官方安装程序。打开下载的文件，选择安装 ExLoader 的路径，然后点击继续。这将启动安装过程，通常需要 10 到 20 秒，取决于你的网速。安装完成后，系统会提示你打开 ExLoader，你需要使用电子邮件或谷歌账户进行授权，无需密码！授权后，你就可以选择要运行修改的游戏，并进入该游戏的作弊器库。然后只需选择你最喜欢的一个，点击运行按钮即可！',
+      languageCn: '要开始安装，请使用本页顶部的大按钮下载我们的官方安装程序。打开下载的文件，选择安装 ExLoader 的路径，然后点击继续。之后，安装过程将开始，通常需要 10 到 20 秒，具体时间取决于你的网络连接速度。完成此过程后，系统会提示你打开 ExLoader，这时你需要使用邮件或谷歌账户登录，无需输入密码！登录后，你可以选择一款游戏来启动修改程序，然后就会进入这款游戏的修改程序库。然后你就可以选择你最喜欢的 MOD，点击启动按钮！',
     },
   },
   {
@@ -811,7 +811,7 @@ const translationElements = [
       languageIt: 'Ci sono virus nei cheat del tuo loader?',
       languageTr: 'Yükleyicinizdeki hilelerde herhangi bir virüs var mı?',
       languageEs: '¿Hay algún virus en las trampas de su cargador?',
-      languageCn: '你的加载器中的作弊器有病毒吗？',
+      languageCn: '装载程序 外挂 | 辅助 中是否存在病毒？',
     },
   },
   {
@@ -824,7 +824,7 @@ const translationElements = [
       languageIt: 'Nella pagina di ciascuna modifica della nostra applicazione è possibile trovare informazioni sull\'eventuale verifica dell\'assenza di minacce virus da parte di un rappresentante indipendente. Inoltre, proviamo a valutare attentamente tutte le modifiche prima di aggiungerle alla nostra libreria! Quindi, se stai cercando un cheat privo di virus, puoi sicuramente scegliere ExLoader.',
       languageTr: 'Uygulamamızdaki her değişikliğin sayfasında, bağımsız bir temsilci tarafından virüs tehditlerine karşı kontrol edilip edilmediği hakkında bilgi bulabilirsiniz. Buna ek olarak, tüm değişiklikleri kütüphanemize eklemeden önce kapsamlı bir şekilde değerlendirmeye çalışıyoruz! Dolayısıyla, virüssüz bir hile arıyorsanız, kesinlikle bize gelebilirsiniz.',
       languageEs: 'En la página de cada modificación de nuestra aplicación puede encontrar información sobre si ha sido comprobada por un representante independiente en busca de amenazas de virus. Además, ¡intentamos evaluar a fondo todas las modificaciones antes de añadirlas a nuestra biblioteca! Por lo tanto, si está buscando un tramposo libre de virus, definitivamente es bienvenido a venir a nosotros.',
-      languageCn: '在我们应用程序的每项修改的页面上，您都可以找到有关该修改是否已由独立代表进行病毒威胁检查的信息。此外，在将所有修改添加到我们的程序库之前，我们会对其进行全面评估！因此，如果您正在寻找无病毒的作弊器，我们绝对欢迎您的光临。',
+      languageCn: '在我们应用程序的每个修改页面上，您都可以找到关于是否由独立代表检查过是否存在病毒威胁的信息。此外，在将所有修改添加到我们的程序库之前，我们会对其进行仔细评估！因此，如果你正在寻找一款无病毒的修改程序，那么你绝对可以选择 ExLoader。',
     },
   },
   {
@@ -863,7 +863,7 @@ const translationElements = [
       languageIt: 'Quali tipi di cheat esistono',
       languageTr: 'Farklı hileler ne içindir',
       languageEs: '¿Para qué sirven los distintos trucos',
-      languageCn: '不同的作弊器有什么用',
+      languageCn: '外挂 | 辅助 存在哪些类型',
     },
   },
   {
@@ -876,7 +876,7 @@ const translationElements = [
       languageIt: 'In generale, ci sono tre tipi di trucchi per ogni gioco: "Esterni", "Interni" e reti neurali. Non è necessario alcun injector per avviare cheat esterni, vengono aperti come processo separato e leggono la memoria del gioco per disegnare il cosiddetto WH (ESP). A volte tali mod possono simulare la pressione dei pulsanti della tastiera o del mouse per gestire funzioni come aimbot, trigger, bunnyhop, aiutante di granate o registratore di movimento. In rari casi, cheat esterni possono modificare la memoria del processo, ad esempio, per sostituire le skin (il cosiddetto skinchanger). Le modifiche interne sono librerie DLL speciali che vengono inserite nel gioco. Tali cheat sono caratterizzati da un funzionamento più fluido, dalla presenza di funzionalità estese e da un maggiore rischio di essere bannati se lo sviluppatore della mod non ha protetto il suo cheat dal sistema anti-cheat di base. Un\'altra cosa sono le reti neurali, che non interagiscono con la memoria del gioco, ma si limitano ad analizzare l\'immagine proveniente dal monitor, per riconoscere gli avversari ai fini della mira o del colpo automatico, nonché, in rari casi, per un movimento automatico. sulla mappa. Tali applicazioni richiedono un PC non debole, tuttavia sono incredibilmente sicure da usare. Nella libreria ExLoader puoi trovare un\'enorme quantità di modifiche sia interne che esterne con tutte le funzionalità come WH, Aimbot, SkinChanger, registratore di movimento, aiutante con granate, ecc.',
       languageTr: 'Oyun dünyasında üç tür hile vardır: "Harici", "Dahili" ve sinir ağları. Harici hileleri çalıştırmak için bir enjektör gerekmez, oyundan ayrı bir işlemle açılırlar ve sözde girişi (esp) çizmek için belleğini okurlar. Bazen bu modlar, aimbot, tetik, bannihop, el bombası yayma veya hareketlerin tekrarı (muvement) işlevlerini yeniden oluşturmak için klavye veya fare düğmelerine basmayı simüle edebilir. Nadir durumlarda, harici hileler işlemin hafızasını değiştirebilir, örneğin derileri değiştirmek için (skinchanger olarak adlandırılır). Dahili modifikasyonlar, özel DLL kütüphaneleri yardımıyla oyunda uygulanır. Bu tür hileler, mod geliştiricisi anti-chit oyunundan temel korumaya dikkat etmediyse, daha düzgün çalışma, kapsamlı işlevselliğin varlığı ve ayrıca yasaklanma riskinin artması bakımından farklılık gösterir. Ancak sinir ağları başka bir şeydir, oyunun hafızasıyla etkileşime girmezler ve sadece hedefleme veya otomatik ateşleme için rakipleri belirlemek ve nadir durumlarda haritada otomatik hareket için monitördeki resmi analiz ederler. Bu tür uygulamalar güçlü bir bilgisayar gerektirir, ancak kullanımı son derece güvenlidir. ExLoader kütüphanesinde WH, Aimbot, SkinChanger, hareket, el bombası yardımcısı vb. ile çok sayıda Dahili ve Harici modifikasyon bulabilirsiniz.',
       languageEs: 'Existen tres tipos de trucos en el mundo de los juegos: "Externos", "Internos" y redes neuronales. Para ejecutar trucos externos no requieren un inyector, que se abren por un proceso separado del juego y leer su memoria para dibujar la llamada de entrada (esp). En ocasiones, estos mods pueden simular la pulsación de los botones del teclado o del ratón para recrear las funciones de aimbot, gatillo, bannihop, esparcimiento de granadas o repetición de movimientos (muvement). En raras ocasiones, los cheats externos pueden modificar la memoria del proceso, por ejemplo, para intercambiar skins (el llamado skinchanger). Las modificaciones internas se implementan en el juego con la ayuda de librerías DLL especiales. Tales trucos difieren funcionamiento más suave, la presencia de una amplia funcionalidad, así como un mayor riesgo de ser prohibido, si el desarrollador mod no se hizo cargo de la protección básica de juego anti-chit. Pero las redes neuronales son otra cosa, que no interactúan con la memoria del juego, y sólo analiza la imagen del monitor para identificar a los oponentes para apuntar o disparo automático, así como, en casos raros, para el movimiento automático en el mapa. Estas aplicaciones requieren un PC potente, pero su uso es increíblemente seguro. En la librería de ExLoader puedes encontrar un gran número de modificaciones tanto Internas como Externas con WH, Aimbot, SkinChanger, movimiento, ayudante de granadas, etc.',
-      languageCn: '游戏世界中有三种作弊方式："外部"、"内部 "和神经网络。运行 "外部作弊器 "不需要注入器，它们由独立于游戏的进程打开，并读取其内存以绘制所谓的输入（esp）。有时，这些修改器可以模拟按下键盘或鼠标按钮，以重新创建瞄准器、触发器、bannihop、撒布手榴弹或重复动作（muvement）等功能。在极少数情况下，外部作弊器可以修改进程内存，例如交换皮肤（所谓的换肤器）。内部修改是借助特殊的 DLL 库在游戏中实现的。此类作弊器的不同之处在于操作更流畅、功能更广泛，同时也增加了被封禁的风险，如果修改器开发者没有做好反作弊游戏的基本保护措施的话。但神经网络则不同，它们不与游戏内存互动，只是通过分析显示器上的图像来识别对手，以便瞄准或自动射击，在极少数情况下，还能在地图上自动移动。这类程序需要一台性能强大的电脑，但使用起来却非常安全。在 ExLoader 库中，您可以找到大量内部和外部修改程序，包括 WH、Aimbot、换肤、移动、手榴弹助手等。',
+      languageCn: '一般来说，每个游戏都有三种 外挂 | 辅助： 外部作弊器、内部作弊器和神经网络。启动外部 外挂 | 辅助 不需要注入器，它们作为一个单独的进程打开，并读取游戏内存来绘制所谓的WH（ESP）。有时，这类修改器可以模拟键盘按键或鼠标按键，以处理诸如瞄准器、触发器、兔子跳、手榴弹助手或移动记录器等功能。在极少数情况下，外部 外挂 | 辅助 可以更改进程内存，例如更换皮肤（所谓的换肤器）。内部修改是注入游戏的特殊 DLL 库。这类{3}的特点是运行更流畅、功能更丰富，而且如果MOD开发者没有保护自己的 外挂 | 辅助 不受基本反作弊系统的影响，被封禁的风险也会增加。神经网络则另当别论，它们不与游戏内存互动，只分析显示器上的图像，以便识别对手进行瞄准或自动射击，在极少数情况下还能在地图上自动移动。此类程序要求电脑性能不弱，但使用却非常安全。在 ExLoader 库中，您可以找到大量内部和外部修改程序，这些程序具有 WH、Aimbot、皮肤修改器 | SkinChanger、移动记录器、手榴弹助手等所有功能。',
     },
   },
   {
@@ -915,7 +915,7 @@ const translationElements = [
       languageIt: ' sono semplicemente affollati da un numero enorme di cheater. Qualcuno vuole godersi una normale partita serale con un pacchetto di patatine con Coca-Cola, qualcuno vuole salire di grado. In nessun caso incoraggiamo nessuno a scaricare cheat, questa è la scelta di ognuno di voi. Se sei stanco e vuoi provare qualcosa di nuovo, possiamo solo fornirti uno strumento conveniente per vivere un\'esperienza del genere. Tutto il resto dipende da te!',
       languageTr: ' hilekarlarla kaynıyor. Birisi bir paket cips ve koka-kola ile sıradan bir akşam pateninin tadını çıkarmak istiyor, birisi rütbesini yükseltmek istiyor. Hiçbir şekilde kimseyi hile indirmeye teşvik etmiyoruz, bu her birinizin seçimidir. Yorulduysanız ve çeşitlilik istiyorsanız - böyle bir deneyim elde etmek için yalnızca uygun bir araç sağlayabiliriz. Geri kalan her şey size kalmış!',
       languageEs: ' está plagado de tramposos. Alguien quiere disfrutar de una tarde de patinaje normal con un paquete de patatas fritas y coca-cola, alguien quiere subir de rango. De ninguna manera instamos a nadie a descargar tramposos, es la elección de cada uno de ustedes. Si usted está cansado y quiere variedad - sólo podemos proporcionar una herramienta conveniente para obtener tal experiencia. Todo lo demás depende de ti.',
-      languageCn: ' 就是骗子横行。有人想享受一个普通的夜晚，带着一包薯片和可口可乐滑冰，有人想提升等级。我们绝不鼓励任何人下载作弊器，这是你们每个人的选择。如果你累了，想要丰富多彩--我们只能提供一个方便的工具，让你获得这样的体验。其他一切都取决于您！',
+      languageCn: ' 游戏中充斥着大量的骗子。有人想用一包薯片和可口可乐享受一个普通的晚间游戏，有人想提高自己的排名。我们绝不鼓励任何人下载 外挂 | 辅助，这是你们每个人的选择。如果你累了，如果你想尝试新事物，我们只能为你提供获得这种体验的便捷工具。其他一切都取决于您！',
     },
   },
   {
@@ -928,7 +928,7 @@ const translationElements = [
       languageIt: 'Voglio scaricare trucchi, cosa hai nella tua libreria?',
       languageTr: 'Hileleri indirmek istiyorum, kütüphanenizde neler mevcut?',
       languageEs: 'Quiero descargar trucos, ¿qué hay disponible en su biblioteca?',
-      languageCn: '我想下载作弊器，你们的资料库中有哪些？',
+      languageCn: '我想下载 外挂 | 辅助，您的库中有什么？',
     },
   },
   {
@@ -941,7 +941,7 @@ const translationElements = [
       languageIt: 'Tutto dipende dal gioco e dagli sviluppatori di cheat! Di tanto in tanto, nella nostra libreria compaiono cheat come',
       languageTr: 'Her şey oyuna ve hile geliştiricilerine bağlı! Kütüphanemiz zaman zaman aşağıdaki gibi hileler içerir',
       languageEs: 'Todo depende del juego y de los desarrolladores de los trucos. De vez en cuando nuestra biblioteca contiene trucos como',
-      languageCn: '这完全取决于游戏和作弊器开发者！我们的资料库时常包含以下作弊器',
+      languageCn: '这完全取决于游戏和 外挂 | 辅助 开发者！ 有时，这样的 外挂 | 辅助 会出现在我们的库中：',
     },
   },
   {
@@ -954,7 +954,7 @@ const translationElements = [
       languageIt: ', ecc. Se il cheat supporta l\'ultima versione del gioco, puoi scaricarlo gratuitamente e non contiene virus: apparirà nella nostra libreria!',
       languageTr: ', vb. Hile en son oyun güncellemesini destekliyorsa, ücretsiz olarak indirilebilir ve virüs içermez - kütüphanemizde görünecektir!',
       languageEs: ', etc. Si el truco es compatible con la última actualización del juego, se puede descargar de forma gratuita y está libre de virus - ¡aparecerá en nuestra biblioteca!',
-      languageCn: ', 等等。如果作弊器支持最新的游戏更新，可以免费下载且不含病毒，则会出现在我们的资料库中！',
+      languageCn: ', 等等。如果 外挂 | 辅助 支持最新版本的游戏，您就可以免费下载，而且不会有任何病毒--它会出现在我们的资料库中！',
     },
   },
   {
@@ -980,7 +980,7 @@ const translationElements = [
       languageIt: 'Cosa devo fare se il cheat non si avvia o si blocca?',
       languageTr: 'Hile çalışmazsa ne yapmalı?',
       languageEs: '¿Qué hacer si el tramposo no arranca?',
-      languageCn: '如果作弊器无法启动，该怎么办？',
+      languageCn: '如果 外挂 | 辅助 无法启动或崩溃，我该怎么办？',
     },
   },
   {
@@ -993,7 +993,7 @@ const translationElements = [
       languageIt: 'ExLoader dispone di un\'utilità integrata che analizza il tuo sistema e mostra vari suggerimenti per la risoluzione dei problemi relativi al processo di avvio delle modifiche o agli arresti anomali. Puoi aprire questa utility utilizzando il pulsante a forma di ingranaggio che si trova vicino al pulsante di avvio del cheat.',
       languageTr: 'ExLoader, sisteminizi analiz eden ve modifikasyonun çalışması veya çökmesiyle ilgili sorunları çözmek için çeşitli ipuçları gösteren yerleşik bir yardımcı programa sahiptir. Bu yardımcı programı başlat düğmesinin yanındaki pinyon düğmesini kullanarak açabilirsiniz.',
       languageEs: 'ExLoader tiene una utilidad incorporada que analiza su sistema y muestra varios consejos para solucionar problemas relacionados con el funcionamiento o el bloqueo de la modificación. Puede abrir esta utilidad utilizando el botón de piñón situado junto al botón de inicio.',
-      languageCn: 'ExLoader 有一个内置实用程序，可分析系统并显示各种提示，以解决与修改程序运行或崩溃有关的问题。你可以使用 "开始 "按钮旁的小齿轮按钮打开该实用程序。',
+      languageCn: 'ExLoader 有一个内置实用程序，可以分析你的系统，并显示与修改启动过程或崩溃有关的各种故障排除提示。您可以使用 mod 启动按钮附近的齿轮按钮打开该实用程序。',
     },
   },
   {
@@ -1006,7 +1006,7 @@ const translationElements = [
       languageIt: 'Quale pulsante apre il menu dei cheat?',
       languageTr: 'Hangi düğme okuma menüsünü açar?',
       languageEs: '¿Qué botón abre el menú de lectura?',
-      languageCn: '哪个按钮可以打开 "读取 "菜单？',
+      languageCn: '哪个按钮可以打开模式菜单？',
     },
   },
   {
@@ -1032,7 +1032,7 @@ const translationElements = [
       languageIt: 'Dove posso trovare un injector per lanciare questo cheat?',
       languageTr: 'Okumayı çalıştırmak için enjektörü nereden bulabilirim?',
       languageEs: '¿Dónde conseguir un inyector para ejecutar la lectura?',
-      languageCn: '在哪里可以买到用于读取数据的喷射器？',
+      languageCn: '我在哪里可以买到启动这种改装的喷射器？',
     },
   },
   {
@@ -1045,7 +1045,7 @@ const translationElements = [
       languageIt: 'Molte persone usano Ghost Injector, Extreme Injector, GHInjector, Vac-Bypass Injector, Kirin, ecc. per lanciare cheat comuni con l\'estensione .DLL, ma nel nostro caso non è necessario scaricare alcun software aggiuntivo, ExLoader installa tutte le modifiche da solo , senza alcun software di terze parti!',
       languageTr: 'DLL uzantılı normal hileleri çalıştırmak için birçok kişi Ghost Injector, Extreme Injector, GHInjector, Vac-Bypass Injector, Kirin gibi enjektörleri kullanır, ancak bizim durumumuzda herhangi bir ek program indirmeye gerek yoktur, ExLoader üçüncü taraf yazılım kullanmadan tüm değişiklikleri kendi başına çalıştırır!',
       languageEs: 'Para ejecutar trucos normales con extensión .DLL, mucha gente utiliza inyectores como Ghost Injector, Extreme Injector, GHInjector, Vac-Bypass Injector, Kirin, etc., sin embargo, en nuestro caso no hay necesidad de descargar ningún programa adicional, ¡ExLoader ejecuta todas las modificaciones por sí mismo, sin utilizar software de terceros!',
-      languageCn: '许多人使用 Ghost Injector、Extreme Injector、GHInjector、Vac-Bypass Injector、Kirin 等注入器来运行带有 .DLL 扩展名的常规作弊器，但在我们这里，无需下载任何额外程序，ExLoader 可自行运行所有修改，无需使用第三方软件！',
+      languageCn: '许多人使用 Ghost Injector、Extreme Injector、GHInjector、Vac-Bypass Injector、Kirin 等来启动以 .DLL 为扩展名的常用修改器，但在我们的情况下，无需下载任何其他软件，ExLoader 可自行安装所有修改器，无需任何第三方软件！',
     },
   },
   {
@@ -1384,7 +1384,7 @@ const translationElements = [
       languageIt: 'Skinchanger: cambia skin e modelli',
       languageTr: 'Skinchanger - görünümlerinizi ve modellerinizi değiştirir',
       languageEs: 'Skinchanger - cambia tus skins y modelos',
-      languageCn: '皮肤更换器 - 更改皮肤和模型',
+      languageCn: '皮肤修改器 | skinchanger - 更改皮肤和模型',
     },
   },
   {
