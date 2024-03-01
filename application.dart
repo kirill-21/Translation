@@ -8701,22 +8701,22 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'LaunchOptionsBad': {
     languageEn:
-        'Your game launch options or settings do not match the recommended ones!',
+        "Your game's launch options do not match the recommended ones! To add or remove startup preferences for a game, go to its launcher (e.g. Steam, EpicGames, Microsoft, Battle.net, etc.), open its properties and find the appropriate option that allows you to change the game's launch options.",
     languageRu:
-        'Твои параметры запуска или настройки игры не соответствуют рекомендованным!',
+        'Твои параметры запуска игры не соответствуют рекомендованным! Для добавления или же удаления параметров запуска игры перейди в её лаунчер (например Steam, EpicGames, Microsoft, Battle.net и т.д.), зайди в её свойства и найди соответствующую опцию, позволяющую изменить параметра запуска игры.',
     languageUa:
-        'Твої параметри запуску або налаштування гри не відповідають рекомендованим!',
+        'Твої параметри запуску гри не відповідають рекомендованим! Для додавання або ж видалення параметрів запуску гри перейди в її лаунчер (наприклад, Steam, EpicGames, Microsoft, Battle.net тощо), зайди в її властивості та знайди відповідну опцію, що дає змогу змінити параметри запуску гри.',
     languagePl:
-        'Twoje opcje uruchamiania lub ustawienia gry nie są zgodne z zalecanymi!',
+        'Parametry uruchamiania gry nie są zgodne z zalecanymi! Aby dodać lub usunąć parametry uruchamiania gry, przejdź do jej programu uruchamiającego (np. Steam, EpicGames, Microsoft, Battle.net itp.), przejdź do jej właściwości i znajdź odpowiednią opcję, która umożliwia zmianę parametrów uruchamiania gry.',
     languageDe:
-        "Deine Start oder Spieleinstellungen stimmen nicht mit den empfohlenen Einstellungen überein!",
+        "Die Startparameter Ihres Spiels stimmen nicht mit den empfohlenen Parametern überein! Um Startparameter für ein Spiel hinzuzufügen oder zu entfernen, gehen Sie zu dessen Launcher (z. B. Steam, EpicGames, Microsoft, Battle.net usw.), gehen Sie zu dessen Eigenschaften und suchen Sie die entsprechende Option, mit der Sie die Startparameter des Spiels ändern können.",
     languageIt:
-        'Le impostazioni di avvio o di gioco non corrispondono alle impostazioni consigliate!',
+        "I parametri di avvio del gioco non corrispondono a quelli consigliati! Per aggiungere o rimuovere i parametri di avvio di un gioco, accedete al suo launcher (ad esempio Steam, EpicGames, Microsoft, Battle.net, ecc.), andate nelle sue proprietà e trovate l'opzione appropriata che vi permette di modificare i parametri di avvio del gioco.",
     languageTr:
-        "Oyun başlatma seçenekleriniz veya ayarlarınız önerilenlerle eşleşmiyor!",
+        "Oyununuzun başlangıç parametreleri önerilenlerle eşleşmiyor! Bir oyunun başlangıç parametrelerini eklemek veya kaldırmak için, oyunun başlatıcısına (örneğin Steam, EpicGames, Microsoft, Battle.net, vb.) gidin, özelliklerine gidin ve oyunun başlangıç parametrelerini değiştirmenize izin veren uygun seçeneği bulun.",
     languageEs:
-        "Las opciones o ajustes de inicio del juego no coinciden con los recomendados.",
-    languageCn: "您的游戏启动选项或设置与建议的不一致！",
+        "Los parámetros de inicio de tu juego no coinciden con los recomendados. Para añadir o eliminar parámetros de inicio de un juego, ve a su lanzador (por ejemplo, Steam, EpicGames, Microsoft, Battle.net, etc.), ve a sus propiedades y busca la opción adecuada que te permita cambiar los parámetros de inicio del juego.",
+    languageCn: "您的游戏启动参数与推荐参数不符！要添加或删除游戏的启动参数，请进入游戏启动器（如 Steam、EpicGames、Microsoft、Battle.net 等），进入属性并找到允许您更改游戏启动参数的相应选项。",
   },
   'LaunchOptionsGood': {
     languageEn:
@@ -9181,23 +9181,34 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "¿Qué ha podido causar esto?",
     languageCn: "是什么造成了这种情况？",
   },
+  'IfYouDoneItJusSkip': {
+    languageEn: "If you've already done these steps, just skip this dialog using the button below!",
+    languageRu: 'Если ты уже выполнил данные действия, просто пропусти это окошко с помощью кнопки ниже!',
+    languageUa: 'Якщо ти вже виконав ці дії, просто пропусти це віконце за допомогою кнопки нижче!',
+    languagePl: 'Jeśli wykonałeś już te kroki, po prostu pomiń to pole za pomocą przycisku poniżej!',
+    languageDe: "Wenn Sie diese Schritte bereits befolgt haben, können Sie dieses Feld mit der Schaltfläche unten einfach überspringen!",
+    languageIt: 'Se avete già eseguito questi passaggi, saltate questa finestra di dialogo utilizzando il pulsante sottostante!',
+    languageTr: "Bu adımları zaten yaptıysanız, aşağıdaki düğmeyi kullanarak bu iletişim kutusunu atlayın!",
+    languageEs: "Si ya has hecho estos pasos, simplemente salta este diálogo usando el botón de abajo!",
+    languageCn: "如果您已经完成这些步骤，请使用下面的按钮跳过此对话框！",
+  },
   'WindowedModeJustTip': {
     languageEn:
-        "Don't forget to set the game rendering/display mode to «Windowed» or «Fullscreen windowed» in {game} settings, this must be done to launch this modification! Usually, these settings are configured in the «Video/Image», «Graphics» or «Display/Monitor» settings in the game.\n\nIf you've already done these steps, just skip this dialog using the button below!",
+        "Don't forget to set the game rendering/display mode to «Windowed» or «Fullscreen windowed» in {game} settings, this must be done to launch this modification! Usually, these settings are configured in the «Video/Image», «Graphics» or «Display/Monitor» settings in the game.",
     languageRu:
-        'Не забудь установить режим рендеринга/отображения игры на «Оконный» или же «Полноэкранный в окне» в настройках {game}, это необходимо для корректного запуска данной модификации. Обычно, данные параметры настраиваются в настройках «Видео», «Графики/Изображения» или «Дисплея/Монитора» игры.\n\nЕсли ты уже выполнил данные действия, просто пропусти это окошко с помощью кнопки ниже!',
+        'Не забудь установить режим рендеринга/отображения игры на «Оконный» или же «Полноэкранный в окне» в настройках {game}, это необходимо для корректного запуска данной модификации. Обычно, данные параметры настраиваются в настройках «Видео», «Графики/Изображения» или «Дисплея/Монитора» игры.',
     languageUa:
-        'Не забудь встановити режим рендерингу/відображення гри на «Віконний» або «Повноекранний у вікні» в налаштуваннях {game}, це необхідно для коректного запуску цієї модифікації! Зазвичай, ці параметри налаштовуються в налаштуваннях «Відео», «Графіки/Зображення» або «Дисплея/Монітора» гри.\n\nЯкщо ти вже виконав ці дії, просто пропусти це віконце за допомогою кнопки нижче!',
+        'Не забудь встановити режим рендерингу/відображення гри на «Віконний» або «Повноекранний у вікні» в налаштуваннях {game}, це необхідно для коректного запуску цієї модифікації! Зазвичай, ці параметри налаштовуються в налаштуваннях «Відео», «Графіки/Зображення» або «Дисплея/Монітора» гри.',
     languagePl:
-        'Nie zapomnij ustawić trybu renderowania/wyświetlania gry na «Windowed» lub «Fullscreen windowed» w ustawieniach {game}, jest to konieczne do poprawnego uruchomienia tej modyfikacji. Zazwyczaj ustawienia te są konfigurowane w ustawieniach «Wideo», «Grafika» lub «Wyświetlacz» gry.\n\nJeśli wykonałeś już te kroki, po prostu pomiń to pole za pomocą przycisku poniżej!',
+        'Nie zapomnij ustawić trybu renderowania/wyświetlania gry na «Windowed» lub «Fullscreen windowed» w ustawieniach {game}, jest to konieczne do poprawnego uruchomienia tej modyfikacji. Zazwyczaj ustawienia te są konfigurowane w ustawieniach «Wideo», «Grafika» lub «Wyświetlacz» gry.',
     languageDe:
-        'Vergessen Sie nicht, den Rendering-/Anzeigemodus des Spiels auf «Windowed» oder «Fullscreen windowed» in {game} settings zu setzen, dies ist notwendig, um diese Modifikation korrekt auszuführen. Normalerweise werden diese Einstellungen in den Einstellungen «Video», «Grafik/Bilder» oder «Anzeige» des Spiels vorgenommen.\n\nWenn Sie diese Schritte bereits befolgt haben, können Sie dieses Feld mit der Schaltfläche unten einfach überspringen!',
+        'Vergessen Sie nicht, den Rendering-/Anzeigemodus des Spiels auf «Windowed» oder «Fullscreen windowed» in {game} settings zu setzen, dies ist notwendig, um diese Modifikation korrekt auszuführen. Normalerweise werden diese Einstellungen in den Einstellungen «Video», «Grafik/Bilder» oder «Anzeige» des Spiels vorgenommen.',
     languageIt:
-        'Non dimenticate di impostare la modalità di rendering/visualizzazione del gioco su «Finestrato» o «Finestrato a schermo intero» nelle impostazioni di {game}; ciò deve essere fatto per avviare questa modifica! Di solito, queste impostazioni sono configurate nelle impostazioni «Video/Immagine», «Grafica» o «Display/Monitor»" del gioco. Se avete già eseguito questi passaggi, saltate questa finestra di dialogo usando il pulsante sottostante!',
+        'Non dimenticate di impostare la modalità di rendering/visualizzazione del gioco su «Finestrato» o «Finestrato a schermo intero» nelle impostazioni di {game}; ciò deve essere fatto per avviare questa modifica! Di solito queste impostazioni sono configurate nelle impostazioni «Video/Immagine», «Grafica» o «Display/Monitor» del gioco.',
     languageTr:
-        "{game}» ayarlarında oyun işleme/görüntüleme modunu «Pencereli» veya «Tam ekran pencereli» olarak ayarlamayı unutmayın, bu değişikliği başlatmak için bu yapılmalıdır! Bu ayarlar genellikle oyundaki «Video/Görüntü», «Grafikler» veya «Ekran/Monitör» ayarlarında yapılandırılır.\n\nBu adımları zaten yaptıysanız, aşağıdaki düğmeyi kullanarak bu iletişim kutusunu atlayın!",
+        "{game}» ayarlarında oyun işleme/görüntüleme modunu «Pencereli» veya «Tam ekran pencereli» olarak ayarlamayı unutmayın, bu değişikliği başlatmak için bu yapılmalıdır! Bu ayarlar genellikle oyundaki «Video/Görüntü», «Grafikler» veya «Ekran/Monitör» ayarlarında yapılandırılır.",
     languageEs:
-        "No olvide configurar el modo de renderizado/visualización del juego a «Ventana» o «Ventana a pantalla completa» en los ajustes de {game}, ¡esto debe hacerse para lanzar esta modificación! Normalmente, estos ajustes se configuran en los ajustes de «Video/Imagen», «Gráficos» o «Pantalla/Monitor» en el juego.\n\n¡Si ya has hecho estos pasos, simplemente salta este diálogo usando el botón de abajo!",
+        "No olvide configurar el modo de renderizado/visualización del juego a «Ventana» o «Ventana a pantalla completa» en los ajustes de {game}, ¡esto debe hacerse para lanzar esta modificación! Normalmente, estos ajustes se configuran en los ajustes de «Video/Imagen», «Gráficos» o «Pantalla/Monitor» en el juego.",
     languageCn:
         '别忘了在{game}设置中将游戏渲染/显示模式设置为 «窗口» 或 «全屏窗口»，必须这样才能启动此修改！通常，这些设置会在游戏中的 «视频/图像»、«图形» 或 «显示/显示器» 设置中进行配置！',
   },
