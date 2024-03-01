@@ -13912,4 +13912,23 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs: "Copia",
     languageCn: "复制",
   },
+ 'BadlyInstalledVC++': {
+    languageEn:
+        "It seems that Microsoft VC++ components present on your PC are not installed correctly. In order to launch this modification you need to reinstall these components!",
+    languageRu:
+        'Похоже, что компоненты Microsoft VC++, установленные на твоём ПК, установлены неправильно. Для того, чтобы запустить данную модификацию тебе необходимо переустановить эти компоненты!',
+    languageUa:
+        'Схоже, що компоненти Microsoft VC++, встановлені на твоєму ПК, встановлені неправильно. Для того, щоб запустити цю модифікацію тобі необхідно перевстановити ці компоненти!',
+    languagePl:
+        'Wygląda na to, że składniki Microsoft VC++ zainstalowane na komputerze nie są poprawnie zainstalowane. Aby uruchomić tę modyfikację, należy ponownie zainstalować te komponenty!',
+    languageDe:
+        'Es scheint, dass die auf Ihrem PC installierten Microsoft VC++ Komponenten nicht korrekt installiert sind. Um diese Modifikation ausführen zu können, müssen Sie diese Komponenten neu installieren!',
+    languageIt:
+        'Sembra che i componenti di Microsoft VC++ installati sul PC non siano stati installati correttamente. Per poter eseguire questa modifica è necessario reinstallare questi componenti!',
+    languageTr:
+        "Bilgisayarınızda yüklü olan Microsoft VC++ bileşenleri doğru yüklenmemiş gibi görünüyor. Bu değişikliği çalıştırmak için bu bileşenleri yeniden yüklemeniz gerekir!",
+    languageEs:
+        "Parece que los componentes de Microsoft VC++ instalados en su PC no están instalados correctamente. Para poder ejecutar esta modificación, debe volver a instalar estos componentes.",
+    languageCn: "您电脑上安装的 Microsoft VC++组件似乎未正确安装。要运行此修改，您需要重新安装这些组件！",
+  },
 };
