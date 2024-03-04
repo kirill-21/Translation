@@ -219,7 +219,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Einfache | Legit",
     languageIt: 'Semplice | Legit',
     languageTr: "Mütevazı | Legit",
-    languageEs: "Humilde | Legítimo",
+    languageEs: "Simple | Legit",
     languageCn: "谦卑 | 合法",
   },
   'MediumPlural': {
@@ -307,7 +307,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Neurales Netzwerk",
     languageIt: 'Rete neuronale',
     languageTr: "Nöronet",
-    languageEs: "Neurona",
+    languageEs: "Neuronet",
     languageCn: "神经网络",
   },
   'Farmbot': {
@@ -318,7 +318,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Farm-bot",
     languageIt: 'Farm-bot',
     languageTr: "Çiftlik-bot",
-    languageEs: "Granja robot",
+    languageEs: "Farm-robot",
     languageCn: "农场机器人",
   },
   'FarmbotDescription': {
@@ -401,7 +401,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Neuronale Netze",
     languageIt: 'Reti neuronali',
     languageTr: "Nöronetler",
-    languageEs: "Neuronas",
+    languageEs: "Neuronet",
     languageCn: "神经元网络",
   },
   'FarmbotPlural': {
@@ -412,7 +412,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Farm-Bots | Bots",
     languageIt: 'Farm-bots | bots',
     languageTr: "Çiftlik-botları | botlar",
-    languageEs: "Granjas robot",
+    languageEs: "Farm-robot",
     languageCn: "农场机器人",
   },
   'MacrosPlural': {
@@ -579,7 +579,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Yakın zamanda toplanan istatistiklere göre, bu modifikasyonun kullanımı nedeniyle VAC'nin engellenme olasılığı son derece düşüktür, bu da modifikasyonun kullanımının güvenli olduğu anlamına gelir. Son iki hafta içinde alınan yasaklamaların yüzdesi: ",
     languageEs:
-        "Basándonos en las estadísticas recogidas recientemente, las posibilidades de que VAC sea bloqueado por usar esta modificación son extremadamente pequeñas, lo que significa que es seguro usarla. Porcentaje de bloqueos recibidos durante las dos últimas semanas: ",
+        "Basándonos en las estadísticas recogidas recientemente, las posibilidades de que VAC sea bloqueado por usar esta modificación son extremadamente baja, lo que significa que es seguro usarla. Porcentaje de bloqueos recibidos durante las dos últimas semanas: ",
     languageCn: "根据最近收集的统计数据，因使用此修改而被 VAC 封杀的几率极小，这意味着使用此修改是安全的。最近两周收到封禁的百分比：",
   },
   'UnsafeToUse': {
@@ -726,7 +726,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Okay",
     languageIt: 'Okay',
     languageTr: "Tamam",
-    languageEs: "Vale",
+    languageEs: "Bueno",
     languageCn: "好了",
   },
   'OkayButDoNotShowItAgain': {
@@ -737,7 +737,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "OK, nicht mehr anzeigen!",
     languageIt: 'Okay, non mostrarlo più!',
     languageTr: "Tamam, bir daha gösterme!",
-    languageEs: "¡Vale, no lo vuelvas a enseñar!",
+    languageEs: "¡Bueno, no lo vuelvas a enseñar!",
     languageCn: "好了，别再放了",
   },
   'ZoomImageTip': {
@@ -888,7 +888,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Suche nach Rahmen",
     languageIt: 'Cerca per fotogrammi',
     languageTr: "Çerçevelere göre ara",
-    languageEs: "Búsqueda por marcos",
+    languageEs: "Búsqueda por frames",
     languageCn: "按框架搜索",
   },
   'SearchByModifications': {
@@ -966,7 +966,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Beschwerde",
     languageIt: 'Reclamo',
     languageTr: "Şikâyet",
-    languageEs: "Denuncia",
+    languageEs: "Queja",
     languageCn: "投诉",
   },
   // two-4 complaints
@@ -1304,7 +1304,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Bescheid",
     languageIt: 'Reclamo',
     languageTr: "Şikayet et",
-    languageEs: "Reclame",
+    languageEs: "Quejarse",
     languageCn: "投诉",
   },
   'UserComments': {
@@ -1591,7 +1591,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Pencerenin dışında kar veya yağmur mu yağıyor? Tek bir tıklamayla uygulamada aynı hava durumunu oluşturun!",
     languageEs:
-        "¿Está nevando o lloviendo fuera de la ventana? ¡Haz el mismo tiempo en la aplicación con un solo clic!",
+        "¿Está nevando o lloviendo fuera de window? ¡Haz el mismo tiempo en la aplicación con un solo click!",
     languageCn: "窗外正在下雪或下雨？只需点击一下，就能在应用程序中显示同样的天气！",
   },
   'GrainEffect': {
@@ -1613,7 +1613,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Deaktiviert",
     languageIt: 'Disabilitato',
     languageTr: "Engelli",
-    languageEs: "Discapacitados",
+    languageEs: "Desactivado",
     languageCn: "残疾",
   },
   'GreatVisible': {
@@ -1937,7 +1937,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Sommer",
     languageIt: 'Estateee',
     languageTr: "Yazrrr",
-    languageEs: "Veranorrr",
+    languageEs: "Veranooo",
     languageCn: "夏季",
   },
   'VictoryDay': {
@@ -2066,7 +2066,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Liste der laufenden Spiele löschen",
     languageIt: 'Cancella l`elenco dei giochi lanciati',
     languageTr: "Başlatılan oyunların listesini temizleyin",
-    languageEs: "Borrar la lista de juegos lanzados",
+    languageEs: "Borrar la lista de juegos ejecutados",
     languageCn: "清除已启动游戏的列表",
   },
   'ClearListExecuted': {
@@ -2085,7 +2085,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Başlattığınız veya değişiklik yüklediğiniz oyunların listesi temizlendi!",
     languageEs:
-        "Se ha borrado la lista de juegos a los que has lanzado o instalado modificaciones.",
+        "Se ha borrado la lista de juegos a los que has ejecutado o instalado modificaciones.",
     languageCn: "已启动或安装修改的游戏列表已清除！",
   },
   'NotificationsAboutComplaints': {
@@ -2705,7 +2705,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Ausgewählter Taste:",
     languageIt: 'Tasto selezionato:',
     languageTr: "Seçilen anahtar:",
-    languageEs: "Llave seleccionada:",
+    languageEs: "Key seleccionada:",
     languageCn: "选定密钥：",
   },
   'GoogleAuthPageTitle': {
@@ -2781,7 +2781,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Vorstartprüfung",
     languageIt: 'Controllo pre-avvio',
     languageTr: "Lansman öncesi kontrol",
-    languageEs: "Comprobación previa al lanzamiento",
+    languageEs: "Comprobación previa al ejecutamiento",
     languageCn: "发射前检查",
   },
   'DisableAC': {
@@ -2800,7 +2800,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Modifikasyonun başlatma işlemi, aktif ve çalışan bir kullanıcı anti-hilesinin varlığı nedeniyle kesintiye uğradı. Devam etmek için FaceIt, ESEA, EAC, BattleEye, Byfron, Vanguard, MRAC, vb. gibi tüm programları devre dışı bırakın!",
     languageEs:
-        "El proceso de lanzamiento de la modificación se ha interrumpido debido a la presencia de un anti-tramposo de usuario activo y en funcionamiento. Desactiva todos los programas como FaceIt, ESEA, EAC, BattleEye, Byfron, Vanguard, MRAC, etc. para continuar.",
+        "El proceso de ejecutacion de la modificación se ha interrumpido debido a la presencia de un anti-tramposo de usuario activo y en funcionamiento. Desactiva todos los programas como FaceIt, ESEA, EAC, BattleEye, Byfron, Vanguard, MRAC, etc. para continuar.",
     languageCn:
         "由于存在有效的用户反作弊程序，修改的启动过程被中断。禁用 FaceIt、ESEA、EAC、BattleEye、Byfron、Vanguard、MRAC 等所有程序才能继续！",
   },
@@ -2840,7 +2840,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Ne yazık ki, Windows sürümünüz modifikasyonun önerdiği sürümle uyumlu değil. Bu modifikasyonla oynamak istiyorsanız, Windows'u yüklemeniz gerekecek",
     languageEs:
-        "Lamentablemente, tu versión de Windows es incompatible con la recomendada por la modificación. Si quieres jugar con esta modificación, tendrás que instalar Windows",
+        "Lamentablemente, tu versión de Windows es incompatible con la recomendada por la modificación. Si quieres jugar con esta modificación, tendrás que instalar Windows recomendado para usarlo",
     languageCn: "不幸的是，您的 Windows 版本与修改版推荐的版本不兼容。如果你想玩这个修改，你必须安装 Windows",
   },
   'GPUIsIncompatible': {
@@ -2882,7 +2882,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Installation des Bootmoduls",
     languageIt: 'Installazione del modulo di avvio della modifica',
     languageTr: "Modifikasyonun başlatma modülünün yüklenmesi",
-    languageEs: "Instalación del módulo de lanzamiento de la modificación",
+    languageEs: "Instalación del módulo de ejecutamiento de la modificación",
     languageCn: "Installing the modification's launch module",
   },
   'InstallingFonts': {
@@ -2970,7 +2970,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Warten Sie, bis Sie {game} starten",
     languageIt: 'In attesa che tu avvii il {game}',
     languageTr: "{game} başlatmanızı bekliyorum",
-    languageEs: "Esperando a que lances el {game}",
+    languageEs: "Esperando a que inicies el {game}",
     languageCn: "等待您启动 {game}。",
   },
   'FailedToLaunchDueToSteam': {
@@ -2989,7 +2989,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Modifikasyonun başlatma işlemi cihazınızda Steam yüklü olmadığı için kesintiye uğradı. Steam'i yükleyin ve devam etmek için modifikasyonu başlatmayı tekrar deneyin!",
     languageEs:
-        "El proceso de lanzamiento de la modificación se ha interrumpido debido a la ausencia de Steam instalado en tu dispositivo. Instala Steam y vuelve a intentar iniciar la modificación para continuar.",
+        "El proceso de ejecutacion de la modificación se ha interrumpido debido a la ausencia de Steam instalado en tu dispositivo. Instala Steam y vuelve a intentar iniciar la modificación para continuar.",
     languageCn: "由于您的设备上未安装 Steam，导致修改启动过程中断。请安装 Steam 并重新尝试启动修改以继续！",
   },
   'LaunchingSteam': {
@@ -3000,7 +3000,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Steam Startet...",
     languageIt: 'Avvio di Steam',
     languageTr: "Steam başlatılıyor",
-    languageEs: "Lanzamiento de steam",
+    languageEs: "Ejecutacion de steam",
     languageCn: "启动 steam",
   },
   'WaitingForSteamLaunch': {
@@ -3011,7 +3011,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Warten Sie, bis Sie Steam starten",
     languageIt: 'Aspetta finché non ti si avvii Steam',
     languageTr: "Steam'i başlatmanı bekliyorum",
-    languageEs: "Esperando el lanzamiento de steam",
+    languageEs: "Esperando el ejecutamiento de steam",
     languageCn: "等待您推出 steam",
   },
   'CheckingModules': {
@@ -3081,7 +3081,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Değişikliğin başlatma işlemi sırasında beklenmedik bir hata oluştu. ExLoader ayarlarında modifikasyonun enjeksiyon yöntemini değiştirmeyi deneyin veya başka bir modifikasyonun başlatılmasını test edin. Her enjeksiyon yöntemi için mevcut değişikliklerin listesi uygulama ayarlarında görüntülenebilir!\n\nSorun devam ederse, aşağıdaki düğmeyi kullanarak görebileceğiniz günlük dosyasından ekran görüntüleri ekleyerek desteğimize yazın!",
     languageEs:
-        "Se ha producido un error inesperado durante el proceso de lanzamiento de la modificación. Intente cambiar el método de inyección de la modificación en la configuración de ExLoader o pruebe el lanzamiento de otra modificación. La lista de modificaciones disponibles para cada método de inyección se puede ver en la configuración de la aplicación.\n\nSi el problema persiste, escribe a nuestro servicio de asistencia adjuntando capturas de pantalla del archivo de registro, que puedes ver utilizando el botón de abajo.",
+        "Se ha producido un error inesperado durante el proceso de ejecutamiento de la modificación. Intente cambiar el método de inyección de la modificación en la configuración de ExLoader o pruebe la ejecutacion de otra modificación. La lista de modificaciones disponibles para cada método de inyección se puede ver en la configuración de la aplicación.\n\nSi el problema persiste, escribe a nuestro servicio de asistencia adjuntando capturas de pantalla del archivo de registro, que puedes ver utilizando el botón de abajo.",
     languageCn:
         "修改启动过程中出现意外错误。请尝试在 ExLoader 设置中更改修改的注入方法，或测试其他修改的启动。可在应用程序设置中查看每种注入方法的可用修改列表！\n\n如果问题仍然存在，请写信给我们的支持人员，并附上日志文件的截图，您可以使用下面的按钮查看！",
   },
@@ -4345,7 +4345,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Bearbeiten",
     languageIt: 'Modificare',
     languageTr: "Tutamak",
-    languageEs: "Mango",
+    languageEs: "Controle",
     languageCn: "手柄",
   },
   'Select': {
@@ -4725,7 +4725,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Dosya boyutu çok büyük, 1 megabayttan daha az ağırlığa sahip bir avatar kullanmayı deneyin!",
     languageEs:
-        "El tamaño del archivo es demasiado bruto, ¡intenta usar un avatar con un peso inferior a 1 megabyte!",
+        "El tamaño del archivo es demasiado grande, ¡intenta usar un avatar con un peso inferior a 1 megabyte!",
     languageCn: "文件太大，请尝试使用重量小于 1 兆字节的头像！",
   },
   'Premium': {
@@ -5033,7 +5033,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Start",
     languageIt: 'avvia',
     languageTr: "fırlatma",
-    languageEs: "lanzamiento",
+    languageEs: "ejecutamiento",
     languageCn: "发射",
   },
   'LaunchesSecond': {
@@ -5044,7 +5044,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Starts",
     languageIt: 'avvia',
     languageTr: "fırlatma",
-    languageEs: "lanzamientos",
+    languageEs: "ejecutamiento",
     languageCn: "发射",
   },
   'LaunchesThird': {
@@ -5055,7 +5055,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Starts",
     languageIt: 'lancia',
     languageTr: "fırlatma",
-    languageEs: "lanzamientos",
+    languageEs: "ejecutamiento",
     languageCn: "发射",
   },
   'Installs': {
@@ -5219,7 +5219,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Ne yazık ki, güncelleme aşamasında olduğu için bu değişikliği başlatamazsınız. Genellikle bu işlem birkaç saatten birkaç güne kadar sürer. Gerçekten bu modifikasyonla oynamak istiyor musunuz? Sadece sabırlı olun ve bekleyin! Bu süreden sonra değişiklik güncellenmezse - ExLoader kütüphanesinden silinecektir.",
     languageEs:
-        "Lamentablemente, no puedes lanzar esta modificación porque está en proceso de actualización. Normalmente, este proceso tarda entre varias horas y varios días. ¿De verdad quieres jugar con esta modificación? Ten paciencia y espera. Si la modificación no se actualiza después de este período - se eliminará de la biblioteca ExLoader.",
+        "Lamentablemente, no puedes ejecutar esta modificación porque está en proceso de actualización. Normalmente, este proceso tarda entre varias horas y varios días. ¿De verdad quieres jugar con esta modificación? Ten paciencia y espera. Si la modificación no se actualiza después de este período - se eliminará de la biblioteca ExLoader.",
     languageCn:
         "不幸的是，您无法启动此修改，因为它正在更新中。通常，这个过程需要几个小时到几天的时间。真的想玩这个修改？请耐心等待！如果过了这段时间仍未更新，它将从 ExLoader 库中删除。",
   },
@@ -5382,7 +5382,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Görünüşe göre, bilgilendirici olmayan, spam, reklam veya aldatıcı bir içerik kullanarak çok sık bir inceleme yazmaya veya bir yapılandırma yüklemeye veya düzenlemeye çalıştınız! Sizi moderatör yasağından kurtarmak için, otomatik kontrol sistemi yorum yazma ve yapılandırma yükleme veya düzenleme özelliklerine erişiminizi geçici olarak kısıtladı! Yasağınız {date} tarihinde sona eriyor.",
     languageEs:
-        "Parece que has intentado escribir un comentario, o subir o editar una configuración utilizando un contenido poco informativo, spam, publicitario o engañoso ¡demasiadas veces! ¡Para salvarte del baneo del moderador, el sistema de autochequeo ha restringido temporalmente tu acceso a las funciones de escribir comentarios y subir o editar configuraciones! Tu bloqueo expira el {date}.",
+        "Parece que has intentado escribir un comentario, o subir o editar una configuración utilizando un contenido poco informativo, spam, publicitario o engañoso ¡demasiadas veces! ¡Para salvarte del baneo del moderador, el sistema de autochequeo ha restringido temporalmente tu acceso a las funciones de escribir comentarios y subir o editar configuraciones! Tu prohibicion expira el {date}.",
     languageCn:
         "看来您尝试撰写评论或上传或编辑配置时，使用了过多的无信息、垃圾、广告或欺骗性内容！为了使您免于被版主封禁，自动检查系统暂时限制了您撰写评论和上传或编辑配置的权限！您的禁言将于 {date} 到期。",
   },
@@ -5494,7 +5494,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Prozent",
     languageIt: 'per cento',
     languageTr: "yüzde",
-    languageEs: "por ciento",
+    languageEs: "porcentaje",
     languageCn: "百分比",
   },
   // 2-4
@@ -5506,7 +5506,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Prozent",
     languageIt: 'percento',
     languageTr: "yüzde",
-    languageEs: "por ciento",
+    languageEs: "porcentaje",
     languageCn: "百分比",
   },
   // 0, 5-9
@@ -5518,7 +5518,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Prozent",
     languageIt: 'percento',
     languageTr: "yüzde",
-    languageEs: "por ciento",
+    languageEs: "porcentaje",
     languageCn: "百分比",
   },
   'LibraryWithSuchTagIsEmpty': {
@@ -6080,7 +6080,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Ein Verbot für einen Tag ausstellen",
     languageIt: 'Emetti un blocco per un giorno',
     languageTr: "Bir gün süreyle yasaklama",
-    languageEs: "Prohibición de entrada durante un día",
+    languageEs: "Prohibición durante un día",
     languageCn: "禁言一天",
   },
   '3Days': {
@@ -6091,7 +6091,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Ein Verbot für drei Tage ausstellen",
     languageIt: 'Emettere un blocco per tre giorni',
     languageTr: "Üç gün süreyle yayın yasağı",
-    languageEs: "Prohibición de entrada durante tres días",
+    languageEs: "Prohibición durante tres días",
     languageCn: "发布禁令三天",
   },
   '7Days': {
@@ -6113,7 +6113,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Ein Verbot für einen Monat ausstellen",
     languageIt: 'Emetti un blocco per un mese',
     languageTr: "Bir ay süreyle yayın yasağı",
-    languageEs: "Prohibición de entrada durante un mes",
+    languageEs: "Prohibición durante un mes",
     languageCn: "禁言一个月",
   },
   'BanForever': {
@@ -6124,7 +6124,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Permanenter Bann",
     languageIt: 'Blocco permanente',
     languageTr: "Sonsuza kadar yasakla",
-    languageEs: "Prohibir para siempre",
+    languageEs: "Prohibición para siempre",
     languageCn: "永远禁止",
   },
   'RemoveBan': {
@@ -6332,7 +6332,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Ne yazık ki, bu değişikliği çevrimdışı modda başlatamazsınız. ExLoader sunucusuna ulaşana kadar bekleyin ve tekrar başlatmayı deneyin!",
     languageEs:
-        "Desafortunadamente, no puedes lanzar esta modificación en modo offline. Espere hasta que ExLoader pueda alcanzar su servidor e intente lanzarlo de nuevo.",
+        "Desafortunadamente, no puedes ejecutar esta modificación en modo offline. Espere hasta que ExLoader pueda alcanzar su servidor e intente ejecutarlo de nuevo.",
     languageCn: "遗憾的是，您无法在离线模式下启动此修改。请等到 ExLoader 可以连接到服务器后再尝试启动！",
   },
   'CanNotUseThisFunctionInOfflineMode': {
@@ -6370,7 +6370,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Modifikasyonun başlatma işlemi, enjeksiyon işlemi sırasında oyunun kapanması nedeniyle kesintiye uğradı!",
     languageEs:
-        "El proceso de lanzamiento de la modificación se ha interrumpido debido a que el juego se ha cerrado durante el proceso de inyección.",
+        "El proceso de ejecutacion de la modificación se ha interrumpido debido a que el juego se ha cerrado durante el proceso de inyección.",
     languageCn: "由于游戏在注入过程中关闭，导致修改启动过程中断！",
   },
   'CrashMessage': {
@@ -6389,7 +6389,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Görünüşe göre başlatmaya çalıştığınız değişiklik oyunun çökmesine neden oldu! Bunun ExLoader sorunu olmadığını, modifikasyonun veya cihazınızın sorunu olduğunu unutmayın. Daha fazla bilgi için aşağıdaki butona tıklayın!\n\nBu sorun yalnızca başlattığınız modifikasyonla ilgili olabilir. Aşağıdaki ipuçlarıyla bu sorundan kurtulamazsanız, kütüphanemizdeki diğer modifikasyonlarla oynamayı deneyin!",
     languageEs:
-        "Parece que la modificación que has intentado lanzar ha provocado un bloqueo del juego. Ten en cuenta que no es un problema de ExLoader, sino de la modificación o de tu dispositivo. Para más información, haz clic en el botón de abajo.\n\nEste problema puede estar relacionado sólo con la modificación que has lanzado. Si no puedes deshacerte de este problema con los consejos de abajo, ¡intenta jugar con otras modificaciones de nuestra biblioteca!",
+        "Parece que la modificación que has intentado ejecutar ha provocado un bloqueo del juego. Ten en cuenta que no es un problema de ExLoader, sino de la modificación o de tu dispositivo. Para más información, haz clic en el botón de abajo.\n\nEste problema puede estar relacionado sólo con la modificación que has ejecutado. Si no puedes deshacerte de este problema con los consejos de abajo, ¡intenta jugar con otras modificaciones de nuestra biblioteca!",
     languageCn:
         "看来您尝试启动的修改导致了游戏崩溃！请注意，这不是 ExLoader 的问题，而是修改或设备的问题。更多信息请点击下面的按钮\n\n这个问题可能只与你启动的修改有关。如果使用以下提示仍无法解决此问题，请尝试使用我们资料库中的其他修改程序！",
   },
@@ -6409,7 +6409,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Görünüşe göre başlatmaya çalıştığınız değişiklik oyunun çökmesine neden oldu! Bunun ExLoader sorunu değil, modifikasyonun kendisi, uygulamanın ayarlarında seçilen enjeksiyon yöntemi veya cihazınızın sorunu olduğunu unutmayın. Daha fazla bilgi için aşağıdaki butona tıklayın!",
     languageEs:
-        "Parece que la modificación que has intentado lanzar ha provocado un bloqueo del juego. Ten en cuenta que no es un problema de ExLoader, sino de la propia modificación, del método de inyección seleccionado en la configuración de la aplicación o de tu dispositivo. Para obtener más información, haga clic en el botón de abajo.",
+        "Parece que la modificación que has intentado ejecutar ha provocado un bloqueo del juego. Ten en cuenta que no es un problema de ExLoader, sino de la propia modificación, del método de inyección seleccionado en la configuración de la aplicación o de tu dispositivo. Para obtener más información, haga click en el botón de abajo.",
     languageCn:
         "看来您尝试启动的修改导致了游戏崩溃！请注意，这不是 ExLoader 的问题，而是修改本身、在应用程序设置中选择的注入方法或您设备的问题。更多信息请点击下面的按钮！",
   },
@@ -6501,7 +6501,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Değişikliğin düzgün çalışması için sisteminizde {entity} bileşenlerinin yüklü olması gerekir. Yükleyicide reklam teklifleri görünürse, «Reddet» düğmesine tıklamanız yeterlidir.",
     languageEs:
-        "Debe tener componentes {entity} instalados en su sistema para que la modificación funcione correctamente. Si aparecen ofertas publicitarias en el instalador, simplemente haga clic en el botón «Rechazar»",
+        "Debe tener componentes {entity} instalados en su sistema para que la modificación funcione correctamente. Si aparecen ofertas publicitarias en el instalador, simplemente haga click en el botón «Rechazar»",
     languageCn: "您的系统必须安装了 {entity} 组件，修改才能正常运行。。如果安装程序中出现广告，只需点击 «拒绝» 按钮即可。",
   },
   'Downloading': {
@@ -6608,7 +6608,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Modifikasyonun sayfasındaki dişli düğmesini kullanarak diğer kullanıcıların önceden hazırlanmış konfigürasyonlarını yükleyebilirsiniz!\n\nAncak, bazı modifikasyonlar bu özelliği şu veya bu nedenle desteklememektedir!",
     languageEs:
-        "Puedes instalar configuraciones preconfiguradas por otros usuarios utilizando el botón de engranaje de la página de la modificación.\n\nSin embargo, algunas modificaciones no admiten esta función por una razón u otra.",
+        "Puedes instalar configuraciones preconfiguradas por otros usuarios utilizando el botón de la tuerca en la página de la modificación.\n\nSin embargo, algunas modificaciones no admiten esta función por una razón u otra.",
     languageCn: "您可以使用修改页面上的齿轮按钮安装其他用户提供的预制配置\n\n不过，有些修改由于某种原因不支持此功能！",
   },
   'WeOfferYouYandex': {
@@ -6896,7 +6896,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "İlk fırlatma işlemi başarıyla tamamlandı, ancak bu modifikasyonun kendi yükleyicisi var ve bu da fırlatma işlemine devam edecek!",
     languageEs:
-        "El proceso de lanzamiento inicial se ha completado con éxito, sin embargo, esta modificación tiene su propio cargador, ¡que continuará su proceso de lanzamiento!",
+        "El proceso de ejecutacion inicial se ha completado con éxito, sin embargo, esta modificación tiene su propio cargador, ¡que continuará su proceso de ejecutacion!",
     languageCn: "初始启动过程已成功完成，但该改装件有自己的加载器，将继续执行下一步启动过程！",
   },
   'RegisterIfNeeded': {
@@ -6915,7 +6915,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Modifikasyonun başlatıcısı bir yetkilendirme mi gerektiriyor? Sadece herhangi bir veri ile sisteme kaydolun ve giriş yapmak için kullanın! Yetkilendirme ve hesap oluşturma tamamen ücretsizdir, sadece kullanıcıları tanımlamak için gereklidir!",
     languageEs:
-        "¿El lanzador de la modificación requiere una autorización? Simplemente regístrese en su sistema con cualquier dato y utilícelo para iniciar sesión. La autorización y la creación de cuenta son completamente gratuitas, ¡sólo se requieren para identificar a los usuarios!",
+        "¿La ejecutacion de la modificación requiere una autorización? Simplemente regístrese en su sistema con cualquier dato y utilícelo para iniciar sesión. La autorización y la creación de cuenta son completamente gratuitas, ¡sólo se requieren para identificar a los usuarios!",
     languageCn: "修改启动器需要授权？只需在其系统中输入任何数据并登录即可！授权和账户创建完全免费，只需确认用户身份即可！",
   },
   'AuthNeeded': {
@@ -6934,7 +6934,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "🔐 Modifikasyonun başlatıcısı bir yetkilendirme gerektiriyor mu? Sadece satın alma işlemi sırasında sağladığınız verileri kullanın!",
     languageEs:
-        "🔐 ¿El lanzador de la modificación requiere una autorización? ¡Sólo tiene que utilizar los datos que ha proporcionado durante el proceso de compra!",
+        "🔐 ¿La ejecutacion de la modificación requiere una autorización? ¡Sólo tiene que utilizar los datos que ha proporcionado durante el proceso de compra!",
     languageCn: "🔐 修改的启动器需要授权？只需使用您在购买过程中提供的数据即可！",
   },
   'Launching': {
@@ -6975,7 +6975,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Ne yazık ki, dosyalar indirilirken değişikliğin başlatılmasını iptal edemezsiniz. Değişikliğin yükleme işleminin tamamlanmasını bekleyin ve tekrar deneyin!",
     languageEs:
-        "Lamentablemente, no puedes cancelar el lanzamiento de la modificación mientras se descargan sus archivos. Espera a que finalice el proceso de instalación de la modificación y vuelve a intentarlo.",
+        "Lamentablemente, no puedes cancelar el ejecutamiento de la modificación mientras se descargan sus archivos. Espera a que finalice el proceso de instalación de la modificación y vuelve a intentarlo.",
     languageCn: "遗憾的是，您无法在下载文件时取消启动修改。请等待修改程序安装完成后再试一次！",
   },
   'NotAvailableOnLaunch': {
@@ -6992,7 +6992,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Modifikasyonun kaldırma işlevi lansmanı sırasında mevcut değildir!",
     languageEs:
-        "La función de eliminación de la modificación no está disponible durante su lanzamiento.",
+        "La función de eliminación de la modificación no está disponible durante su ejecutamiento.",
     languageCn: "在启动过程中，修改的删除功能不可用！",
   },
   'EmailTooltip': {
@@ -7173,7 +7173,7 @@ const Map<String, Map<String, String>> localeItems = {
         "Es scheint, dass der von dir gewählte Spitzname bereits vergeben ist",
     languageIt: 'Sembra che il nickname che hai scelto sia già preso',
     languageTr: "Görünüşe göre seçtiğiniz takma ad çoktan alınmış",
-    languageEs: "Parece que ese nick que has elegido ya está cogido .",
+    languageEs: "Parece que ese nick que has elegido ya está en uso.",
     languageCn: "看来你选的昵称已经有人用了。",
   },
   '30DaysNotPassedNickname': {
@@ -8715,8 +8715,9 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Oyununuzun başlangıç parametreleri önerilenlerle eşleşmiyor! Bir oyunun başlangıç parametrelerini eklemek veya kaldırmak için, oyunun başlatıcısına (örneğin Steam, EpicGames, Microsoft, Battle.net, vb.) gidin, özelliklerine gidin ve oyunun başlangıç parametrelerini değiştirmenize izin veren uygun seçeneği bulun.",
     languageEs:
-        "Los parámetros de inicio de tu juego no coinciden con los recomendados. Para añadir o eliminar parámetros de inicio de un juego, ve a su lanzador (por ejemplo, Steam, EpicGames, Microsoft, Battle.net, etc.), ve a sus propiedades y busca la opción adecuada que te permita cambiar los parámetros de inicio del juego.",
-    languageCn: "您的游戏启动参数与推荐参数不符！要添加或删除游戏的启动参数，请进入游戏启动器（如 Steam、EpicGames、Microsoft、Battle.net 等），进入属性并找到允许您更改游戏启动参数的相应选项。",
+        "Los parámetros de inicio de tu juego no coinciden con los recomendados. Para añadir o eliminar parámetros de inicio de un juego, ve a su ejecutador (por ejemplo, Steam, EpicGames, Microsoft, Battle.net, etc.), ve a sus propiedades y busca la opción adecuada que te permita cambiar los parámetros de inicio del juego.",
+    languageCn:
+        "您的游戏启动参数与推荐参数不符！要添加或删除游戏的启动参数，请进入游戏启动器（如 Steam、EpicGames、Microsoft、Battle.net 等），进入属性并找到允许您更改游戏启动参数的相应选项。",
   },
   'LaunchOptionsGood': {
     languageEn:
@@ -8749,7 +8750,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Başlatma seçenekleri ve ayarları iyi, hiçbir şey yapmanıza gerek yok.",
     languageEs:
-        "Las opciones de lanzamiento y los ajustes son buenos, no tienes que nada.",
+        "Las opciones de ejecutamiento y los ajustes son buenos, no tienes que nada.",
     languageCn: "启动选项和设置都很好，你不需要做任何事情。",
   },
   'OwnLoader': {
@@ -8760,7 +8761,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: "Zusätzlicher Launcher",
     languageIt: 'Avvio aggiuntivo',
     languageTr: "Ek fırlatıcı",
-    languageEs: "Lanzador adicional",
+    languageEs: "Ejecutador adicional",
     languageCn: "附加发射器",
   },
   'OwnLoaderDescription': {
@@ -8794,7 +8795,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Bu modifikasyonun başlatma süreciyle ilgili herhangi bir sorun ExLoader için geçerli değildir, çünkü enjeksiyon işlemi sırasında kendi başlatıcısını kullanır!",
     languageEs:
-        "Cualquier problema asociado con el proceso de lanzamiento de esta modificación no se aplica a ExLoader, ¡ya que utiliza su propio lanzador durante el proceso de inyección!",
+        "Cualquier problema asociado con el proceso de ejecutamiento de esta modificación no se aplica a ExLoader, ¡ya que utiliza su propio ejecutador durante el proceso de inyección!",
     languageCn: "与该修改的启动过程相关的任何问题都不适用于 ExLoader，因为它在注入过程中使用自己的启动器！",
   },
   'ModificationVersion': {
@@ -8971,7 +8972,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Mevcut fırlatma yöntemi, modifikasyonun önerdiği yöntemle uyumsuz olabilir!",
     languageEs:
-        "El método de lanzamiento actual puede ser incompatible con el recomendado por la modificación.",
+        "El método de ejecutacion actual puede ser incompatible con el recomendado por la modificación.",
     languageCn: "当前的发射方法可能与修改建议的方法不兼容！",
   },
   'InjectionMethodTip': {
@@ -9182,14 +9183,22 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "是什么造成了这种情况？",
   },
   'IfYouDoneItJusSkip': {
-    languageEn: "If you've already done these steps, just skip this dialog using the button below!",
-    languageRu: 'Если ты уже выполнил данные действия, просто пропусти это окошко с помощью кнопки ниже!',
-    languageUa: 'Якщо ти вже виконав ці дії, просто пропусти це віконце за допомогою кнопки нижче!',
-    languagePl: 'Jeśli wykonałeś już te kroki, po prostu pomiń to pole za pomocą przycisku poniżej!',
-    languageDe: "Wenn Sie diese Schritte bereits befolgt haben, können Sie dieses Feld mit der Schaltfläche unten einfach überspringen!",
-    languageIt: 'Se avete già eseguito questi passaggi, saltate questa finestra di dialogo utilizzando il pulsante sottostante!',
-    languageTr: "Bu adımları zaten yaptıysanız, aşağıdaki düğmeyi kullanarak bu iletişim kutusunu atlayın!",
-    languageEs: "Si ya has hecho estos pasos, simplemente salta este diálogo usando el botón de abajo!",
+    languageEn:
+        "If you've already done these steps, just skip this dialog using the button below!",
+    languageRu:
+        'Если ты уже выполнил данные действия, просто пропусти это окошко с помощью кнопки ниже!',
+    languageUa:
+        'Якщо ти вже виконав ці дії, просто пропусти це віконце за допомогою кнопки нижче!',
+    languagePl:
+        'Jeśli wykonałeś już te kroki, po prostu pomiń to pole za pomocą przycisku poniżej!',
+    languageDe:
+        "Wenn Sie diese Schritte bereits befolgt haben, können Sie dieses Feld mit der Schaltfläche unten einfach überspringen!",
+    languageIt:
+        'Se avete già eseguito questi passaggi, saltate questa finestra di dialogo utilizzando il pulsante sottostante!',
+    languageTr:
+        "Bu adımları zaten yaptıysanız, aşağıdaki düğmeyi kullanarak bu iletişim kutusunu atlayın!",
+    languageEs:
+        "Si ya has hecho estos pasos, simplemente salta este diálogo usando el botón de abajo!",
     languageCn: "如果您已经完成这些步骤，请使用下面的按钮跳过此对话框！",
   },
   'WindowedModeJustTip': {
@@ -9413,7 +9422,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Görünüşe göre bu kullanıcı henüz ExLoader ile herhangi bir değişiklik başlatmamış",
     languageEs:
-        "Parece que este usuario aún no ha lanzado ninguna modificación con ExLoader",
+        "Parece que este usuario aún no ha ejecutado ninguna modificación con ExLoader",
     languageCn: "看起来该用户尚未使用 ExLoader 启动任何修改",
   },
   'KeepUp': {
@@ -10445,7 +10454,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: 'Mittlere',
     languageIt: 'Medio',
     languageTr: "Ortalama",
-    languageEs: "Media",
+    languageEs: "Medio",
     languageCn: "平均",
   },
   '12.0Rounding': {
@@ -10560,7 +10569,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: 'Start abbrechen',
     languageIt: 'Annulla l`avvio',
     languageTr: "Fırlatmayı iptal edin",
-    languageEs: "Cancelar el lanzamiento",
+    languageEs: "Cancelar el ejecutamiento",
     languageCn: "取消发射",
   },
   'AntiCheatWarning': {
@@ -10799,7 +10808,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageTr:
         "Eğer modifikasyonun başlatılması için özel bir Steam modülünün enjekte edilmesi gerekiyorsa, o zaman dosyayı buraya ekleyebilirsiniz:",
     languageEs:
-        "Si la modificación necesita que se inyecte un módulo especial de Steam para su lanzamiento, puede añadir su archivo aquí:",
+        "Si la modificación necesita que se inyecte un módulo especial de Steam para su ejecutamiento, puede añadir su archivo aquí:",
     languageCn: "如果修改启动时需要注入特殊的 Steam 模块，则可以在此处添加文件：",
   },
   'ConfigComplaint': {
@@ -10901,7 +10910,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageDe: 'Piraten Spiel Client',
     languageIt: 'Client di gioco pirata',
     languageTr: "Korsan oyun istemcisi",
-    languageEs: "Juego de piratas cliente",
+    languageEs: "Juego pirata cliente",
     languageCn: "海盗游戏客户端",
   },
   'OfficialClient': {
@@ -12881,7 +12890,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr:
         "Ne yazık ki, bu modifikasyonun başlatılması yalnızca kendi başlatıcısını yükledikten sonra kullanılabilir, bunu aşağıdaki düğmeyi kullanarak yapabilirsiniz. Yükleyiciyi indirdikten sonra, modun geliştiricileri tarafından bırakılan talimatları izleyin!",
     languageEs:
-        "Desafortunadamente, el lanzamiento de esta modificación sólo está disponible después de instalar su propio lanzador, puedes hacerlo usando el botón de abajo. ¡Después de descargar el cargador, sólo tienes que seguir las instrucciones dejadas por los desarrolladores del mod!",
+        "Desafortunadamente, el ejecutamiento de esta modificación sólo está disponible después de instalar su propio lanzador, puedes hacerlo usando el botón de abajo. ¡Después de descargar el cargador, sólo tienes que seguir las instrucciones dejadas por los desarrolladores del mod!",
     languageCn:
         "不幸的是，只有在安装了自己的启动器后才能启动此修改，您可以使用下面的按钮进行安装。下载加载器后，只需按照修改程序开发人员留下的说明操作即可！",
   },
@@ -13068,7 +13077,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr:
         "Kurulumdan sonra bu modifikasyon nasıl başlatılır? Bu videoyu kaydetmek için orijinal Minecraft Launcher'ı kullandık, ancak bu kılavuz herhangi bir Launcher ile çalışacaktır!",
     languageEs:
-        "¿Cómo lanzar esta modificación después de la instalación? Para grabar este vídeo hemos utilizado el Minecraft Launcher original, sin embargo, ¡esta guía funcionará con cualquier Launcher!",
+        "¿Cómo ejecutar esta modificación después de la instalación? Para grabar este vídeo hemos utilizado el Minecraft Launcher original, sin embargo, ¡esta guía funcionará con cualquier Launcher!",
     languageCn: "安装后如何启动此修改？为了录制这段视频，我们使用了原始的威廉与启动器，不过，本指南适用于任何启动器！",
   },
   'ViewVideoGuide': {
@@ -13458,7 +13467,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr:
         "Bu modları başlatmak için {Game} oyununu nereden indireceğinizi bilmiyor musunuz? O zaman yan düğmeye tıklayın veya gerekli sürümü internette manuel olarak bulmaya çalışın!",
     languageEs:
-        "¿No sabes dónde descargar el juego {Game} para lanzar estos mods? Entonces haz clic en el botón lateral o intenta encontrar manualmente la versión necesaria en Internet.",
+        "¿No sabes dónde descargar el juego {Game} para ejecutar estos mods? Entonces haz clic en el botón lateral o intenta encontrar manualmente la versión necesaria en Internet.",
     languageCn: "不知道从哪里下载 {Game} 游戏来启动这些修改器？那就点击旁边的按钮或尝试在互联网上手动查找所需的版本！",
   },
   'Download': {
@@ -13795,7 +13804,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageDe: "Nach dem letzten Startdatum",
     languageIt: "Entro la data dell'ultimo lancio",
     languageTr: "Son fırlatma tarihine kadar",
-    languageEs: "En la fecha del último lanzamiento",
+    languageEs: "En la fecha del último ejecutamiento",
     languageCn: "最后一次发射日期",
   },
   'LaunchesSort': {
@@ -13806,7 +13815,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageDe: "Nach Anzahl der Starts",
     languageIt: "Per il numero di lanci",
     languageTr: "Fırlatma sayısına göre",
-    languageEs: "Por el número de lanzamientos",
+    languageEs: "Por el número de ejecutamiento",
     languageCn: "按发射次数",
   },
   'MaybeVideoIsDeleted': {
@@ -13912,7 +13921,7 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs: "Copia",
     languageCn: "复制",
   },
- 'BadlyInstalledVC++': {
+  'BadlyInstalledVC++': {
     languageEn:
         "It seems that Microsoft VC++ components present on your PC are not installed correctly. In order to launch this modification you need to reinstall these components!",
     languageRu:
