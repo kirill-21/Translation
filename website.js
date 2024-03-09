@@ -582,7 +582,7 @@ const translationElements = [
   },
   {
     name: 'Legit', value: {
-      languageEn: "Legit cheat | hack,
+      languageEn: "Legit cheat | hack",
       languageRu: 'Легит | Legit чит',
       languageUa: 'Легіт | Legit чит',
       languagePl: 'Legit cheat | hack',
