@@ -10810,6 +10810,16 @@ const Map<String, Map<String, String>> localeItems = {
         'Si el motivo de tu queja es un problema de configuración o de LUA, márcalo con un "no me gusta" para que otros usuarios no se encuentren con el mismo problema mientras tramitamos tu queja.',
     languageCn: '如果您投诉的原因是配置或 LUA 问题，请用 "不喜欢 "标记，以免其他用户在我们处理您的投诉时遇到同样的问题！',
   },
+  'PayAttention': {
+    languageEn: "Please, note",
+    languageRu: 'Обрати внимание',
+    languageUa: 'Зверни увагу',
+    languagePl: 'Zwróć uwagę',
+    languageDe: 'Bitte beachten Sie',
+    languageIt: 'Nota per sé',
+    languageTr: "Kendime not",
+    languageEs: "Nota para mí mismo",
+  },
   // TODO:!
   'PayAttentionToCFG': {
     languageEn:
@@ -11628,8 +11638,8 @@ const Map<String, Map<String, String>> localeItems = {
   // 1 new
   'NewSecond': {
     languageEn: 'new',
-    languageRu: 'новых',
-    languageUa: 'нових',
+    languageRu: 'новое',
+    languageUa: 'нове',
     languagePl: "nowe",
     languageDe: "neue",
     languageIt: 'nuovo',
@@ -13696,22 +13706,22 @@ La reputación se da y se quita por la participación en la vida social de la ap
   },
   'GameMustBeMaximizedWhenCheckIsBeingDone': {
     languageEn:
-        "The game window must be maximized and opened when progress bar is about to be filled for game parameters check!",
+        "The game window must be maximized and opened when progress bar is about to be filled for game parameters check! «Without this action, the mod menu will simply not appear in the game when you press the key to open this mod's menu»",
     languageRu:
-        'Окно игры должно быть развёрнутым и открытым во время проверки параметров игры!',
+        'Окно игры должно быть развёрнутым и открытым во время проверки параметров игры! «Без этого действия меню мода просто не появится в игре по нажатию на клавишу открытия меню модификации»',
     languageUa:
-        'Вікно гри має бути розгорнуте до максимуму і відкрите, коли індикатор прогресу буде заповнений для перевірки параметрів гри!',
+        "Вікно гри має бути розгорнуте до максимуму і відкрите, коли індикатор прогресу буде заповнений для перевірки параметрів гри! «Без цієї дії меню мода просто не з'явиться в грі після натискання на клавішу відкриття меню модифікації»",
     languagePl:
-        'Okno gry musi być zmaksymalizowane i otwarte, gdy pasek postępu ma zostać wypełniony w celu sprawdzenia parametrów gry!',
+        'Okno gry musi być zmaksymalizowane i otwarte, gdy pasek postępu ma zostać wypełniony w celu sprawdzenia parametrów gry! «Bez tej akcji menu modów po prostu nie pojawi się w grze po naciśnięciu klawisza otwierającego menu modów»',
     languageDe:
-        'Das Spielfenster muss maximiert und geöffnet sein, wenn der Fortschrittsbalken für die Überprüfung der Spielparameter gefüllt werden soll!',
+        'Das Spielfenster muss maximiert und geöffnet sein, wenn der Fortschrittsbalken für die Überprüfung der Spielparameter gefüllt werden soll! «Ohne diese Aktion wird das Mod-Menü einfach nicht im Spiel erscheinen, wenn Sie die Taste zum Öffnen des Mod-Menüs drücken»',
     languageIt:
-        "La finestra di gioco deve essere massimizzata e aperta quando la barra di avanzamento sta per essere riempita per il controllo dei parametri di gioco!",
+        "La finestra di gioco deve essere massimizzata e aperta quando la barra di avanzamento sta per essere riempita per il controllo dei parametri di gioco! «Senza questa azione, il menu delle mod non apparirà nel gioco quando si preme il tasto per aprire il menu delle mod.»",
     languageTr:
-        "Oyun parametrelerinin kontrolü için oyun penceresi büyütülmeli ve ilerleme çubuğu dolmak üzereyken açılmalıdır!",
+        "Oyun parametrelerinin kontrolü için oyun penceresi büyütülmeli ve ilerleme çubuğu dolmak üzereyken açılmalıdır! «Bu eylem olmadan, mod menüsünü açmak için tuşa bastığınızda mod menüsü oyunda görünmeyecektir»",
     languageEs:
-        "La ventana del juego debe maximizarse y abrirse cuando la barra de progreso esté a punto de llenarse para comprobar los parámetros del juego.",
-    languageCn: "游戏窗口必须最大化，并在进度条即将填满时打开，以便检查游戏参数！",
+        "La ventana del juego debe maximizarse y abrirse cuando la barra de progreso esté a punto de llenarse para comprobar los parámetros del juego. «Sin esta acción, el menú de mods simplemente no aparecerá en el juego cuando pulses la tecla para abrir el menú de mods»",
+    languageCn: "游戏窗口必须最大化，并在进度条即将填满时打开，以便检查游戏参数！«如果不执行此操作，当您按键打开修改菜单时，游戏中将不会出现修改菜单。»",
   },
   'Unknown': {
     languageEn: 'Unknown',
