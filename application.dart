@@ -456,6 +456,25 @@ const Map<String, Map<String, String>> localeItems = {
         "¡Esta modificación tiene una versión avanzada que puedes abrir directamente en ExLoader!",
     languageCn: "该修改有一个高级版本，可以直接在 ExLoader 中打开！",
   },
+  'FreeVersion': {
+    languageEn:
+        'This modification has a trial version with limited amount of free features that you can launch with ExLoader!',
+    languageRu:
+        'У этой модификации есть пробная версия с ограниченным количеством бесплатных функций, которую ты можешь открыть прямо в ExLoader!',
+    languageUa:
+        'У цій модифікації є пробна версія з обмеженою кількістю безкоштовних функцій, яку ти можеш відкрити прямо в ExLoader!',
+    languagePl:
+        'Ta modyfikacja ma wersję próbną z ograniczonymi darmowymi funkcjami, które można otworzyć bezpośrednio w ExLoaderze!',
+    languageDe:
+        "Diese Modifikation verfügt über eine Testversion mit eingeschränkten kostenlosen Funktionen, die Sie direkt in ExLoader öffnen können!",
+    languageIt:
+        'Questa modifica ha una versione di prova con funzionalità limitate e gratuite che si possono aprire direttamente in ExLoader!',
+    languageTr:
+        "Bu modifikasyon, doğrudan ExLoader'da açabileceğiniz sınırlı ücretsiz özelliklere sahip bir deneme sürümüne sahiptir!",
+    languageEs:
+        "Esta modificación tiene una versión de prueba con funciones gratuitas limitadas que puedes abrir directamente en ExLoader.",
+    languageCn: "该修改有一个试用版，免费功能有限，可直接在 ExLoader 中打开！",
+  },
   'DisableVacModule': {
     languageEn:
         "Disable the VAC module. Lowers chances of getting an anti-cheat ban. Note, that this function helps not in 100% cases and does not protect you from overwatch! Steam will be restarted for this function's activation. May affect your account's trust factor!",
@@ -3025,6 +3044,17 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Análisis de módulos de juego",
     languageCn: "分析游戏模块",
   },
+  'CheckingSecureBoot': {
+    languageEn: 'Analyzing Secure Boot option',
+    languageRu: 'Проверяем настройки Secure Boot',
+    languageUa: 'Перевіряємо налаштування Secure Boot',
+    languagePl: 'Sprawdzamy Secure Boot',
+    languageDe: "Überprüfen Sie die Secure Boot",
+    languageIt: 'Analisi dei Secure Boot',
+    languageTr: "Güvenli Önyükleme seçeneklerini analiz etme",
+    languageEs: "Análisis de las opciones de Secure Boot",
+    languageCn: "分析安全启动选项",
+  },
   'CheckingCSGOSettings': {
     languageEn:
         "Checking the game settings, maximize game's window and keep it opened",
@@ -5205,23 +5235,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ModificationIsUnderUpdate': {
     languageEn:
-        "Unfortunately, you can not launch this modification because it's being under update. Typically, this process takes from several hours to several days. Really want to play with this modification? Just be patient and wait! If modification is not updated after this period - it will be deleted from the ExLoader library.",
+        "Due to one of the latest game updates, this mod broke and stopped functioning, therefore, unfortunately, you can not launch this modification because it's being under update. Typically, this process takes from several hours to several days. Really want to play with this modification? Just be patient and wait! If modification is not updated after this period - it will be deleted from the ExLoader library.\n\nPlease note, mods are updated not by us, but by their developers, so we do not know how much time it will take for this mod to be updated and there is no way we can speed up this process or update this mod ourselves :c",
     languageRu:
-        'Запуск модификации невозможен, так как она находится в статусе обновления. Обычно, этот процесс занимает от нескольких часов до нескольких дней. Хочешь поиграть с этой модификацией? Просто наберись терпения и жди! Если модификацию не обновят в течение этого срока - она будет удалена из библиотеки ExLoader.',
+        'Из-за одного из последних апдейтов игры, данный мод сломался и перестал функционировать, поэтому запуск модификации невозможен, так как она находится в статусе обновления. Обычно, этот процесс занимает от нескольких часов до нескольких дней. Хочешь поиграть с этой модификацией? Просто наберись терпения и жди! Если модификацию не обновят в течение этого срока - она будет удалена из библиотеки ExLoader.\n\nОбрати внимание, обновлением модов занимаемся не мы, а их разработчики, поэтому нам неизвестны точные сроки обновления этого мода и мы никак не можем их ускорить или же обновить этот мод самостоятельно :c',
     languageUa:
-        'Неможливо запустити модифікацію, так як вона знаходиться в статусі оновлення. Зазвичай, цей процес триває протягом від декількох годин до декількох днів. Хочеш пограти з цією модифікацією? Просто наберись терпіння і чекай! Якщо модифікацію не оновлять протягом цього терміну - вона буде видалена з бібліотеки ExLoader.',
+        'Через один з останніх апдейтів гри, цей мод зламався і перестав функціонувати, тому запуск модифікації неможливий, так як вона знаходиться в статусі оновлення. Зазвичай, цей процес триває протягом від декількох годин до декількох днів. Хочеш пограти з цією модифікацією? Просто наберись терпіння і чекай! Якщо модифікацію не оновлять протягом цього терміну - вона буде видалена з бібліотеки ExLoader.\n\nЗверни увагу, оновленням модів займаємося не ми, а їхні розробники, тому нам невідомі точні строки оновлення цього мода і ми ніяк не можемо їх прискорити або ж оновити цей мод самостійно :c',
     languagePl:
-        'Modyfikacja nie może zostać uruchomiona, ponieważ jest w stanie aktualizacji. Ten proces zwykle trwa od kilku godzin do kilku dni. Chcesz zagrać z tą modyfikacją? Po prostu bądź cierpliwy i czekaj! Jeśli modyfikacja nie zostanie zaktualizowana po tym okresie, zostanie usunięta z biblioteki Exloadera.',
+        'Z powodu jednej z ostatnich aktualizacji gry mod ten przestał działać, więc nie można go uruchomić, ponieważ jest w stanie aktualizacji. Ten proces zwykle trwa od kilku godzin do kilku dni. Chcesz zagrać z tą modyfikacją? Po prostu bądź cierpliwy i czekaj! Jeśli modyfikacja nie zostanie zaktualizowana po tym okresie, zostanie usunięta z biblioteki Exloadera.\n\nNależy pamiętać, że mody nie są aktualizowane przez nas, ale przez ich twórców, więc nie znamy dokładnych ram czasowych aktualizacji tego moda i nie ma możliwości, abyśmy mogli go przyspieszyć lub zaktualizować :c',
     languageDe:
-        "Der Mod kann nicht ausgeführt werden, da er sich in einem Aktualisierungsstatus befindet. Dieser Vorgang dauert normalerweise einige Stunden bis zu einigen Tagen. Möchtest du mit diesem Mod spielen? Seien Sie einfach geduldig und warten Sie! Wenn die Modifikation nicht innerhalb dieses Zeitraums aktualisiert wird, wird sie aus der ExLoader-Bibliothek entfernt.",
+        "Aufgrund eines der letzten Spiel-Updates ist diese Modifikation kaputt gegangen und funktioniert nicht mehr, daher ist es unmöglich, die Modifikation auszuführen, da sie sich im Update-Status befindet. Dieser Vorgang dauert normalerweise einige Stunden bis zu einigen Tagen. Möchtest du mit diesem Mod spielen? Seien Sie einfach geduldig und warten Sie! Wenn die Modifikation nicht innerhalb dieses Zeitraums aktualisiert wird, wird sie aus der ExLoader-Bibliothek entfernt.\n\nBitte beachten Sie, Mods werden nicht von uns aktualisiert, sondern von ihren Entwicklern, so dass wir nicht wissen, den genauen Zeitrahmen für die Aktualisierung dieser Mod und es gibt keine Möglichkeit, wir können es beschleunigen oder diese Mod selbst aktualisieren :c",
     languageIt:
-        'Sfortunatamente, non puoi avviare questa modifica perché è in fase di aggiornamento. In genere, questo processo richiede da alcune ore a diversi giorni. Vuoi davvero giocare con questa modifica? Sii paziente e aspetta! Se la modifica non viene aggiornata dopo questo periodo, verrà eliminata dalla libreria ExLoader.',
+        "A causa di uno degli ultimi aggiornamenti del gioco, questa mod si è rotta e ha smesso di funzionare, quindi è impossibile eseguire la modifica, poiché è in stato di aggiornamento. In genere, questo processo richiede da alcune ore a diversi giorni. Vuoi davvero giocare con questa modifica? Sii paziente e aspetta! Se la modifica non viene aggiornata dopo questo periodo, verrà eliminata dalla libreria ExLoader.\n\nSi prega di notare che le mod non vengono aggiornate da noi, ma dai loro sviluppatori, quindi non conosciamo i tempi esatti per l'aggiornamento di questa mod e non c'è modo di accelerare o aggiornare questa mod noi stessi :c",
     languageTr:
-        "Ne yazık ki, güncelleme aşamasında olduğu için bu değişikliği başlatamazsınız. Genellikle bu işlem birkaç saatten birkaç güne kadar sürer. Gerçekten bu modifikasyonla oynamak istiyor musunuz? Sadece sabırlı olun ve bekleyin! Bu süreden sonra değişiklik güncellenmezse - ExLoader kütüphanesinden silinecektir.",
+        "En son oyun güncellemelerinden biri nedeniyle, bu mod bozuldu ve çalışmayı durdurdu, bu nedenle güncelleme durumunda olduğu için modifikasyonu çalıştırmak imkansız. Genellikle bu işlem birkaç saatten birkaç güne kadar sürer. Gerçekten bu modifikasyonla oynamak istiyor musunuz? Sadece sabırlı olun ve bekleyin! Bu süreden sonra değişiklik güncellenmezse - ExLoader kütüphanesinden silinecektir.\n\nLütfen unutmayın, modlar bizim tarafımızdan değil, geliştiricileri tarafından güncellenir, bu nedenle bu modun güncellenmesi için tam zaman dilimini bilmiyoruz ve bunu hızlandırmamızın veya bu modu kendimiz güncellememizin bir yolu yok :c",
     languageEs:
-        "Lamentablemente, no puedes ejecutar esta modificación porque está en proceso de actualización. Normalmente, este proceso tarda entre varias horas y varios días. ¿De verdad quieres jugar con esta modificación? Ten paciencia y espera. Si la modificación no se actualiza después de este período - se eliminará de la biblioteca ExLoader.",
+        "Debido a una de las últimas actualizaciones del juego, este mod se rompió y dejó de funcionar, por lo que es imposible ejecutar la modificación, ya que se encuentra en estado de actualización. Normalmente, este proceso tarda entre varias horas y varios días. ¿De verdad quieres jugar con esta modificación? Ten paciencia y espera. Si la modificación no se actualiza después de este período - se eliminará de la biblioteca ExLoader.\n\nTenga en cuenta que no somos nosotros quienes actualizamos los mods, sino sus desarrolladores, por lo que desconocemos el plazo exacto de actualización de este mod y no hay forma de que podamos acelerarlo o actualizarlo nosotros mismos :c",
     languageCn:
-        "不幸的是，您无法启动此修改，因为它正在更新中。通常，这个过程需要几个小时到几天的时间。真的想玩这个修改？请耐心等待！如果过了这段时间仍未更新，它将从 ExLoader 库中删除。",
+        "由于最近的一次游戏更新，该修改程序崩溃并停止运行，因此无法运行该修改程序，因为它处于更新状态。通常，这个过程需要几个小时到几天的时间。真的想玩这个修改？请耐心等待！如果过了这段时间仍未更新，它将从 ExLoader 库中删除。\n\n请注意，MOD 不是由我们更新，而是由其开发人员更新，因此我们不知道更新此 MOD 的确切时间，也无法加快更新速度或自行更新此 MOD :c",
   },
   'NoReviewsInOfflineMode': {
     languageEn: 'Unfortunately, you can not add a review in an offline mode',
@@ -9183,23 +9213,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'WindowedModeJustTip': {
     languageEn:
-        "Don't forget to set the game rendering/display mode to «Windowed» or «Fullscreen windowed» in {game} settings, this must be done to launch this modification! Usually, these settings are configured in the «Video/Image», «Graphics» or «Display/Monitor» settings in the game.",
+        "For this mod's menu or it's features like ESP to be rendered above the game and not on your Desktop, don't forget to set the game rendering/display mode to «Windowed» or «Fullscreen windowed» in {game} settings, this must be done to launch this modification! Usually, these settings are configured in the «Video/Image», «Graphics» or «Display/Monitor» settings in the game.",
     languageRu:
-        'Не забудь установить режим рендеринга/отображения игры на «Оконный» или же «Полноэкранный в окне» в настройках {game}, это необходимо для корректного запуска данной модификации. Обычно, данные параметры настраиваются в настройках «Видео», «Графики/Изображения» или «Дисплея/Монитора» игры.',
+        'Чтобы меню модификации и её функции (например ESP) отображались поверх игры, а не на рабочем столе, не забудь установить режим рендеринга/отображения игры на «Оконный» или же «Полноэкранный в окне» в настройках {game}. Обычно, данные параметры настраиваются в настройках «Видео», «Графики/Изображения» или «Дисплея/Монитора» игры.',
     languageUa:
-        'Не забудь встановити режим рендерингу/відображення гри на «Віконний» або «Повноекранний у вікні» в налаштуваннях {game}, це необхідно для коректного запуску цієї модифікації! Зазвичай, ці параметри налаштовуються в налаштуваннях «Відео», «Графіки/Зображення» або «Дисплея/Монітора» гри.',
+        'Щоб меню модифікації та її функції (наприклад ESP) відображалися поверх гри, а не на робочому столі, не забудь установити режим рендерингу/відображення гри на «Віконний» або ж «Повноекранний у вікні» в налаштуваннях {game}. Зазвичай, ці параметри налаштовуються в налаштуваннях «Відео», «Графіки/Зображення» або «Дисплея/Монітора» гри.',
     languagePl:
-        'Nie zapomnij ustawić trybu renderowania/wyświetlania gry na «Windowed» lub «Fullscreen windowed» w ustawieniach {game}, jest to konieczne do poprawnego uruchomienia tej modyfikacji. Zazwyczaj ustawienia te są konfigurowane w ustawieniach «Wideo», «Grafika» lub «Wyświetlacz» gry.',
+        'Aby wyświetlić menu modyfikacji i jego funkcje (np. ESP) na górze gry, a nie na pulpicie, nie zapomnij ustawić trybu renderowania/wyświetlania gry na «Windowed» lub «Fullscreen windowed» w ustawieniach {game}. Zazwyczaj ustawienia te są konfigurowane w ustawieniach «Wideo», «Grafika» lub «Wyświetlacz» gry.',
     languageDe:
-        'Vergessen Sie nicht, den Rendering-/Anzeigemodus des Spiels auf «Windowed» oder «Fullscreen windowed» in {game} settings zu setzen, dies ist notwendig, um diese Modifikation korrekt auszuführen. Normalerweise werden diese Einstellungen in den Einstellungen «Video», «Grafik/Bilder» oder «Anzeige» des Spiels vorgenommen.',
+        'Um das Modifikationsmenü und seine Funktionen (z.B. ESP) oben im Spiel und nicht auf dem Desktop anzuzeigen, vergessen Sie nicht, den Rendering-/Anzeigemodus des Spiels in den {game}-Einstellungen auf «Windowed» oder «Fullscreen windowed» zu setzen. Normalerweise werden diese Einstellungen in den Einstellungen «Video», «Grafik/Bilder» oder «Anzeige» des Spiels vorgenommen.',
     languageIt:
-        'Non dimenticate di impostare la modalità di rendering/visualizzazione del gioco su «Finestrato» o «Finestrato a schermo intero» nelle impostazioni di {game}; ciò deve essere fatto per avviare questa modifica! Di solito queste impostazioni sono configurate nelle impostazioni «Video/Immagine», «Grafica» o «Display/Monitor» del gioco.',
+        'Per visualizzare il menu delle modifiche e le sue funzioni (ad es. ESP) in cima al gioco e non sul desktop, non dimenticate di impostare la modalità di rendering/visualizzazione del gioco su «Windowed» o «Fullscreen windowed» nelle impostazioni di {game}. Di solito queste impostazioni sono configurate nelle impostazioni «Video/Immagine», «Grafica» o «Display/Monitor» del gioco.',
     languageTr:
-        "{game}» ayarlarında oyun işleme/görüntüleme modunu «Pencereli» veya «Tam ekran pencereli» olarak ayarlamayı unutmayın, bu değişikliği başlatmak için bu yapılmalıdır! Bu ayarlar genellikle oyundaki «Video/Görüntü», «Grafikler» veya «Ekran/Monitör» ayarlarında yapılandırılır.",
+        "Modifikasyon menüsünü ve işlevlerini (örneğin ESP) masaüstünde değil oyunun üstünde görüntülemek için, {game} ayarlarında oyun oluşturma/görüntüleme modunu «Windowed» veya «Fullscreen windowed» olarak ayarlamayı unutmayın. Bu ayarlar genellikle oyundaki «Video/Görüntü», «Grafikler» veya «Ekran/Monitör» ayarlarında yapılandırılır.",
     languageEs:
-        "No olvide configurar el modo de renderizado/visualización del juego a «Ventana» o «Ventana a pantalla completa» en los ajustes de {game}, ¡esto debe hacerse para lanzar esta modificación! Normalmente, estos ajustes se configuran en los ajustes de «Video/Imagen», «Gráficos» o «Pantalla/Monitor» en el juego.",
+        "Para mostrar el menú de modificación y sus funciones (por ejemplo, ESP) en la parte superior del juego y no en el escritorio, no olvides establecer el modo de renderizado/visualización del juego en «Windowed» o «Fullscreen windowed» en los ajustes de {game}. Normalmente, estos ajustes se configuran en los ajustes de «Video/Imagen», «Gráficos» o «Pantalla/Monitor» en el juego.",
     languageCn:
-        '别忘了在{game}设置中将游戏渲染/显示模式设置为 «窗口» 或 «全屏窗口»，必须这样才能启动此修改！通常，这些设置会在游戏中的 «视频/图像»、«图形» 或 «显示/显示器» 设置中进行配置！',
+        '要在游戏顶部而非桌面上显示修改菜单及其功能（如 ESP），请不要忘记在 {game} 设置中将游戏渲染/显示模式设置为 «窗口» 或 «窗口全屏»。 通常，这些设置会在游戏中的 «视频/图像»、«图形» 或 «显示/显示器» 设置中进行配置！',
   },
   'WindowedMode': {
     languageEn:
@@ -11012,26 +11042,37 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "Itch.io 版游戏",
   },
   'DriverMode': {
-    languageEn: "Driver version",
-    languageRu: 'Драйверная версия',
-    languageUa: 'Драйверна версія',
-    languagePl: 'Driver wersja',
-    languageDe: 'Driver Version',
-    languageIt: 'Versione del driver',
-    languageTr: "Sürücü sürümü",
-    languageEs: "Versión del controlador",
-    languageCn: "驱动程序版本",
+    languageEn: "Driver version. Hard to lauch, however, safe!",
+    languageRu: 'Драйверная версия. Сложна в запуске и очень безопасна.',
+    languageUa: 'Драйверна версія. Складна в запуску і дуже безпечна.',
+    languagePl: 'Driver wersja. Trudny do uruchomienia i bardzo bezpieczny.',
+    languageDe: 'Driver Version. Schwierig zu starten und sehr sicher.',
+    languageIt: 'Versione del driver. Difficile da avviare e molto sicuro.',
+    languageTr: "Sürücü sürümü. Çalıştırması zor ve çok güvenli.",
+    languageEs: "Versión del controlador. Difícil de arrancar y muy seguro.",
+    languageCn: "驱动程序版本。 启动困难，非常安全。",
   },
   'UserMode': {
-    languageEn: "Usermode version",
-    languageRu: 'Юзер-мод версия',
-    languageUa: 'Юзер-мод версія',
-    languagePl: 'Wersja trybu użytkownika',
-    languageDe: 'Version im Benutzermodus',
-    languageIt: 'Versione in modalità utente',
-    languageTr: "Usermode sürümü",
-    languageEs: "Versión del modo de usuario",
-    languageCn: "使用模式版本",
+    languageEn: "Usermode version. Easy to launch, however, not really safe!",
+    languageRu: 'Юзер-мод версия. Легка в запуске, однако, не особо безопасна!',
+    languageUa: 'Юзер-мод версія. Легка в запуску, однак, не особливо безпечна!',
+    languagePl: 'Wersja trybu użytkownika. Łatwy do uruchomienia, jednak niezbyt bezpieczny!',
+    languageDe: 'Version im Benutzermodus. Leicht zu starten, aber nicht besonders sicher!',
+    languageIt: 'Versione in modalità utente. Facile da avviare, ma non particolarmente sicuro!',
+    languageTr: "Usermode sürümü. Çalıştırması kolay, ancak pek güvenli değil!",
+    languageEs: "Versión del modo de usuario. Fácil de arrancar, pero no especialmente seguro.",
+    languageCn: "使用模式版本. 容易启动，但不是特别安全！",
+  },
+  'EFIMode': {
+    languageEn: "Driver version. Hard to lauch, however, safe!",
+    languageRu: 'EFI версия. Сложна в запуске и очень безопасна.',
+    languageUa: 'Драйверна версія. Складна в запуску і дуже безпечна.',
+    languagePl: 'Driver wersja. Trudny do uruchomienia i bardzo bezpieczny.',
+    languageDe: 'Driver Version. Schwierig zu starten und sehr sicher.',
+    languageIt: 'Versione del driver. Difficile da avviare e molto sicuro.',
+    languageTr: "Sürücü sürümü. Çalıştırması zor ve çok güvenli.",
+    languageEs: "Versión del controlador. Difícil de arrancar y muy seguro.",
+    languageCn: "驱动程序版本。 启动困难，非常安全。",
   },
   'Audio': {
     languageEn: "Audio",
@@ -13423,21 +13464,21 @@ La reputación se da y se quita por la participación en la vida social de la ap
   },
   'SocialPromo': {
     languageEn:
-        'Join our EU and English-speaking Discord server, where you can find mod-gaming community, support, different roles and many other cool things! Click to open, or swipe sideways to hide this notice.',
+        'Join our Discord server, where you can find mod-gaming community, support, different roles and many other cool things! Click to open, or swipe sideways to hide this notice.',
     languageRu:
-        'Присоединяйся к нашему Telegram-чату, где ты можешь пообщаться с другими игроками, которые используют моды к играм из ExLoader! Нажми, чтобы перейти, или же свайпни вбок, чтобы скрыть это уведомление.',
+        'Заходи в наш Telegram-чат: общение с другими игроками, обсуждение актуальных новостей и многое другое! Нажми, чтобы перейти, или же свайпни вбок, чтобы скрыть это уведомление.',
     languageUa:
-        'Приєднуйся до нашого Telegram-чату, де ти можеш поспілкуватися з іншими гравцями, які використовують моди до ігор з ExLoader! Натисни, щоб перейти, або ж свайпни вбік, щоб приховати це повідомлення.',
+        'Заходь у наш Telegram-чат: спілкування з іншими гравцями, обговорення актуальних новин і багато іншого! Натисни, щоб перейти, або ж свайпни вбік, щоб приховати це повідомлення.',
     languagePl:
-        "Dołącz do naszego EU i anglojęzycznego serwera Discord, gdzie znajdziesz społeczność graczy modów, wsparcie, różne role i wiele innych fajnych rzeczy! Kliknij, aby przejść, lub przesuń palcem w bok, aby ukryć to powiadomienie.",
+        "Dołącz do naszego serwera Discord, gdzie znajdziesz społeczność graczy modów, wsparcie, różne role i wiele innych fajnych rzeczy! Kliknij, aby przejść, lub przesuń palcem w bok, aby ukryć to powiadomienie.",
     languageDe:
-        "Tritt unserem EU- und englischsprachigen Discord-Server bei, auf dem du eine Mod-Gaming-Community, Unterstützung, verschiedene Rollen und viele andere coole Dinge finden kannst! Klicken Sie, um zu gehen, oder wischen Sie seitwärts, um diesen Hinweis auszublenden.",
+        "Tritt unserem Discord-Server bei, auf dem du eine Mod-Gaming-Community, Unterstützung, verschiedene Rollen und viele andere coole Dinge finden kannst! Klicken Sie, um zu gehen, oder wischen Sie seitwärts, um diesen Hinweis auszublenden.",
     languageIt:
-        'Unisciti al nostro server Discord EU e di lingua inglese, dove puoi trovare community di mod-gaming, supporto, ruoli diversi e molte altre cose interessanti! Fai clic per aprire o scorri lateralmente per nascondere questo avviso.',
+        'Unisciti al nostro server Discord, dove puoi trovare community di mod-gaming, supporto, ruoli diversi e molte altre cose interessanti! Fai clic per aprire o scorri lateralmente per nascondere questo avviso.',
     languageTr:
         "Mod-oyun topluluğu, destek, farklı roller ve daha birçok harika şey bulabileceğiniz AB ve İngilizce konuşulan Discord sunucumuza katılın! Açmak için tıklayın veya bu bildirimi gizlemek için yana kaydırın.",
     languageEs:
-        "Únete a nuestro servidor Discord de habla inglesa y de la UE, donde encontrarás una comunidad de jugadores de mods, apoyo, diferentes roles y muchas otras cosas interesantes. Haz clic para abrir o desliza el dedo hacia los lados para ocultar este aviso.",
+        "Únete a nuestro servidor Discord, donde encontrarás una comunidad de jugadores de mods, apoyo, diferentes roles y muchas otras cosas interesantes. Haz clic para abrir o desliza el dedo hacia los lados para ocultar este aviso.",
     languageCn:
         "加入我们的欧盟/亚洲和英语 Discord 服务器，在这里您可以找到 mod 游戏社区、支持、不同角色和许多其他很酷的东西！点击打开，或横向滑动隐藏此公告。",
   },
@@ -13721,7 +13762,8 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Oyun parametrelerinin kontrolü için oyun penceresi büyütülmeli ve ilerleme çubuğu dolmak üzereyken açılmalıdır! «Bu eylem olmadan, mod menüsünü açmak için tuşa bastığınızda mod menüsü oyunda görünmeyecektir»",
     languageEs:
         "La ventana del juego debe maximizarse y abrirse cuando la barra de progreso esté a punto de llenarse para comprobar los parámetros del juego. «Sin esta acción, el menú de mods simplemente no aparecerá en el juego cuando pulses la tecla para abrir el menú de mods»",
-    languageCn: "游戏窗口必须最大化，并在进度条即将填满时打开，以便检查游戏参数！«如果不执行此操作，当您按键打开修改菜单时，游戏中将不会出现修改菜单。»",
+    languageCn:
+        "游戏窗口必须最大化，并在进度条即将填满时打开，以便检查游戏参数！«如果不执行此操作，当您按键打开修改菜单时，游戏中将不会出现修改菜单。»",
   },
   'Unknown': {
     languageEn: 'Unknown',
@@ -13929,5 +13971,142 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Parece que los componentes de Microsoft VC++ instalados en su PC no están instalados correctamente. Para poder ejecutar esta modificación, debe volver a instalar estos componentes.",
     languageCn: "您电脑上安装的 Microsoft VC++组件似乎未正确安装。要运行此修改，您需要重新安装这些组件！",
+  },
+  'SteamModuleIsPresent': {
+    languageEn:
+        "Your steam client will be restarted during the modification's launch process. It's essential step for this mod to work properly!",
+    languageRu:
+        'В ходе запуска модификации твой Steam-клиент будет перезапущен, это обязательный шаг для корректного запуска мода!',
+    languageUa:
+        "Під час запуску модифікації твій Steam-клієнт буде перезапущен, це обов'язковий крок для коректного запуску мода!",
+    languagePl:
+        "Podczas uruchamiania modyfikacji klient Steam zostanie ponownie uruchomiony, jest to obowiązkowy krok do poprawnego uruchomienia modyfikacji!",
+    languageDe:
+        "Während der Ausführung der Modifikation wird Ihr Steam-Client neu gestartet, dies ist ein obligatorischer Schritt, um die Mod korrekt auszuführen!",
+    languageIt:
+        "Durante l'esecuzione della modifica, il client Steam verrà riavviato; questo è un passaggio obbligatorio per eseguire correttamente la modifica!",
+    languageTr:
+        "Modifikasyonu çalıştırırken Steam istemciniz yeniden başlatılacaktır, bu modun doğru şekilde çalıştırılması için zorunlu bir adımdır!",
+    languageEs:
+        "Mientras ejecutas la modificación tu cliente de Steam se reiniciará, ¡este es un paso obligatorio para ejecutar el mod correctamente!",
+    languageCn: "运行修改时，您的 Steam 客户端将重新启动，这是正确运行修改的必经步骤！",
+  },
+  'LaunchBeforeTheGame': {
+    languageEn:
+        "This mod must be launched before the game, this means that if you have already launched the game, it will be closed and restarted during mod's launch process!",
+    languageRu:
+        'Данный мод должен запускаться до запуска игры, а это значит, что если ты уже запустил клиент игры, он будет закрыт и перезапущен в процессе запуска модификации!',
+    languageUa:
+        'Цей мод потрібно запускати до запуску гри, а це означає, що якщо ти вже запустив клієнт гри, він буде закритий і перезапущений під час запуску модифікації!',
+    languagePl:
+        "Ten mod musi zostać uruchomiony przed rozpoczęciem gry, co oznacza, że jeśli już uruchomiłeś klienta gry, zostanie on zamknięty i ponownie uruchomiony podczas działania moda!",
+    languageDe:
+        "Diese Mod muss vor dem Start des Spiels ausgeführt werden, d.h. wenn Sie den Spiel-Client bereits gestartet haben, wird er geschlossen und neu gestartet, während die Mod läuft!",
+    languageIt:
+        "Questa mod deve essere eseguita prima dell'avvio del gioco, il che significa che se avete già avviato il client di gioco, questo verrà chiuso e riavviato mentre la mod è in esecuzione!",
+    languageTr:
+        "Bu mod oyun başlamadan önce çalıştırılmalıdır, bu da oyun istemcisini zaten başlattıysanız, mod çalışırken kapatılacağı ve yeniden başlatılacağı anlamına gelir!",
+    languageEs:
+        "Este mod debe ejecutarse antes de que se inicie el juego, lo que significa que si ya has iniciado el cliente del juego, se cerrará y se reiniciará mientras se ejecuta el mod.",
+    languageCn: "该模块必须在游戏启动前运行，这意味着如果您已经启动了游戏客户端，那么在运行该模块时，它将被关闭并重新启动！",
+  },
+  'SoundsFolderPath': {
+    languageEn: 'Folder where custom sounds will be stored',
+    languageRu: 'Папка, где будут храниться кастомные звуки',
+    languageUa: 'Папка, де зберігатимуться кастомні звуки',
+    languagePl: "Folder, w którym będą przechowywane niestandardowe dźwięki",
+    languageDe: "Ordner, in dem die benutzerdefinierten Sounds gespeichert werden",
+    languageIt: "Cartella in cui verranno memorizzati i suoni personalizzati",
+    languageTr: "Özel seslerin depolanacağı klasör",
+    languageEs: "Carpeta donde se almacenarán los sonidos personalizados",
+    languageCn: "存储自定义声音的文件夹",
+  },
+  'EfiLaunchDescription': {
+    languageEn: "To launch this mood you'll need a flash-drive, pc-restart and basic understanding of BIOS. Difficult to launch, but safe!",
+    languageRu: "Для запуска данного мода тебе потребуется флешка, перезапуск пк и небольшое понимание работы с BIOS. Сложно, но безопасно!",
+    languageUa: 'Для запуску цього мода тобі знадобиться флешка, перезапуск пк і невелике розуміння роботи з BIOS. Складно, але безпечно!',
+    languagePl: "Aby uruchomić ten nastrój, będziesz potrzebował dysku flash, restartu komputera i podstawowej wiedzy na temat BIOS-u. Trudne do uruchomienia, ale bezpieczne!",
+    languageDe: "Um diese Stimmung zu starten, benötigen Sie ein Flash-Laufwerk, einen PC-Neustart und Grundkenntnisse des BIOS. Schwierig zu starten, aber sicher!",
+    languageIt: "Per lanciare questa atmosfera è necessario disporre di una chiavetta, riavviare il PC e avere una conoscenza di base del BIOS. Difficile da avviare, ma sicuro!",
+    languageTr: "Bu ruh halini başlatmak için bir flash sürücüye, bilgisayarı yeniden başlatmaya ve BIOS'u temel düzeyde anlamaya ihtiyacınız olacak. Başlatması zor ama güvenli!",
+    languageEs: "Para ejecutarlo necesitarás un pendrive, reiniciar el PC y conocimientos básicos de BIOS. Difícil de ejecutar, pero seguro!",
+    languageCn: "要启动这种情绪，你需要一个闪存盘、电脑重启和对 BIOS 的基本了解。启动困难，但很安全！",
+  },
+  'RestartToBios': {
+    languageEn: 'Restart PC into the BIOS panel',
+    languageRu: 'Перезапустить ПК в панель BIOS',
+    languageUa: 'Перезапустити ПК у панель BIOS',
+    languagePl: "Uruchom ponownie komputer w panelu BIOS",
+    languageDe: "Starten Sie den PC im BIOS-Panel neu",
+    languageIt: "Riavviare il PC nel pannello del BIOS",
+    languageTr: "BIOS panelinde bilgisayarı yeniden başlatın",
+    languageEs: "Reinicie el PC en el panel BIOS",
+    languageCn: "在 BIOS 面板中重新启动电脑",
+  },
+  'DisableSecureBoot': {
+    languageEn: "To launch this mod, you need to disable «Secure Boot» option in your BIOS. This option can be often found inside «Boot options», «Security», «System Configuration», etc tabs. If you don't know how to do this, try to find guide for your BIOS on YouTube!",
+    languageRu: 'Для корректного запуска данного мода тебе необходимо отключить «Secure Boot» в твоём BIOS. Зачастую данный параметр можно найти во вкладках «Boot options», «Security», «System Configuration» и т.д. Если ты не знаешь как это сделать, постарайся найти инструкцию для своего биоса в YouTube!',
+    languageUa: 'Для коректного запуску цього мода тобі необхідно вимкнути «Secure Boot» у твоєму BIOS. Найчастіше цей параметр можна знайти у вкладках «Boot options», «Security», «System Configuration» і т.д. Якщо ти не знаєш як це зробити, постарайся знайти інструкцію для свого біоса в YouTube!',
+    languagePl: "Aby poprawnie uruchomić ten mod, należy wyłączyć «Secure Boot» w BIOS-ie. Często można znaleźć tę opcję w zakładkach «Opcje rozruchu», «Boot options», «System Configuration» itp. Jeśli nie wiesz, jak to zrobić, spróbuj znaleźć instrukcje dla swojego biosu na YouTube!",
+    languageDe: "Um diese Mod korrekt auszuführen, müssen Sie «Secure Boot» in Ihrem BIOS deaktivieren. Sie finden diese Option oft in den Registerkarten «Boot options», «System Configuration», «Security» usw. Wenn Sie nicht wissen, wie Sie dies tun, versuchen Sie, Anweisungen für Ihr BIOS auf YouTube zu finden!",
+    languageIt: "Per eseguire correttamente questa mod, è necessario disabilitare il «Secure Boot» nel BIOS. Spesso è possibile trovare questa opzione nelle schede «Boot options», «System Configuration», «Security», ecc. Se non sapete come fare, cercate di trovare le istruzioni per il vostro bios su YouTube!",
+    languageTr: "Bu modu doğru şekilde çalıştırmak için BIOS'unuzda «Secure Boot» devre dışı bırakmanız gerekir. Bu seçeneği genellikle «Boot options», «System Configuration», «Security» sekmelerinde vb. bulabilirsiniz. Bunu nasıl yapacağınızı bilmiyorsanız, YouTube'da bios'unuz için talimatlar bulmaya çalışın!",
+    languageEs: "Para ejecutar este mod correctamente, necesitas desactivar «Secure Boot» en tu BIOS. A menudo puedes encontrar esta opción en las pestañas «Boot options», «Security», «System Configuration», etc. Si no sabes cómo hacerlo, busca instrucciones para tu BIOS en YouTube.",
+    languageCn: "要正确运行此修改程序，需要在 BIOS 中禁用安全启动。通常可以在 «Boot options»（启动选项）、«Security»（安全）、«System Configuration»（系统配置）等选项下找到该选项。如果您不知道如何操作，请尝试在 YouTube 上查找有关您的 BIOS 的说明！",
+  },
+  'FlashDrives': {
+    languageEn: 'Found flash drives',
+    languageRu: 'Найденные флешки',
+    languageUa: 'Знайдені флешки',
+    languagePl: "Znalezione dyski flash",
+    languageDe: "Gefundene Flash-Laufwerke",
+    languageIt: "Unità flash trovate",
+    languageTr: "Bulunan flash sürücüler",
+    languageEs: "Memorias USB encontradas",
+    languageCn: "找到的闪存盘",
+  },
+  'OnlyFat32Drives': {
+    languageEn: "If your flash drive doesn't appear in this list, you need to format it into the FAT32 system! To do this, go to explorer, select your flash drive, click format and specify the FAT32 file system!",
+    languageRu: 'Если твоя флешка не отображается в этом списке, тебе необходимо отформатировать её в систему FAT32! Для этого зайди в проводник, выбери свою флешку, нажми отформатировать и укажи файловую систему FAT32! ',
+    languageUa: 'Якщо твоя флешка не відображається в цьому списку, тобі необхідно відформатувати її в систему FAT32! Для цього зайди в провідник, вибери свою флешку, натисни відформатувати і вкажи файлову систему FAT32!',
+    languagePl: "Jeśli twój pendrive nie pojawia się na tej liście, musisz sformatować go w systemie FAT32! Aby to zrobić, przejdź do eksploratora, wybierz dysk flash, kliknij format i określ system plików FAT32!",
+    languageDe: "Wenn Ihr Flash-Laufwerk nicht in dieser Liste erscheint, müssen Sie es mit dem FAT32-System formatieren! Gehen Sie dazu in den Explorer, wählen Sie Ihr Flash-Laufwerk aus, klicken Sie auf formatieren und geben Sie das FAT32-Dateisystem an!",
+    languageIt: "Unità Se la vostra unità flash non compare in questo elenco, dovete formattarla nel sistema FAT32! Per farlo, andare in explorer, selezionare l'unità flash, fare clic su formattare e specificare il sistema di file FAT32!",
+    languageTr: "Eğer flash sürücünüz bu listede görünmüyorsa, onu FAT32 sistemine biçimlendirmeniz gerekir! Bunu yapmak için explorer'a gidin, flash sürücünüzü seçin, format'a tıklayın ve FAT32 dosya sistemini belirtin!",
+    languageEs: "Si tu pendrive no aparece en esta lista, tienes que formatearlo en el sistema FAT32. Para ello, ve al explorador, selecciona tu pendrive, haz clic en formatear y especifica el sistema de archivos FAT32.",
+    languageCn: "如果闪存盘不在此列表中，则需要将其格式化为 FAT32 系统！为此，请进入资源管理器，选择闪存盘，点击格式化并指定 FAT32 文件系统！",
+  },
+  'InsertFlashDrive': {
+    languageEn: 'To launch this mod you need a USB flash drive! Without it, this mod can not be launched :c. Insert the flash drive into your computer, select it in this list and click continue.',
+    languageRu: 'Для запуска этого мода тебе необходима флешка! Без неё данный мод никак не запустить :c. Вставь флешку в компьютер, выбери её в этом списке и нажми продолжить.',
+    languageUa: "Для запуску цього мода тобі необхідна флешка! Без неї цей мод ніяк не запустити :c. Встав флешку в комп'ютер, вибери її в цьому списку і натисни продовжити.",
+    languagePl: "Aby uruchomić ten mod, potrzebujesz pamięci USB! Bez niego ten mod nie może działać :c. Włóż pendrive'a do komputera, wybierz go z listy i kliknij kontynuuj.",
+    languageDe: "Um diesen Mod auszuführen, brauchst du einen USB-Stick! Ohne ihn kann dieser Mod nicht laufen :c. Stecken Sie den Stick in Ihren Computer, wählen Sie ihn in dieser Liste aus und klicken Sie auf Weiter.",
+    languageIt: "Per eseguire questa mod è necessaria una chiavetta USB! Senza di essa, questa mod non può funzionare :c. Inserire la chiavetta nel computer, selezionarla in questo elenco e fare clic su continua.",
+    languageTr: "Bu modu çalıştırmak için bir USB belleğe ihtiyacınız var! O olmadan bu mod çalışamaz :c. Çubuğu bilgisayarınıza takın, bu listeden seçin ve devam et'e tıklayın.",
+    languageEs: "¡Para ejecutar este mod necesitas una memoria USB! Sin él, este mod no se puede ejecutar :c. Inserta la memoria USB en tu ordenador, selecciónala en esta lista y haz clic en continuar.",
+    languageCn: "要运行此模块，您需要一个 U 盘！没有 U 盘，本修改器将无法运行 :c。将 U 盘插入电脑，在列表中选择 U 盘并点击继续。",
+  },
+  'LoadFromEFI': {
+    languageEn: "To finish this mod's launch you need to restart your computer into the BIOS panel and boot from the previously selected flash drive! After restarting, just open the game and the mod should work.\n\nBoot from the USB drive can often be configured in the «Boot», «Boot option», «Boot order», «First boot device», etc. tabs!",
+    languageRu: 'Для продолжения запуска модификации тебе необходимо перезагрузить компьютер в BIOS и загрузиться с ранее-выбранной флешки! После перезапуска просто открой игру и мод должен заработать.\n\nЗагрузку с флешки зачастую можно настроить во вкладках «Boot», «Boot option», «Boot order», «First boot device» и т.д!',
+    languageUa: "Для продовження запуску модифікації тобі необхідно перезавантажити комп'ютер у BIOS і завантажитися з раніше-вибраної флешки! Після перезапуску просто відкрий гру і мод має запрацювати.\n\nЗавантаження з флешки найчастіше можна налаштувати у вкладках «Boot», «Boot option», «Boot order», «First boot device» і т.д!",
+    languagePl: "Aby kontynuować uruchamianie moda, należy zrestartować komputer w BIOS-ie i uruchomić go z wcześniej wybranego pendrive'a! Po ponownym uruchomieniu wystarczy otworzyć grę i mod powinien działać.\n\nRozruch z pamięci USB można często skonfigurować w zakładkach «Boot», «Boot option», «Boot order», «First boot device» itp.",
+    languageDe: "Um die Mod weiter laufen zu lassen, müssen Sie Ihren Computer im BIOS neu starten und von dem zuvor ausgewählten USB-Stick booten! Nach dem Neustart, öffnen Sie einfach das Spiel und die Mod sollte funktionieren.\n\nDer Boot von einem USB-Stick kann oft in den Registerkarten «Boot», «Boot option», «Boot order», «First boot device», etc. konfiguriert werden!",
+    languageIt: "Per continuare a eseguire la mod è necessario riavviare il computer nel BIOS e avviare dalla chiavetta precedentemente selezionata! Dopo il riavvio, basta aprire il gioco e la mod dovrebbe funzionare.\n\nL'avvio da una chiavetta USB può essere spesso configurato nelle schede «Boot», «Boot option», «Boot order», «First boot device», ecc.",
+    languageTr: "Modu çalıştırmaya devam etmek için bilgisayarınızı BIOS'ta yeniden başlatmanız ve önceden seçilen flash sürücüden önyükleme yapmanız gerekir! Yeniden başlattıktan sonra, sadece oyunu açın ve mod çalışmalıdır.\n\nBir USB bellekten önyükleme genellikle «Boot», «Boot option», «Boot order», «First boot device» vb. sekmelerinde yapılandırılabilir!",
+    languageEs: "Para seguir ejecutando el mod es necesario reiniciar el ordenador en la BIOS y arrancar desde la memoria USB seleccionada anteriormente. Después de reiniciar, basta con abrir el juego y el mod debería funcionar.\n\nEl arranque desde una memoria USB a menudo se puede configurar en las pestañas «Boot», «Boot option», «Boot order», «First boot device», etc.",
+    languageCn: "要继续运行 MOD，你需要在 BIOS 中重启电脑，然后从之前选定的闪存盘启动！重启后，只需打开游戏，MOD 就能正常运行了。\n\n从 U 盘启动通常可以在 «Boot», «Boot option», «Boot order», «First boot device» 等选项卡中进行配置！",
+  },
+  'Empty': {
+    languageEn: 'Empty',
+    languageRu: 'Пусто',
+    languageUa: 'Пусто',
+    languagePl: "Pusty",
+    languageDe: "Leere",
+    languageIt: "Vuoto",
+    languageTr: "Boş",
+    languageEs: "Vacío",
+    languageCn: "空",
   },
 };
