@@ -129,7 +129,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageUa: 'Останнє оновлення',
     languagePl: 'Najnowsza data aktualizacji',
     languageDe: "Neuestes Update",
-    languageIt: 'Data dell`ultimo aggiornamento',
+    languageIt: 'Ultimo aggiornamento',
     languageTr: "Son güncelleme",
     languageEs: "Última actualización",
     languageCn: "最后更新",
@@ -516,13 +516,13 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'NotTrustableModification': {
     languageEn:
-        'Please note, that this modifications has not been checked for a virus absence by an independent representative.',
+        'Please note, that this modifications «has not been checked for a virus absence» by an independent representative.',
     languageRu:
-        'Обрати внимание, что эта модификация не проверялась на отсутствие вирусных угроз независимым представителем.',
+        'Обрати внимание, что эта модификация не «проверялась на отсутствие вирусных угроз» независимым представителем.',
     languageUa:
-        'Зверни увагу, що ця модифікація не перевірялася на відсутність вірусних загроз незалежним представником.',
+        'Зверни увагу, що ця модифікація «не перевірялася на відсутність вірусних загроз» незалежним представником.',
     languagePl:
-        'Należy pamiętać, że ta modyfikacja nie została  sprawdzona pod kątem obecności wirusów przez niezależnego przedstawiciela.',
+        'Należy pamiętać, że ta modyfikacja nie została sprawdzona pod kątem obecności wirusów przez niezależnego przedstawiciela.',
     languageDe:
         "Bitte beachten Sie, dass diese Modifikation nicht von einem unabhängigen Vertreter auf Virenbedrohungen getestet wurde.",
     languageIt:
@@ -532,6 +532,26 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs:
         "Tenga en cuenta que un representante independiente no ha comprobado la ausencia de virus en estas modificaciones.",
     languageCn: "请注意，本修改版未经独立代表检查是否存在病毒。",
+  },
+  'NotTrustableModificationDetailed': {
+    languageEn:
+        "This means that «the creator of this crack or mod can steal your passwords and accounts at any time». This mod was added to the library only for those who are not really worried about the possible loose of their data and still want to play with it!\n\nIf you find this mod somewhere on the Internet with the inscription `No viruses`, know - somebody tries to lie to you!",
+    languageRu:
+        "Это значит, что «создатель данного кряка или же мода может украсть твои пароли и аккаунты в любой момент». Данный мод был добавлен в библиотеку лишь для тех, кто не особо беспокоиться о возможной краже своих данных и всё-равно хочет с ним поиграть!\n\nЕсли ты найдёшь этот мод где-то на просторах интернета с надписью `Без вирусов`, знай - тебе соврали!",
+    languageUa:
+        'Це означає, що «творець цього кряка або ж мода може вкрасти твої паролі та акаунти в будь-який момент». Цей мод було додано до бібліотеки лише для тих, хто не особливо переймається можливою крадіжкою своїх даних і все-одно хоче з ним пограти!\n\nЯкщо ти знайдеш цей мод десь на просторах інтернету з написом `Без вірусів`, знай - тобі збрехали!',
+    languagePl:
+        "Oznacza to, że «twórca tego cracka lub moda może wykraść twoje hasła i konta w dowolnym momencie». Ten mod został dodany do biblioteki tylko dla tych, którzy nie są szczególnie zaniepokojeni możliwą kradzieżą swoich danych i nadal chcą się nim bawić!\n\nJeśli znajdziesz ten mod gdzieś w Internecie z napisem `No viruses`, wiedz - zostałeś okłamany!",
+    languageDe:
+        "Das bedeutet, dass «der Schöpfer dieses Cracks oder Mods jederzeit Ihre Passwörter und Konten stehlen kann». Diese Mod wurde der Bibliothek nur für diejenigen hinzugefügt, die sich nicht besonders um den möglichen Diebstahl ihrer Daten sorgen und trotzdem damit spielen wollen!\n\nWenn Sie diese Mod irgendwo im Internet mit der Aufschrift `Keine Viren` finden, wissen Sie - Sie wurden belogen!",
+    languageIt:
+        'Ciò significa che «il creatore di questa crack o mod può rubare le vostre password e i vostri account in qualsiasi momento». Questa mod è stata aggiunta alla libreria solo per coloro che non sono particolarmente preoccupati del possibile furto dei loro dati e vogliono comunque giocarci!\n\nSe trovate questo mod da qualche parte su Internet con la scritta `No viruses`, sappiate che vi hanno mentito!',
+    languageTr:
+        "Bu, «bu crack veya modun yaratıcısının herhangi bir zamanda şifrelerinizi ve hesaplarınızı çalabileceği» anlamına gelir. Bu mod kütüphaneye yalnızca verilerinin çalınmasından endişe duymayan ve yine de oynamak isteyenler için eklendi!\n\nBu modu internette bir yerde `Virüs yok` yazısıyla bulursanız, bilin ki size yalan söylenmiştir!",
+    languageEs:
+        "Esto significa que «el creador de este crack o mod puede robar tus contraseñas y cuentas en cualquier momento». Este mod se ha añadido a la biblioteca solo para aquellos que no están especialmente preocupados por el posible robo de sus datos y, aun así, ¡quieren jugar con él!\n\nSi encuentra este mod en algún lugar de Internet con la inscripción `Sin virus`, sepa que le han mentido.",
+    languageCn:
+        "这意味着 «该破解版或 MOD 的创建者可以随时窃取您的密码和账户»。 添加到程序库中的这一 MOD 只是为了那些并不特别担心自己的数据可能被盗但又想玩玩的人！\n\n如果你在互联网上找到这款标有 `无病毒` 字样的修改器，你要知道--你被骗了",
   },
   'PressToOpenMenu': {
     languageEn: "Modification's menu opens with {key} key",
@@ -3012,15 +3032,15 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "由于您的设备上未安装 Steam，导致修改启动过程中断。请安装 Steam 并重新尝试启动修改以继续！",
   },
   'LaunchingSteam': {
-    languageEn: 'Launching steam',
-    languageRu: 'Запускаем steam',
-    languageUa: 'Запускаємо steam',
-    languagePl: 'Uruchamiamy steam',
+    languageEn: 'Launching Steam',
+    languageRu: 'Запускаем Steam',
+    languageUa: 'Запускаємо Steam',
+    languagePl: 'Uruchamiamy Steam',
     languageDe: "Steam Startet...",
     languageIt: 'Avvio di Steam',
     languageTr: "Steam başlatılıyor",
-    languageEs: "Ejecutacion de steam",
-    languageCn: "启动 steam",
+    languageEs: "Ejecutacion de Steam",
+    languageCn: "启动 Steam",
   },
   'WaitingForSteamLaunch': {
     languageEn: 'Waiting for you to launch steam',
@@ -6497,22 +6517,22 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'WhyYouNeedComponents': {
     languageEn:
-        'For the proper work of the modification {entity} components have to be installed on your system. If advertising offers appear in the installer, just click on the «Decline» button.',
+        'For the proper work of the modification {entity} components have to be installed on your system If advertising offers appear in the installer, just click on the «Decline» button.',
     languageRu:
-        'Для корректной работы модификации на твоей системе должны быть установлены компоненты {entity}. В случае появления рекламных офферов в установщике просто нажми на кнопку «Decline».',
+        'Для корректной работы модификации на твоей системе должны быть установлены компоненты {entity} В случае появления рекламных офферов в установщике просто нажми на кнопку «Decline».',
     languageUa:
-        'Для коректної роботи модифікації на твоїй системі мають бути встановлені компоненти {entity}. У разі появи рекламних офферов в установнику просто натисни на кнопку «Decline».',
+        'Для коректної роботи модифікації на твоїй системі мають бути встановлені компоненти {entity} У разі появи рекламних офферов в установнику просто натисни на кнопку «Decline».',
     languagePl:
-        'Aby modyfikacja działała poprawnie, w systemie muszą być zainstalowane składniki {entity}. W przypadku pojawienia się ofert reklamowych w instalatorze wystarczy nacisnąć przycisk «Decline».',
+        'Aby modyfikacja działała poprawnie, w systemie muszą być zainstalowane składniki {entity} W przypadku pojawienia się ofert reklamowych w instalatorze wystarczy nacisnąć przycisk «Decline».',
     languageDe:
-        "Sie müssen {entity} Komponenten auf Ihrem System installiert haben, damit die Änderung korrekt funktioniert. Wenn im Installationsprogramm Werbeangebote erscheinen, klicken Sie einfach auf die Schaltfläche «Ablehnen».",
+        "Sie müssen {entity} Komponenten auf Ihrem System installiert haben, damit die Änderung korrekt funktioniert Wenn im Installationsprogramm Werbeangebote erscheinen, klicken Sie einfach auf die Schaltfläche «Ablehnen».",
     languageIt:
-        'Affinché la modifica funzioni correttamente, è necessario che sul sistema siano installati i componenti di {entity}. Se nel programma di installazione vengono visualizzate offerte pubblicitarie, è sufficiente fare clic sul pulsante «Rifiuta».',
+        'Affinché la modifica funzioni correttamente, è necessario che sul sistema siano installati i componenti di {entity} Se nel programma di installazione vengono visualizzate offerte pubblicitarie, è sufficiente fare clic sul pulsante «Rifiuta».',
     languageTr:
-        "Değişikliğin düzgün çalışması için sisteminizde {entity} bileşenlerinin yüklü olması gerekir. Yükleyicide reklam teklifleri görünürse, «Reddet» düğmesine tıklamanız yeterlidir.",
+        "Değişikliğin düzgün çalışması için sisteminizde {entity} bileşenlerinin yüklü olması gerekir Yükleyicide reklam teklifleri görünürse, «Reddet» düğmesine tıklamanız yeterlidir.",
     languageEs:
-        "Debe tener componentes {entity} instalados en su sistema para que la modificación funcione correctamente. Si aparecen ofertas publicitarias en el instalador, simplemente haga click en el botón «Rechazar»",
-    languageCn: "您的系统必须安装了 {entity} 组件，修改才能正常运行。。如果安装程序中出现广告，只需点击 «拒绝» 按钮即可。",
+        "Debe tener componentes {entity} instalados en su sistema para que la modificación funcione correctamente Si aparecen ofertas publicitarias en el instalador, simplemente haga click en el botón «Rechazar»",
+    languageCn: "您的系统必须安装了 {entity} 组件，修改才能正常运行。如果安装程序中出现广告，只需点击 «拒绝» 按钮即可。",
   },
   'Downloading': {
     languageEn: "Downloading",
@@ -7460,16 +7480,23 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "Böyle bir başlık desenine sahip yapılandırma bulunamadı",
   },
   'NothingHere': {
-    languageEn: "It looks like there is nothing in this section yet",
-    languageRu: 'Похоже, что в этом разделе ещё ничего нет',
-    languageUa: 'Здається, у цьому розділі ще нічого немає',
-    languagePl: 'Wygląda na to, że w tej sekcji nie ma jeszcze nic',
+    languageEn:
+        "It looks like there is nothing in this section yet. You can be the first who shares his cfg with others!",
+    languageRu:
+        'Похоже, что в этом разделе ещё ничего нет. Ты можешь стать первым, кто поделится своим кфг с другими!',
+    languageUa:
+        'Здається, у цьому розділі ще нічого немає. Ти можеш стати першим, хто поділиться своїм кфг з іншими!',
+    languagePl:
+        'Wygląda na to, że w tej sekcji nie ma jeszcze nic. Możesz być pierwszym, który podzieli się swoim cfg z innymi!',
     languageDe:
-        "Es scheint, dass in diesem Abschnitt noch nichts vorhanden ist",
-    languageIt: 'Sembra che non ci sia ancora nulla in questa sezione',
-    languageTr: "Bu bölümde henüz bir şey yok gibi görünüyor",
-    languageEs: "Parece que aún no hay nada en esta sección .",
-    languageCn: "看起来这部分还没有任何内容",
+        "Es scheint, dass in diesem Abschnitt noch nichts vorhanden ist. Sie können der Erste sein, der seine cfg mit anderen teilt!",
+    languageIt:
+        'Sembra che non ci sia ancora nulla in questa sezione. Puoi essere il primo a condividere il tuo cfg con gli altri!',
+    languageTr:
+        "Bu bölümde henüz bir şey yok gibi görünüyor. Cfg'nizi başkalarıyla ilk paylaşan siz olabilirsiniz!",
+    languageEs:
+        "Parece que aún no hay nada en esta sección. ¡Puedes ser el primero en compartir tu cfg con los demás!",
+    languageCn: "看起来这部分还没有任何内容. 您可以率先与他人分享您的 cfg！",
   },
 
   /// by like from some author
@@ -11042,37 +11069,58 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "Itch.io 版游戏",
   },
   'DriverMode': {
-    languageEn: "Driver version. Hard to lauch, however, safe!",
-    languageRu: 'Драйверная версия. Сложна в запуске и очень безопасна.',
-    languageUa: 'Драйверна версія. Складна в запуску і дуже безпечна.',
-    languagePl: 'Driver wersja. Trudny do uruchomienia i bardzo bezpieczny.',
-    languageDe: 'Driver Version. Schwierig zu starten und sehr sicher.',
-    languageIt: 'Versione del driver. Difficile da avviare e molto sicuro.',
-    languageTr: "Sürücü sürümü. Çalıştırması zor ve çok güvenli.",
-    languageEs: "Versión del controlador. Difícil de arrancar y muy seguro.",
-    languageCn: "驱动程序版本。 启动困难，非常安全。",
+    languageEn:
+        "Driver version. In some cases, a one-time pre-configuration of the PC in BIOS may be required.",
+    languageRu:
+        'Драйверная версия. В некоторых случаях может потребоваться единоразовая до-настройка ПК в BIOS.',
+    languageUa:
+        'Драйверна версія. У деяких випадках може знадобитися одноразове доналаштування ПК у BIOS.',
+    languagePl:
+        'Wersja sterownika. W niektórych przypadkach może być wymagana jednorazowa wstępna konfiguracja komputera w systemie BIOS.',
+    languageDe:
+        'Treiber-Version. In einigen Fällen kann eine einmalige Vorkonfiguration des PCs im BIOS erforderlich sein.',
+    languageIt:
+        'Versione del driver. In alcuni casi, potrebbe essere necessaria una preconfigurazione una tantum del PC nel BIOS.',
+    languageTr:
+        "Sürücü sürümü. Bazı durumlarda, bilgisayarın BIOS'ta bir kerelik ön yapılandırması gerekebilir.",
+    languageEs:
+        "Versión del controlador. En algunos casos, puede ser necesaria una única configuración previa del PC en la BIOS.",
+    languageCn: "驱动程序版本。在某些情况下，可能需要在 BIOS 中对电脑进行一次性预配置。",
   },
   'UserMode': {
     languageEn: "Usermode version. Easy to launch, however, not really safe!",
     languageRu: 'Юзер-мод версия. Легка в запуске, однако, не особо безопасна!',
-    languageUa: 'Юзер-мод версія. Легка в запуску, однак, не особливо безпечна!',
-    languagePl: 'Wersja trybu użytkownika. Łatwy do uruchomienia, jednak niezbyt bezpieczny!',
-    languageDe: 'Version im Benutzermodus. Leicht zu starten, aber nicht besonders sicher!',
-    languageIt: 'Versione in modalità utente. Facile da avviare, ma non particolarmente sicuro!',
+    languageUa:
+        'Юзер-мод версія. Легка в запуску, однак, не особливо безпечна!',
+    languagePl:
+        'Wersja trybu użytkownika. Łatwy do uruchomienia, jednak niezbyt bezpieczny!',
+    languageDe:
+        'Version im Benutzermodus. Leicht zu starten, aber nicht besonders sicher!',
+    languageIt:
+        'Versione in modalità utente. Facile da avviare, ma non particolarmente sicuro!',
     languageTr: "Usermode sürümü. Çalıştırması kolay, ancak pek güvenli değil!",
-    languageEs: "Versión del modo de usuario. Fácil de arrancar, pero no especialmente seguro.",
+    languageEs:
+        "Versión del modo de usuario. Fácil de arrancar, pero no especialmente seguro.",
     languageCn: "使用模式版本. 容易启动，但不是特别安全！",
   },
   'EFIMode': {
-    languageEn: "Driver version. Hard to lauch, however, safe!",
-    languageRu: 'EFI версия. Сложна в запуске и очень безопасна.',
-    languageUa: 'Драйверна версія. Складна в запуску і дуже безпечна.',
-    languagePl: 'Driver wersja. Trudny do uruchomienia i bardzo bezpieczny.',
-    languageDe: 'Driver Version. Schwierig zu starten und sehr sicher.',
-    languageIt: 'Versione del driver. Difficile da avviare e molto sicuro.',
-    languageTr: "Sürücü sürümü. Çalıştırması zor ve çok güvenli.",
-    languageEs: "Versión del controlador. Difícil de arrancar y muy seguro.",
-    languageCn: "驱动程序版本。 启动困难，非常安全。",
+    languageEn:
+        "EFI version. You'll need a flash-drive, PC restart and basic understanding of BIOS. Extremelly safe.",
+    languageRu:
+        'EFI версия. Потребуется флешка, перезапуск ПК и базовое умение работы с BIOS. Очень безопасна.',
+    languageUa:
+        'EFI версія. Буде потрібна флешка, перезапуск ПК і базове вміння роботи з BIOS. Дуже безпечна.',
+    languagePl:
+        'Wersja EFI. Wymaga pamięci USB, restartu komputera i podstawowych umiejętności BIOS. Bardzo bezpieczny.',
+    languageDe:
+        'EFI-Version. Erfordert einen USB-Stick, PC-Neustart und BIOS-Grundkenntnisse. Sehr sicher.',
+    languageIt:
+        'Versione EFI. Richiede una chiavetta USB, il riavvio del PC e competenze di base sul BIOS. Molto sicuro.',
+    languageTr:
+        "EFI sürümü. Bir USB bellek, bilgisayarın yeniden başlatılması ve temel BIOS becerileri gerektirir. Çok güvenlidir.",
+    languageEs:
+        "Versión EFI. Requiere una memoria USB, reiniciar el PC y conocimientos básicos de BIOS. Muy seguro.",
+    languageCn: "EFI 版本。需要 U 盘、电脑重启和基本 BIOS 技能。非常安全。",
   },
   'Audio': {
     languageEn: "Audio",
@@ -12094,7 +12142,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         "It looks like your daily likes limit has reaches to its maximum. Up your reputation to raise these limits!",
     languageRu:
-        'Похоже, что твой дневной лимит лайков исчерпан. Повышай уровень репутации, что поднять свои лимиты!',
+        'Похоже, что твой дневной лимит лайков исчерпан. Повышай уровень репутации, чтобы поднять свои лимиты!',
     languageUa:
         "Схоже, що твій денний ліміт лайків вичерпано. Підвищуй рівень репутації, щоб підняти свої ліміти!",
     languagePl:
@@ -12113,7 +12161,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         "It looks like your daily dislikes limit has reaches to its maximum. Up your reputation to raise these limits!",
     languageRu:
-        'Похоже, что твой дневной лимит дизлайков исчерпан. Повышай уровень репутации, что поднять свои лимиты!',
+        'Похоже, что твой дневной лимит дизлайков исчерпан. Повышай уровень репутации, чтобы поднять свои лимиты!',
     languageUa:
         "Схоже, що твій денний ліміт дизлайків вичерпан. Підвищуй рівень репутації, щоб підняти свої ліміти!",
     languagePl:
@@ -12132,7 +12180,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         "It looks like your daily configs upload limit has reaches to its maximum. Up your reputation to raise these limits!",
     languageRu:
-        'Похоже, что твой дневной лимит загрузки конфигов исчерпан. Повышай уровень репутации, что поднять свои лимиты!',
+        'Похоже, что твой дневной лимит загрузки конфигов исчерпан. Повышай уровень репутации, чтобы поднять свои лимиты!',
     languageUa:
         "Схоже, що твій денний ліміт завантаження конфігів вичерпан. Підвищуй рівень репутації, щоб підняти свої ліміти!",
     languagePl:
@@ -12151,7 +12199,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         "It looks like your daily limit for writing comments has reaches to its maximum. Up your reputation to raise these limits!",
     languageRu:
-        'Похоже, что твой дневной лимит на написание отзывов исчерпан. Повышай уровень репутации, что поднять свои лимиты!',
+        'Похоже, что твой дневной лимит на написание отзывов исчерпан. Повышай уровень репутации, чтобы поднять свои лимиты!',
     languageUa:
         "Схоже, що твій денний ліміт на написання відгуків вичерпано. Підвищуй рівень репутації, щоб підняти свої ліміти!",
     languagePl:
@@ -14015,21 +14063,30 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageRu: 'Папка, где будут храниться кастомные звуки',
     languageUa: 'Папка, де зберігатимуться кастомні звуки',
     languagePl: "Folder, w którym będą przechowywane niestandardowe dźwięki",
-    languageDe: "Ordner, in dem die benutzerdefinierten Sounds gespeichert werden",
+    languageDe:
+        "Ordner, in dem die benutzerdefinierten Sounds gespeichert werden",
     languageIt: "Cartella in cui verranno memorizzati i suoni personalizzati",
     languageTr: "Özel seslerin depolanacağı klasör",
     languageEs: "Carpeta donde se almacenarán los sonidos personalizados",
     languageCn: "存储自定义声音的文件夹",
   },
   'EfiLaunchDescription': {
-    languageEn: "To launch this mood you'll need a flash-drive, pc-restart and basic understanding of BIOS. Difficult to launch, but safe!",
-    languageRu: "Для запуска данного мода тебе потребуется флешка, перезапуск пк и небольшое понимание работы с BIOS. Сложно, но безопасно!",
-    languageUa: 'Для запуску цього мода тобі знадобиться флешка, перезапуск пк і невелике розуміння роботи з BIOS. Складно, але безпечно!',
-    languagePl: "Aby uruchomić ten nastrój, będziesz potrzebował dysku flash, restartu komputera i podstawowej wiedzy na temat BIOS-u. Trudne do uruchomienia, ale bezpieczne!",
-    languageDe: "Um diese Stimmung zu starten, benötigen Sie ein Flash-Laufwerk, einen PC-Neustart und Grundkenntnisse des BIOS. Schwierig zu starten, aber sicher!",
-    languageIt: "Per lanciare questa atmosfera è necessario disporre di una chiavetta, riavviare il PC e avere una conoscenza di base del BIOS. Difficile da avviare, ma sicuro!",
-    languageTr: "Bu ruh halini başlatmak için bir flash sürücüye, bilgisayarı yeniden başlatmaya ve BIOS'u temel düzeyde anlamaya ihtiyacınız olacak. Başlatması zor ama güvenli!",
-    languageEs: "Para ejecutarlo necesitarás un pendrive, reiniciar el PC y conocimientos básicos de BIOS. Difícil de ejecutar, pero seguro!",
+    languageEn:
+        "To launch this mood you'll need a flash-drive, pc-restart and basic understanding of BIOS. Difficult to launch, but safe!",
+    languageRu:
+        "Для запуска данного мода тебе потребуется флешка, перезапуск пк и небольшое понимание работы с BIOS. Сложно, но безопасно!",
+    languageUa:
+        'Для запуску цього мода тобі знадобиться флешка, перезапуск пк і невелике розуміння роботи з BIOS. Складно, але безпечно!',
+    languagePl:
+        "Aby uruchomić ten nastrój, będziesz potrzebował dysku flash, restartu komputera i podstawowej wiedzy na temat BIOS-u. Trudne do uruchomienia, ale bezpieczne!",
+    languageDe:
+        "Um diese Stimmung zu starten, benötigen Sie ein Flash-Laufwerk, einen PC-Neustart und Grundkenntnisse des BIOS. Schwierig zu starten, aber sicher!",
+    languageIt:
+        "Per lanciare questa atmosfera è necessario disporre di una chiavetta, riavviare il PC e avere una conoscenza di base del BIOS. Difficile da avviare, ma sicuro!",
+    languageTr:
+        "Bu ruh halini başlatmak için bir flash sürücüye, bilgisayarı yeniden başlatmaya ve BIOS'u temel düzeyde anlamaya ihtiyacınız olacak. Başlatması zor ama güvenli!",
+    languageEs:
+        "Para ejecutarlo necesitarás un pendrive, reiniciar el PC y conocimientos básicos de BIOS. Difícil de ejecutar, pero seguro!",
     languageCn: "要启动这种情绪，你需要一个闪存盘、电脑重启和对 BIOS 的基本了解。启动困难，但很安全！",
   },
   'RestartToBios': {
@@ -14044,15 +14101,24 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageCn: "在 BIOS 面板中重新启动电脑",
   },
   'DisableSecureBoot': {
-    languageEn: "To launch this mod, you need to disable «Secure Boot» option in your BIOS. This option can be often found inside «Boot options», «Security», «System Configuration», etc tabs. If you don't know how to do this, try to find guide for your BIOS on YouTube!",
-    languageRu: 'Для корректного запуска данного мода тебе необходимо отключить «Secure Boot» в твоём BIOS. Зачастую данный параметр можно найти во вкладках «Boot options», «Security», «System Configuration» и т.д. Если ты не знаешь как это сделать, постарайся найти инструкцию для своего биоса в YouTube!',
-    languageUa: 'Для коректного запуску цього мода тобі необхідно вимкнути «Secure Boot» у твоєму BIOS. Найчастіше цей параметр можна знайти у вкладках «Boot options», «Security», «System Configuration» і т.д. Якщо ти не знаєш як це зробити, постарайся знайти інструкцію для свого біоса в YouTube!',
-    languagePl: "Aby poprawnie uruchomić ten mod, należy wyłączyć «Secure Boot» w BIOS-ie. Często można znaleźć tę opcję w zakładkach «Opcje rozruchu», «Boot options», «System Configuration» itp. Jeśli nie wiesz, jak to zrobić, spróbuj znaleźć instrukcje dla swojego biosu na YouTube!",
-    languageDe: "Um diese Mod korrekt auszuführen, müssen Sie «Secure Boot» in Ihrem BIOS deaktivieren. Sie finden diese Option oft in den Registerkarten «Boot options», «System Configuration», «Security» usw. Wenn Sie nicht wissen, wie Sie dies tun, versuchen Sie, Anweisungen für Ihr BIOS auf YouTube zu finden!",
-    languageIt: "Per eseguire correttamente questa mod, è necessario disabilitare il «Secure Boot» nel BIOS. Spesso è possibile trovare questa opzione nelle schede «Boot options», «System Configuration», «Security», ecc. Se non sapete come fare, cercate di trovare le istruzioni per il vostro bios su YouTube!",
-    languageTr: "Bu modu doğru şekilde çalıştırmak için BIOS'unuzda «Secure Boot» devre dışı bırakmanız gerekir. Bu seçeneği genellikle «Boot options», «System Configuration», «Security» sekmelerinde vb. bulabilirsiniz. Bunu nasıl yapacağınızı bilmiyorsanız, YouTube'da bios'unuz için talimatlar bulmaya çalışın!",
-    languageEs: "Para ejecutar este mod correctamente, necesitas desactivar «Secure Boot» en tu BIOS. A menudo puedes encontrar esta opción en las pestañas «Boot options», «Security», «System Configuration», etc. Si no sabes cómo hacerlo, busca instrucciones para tu BIOS en YouTube.",
-    languageCn: "要正确运行此修改程序，需要在 BIOS 中禁用安全启动。通常可以在 «Boot options»（启动选项）、«Security»（安全）、«System Configuration»（系统配置）等选项下找到该选项。如果您不知道如何操作，请尝试在 YouTube 上查找有关您的 BIOS 的说明！",
+    languageEn:
+        "To launch this mod, you need to disable «Secure Boot» option in your BIOS. This option can be often found inside «Boot options», «Security», «System Configuration», etc tabs. If you don't know how to do this, try to find guide for your BIOS on YouTube!",
+    languageRu:
+        'Для корректного запуска данного мода тебе необходимо отключить «Secure Boot» в твоём BIOS. Зачастую данный параметр можно найти во вкладках «Boot options», «Security», «System Configuration» и т.д. Если ты не знаешь как это сделать, постарайся найти инструкцию для своего биоса в YouTube!',
+    languageUa:
+        'Для коректного запуску цього мода тобі необхідно вимкнути «Secure Boot» у твоєму BIOS. Найчастіше цей параметр можна знайти у вкладках «Boot options», «Security», «System Configuration» і т.д. Якщо ти не знаєш як це зробити, постарайся знайти інструкцію для свого біоса в YouTube!',
+    languagePl:
+        "Aby poprawnie uruchomić ten mod, należy wyłączyć «Secure Boot» w BIOS-ie. Często można znaleźć tę opcję w zakładkach «Opcje rozruchu», «Boot options», «System Configuration» itp. Jeśli nie wiesz, jak to zrobić, spróbuj znaleźć instrukcje dla swojego biosu na YouTube!",
+    languageDe:
+        "Um diese Mod korrekt auszuführen, müssen Sie «Secure Boot» in Ihrem BIOS deaktivieren. Sie finden diese Option oft in den Registerkarten «Boot options», «System Configuration», «Security» usw. Wenn Sie nicht wissen, wie Sie dies tun, versuchen Sie, Anweisungen für Ihr BIOS auf YouTube zu finden!",
+    languageIt:
+        "Per eseguire correttamente questa mod, è necessario disabilitare il «Secure Boot» nel BIOS. Spesso è possibile trovare questa opzione nelle schede «Boot options», «System Configuration», «Security», ecc. Se non sapete come fare, cercate di trovare le istruzioni per il vostro bios su YouTube!",
+    languageTr:
+        "Bu modu doğru şekilde çalıştırmak için BIOS'unuzda «Secure Boot» devre dışı bırakmanız gerekir. Bu seçeneği genellikle «Boot options», «System Configuration», «Security» sekmelerinde vb. bulabilirsiniz. Bunu nasıl yapacağınızı bilmiyorsanız, YouTube'da bios'unuz için talimatlar bulmaya çalışın!",
+    languageEs:
+        "Para ejecutar este mod correctamente, necesitas desactivar «Secure Boot» en tu BIOS. A menudo puedes encontrar esta opción en las pestañas «Boot options», «Security», «System Configuration», etc. Si no sabes cómo hacerlo, busca instrucciones para tu BIOS en YouTube.",
+    languageCn:
+        "要正确运行此修改程序，需要在 BIOS 中禁用安全启动。通常可以在 «Boot options»（启动选项）、«Security»（安全）、«System Configuration»（系统配置）等选项下找到该选项。如果您不知道如何操作，请尝试在 YouTube 上查找有关您的 BIOS 的说明！",
   },
   'FlashDrives': {
     languageEn: 'Found flash drives',
@@ -14066,37 +14132,64 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageCn: "找到的闪存盘",
   },
   'OnlyFat32Drives': {
-    languageEn: "If your flash drive doesn't appear in this list, you need to format it into the FAT32 system! To do this, go to explorer, select your flash drive, click format and specify the FAT32 file system!",
-    languageRu: 'Если твоя флешка не отображается в этом списке, тебе необходимо отформатировать её в систему FAT32! Для этого зайди в проводник, выбери свою флешку, нажми отформатировать и укажи файловую систему FAT32! ',
-    languageUa: 'Якщо твоя флешка не відображається в цьому списку, тобі необхідно відформатувати її в систему FAT32! Для цього зайди в провідник, вибери свою флешку, натисни відформатувати і вкажи файлову систему FAT32!',
-    languagePl: "Jeśli twój pendrive nie pojawia się na tej liście, musisz sformatować go w systemie FAT32! Aby to zrobić, przejdź do eksploratora, wybierz dysk flash, kliknij format i określ system plików FAT32!",
-    languageDe: "Wenn Ihr Flash-Laufwerk nicht in dieser Liste erscheint, müssen Sie es mit dem FAT32-System formatieren! Gehen Sie dazu in den Explorer, wählen Sie Ihr Flash-Laufwerk aus, klicken Sie auf formatieren und geben Sie das FAT32-Dateisystem an!",
-    languageIt: "Unità Se la vostra unità flash non compare in questo elenco, dovete formattarla nel sistema FAT32! Per farlo, andare in explorer, selezionare l'unità flash, fare clic su formattare e specificare il sistema di file FAT32!",
-    languageTr: "Eğer flash sürücünüz bu listede görünmüyorsa, onu FAT32 sistemine biçimlendirmeniz gerekir! Bunu yapmak için explorer'a gidin, flash sürücünüzü seçin, format'a tıklayın ve FAT32 dosya sistemini belirtin!",
-    languageEs: "Si tu pendrive no aparece en esta lista, tienes que formatearlo en el sistema FAT32. Para ello, ve al explorador, selecciona tu pendrive, haz clic en formatear y especifica el sistema de archivos FAT32.",
-    languageCn: "如果闪存盘不在此列表中，则需要将其格式化为 FAT32 系统！为此，请进入资源管理器，选择闪存盘，点击格式化并指定 FAT32 文件系统！",
+    languageEn:
+        "If your flash drive doesn't appear in this list, you need to format it into the FAT32 system! To do this, go to explorer, select your flash drive, click format and specify the FAT32 file system!",
+    languageRu:
+        'Если твоя флешка не отображается в этом списке, тебе необходимо отформатировать её в систему FAT32! Для этого зайди в проводник, выбери свою флешку, нажми отформатировать и укажи файловую систему FAT32! ',
+    languageUa:
+        'Якщо твоя флешка не відображається в цьому списку, тобі необхідно відформатувати її в систему FAT32! Для цього зайди в провідник, вибери свою флешку, натисни відформатувати і вкажи файлову систему FAT32!',
+    languagePl:
+        "Jeśli twój pendrive nie pojawia się na tej liście, musisz sformatować go w systemie FAT32! Aby to zrobić, przejdź do eksploratora, wybierz dysk flash, kliknij format i określ system plików FAT32!",
+    languageDe:
+        "Wenn Ihr Flash-Laufwerk nicht in dieser Liste erscheint, müssen Sie es mit dem FAT32-System formatieren! Gehen Sie dazu in den Explorer, wählen Sie Ihr Flash-Laufwerk aus, klicken Sie auf formatieren und geben Sie das FAT32-Dateisystem an!",
+    languageIt:
+        "Unità Se la vostra unità flash non compare in questo elenco, dovete formattarla nel sistema FAT32! Per farlo, andare in explorer, selezionare l'unità flash, fare clic su formattare e specificare il sistema di file FAT32!",
+    languageTr:
+        "Eğer flash sürücünüz bu listede görünmüyorsa, onu FAT32 sistemine biçimlendirmeniz gerekir! Bunu yapmak için explorer'a gidin, flash sürücünüzü seçin, format'a tıklayın ve FAT32 dosya sistemini belirtin!",
+    languageEs:
+        "Si tu pendrive no aparece en esta lista, tienes que formatearlo en el sistema FAT32. Para ello, ve al explorador, selecciona tu pendrive, haz clic en formatear y especifica el sistema de archivos FAT32.",
+    languageCn:
+        "如果闪存盘不在此列表中，则需要将其格式化为 FAT32 系统！为此，请进入资源管理器，选择闪存盘，点击格式化并指定 FAT32 文件系统！",
   },
   'InsertFlashDrive': {
-    languageEn: 'To launch this mod you need a USB flash drive! Without it, this mod can not be launched :c. Insert the flash drive into your computer, select it in this list and click continue.',
-    languageRu: 'Для запуска этого мода тебе необходима флешка! Без неё данный мод никак не запустить :c. Вставь флешку в компьютер, выбери её в этом списке и нажми продолжить.',
-    languageUa: "Для запуску цього мода тобі необхідна флешка! Без неї цей мод ніяк не запустити :c. Встав флешку в комп'ютер, вибери її в цьому списку і натисни продовжити.",
-    languagePl: "Aby uruchomić ten mod, potrzebujesz pamięci USB! Bez niego ten mod nie może działać :c. Włóż pendrive'a do komputera, wybierz go z listy i kliknij kontynuuj.",
-    languageDe: "Um diesen Mod auszuführen, brauchst du einen USB-Stick! Ohne ihn kann dieser Mod nicht laufen :c. Stecken Sie den Stick in Ihren Computer, wählen Sie ihn in dieser Liste aus und klicken Sie auf Weiter.",
-    languageIt: "Per eseguire questa mod è necessaria una chiavetta USB! Senza di essa, questa mod non può funzionare :c. Inserire la chiavetta nel computer, selezionarla in questo elenco e fare clic su continua.",
-    languageTr: "Bu modu çalıştırmak için bir USB belleğe ihtiyacınız var! O olmadan bu mod çalışamaz :c. Çubuğu bilgisayarınıza takın, bu listeden seçin ve devam et'e tıklayın.",
-    languageEs: "¡Para ejecutar este mod necesitas una memoria USB! Sin él, este mod no se puede ejecutar :c. Inserta la memoria USB en tu ordenador, selecciónala en esta lista y haz clic en continuar.",
-    languageCn: "要运行此模块，您需要一个 U 盘！没有 U 盘，本修改器将无法运行 :c。将 U 盘插入电脑，在列表中选择 U 盘并点击继续。",
+    languageEn:
+        'To launch this mod you need a USB flash drive! Without it, this mod can not be launched :c. Insert the flash drive into your computer, select it in this list and click continue.',
+    languageRu:
+        'Для запуска этого мода тебе необходима флешка! Без неё данный мод никак не запустить :c. Вставь флешку в компьютер, выбери её в этом списке и нажми продолжить.',
+    languageUa:
+        "Для запуску цього мода тобі необхідна флешка! Без неї цей мод ніяк не запустити :c. Встав флешку в комп'ютер, вибери її в цьому списку і натисни продовжити.",
+    languagePl:
+        "Aby uruchomić ten mod, potrzebujesz pamięci USB! Bez niego ten mod nie może działać :c. Włóż pendrive'a do komputera, wybierz go z listy i kliknij kontynuuj.",
+    languageDe:
+        "Um diesen Mod auszuführen, brauchst du einen USB-Stick! Ohne ihn kann dieser Mod nicht laufen :c. Stecken Sie den Stick in Ihren Computer, wählen Sie ihn in dieser Liste aus und klicken Sie auf Weiter.",
+    languageIt:
+        "Per eseguire questa mod è necessaria una chiavetta USB! Senza di essa, questa mod non può funzionare :c. Inserire la chiavetta nel computer, selezionarla in questo elenco e fare clic su continua.",
+    languageTr:
+        "Bu modu çalıştırmak için bir USB belleğe ihtiyacınız var! O olmadan bu mod çalışamaz :c. Çubuğu bilgisayarınıza takın, bu listeden seçin ve devam et'e tıklayın.",
+    languageEs:
+        "¡Para ejecutar este mod necesitas una memoria USB! Sin él, este mod no se puede ejecutar :c. Inserta la memoria USB en tu ordenador, selecciónala en esta lista y haz clic en continuar.",
+    languageCn:
+        "要运行此模块，您需要一个 U 盘！没有 U 盘，本修改器将无法运行 :c。将 U 盘插入电脑，在列表中选择 U 盘并点击继续。",
   },
   'LoadFromEFI': {
-    languageEn: "To finish this mod's launch you need to restart your computer into the BIOS panel and boot from the previously selected flash drive! After restarting, just open the game and the mod should work.\n\nBoot from the USB drive can often be configured in the «Boot», «Boot option», «Boot order», «First boot device», etc. tabs!",
-    languageRu: 'Для продолжения запуска модификации тебе необходимо перезагрузить компьютер в BIOS и загрузиться с ранее-выбранной флешки! После перезапуска просто открой игру и мод должен заработать.\n\nЗагрузку с флешки зачастую можно настроить во вкладках «Boot», «Boot option», «Boot order», «First boot device» и т.д!',
-    languageUa: "Для продовження запуску модифікації тобі необхідно перезавантажити комп'ютер у BIOS і завантажитися з раніше-вибраної флешки! Після перезапуску просто відкрий гру і мод має запрацювати.\n\nЗавантаження з флешки найчастіше можна налаштувати у вкладках «Boot», «Boot option», «Boot order», «First boot device» і т.д!",
-    languagePl: "Aby kontynuować uruchamianie moda, należy zrestartować komputer w BIOS-ie i uruchomić go z wcześniej wybranego pendrive'a! Po ponownym uruchomieniu wystarczy otworzyć grę i mod powinien działać.\n\nRozruch z pamięci USB można często skonfigurować w zakładkach «Boot», «Boot option», «Boot order», «First boot device» itp.",
-    languageDe: "Um die Mod weiter laufen zu lassen, müssen Sie Ihren Computer im BIOS neu starten und von dem zuvor ausgewählten USB-Stick booten! Nach dem Neustart, öffnen Sie einfach das Spiel und die Mod sollte funktionieren.\n\nDer Boot von einem USB-Stick kann oft in den Registerkarten «Boot», «Boot option», «Boot order», «First boot device», etc. konfiguriert werden!",
-    languageIt: "Per continuare a eseguire la mod è necessario riavviare il computer nel BIOS e avviare dalla chiavetta precedentemente selezionata! Dopo il riavvio, basta aprire il gioco e la mod dovrebbe funzionare.\n\nL'avvio da una chiavetta USB può essere spesso configurato nelle schede «Boot», «Boot option», «Boot order», «First boot device», ecc.",
-    languageTr: "Modu çalıştırmaya devam etmek için bilgisayarınızı BIOS'ta yeniden başlatmanız ve önceden seçilen flash sürücüden önyükleme yapmanız gerekir! Yeniden başlattıktan sonra, sadece oyunu açın ve mod çalışmalıdır.\n\nBir USB bellekten önyükleme genellikle «Boot», «Boot option», «Boot order», «First boot device» vb. sekmelerinde yapılandırılabilir!",
-    languageEs: "Para seguir ejecutando el mod es necesario reiniciar el ordenador en la BIOS y arrancar desde la memoria USB seleccionada anteriormente. Después de reiniciar, basta con abrir el juego y el mod debería funcionar.\n\nEl arranque desde una memoria USB a menudo se puede configurar en las pestañas «Boot», «Boot option», «Boot order», «First boot device», etc.",
-    languageCn: "要继续运行 MOD，你需要在 BIOS 中重启电脑，然后从之前选定的闪存盘启动！重启后，只需打开游戏，MOD 就能正常运行了。\n\n从 U 盘启动通常可以在 «Boot», «Boot option», «Boot order», «First boot device» 等选项卡中进行配置！",
+    languageEn:
+        "To finish this mod's launch you need to restart your computer into the BIOS panel and boot from the previously selected flash drive! After restarting, just open the game and the mod should work.\n\nBoot from the USB drive can often be configured in the «Boot», «Boot option», «Boot order», «First boot device», etc. tabs!",
+    languageRu:
+        'Для продолжения запуска модификации тебе необходимо перезагрузить компьютер в BIOS и загрузиться с ранее-выбранной флешки! После перезапуска просто открой игру и мод должен заработать.\n\nЗагрузку с флешки зачастую можно настроить во вкладках «Boot», «Boot option», «Boot order», «First boot device» и т.д!',
+    languageUa:
+        "Для продовження запуску модифікації тобі необхідно перезавантажити комп'ютер у BIOS і завантажитися з раніше-вибраної флешки! Після перезапуску просто відкрий гру і мод має запрацювати.\n\nЗавантаження з флешки найчастіше можна налаштувати у вкладках «Boot», «Boot option», «Boot order», «First boot device» і т.д!",
+    languagePl:
+        "Aby kontynuować uruchamianie moda, należy zrestartować komputer w BIOS-ie i uruchomić go z wcześniej wybranego pendrive'a! Po ponownym uruchomieniu wystarczy otworzyć grę i mod powinien działać.\n\nRozruch z pamięci USB można często skonfigurować w zakładkach «Boot», «Boot option», «Boot order», «First boot device» itp.",
+    languageDe:
+        "Um die Mod weiter laufen zu lassen, müssen Sie Ihren Computer im BIOS neu starten und von dem zuvor ausgewählten USB-Stick booten! Nach dem Neustart, öffnen Sie einfach das Spiel und die Mod sollte funktionieren.\n\nDer Boot von einem USB-Stick kann oft in den Registerkarten «Boot», «Boot option», «Boot order», «First boot device», etc. konfiguriert werden!",
+    languageIt:
+        "Per continuare a eseguire la mod è necessario riavviare il computer nel BIOS e avviare dalla chiavetta precedentemente selezionata! Dopo il riavvio, basta aprire il gioco e la mod dovrebbe funzionare.\n\nL'avvio da una chiavetta USB può essere spesso configurato nelle schede «Boot», «Boot option», «Boot order», «First boot device», ecc.",
+    languageTr:
+        "Modu çalıştırmaya devam etmek için bilgisayarınızı BIOS'ta yeniden başlatmanız ve önceden seçilen flash sürücüden önyükleme yapmanız gerekir! Yeniden başlattıktan sonra, sadece oyunu açın ve mod çalışmalıdır.\n\nBir USB bellekten önyükleme genellikle «Boot», «Boot option», «Boot order», «First boot device» vb. sekmelerinde yapılandırılabilir!",
+    languageEs:
+        "Para seguir ejecutando el mod es necesario reiniciar el ordenador en la BIOS y arrancar desde la memoria USB seleccionada anteriormente. Después de reiniciar, basta con abrir el juego y el mod debería funcionar.\n\nEl arranque desde una memoria USB a menudo se puede configurar en las pestañas «Boot», «Boot option», «Boot order», «First boot device», etc.",
+    languageCn:
+        "要继续运行 MOD，你需要在 BIOS 中重启电脑，然后从之前选定的闪存盘启动！重启后，只需打开游戏，MOD 就能正常运行了。\n\n从 U 盘启动通常可以在 «Boot», «Boot option», «Boot order», «First boot device» 等选项卡中进行配置！",
   },
   'Empty': {
     languageEn: 'Empty',
@@ -14108,5 +14201,85 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Boş",
     languageEs: "Vacío",
     languageCn: "空",
+  },
+  'SpecifyVersioinPls': {
+    languageEn:
+        'We advice you to specify not only the description of the cfg, but also the version of the mod to which this cfg was created for!',
+    languageRu:
+        'Просим тебя указать не только описание кфг, но и версию мода, к которой подходит данный кфг, дабы все всё понимали!',
+    languageUa:
+        'Просимо тебе вказати не тільки опис кфг, а й версію мода, до якої підходить цей кфг, щоб усі все розуміли!',
+    languagePl:
+        "Prosimy o podanie nie tylko opisu cfg, ale także wersji moda, do którego ten cfg pasuje, aby wszyscy wszystko zrozumieli!",
+    languageDe:
+        "Wir bitten Sie, nicht nur die Beschreibung des cfg, sondern auch die Version des Mods, zu dem dieses cfg passt, anzugeben, damit alle alles verstehen!",
+    languageIt:
+        "Vi chiediamo di specificare non solo la descrizione del cfg, ma anche la versione del mod a cui questo cfg si adatta, in modo che tutti capiscano tutto!",
+    languageTr:
+        "Sizden sadece cfg'nin açıklamasını değil, aynı zamanda bu cfg'nin uyduğu modun sürümünü de belirtmenizi istiyoruz, böylece herkes her şeyi anlayabilir!",
+    languageEs:
+        "Te pedimos que especifiques no sólo la descripción del cfg, sino también la versión del mod a la que se ajusta este cfg, ¡para que todos lo entendamos todo!",
+    languageCn: "我们要求您不仅要说明 cfg 的描述，还要说明该 cfg 适用的 MOD 版本，以便大家都能理解！",
+  },
+  'BlockRegionalMods': {
+    languageEn: 'Do not display unavailable modifications',
+    languageRu: 'Не отображать недоступные модификации',
+    languageUa: 'Не відображати недоступні модифікації',
+    languagePl: "Nie wyświetlaj niedostępnych modyfikacji",
+    languageDe: "Nicht verfügbare Änderungen nicht anzeigen",
+    languageIt: "Non visualizzare le modifiche non disponibili",
+    languageTr: "Kullanılamayan değişiklikleri gösterme",
+    languageEs: "No mostrar las modificaciones no disponibles",
+    languageCn: "不显示不可用的修改",
+  },
+  'BlockRegionalModsDescription': {
+    languageEn:
+        'Modifications that can not be launched without VPN or because of regioal limitations/possible presence of virus threats will be hidden from your library!',
+    languageRu:
+        'Модификации, которые невозможно запустить без ВПН или же в связи с региональными ограничениями/возможным наличием вирусов будут скрыты из библиотеки!',
+    languageUa:
+        'Модифікації, які не можуть бути запущені без VPN або через регіональні обмеження/можливу наявність вірусних загроз, будуть приховані з вашої бібліотеки!',
+    languagePl:
+        "Modyfikacje, których nie można uruchomić bez VPN lub z powodu ograniczeń regionalnych / możliwej obecności zagrożeń wirusowych, zostaną ukryte w bibliotece!",
+    languageDe:
+        "Modifikationen, die ohne VPN oder aufgrund gesetzlicher Beschränkungen/möglicher Virenbedrohungen nicht gestartet werden können, werden in Ihrer Bibliothek versteckt!",
+    languageIt:
+        "Le modifiche che non possono essere avviate senza VPN o a causa di limitazioni regionali/possibile presenza di minacce virali saranno nascoste dalla vostra libreria!",
+    languageTr:
+        "VPN olmadan veya yasal sınırlamalar / olası virüs tehditlerinin varlığı nedeniyle başlatılamayan değişiklikler kütüphanenizden gizlenecektir!",
+    languageEs:
+        "Las modificaciones que no puedan lanzarse sin VPN o debido a limitaciones regionales/posible presencia de amenazas de virus se ocultarán de su biblioteca.",
+    languageCn: "没有 VPN 或因地区限制/可能存在病毒威胁而无法启动的修改将从您的资料库中隐藏！",
+  },
+  'DisableCodeIntegrityDescription': {
+    languageEn:
+        'To launch this modification you need to open CMD(console) as administrator and type the following commands there. «Click on the command to copy it to the clipboard». Please note, after entering these commands your PC might reboot and you will be able to continue launch process of this mod!',
+    languageRu:
+        'Для запуска этой модификации тебе необходимо открыть CMD(консоль) от имени администратора и прописать туда следующие команды. «Нажми на команду, чтобы скопировать её в буфер обмена». Обрати внимание, после ввода этих команд твой ПК перезагрузится и ты сможешь продолжить запуск мода!',
+    languageUa:
+        'Для запуску цієї модифікації тобі необхідно відкрити CMD (консоль) від імені адміністратора і прописати туди такі команди. «Натисни на команду, щоб скопіювати її в буфер обміну». Зверни увагу, після введення цих команд твій ПК перезавантажиться і ти зможеш продовжити запуск мода!',
+    languagePl:
+        "Aby uruchomić tę modyfikację, musisz otworzyć CMD (konsolę) jako administrator i wpisać tam następujące polecenia. «Kliknij polecenie, aby skopiować je do schowka». Uwaga, po wpisaniu tych poleceń komputer uruchomi się ponownie i będzie można kontynuować uruchamianie modyfikacji!",
+    languageDe:
+        "Um diese Änderung auszuführen, müssen Sie CMD (Konsole) als Administrator öffnen und dort die folgenden Befehle eingeben. «Klicken Sie auf den Befehl, um ihn in die Zwischenablage zu kopieren». Beachten Sie, dass Ihr PC nach der Eingabe dieser Befehle neu gestartet wird und Sie die Mod weiter ausführen können!",
+    languageIt:
+        "Per eseguire questa modifica è necessario aprire CMD (console) come amministratore e scrivere i seguenti comandi. «Fare clic sul comando per copiarlo negli appunti». Nota: dopo aver inserito questi comandi il PC si riavvierà e si potrà continuare a eseguire la modifica!",
+    languageTr:
+        "Bu değişikliği çalıştırmak için CMD'yi (konsol) yönetici olarak açmanız ve aşağıdaki komutları buraya yazmanız gerekir. «Panoya kopyalamak için komutun üzerine tıklayın». Bu komutları girdikten sonra bilgisayarınızın yeniden başlatılacağını ve modu çalıştırmaya devam edebileceğinizi unutmayın!",
+    languageEs:
+        "Para ejecutar esta modificación necesitas abrir CMD(consola) como administrador y escribir allí los siguientes comandos. «Haz clic en el comando para copiarlo al portapapeles». Nota, después de introducir estos comandos tu PC se reiniciará y ¡podrás seguir ejecutando el mod!",
+    languageCn:
+        "要运行此修改，需要以管理员身份打开 CMD（控制台），并在其中写入以下命令。«单击命令将其复制到剪贴板»。 注意，输入这些命令后，您的电脑将重新启动，您可以继续运行该修改！",
+  },
+  'CheckingRegistry': {
+    languageEn: 'Checking registry settings',
+    languageRu: 'Проверяем настройки реестра',
+    languageUa: 'Перевірка налаштувань реєстру',
+    languagePl: "Sprawdzanie ustawień rejestru",
+    languageDe: "Überprüfung der Registrierungseinstellungen",
+    languageIt: "Verifica delle impostazioni del registro di sistema",
+    languageTr: "Kayıt defteri ayarlarını kontrol etme",
+    languageEs: "Comprobación de la configuración del registro",
+    languageCn: "检查注册表设置",
   },
 };
