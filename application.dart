@@ -1958,7 +1958,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageCn: "学习日",
   },
   'JokeDay': {
-    languageEn: "Fool's day",
+    languageEn: "April Fool's day",
     languageRu: 'День дурака',
     languageUa: 'День дурня',
     languagePl: 'Prima aprilis',
@@ -10449,15 +10449,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   // (Used in settings for changing how application's window corners look like)
   'Rounding': {
-    languageEn: "Corners rounding",
-    languageRu: 'Скругление краёв',
-    languageUa: 'Заокруглення країв',
-    languagePl: 'Zaokrąglanie krawędzi',
-    languageDe: "Kanten abrunden",
-    languageIt: 'Arrotondamento degli angoli',
-    languageTr: "Köşeleri yuvarlama",
-    languageEs: "Redondeo de esquinas",
-    languageCn: "四舍五入",
+    languageEn: "Corners rounding (Windows 11)",
+    languageRu: 'Скругление краёв (Windows 11)',
+    languageUa: 'Заокруглення країв (Windows 11)',
+    languagePl: 'Zaokrąglanie krawędzi (Windows 11)',
+    languageDe: "Kanten abrunden(Windows 11)",
+    languageIt: 'Arrotondamento degli angoli (Windows 11)',
+    languageTr: "Köşeleri yuvarlama (Windows 11)",
+    languageEs: "Redondeo de esquinas (Windows 11)",
+    languageCn: "四舍五入 (Windows 11)",
   },
   // Rounding is turned off, absent
   '0.0Rounding': {
@@ -13855,15 +13855,23 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageCn: "所选图像将从左到右反转，反之亦然，取决于是否启用该选项",
   },
   'StartScrollingToLoadComments': {
-    languageEn: 'Start scrolling to load comments',
-    languageRu: 'Проскролль вниз, чтобы загрузить комментарии',
-    languageUa: 'Проскрольте вниз, щоб завантажити коментарі',
-    languagePl: 'Rozpocznij przewijanie, aby załadować komentarze',
-    languageDe: "Starten Sie den Bildlauf, um Kommentare zu laden",
-    languageIt: "Iniziare a scorrere per caricare i commenti",
-    languageTr: "Yorumları yüklemek için kaydırmaya başlayın",
-    languageEs: "Empiece a desplazarse para cargar los comentarios",
-    languageCn: "开始滚动以加载评论",
+    languageEn:
+        'Start scrolling to load comments. If you can not scroll then click «Show All» button.',
+    languageRu:
+        'Проскролль вниз, чтобы загрузить комментарии. Если ты не можешь скроллить, просто нажми на кнопку «Показать все».',
+    languageUa:
+        'Проскрольте вниз, щоб завантажити коментарі. Якщо ти не можеш скролити, просто натисни на кнопку «Показати все».',
+    languagePl:
+        'Rozpocznij przewijanie, aby załadować komentarze. Jeśli nie możesz przewijać, kliknij przycisk «Pokaż wszystko".',
+    languageDe:
+        "Starten Sie den Bildlauf, um Kommentare zu laden. Wenn Sie nicht blättern können, klicken Sie auf die Schaltfläche «Alle anzeigen».",
+    languageIt:
+        "Iniziare a scorrere per caricare i commenti. Se non è possibile scorrere, fare clic sul pulsante «Mostra tutto».",
+    languageTr:
+        "Yorumları yüklemek için kaydırmaya başlayın. Kaydırma yapamıyorsanız «Tümünü Göster» düğmesine tıklayın.",
+    languageEs:
+        "Empiece a desplazarse para cargar los comentarios. Si no puede desplazarse, haga clic en el botón «Mostrar todo».",
+    languageCn: "开始滚动以加载评论. 如果无法滚动，请点击 «全部显示» 按钮。",
   },
   'PlaytimeSort': {
     languageEn: 'By the total played time',
@@ -14281,5 +14289,38 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Kayıt defteri ayarlarını kontrol etme",
     languageEs: "Comprobación de la configuración del registro",
     languageCn: "检查注册表设置",
+  },
+  'UseFullScreen': {
+    languageEn: 'Display ExLoader in Fullscreened mode',
+    languageRu: 'Отображать ExLoader в полноэкранном режиме',
+    languageUa: 'Відображати ExLoader у повноекранному режимі',
+    languagePl: "Wyświetlanie ExLoadera w trybie pełnoekranowym",
+    languageDe: "ExLoader im Vollbildmodus anzeigen",
+    languageIt: "Visualizzare ExLoader in modalità a schermo intero",
+    languageTr: "ExLoader'ı Tam Ekran modunda görüntüleme",
+    languageEs: "Mostrar ExLoader a pantalla completa",
+    languageCn: "以全屏模式显示 ExLoader",
+  },
+  'UseFullScreenDescription': {
+    languageEn: 'The app will use all the available on the screen space',
+    languageRu: 'Приложение будет использовать всё место, доступное на экране',
+    languageUa: 'Застосунок використовуватиме все місце, доступне на екрані',
+    languagePl: "Aplikacja wykorzysta całą przestrzeń dostępną na ekranie",
+    languageDe: "Die App wird den gesamten verfügbaren Platz auf dem Bildschirm nutzen",
+    languageIt: "L'applicazione utilizzerà tutto lo spazio disponibile sullo schermo",
+    languageTr: "Uygulama ekranda mevcut olan tüm alanı kullanacaktır",
+    languageEs: "La aplicación utilizará todo el espacio disponible en la pantalla",
+    languageCn: "应用程序将使用屏幕上的所有可用空间",
+  },
+  'TextScaler': {
+    languageEn: 'Text scaler',
+    languageRu: 'Увеличение текста',
+    languageUa: 'Збільшення тексту',
+    languagePl: "Powiększanie tekstu",
+    languageDe: "Textvergrößerung",
+    languageIt: "Ingrandimento del testo",
+    languageTr: "Metin büyütme",
+    languageEs: "Ampliación del texto",
+    languageCn: "文字放大",
   },
 };
