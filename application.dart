@@ -4007,22 +4007,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ExLoaderWilLBeErasedSoon': {
     languageEn:
-        "The process of complete ExLoader erasing, as well as all modifications and their configs will begin in 5 seconds!",
+        "The process of complete ExLoader erasing, as well as all modifications and their configs will begin in 5 seconds! Once this timer is ended the application will restart and start the self-destruct process, if it doesn't, just open ExLoader again and activate its uninstall function once more!",
     languageRu:
-        'Процесс полного удаления ExLoader, а так-же всех модификаций и их конфигов начнётся через 5 секунд!',
+        'Процесс полного удаления ExLoader, а так-же всех модификаций и их конфигов начнётся через 5 секунд! По истечении этого времени приложение перезапуститься и начнёт процесс самоуничтожения, если этого не произойдёт, просто открой ExLoader ещё раз и снова активируй функцию его удаления!',
     languageUa:
-        "Процес повного видалення ExLoader, а так-же всіх модифікацій і їх конфігов почнеться через 5 секунд!",
+        "Процес повного видалення ExLoader, а так-же всіх модифікацій і їх конфігов почнеться через 5 секунд! Після закінчення цього часу додаток перезапуститься і почне процес самознищення, якщо цього не станеться, просто відкрий ExLoader ще раз і знову активуй функцію його видалення!",
     languagePl:
-        'Proces całkowitego usunięcia ExLoadera, a także wszystkich modyfikacji i ich konfiguracji rozpocznie się za 5 sekund!',
+        'Proces całkowitego usunięcia ExLoadera, a także wszystkich modyfikacji i ich konfiguracji rozpocznie się za 5 sekund! Po tym czasie aplikacja uruchomi się ponownie i rozpocznie proces autodestrukcji, jeśli tak się nie stanie, wystarczy ponownie otworzyć ExLoader i ponownie aktywować jego funkcję dezinstalacji!',
     languageDe:
-        "Der Prozess der vollständigen Entfernung von ExLoader sowie aller Modifikationen und ihrer Konfigurationen beginnt in 5 Sekunden!",
+        "Der Prozess der vollständigen Entfernung von ExLoader sowie aller Modifikationen und ihrer Konfigurationen beginnt in 5 Sekunden! Nach dieser Zeit wird die Anwendung neu gestartet und der Selbstzerstörungsprozess beginnt. Wenn dies nicht der Fall ist, öffnen Sie ExLoader einfach erneut und aktivieren Sie die Deinstallationsfunktion erneut!",
     languageIt:
-        'Il processo di cancellazione completa di ExLoader, così come tutte le modifiche e le relative configurazioni, inizieranno in 5 secondi!',
+        "Il processo di cancellazione completa di ExLoader, così come tutte le modifiche e le relative configurazioni, inizieranno in 5 secondi! Dopo questo tempo l'applicazione si riavvierà e inizierà il processo di autodistruzione; se non lo fa, basta riaprire ExLoader e attivare nuovamente la sua funzione di disinstallazione!",
     languageTr:
-        "ExLoader'ın tamamen silinmesinin yanı sıra tüm değişiklikler ve konfigürasyonları 5 saniye içinde başlayacaktır!",
+        "ExLoader'ın tamamen silinmesinin yanı sıra tüm değişiklikler ve konfigürasyonları 5 saniye içinde başlayacaktır! Bu süreden sonra uygulama yeniden başlayacak ve kendini imha sürecini başlatacaktır, eğer başlatmazsa, ExLoader'ı tekrar açın ve kaldırma işlevini tekrar etkinleştirin!",
     languageEs:
-        "¡El proceso de borrado completo de ExLoader, así como todas las modificaciones y sus configuraciones comenzará en 5 segundos!",
-    languageCn: "完整的 ExLoader 清除过程以及所有修改及其配置将在 5 秒后开始！",
+        "¡El proceso de borrado completo de ExLoader, así como todas las modificaciones y sus configuraciones comenzará en 5 segundos! Después de este tiempo la aplicación se reiniciará y comenzará el proceso de autodestrucción, si no lo hace, ¡sólo tienes que abrir ExLoader de nuevo y activar su función de desinstalación de nuevo!",
+    languageCn:
+        "完整的 ExLoader 清除过程以及所有修改及其配置将在 5 秒后开始！ 之后，应用程序将重新启动并开始自毁程序，如果没有，只需再次打开 ExLoader 并再次激活其卸载功能即可！",
   },
   'ExLoaderErasingProcessIsStarted': {
     languageEn:
@@ -14366,5 +14367,46 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs:
         "Ralentiza considerablemente el proceso de eliminación de ExLoader debido a la comprobación de decenas de millones de cadenas en varios procesos.",
     languageCn: "由于要检查各种进程中的数千万个字符串，ExLoader 的移除速度大大降低！",
+  },
+  'NotInWindowed': {
+    languageEn: "Not available in Fullscreened mode",
+    languageRu: 'Недоступно в полноэкранном режиме',
+    languageUa: "Недоступно в повноекранному режимі",
+    languagePl: "Niedostępne w trybie pełnoekranowym",
+    languageDe: "Im Vollbildmodus nicht verfügbar",
+    languageIt: "Non disponibile in modalità a schermo intero",
+    languageTr: "Tam ekran modunda kullanılamaz",
+    languageEs: "No disponible a pantalla completa",
+    languageCn: "全屏模式下不可用",
+  },
+  'TryOneMoreTime': {
+    languageEn:
+        "Try using this feature once again. This time something obviously went wrong :c",
+    languageRu:
+        'Попробуй использовать данную функцию ещё раз. В этот раз что-то явно пошло не так :c',
+    languageUa:
+        "Спробуй використати цю функцію ще раз. Цього разу щось явно пішло не так :c",
+    languagePl:
+        "Spróbuj użyć tej funkcji ponownie. Tym razem najwyraźniej coś poszło nie tak :c",
+    languageDe:
+        "Versuchen Sie, diese Funktion erneut zu verwenden. Diesmal ist offensichtlich etwas schiefgegangen :c",
+    languageIt:
+        "Prova a utilizzare nuovamente questa funzione. Questa volta evidentemente qualcosa è andato storto :c",
+    languageTr:
+        "Bu işlevi tekrar kullanmayı deneyin. Bu sefer belli ki bir şeyler ters gitmiş :c",
+    languageEs:
+        "Intenta utilizar esta función de nuevo. Esta vez es obvio que algo ha ido mal :c",
+    languageCn: "再次尝试使用该功能。这次显然出错了 :c",
+  },
+  'CFGFolderForDeletion': {
+    languageEn: "Config folder for the function of traces deletion",
+    languageRu: 'Папка конфигов для функции удаления всех файлов',
+    languageUa: "Папка конфігів для функції видалення всіх файлів",
+    languagePl: "Folder konfiguracji dla funkcji usuwania wszystkich plików",
+    languageDe: "Config-Ordner für die Funktion des Löschens aller Dateien",
+    languageIt: "Cartella di configurazione per la funzione di cancellazione di tutti i file",
+    languageTr: "Tüm dosyaları silme işlevi için yapılandırma klasörü",
+    languageEs: "Carpeta de configuración para la función de eliminación de todos los archivos",
+    languageCn: "用于删除所有文件功能的配置文件夹",
   },
 };
