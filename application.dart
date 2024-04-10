@@ -1472,6 +1472,17 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "Sigiloso",
     languageCn: "隐身",
   },
+  'Kernel': {
+    languageEn: 'Kernel',
+    languageRu: 'Драйверный',
+    languageUa: 'Драйверний',
+    languagePl: 'Kierowca',
+    languageDe: "Treiber",
+    languageIt: 'Autista',
+    languageTr: "Sürücü",
+    languageEs: "Conductor",
+    languageCn: "司机",
+  },
   'Universal': {
     languageEn: "Universal",
     languageRu: 'Универсальный',
@@ -10611,23 +10622,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'AntiCheatWarning': {
     languageEn:
-        "Please not that {game} has a very good anti-cheat system, which means that almost all free modifications may lead to a game-ban or stop working after the smallest game update. We recommend using these modifications only on those accounts that you won't regret loosing and don't get used to them very much!",
+        "Please not that {game} has a very good anti-cheat system, which means that almost all free modifications may lead to a game-ban or stop working after the smallest game update. We recommend using these modifications only on those accounts that you won't regret loosing and don't get used to them very much! Btw do not forget to use Spoofer to avoid HWID bans!",
     languageRu:
-        'Обрати внимание, {game} имеет систему очень хорошего античита, а это значит, что практически все бесплатные модификации могут привести к бану твоего аккаунта или же перестать работать после малейшего обновления игры. Рекомендуем использовать модификации только на том аккаунте, который тебе не жалко и особо сильно к ним не привыкать!',
+        'Обрати внимание, {game} имеет систему очень хорошего античита, а это значит, что практически все бесплатные модификации могут привести к бану твоего аккаунта или же перестать работать после малейшего обновления игры. Рекомендуем использовать модификации только на том аккаунте, который тебе не жалко и особо сильно к ним не привыкать! Кстати не забывай использовать Spoofer, чтобы избежать HWID бана!',
     languageUa:
-        'Зверни увагу, {game} має систему дуже хорошого античита, а це значить, що практично всі безкоштовні модифікації можуть привести до бану твого аккаунта або ж перестати працювати після найменшого оновлення гри. Рекомендуємо використовувати модифікації тільки на тому акаунті, який тобі не шкода і особливо сильно до них не звикати!',
+        'Зверни увагу, {game} має систему дуже хорошого античита, а це значить, що практично всі безкоштовні модифікації можуть привести до бану твого аккаунта або ж перестати працювати після найменшого оновлення гри. Рекомендуємо використовувати модифікації тільки на тому акаунті, який тобі не шкода і особливо сильно до них не звикати! До речі, не забувай використовувати Spoofer, щоб уникнути HWID бана!',
     languagePl:
-        'Zwróć uwagę, {game} ma bardzo dobry system anty-cheat, co oznacza, że prawie wszystkie bezpłatne modyfikacje mogą spowodować zbanowanie Twojego konta lub przestać działać po najmniejszej aktualizacji gry. Zalecamy używanie modyfikacji tylko na koncie, którego nie żałujesz i nie jesteś do nich szczególnie obcy!',
+        'Zwróć uwagę, {game} ma bardzo dobry system anty-cheat, co oznacza, że prawie wszystkie bezpłatne modyfikacje mogą spowodować zbanowanie Twojego konta lub przestać działać po najmniejszej aktualizacji gry. Zalecamy używanie modyfikacji tylko na koncie, którego nie żałujesz i nie jesteś do nich szczególnie obcy! Przy okazji nie zapomnij użyć Spoofera, aby uniknąć bana HWID!',
     languageDe:
-        'Bitte beachten Sie, dass {game} ein sehr gutes Antichitsystem hat, was bedeutet, dass fast alle kostenlosen Modifikationen dein Konto verbannen oder nach der geringsten Aktualisierung des Spiels nicht mehr funktionieren können. Wir empfehlen, die Modifikationen nur auf dem Konto zu verwenden, das dir nicht leid tut und dich nicht besonders daran gewöhnt!',
+        'Bitte beachten Sie, dass {game} ein sehr gutes Antichitsystem hat, was bedeutet, dass fast alle kostenlosen Modifikationen dein Konto verbannen oder nach der geringsten Aktualisierung des Spiels nicht mehr funktionieren können. Wir empfehlen, die Modifikationen nur auf dem Konto zu verwenden, das dir nicht leid tut und dich nicht besonders daran gewöhnt! Übrigens: Vergessen Sie nicht, Spoofer zu verwenden, um das HWID-Verbot zu umgehen!',
     languageIt:
-        'Tieni presente che {game} ha un ottimo sistema anti-cheat, il che significa che quasi tutte le modifiche gratuite possono portare a un ban dal gioco o smettere di funzionare dopo il più piccolo aggiornamento del gioco. Ti consigliamo di utilizzare queste modifiche solo su quegli account che non ti pentirai di perdere e non ti abituerai molto!',
+        'Tieni presente che {game} ha un ottimo sistema anti-cheat, il che significa che quasi tutte le modifiche gratuite possono portare a un ban dal gioco o smettere di funzionare dopo il più piccolo aggiornamento del gioco. Ti consigliamo di utilizzare queste modifiche solo su quegli account che non ti pentirai di perdere e non ti abituerai molto! A proposito, non dimenticate di usare Spoofer per evitare il divieto di HWID!',
     languageTr:
-        "Lütfen {game}'in çok iyi bir anti-hile sistemine sahip olduğunu unutmayın, bu da neredeyse tüm ücretsiz modifikasyonların bir oyun yasağına yol açabileceği veya en küçük oyun güncellemesinden sonra çalışmayı durdurabileceği anlamına gelir. Bu modifikasyonları sadece kaybettiğiniz için pişman olmayacağınız hesaplarda kullanmanızı ve onlara çok fazla alışmamanızı öneririz!",
+        "Lütfen {game}'in çok iyi bir anti-hile sistemine sahip olduğunu unutmayın, bu da neredeyse tüm ücretsiz modifikasyonların bir oyun yasağına yol açabileceği veya en küçük oyun güncellemesinden sonra çalışmayı durdurabileceği anlamına gelir. Bu modifikasyonları sadece kaybettiğiniz için pişman olmayacağınız hesaplarda kullanmanızı ve onlara çok fazla alışmamanızı öneririz! Bu arada HWID yasağından kaçınmak için Spoofer kullanmayı unutmayın!",
     languageEs:
-        "Por favor, ten en cuenta que {game} tiene un sistema anti-trampas muy bueno, lo que significa que casi todas las modificaciones gratuitas pueden llevar a un bloqueo del juego o dejar de funcionar después de la más pequeña actualización del juego. Recomendamos usar estas modificaciones sólo en aquellas cuentas que no te arrepentirás de perder y no te acostumbres mucho a ellas.",
+        "Por favor, ten en cuenta que {game} tiene un sistema anti-trampas muy bueno, lo que significa que casi todas las modificaciones gratuitas pueden llevar a un bloqueo del juego o dejar de funcionar después de la más pequeña actualización del juego. Recomendamos usar estas modificaciones sólo en aquellas cuentas que no te arrepentirás de perder y no te acostumbres mucho a ellas. Por cierto, no olvides utilizar Spoofer para evitar el bloqueo de HWID.",
     languageCn:
-        "请注意，{game} 拥有非常完善的反作弊系统，这意味着几乎所有的免费修改都可能导致游戏封禁或在最小的游戏更新后停止工作。我们建议您只在那些不会因为失去而后悔的账号上使用这些修改，而且不要太习惯使用它们！",
+        "请注意，{game} 拥有非常完善的反作弊系统，这意味着几乎所有的免费修改都可能导致游戏封禁或在最小的游戏更新后停止工作。我们建议您只在那些不会因为失去而后悔的账号上使用这些修改，而且不要太习惯使用它们！顺便说一句，别忘了使用 Spoofer 来避免 HWID 禁用！",
   },
   'CodeIsCopied': {
     languageEn:
@@ -14306,10 +14317,13 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageRu: 'Приложение будет использовать всё место, доступное на экране',
     languageUa: 'Застосунок використовуватиме все місце, доступне на екрані',
     languagePl: "Aplikacja wykorzysta całą przestrzeń dostępną na ekranie",
-    languageDe: "Die App wird den gesamten verfügbaren Platz auf dem Bildschirm nutzen",
-    languageIt: "L'applicazione utilizzerà tutto lo spazio disponibile sullo schermo",
+    languageDe:
+        "Die App wird den gesamten verfügbaren Platz auf dem Bildschirm nutzen",
+    languageIt:
+        "L'applicazione utilizzerà tutto lo spazio disponibile sullo schermo",
     languageTr: "Uygulama ekranda mevcut olan tüm alanı kullanacaktır",
-    languageEs: "La aplicación utilizará todo el espacio disponible en la pantalla",
+    languageEs:
+        "La aplicación utilizará todo el espacio disponible en la pantalla",
     languageCn: "应用程序将使用屏幕上的所有可用空间",
   },
   'TextScaler': {
@@ -14322,5 +14336,35 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageTr: "Metin büyütme",
     languageEs: "Ampliación del texto",
     languageCn: "文字放大",
+  },
+  'CleanupStrings': {
+    languageEn: "Cleanup strings in process' memory",
+    languageRu: 'Очищать строки в памяти процессов',
+    languageUa: "Очищати рядки в пам'яті процесів",
+    languagePl: "Czyszczenie ciągów w pamięci procesu",
+    languageDe: "Zeichenketten im Prozessspeicher bereinigen",
+    languageIt: "Pulire le stringhe nella memoria del processo",
+    languageTr: "Sürecin belleğindeki dizeleri temizleme",
+    languageEs: "Limpiar cadenas en la memoria del proceso",
+    languageCn: "清理进程内存中的字符串",
+  },
+  'CleanupStringsDescription': {
+    languageEn:
+        "Significantly slows down the ExLoader removal process due to scanning of dozens of millions of strings in various processes!",
+    languageRu:
+        'Значительно замедляет процесс удаления ExLoader в связи с проверкой десятков миллионов строк в различных процессах!',
+    languageUa:
+        "Значно уповільнює процес видалення ExLoader у зв'язку з перевіркою десятків мільйонів рядків у різних процесах!",
+    languagePl:
+        "Znacznie spowalnia proces usuwania ExLoadera z powodu sprawdzania dziesiątek milionów ciągów w różnych procesach!",
+    languageDe:
+        "Verlangsamt den Entfernungsprozess von ExLoader beträchtlich, da zig Millionen Zeichenfolgen in verschiedenen Prozessen überprüft werden!",
+    languageIt:
+        "Rallenta notevolmente il processo di rimozione di ExLoader a causa del controllo di decine di milioni di stringhe in vari processi!",
+    languageTr:
+        "Çeşitli süreçlerdeki on milyonlarca dizgiyi kontrol etmesi nedeniyle ExLoader kaldırma işlemini önemli ölçüde yavaşlatır!",
+    languageEs:
+        "Ralentiza considerablemente el proceso de eliminación de ExLoader debido a la comprobación de decenas de millones de cadenas en varios procesos.",
+    languageCn: "由于要检查各种进程中的数千万个字符串，ExLoader 的移除速度大大降低！",
   },
 };
