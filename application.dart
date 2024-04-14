@@ -14423,14 +14423,53 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageCn: "隐藏",
   },
   "MainProcessIsCompleteStringLeft": {
-    languageEn: "The main process of traces deletion is over. All that remains is to clean up the strings inside the processes. Since this process takes time, you can hide the ExLoader window during this cleanup. When the cleanup is finished, you will hear the standard Windows notification sound!",
-    languageRu: 'Основной процесс очистки следов окончен. Осталось лишь очистить строки внутри процессов. Так как этот процесс занимает время, ты можешь скрыть окно ExLoader на время этой очистки. По окончанию очистки ты услышишь звук стандартного уведомления Windows!',
-    languageUa: "Основний процес очищення слідів закінчено. Залишилося лише очистити рядки всередині процесів. Оскільки цей процес займає час, ти можеш приховати вікно ExLoader на час цього очищення. По закінченню очищення ти почуєш звук стандартного повідомлення Windows!",
-    languagePl: "Główny proces czyszczenia śladów został zakończony. Pozostaje tylko wyczyścić ciągi wewnątrz procesów. Ponieważ proces ten zajmuje trochę czasu, można ukryć okno ExLoadera na czas czyszczenia. Po zakończeniu czyszczenia usłyszysz standardowy dźwięk powiadomienia systemu Windows!",
-    languageDe: "Der Hauptprozess der Beseitigung von Spuren ist abgeschlossen. Jetzt müssen nur noch die Zeichenfolgen innerhalb der Prozesse bereinigt werden. Da dieser Vorgang Zeit in Anspruch nimmt, können Sie das ExLoader-Fenster während dieser Bereinigung ausblenden. Wenn die Bereinigung abgeschlossen ist, hören Sie den üblichen Windows-Benachrichtigungston!",
-    languageIt: "Il processo principale di cancellazione delle tracce è terminato. Rimane solo da ripulire le stringhe all'interno dei processi. Poiché questo processo richiede tempo, è possibile nascondere la finestra di ExLoader durante la pulizia. Al termine della pulizia, si sentirà il suono di notifica standard di Windows!",
-    languageTr: "İzleri temizlemenin ana süreci sona ermiştir. Geriye kalan tek şey işlemlerin içindeki dizeleri temizlemektir. Bu işlem zaman aldığından, bu temizlik sırasında ExLoader penceresini gizleyebilirsiniz. Temizleme işlemi tamamlandığında, standart Windows bildirim sesini duyacaksınız!",
-    languageEs: "El proceso principal de limpieza de rastros ha terminado. Todo lo que queda es limpiar las cadenas dentro de los procesos. Como este proceso lleva tiempo, puede ocultar la ventana de ExLoader durante esta limpieza. Cuando termine la limpieza, oirá el sonido de notificación estándar de Windows.",
-    languageCn: "清除痕迹的主要过程已经结束。剩下的工作就是清理进程内部的字符串。由于这个过程需要时间，因此在清理过程中可以隐藏 ExLoader 窗口。清理完成后，你会听到标准的 Windows 通知音！",
+    languageEn:
+        "The main process of traces deletion is over. All that remains is to clean up the strings inside the processes. Since this process takes time, you can hide the ExLoader window during this cleanup. When the cleanup is finished, you will hear the standard Windows notification sound!",
+    languageRu:
+        'Основной процесс очистки следов окончен. Осталось лишь очистить строки внутри процессов. Так как этот процесс занимает время, ты можешь скрыть окно ExLoader на время этой очистки. По окончанию очистки ты услышишь звук стандартного уведомления Windows!',
+    languageUa:
+        "Основний процес очищення слідів закінчено. Залишилося лише очистити рядки всередині процесів. Оскільки цей процес займає час, ти можеш приховати вікно ExLoader на час цього очищення. По закінченню очищення ти почуєш звук стандартного повідомлення Windows!",
+    languagePl:
+        "Główny proces czyszczenia śladów został zakończony. Pozostaje tylko wyczyścić ciągi wewnątrz procesów. Ponieważ proces ten zajmuje trochę czasu, można ukryć okno ExLoadera na czas czyszczenia. Po zakończeniu czyszczenia usłyszysz standardowy dźwięk powiadomienia systemu Windows!",
+    languageDe:
+        "Der Hauptprozess der Beseitigung von Spuren ist abgeschlossen. Jetzt müssen nur noch die Zeichenfolgen innerhalb der Prozesse bereinigt werden. Da dieser Vorgang Zeit in Anspruch nimmt, können Sie das ExLoader-Fenster während dieser Bereinigung ausblenden. Wenn die Bereinigung abgeschlossen ist, hören Sie den üblichen Windows-Benachrichtigungston!",
+    languageIt:
+        "Il processo principale di cancellazione delle tracce è terminato. Rimane solo da ripulire le stringhe all'interno dei processi. Poiché questo processo richiede tempo, è possibile nascondere la finestra di ExLoader durante la pulizia. Al termine della pulizia, si sentirà il suono di notifica standard di Windows!",
+    languageTr:
+        "İzleri temizlemenin ana süreci sona ermiştir. Geriye kalan tek şey işlemlerin içindeki dizeleri temizlemektir. Bu işlem zaman aldığından, bu temizlik sırasında ExLoader penceresini gizleyebilirsiniz. Temizleme işlemi tamamlandığında, standart Windows bildirim sesini duyacaksınız!",
+    languageEs:
+        "El proceso principal de limpieza de rastros ha terminado. Todo lo que queda es limpiar las cadenas dentro de los procesos. Como este proceso lleva tiempo, puede ocultar la ventana de ExLoader durante esta limpieza. Cuando termine la limpieza, oirá el sonido de notificación estándar de Windows.",
+    languageCn:
+        "清除痕迹的主要过程已经结束。剩下的工作就是清理进程内部的字符串。由于这个过程需要时间，因此在清理过程中可以隐藏 ExLoader 窗口。清理完成后，你会听到标准的 Windows 通知音！",
+  },
+  'CleanupTraffic': {
+    languageEn: "Clear internet activity",
+    languageRu: 'Очищать интернет активность',
+    languageUa: "Очищати інтернет активність",
+    languagePl: "Czysta aktywność w Internecie",
+    languageDe: "Internet-Aktivitäten löschen",
+    languageIt: "Attività internet chiara",
+    languageTr: "Net internet etkinliği",
+    languageEs: "Actividad clara en Internet",
+    languageCn: "清晰的互联网活动",
+  },
+  'CleanupTrafficDescription': {
+    languageEn:
+        "Unfortunately, this preference is optional because right now we can only erase activity for all applications and not just for ExLoader only :c ",
+    languageRu:
+        'К сожалению, этот параметр опционален, потому что сейчас мы можем стереть активность абсолютно всех приложений, а не только для ExLoader :c',
+    languageUa:
+        "На жаль, цей параметр опціональний, тому що зараз ми можемо стерти активність абсолютно всіх додатків, а не тільки для ExLoader :c",
+    languagePl:
+        "Niestety, ta preferencja jest opcjonalna, ponieważ obecnie możemy usunąć aktywność tylko dla wszystkich aplikacji, a nie tylko dla ExLoadera :c",
+    languageDe:
+        "Leider ist diese Einstellung optional, da wir im Moment nur Aktivitäten für alle Anwendungen löschen können und nicht nur für ExLoader :c!",
+    languageIt:
+        "Purtroppo questa preferenza è facoltativa, perché al momento possiamo cancellare l'attività solo per tutte le applicazioni e non solo per ExLoader :c",
+    languageTr:
+        "Ne yazık ki, bu tercih isteğe bağlıdır çünkü şu anda yalnızca ExLoader için değil, tüm uygulamalar için etkinliği silebiliyoruz :c",
+    languageEs:
+        "Desafortunadamente, esta preferencia es opcional porque ahora mismo sólo podemos borrar la actividad para todas las aplicaciones y no sólo para ExLoader :c",
+    languageCn: "遗憾的是，这个偏好是可选的，因为现在我们只能清除所有应用程序的活动，而不能只清除 ExLoader 的活动。",
   },
 };
