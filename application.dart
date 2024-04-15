@@ -14472,4 +14472,24 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Desafortunadamente, esta preferencia es opcional porque ahora mismo sólo podemos borrar la actividad para todas las aplicaciones y no sólo para ExLoader :c",
     languageCn: "遗憾的是，这个偏好是可选的，因为现在我们只能清除所有应用程序的活动，而不能只清除 ExLoader 的活动。",
   },
+  'DisableCoreIsolation': {
+    languageEn:
+        "To launch this modification you must disable «Memory integrity» and «Microsoft Vulnarable Driver Blocklist» in Windows Defender settings.\n\nTo do this, open your «Windows Defender», find «Device security» page and click the «Core isolation» tab. \n\nOnce you've disabled those settings «you MUST restart your PC». Only then you'll be able to return to the ExLoader and continue modification's launch process.",
+    languageRu:
+        'Для запуска этого мода тебе придётся отключить «Целостность памяти» и «Список заблокированных уязвимых драйверов» в параметрах защитника Windows!\n\nДля этого открой «Защитник Windows», найди вкладку «Безопасность устройства» и перейди в меню «Изоляция ядра». \n\nПосле отключениях этих параметров «ОБЯЗАТЕЛЬНО перезапусти ПК» и вернись в ExLoader для продолжения запуска модификации!',
+    languageUa:
+        "Для запуску цього мода тобі доведеться вимкнути «Цілісність пам'яті» і «Список заблокованих вразливих драйверів» у параметрах захисника Windows!\n\nДля цього відкрий «Захисник Windows», знайди вкладку «Безпека пристрою» і перейди в меню «Ізоляція ядра». \n\nПісля вимкнення цих параметрів «ОБОВ'ЯЗКОВО перезапусти ПК» і повернися в ExLoader для продовження запуску модифікації!",
+    languagePl:
+        "Aby uruchomić tę modyfikację, musisz wyłączyć «Integralność pamięci» i «Microsoft Vulnarable Driver Blocklist» w ustawieniach Windows Defender.\n\nAby to zrobić, otwórz «Windows Defender», znajdź stronę «Zabezpieczenia urządzenia» i kliknij kartę «Izolacja rdzenia». \n\nPo wyłączeniu tych ustawień «MUSISZ ponownie uruchomić komputer». Tylko wtedy będziesz mógł powrócić do ExLoadera i kontynuować proces uruchamiania modyfikacji.",
+    languageDe:
+        "Um diese Änderung zu starten, müssen Sie «Speicherintegrität» und «Microsoft Vulnarable Driver Blocklist» in den Einstellungen von Windows Defender deaktivieren.\n\nÖffnen Sie dazu Ihren «Windows Defender», suchen Sie die Seite «Gerätesicherheit» und klicken Sie auf die Registerkarte «Kernisolierung». \n\nSobald Sie diese Einstellungen deaktiviert haben, «MÜSSEN Sie Ihren PC neu starten». Erst dann können Sie zum ExLoader zurückkehren und den Startvorgang der Modifikation fortsetzen.",
+    languageIt:
+        "Per avviare questa modifica è necessario disabilitare «Memory integrity» e «Microsoft Vulnarable Driver Blocklist» nelle impostazioni di Windows Defender.\n\nPer farlo, aprite «Windows Defender», trovate la pagina «Sicurezza dei dispositivi» e fate clic sulla scheda «Isolamento del nucleo». \n\nUna volta disattivate queste impostazioni, «è necessario riavviare il PC». Solo allora sarà possibile tornare a ExLoader e continuare il processo di avvio della modifica.",
+    languageTr:
+        "Bu değişikliği başlatmak için Windows Defender ayarlarında «Bellek bütünlüğü» ve «Microsoft Savunmasız Sürücü Engelleme Listesi» ni devre dışı bırakmalısınız.\n\nBunu yapmak için «Windows Defender» ınızı açın, «Cihaz güvenliği» sayfasını bulun ve «Çekirdek izolasyonu» sekmesine tıklayın. \n\nBu ayarları devre dışı bıraktıktan sonra «bilgisayarınızı yeniden başlatmalısınız». Ancak o zaman ExLoader'a geri dönebilir ve modifikasyonun başlatma işlemine devam edebilirsiniz.",
+    languageEs:
+        "Para poner en marcha esta modificación debe desactivar «Integridad de la memoria» y «Lista de bloqueo de controladores vulnerables de Microsoft» en la configuración de Windows Defender.\n\nPara ello, abre tu «Windows Defender», busca la página «Seguridad de dispositivos» y haz clic en la pestaña «Aislamiento del núcleo». \n\nUna vez que hayas desactivado esos ajustes «DEBES reiniciar tu PC». Sólo entonces podrás volver a ExLoader y continuar con el proceso de modificación.",
+    languageCn:
+        "要启动此修改，必须在 Windows Defender 设置中禁用 «内存完整性» 和 «Microsoft Vulnarable Driver Blocklist»。 \n\n为此，请打开 «Windows Defender»，找到 «设备安全» 页面并点击 «核心隔离» 选项卡。\n\n禁用这些设置后，«必须重新启动电脑»。只有这样，你才能返回 ExLoader 并继续修改的启动过程。",
+  },
 };
