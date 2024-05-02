@@ -4047,23 +4047,23 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'EraseDescription': {
     languageEn:
-        "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Archive History, Game Folder, ... - traces of the application, modifications from the library and their configurations will be completely erased from all these places as if you had never even downloaded ExLoader!",
+        "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Archive History, Game Folder, Network traffic ... - traces of the application, modifications from the library and their configurations will be completely erased from all these places as if you had never even downloaded ExLoader!",
     languageRu:
-        'Реестр, ShellBugs, LastActivityView, Загрузки, Recent, Документы, AppData, История архивов, Папка с игрой, ... - следы приложения, модификаций из библиотеки и их конфигураций будут полностью удалены из всех этих мест так, будто бы ты никогда и не скачивал ExLoader!',
+        'Реестр, ShellBugs, LastActivityView, Загрузки, Recent, Документы, AppData, История архивов, Папка с игрой, Статистику трафика интернета ... - следы приложения, модификаций из библиотеки и их конфигураций будут полностью удалены из всех этих мест так, будто бы ты никогда и не скачивал ExLoader!',
     languageUa:
-        'Реєстр, ShellBugs, LastActivityView, Завантаження, Recent, Документи, AppData, Історія архівів, Папка з грою, ... - сліди додатка, модифікацій з бібліотеки і їх конфігурацій будуть повністю видалені з усіх цих місць так, нібито ти ніколи і не скачував ExLoader!',
+        'Реєстр, ShellBugs, LastActivityView, Завантаження, Recent, Документи, AppData, Історія архівів, Папка з грою, Статистику трафіку інтернету ... - сліди додатка, модифікацій з бібліотеки і їх конфігурацій будуть повністю видалені з усіх цих місць так, нібито ти ніколи і не скачував ExLoader!',
     languagePl:
-        'Rejestr, ShellBugs, LastActivityView, pliki do pobrania, Recent, dokumenty, AppData, Historia archiwów, folder gry,... - ślady aplikacji, modyfikacji z biblioteki i ich konfiguracji zostaną całkowicie usunięte ze wszystkich miejsc, tak jakbyś nigdy nie pobierał Exloadera!',
+        'Rejestr, ShellBugs, LastActivityView, pliki do pobrania, Recent, dokumenty, AppData, Historia archiwów, folder gry, Statystyki ruchu internetowego ... - ślady aplikacji, modyfikacji z biblioteki i ich konfiguracji zostaną całkowicie usunięte ze wszystkich miejsc, tak jakbyś nigdy nie pobierał Exloadera!',
     languageDe:
-        "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Historie der Archive, Ordner mit dem Spiel, ... - Spuren der Anwendung, Modifikationen aus der Bibliothek und deren Konfigurationen werden von all diesen Stellen komplett entfernt wie wenn Sie ExLoader niemals herunterladen!",
+        "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Historie der Archive, Ordner mit dem Spiel, Internet-Verkehrsstatistiken ... - Spuren der Anwendung, Modifikationen aus der Bibliothek und deren Konfigurationen werden von all diesen Stellen komplett entfernt wie wenn Sie ExLoader niemals herunterladen!",
     languageIt:
-        'Registro, ShellBugs, LastActivityView, Download, Recenti, Documenti, AppData, Cronologia archivio, Cartella di gioco, ... - tracce dell`applicazione, modifiche dalla libreria e le relative configurazioni verranno completamente cancellate da tutti questi luoghi come se non avevo mai nemmeno scaricato ExLoader!',
+        'Registro, ShellBugs, LastActivityView, Download, Recenti, Documenti, AppData, Cronologia archivio, Cartella di gioco, Statistiche sul traffico Internet ... - tracce dell`applicazione, modifiche dalla libreria e le relative configurazioni verranno completamente cancellate da tutti questi luoghi come se non avevo mai nemmeno scaricato ExLoader!',
     languageTr:
-        "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Archive History, Game Folder, ... - Uygulamanın izleri, kütüphanedeki değişiklikler ve yapılandırmaları, sanki ExLoader'ı hiç indirmemişsiniz gibi tüm bu yerlerden tamamen silinecektir!",
+        "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Archive History, Game Folder, İnternet trafik istatistikleri ... - Uygulamanın izleri, kütüphanedeki değişiklikler ve yapılandırmaları, sanki ExLoader'ı hiç indirmemişsiniz gibi tüm bu yerlerden tamamen silinecektir!",
     languageEs:
-        "Registro, ShellBugs, LastActivityView, Descargas, Recientes, Documentos, AppData, Historial de Archivos, Carpeta de Juegos, ... - ¡Los rastros de la aplicación, las modificaciones de la librería y sus configuraciones serán completamente borrados de todos estos lugares como si nunca hubieras descargado ExLoader!",
+        "Registro, ShellBugs, LastActivityView, Descargas, Recientes, Documentos, AppData, Historial de Archivos, Carpeta de Juegos, Estadísticas de tráfico en Internet ... - ¡Los rastros de la aplicación, las modificaciones de la librería y sus configuraciones serán completamente borrados de todos estos lugares como si nunca hubieras descargado ExLoader!",
     languageCn:
-        "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Archive History, Game Folder, ... - 应用程序的痕迹、库中的修改及其配置将从所有这些地方被完全清除，就像你从未下载过 ExLoader 一样！",
+        "Registry, ShellBugs, LastActivityView, Downloads, Recent, Documents, AppData, Archive History, Game Folder, 互联网流量统计 ... - 应用程序的痕迹、库中的修改及其配置将从所有这些地方被完全清除，就像你从未下载过 ExLoader 一样！",
   },
   'Profile': {
     languageEn: "Profile",
@@ -14442,36 +14442,6 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageCn:
         "清除痕迹的主要过程已经结束。剩下的工作就是清理进程内部的字符串。由于这个过程需要时间，因此在清理过程中可以隐藏 ExLoader 窗口。清理完成后，你会听到标准的 Windows 通知音！",
   },
-  'CleanupTraffic': {
-    languageEn: "Clear internet activity",
-    languageRu: 'Очищать интернет активность',
-    languageUa: "Очищати інтернет активність",
-    languagePl: "Czysta aktywność w Internecie",
-    languageDe: "Internet-Aktivitäten löschen",
-    languageIt: "Attività internet chiara",
-    languageTr: "Net internet etkinliği",
-    languageEs: "Actividad clara en Internet",
-    languageCn: "清晰的互联网活动",
-  },
-  'CleanupTrafficDescription': {
-    languageEn:
-        "Unfortunately, this preference is optional because right now we can only erase activity for all applications and not just for ExLoader only :c ",
-    languageRu:
-        'К сожалению, этот параметр опционален, потому что сейчас мы можем стереть активность абсолютно всех приложений, а не только для ExLoader :c',
-    languageUa:
-        "На жаль, цей параметр опціональний, тому що зараз ми можемо стерти активність абсолютно всіх додатків, а не тільки для ExLoader :c",
-    languagePl:
-        "Niestety, ta preferencja jest opcjonalna, ponieważ obecnie możemy usunąć aktywność tylko dla wszystkich aplikacji, a nie tylko dla ExLoadera :c",
-    languageDe:
-        "Leider ist diese Einstellung optional, da wir im Moment nur Aktivitäten für alle Anwendungen löschen können und nicht nur für ExLoader :c!",
-    languageIt:
-        "Purtroppo questa preferenza è facoltativa, perché al momento possiamo cancellare l'attività solo per tutte le applicazioni e non solo per ExLoader :c",
-    languageTr:
-        "Ne yazık ki, bu tercih isteğe bağlıdır çünkü şu anda yalnızca ExLoader için değil, tüm uygulamalar için etkinliği silebiliyoruz :c",
-    languageEs:
-        "Desafortunadamente, esta preferencia es opcional porque ahora mismo sólo podemos borrar la actividad para todas las aplicaciones y no sólo para ExLoader :c",
-    languageCn: "遗憾的是，这个偏好是可选的，因为现在我们只能清除所有应用程序的活动，而不能只清除 ExLoader 的活动。",
-  },
   'DisableCoreIsolation': {
     languageEn:
         "To launch this modification you must disable «Memory integrity» and «Microsoft Vulnarable Driver Blocklist» in Windows Defender settings.\n\nTo do this, open your «Windows Defender», find «Device security» page and click the «Core isolation» tab. \n\nOnce you've disabled those settings «you MUST restart your PC». Only then you'll be able to return to the ExLoader and continue modification's launch process.",
@@ -14491,5 +14461,25 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Para poner en marcha esta modificación debe desactivar «Integridad de la memoria» y «Lista de bloqueo de controladores vulnerables de Microsoft» en la configuración de Windows Defender.\n\nPara ello, abre tu «Windows Defender», busca la página «Seguridad de dispositivos» y haz clic en la pestaña «Aislamiento del núcleo». \n\nUna vez que hayas desactivado esos ajustes «DEBES reiniciar tu PC». Sólo entonces podrás volver a ExLoader y continuar con el proceso de modificación.",
     languageCn:
         "要启动此修改，必须在 Windows Defender 设置中禁用 «内存完整性» 和 «Microsoft Vulnarable Driver Blocklist»。 \n\n为此，请打开 «Windows Defender»，找到 «设备安全» 页面并点击 «核心隔离» 选项卡。\n\n禁用这些设置后，«必须重新启动电脑»。只有这样，你才能返回 ExLoader 并继续修改的启动过程。",
+  },
+  'ManualCleanupDescription': {
+    languageEn:
+        "ExLoader does NOT delete your YouTube browsing history, browser download history, emails on your mail, regular browser history and social media subscriptions. You have to clean that by yourself!",
+    languageRu:
+        'ExLoader НЕ удаляет историю просмотров YouTube, историю загрузок браузера, письма на твоей почте, обычную историю браузера и подписки в соц. сетях. Всё это ты должен очищать сам!',
+    languageUa:
+        "ExLoader НЕ видаляє історію переглядів YouTube, історію завантажень браузера, листи на твоїй пошті, звичайну історію браузера і підписки в соц. мережах. Усе це ти маєш очищати сам!",
+    languagePl:
+        "ExLoader NIE usuwa historii przeglądania YouTube, historii pobierania przeglądarki, wiadomości e-mail na poczcie, zwykłej historii przeglądarki i subskrypcji mediów społecznościowych. Musisz to wszystko wyczyścić samodzielnie!",
+    languageDe:
+        "ExLoader löscht NICHT den YouTube-Browserverlauf, den Browser-Download-Verlauf, die E-Mails in Ihrer Mailbox, den regulären Browserverlauf und die Social Media-Abonnements. Sie müssen das alles selbst löschen!",
+    languageIt:
+        "ExLoader NON elimina la cronologia di navigazione di YouTube, la cronologia dei download del browser, le e-mail sulla posta, la cronologia del browser e le iscrizioni ai social media. Dovete pulire tutto da soli!",
+    languageTr:
+        "ExLoader, YouTube tarama geçmişinizi, tarayıcı indirme geçmişinizi, postalarınızdaki e-postaları, normal tarayıcı geçmişini ve sosyal medya aboneliklerini SİLMEZ. Hepsini kendiniz temizlemelisiniz!",
+    languageEs:
+        "ExLoader NO borra el historial de navegación de YouTube, el historial de descargas del navegador, los correos electrónicos de tu correo, el historial habitual del navegador ni las suscripciones a redes sociales. ¡Tendrás que limpiarlo todo tú mismo!",
+    languageCn:
+        "ExLoader 不会删除你的 YouTube 浏览历史、浏览器下载历史、邮件中的电子邮件、常规浏览器历史和社交媒体订阅。你必须自己清除这一切！",
   },
 };
