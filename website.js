@@ -10,6 +10,8 @@ const _languages = {
   'Türk': 'languageTr',
   'Español': 'languageEs',
   '中文': 'languageCn',
+  'Português': 'languagePt',
+  'اللغة العربية': 'languageAr',
 }
 
 
@@ -26,6 +28,8 @@ const translationElements = [
       languageTr: 'Oyunlar',
       languageEs: 'Juegos',
       languageCn: '游戏',
+      languagePt: "Jogos",
+      languageAr: "الألعاب",
     },
   },
   {
@@ -40,6 +44,8 @@ const translationElements = [
       languageTr: 'Türk',
       languageEs: 'Español',
       languageCn: '中文',
+      languagePt: "Português",
+      languageAr: "اللغة العربية",
     },
   },
   {
@@ -53,6 +59,8 @@ const translationElements = [
       languageTr: 'İletişim',
       languageEs: 'Contactos',
       languageCn: '联系方式',
+      languagePt: "Contatos",
+      languageAr: "جهات الاتصال",
     },
   },
   {
@@ -67,6 +75,8 @@ const translationElements = [
       languageTr: 'Sözleşmesi',
       languageEs: 'Acuerdo',
       languageCn: '协议',
+      languagePt: "Contrato",
+      languageAr: "الاتفاقية",
     },
   },
   {
@@ -80,6 +90,8 @@ const translationElements = [
       languageTr: 'İndir',
       languageEs: 'Descargar',
       languageCn: '下载',
+      languagePt: "Baixar",
+      languageAr: "تنزيل",
     },
   },
   {
@@ -93,6 +105,8 @@ const translationElements = [
       languageTr: 'Makaleler',
       languageEs: 'Artículos',
       languageCn: '文章',
+      languagePt: "Artigos",
+      languageAr: "المقالات",
     },
   },
   {
@@ -107,6 +121,8 @@ const translationElements = [
       languageTr: 'Mevcut',
       languageEs: 'Hay disponibles',
       languageCn: '可用',
+      languagePt: "Mais",
+      languageAr: "المزيد",
     },
   },
   {
@@ -121,6 +137,8 @@ const translationElements = [
       languageTr: 'den fazla',
       languageEs: 'más de',
       languageCn: '更多',
+      languagePt: "do que",
+      languageAr: "من",
     },
   },
   {
@@ -135,6 +153,8 @@ const translationElements = [
       languageTr: 'modifikasyon',
       languageEs: 'modificaciones',
       languageCn: '修改',
+      languagePt: "modificações",
+      languageAr: "التعديلات",
     },
   },
   {
@@ -148,6 +168,8 @@ const translationElements = [
       languageTr: 'Hepsini derledik',
       languageEs: 'Hemos recopilado todos',
       languageCn: '我们汇编了所有',
+      languagePt: "Nós coletamos",
+      languageAr: "لقد جمعنا",
     },
   },
   {
@@ -161,6 +183,8 @@ const translationElements = [
       languageTr: 'favori modifikasyonlarınız',
       languageEs: 'tus modificaciones favoritas',
       languageCn: '您最喜欢的修改',
+      languagePt: "suas modificações favoritas",
+      languageAr: "تعديلاتك المفضلة",
     },
   },
   {
@@ -174,6 +198,8 @@ const translationElements = [
       languageTr: 'tek bir yerde',
       languageEs: 'en un solo lugar',
       languageCn: '一处',
+      languagePt: "em uma única biblioteca",
+      languageAr: "في مكتبة واحدة",
     },
   },
   {
@@ -187,6 +213,8 @@ const translationElements = [
       languageTr: 'ExLoader - birleşik oyun modifikasyonları kütüphanesi',
       languageEs: 'ExLoader: biblioteca unificada de modificaciones del juego',
       languageCn: 'ExLoader - 统一的游戏修改库',
+      languagePt: "ExLoader - biblioteca unificada de modificações de jogos",
+      languageAr: "ExLoader - مكتبة موحدة لتعديلات اللعبة",
     },
   },
   {
@@ -200,6 +228,8 @@ const translationElements = [
       languageTr: 'Için ücretsiz hileler veya hackler indirmek istedim',
       languageEs: '¿Desea descargar trampas o hacks gratis para',
       languageCn: '想要免费下载 外挂 | 辅助 吗？',
+      languagePt: "Desejava fazer o download de truques ou hacks gratuitos para o",
+      languageAr: "مطلوب تحميل غش أو اختراق مجاني لـ",
     },
   },
   {
@@ -213,6 +243,8 @@ const translationElements = [
       languageTr: "virüsler olmadan? ExLoader'dasınız! Tüm hileler oyunun en son sürümü için güncellenmiştir ve vh, aim, skinler vb. içerir.",
       languageEs: 'sin virus? ¡Estás en ExLoader! Todas las trampas o hacks están actualizados para la última versión del juego e incluyen wh, aim, skins, etc.',
       languageCn: '免费作弊器. 您的 ExLoader！所有 外挂 | 辅助 均更新至最新游戏版本，并具有wh、aim、皮肤修改器 | skinchanger 等功能。',
+      languagePt: "sem vírus? Todos os cheats e hacks são atualizados para a versão mais recente do jogo e têm recursos como wh, aim, skinchager etc.",
+      languageAr: "خالية من الفيروسات؟ يتم تحديث جميع عمليات الغش والاختراق إلى أحدث إصدار للعبة وتحتوي على ميزات مثل wh، والتصويب، وSkinchager، وما إلى ذلك.",
     },
   },
   {
@@ -226,6 +258,8 @@ const translationElements = [
       languageTr: 'tr',
       languageEs: 'es',
       languageCn: 'cn',
+      languagePt: "pt",
+      languageAr: "ar",
     },
   },
   {
@@ -240,6 +274,8 @@ const translationElements = [
       languageTr: 'tr.',
       languageEs: 'es.',
       languageCn: 'cn.',
+      languagePt: "pt.",
+      languageAr: "ar.",
     },
   },
   {
@@ -253,6 +289,8 @@ const translationElements = [
       languageTr: 'ExLoader | CS2 ve diğer oyunlar için hileler',
       languageEs: 'ExLoader | Trampas o hacks para CS2 y otros juegos',
       languageCn: 'ExLoader | CS2 和其他游戏的最佳免费 外挂 | 辅助',
+      languagePt: "ExLoader | Melhores cheats e hacks gratuitos para CS2 e outros jogos",
+      languageAr: "ExLoader | أفضل عمليات الغش والاختراق المجانية لـ CS2 والألعاب الأخرى",
     },
   },
   {
@@ -266,6 +304,8 @@ const translationElements = [
       languageTr: 'Bu uygulama CS2 modları, nöronetleri, botları ve wh, trigger, skinchanger ve aim dahil diğer oyunlar için hileleri indirmenize yardımcı olacak!',
       languageEs: 'Esta aplicación te ayudará a descargar mods, neuronets, bots y trampas o hacks para CS2 y otros juegos, unos ejemplos seria como wallhack, trigger, skinchanger, aim y etc...',
       languageCn: '此应用程序将帮助您下载 外挂 | 辅助 游戏，包括 wh、trigger、皮肤修改器 | skinchanger 和 aim！',
+      languagePt: "Este aplicativo o ajudará a baixar mods, neuronets, bots, cheats e hacks para jogos, incluindo wh, trigger, skinchanger e aim!",
+      languageAr: "سيساعدك هذا التطبيق على تنزيل التعديلات والروبوتات والروبوتات والروبوتات وعمليات الغش والاختراق للألعاب بما في ذلك wh، والمحفز، ومغير الجلد والتصويب!",
     },
   },
   {
@@ -279,6 +319,8 @@ const translationElements = [
       languageTr: 'ExLoader, modifikasyonlar, cs2, cs2 hackleri, cs2 hileleri, indir, ücretsiz, xloader, exlaoder, wh, aim, skin changer, bunnyhop, yasak yok, virüs yok',
       languageEs: 'ExLoader, modificaciones, cs2, cs2 hacks, cs2 trampas, cs2 cheats, descargar, gratis, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no virus',
       languageCn: 'ExLoader, modifications, cs2 cs2 外挂 | 辅助, download, free, xloader, exlaoder, wh, aim, 皮肤修改器 | skin changer, bunnyhop, no ban, no viruses',
+      languagePt: "ExLoader, modificações, cs2, cs2 hacks, cs2 cheats, download, grátis, xloader, exlaoder, wh, aim, skin changer, bunnyhop, no ban, no viruses",
+      languageAr: "ExLoader، تعديلات، cs2، قرصنة cs2، غش cs2، غش cs2، تنزيل، مجانًا، xLoader، exlaoder، exlaoder، wh، الهدف، مغير الجلد، باني هوب، لا حظر، لا فيروسات",
     },
   },
   {
@@ -292,6 +334,8 @@ const translationElements = [
       languageTr: 'Uygulamamız, CS2 ve modları, nöronetleri, botları, diğer oyunlar için wh, trigger, aim, skinchanger ve tüm bunlar dahil olmak üzere hileleri herhangi bir virüs olmadan ücretsiz olarak indirmenize yardımcı olacaktır.',
       languageEs: 'Nuestra aplicación te ayudará a descargar mods, neuronets, bots y trampas o hacks para CS2 y otros juegos, incluyendo wh, trigger, aim, skinchanger y todo esto es gratis, sin virus y seguro.',
       languageCn: '我们的应用程序将帮助您下载 外挂 | 辅助 for CS2 和其他游戏，包括 wh、trigger、aim、皮肤修改器 | skinchanger 等，而且不含任何病毒。',
+      languagePt: "Nosso aplicativo o ajudará a baixar mods, neuronets, bots, cheats e hacks para o CS2 e outros jogos, incluindo wh, trigger, aim, skinchanger e tudo isso de graça, sem vírus.",
+      languageAr: "سيساعدك تطبيقنا على تنزيل التعديلات والنيورونات والروبوتات وعمليات الغش والاختراق لـ CS2 والألعاب الأخرى، بما في ذلك wh، والمشغل، والتصويب، ومغير الجلد وكل هذا مجانًا، دون أي فيروسات.",
     },
   },
   {
@@ -305,25 +349,29 @@ const translationElements = [
       languageTr: 'CS2 veya başka bir oyun için hileler mi arıyordunuz? Kendinizi şanslı sayın!',
       languageEs: '¿Estabas buscando trampas o hacks para CS2 o algún otro juego? ¡Considérate afortunado!',
       languageCn: '想找到 CS2 或其他游戏的 外挂 | 辅助？ 请认为自己很幸运！',
+      languagePt: "Quer encontrar cheats e hacks para o cs2 ou outro jogo? Considere-se com sorte!",
+      languageAr: "هل تريد العثور على غش واختراقات لـ cs2 أو أي لعبة أخرى؟ اعتبر نفسك محظوظًا!",
     },
   },
   {
     name: 'ItsFree', value: {
       languageEn:
-        "It's free. We support x64-bit Windows 10, Windows 11 and higher. ExLoader is also available for x64-bit Windows 7 and Windows 8.1, but without official support!",
+        "It's free. We support only x64-bit Windows 10, Windows 11 and higher. ExLoader is NOT available for x64-bit Windows 7 and Windows 8.1, old Windows versions are not supported!",
       languageRu:
-        'Это бесплатно. Мы поддерживаем x64-разрядную Windows 10, Windows 11 и выше. ExLoader так-же доступен на x64-разрядных Windows 7 и Windows 8.1, но без официальной поддержки!',
+        'Это бесплатно. Мы поддерживаем только x64-разрядную Windows 10, Windows 11 и выше. ExLoader НЕ доступен на x64-разрядных Windows 7 и Windows 8.1, старые версии Windows не поддерживаются!',
       languageUa:
-        'Це безкоштовно. Ми підтримуємо x64-розрядну Windows 10, Windows 11 і вище. ExLoader також доступний на x64-розрядних Windows 7 і Windows 8.1, але без офіційної підтримки!',
+        'Це безкоштовно. Ми підтримуємо тільки x64-розрядну Windows 10, Windows 11 і вище. ExLoader НЕ доступний на x64-розрядних Windows 7 і Windows 8.1, старі версії Windows не підтримуються!',
       languagePl:
-        'Jest za darmo. Wspieramy x64-bitowego Windows 10, Windows 11 i wyżej. ExLoader jest także dostępny dla x64-bitowej wersji Windows 7 i Windows 8.1, ale bez oficjalnego wsparcia!',
+        'Jest bezpłatna. Obsługujemy tylko x64-bitowe systemy Windows 10, Windows 11 i nowsze. ExLoader NIE jest dostępny na x64-bitowych systemach Windows 7 i Windows 8.1, starsze wersje systemu Windows nie są obsługiwane!',
       languageDe:
-        'Es ist kostenlos. Wir unterstützen x64-Bit-Windows 10, Windows 11 und höher. ExLoader ist auch auf x64-basierten Windows 7 und Windows 8.1-Systemen verfügbar, jedoch ohne offizielle Unterstützung!',
+        'Es ist kostenlos. Wir unterstützen nur x64-bit Windows 10, Windows 11 und höher. ExLoader ist NICHT auf x64-bit Windows 7 und Windows 8.1 verfügbar, ältere Versionen von Windows werden nicht unterstützt!',
       languageIt:
-        'È gratis. Supportiamo Windows 10 x64 bit, Windows 11 e versioni successive. ExLoader è disponibile anche per Windows 7 e Windows 8.1 x64 bit, ma senza supporto ufficiale!',
-      languageTr: "Ücretsizdir. X64-bit Windows 10, Windows 11 ve üstünü destekliyoruz. ExLoader x64-bit Windows 7 ve Windows 8.1'de de kullanılabilir, ancak resmi destek yoktur!",
-      languageEs: 'Es gratis. Soportamos x64-bit Windows 10, Windows 11 y superiores. ExLoader también está disponible en Windows 7 y Windows 8.1 de x64 bits, ¡pero sin soporte oficial!',
-      languageCn: '它是免费的。我们支持 x64 位 Windows 10、Windows 11 及更高版本。ExLoader 也可用于 x64 位 Windows 7 和 Windows 8.1，但没有官方支持',
+        'È gratuito. Supportiamo solo Windows 10, Windows 11 e successivi a 64 bit. ExLoader NON è disponibile su Windows 7 e Windows 8.1 a x64 bit, le versioni precedenti di Windows non sono supportate!',
+      languageTr: "Ücretsizdir. Yalnızca x64-bit Windows 10, Windows 11 ve üstünü destekliyoruz. ExLoader x64-bit Windows 7 ve Windows 8.1'de kullanılamaz, Windows'un eski sürümleri desteklenmez!",
+      languageEs: 'Es gratuito. Sólo soportamos x64-bit Windows 10, Windows 11 y superiores. ExLoader NO está disponible en x64-bit Windows 7 y Windows 8.1, ¡las versiones anteriores de Windows no son compatibles!',
+      languageCn: '它是免费的。我们仅支持 x64 位 Windows 10、Windows 11 及以上版本。ExLoader 不支持 x64 位 Windows 7 和 Windows 8.1，也不支持旧版本的 Windows！',
+      languagePt: "É gratuito. Oferecemos suporte apenas ao Windows 10, Windows 11 e versões superiores de x64 bits. O ExLoader NÃO está disponível para Windows 7 e Windows 8.1 de x64 bits; não há suporte para versões antigas do Windows!",
+      languageAr: "إنه مجاني. نحن ندعم فقط ويندوز 10 وويندوز 11 والإصدارات الأحدث x64 بت. لا يتوفر ExLoader لنظامي التشغيل Windows 7 وويندوز 8.1 x64 بت، وإصدارات Windows القديمة غير مدعومة!",
     },
   },
   {
@@ -337,6 +385,8 @@ const translationElements = [
       languageTr: 'Desteklenen oyunlar',
       languageEs: 'Juegos compatibles',
       languageCn: '支持的游戏',
+      languagePt: "Jogos compatíveis",
+      languageAr: "الألعاب المدعومة",
     },
   },
   {
@@ -350,6 +400,8 @@ const translationElements = [
       languageTr: 'Şirket',
       languageEs: 'Empresa',
       languageCn: '公司名称',
+      languagePt: "Empresa",
+      languageAr: "الشركة",
     },
   },
   {
@@ -369,6 +421,8 @@ const translationElements = [
       languageTr: '2018-2024 © ExLoader. Tüm hakları saklıdır. Stüdyo tarafından tasarlanmış ve geliştirilmiştir ',
       languageEs: '2018-2024 © ExLoader. Todos los derechos reservados. Diseñado y desarrollado por el estudio ',
       languageCn: '2018-2024 © ExLoader。保留所有权利。由工作室设计和开发 ',
+      languagePt: "2018-2024 © ExLoader. Todos os direitos reservados. Projetado e desenvolvido por ",
+      languageAr: "2018-2024 © إكس لودر. جميع الحقوق محفوظة. تصميم وتطوير ",
     },
   },
   {
@@ -382,6 +436,8 @@ const translationElements = [
       languageTr: 'Mods:',
       languageEs: 'Mods:',
       languageCn: 'Mods:',
+      languagePt: "Mods:",
+      languageAr: "Mods::",
     },
   },
   {
@@ -395,6 +451,8 @@ const translationElements = [
       languageTr: 'Evet',
       languageEs: 'Sí',
       languageCn: '是',
+      languagePt: "Sim",
+      languageAr: "نعم",
     },
 
   },
@@ -409,6 +467,8 @@ const translationElements = [
       languageTr: 'Hayır',
       languageEs: 'No',
       languageCn: '没有',
+      languagePt: "Não",
+      languageAr: "لا يوجد",
     },
   },
   {
@@ -422,6 +482,8 @@ const translationElements = [
       languageTr: "Türkçe'ye geçmek mi?",
       languageEs: '¿Pasarse al Español?',
       languageCn: '改用土耳其语?',
+      languagePt: "Mudar para o idioma português?",
+      languageAr: "التحويل إلى اللغة العربية؟",
     },
   },
   {
@@ -435,6 +497,8 @@ const translationElements = [
       languageTr: 'Telegram desteği',
       languageEs: 'Soporte En Telegram',
       languageCn: 'Telegram 支持',
+      languagePt: "Suporte ao Telegram",
+      languageAr: "دعم تيليجرام",
     },
   },
   {
@@ -448,6 +512,8 @@ const translationElements = [
       languageTr: 'Discord desteği',
       languageEs: 'Soporte En Discord',
       languageCn: '支持 Discord',
+      languagePt: "Suporte ao Discord",
+      languageAr: "دعم الخلاف",
     },
   },
   {
@@ -461,6 +527,8 @@ const translationElements = [
       languageTr: 'Telegram kanalımız',
       languageEs: 'Nuestro canal de Telegram',
       languageCn: '我们的 Telegram 频道',
+      languagePt: "Nosso canal no Telegram",
+      languageAr: "قناتنا على تيليجرام",
     },
   },
   {
@@ -474,6 +542,8 @@ const translationElements = [
       languageTr: 'Discord kanalımız',
       languageEs: 'Nuestro canal de Discord',
       languageCn: '我们的 Discord 频道',
+      languagePt: "Nosso canal no Discord",
+      languageAr: "قناة ديسكورد الخاصة بنا",
     },
   },
   {
@@ -487,6 +557,8 @@ const translationElements = [
       languageTr: 'Geliştiriciler',
       languageEs: 'Desarrolladores',
       languageCn: '开发人员',
+      languagePt: "Desenvolvedores",
+      languageAr: "المطورون",
     },
   },
   {
@@ -500,6 +572,8 @@ const translationElements = [
       languageTr: 'Değişikliğinizi kütüphanemize ekleme',
       languageEs: 'Añada su modificación a nuestra biblioteca',
       languageCn: '将您的修改添加到我们的资料库',
+      languagePt: "Adicionar sua modificação à nossa biblioteca",
+      languageAr: "إضافة التعديل الخاص بك إلى مكتبتنا",
     },
   },
   {
@@ -513,6 +587,8 @@ const translationElements = [
       languageTr: 'Için hileler ve hackler',
       languageEs: 'Trampas o hacks para',
       languageCn: '外挂 | 辅助 对于',
+      languagePt: "Cheats e hacks para",
+      languageAr: "الغش والاختراقات لـ",
     },
   },
   {
@@ -526,6 +602,8 @@ const translationElements = [
       languageTr: 'için',
       languageEs: 'para',
       languageCn: '对于',
+      languagePt: "para",
+      languageAr: "لـ",
     },
   },
   {
@@ -539,6 +617,8 @@ const translationElements = [
       languageTr: 'için',
       languageEs: 'para',
       languageCn: '对于',
+      languagePt: "para",
+      languageAr: "لـ",
     },
   },
   {
@@ -552,6 +632,8 @@ const translationElements = [
       languageTr: 'Hile',
       languageEs: 'Trampa | Hack',
       languageCn: '外挂 | 辅助',
+      languagePt: "Trapaça | Hack",
+      languageAr: "غش | اختراق",
     },
   },
   {
@@ -565,6 +647,8 @@ const translationElements = [
       languageTr: 'SkinChanger',
       languageEs: 'SkinChanger',
       languageCn: '皮肤修改器 | SkinChanger',
+      languagePt: "SkinChanger",
+      languageAr: "SkinChanger",
     },
   },
   {
@@ -578,6 +662,8 @@ const translationElements = [
       languageTr: 'WH | Wallhack',
       languageEs: 'WH | Wallhack',
       languageCn: 'WH | Wallhack',
+      languagePt: "WH | Wallhack",
+      languageAr: "WH | Wallhack",
     },
   },
   {
@@ -591,6 +677,8 @@ const translationElements = [
       languageTr: 'Legit Hile',
       languageEs: 'Legit Trampa | hack',
       languageCn: 'Legit 外挂 | 辅助',
+      languagePt: "Trapaça legítima",
+      languageAr: "غش شرعي | اختراق",
     },
   },
   {
@@ -604,6 +692,8 @@ const translationElements = [
       languageTr: 'Rage Hile',
       languageEs: 'Rage Trampa | hack',
       languageCn: 'Rage 外挂 | 辅助',
+      languagePt: "Rage cheat | hack",
+      languageAr: "غش الغضب | اختراق",
     },
   },
   {
@@ -617,6 +707,8 @@ const translationElements = [
       languageTr: 'Movement Hile',
       languageEs: 'Movement Trampa | hack',
       languageCn: 'Movement 外挂 | 辅助',
+      languagePt: "Fraude de movimento | hack",
+      languageAr: "غش الحركة | اختراق",
     },
   },
   {
@@ -630,6 +722,8 @@ const translationElements = [
       languageTr: 'Aim | Trigger',
       languageEs: 'Aim | Trigger',
       languageCn: 'Aim | Trigger',
+      languagePt: "Aim | Trigger",
+      languageAr: "Aim | Trigger",
     },
   },
   {
@@ -643,6 +737,8 @@ const translationElements = [
       languageTr: 'ModMenu',
       languageEs: 'ModMenu',
       languageCn: 'ModMenu',
+      languagePt: "ModMenu",
+      languageAr: "ModMenu",
     },
   },
   {
@@ -656,6 +752,8 @@ const translationElements = [
       languageTr: 'Hile-Neuronet | Bot',
       languageEs: 'Trampa-Hack-Neuronet | Bot',
       languageCn: '外挂-辅助-Neuronet | Bot',
+      languagePt: "Cheat-Hack-Neuronet | Bot",
+      languageAr: "غش-اختراق-نورونيت | بوت",
     },
   },
   {
@@ -669,6 +767,8 @@ const translationElements = [
       languageTr: 'Hile farm-bot | Bot',
       languageEs: 'Trampa-Hack farm-bot | Bot',
       languageCn: '外挂-辅助-场机器人 | 机器人',
+      languagePt: "Cheat-Hack farm-bot | Bot",
+      languageAr: "غش-إختراق-روبوت المزرعة |روبوت",
     },
   },
   {
@@ -682,6 +782,8 @@ const translationElements = [
       languageTr: 'Bunnyhop | Bhop',
       languageEs: 'Bunnyhop | Bhop',
       languageCn: 'Bunnyhop | Bhop',
+      languagePt: "Bunnyhop | Bhop",
+      languageAr: "Bunnyhop | Bhop",
     },
   },
   {
@@ -695,6 +797,8 @@ const translationElements = [
       languageTr: 'HvH hile',
       languageEs: 'HvH trampa | hack',
       languageCn: 'HvH 外挂 | 辅助',
+      languagePt: "HvH cheat | hack",
+      languageAr: "غش HvH | اختراق",
     },
   },
   {
@@ -708,6 +812,8 @@ const translationElements = [
       languageTr: 'Crack hile',
       languageEs: 'Crack trampa | hack',
       languageCn: 'Crack 外挂 | 辅助',
+      languagePt: "Crack cheat | hack",
+      languageAr: "اختراق الغش | اختراق",
     },
   },
   {
@@ -721,6 +827,8 @@ const translationElements = [
       languageTr: 'InventoryChanger',
       languageEs: 'InventoryChanger',
       languageCn: '库存修改器 | InventoryChanger',
+      languagePt: "InventoryChanger",
+      languageAr: "InventoryChanger",
     },
   },
   {
@@ -734,6 +842,8 @@ const translationElements = [
       languageTr: 'Yasaklanabilir miyim?',
       languageEs: '¿Puedo obtener un baneo?',
       languageCn: '我能被禁言吗?',
+      languagePt: "Posso ser banido?",
+      languageAr: "هل يمكن أن يتم حظري؟",
     },
   },
   {
@@ -747,6 +857,8 @@ const translationElements = [
       languageTr: 'Hilelerini indirmek istediğiniz oyun bir VAC sistemine sahipse, bu oyun için her bir özel modifikasyonun kullanımının yasaklanmasına ilişkin istatistikler modifikasyonun kendi kartında mevcuttur. Oyun diğer anti-okuyucuları kullanıyorsa (ESEA, EAC, FaceIT, BattleEye, Vanguard, MRAC, vb. gibi), uygulamamız ücretsiz hileyi çalıştırmadan önce sizi tüm olası riskler hakkında otomatik olarak bilgilendirecektir!',
       languageEs: 'Si el juego para el que quieres descargar trampas o hacks tiene un sistema VAC, las estadísticas sobre el ban de uso de cada modificación específica para este juego están disponibles en la ficha de la propia modificación. Si el juego utiliza otros antilectores (como ESEA, EAC, FaceIT, BattleEye, Vanguard, MRAC, etc.), ¡nuestra aplicación te avisará automáticamente de todos los posibles riesgos antes de ejecutar el trampa o hack gratuito!',
       languageCn: '如果您要下载的游戏 外挂 | 辅助 采用VAC反作弊系统，那么在该游戏中使用每个特定修改的禁用统计信息可在修改本身的卡片上找到。如果游戏使用其他反读取器（如 ESEA、EAC、FaceIT、BattleEye、Vanguard、MRAC 等），在运行免费作弊器之前，我们的应用程序会自动通知您所有可能的风险！',
+      languagePt: "Se o jogo para o qual você deseja fazer download de trapaças e hacks usar o sistema anti-cheat VAC, as estatísticas de proibições de uso de cada modificação específica para esse jogo estarão disponíveis no cartão da modificação. Se o jogo usar outros anti-cheats (como ESEA, EAC, FaceIT, BattleEye, Vanguard, MRAC, etc.), nosso aplicativo o informará automaticamente sobre todos os riscos possíveis antes de lançar um cheat ou hack gratuito!",
+      languageAr: "إذا كانت اللعبة التي تريد تنزيل الغش والاختراق لها تستخدم نظام مكافحة الغش VAC، فإن إحصائيات الحظر لاستخدام كل تعديل محدد لهذه اللعبة متاحة على بطاقة التعديل. إذا كانت اللعبة تستخدم مضادات غش أخرى (مثل ESEA و EAC و FaceIT و BattleEye و Vanguard و MRAC وغيرها) فسيقوم تطبيقنا تلقائيًا بإبلاغك بجميع المخاطر المحتملة قبل إطلاق الغش أو الاختراق المجاني!",
     },
   },
   {
@@ -760,6 +872,8 @@ const translationElements = [
       languageTr: 'Lua betikleri ile konfigürasyonlar nasıl ve nereye kurulur?',
       languageEs: '¿Cómo y dónde instalar configs con scripts lua?',
       languageCn: '如何以及在何处使用 lua 脚本安装配置?',
+      languagePt: "Posso instalar configurações e LUAs e onde devo colocá-los?",
+      languageAr: "هل يمكنني تثبيت التكوينات و LUAs وأين أضعها",
     },
   },
   {
@@ -773,6 +887,8 @@ const translationElements = [
       languageTr: "Modifikasyon için önceden hazırlanmış yapılandırmaları ve lua komut dosyalarını yüklemek için, modifikasyonun başlat düğmesinin yanında bulunan dişli düğmesine tıklayabilirsiniz. Hile dosyaları klasörünü de aynı şekilde açabilirsiniz! Hem legit cfg hem de rage cfg kütüphanemizde mevcuttur. Overwatch/Seyircilerden gelen yöneticinin sizi yasaklamaması için oynamak istiyorsanız (böyle bir sistemin mevcut olduğu oyunlarda), yasal yapılandırmayı kullanın ve başka bir hileci ile savaşıyorsanız, öfke cfg'yi kullanmayı deneyebilirsiniz, ancak yapılandırma ne kadar zor olursa, Overwatch sistemi/Seyircilerden gelen yönetici tarafından yasaklanma şansının o kadar yüksek olduğunu unutmayın (böyle bir sistemin mevcut olduğu oyunlarda).",
       languageEs: 'Para instalar configuraciones pre-hechas y scripts lua para la modificación, puedes hacer click en el botón de la tuerca, que se encuentra cerca del botón de lanzamiento de la modificación. Puedes abrir la carpeta de archivos de trampas de la misma manera. Tanto legit cfg como rage cfg están disponibles en nuestra biblioteca. Si quieres jugar de manera que el Overwatch/Admin del espectador no te banee (en aquellos juegos donde tal sistema esté presente), usa el legit config, y si estás luchando con otro tramposo, puedes intentar usar el rage cfg, sin embargo recuerda que cuando menos disimulado sea la configuración, mayores serán las posibilidades de ser baneado por el sistema Overwatch/Admin del espectador (en aquellos juegos donde tal sistema esté presente).',
       languageCn: '要为修改安装预制配置和 lua 脚本，可以点击齿轮按钮，它位于修改的启动按钮附近。您也可以用同样的方法打开 mod 文件夹！合法 cfg 和愤怒 cfg 都可以在我们的资料库中找到。如果您想在游戏中不被守望先锋系统/管理员禁止（在存在此类系统的游戏中），请使用合法配置；如果您要与其他 MOD 玩家对战，可以尝试使用愤怒 cfg，但请记住，配置越强硬，被守望先锋系统/管理员禁止的几率就越高（在存在此类系统的游戏中）。',
+      languagePt: "Para instalar configurações pré-fabricadas e scripts lua para a modificação, você pode clicar no botão de engrenagem, que está localizado próximo ao botão de inicialização da modificação. Você pode abrir a pasta de arquivos de trapaça ou de hack da mesma forma! Tanto o legit cfg quanto o rage cfg estão disponíveis em nossa biblioteca. Se você quiser jogar de modo que o Overwatch/Admin de espectadores não o bane (nos jogos em que esse sistema estiver presente), use a configuração legítima e, se estiver lutando com outro trapaceiro, pode tentar usar a cfg de raiva, mas lembre-se de que, quanto mais difícil for a configuração, maiores serão as chances de ser banido pelo sistema Overwatch/Admin de espectadores (nos jogos em que esse sistema estiver presente).",
+      languageAr: "لتثبيت التكوينات المعدة مسبقًا ونصوص lua البرمجية للتعديل، يمكنك النقر على زر الترس الموجود بالقرب من زر تشغيل التعديل. يمكنك فتح مجلد ملفات الغش أو الاختراق بنفس الطريقة! يتوفر كل من cfg الشرعي و rage cfg في مكتبتنا. إذا كنت ترغب في اللعب حتى لا يحظرك نظام Overwatch/Admin من المتفرجين (في تلك الألعاب التي يوجد بها مثل هذا النظام)، استخدم التكوين الشرعي، وإذا كنت تقاتل مع غشاش آخر، يمكنك محاولة استخدام rage cfg، ولكن تذكر أنه كلما كان التكوين أكثر صرامة، زادت فرص حظرك من قبل نظام Overwatch/Admin من المتفرجين (في تلك الألعاب التي يوجد بها مثل هذا النظام).",
     },
   },
   {
@@ -786,6 +902,8 @@ const translationElements = [
       languageTr: 'ExLoader nasıl kurulur ve kullanılır?',
       languageEs: '¿Cómo instalar y utilizar ExLoader?',
       languageCn: '如何安装和使用 ExLoader？',
+      languagePt: "Como instalar e usar o ExLoader?",
+      languageAr: "كيفية تثبيت ExLoader واستخدامه؟",
     },
   },
   {
@@ -799,6 +917,8 @@ const translationElements = [
       languageTr: "İlk olarak, bu sayfanın üst kısmındaki büyük düğmeyi kullanarak resmi yükleyicimizi indirin. İndirilen dosyayı açın, ExLoader'ın kurulacağı yolu seçin ve devam et'e tıklayın. Bu, internet hızınıza bağlı olarak genellikle 10 ila 20 saniye arasında süren yükleme işlemini başlatacaktır. Bu işlem tamamlandıktan sonra, ExLoader'ı açmanız istenecektir, burada e-postanızı veya Google hesabınızı kullanarak yetkilendirmeniz gerekecektir, şifre gerekmez! Bunu yaptıktan sonra, modifikasyonu çalıştırmak istediğiniz oyunu seçebilir ve bu oyun için hile kütüphanesine girebilirsiniz. Sonrasında tek yapmanız gereken en çok beğendiğinizi seçmek ve Çalıştır düğmesine tıklamak!",
       languageEs: 'En primer lugar, descargue nuestro instalador oficial utilizando el botón grande situado en la parte superior de esta página. Abre el archivo descargado, selecciona la ubicacion donde se instalará ExLoader y haz clic en continuar. Esto iniciará el proceso de instalación, que suele tardar entre 10 y 20 segundos, dependiendo de tu velocidad de Internet. Una vez finalizado este proceso, se te pedirá que abras ExLoader, donde tendrás que autorizarte utilizando tu correo electrónico o tu cuenta de Google, ¡no se necesitan contraseñas! Una vez hecho esto, puedes seleccionar el juego en el que deseas ejecutar la modificación, y entrar en la biblioteca de trampas o hacks para este juego. Después, sólo tienes que elegir el que más te guste y hacer click en el botón Ejecutar.',
       languageCn: '要开始安装，请使用本页顶部的大按钮下载我们的官方安装程序。打开下载的文件，选择安装 ExLoader 的路径，然后点击继续。之后，安装过程将开始，通常需要 10 到 20 秒，具体时间取决于你的网络连接速度。完成此过程后，系统会提示你打开 ExLoader，这时你需要使用邮件或谷歌账户登录，无需输入密码！登录后，你可以选择一款游戏来启动修改程序，然后就会进入这款游戏的修改程序库。然后你就可以选择你最喜欢的 MOD，点击启动按钮！',
+      languagePt: "Para começar, baixe nosso instalador oficial usando o botão grande na parte superior desta página. Abra o arquivo baixado, escolha o caminho onde o ExLoader será instalado e clique em continuar. Em seguida, será iniciado o processo de instalação, que normalmente leva de 10 a 20 segundos, dependendo da velocidade da sua conexão com a Internet. Após a conclusão desse processo, você será solicitado a abrir o ExLoader, no qual precisará fazer login usando o e-mail ou sua conta do Google, sem precisar digitar nenhuma senha! Depois de fazer isso, você pode escolher um jogo para o qual deseja lançar uma modificação e será direcionado para a biblioteca de cheats ou hacks desse jogo. Em seguida, você pode escolher o mod de que mais gosta e clicar no botão de lançamento!",
+      languageAr: "للبدء، قم بتنزيل برنامج التثبيت الرسمي الخاص بنا باستخدام الزر الكبير في أعلى هذه الصفحة. افتح الملف الذي تم تنزيله، واختر المسار الذي سيتم تثبيت ExLoader عليه وانقر فوق متابعة. بعد ذلك، ستبدأ عملية التثبيت، والتي عادةً ما تستغرق من 10 إلى 20 ثانية، حسب سرعة اتصالك بالإنترنت. عند الانتهاء من هذه العملية، سيُطلب منك فتح ExLoader، حيث تحتاج إلى تسجيل الدخول باستخدام البريد أو حساب جوجل الخاص بك، ولا حاجة لإدخال كلمات المرور! بمجرد القيام بذلك، يمكنك اختيار اللعبة التي تريد تشغيل تعديل عليها، وسيتم نقلك إلى مكتبة الغش أو الاختراقات لهذه اللعبة. ثم يمكنك اختيار التعديل الذي يعجبك أكثر والنقر على زر التشغيل!",
     },
   },
   {
@@ -812,6 +932,8 @@ const translationElements = [
       languageTr: 'Yükleyicinizdeki hilelerde herhangi bir virüs var mı?',
       languageEs: '¿Hay algún virus en las Trampas/Hacks de su menu?',
       languageCn: '装载程序 外挂 | 辅助 中是否存在病毒？',
+      languagePt: "Há vírus em hacks/cheats de seu carregador?",
+      languageAr: "هل هناك أي فيروسات في الاختراقات/التحايل من أداة التحميل الخاصة بك؟",
     },
   },
   {
@@ -825,6 +947,8 @@ const translationElements = [
       languageTr: 'Uygulamamızdaki her değişikliğin sayfasında, bağımsız bir temsilci tarafından virüs tehditlerine karşı kontrol edilip edilmediği hakkında bilgi bulabilirsiniz. Buna ek olarak, tüm değişiklikleri kütüphanemize eklemeden önce kapsamlı bir şekilde değerlendirmeye çalışıyoruz! Dolayısıyla, virüssüz bir hile arıyorsanız, kesinlikle bize gelebilirsiniz.',
       languageEs: 'En la página de cada modificación de nuestra aplicación puede encontrar información sobre si ha sido comprobada por un representante independiente en busca de amenazas de virus. Además, ¡intentamos evaluar a fondo todas las modificaciones antes de añadirlas a nuestra biblioteca! Por lo tanto, si está buscando una modificacion libre de virus, definitivamente eres bienvenido a elegir Exloader.',
       languageCn: '在我们应用程序的每个修改页面上，您都可以找到关于是否由独立代表检查过是否存在病毒威胁的信息。此外，在将所有修改添加到我们的程序库之前，我们会对其进行仔细评估！因此，如果你正在寻找一款无病毒的修改程序，那么你绝对可以选择 ExLoader。',
+      languagePt: "Na página de cada modificação do nosso aplicativo, você pode encontrar informações sobre se ela foi verificada quanto à ausência de ameaças de vírus por um representante independente. Além disso, tentamos avaliar cuidadosamente todas as modificações antes de adicioná-las à nossa biblioteca! Portanto, se estiver procurando por um cheat/hack livre de vírus, você definitivamente pode escolher o ExLoader.",
+      languageAr: "في الصفحة الخاصة بكل تعديل من تطبيقنا، يمكنك العثور على معلومات حول ما إذا كان قد تم فحصه للتأكد من عدم وجود تهديدات فيروسية من قبل ممثل مستقل. بالإضافة إلى ذلك، نحاول تقييم جميع التعديلات بعناية قبل إضافتها إلى مكتبتنا! لذلك إذا كنت تبحث عن غش/اختراق خالي من الفيروسات، فبالتأكيد يمكنك اختيار ExLoader.",
     },
   },
   {
@@ -838,6 +962,8 @@ const translationElements = [
       languageTr: 'ExLoader nedir?',
       languageEs: '¿Qué es ExLoader?',
       languageCn: '什么是 ExLoader？',
+      languagePt: "O que é o ExLoader?",
+      languageAr: "ما هو ExLoader؟",
     },
   },
   {
@@ -851,6 +977,8 @@ const translationElements = [
       languageTr: 'Tamamen ücretsiz olarak ve virüs kapma veya yasaklanma riski olmadan çalıştırabileceğiniz, sürekli güncellenen çok sayıda değişikliğin bir toplamı olan bir uygulamadır!',
       languageEs: 'Se trata de una aplicación que reúne un gran número de modificaciones actualizadas constantemente y que puedes ejecutar de forma totalmente gratuita, ¡sin riesgos de tener virus o tener un baneo!',
       languageCn: '它是一个应用程序，汇集了大量不断更新的修改，您可以完全免费运行，而且没有感染病毒或被禁用的风险！',
+      languagePt: "É um aplicativo com uma enorme coleção de modificações atualizadas automaticamente que você pode iniciar gratuitamente e sem nenhum risco de pegar um vírus ou ser banido!",
+      languageAr: "إنه تطبيق يحتوي على مجموعة ضخمة من التعديلات التي يتم تحديثها تلقائيًا والتي يمكنك تشغيلها مجانًا، وبدون أي مخاطر الإصابة بفيروس أو التعرض للحظر!",
     },
   },
   {
@@ -864,6 +992,8 @@ const translationElements = [
       languageTr: 'Farklı hileler ne içindir',
       languageEs: '¿Para qué sirven las distintas trampas o hacks?',
       languageCn: '外挂 | 辅助 存在哪些类型',
+      languagePt: "Que tipos de truques ou hacks existem para",
+      languageAr: "ما هي أنواع الغش أو الاختراقات الموجودة لـ",
     },
   },
   {
@@ -877,6 +1007,8 @@ const translationElements = [
       languageTr: 'Oyun dünyasında üç tür hile vardır: "Harici", "Dahili" ve sinir ağları. Harici hileleri çalıştırmak için bir enjektör gerekmez, oyundan ayrı bir işlemle açılırlar ve sözde girişi (esp) çizmek için belleğini okurlar. Bazen bu modlar, aimbot, tetik, bannihop, el bombası yayma veya hareketlerin tekrarı (muvement) işlevlerini yeniden oluşturmak için klavye veya fare düğmelerine basmayı simüle edebilir. Nadir durumlarda, harici hileler işlemin hafızasını değiştirebilir, örneğin derileri değiştirmek için (skinchanger olarak adlandırılır). Dahili modifikasyonlar, özel DLL kütüphaneleri yardımıyla oyunda uygulanır. Bu tür hileler, mod geliştiricisi anti-chit oyunundan temel korumaya dikkat etmediyse, daha düzgün çalışma, kapsamlı işlevselliğin varlığı ve ayrıca yasaklanma riskinin artması bakımından farklılık gösterir. Ancak sinir ağları başka bir şeydir, oyunun hafızasıyla etkileşime girmezler ve sadece hedefleme veya otomatik ateşleme için rakipleri belirlemek ve nadir durumlarda haritada otomatik hareket için monitördeki resmi analiz ederler. Bu tür uygulamalar güçlü bir bilgisayar gerektirir, ancak kullanımı son derece güvenlidir. ExLoader kütüphanesinde WH, Aimbot, SkinChanger, hareket, el bombası yardımcısı vb. ile çok sayıda Dahili ve Harici modifikasyon bulabilirsiniz.',
       languageEs: 'Existen tres tipos de trampas en el mundo de los juegos: "Externos", "Internos" y redes neuronales. Para ejecutar trampas externos no requieren un inyector, que se abren por un proceso separado del juego y leer su memoria para dibujar algo llamado WH (esp). En ocasiones, estos mods pueden simular la pulsación de los botones del teclado o del ratón para recrear las funciones de aimbot, trigger, bunnyhop, esparcimiento de granadas o repetición de movimientos (movement). En raras ocasiones, los cheats externos pueden modificar la memoria del proceso, por ejemplo, para intercambiar skins (lo que vendria siendo skinchanger). Las modificaciones internas se implementan en el juego con la ayuda de librerías DLL especiales. Tales trampas difieren funcionamiento más suave, la presencia de una amplia funcionalidad, así como un mayor riesgo de obtener un ban, si el desarrollador mod no se hizo cargo de la protección básica de juego anti-chit. Pero las redes neuronales son otra cosa, que no interactúan con la memoria del juego, y sólo analiza la imagen del monitor para identificar a los oponentes para apuntar o disparo automático, así como, en casos raros, para el movimiento automático en el mapa. Estas aplicaciones requieren un PC potente, pero su uso es increíblemente seguro. En la librería de ExLoader puedes encontrar un gran número de modificaciones tanto Internas como Externas con WH, Aimbot, SkinChanger, movimiento, ayudante de granadas, etc.',
       languageCn: '一般来说，每个游戏都有三种 外挂 | 辅助： 外部作弊器、内部作弊器和神经网络。启动外部 外挂 | 辅助 不需要注入器，它们作为一个单独的进程打开，并读取游戏内存来绘制所谓的WH（ESP）。有时，这类修改器可以模拟键盘按键或鼠标按键，以处理诸如瞄准器、触发器、兔子跳、手榴弹助手或移动记录器等功能。在极少数情况下，外部 外挂 | 辅助 可以更改进程内存，例如更换皮肤（所谓的换肤器）。内部修改是注入游戏的特殊 DLL 库。这类{3}的特点是运行更流畅、功能更丰富，而且如果MOD开发者没有保护自己的 外挂 | 辅助 不受基本反作弊系统的影响，被封禁的风险也会增加。神经网络则另当别论，它们不与游戏内存互动，只分析显示器上的图像，以便识别对手进行瞄准或自动射击，在极少数情况下还能在地图上自动移动。此类程序要求电脑性能不弱，但使用却非常安全。在 ExLoader 库中，您可以找到大量内部和外部修改程序，这些程序具有 WH、Aimbot、皮肤修改器 | SkinChanger、移动记录器、手榴弹助手等所有功能。',
+      languagePt: "Em geral, há três tipos de trapaças e hacks para cada jogo: \"Externo\", \"Interno\" e redes neurais. Não é necessário nenhum injetor para iniciar um cheat/hack externo; eles são abertos como um processo separado e leem a memória do jogo para desenhar o chamado WH (ESP). Às vezes, esses mods podem simular o pressionamento dos botões do teclado ou do mouse para lidar com funções como aimbot, gatilho, bunnyhop, auxiliar de granadas ou gravador de movimentos. Em casos raros, os cheats e hacks externos podem alterar a memória do processo, por exemplo, para substituir skins (o chamado skinchanger). As modificações internas são bibliotecas DLL especiais que são injetadas no jogo. Esses cheats e hacks são caracterizados por uma operação mais suave, pela presença de recursos abrangentes e pelo risco maior de serem banidos se o desenvolvedor do mod não proteger seu cheat/hack do sistema anti-cheat básico. As redes neurais são outra coisa, elas não interagem com a memória do jogo, mas apenas analisam a imagem do monitor para reconhecer os oponentes para fins de mira ou disparo automático, bem como, em casos raros, para um movimento automático no mapa. Esses aplicativos exigem um PC não fraco, mas são incrivelmente seguros de usar. Na biblioteca do ExLoader, é possível encontrar uma enorme quantidade de modificações internas e externas com todos os recursos, como WH, Aimbot, SkinChanger, gravador de movimentos, auxiliar de granadas etc.",
+      languageAr: "بشكل عام، هناك ثلاثة أنواع من عمليات الغش والاختراق لكل لعبة: \"خارجية\" و\"داخلية\" وشبكات عصبية. لا يلزم وجود حاقن لتشغيل غش/اختراق \"خارجي\"، فهي تُفتح كعملية منفصلة وتقرأ ذاكرة اللعبة لرسم ما يسمى بـ WH (ESP). في بعض الأحيان يمكن لهذه التعديلات محاكاة أزرار لوحة المفاتيح أو الضغط على أزرار الفأرة للتعامل مع وظائف مثل التصويب أو الزناد أو باني هوب أو مساعد القنابل اليدوية أو مسجل الحركة. في حالات نادرة، يمكن لعمليات الغش والاختراق الخارجية تغيير ذاكرة العملية، على سبيل المثال، لاستبدال الجلود (ما يسمى بمغير الجلد). التعديلات الداخلية هي مكتبات DLL خاصة يتم حقنها في اللعبة. وتتميز هذه الغش والاختراقات بسلاسة التشغيل، ووجود ميزات واسعة النطاق، بالإضافة إلى زيادة خطر التعرض للحظر إذا لم يقم مطور التعديل بحماية غشه/اختراقه من نظام مكافحة الغش الأساسي. أما الشبكات العصبية فهي شيء آخر، فهي لا تتفاعل مع ذاكرة اللعبة، ولكنها تحلل الصورة من الشاشة فقط، من أجل التعرف على الخصوم لأغراض التصويب أو التصويب التلقائي، وكذلك، في حالات نادرة، من أجل حركة تلقائية على الخريطة. تتطلب مثل هذه التطبيقات جهاز كمبيوتر غير ضعيف، ومع ذلك، فهي آمنة بشكل لا يصدق للاستخدام. في مكتبة ExLoader، يمكنك العثور في مكتبة ExLoader على كمية هائلة من التعديلات الداخلية والخارجية مع جميع الميزات مثل WH، وAimbot، وSkinChanger، ومسجل الحركة، ومساعد القنابل اليدوية، وما إلى ذلك.",
     },
   },
   {
@@ -890,6 +1022,8 @@ const translationElements = [
       languageTr: 've ne için olduklarını',
       languageEs: 'y para qué sirven',
       languageCn: '以及它们的用途',
+      languagePt: "e qual é seu objetivo",
+      languageAr: "وما هو الغرض منها",
     },
   },
   {
@@ -903,6 +1037,8 @@ const translationElements = [
       languageTr: 'Tüm insanlar bir oyun oynama becerisini geliştirmek için hayatlarının onlarca saatini harcamaya istekli değildir. Ayrıca, aşağıdaki gibi oyunlar ',
       languageEs: 'No todas las personas están dispuestas a dedicar decenas de horas de su vida a entrenar la habilidad de jugar a algún juego. Además, juegos como ',
       languageCn: '并不是所有的人都愿意花上几十个小时来训练玩游戏的技能。此外，像',
+      languagePt: "Nem todas as pessoas estão dispostas a gastar dezenas de horas de suas vidas para treinar a habilidade de jogar um jogo. Além disso, jogos como ",
+      languageAr: "ليس كل الناس على استعداد لقضاء عشرات الساعات من حياتهم للتدريب على مهارة ممارسة لعبة ما. علاوة على ذلك، ألعاب مثل",
     },
   },
   {
@@ -916,6 +1052,8 @@ const translationElements = [
       languageTr: ' hilekarlarla kaynıyor. Birisi bir paket cips ve koka-kola ile sıradan bir akşam pateninin tadını çıkarmak istiyor, birisi rütbesini yükseltmek istiyor. Hiçbir şekilde kimseyi hile indirmeye teşvik etmiyoruz, bu her birinizin seçimidir. Yorulduysanız ve çeşitlilik istiyorsanız - böyle bir deneyim elde etmek için yalnızca uygun bir araç sağlayabiliriz. Geri kalan her şey size kalmış!',
       languageEs: ' está plagado de tramposos. Alguien quiere disfrutar de una tarde de partida normal con un paquete de patatas fritas y coca-cola, alguien quiere subir de rango. De ninguna manera insistimos a alguien a descargar trampas, es la elección de cada uno de ustedes. Si usted está cansado y quiere variedad - sólo podemos proporcionar una herramienta conveniente para obtener tal experiencia. Todo lo demás depende de ti.',
       languageCn: ' 游戏中充斥着大量的骗子。有人想用一包薯片和可口可乐享受一个普通的晚间游戏，有人想提高自己的排名。我们绝不鼓励任何人下载 外挂 | 辅助，这是你们每个人的选择。如果你累了，如果你想尝试新事物，我们只能为你提供获得这种体验的便捷工具。其他一切都取决于您！',
+      languagePt: " estão simplesmente lotados com um grande número de trapaceiros. Alguém quer desfrutar de um jogo noturno comum com um pacote de batatas fritas e Coca-Cola, alguém quer aumentar sua classificação. Em nenhum caso incentivamos alguém a fazer download de trapaças, essa é uma escolha de cada um de vocês. Se você estiver cansado e quiser experimentar algo novo, só podemos fornecer uma ferramenta conveniente para obter essa experiência. Todo o resto é com você!",
+      languageAr: " ببساطة مزدحمة بعدد كبير من الغشاشين. شخص ما يريد أن يستمتع بلعبة مسائية عادية مع علبة رقائق البطاطس مع الكوكاكولا، شخص ما يريد زيادة رتبته. نحن لا نشجع أي شخص بأي حال من الأحوال على تنزيل الغش ، فهذا خيار كل واحد منكم. إذا كنت متعبًا وإذا كنت ترغب في تجربة شيء جديد، فيمكننا فقط تزويدك بأداة ملائمة للحصول على مثل هذه التجربة. كل شيء آخر متروك لك!",
     },
   },
   {
@@ -929,6 +1067,8 @@ const translationElements = [
       languageTr: 'Hileleri indirmek istiyorum, kütüphanenizde neler mevcut?',
       languageEs: 'Quiero descargar trampas o hacks, ¿qué hay disponible en su biblioteca?',
       languageCn: '我想下载 外挂 | 辅助，您的库中有什么？',
+      languagePt: "Quero fazer o download de truques ou hacks, o que você tem em sua biblioteca?",
+      languageAr: "أريد تنزيل غش أو اختراق، ماذا لديك في مكتبتك؟",
     },
   },
   {
@@ -942,6 +1082,8 @@ const translationElements = [
       languageTr: 'Her şey oyuna ve hile geliştiricilerine bağlı! Kütüphanemiz zaman zaman aşağıdaki gibi hileler içerir',
       languageEs: 'Todo depende del juego y de los desarrolladores de las trampas. De vez en cuando nuestra biblioteca contiene trampas como',
       languageCn: '这完全取决于游戏和 外挂 | 辅助 开发者！ 有时，这样的 外挂 | 辅助 会出现在我们的库中：',
+      languagePt: "Tudo depende do jogo e dos desenvolvedores do cheat/hack! De tempos em tempos, esses cheats e hacks aparecem em nossa biblioteca como",
+      languageAr: "كل هذا يعتمد على اللعبة ومطوري الغش/الاختراق! من وقت لآخر، تظهر مثل هذه الغش والاختراقات في مكتبتنا على أنها",
     },
   },
   {
@@ -955,6 +1097,8 @@ const translationElements = [
       languageTr: ', vb. Hile en son oyun güncellemesini destekliyorsa, ücretsiz olarak indirilebilir ve virüs içermez - kütüphanemizde görünecektir!',
       languageEs: ', etc. Si la trampa o hack es compatible con la última actualización del juego, se puede descargar de forma gratuita y está libre de virus - ¡aparecerá en nuestra biblioteca!',
       languageCn: ', 等等。如果 外挂 | 辅助 支持最新版本的游戏，您就可以免费下载，而且不会有任何病毒--它会出现在我们的资料库中！',
+      languagePt: "etc. Se o cheat ou hack for compatível com a versão mais recente do jogo, você poderá baixá-lo gratuitamente e não haverá vírus nele - ele aparecerá em nossa biblioteca!",
+      languageAr: "إلخ. إذا كان الغش أو الاختراق يدعم أحدث إصدار من اللعبة، فيمكنك تنزيله مجانًا ولا توجد فيروسات فيه - سيظهر في مكتبتنا!",
     },
   },
   {
@@ -968,6 +1112,8 @@ const translationElements = [
       languageTr: 'Değişiklik geçerliliğini yitirmiştir',
       languageEs: 'La modificación es obsoleta',
       languageCn: '修改已过时',
+      languagePt: "A modificação está desatualizada",
+      languageAr: "التعديل عفا عليه الزمن",
     },
   },
   {
@@ -981,6 +1127,8 @@ const translationElements = [
       languageTr: 'Hile çalışmazsa ne yapmalı?',
       languageEs: '¿Qué hacer si la trampa o hack no se activa o no funciona?',
       languageCn: '如果 外挂 | 辅助 无法启动或崩溃，我该怎么办？',
+      languagePt: "O que devo fazer se o cheat ou hack não for iniciado ou travar?",
+      languageAr: "ماذا أفعل إذا لم يتم تشغيل الغش أو الاختراق في حالة تعطله",
     },
   },
   {
@@ -994,6 +1142,8 @@ const translationElements = [
       languageTr: 'ExLoader, sisteminizi analiz eden ve modifikasyonun çalışması veya çökmesiyle ilgili sorunları çözmek için çeşitli ipuçları gösteren yerleşik bir yardımcı programa sahiptir. Bu yardımcı programı başlat düğmesinin yanındaki pinyon düğmesini kullanarak açabilirsiniz.',
       languageEs: 'ExLoader tiene una utilidad incorporada que analiza su sistema y muestra varios consejos para solucionar problemas relacionados con el funcionamiento o el crash de la modificación. Puede abrir esta utilidad utilizando el botón de piñón situado junto al botón de inicio.',
       languageCn: 'ExLoader 有一个内置实用程序，可以分析你的系统，并显示与修改启动过程或崩溃有关的各种故障排除提示。您可以使用 mod 启动按钮附近的齿轮按钮打开该实用程序。',
+      languagePt: "O ExLoader tem um utilitário integrado que analisa seu sistema e mostra várias dicas de solução de problemas relacionadas ao processo de inicialização da modificação ou a falhas. Você pode abrir esse utilitário usando o botão de engrenagem localizado próximo ao botão de inicialização do cheat.",
+      languageAr: "يحتوي ExLoader على أداة مساعدة مدمجة تحلل نظامك وتعرض العديد من النصائح المتعلقة باستكشاف الأخطاء وإصلاحها والمتعلقة بعملية تشغيل التعديل أو الأعطال. يمكنك فتح هذه الأداة المساعدة باستخدام زر الترس الموجود بالقرب من زر تشغيل الغش.",
     },
   },
   {
@@ -1007,6 +1157,8 @@ const translationElements = [
       languageTr: 'Hangi düğme okuma menüsünü açar?',
       languageEs: '¿Qué botón abre el menú de las trampas o hackas?',
       languageCn: '哪个按钮可以打开模式菜单？',
+      languagePt: "Qual botão abre o menu de trapaça ou de invasão?",
+      languageAr: "ما الزر الذي يفتح قائمة الغش أو الاختراق؟",
     },
   },
   {
@@ -1020,6 +1172,8 @@ const translationElements = [
       languageTr: "Değişiklik menüsünü açacak tuşla ilgili tüm bilgiler ve gerçekleştirilecek ek eylemler (varsa) ExLoader'ın kendisinde gösterilecektir. Sadece uygulamada yazılanları okuyun ve tüm sorularınıza cevap alacaksınız.",
       languageEs: 'Toda la información relacionada con la tecla para abrir el menú de modificación y las acciones adicionales a realizar (si las hubiera) se mostrarán en el propio ExLoader. Sólo tienes que leer lo que está escrito en la aplicación y obtendrás respuesta a todas tus preguntas.',
       languageCn: '与打开修改菜单的按键和要执行的其他操作（如有）相关的所有信息都将显示在 ExLoader 本身中。只需阅读应用程序中的内容，您就能获得所有问题的答案。',
+      languagePt: "Todas as informações relacionadas à chave de abertura do menu de modificação e às ações adicionais que podem ser necessárias (se houver) serão mostradas no próprio ExLoader. Basta ler o que está escrito no aplicativo e você obterá respostas para todas as suas perguntas.",
+      languageAr: "سيتم عرض جميع المعلومات المتعلقة بمفتاح فتح قائمة التعديل والإجراءات الإضافية التي قد يكون من الضروري القيام بها (إن وجدت) في ExLoader نفسه. ما عليك سوى قراءة ما هو مكتوب في التطبيق وستحصل على إجابات لجميع أسئلتك.",
     },
   },
   {
@@ -1033,6 +1187,8 @@ const translationElements = [
       languageTr: 'Okumayı çalıştırmak için enjektörü nereden bulabilirim?',
       languageEs: '¿Dónde conseguir un inyector para ejecutar la trampa o hacka?',
       languageCn: '我在哪里可以买到启动这种改装的喷射器？',
+      languagePt: "Onde posso obter um injetor para lançar esse truque ou hack?",
+      languageAr: "أين يمكنني الحصول على حاقن لتشغيل هذا الغش أو الاختراق؟",
     },
   },
   {
@@ -1046,6 +1202,8 @@ const translationElements = [
       languageTr: 'DLL uzantılı normal hileleri çalıştırmak için birçok kişi Ghost Injector, Extreme Injector, GHInjector, Vac-Bypass Injector, Kirin gibi enjektörleri kullanır, ancak bizim durumumuzda herhangi bir ek program indirmeye gerek yoktur, ExLoader üçüncü taraf yazılım kullanmadan tüm değişiklikleri kendi başına çalıştırır!',
       languageEs: 'Para ejecutar trampas normales con extensión .DLL, mucha gente utiliza inyectores como Ghost Injector, Extreme Injector, GHInjector, Vac-Bypass Injector, Kirin, etc., sin embargo, en nuestro caso no hay necesidad de descargar ningún programa adicional, ¡ExLoader ejecuta todas las modificaciones por sí mismo, sin utilizar software de terceros!',
       languageCn: '许多人使用 Ghost Injector、Extreme Injector、GHInjector、Vac-Bypass Injector、Kirin 等来启动以 .DLL 为扩展名的常用修改器，但在我们的情况下，无需下载任何其他软件，ExLoader 可自行安装所有修改器，无需任何第三方软件！',
+      languagePt: "Muitas pessoas usam o Ghost Injector, o Extreme Injector, o GHInjector, o Vac-Bypass Injector, o Kirin, etc. para lançar trapaças e hacks comuns com a extensão .DLL, mas em nosso caso não há necessidade de baixar nenhum software adicional, o ExLoader instala todas as modificações sozinho, sem nenhum software de terceiros!",
+      languageAr: "يستخدم العديد من الأشخاص Ghost Injector و Extreme Injector و GHInjector و Vac-Bypass Injector و Kirin وغيرها من البرامج لتشغيل عمليات الغش والاختراق الشائعة بامتداد .DLL، ولكن في حالتنا لا حاجة لتنزيل أي برنامج إضافي، يقوم ExLoader بتثبيت جميع التعديلات بنفسه، دون أي برنامج تابع لجهة خارجية!",
     },
   },
   {
@@ -1059,6 +1217,8 @@ const translationElements = [
       languageTr: 'Toplam puan',
       languageEs: 'Puntuación total',
       languageCn: '总分',
+      languagePt: "Valor total das marcas",
+      languageAr: "إجمالي مبلغ العلامات",
     },
   },
   {
@@ -1073,6 +1233,8 @@ const translationElements = [
       languageTr: 'Ocak',
       languageEs: 'Enero',
       languageCn: '一月份',
+      languagePt: "Janeiro",
+      languageAr: "يناير",
     },
   },
   {
@@ -1086,6 +1248,8 @@ const translationElements = [
       languageTr: 'Şubat',
       languageEs: 'Febrero',
       languageCn: '二月份',
+      languagePt: "Fevereiro",
+      languageAr: "شباط/فبراير",
     },
   },
   {
@@ -1099,6 +1263,8 @@ const translationElements = [
       languageTr: 'Martha',
       languageEs: 'Marzo',
       languageCn: '玛莎',
+      languagePt: "Março",
+      languageAr: "مارس",
     },
   },
   {
@@ -1112,6 +1278,8 @@ const translationElements = [
       languageTr: 'Nisan',
       languageEs: 'Abril',
       languageCn: '四月',
+      languagePt: "Abril",
+      languageAr: "نيسان/أبريل",
     },
   },
   {
@@ -1125,6 +1293,8 @@ const translationElements = [
       languageTr: 'Maya',
       languageEs: 'Mayo',
       languageCn: '玛雅人',
+      languagePt: "Maio",
+      languageAr: "مايو",
     },
   },
   {
@@ -1138,6 +1308,8 @@ const translationElements = [
       languageTr: 'Haziran',
       languageEs: 'Junio',
       languageCn: '六月',
+      languagePt: "Junho",
+      languageAr: "حزيران/يونيو",
     },
   },
   {
@@ -1151,6 +1323,8 @@ const translationElements = [
       languageTr: 'Temmuz',
       languageEs: 'Julio',
       languageCn: '七月',
+      languagePt: "Julho",
+      languageAr: "تموز/يوليو",
     },
   },
   {
@@ -1164,6 +1338,8 @@ const translationElements = [
       languageTr: 'Augusta',
       languageEs: 'Agosto',
       languageCn: '奥古斯塔',
+      languagePt: "Agosto",
+      languageAr: "آب/أغسطس",
     },
   },
   {
@@ -1177,6 +1353,8 @@ const translationElements = [
       languageTr: 'Eylül',
       languageEs: 'Septiembre',
       languageCn: '九月份',
+      languagePt: "Setembro",
+      languageAr: "أيلول/سبتمبر",
     },
   },
   {
@@ -1190,6 +1368,8 @@ const translationElements = [
       languageTr: 'Ekim',
       languageEs: 'Octubre',
       languageCn: '十月份',
+      languagePt: "Outubro",
+      languageAr: "أكتوبر",
     },
   },
   {
@@ -1203,6 +1383,8 @@ const translationElements = [
       languageTr: 'Kasım',
       languageEs: 'Noviembre',
       languageCn: '十一月',
+      languagePt: "Novembro",
+      languageAr: "تشرين الثاني/نوفمبر",
     },
   },
   {
@@ -1216,6 +1398,8 @@ const translationElements = [
       languageTr: 'Aralık',
       languageEs: 'Diciembre',
       languageCn: '十二月',
+      languagePt: "Dezembro",
+      languageAr: "كانون الأول/ديسمبر",
     },
   },
   {
@@ -1229,6 +1413,8 @@ const translationElements = [
       languageTr: 'Son güncelleme',
       languageEs: 'Última actualización',
       languageCn: '最后更新',
+      languagePt: "Data da última atualização",
+      languageAr: "تاريخ آخر تحديث",
     },
   },
   {
@@ -1242,6 +1428,8 @@ const translationElements = [
       languageTr: 'Yazar',
       languageEs: 'Autor',
       languageCn: '作者',
+      languagePt: "Autor",
+      languageAr: "المؤلف",
     },
   },
   {
@@ -1255,6 +1443,8 @@ const translationElements = [
       languageTr: 'Çıkış tarihi',
       languageEs: 'Fecha de publicación',
       languageCn: '发布日期',
+      languagePt: "Data de lançamento",
+      languageAr: "تاريخ الإصدار",
     },
   },
   {
@@ -1268,6 +1458,8 @@ const translationElements = [
       languageTr: 'İndirmeler',
       languageEs: 'Descargas',
       languageCn: '下载',
+      languagePt: "Downloads",
+      languageAr: "التنزيلات",
     },
   },
   {
@@ -1281,6 +1473,8 @@ const translationElements = [
       languageTr: 'Başlatıldı',
       languageEs: 'Ejecutar',
       languageCn: '启动',
+      languagePt: "Lançamentos",
+      languageAr: "الإطلاق",
     },
   },
   {
@@ -1294,6 +1488,8 @@ const translationElements = [
       languageTr: 'Diğer bilgiler',
       languageEs: 'Información adicional',
       languageCn: '其他信息',
+      languagePt: "Outras informações",
+      languageAr: "معلومات أخرى",
     },
   },
   {
@@ -1307,6 +1503,8 @@ const translationElements = [
       languageTr: 'ExLoader uygulamasındaki mod kartında',
       languageEs: 'En la tarjeta mod de la aplicación ExLoader',
       languageCn: '在 ExLoader 应用程序的模式卡上',
+      languagePt: "No cartão mod no aplicativo ExLoader",
+      languageAr: "على بطاقة التعديل في تطبيق ExLoader",
     },
   },
   {
@@ -1320,6 +1518,8 @@ const translationElements = [
       languageTr: 'Değişikliğin açıklaması',
       languageEs: 'Descripción de la modificación',
       languageCn: '修改说明',
+      languagePt: "Descrição da modificação",
+      languageAr: "وصف التعديل",
     },
   },
   {
@@ -1333,6 +1533,8 @@ const translationElements = [
       languageTr: 'Modifikasyonlardaki popüler özellikler',
       languageEs: 'Funciones populares en las modificaciones',
       languageCn: '修改中的热门功能',
+      languagePt: "Funções populares em modificações",
+      languageAr: "الوظائف الشائعة في التعديلات",
     },
   },
   {
@@ -1346,6 +1548,8 @@ const translationElements = [
       languageTr: 'Wallhack, ESP, WH - düşmanları duvarların içinden vurgular',
       languageEs: 'Wallhack, ESP, WH - muestra a los enemigos a través de las paredes',
       languageCn: '穿墙攻击，ESP，WH - 突出显示穿墙的敌人',
+      languagePt: "Wallhack, ESP, WH - destaca os inimigos através das paredes",
+      languageAr: "اختراق الجدران، ESP، WH - يسلط الضوء على الأعداء من خلال الجدران",
     },
   },
   {
@@ -1359,6 +1563,8 @@ const translationElements = [
       languageTr: 'Aimbot, düşmanları otomatik hedefleme',
       languageEs: 'Aimbot, apunta de forma automatica al enemigo',
       languageCn: '瞄准器，自动瞄准敌人',
+      languagePt: "Aimbot - posiciona automaticamente a mira nos inimigos",
+      languageAr: "Aimbot - وضع التصويب المتقاطع تلقائيًا على الأعداء",
     },
   },
   {
@@ -1372,6 +1578,8 @@ const translationElements = [
       languageTr: 'Triggerbot - nişangah düşmanın üzerindeyse otomatik atış.',
       languageEs: 'Triggerbot - dispara de forma automática si la mira esta sobre el enemigo',
       languageCn: '扳机机器人 - 如果十字准线位于敌人身上，则自动射击',
+      languagePt: "Triggerbot - disparo automático se a mira estiver posicionada no inimigo",
+      languageAr: "الزناد الآلي - إطلاق النار التلقائي إذا تم وضع التقاطع على العدو",
     },
   },
   {
@@ -1385,6 +1593,8 @@ const translationElements = [
       languageTr: 'Skinchanger - görünümlerinizi ve modellerinizi değiştirir',
       languageEs: 'Skinchanger - cambia tus skins y modelos',
       languageCn: '皮肤修改器 | skinchanger - 更改皮肤和模型',
+      languagePt: "Skinchanger - altera suas skins e modelos",
+      languageAr: "مغيِّر الجلد - غيِّر أشكالك وموديلاتك",
     },
   },
   {
@@ -1398,6 +1608,8 @@ const translationElements = [
       languageTr: 'Bhop, bunnyhop - zıplama ve otostraf yardımcısı',
       languageEs: 'Bhop, bunnyhop - ayudante de salto y autostrafes',
       languageCn: 'Bhop、bunnyhop - 跳跃和自动扶梯助手',
+      languagePt: "Bhop, bunnyhop - ajudante de saltos e autostrafes",
+      languageAr: "بوب، باني هوب - مساعد القفز والتوسترافيس المساعد",
     },
   },
   {
@@ -1411,6 +1623,8 @@ const translationElements = [
       languageTr: 'InventoryChanger - envanterinize görünümler ekler',
       languageEs: 'InventoryChanger - añade skins a tu inventario',
       languageCn: 'InventoryChanger - 在库存中添加皮肤',
+      languagePt: "InventoryChanger - adiciona skins ao seu inventário",
+      languageAr: "InventoryChanger - يضيف أشكالاً إلى مخزونك",
     },
   },
   {
@@ -1424,6 +1638,8 @@ const translationElements = [
       languageTr: 'Spinbot - öfke hvh oyunları için anti-amaçlar',
       languageEs: 'Spinbot - anti-aim para juegos rage hvh',
       languageCn: 'Spinbot - 愤怒的小鸟游戏的反要求',
+      languagePt: "Spinbot - anti-sinais para jogos de rage hvh",
+      languageAr: "سبينبوت - مضاد لألعاب hvh الغضب",
     },
   },
   {
@@ -1438,6 +1654,8 @@ const translationElements = [
       languageTr: 'Bilinmiyor',
       languageEs: 'Desconocido',
       languageCn: '未知',
+      languagePt: "Desconhecido",
+      languageAr: "غير معروف",
     },
   },
   {
@@ -1451,6 +1669,8 @@ const translationElements = [
       languageTr: 'Burada bir adblock olmalı :c',
       languageEs: 'Debería haber un adblock aquí :c',
       languageCn: '这里应该有一个广告拦截器：c',
+      languagePt: "Este é um sítio para um anúncio :c",
+      languageAr: "هذا مكان للإعلان :c",
     },
   },
   {
@@ -1465,6 +1685,8 @@ const translationElements = [
       languageTr: 'Bilinmiyor',
       languageEs: 'Desconocido',
       languageCn: '未知',
+      languagePt: "Desconhecido",
+      languageAr: "غير معروف",
     },
   },
   {
@@ -1478,6 +1700,8 @@ const translationElements = [
       languageTr: 'Kurulum yolunu yapılandırır:',
       languageEs: 'Configura la ubicacion de instalación:',
       languageCn: '配置安装路径:',
+      languagePt: "Configura o caminho de instalação:",
+      languageAr: "مسار تثبيت التكوينات:",
     },
   },
   {
@@ -1491,6 +1715,8 @@ const translationElements = [
       languageTr: 'Oyun klasörü',
       languageEs: 'Carpeta de juegos',
       languageCn: '游戏文件夹',
+      languagePt: "Pasta do jogo",
+      languageAr: "مجلد اللعبة",
     },
   },
   {
@@ -1504,6 +1730,8 @@ const translationElements = [
       languageTr: 'Açıklama yapılmadan değişiklik!',
       languageEs: '¡Modificación sin descripción!',
       languageCn: '无说明的修改',
+      languagePt: "Modificação sem descrição!",
+      languageAr: "تعديل بدون وصف!",
     },
   },
   {
@@ -1517,6 +1745,8 @@ const translationElements = [
       languageTr: 'Popüler yorumlar',
       languageEs: 'Comentarios populares',
       languageCn: '热门评论',
+      languagePt: "Avaliações populares",
+      languageAr: "المراجعات الشائعة",
     },
   },
   {
@@ -1530,6 +1760,8 @@ const translationElements = [
       languageTr: 'ExLoader uygulamasında bu değişiklik hakkında bir yorum bırakabilirsiniz!',
       languageEs: 'Puedes dejar un comentario sobre esta modificación en la aplicación ExLoader.',
       languageCn: '您可以在 ExLoader 应用程序中对此修改发表评论！',
+      languagePt: "Você pode deixar um comentário para essa modificação no aplicativo ExLoader!",
+      languageAr: "يمكنك ترك تعليق على هذا التعديل في تطبيق ExLoader!",
     },
   },
   {
@@ -1543,6 +1775,8 @@ const translationElements = [
       languageTr: 'Yorumların çevirisi uygulamada mevcuttur!',
       languageEs: 'La traducción de los comentarios está disponible en la aplicación!',
       languageCn: '应用程序中提供评论的翻译!',
+      languagePt: "Uma tradução dos comentários está disponível no aplicativo!",
+      languageAr: "تتوفر ترجمة للتعليقات في التطبيق!",
     },
   },
   {
@@ -1556,6 +1790,8 @@ const translationElements = [
       languageTr: 'Görünüşe göre bu sayfa mevcut değil! Silinmiş veya henüz oluşturulmamış olabilir.',
       languageEs: 'Parece que esta página no existe. Puede que se haya borrado o que simplemente no se haya creado todavía.',
       languageCn: '该页面似乎不存在！可能已被删除，或者根本就没有创建.',
+      languagePt: "Parece que esta página não existe! Talvez ela já tenha sido excluída ou simplesmente ainda não foi criada.",
+      languageAr: "يبدو أن هذه الصفحة غير موجودة! ربما تم حذفها بالفعل أو ببساطة لم يتم إنشاؤها بعد.",
     },
   },
   {
@@ -1569,6 +1805,8 @@ const translationElements = [
       languageTr: 'Ana sayfaya geri dön',
       languageEs: 'Volver a la página principal',
       languageCn: '返回主页',
+      languagePt: "Voltar à página principal",
+      languageAr: "العودة إلى الصفحة الرئيسية",
     },
   },
   {
@@ -1582,6 +1820,8 @@ const translationElements = [
       languageTr: 'Operasyonel ve İlgili',
       languageEs: 'Trabajando y Actualizando',
       languageCn: '操作性和相关性',
+      languagePt: "A funcionar e atualizado",
+      languageAr: "العمل والتحديث",
     },
   },
   {
@@ -1595,6 +1835,8 @@ const translationElements = [
       languageTr: "Nasıl indirilir? Sitemizdeki tüm modlar ExLoader uygulaması kullanılarak çalıştırılabilir, siteden indirdiğiniz uygulamadır. İndir düğmesine tıkladıktan sonra, yükleyici dosyasını kaydetmek için yolu seçmeniz, indirilmesini beklemeniz ve ardından indirilen dosyayı çalıştırmanız gerekir. Açılan pencerede uygulama kurulum modunu seçin, kurulumun tamamlanmasını bekleyin ve ExLoader'ı açın. Bundan sonra favori modunuzla istediğiniz oyunu seçebilir ve oynamaya başlayabilirsiniz!",
       languageEs: '¿Cómo descargar? Todos los mods de nuestro sitio pueden ejecutarse utilizando la aplicación ExLoader, que es la que se descarga del sitio. Después de hacer clic en el botón "Descargar", tienes que seleccionar la ubicacion para guardar el archivo de la instalación, esperar a que se descargue y, a continuación, ejecutar el archivo descargado. En la ventana que se abre, selecciona el modo de instalación de la aplicación, espera a que se complete la instalación y abre ExLoader. Después ya puedes seleccionar el juego que quieras con tu mod favorito y ¡empezar a jugar!',
       languageCn: '如何下载？您可以使用 ExLoader 应用程序运行我们网站上的所有修改器。点击 "下载 "按钮后，您需要选择保存安装文件的路径，等待下载，然后运行下载的文件。在打开的窗口中，选择应用程序的安装模式，等待安装完成并打开 ExLoader。之后，你就可以用自己喜欢的 MOD 选择想要的游戏并开始玩了！',
+      languagePt: "Como descarregar? Todos os mods do nosso sítio podem ser iniciados utilizando a aplicação ExLoader, que é a que descarrega deste sítio. Depois de clicar no botão \"Download\", tem de escolher o caminho para guardar o ficheiro de instalação, aguardar que seja descarregado e, em seguida, executar o ficheiro descarregado. Na janela aberta, seleccione o modo de instalação da aplicação, aguarde que a instalação esteja concluída e abra o ExLoader. Depois disso, pode escolher o jogo de que precisa com o mod de que gosta e começar a jogar!",
+      languageAr: "كيفية التحميل؟ يمكن تشغيل جميع التعديلات من موقعنا باستخدام تطبيق ExLoader، وهو ما تقوم بتنزيله من هذا الموقع. بعد النقر على زر \"تنزيل\"، تحتاج إلى اختيار مسار حفظ ملف المثبت، وانتظر حتى يتم تنزيله، ثم قم بتشغيل الملف الذي تم تنزيله. في النافذة المفتوحة حدد وضع تثبيت التطبيق، وانتظر حتى يكتمل التثبيت وافتح ExLoader. بعد ذلك، يمكنك اختيار اللعبة التي تريدها مع التعديل الذي تريده وبدء اللعب!",
     }
   },
   {
@@ -1608,6 +1850,8 @@ const translationElements = [
       languageTr: 'beri',
       languageEs: 'desde',
       languageCn: '因为',
+      languagePt: "desde",
+      languageAr: "منذ",
     },
   },
   {
@@ -1621,6 +1865,8 @@ const translationElements = [
       languageTr: 'Lansman takviyeleri',
       languageEs: 'Guía/consejos de lanzamiento',
       languageCn: '推出补充剂',
+      languagePt: "Guia/conselhos de lançamento",
+      languageAr: "دليل/إرشادات الإطلاق",
     },
   },
   {
@@ -1634,6 +1880,8 @@ const translationElements = [
       languageTr: "1. ExLoader'ı açın\n2. Kütüphanesinde bu değişikliği bulun ve sayfasını açın\n3. Başlat düğmesine tıklayın!",
       languageEs: '1. Abra el ExLoader\n2. Busque esta modificación en su biblioteca y abra su página\n3. Pulsa el botón Ejecutar',
       languageCn: '1. 打开 ExLoader\n2. 在库中找到此修改并打开它的页面\n3. 点击启动按钮',
+      languagePt: "1. Abra o ExLoader\n2. Encontrar esta modificação na sua biblioteca e abrir a sua páginan\3. Clique no botão Launch!",
+      languageAr: "1. افتح ExLoader 2. ابحث عن هذا التعديل في مكتبته وافتح صفحته. 3. انقر على زر التشغيل",
     },
   },
   {
@@ -1647,6 +1895,8 @@ const translationElements = [
       languageTr: 'Macros',
       languageEs: 'Macros',
       languageCn: 'Macros',
+      languagePt: "Macros",
+      languageAr: "Macros",
     },
   },
   {
@@ -1660,6 +1910,8 @@ const translationElements = [
       languageTr: 'font_other.css',
       languageEs: 'font_other.css',
       languageCn: 'font_asia.css',
+      languagePt: "font_other.css",
+      languageAr: "font_other.css",
     },
   },
   {
@@ -1673,6 +1925,8 @@ const translationElements = [
       languageTr: 'Reklam talepleri',
       languageEs: 'Consultas publicitarias',
       languageCn: '广告咨询',
+      languagePt: "Pedidos de informação sobre publicidade",
+      languageAr: "الاستفسارات الإعلانية",
     },
   },
   {
@@ -1686,6 +1940,8 @@ const translationElements = [
       languageTr: 'Web sitemize, uygulamamıza veya diğer kaynaklarımızdan herhangi birine reklam verin!',
       languageEs: 'Publique un anuncio en nuestro sitio web, aplicación o cualquiera de nuestros otros recursos.',
       languageCn: '在我们的网站、应用程序或任何其他资源上发布广告!',
+      languagePt: "Coloque um anúncio em nosso site, aplicativo ou em qualquer um de nossos outros recursos!",
+      languageAr: "ضع إعلاناً على موقعنا الإلكتروني أو aتطبيقنا أو أي من مواردنا الأخرى!",
     },
   },
   {
@@ -1699,6 +1955,8 @@ const translationElements = [
       languageTr: 'Hangi boyuttaki afişleri destekliyorsunuz?',
       languageEs: '¿Qué tamaños de banners admite??',
       languageCn: '你们支持多大尺寸的横幅?',
+      languagePt: "Quais tamanhos de banners são compatíveis?",
+      languageAr: "ما هي أحجام اللافتات التي تدعمها؟",
     },
   },
   {
@@ -1712,6 +1970,8 @@ const translationElements = [
       languageTr: 'Bir web sitesiyse, kare bir banner için 1000x1000px ve geniş bir banner için 1455x135px. Bir uygulamada, kullanılabilecek tek boyut 1000x80 pikseldir. (Genişlik x Yükseklik).',
       languageEs: 'Si se trata de un sitio web, 1000x1000px para un banner cuadrado y 1455x135px para un banner ancho. En una aplicación, el único tamaño disponible es 1000x80px. (Ancho x Alto).',
       languageCn: '如果是网站，方形横幅的尺寸为 1000x1000px，宽幅横幅的尺寸为 1455x135px。在应用程序中，唯一可用的尺寸是 1000x80px。(宽度 x 高度).',
+      languagePt: "Se for um site, então 1000x1000px para um banner quadrado e 1455x135px para um banner largo. No aplicativo, o único tamanho disponível é 1000x80px. (Largura x Altura)",
+      languageAr: "إذا كان موقعًا إلكترونيًا، فسيكون 1000 × 1000 بكسل لشعار مربع و1455 × 135 بكسل لشعار عريض. في التطبيق، الحجم الوحيد المتاح في التطبيق هو 1000 × 80 بكسل. (العرض × الارتفاع)",
     },
   },
   {
@@ -1725,6 +1985,8 @@ const translationElements = [
       languageTr: 'Afişler, bölgeler ve sayfalar için mevcut formatlar',
       languageEs: 'Formatos disponibles para banners, regiones y páginas',
       languageCn: '横幅、区域和页面的可用格式',
+      languagePt: "Formatos, regiões e páginas de banners disponíveis",
+      languageAr: "تنسيقات اللافتات والمناطق والصفحات المتاحة",
     },
   },
   {
@@ -1738,6 +2000,8 @@ const translationElements = [
       languageTr: "Hem .png hem de .gif bannerları yerleştirebilirsiniz. Siteye bir reklam yerleştirirken, banner'ınızın yerleştirileceği dil alt alanını seçebilirsiniz. Bir müşteri için, reklamınızın gösterileceği belirli ülkeleri seçebilirsiniz! Sitedeki reklamlar yalnızca belirtilen oyunların ve modların sayfalarına yerleştirilir, ancak istemcide tüm uygulamanın sayfalarına veya istediğiniz oyunun sayfasına bir banner yerleştirebilirsiniz!",
       languageEs: "Puede colocar tanto banners .png como .gif. Al colocar un anuncio en el sitio, puede elegir el subdominio de idioma en el que se colocará su banner. En el caso de un cliente, puede elegir los países específicos en los que se mostrará su anuncio. Los anuncios en el sitio sólo se colocan en las páginas de los juegos y mods especificados, pero en el cliente puedes colocar un banner en las páginas de toda la aplicación, ¡o en la página del juego que quieras!",
       languageCn: "您可以放置 .png 和 .gif 横幅。在网站上发布广告时，您可以选择横幅所在的语言子域。对于客户，您可以选择广告展示的特定国家！网站上的广告只在指定游戏和 mods 的页面上投放，但在客户端上，您可以在整个应用程序的页面上投放横幅广告，也可以在您想要的游戏页面上投放横幅广告!",
+      languagePt: "Você pode colocar banners .png e .gif. Se você decidir colocar seu anúncio no site, poderá escolher o subdomínio do idioma em que o banner será colocado. Para um cliente, você pode escolher qualquer país específico onde seu anúncio será exibido! Os anúncios no site são colocados somente nas páginas de jogos específicos e mods para esses jogos, mas no cliente você pode colocar um banner que será exibido em todas as telas do aplicativo ou em qualquer página de jogo que desejar!",
+      languageAr: "يمكنك وضع كل من لافتات .png و .gif. إذا قررت وضع إعلانك على الموقع، يمكنك اختيار المجال الفرعي للغة التي سيتم وضع إعلانك فيها. بالنسبة للعميل، يمكنك اختيار أي بلدان محددة حيث سيتم عرض إعلانك فيها! يتم وضع الإعلانات على الموقع الإلكتروني فقط على صفحات الألعاب والتعديلات المحددة لتلك الألعاب، ولكن في العميل يمكنك وضع لافتة ستظهر على جميع شاشات التطبيق، أو على أي صفحة لعبة تريدها!",
     },
   },
   {
@@ -1751,6 +2015,8 @@ const translationElements = [
       languageTr: 'Reklam vermeyeceğiniz kısıtlamalar var mı?',
       languageEs: '¿Existen restricciones a la publicidad que no publicaran?',
       languageCn: '是否有不做广告的广告限制?',
+      languagePt: "Há alguma restrição para anúncios que vocês não publicarão?",
+      languageAr: "هل هناك أي قيود على الإعلانات التي لن تنشرها؟",
     },
   },
   {
@@ -1764,6 +2030,8 @@ const translationElements = [
       languageTr: 'Evet, dolandırıcılık projelerinin, virüslerin, şüpheli yazılımların, bahis tahminlerinin, bilgi çingenelerinin veya diğer yasadışı şeylerin reklamını yapmıyoruz. Para için değil.',
       languageEs: 'Sí, no anunciamos proyectos de estafa, virus, software sospechoso, predicciones de apuestas, gitanos de la información ni ninguna otra mierda ilegal. Ni por dinero.',
       languageCn: '是的，我们不宣传诈骗项目、病毒、可疑软件、投注预测、信息吉普赛人或任何其他非法狗屎。不为任何金钱。',
+      languagePt: "Não publicaremos projetos fraudulentos, cassinos, vírus, software suspeito, previsões de apostas, esquemas de enriquecimento rápido ou qualquer outra coisa ilegal. Não mudaremos de ideia nem mesmo por muito dinheiro!",
+      languageAr: "لن ننشر مشاريع الاحتيال، أو الكازينوهات، أو الفيروسات، أو البرامج المشبوهة، أو تنبؤات الرهان، أو مخططات الثراء السريع، أو أي شيء آخر غير قانوني. لن نغير رأينا حتى مقابل أموال طائلة!",
     },
   },
   {
@@ -1777,6 +2045,8 @@ const translationElements = [
       languageTr: 'Site istatistikleri (günlük kullanıcılar + aylık kullanıcılar + coğrafi bölge)',
       languageEs: 'Estadísticas de la aplicación (usuarios diarios + usuarios mensuales + geo)',
       languageCn: '网站统计数据（日用户数 + 月用户数 + 地理位置）',
+      languagePt: "Estatísticas do site (usuários diários + usuários mensais + localização geográfica)",
+      languageAr: "إحصائيات الموقع الإلكتروني (مستخدمون يوميًا + مستخدمون شهريًا + جغرافيًا)",
     },
   },
   {
@@ -1790,6 +2060,8 @@ const translationElements = [
       languageTr: 'Uygulama istatistikleri (günlük kullanıcılar + aylık kullanıcılar + coğrafi bölge)',
       languageEs: 'Estadísticas de la aplicación (usuarios diarios + usuarios mensuales + geo)',
       languageCn: '应用程序统计 (日用户 + 月用户 + 地理位置)',
+      languagePt: "Estatísticas do aplicativo (usuários diários + usuários mensais + localização geográfica)",
+      languageAr: "إحصائيات التطبيق (مستخدمون يوميًا + مستخدمون شهريًا + مستخدمون جغرافيًا)",
     },
   },
   {
@@ -1803,6 +2075,8 @@ const translationElements = [
       languageTr: 'Reklam örnekleri ve yerleştirildikleri yerler',
       languageEs: 'Ejemplos de anuncios y dónde se colocan',
       languageCn: '广告示例及其投放位置',
+      languagePt: "Exemplos de anúncios e onde eles são colocados",
+      languageAr: "أمثلة على الإعلانات ومكان وضعها",
     },
   },
   {
@@ -1816,6 +2090,8 @@ const translationElements = [
       languageTr: 'Reklam fiyatı nedir ve satın almak için nereye yazılır?',
       languageEs: '¿Cuál es el precio de la publicidad y dónde escribir para comprarla?',
       languageCn: '广告价格是多少，在哪里购买?',
+      languagePt: "Qual é o preço da publicidade e onde os contatos podem ser encontrados?",
+      languageAr: "ما هو سعر الإعلان وأين يمكن العثور على جهات الاتصال الخاصة بك؟",
     },
   },
   {
@@ -1829,6 +2105,8 @@ const translationElements = [
       languageTr: 'Reklam fiyatı, seçilen reklam türüne (özellikle 1 oyun için / uygulamanın tüm ekranlarında), bölgeye ve tam olarak neyin reklamını yaptığınıza bağlıdır. İletişim bilgilerimiz sayfanın alt kısmında yer almaktadır!',
       languageEs: 'El precio de la publicidad depende en gran medida del tipo de publicidad elegido (específicamente para 1 juego/en todas las pantallas de la aplicación), de la región y de lo que anuncie exactamente. Nuestros contactos se encuentran al final de la página.',
       languageCn: '广告价格主要取决于您所选择的广告类型（具体为 1 款游戏/应用程序的所有屏幕）、地区和广告内容。我们的联系方式位于页面底部!',
+      languagePt: "O preço do anúncio depende do tipo de publicidade escolhido (especificamente para 1 jogo/em todas as telas do aplicativo), da região e do que exatamente você deseja anunciar. Nossos contatos estão localizados na parte inferior desta página!",
+      languageAr: "يعتمد سعر الإعلان على نوع الإعلان المختار (تحديدًا للعبة واحدة/على جميع شاشات التطبيق)، وعلى المنطقة وعلى ما تريد الإعلان عنه بالضبط. جهات الاتصال لدينا موجودة في الجزء السفلي من هذه الصفحة!",
     },
   },
 ];
