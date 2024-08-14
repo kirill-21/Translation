@@ -2135,8 +2135,8 @@ const translationElements = [
       languageTr: 'Güncellendi: ',
       languageEs: 'Actualizado: ',
       languageCn: '已更新：',
-      languagePt: "Últimas atualizações",
-      languageAr: "آخر التحديثات",
+      languagePt: "Últimas atualizações: ",
+      languageAr: " :آخر التحديثات",
     },
   },
 ];
