@@ -1880,7 +1880,7 @@ const translationElements = [
       languageTr: "1. ExLoader'ı açın\n2. Kütüphanesinde bu değişikliği bulun ve sayfasını açın\n3. Başlat düğmesine tıklayın!",
       languageEs: '1. Abra el ExLoader\n2. Busque esta modificación en su biblioteca y abra su página\n3. Pulsa el botón Ejecutar',
       languageCn: '1. 打开 ExLoader\n2. 在库中找到此修改并打开它的页面\n3. 点击启动按钮',
-      languagePt: "1. Abra o ExLoader\n2. Encontrar esta modificação na sua biblioteca e abrir a sua páginan\3. Clique no botão Launch!",
+      languagePt: "1. Abra o ExLoader\n2. Encontrar esta modificação na sua biblioteca e abrir a sua páginan\n3. Clique no botão Launch!",
       languageAr: "1. افتح ExLoader 2. ابحث عن هذا التعديل في مكتبته وافتح صفحته. 3. انقر على زر التشغيل",
     },
   },
