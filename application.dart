@@ -533,6 +533,26 @@ const Map<String, Map<String, String>> localeItems = {
         "Tenga en cuenta que un representante independiente no ha comprobado la ausencia de virus en estas modificaciones.",
     languageCn: "请注意，本修改版未经独立代表检查是否存在病毒。",
   },
+  'TrustableModificationButChangeable': {
+    languageEn:
+        'Before adding this modification to the library it was checked for virus threats absence, however, since its script is hosted on a third-party resource, its author may add malicious code or viruses into it at any time. Be as careful as possible and always check all source code changes before launching the modification!',
+    languageRu:
+        'Перед добавлением в библиотеку данная модификация была проверена на отсутствие вирусных угроз, однако, так как её скрипт находится на стороннем ресурсе, её автор в любой момент может внедрить в неё вредоносный код или же вирусы. Будь максимально осторожен и всегда проверяй изменения исходного кода перед запуском модификации!',
+    languageUa:
+        'Перед додаванням до бібліотеки цю модифікацію було перевірено на відсутність вірусних загроз, однак, оскільки її скрипт розміщено на сторонньому ресурсі, її автор будь-якої миті може впровадити в неї шкідливий код або ж віруси. Будь максимально обережним і завжди перевіряй зміни вихідного коду перед запуском модифікації!',
+    languagePl:
+        'Przed dodaniem tej modyfikacji do biblioteki została ona sprawdzona pod kątem braku zagrożeń wirusowych, jednak ponieważ jej skrypt jest hostowany w zasobach stron trzecich, jego autor może w dowolnym momencie dodać do niego złośliwy kod lub wirusy. Zachowaj jak największą ostrożność i zawsze sprawdzaj wszystkie zmiany w kodzie źródłowym przed uruchomieniem modyfikacji!',
+    languageDe:
+        "Bevor diese Modifikation in die Bibliothek aufgenommen wurde, wurde sie auf die Abwesenheit von Viren geprüft. Da das Skript jedoch auf einer fremden Ressource gehostet wird, kann der Autor jederzeit bösartigen Code oder Viren hinzufügen. Seien Sie so vorsichtig wie möglich und überprüfen Sie immer alle Quellcodeänderungen, bevor Sie die Modifikation starten!",
+    languageIt:
+        "Prima di aggiungere questa modifica alla libreria, è stata verificata l'assenza di minacce di virus; tuttavia, poiché lo script è ospitato su una risorsa di terze parti, il suo autore può aggiungere codice dannoso o virus in qualsiasi momento. Fate la massima attenzione e controllate sempre tutte le modifiche al codice sorgente prima di lanciare la modifica!",
+    languageTr:
+        "Bu değişiklik kütüphaneye eklenmeden önce virüs tehdidi olup olmadığı kontrol edildi, ancak komut dosyası üçüncü taraf bir kaynakta barındırıldığından, yazarı herhangi bir zamanda içine kötü amaçlı kod veya virüs ekleyebilir. Mümkün olduğunca dikkatli olun ve değişikliği başlatmadan önce her zaman tüm kaynak kodu değişikliklerini kontrol edin!",
+    languageEs:
+        "Antes de añadir esta modificación a la biblioteca se comprobó la ausencia de amenazas de virus, sin embargo, dado que su script está alojado en un recurso de terceros, su autor puede añadir código malicioso o virus en él en cualquier momento. Sea lo más cuidadoso posible y compruebe siempre todos los cambios en el código fuente antes de lanzar la modificación.",
+    languageCn:
+        "不过，由于其脚本托管在第三方资源上，其作者可能会随时添加恶意代码或病毒。请尽可能小心谨慎，并在启动修改前始终检查所有源代码更改！",
+  },
   'NotTrustableModificationDetailed': {
     languageEn:
         "This means that «the creator of this crack or mod can steal your passwords and accounts at any time». This mod was added to the library only for those who are not really worried about the possible loose of their data and still want to play with it!\n\nIf you find this mod somewhere on the Internet with the inscription `No viruses`, know - somebody tries to lie to you!",
@@ -2878,7 +2898,7 @@ const Map<String, Map<String, String>> localeItems = {
     languageEn:
         "Unfortunately, your Windows version is incompatible with modification's recommended one. If you want to play with this modification, you'll have to install Windows",
     languageRu:
-        'К сожалению, твоя версия Windows несовместима с рекомендованной версией Windows модификации. Если ты хотишь поиграть с данной модификацией, тебе необходимо установить Windows',
+        'К сожалению, твоя версия Windows несовместима с рекомендованной версией Windows модификации. Если ты хочешь поиграть с данной модификацией, тебе необходимо установить Windows',
     languageUa:
         'На жаль, твоя версія Windows несумісна з рекомендованою версією Windows модифікації. Якщо ти хочеш пограти з даною модифікацією, тобі необхідно встановити Windows',
     languagePl:
@@ -6601,6 +6621,17 @@ const Map<String, Map<String, String>> localeItems = {
     languageEs: "La modificación está lista para su uso",
     languageCn: "修改后即可使用",
   },
+  'DownloadingIsFinished': {
+    languageEn: 'Modification is downloaded',
+    languageRu: 'Модификация скачана',
+    languageUa: 'Модифікація завантажена',
+    languagePl: 'Modyfikacja jest pobierana',
+    languageDe: "Modifikation wird heruntergeladen",
+    languageIt: 'La modifica viene scaricata',
+    languageTr: "Değişiklik indirildi",
+    languageEs: "Se descarga la modificación",
+    languageCn: "已下载修改内容",
+  },
   'StandardKeyButton': {
     languageEn: "Standard key for modification's menu opening:",
     languageRu: 'Стандартная клавиша открытия меню модификации:',
@@ -9233,22 +9264,22 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'IfYouDoneItJusSkip': {
     languageEn:
-        "If you've already done these steps, just skip this dialog using the button below!",
+        "«If you've already done these steps, just skip this dialog using the button below!»",
     languageRu:
-        'Если ты уже выполнил данные действия, просто пропусти это окошко с помощью кнопки ниже!',
+        '«Если ты уже выполнил данные действия, просто пропусти это окошко с помощью кнопки ниже!»',
     languageUa:
-        'Якщо ти вже виконав ці дії, просто пропусти це віконце за допомогою кнопки нижче!',
+        '«Якщо ти вже виконав ці дії, просто пропусти це віконце за допомогою кнопки нижче!»',
     languagePl:
-        'Jeśli wykonałeś już te kroki, po prostu pomiń to pole za pomocą przycisku poniżej!',
+        '«Jeśli wykonałeś już te kroki, po prostu pomiń to pole za pomocą przycisku poniżej!»',
     languageDe:
-        "Wenn Sie diese Schritte bereits befolgt haben, können Sie dieses Feld mit der Schaltfläche unten einfach überspringen!",
+        "«Wenn Sie diese Schritte bereits befolgt haben, können Sie dieses Feld mit der Schaltfläche unten einfach überspringen!»",
     languageIt:
-        'Se avete già eseguito questi passaggi, saltate questa finestra di dialogo utilizzando il pulsante sottostante!',
+        '«Se avete già eseguito questi passaggi, saltate questa finestra di dialogo utilizzando il pulsante sottostante!»',
     languageTr:
-        "Bu adımları zaten yaptıysanız, aşağıdaki düğmeyi kullanarak bu iletişim kutusunu atlayın!",
+        "«Bu adımları zaten yaptıysanız, aşağıdaki düğmeyi kullanarak bu iletişim kutusunu atlayın!»",
     languageEs:
-        "Si ya has hecho estos pasos, simplemente salta este diálogo usando el botón de abajo!",
-    languageCn: "如果您已经完成这些步骤，请使用下面的按钮跳过此对话框！",
+        "«Si ya has hecho estos pasos, simplemente salta este diálogo usando el botón de abajo!»",
+    languageCn: "«如果您已经完成这些步骤，请使用下面的按钮跳过此对话框！»",
   },
   'WindowedModeJustTip': {
     languageEn:
@@ -10646,6 +10677,21 @@ const Map<String, Map<String, String>> localeItems = {
         'The authorization code has been successfully copied to your clipboard!',
     languageRu: 'Код авторизации успешно скопирован в твой буфер обмена!',
     languageUa: 'Код авторизації успішно скопійован в твій буфер обміну!',
+    languagePl:
+        'Kod autoryzacji został pomyślnie skopiowany do twojego schowka!',
+    languageDe:
+        "Der Autorisierungscode wurde erfolgreich in die Zwischenablage kopiert!",
+    languageIt:
+        'Il codice di autorizzazione è stato copiato con successo nei tuoi appunti!',
+    languageTr: "Yetkilendirme kodu başarıyla panonuza kopyalandı!",
+    languageEs:
+        "El código de autorización se ha copiado correctamente en su portapapeles.",
+    languageCn: "授权码已成功复制到您的剪贴板！",
+  },
+  'ScriptIsCopied': {
+    languageEn: 'Script has been successfully copied to your clipboard!',
+    languageRu: 'Скрипт успешно скопирован в твой буфер обмена!',
+    languageUa: 'Скріпт успішно скопійован в твій буфер обміну!',
     languagePl:
         'Kod autoryzacji został pomyślnie skopiowany do twojego schowka!',
     languageDe:
@@ -13040,6 +13086,18 @@ La reputación se da y se quita por la participación en la vida social de la ap
     languageEs: "Mod ha sido probado para la ausencia de amenazas de virus",
     languageCn: "模块已通过测试，不存在病毒威胁",
   },
+  'ModIsCheckedByChangeable': {
+    languageEn: "The status of virus threats absence is dynamic!",
+    languageRu: 'Статус проверки на отсутствие вирусных угроз динамичен!',
+    languageUa: 'Статус перевірки на відсутність вірусних загроз динамічний!',
+    languagePl: 'Stan nieobecności zagrożeń wirusowych jest dynamiczny!',
+    languageDe:
+        "Der Status der Abwesenheit von Virenbedrohungen ist dynamisch!",
+    languageIt: "Lo stato di assenza di minacce virali è dinamico!",
+    languageTr: "Virüs tehditlerinin yokluğu durumu dinamiktir!",
+    languageEs: "El estado de ausencia de amenazas de virus es dinámico",
+    languageCn: "病毒威胁的缺失状况是动态的！",
+  },
   'CrashesInfo': {
     languageEn: "Detailed information on mod's crashes statistics",
     languageRu: 'Подробная информация по статистике вылетов',
@@ -14481,5 +14539,45 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "ExLoader NO borra el historial de navegación de YouTube, el historial de descargas del navegador, los correos electrónicos de tu correo, el historial habitual del navegador ni las suscripciones a redes sociales. ¡Tendrás que limpiarlo todo tú mismo!",
     languageCn:
         "ExLoader 不会删除你的 YouTube 浏览历史、浏览器下载历史、邮件中的电子邮件、常规浏览器历史和社交媒体订阅。你必须自己清除这一切！",
+  },
+  "HostsFileNoAccessToServer": {
+    languageEn:
+        "It seems that someone has deliberately blocked access to ExLoader servers using the Hosts file. To remove the restriction on connection to our application servers, go to the «C:\\Windows\\System32\\Drivers\\etc» folder, open the «hosts» file (using Notepad) and remove the lines mentioning our site «ExLoader.net».",
+    languageRu:
+        'Похоже, что кто-то умышленно заблокировал доступ к серверам ExLoader с помощью файла Hosts. Для снятия ограничения на подключение к серверам нашего приложения перейди в папку «C:\\Windows\\System32\\Drivers\\etc», открой файл «hosts» (С помощью блокнота) и убери строки с упоминанием нашего сайта «ExLoader.net».',
+    languageUa:
+        "Схоже, що хтось навмисне заблокував доступ до серверів ExLoader за допомогою файлу Hosts. Для зняття обмеження на під'єднання до серверів нашого застосунку перейди в папку «C:\\Windows\\System32\\Drivers\\etc», відкрий файл «hosts» (за допомогою блокнота) і прибери рядки зі згадуванням нашого сайту «ExLoader.net».",
+    languagePl:
+        "Wygląda na to, że ktoś celowo zablokował dostęp do serwerów ExLoadera za pomocą pliku Hosts. Aby usunąć ograniczenie połączenia z naszymi serwerami aplikacji, przejdź do folderu «C:\\Windows\\System32\\Drivers\\etc», otwórz plik «hosts» (używając Notatnika) i usuń linie wspominające o naszej witrynie «ExLoader.net».",
+    languageDe:
+        "Es scheint, dass jemand absichtlich den Zugriff auf die ExLoader-Server über die Hosts-Datei blockiert hat. Um die Beschränkung der Verbindung zu unseren Anwendungsservern aufzuheben, gehen Sie zum Ordner «C:\\Windows\\System32\\Drivers\\etc», öffnen Sie die Datei «hosts» (mit Notepad) und entfernen Sie die Zeilen, in denen unsere Website «ExLoader.net» erwähnt wird.",
+    languageIt:
+        "Sembra che qualcuno abbia deliberatamente bloccato l'accesso ai server ExLoader utilizzando il file Hosts. Per rimuovere la restrizione alla connessione ai nostri server applicativi, accedere alla cartella «C:\\Windows\\System32\\Drivers\\etc», aprire il file «hosts» (usando Notepad) e rimuovere le righe che menzionano il nostro sito «ExLoader.net».",
+    languageTr:
+        "Görünüşe göre birisi Hosts dosyasını kullanarak ExLoader sunucularına erişimi kasıtlı olarak engellemiş. Uygulama sunucularımıza bağlantı kısıtlamasını kaldırmak için «C:\\Windows\\System32\\Drivers\\etc» klasörüne gidin, «hosts» dosyasını açın (Not Defteri kullanarak) ve «ExLoader.net» sitemizden bahseden satırları kaldırın.",
+    languageEs:
+        "Parece que alguien ha bloqueado deliberadamente el acceso a los servidores de ExLoader mediante el archivo Hosts. Para eliminar la restricción de conexión a nuestros servidores de aplicaciones, vaya a la carpeta «C:\\Windows\\System32\\Drivers\\etc», abra el archivo «hosts» (utilizando el Bloc de notas) y elimine las líneas que mencionan nuestro sitio «ExLoader.net».",
+    languageCn:
+        "似乎有人故意使用 Hosts 文件阻止了对 ExLoader 服务器的访问。要取消对连接到我们应用程序服务器的限制，请进入 «C:\\Windows\\System32\\Drivers\\etc» 文件夹，打开 «hosts» 文件（使用记事本），删除提及我们网站 «ExLoader.net» 的行。",
+  },
+  'LuaExecutorAdvice': {
+    languageEn:
+        "Unfortunately, ExLoader does not currently support launching LUA modifications on its own, so you will need any working LUA Executor to launch this modification. Just paste this script into a LUA Executor you've found on the Internet, execute it, and the modification will be launched!",
+    languageRu:
+        'К сожалению, на данный момент ExLoader не умеет самостоятельно запускать LUA-модификации, поэтому, для запуска этой модификации тебе понадобится любой рабочий LUA Executor. Просто вставь данный вскрипт в найденный в интернете LUA Executor, выполни его, и модификация будет запущена!',
+    languageUa:
+        "На жаль, на даний момент ExLoader не вміє самостійно запускати LUA-модифікації, тому, для запуску цієї модифікації тобі знадобиться будь-який робочий LUA Executor. Просто встав цей вскрипт у знайдений в інтернеті LUA Executor, виконай його, і модифікація буде запущена!",
+    languagePl:
+        "Niestety, ExLoader nie obsługuje obecnie samodzielnego uruchamiania modyfikacji LUA, więc do uruchomienia tej modyfikacji potrzebny będzie dowolny działający LUA Executor. Po prostu wklej ten skrypt do LUA Executora, który znalazłeś w Internecie, wykonaj go, a modyfikacja zostanie uruchomiona!",
+    languageDe:
+        "Leider unterstützt ExLoader derzeit das Starten von LUA-Modifikationen nicht selbst, so dass Sie einen funktionierenden LUA-Executor benötigen, um diese Modifikation zu starten. Fügen Sie dieses Skript einfach in einen LUA-Executor ein, den Sie im Internet gefunden haben, führen Sie ihn aus, und die Modifikation wird gestartet!",
+    languageIt:
+        "Sfortunatamente, ExLoader non supporta attualmente l'avvio di modifiche LUA da solo, quindi è necessario un qualsiasi Esecutore LUA funzionante per avviare questa modifica. Basta incollare questo script in un LUA Executor trovato su Internet, eseguirlo e la modifica verrà lanciata!",
+    languageTr:
+        "Ne yazık ki, ExLoader şu anda LUA değişikliklerini kendi başına başlatmayı desteklemiyor, bu nedenle bu değişikliği başlatmak için çalışan herhangi bir LUA Yürütücüsüne ihtiyacınız olacak. Bu betiği internette bulduğunuz bir LUA Yürütücüsüne yapıştırın, çalıştırın ve değişiklik başlatılacaktır!",
+    languageEs:
+        "Desafortunadamente, ExLoader no soporta actualmente el lanzamiento de modificaciones LUA por sí mismo, por lo que necesitarás cualquier Ejecutor LUA que funcione para lanzar esta modificación. Sólo tienes que pegar este script en un Ejecutor LUA que hayas encontrado en Internet, ejecutarlo, ¡y la modificación se lanzará!",
+    languageCn:
+        "遗憾的是，ExLoader 目前并不支持自行启动 LUA 修改，因此您需要任何可用的 LUA 执行器来启动此修改。只需将此脚本粘贴到您在互联网上找到的 LUA 执行器中，然后执行它，修改就会启动！",
   },
 };
