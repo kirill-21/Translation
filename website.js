@@ -1900,6 +1900,21 @@ const translationElements = [
     },
   },
   {
+    name: "LuaScript", value: {
+      languageEn: "Script | Lua | Hack | Cheat",
+      languageRu: 'Script | Lua | Скрипт | Луа | Чит',
+      languageUa: 'Script | Lua | Скрипт | Луа | Чит',
+      languagePl: 'Skrypt | Lua | Hack | Cheat',
+      languageDe: 'Skript | Lua | Hack | Cheat',
+      languageIt: 'Script | Lua | Hack | Cheat',
+      languageTr: 'Script | Lua | Hack | Hile',
+      languageEs: 'Script | Lua | Hack | Cheat',
+      languageCn: '脚本 | Lua | 黑客 | 作弊器',
+      languagePt: "Script | Lua | Hack | Cheat",
+      languageAr: "برنامج نص برمجي | لوا | اختراق | غش",
+    },
+  },
+  {
     name: "CSSVersion", value: {
       languageEn: "font_other.css",
       languageRu: 'font_other.css',
