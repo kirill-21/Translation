@@ -219,9 +219,9 @@ const translationElements = [
   },
   {
     name: 'WantedToDownloadFirst', value: {
-      languageEn: 'Wanted to download free cheats or hacks for',
-      languageRu: 'Хотел скачать бесплатные читы на',
-      languageUa: 'Хотів завантажити безкоштовні чити для',
+      languageEn: 'Wanted to download free',
+      languageRu: 'Хотел скачать бесплатные',
+      languageUa: 'Хотів завантажити безкоштовні',
       languagePl: 'Chcesz pobrać darmowe cheaty lub hacki do',
       languageDe: "Wollten Sie kostenlose Cheats oder hacks für",
       languageIt: 'Volevo scaricare cheats o hacks gratuiti per',
@@ -234,9 +234,9 @@ const translationElements = [
   },
   {
     name: 'WantedToDownloadSecond', value: {
-      languageEn: "virus-free? All cheats and hacks are updated to the latest game version and have features such as wh, aim, skinchager, etc.",
-      languageRu: 'без вирусов? Тебе в ExLoader! Все читы обновлены под ласт версию игры и включают в себя вх, аим, скинчейджер и т.д',
-      languageUa: 'без вірусів? Тобі в ExLoader! Усі чити оновлені під ласт версію гри і включають в себе вх, аім, скінчейджер  і т.д.',
+      languageEn: "cheats virus-free? All hacks are updated to the latest game version and have features such as wh, aim, skinchager, etc.",
+      languageRu: 'читы без вирусов? Тебе в ExLoader! Все читы обновлены под ласт версию игры и включают в себя вх, аим, скинчейджер и т.д',
+      languageUa: 'чити без вірусів? Тобі в ExLoader! Усі чити оновлені під ласт версію гри і включають в себе вх, аім, скінчейджер  і т.д.',
       languagePl: 'wolny od wirusów? Wszystkie cheaty lub hacki są aktualizowane w wersji gry na flippera i obejmują vh, aim, skinchager itp.',
       languageDe: "herunterladen virenfrei? Alle Cheats oder hacks werden unter der Flipper-Version des Spiels aktualisiert und beinhalten wh, aim, skinchager, etc.",
       languageIt: 'virus-gratis? Tutti i cheats o hacks sono aggiornati all\'ultima versione del gioco e hanno funzionalità come wh, aim, skinchager, ecc.',
@@ -248,34 +248,18 @@ const translationElements = [
     },
   },
   {
-    name: 'LangTag', value: {
+    name: 'LangTagISO639', value: {
       languageEn: 'en',
       languageRu: 'ru',
-      languageUa: 'ua',
+      languageUa: 'uk',
       languagePl: 'pl',
       languageDe: "de",
       languageIt: 'it',
       languageTr: 'tr',
       languageEs: 'es',
-      languageCn: 'cn',
+      languageCn: 'zh',
       languagePt: "pt",
       languageAr: "ar",
-    },
-  },
-  {
-    name: 'LangTagForAbsoluteLinks', value: {
-      languageEn: 'en.',
-      // Only this one must be empty!
-      languageRu: '',
-      languageUa: 'ua.',
-      languagePl: 'pl.',
-      languageDe: "de.",
-      languageIt: 'it.',
-      languageTr: 'tr.',
-      languageEs: 'es.',
-      languageCn: 'cn.',
-      languagePt: "pt.",
-      languageAr: "ar.",
     },
   },
   {
@@ -407,21 +391,21 @@ const translationElements = [
   {
     name: 'CopyrightTranslation', value: {
       languageEn:
-        "2018-2024 © ExLoader. All rights reserved. Designed and developed by ",
+        "2018-2024 © ExLoader. All rights reserved. Designed and developed by",
       languageRu:
-        '2018-2024 © ExLoader. Все права защищены. Спроектировано и разработано студией ',
+        '2018-2024 © ExLoader. Все права защищены. Спроектировано и разработано студией',
       languageUa:
-        '2018-2024 © ExLoader. Всі права захищені. Спроектовано та розроблено студією ',
+        '2018-2024 © ExLoader. Всі права захищені. Спроектовано та розроблено студією',
       languagePl:
-        '2018-2024 © ExLoader. Wszystkie prawa zastrzeżone. Zaprojektowane i opracowane przez ',
+        '2018-2024 © ExLoader. Wszystkie prawa zastrzeżone. Zaprojektowane i opracowane przez',
       languageDe:
-        '2018-2024 © ExLoader. Alle Rechte vorbehalten. Entworfen und vom Studio entwickelt ',
+        '2018-2024 © ExLoader. Alle Rechte vorbehalten. Entworfen und vom Studio entwickelt',
       languageIt:
-        '2018-2024 © ExLoader. Tutti i diritti riservati. Progettato e sviluppato da ',
-      languageTr: '2018-2024 © ExLoader. Tüm hakları saklıdır. Stüdyo tarafından tasarlanmış ve geliştirilmiştir ',
-      languageEs: '2018-2024 © ExLoader. Todos los derechos reservados. Diseñado y desarrollado por el estudio ',
-      languageCn: '2018-2024 © ExLoader。保留所有权利。由工作室设计和开发 ',
-      languagePt: "2018-2024 © ExLoader. Todos os direitos reservados. Projetado e desenvolvido por ",
+        '2018-2024 © ExLoader. Tutti i diritti riservati. Progettato e sviluppato da',
+      languageTr: '2018-2024 © ExLoader. Tüm hakları saklıdır. Stüdyo tarafından tasarlanmış ve geliştirilmiştir',
+      languageEs: '2018-2024 © ExLoader. Todos los derechos reservados. Diseñado y desarrollado por el estudio',
+      languageCn: '2018-2024 © ExLoader。保留所有权利。由工作室设计和开发',
+      languagePt: "2018-2024 © ExLoader. Todos os direitos reservados. Projetado e desenvolvido por",
       languageAr: "2018-2024 © إكس لودر. جميع الحقوق محفوظة. تصميم وتطوير ",
     },
   },
@@ -1945,6 +1929,36 @@ const translationElements = [
     },
   },
   {
+    name: "IsFree", value: {
+      languageEn: "is free",
+      languageRu: 'это бесплатный',
+      languageUa: 'це безкоштовний',
+      languagePl: 'jest darmowy',
+      languageDe: 'es ist kostenlos',
+      languageIt: 'è gratuito',
+      languageTr: 'bedava',
+      languageEs: 'es gratis',
+      languageCn: '免费',
+      languagePt: "é gratuito",
+      languageAr: "مجاناً",
+    },
+  },
+  {
+    name: "AvailableVersions", value: {
+      languageEn: "Available versions for this mod: ",
+      languageRu: 'Доступные версии для этого мода: ',
+      languageUa: 'Доступні версії для цього мода: ',
+      languagePl: 'Dostępne wersje dla tego moda: ',
+      languageDe: 'Verfügbare Versionen für diesen Mod: ',
+      languageIt: 'Versioni disponibili per questa mod: ',
+      languageTr: 'Bu mod için mevcut versiyonlar: ',
+      languageEs: 'Versiones disponibles para este mod: ',
+      languageCn: '此模式的可用版本： ',
+      languagePt: "Versões disponíveis para esse mod: ",
+      languageAr: "الإصدارات المتوفرة لهذا التعديل: ",
+    },
+  },
+  {
     name: "CSSVersion", value: {
       languageEn: "font_other.css",
       languageRu: 'font_other.css',
@@ -1975,18 +1989,18 @@ const translationElements = [
     },
   },
   {
-    name: 'PlaceAnAdDescription', value: {
-      languageEn: 'Place an advert on our website, app or any of our other resources!',
-      languageRu: 'Разместить рекламу у нас на сайте, в приложении или же на любом другом нашем ресурсе!',
-      languageUa: 'Розмістити рекламу у нас на сайті, в додатку або ж на будь-якому іншому нашому ресурсі!',
-      languagePl: 'Umieść reklamę na naszej stronie internetowej, w aplikacji lub innych naszych zasobach!',
-      languageDe: 'Schalten Sie eine Anzeige auf unserer Website, App oder einer unserer anderen Ressourcen!',
-      languageIt: 'Inserite un annuncio sul nostro sito web, sulla nostra app o su qualsiasi altra risorsa!',
-      languageTr: 'Web sitemize, uygulamamıza veya diğer kaynaklarımızdan herhangi birine reklam verin!',
-      languageEs: 'Publique un anuncio en nuestro sitio web, aplicación o cualquiera de nuestros otros recursos.',
-      languageCn: '在我们的网站、应用程序或任何其他资源上发布广告!',
-      languagePt: "Coloque um anúncio em nosso site, aplicativo ou em qualquer um de nossos outros recursos!",
-      languageAr: "ضع إعلاناً على موقعنا الإلكتروني أو aتطبيقنا أو أي من مواردنا الأخرى!",
+    name: "PlaceAnAdDescription", value: {
+      "languageEn": "Place an advert on our website, app, or any of our other resources! Reach thousands of potential customers and boost your visibility.",
+      "languageRu": "Разместить рекламу у нас на сайте, в приложении или же на любом другом нашем ресурсе! Привлекайте больше клиентов и увеличивайте продажи.",
+      "languageUa": "Розмістити рекламу у нас на сайті, в додатку або ж на будь-якому іншому нашому ресурсі! Залучайте нових клієнтів та підвищуйте впізнаваність бренду.",
+      "languagePl": "Umieść reklamę na naszej stronie internetowej, w aplikacji lub innych naszych zasobach! Dotrzyj do nowych klientów i zwiększ swoją sprzedaż.",
+      "languageDe": "Schalten Sie eine Anzeige auf unserer Website, App oder einer unserer anderen Ressourcen! Erreichen Sie mehr Kunden und steigern Sie Ihren Umsatz.",
+      "languageIt": "Inserite un annuncio sul nostro sito web, sulla nostra app o su qualsiasi altra risorsa! Aumenta la tua visibilità e raggiungi nuovi clienti.",
+      "languageTr": "Web sitemize, uygulamamıza veya diğer kaynaklarımızdan herhangi birine reklam verin! Daha fazla müşteri çekin ve marka bilinirliğinizi artırın.",
+      "languageEs": "Publique un anuncio en nuestro sitio web, aplicación o cualquiera de nuestros otros recursos. ¡Atraiga más clientes y aumente sus ventas!",
+      "languageCn": "在我们的网站、应用程序或任何其他资源上发布广告！吸引更多客户，提高您的品牌知名度。",
+      "languagePt": "Coloque um anúncio em nosso site, aplicativo ou em qualquer um de nossos outros recursos! Aumente sua visibilidade e atraia mais clientes.",
+      "languageAr": "ضع إعلاناً على موقعنا الإلكتروني أو تطبيقنا أو أي من مواردنا الأخرى! جذب المزيد من العملاء وزيادة ظهور علامتك التجارية."
     },
   },
   {
