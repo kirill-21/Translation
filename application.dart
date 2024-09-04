@@ -5785,15 +5785,15 @@ const Map<String, Map<String, String>> localeItems = {
   },
   'ProfanityPresent': {
     languageEn:
-        "This review contains profanity and is not informative. Click to read",
+        "This review contains profanity and/or is not informative. Click to read",
     languageRu:
-        'Этот комментарий содержит нецензурную брань и не является информативным. Нажми, что прочитать',
+        'Этот комментарий содержит нецензурную брань и/или не является информативным. Нажми, что прочитать',
     languageUa:
-        'Цей коментар містить нецензурну лайку і не є інформативним. Натисни, що прочитати',
+        'Цей коментар містить нецензурну лайку і/або не є інформативним. Натисни, що прочитати',
     languagePl:
-        'Ten komentarz zawiera wulgaryzmy i nie ma charakteru informacyjnego. Kliknij, aby przeczytać',
+        'Ten komentarz zawiera wulgaryzmy i/lub nie ma charakteru informacyjnego. Kliknij, aby przeczytać',
     languageDe:
-        "Dieser Kommentar enthält Schimpfwörter und ist nicht informativ. Zum Lesen klicken",
+        "Dieser Kommentar enthält Schimpfwörter und/oder ist nicht informativ. Zum Lesen klicken",
     languageIt:
         'Questo commento contiene un linguaggio volgare e non è informativo. Clicca per leggere',
     languageTr:
@@ -14579,5 +14579,71 @@ La reputación se da y se quita por la participación en la vida social de la ap
         "Desafortunadamente, ExLoader no soporta actualmente el lanzamiento de modificaciones LUA por sí mismo, por lo que necesitarás cualquier Ejecutor LUA que funcione para lanzar esta modificación. Sólo tienes que pegar este script en un Ejecutor LUA que hayas encontrado en Internet, ejecutarlo, ¡y la modificación se lanzará!",
     languageCn:
         "遗憾的是，ExLoader 目前并不支持自行启动 LUA 修改，因此您需要任何可用的 LUA 执行器来启动此修改。只需将此脚本粘贴到您在互联网上找到的 LUA 执行器中，然后执行它，修改就会启动！",
+  },
+  "RecommendedLuaExecutorLevel": {
+    languageEn: "Recommended LUA Executor level",
+    languageRu: "Рекомендуемый уровень LUA Executor'a",
+    languageUa: "Рекомендований рівень LUA Executor'a",
+    languagePl: "Zalecany poziom LUA Executor",
+    languageDe: "Empfohlener LUA-Executor-Level",
+    languageIt: "Livello di Esecutore LUA consigliato",
+    languageTr: "Önerilen LUA Yürütücü seviyesi",
+    languageEs: "Nivel de ejecutor de LUA recomendado",
+    languageCn: "建议的 LUA 执行器级别",
+  },
+  'ResetProfileHiding': {
+    languageEn: "Undo profile hiding",
+    languageRu: "Отменить скрытие профиля",
+    languageUa: "Скасувати приховування профілю",
+    languagePl: "Cofnij ukrywanie profilu",
+    languageDe: "Profilausblendung rückgängig machen",
+    languageIt: "Annullare l'occultamento del profilo",
+    languageTr: "Profil gizlemeyi geri al",
+    languageEs: "Deshacer la ocultación del perfil",
+    languageCn: "撤销资料隐藏",
+  },
+  'ReadMoreDetailedData': {
+    languageEn: "Read more information about this modification",
+    languageRu: "Прочитать более подробную информацию о модификации",
+    languageUa: "Прочитати більш детальну інформацію про модифікацію",
+    languagePl: "Więcej informacji na temat modyfikacji",
+    languageDe: "Lesen Sie weitere Informationen über die Änderung",
+    languageIt: "Ulteriori informazioni sulla modifica",
+    languageTr: "Değişiklik hakkında daha fazla bilgi edinin",
+    languageEs: "Más información sobre la modificación",
+    languageCn: "了解有关修改的更多信息",
+  },
+  'Features': {
+    languageEn: "Features",
+    languageRu: "Функционал",
+    languageUa: "Функціонал",
+    languagePl: "Cechy",
+    languageDe: "Eigenschaften",
+    languageIt: "Caratteristiche",
+    languageTr: "Özellikler",
+    languageEs: "Características",
+    languageCn: "特点",
+  },
+  'WhereToInstallCfg': {
+    languageEn: "Configs installation path",
+    languageRu: 'Путь установки конфигов',
+    languageUa: 'Шлях встановлення конфігів',
+    languagePl: 'Ścieżka instalacji konfiguracji',
+    languageDe: "Installationspfad der Konfiguration",
+    languageIt: 'Percorso di installazione per le Config',
+    languageTr: 'Kurulum yolunu yapılandırır',
+    languageEs: 'Configura la ubicacion de instalación',
+    languageCn: '配置安装路径',
+  },
+  'Etc': {
+    languageEn: "etc.",
+    languageRu: "и т.д.",
+    languageUa: "і т.д.",
+    languagePl: "itp.",
+    languageDe: "usw.",
+    languageIt: "ecc.",
+    languageTr: "vb.",
+    languageEs: "etc.",
+    languageCn: "等等",
   },
 };
